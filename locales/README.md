@@ -10,6 +10,7 @@ section of the game's language data.
 locales/
   en/   English (original game text) — base language of the port
   ru/   Russian (original game text)
+  uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
   <code>/  your translation, same file names as en/
 ```
 

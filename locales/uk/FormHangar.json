@@ -1,0 +1,38 @@
+{
+  "EngineStatus": {
+    "AverageDuration": "Engine - Worn out",
+    "CanNotUse": "Engine - Not functional",
+    "NeedRepair": "Engine - Damaged",
+    "Non": "Engine - Not installed",
+    "Ok": "Engine - OK",
+    "SmallDuration": "Engine - Critical condition"
+  },
+  "FuelTankStatus": {
+    "AverageDuration": "Fuel tank - Worn out",
+    "CanNotUse": "Fuel tank - Not functional",
+    "Cost": "Refuel - <Money> cr",
+    "Empty": "Fuel tank - Empty",
+    "NeedFuel": "Fuel tank - Not full",
+    "NeedRepair": "Fuel tank - Leaking",
+    "Non": "Fuel tank - Not installed",
+    "NotMoney": "Refueling cost: <Money> cr",
+    "Ok": "Fuel tank - OK",
+    "SmallDuration": "Fuel tank - Critical condition"
+  },
+  "HullStatus": {
+    "Cost": "Repair hull: <Money> cr",
+    "NeedRepair": "Hull - Damaged",
+    "NotMoney": "Hull repair cost: <Money> cr",
+    "Ok": "Hull - OK"
+  },
+  "Prison": "(arrested)",
+  "TakeOff": "Take off from planet <CurPlanet>",
+  "TestSystem": "Testing system:",
+  "TotalStatus": {
+    "Bad": "Flight impossible",
+    "Good": "Ship ready for takeoff",
+    "Nearly": "Ship <color=255,0,0>almost</color> ready for takeoff",
+    "RuinInHyperSpace": "Station in hyperspace",
+    "ShipOvercharging": "Ship overloaded"
+  }
+}

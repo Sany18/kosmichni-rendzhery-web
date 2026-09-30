@@ -1,0 +1,1532 @@
+{
+  "BK": {
+    "AddDebtContinue": "Hold on a minute... There's a red \"CR\" next to your name in the computer. This lamentable fact means that you engage in fraudulent credit evasion! We demand that you return our money immediately! Until then we forbid you from conducting any business on this planet.",
+    "AddDebtNot": "We are prepared to offer you a top loan.",
+    "AddDebtYes": "By the way, your loan amount equals <Money> cr. And it must be repaid by <Date>.",
+    "DebtNoAccess": "We demand that you return our money immediately! Until then we forbid you from conducting any business on this planet.",
+    "DebtNoPenalty": "<Player>, your credit history leaves much to be desired. What's more, there's even a recording in our database of a ship suspiciously resembling yours blowing up a center from our network! We're sorry, but we cannot give you a loan until <Date>, when all the archive data is set to be annulled.",
+    "DebtNoWar": "What loan could you possibly mean, <Player>?! The system is under attack, all employees are subject to emergency evacuation. Loan disbursement has been put on hold!",
+    "Deposit": {
+      "BK": [
+        "Excellent, <Player>! All rangers are free to open a deposit account with us! You can deposit a sum no less than <clr>1,000<clrEnd> cr into your account and enjoy <Percent>% annual interest rate with monthly capitalization. Your money can be withdrawn at any time, but no earlier than <clr>30<clrEnd> days after opening the deposit account. We also have periodic prize raffles for depositors who keep their accounts open for over one year.",
+        "Finally, when taking out a loan, interest accrual to the deposit account is frozen until the loan is fully repaid.",
+        "How much would you like to deposit?"
+      ],
+      "BKAfterNo": "If you don't need it, why bother asking all these questions? Feel free to fly to other business centers, maybe their terms will suit you better. But remember that here at <BK> we have the best interest rates in the universe!",
+      "BKAfterOk": "Excellent, <Player>! You have opened a deposit account with a balance of <Money> cr at <Percent>% annual interest.",
+      "PlayerNo": "I don't need a deposit account",
+      "PlayerOkAveMoney": "Deposit <AveMoney> into your account",
+      "PlayerOkMaxMoney": "Deposit <MaxMoney> into your account",
+      "PlayerOkMinMoney": "Deposit <MinMoney> into your account",
+      "PlayerSend": "Open a deposit account"
+    },
+    "Greeting": "Welcome to the <BK> business center, Ranger <Player>.<br>Whether you're here to take out a loan, draft a will, sponsor new weapon technologies or conduct market research, you've come to the right place.",
+    "Investment": {
+      "BK": [
+        "We coordinate a range of various economic programs. It could be anything from feeding starving children to building a new star fleet. By becoming a patron you can make life easier for regular folk or support our armed forces -- in a word, you'll be the public's darling.",
+        "Here are the programs currently available:",
+        "<BKInvestment>",
+        "---",
+        "You can choose whichever program is closest to your heart."
+      ],
+      "BKAfterInvestment": "<InvestmentText>",
+      "BKAfterPlayerNo": [
+        "What do you mean, that's enough investments? For shame, <Player>! Investments are the backbone of this world. Where would you be without us and our subsidies?",
+        "Think, maybe you have some spare cash? And even if you don't, consider taking out a loan to feed the hungry!...",
+        "Ahem, I got carried away, my apologies. This decision is yours and yours alone. After all, we are not a charity either -- this is business. And you are an example for us, Ranger <Player>."
+      ],
+      "BKInvestment": [
+        "---",
+        "<InvestmentFullName>"
+      ],
+      "PlayerInvestment": "<InvestmentShortName>",
+      "PlayerNo": "Thanks, maybe some other time",
+      "PlayerSend": "Invest in projects"
+    },
+    "Modern": {
+      "AfterOk": "Bank safety and stability lie at the core of a successful economy. You invested wisely, <Player>."
+    },
+    "Policy": {
+      "BK": "You've come to the right place. We can offer you a medical insurance policy -- an absolute must for any individual. At a mere <Money> cr, the policy grants the ability to double your life compensation and is issued for a period of <Year> years. At the term's completion, the policy expires and must be reissued. After all, you will have become older by then, thus increasing insurance cost. And we cannot afford to throw away money.",
+      "BKAfterAsk": [
+        "This means that, in the event of your death, you will receive double the insurance payout. Or rather your family will receive it.",
+        "And if you don't have any relatives or if they refuse the compensation, we will use the money to create a Ranger <Player> Incentive Fund, providing grants to rookie rangers. This way, you will continue your contribution to the noble ranger cause even after your death.",
+        "However, you're still alive, and this fact mustn't be overlooked! We care about our customers' health, which is why ensuring your life will further grant you a <clr>50%<clrEnd> discount on services at medical centers."
+      ],
+      "BKAfterNo": [
+        "What do you mean, <Player>? If you don't have the money, then borrow it.",
+        "It's <CurYear>, you can die without insurance! Listen to your inner voice. How can you leave your loved ones without proper compensation?!!"
+      ],
+      "BKAfterOk": [
+        "Excellent, <Player>! Now you are insured like never before.",
+        "Don't forget to check back in <Year> years to extend your policy."
+      ],
+      "PlayerAsk": "What is life compensation?",
+      "PlayerNo": "Thanks, but I'll pass",
+      "PlayerOk": "Purchase life insurance",
+      "PlayerSend": "Life insurance"
+    },
+    "RetDebt": {
+      "BK": "We are glad to get our money back. Clearly, you are an honest ranger, <Player>. We look forward to future collaboration.",
+      "PlayerSend": "Repay a loan of <Money> cr."
+    },
+    "RetDeposit": {
+      "BK": "The deposit account is closed. We look forward to future collaboration. Be well.",
+      "PlayerSend": "Withdraw <Money> cr from the deposit account",
+      "War": "What are you talking about, <Player>?! The system is under attack, all employees are subject to emergency evacuation. And all accounts are frozen!"
+    },
+    "TakeDebt": {
+      "BK": [
+        "Excellent, <Player>! We have a special interest-free loan program for rangers! Many merchants dream of becoming rangers just so they could take advantage of our loans, especially considering the modest fee we charge for operational expenses. Now let's get down to business.",
+        "We have three types of loans available: time loans, regular loans and small loans.",
+        "<br>As of today, our terms are as follows:",
+        "----------------------------------",
+        "1. Time loans in the amount of <MaxMoney> cr are issued for <MinDay> days. The commission on time loans is <MaxMoneyAdd> cr.",
+        "----------------------------------",
+        "2. Regular loans in the amount of <AveMoney> cr are issued for <AveDay> days. The commission on regular loans is <AveMoneyAdd> cr.",
+        "----------------------------------",
+        "3. Small loans in the amount of <MinMoney> cr are issued for <MaxDay> days. The commission on small loans is only <MinMoneyAdd> cr.",
+        "----------------------------------<br>",
+        "Those are terrific terms, aren't they, <Player>?!!"
+      ],
+      "BKAfterNo": "If you don't need it, why bother asking all these questions? Feel free to fly to other business centers, maybe their terms will suit you better. But remember that here at <BK> we have the best interest rates in the universe!",
+      "BKAfterOk": [
+        "Excellent, <Player>! We have transferred a sum of <SendMoney> cr to your account. Your debt, inclusive of our commission, is now <DebtMoney> cr.",
+        "We hope that you can repay it by <Date> at any of our business centers; otherwise we will be forced to charge late fees.",
+        "By the way, we recommend that you spend this money at our equipment store. Our prices are slightly above average, but we also have the best selection in the Galaxy!"
+      ],
+      "PlayerNo": "I don't need to take out a loan",
+      "PlayerOkAveMoney": "Give me a regular loan",
+      "PlayerOkMaxMoney": "I want a large time loan",
+      "PlayerOkMinMoney": "I'll settle for a small loan",
+      "PlayerSend": "Take out a loan"
+    },
+    "Trade": {
+      "BK": [
+        "You've come to the right place. Here at <BK> we offer a unique service that allows our clients to optimize their business. Some people out there think that business is about buying low and selling high. In reality, business is all about information, and that's where we come in!",
+        "That said, we can offer you the best trade options for both local (<NeaMoney> cr) and remote (<FarMoney> cr) areas of space, including a <Percent>% discount calculated from your business rating.",
+        "Our figures take into account your ship's parameters, the distance between planets, fuel expenditure and your reputation with the planets' governments.",
+        "So, which will it be?"
+      ],
+      "BKAfterNo": "Glad to be of help, <Player>. Perhaps you're interested in some of our other services?",
+      "BKAfterOk": [
+        "Interstellar database analysis in progress. Please wait...",
+        "Optimal trade routes found.",
+        "<BKFindTradePath>",
+        "-----------------------",
+        "Total available options: <Count>. The data has been uploaded to your onboard computer.",
+        "We hope that this information will help you reap considerable benefits in your business! Please do come back to use our services in the future."
+      ],
+      "BKAfterOkFar": "Trade options in remote space.",
+      "BKAfterOkFarPanel": "Optimal trade options in far space as of <Date>. Information provided by the <BK> business center.",
+      "BKAfterOkNea": "Trade options in local space.",
+      "BKAfterOkNeaPanel": "Optimal trade options in local space as of <Date>. Information provided by the <BK> business center.",
+      "BKFindTradePath": [
+        "-----------------------",
+        "<Num>. <Goods>",
+        "Planet <FromPlanet> (<FromStar> system).",
+        "Purchase price: <Buy> cr, quantity <Cnt>.",
+        "Planet <ToPlanet> (<ToStar> system).",
+        "Sale price: <Sale> cr."
+      ],
+      "BKNotVariant": [
+        "Interstellar database analysis in progress. Please wait...",
+        "...",
+        "We are forced to refund your money, as we were unable to find any options for your specified configuration.",
+        "Please accept our apologies."
+      ],
+      "PlayerFar": "Find me options for remote space (<FarMoney> cr).",
+      "PlayerNea": "I'm interested in trade options nearest to me (<NeaMoney> cr).",
+      "PlayerNo": "Thanks, maybe some other time",
+      "PlayerSend": "Order a market analysis"
+    }
+  },
+  "Bridge": {
+    "BridgeBHAsk": "Create black hole (<Cost> en.)",
+    "BridgeBHCancel": "Cancel",
+    "BridgeBHChooseDestination": "Select destination system (Will consume <Cost> en.)",
+    "BridgeBHHyperLock": "Cannot open black hole, hyper is blocked.",
+    "BridgeBHToStarMap": "Go to map",
+    "BridgeExit": "Return to flight",
+    "BridgeGreeting": [
+      "Greetings, captain. Reporting:",
+      "--------------------------------------------------------",
+      "Reactor's energy is <Energy>/<EnergyMax>.",
+      "--------------------------------------------------------",
+      "Shields are operating in <ShieldMode> mode.",
+      "--------------------------------------------------------",
+      "Ready to launch: <Count> flight of fighters",
+      "Next target: <Ship>",
+      "Strategy: flights are attacking <Strategy>",
+      "Duration of launches: <Duration> days.",
+      "Energy consumption per departure: <DeployCost> en."
+    ],
+    "BridgeHelpAnswer1": "<clr>Energy<clrEnd> -- the primary resource manufactured by the ship's onboard reactor. Is is used to generate <clr>black holes<clrEnd> and launch <clr>fighters<clrEnd>, as well as to change the operating modes of <clr>shields<clrEnd>. The pilot's daily energy output is determined by the their <clr>technology<clrEnd> skill and the <clrEnd>hull condition<clrEnd> of their ship: the less damaged the hull, the more energy is manufactured. Special systems cannot be utilized if energy levels are insufficient, in which case the pilot would have to wait until the required amount is accumulated.",
+    "BridgeHelpAnswer2": "Creating a black hole allows the ship to instantly teleport to any system open on the Galaxy map. This, however, is quite an expensive process, consuming <BHCost> units of energy. The procedure to create a black hole can be started from the ship's bridge. One portal is created in the system the ship is currently in, while the other is selected from the Galaxy map. Remember, captain, that the onboard generator is capable of supporting the hole's stability for only several days after its creation, so don't delay your travel plans unnecessarily.",
+    "BridgeHelpAnswer3": "When set to <clr>standard<clrEnd> mode of operation, the shield generator absorbs a percentage of incoming damage equal to its power. When set to <clr>impulse<clrEnd> mode, its mechanics change; now, with a probability equal to its power it can <clr>fully absorb<clrEnd> incoming damage, and when it doesn't, it will absorb damage equal to <clr>half<clrEnd> of its power. What is more, impulse mode in tandem with a <clr>polarizer<clrEnd> gives the shields the ability to repel a portion of fully absorbed damage back at the enemy. Switching between modes costs <SwitchCost> energy and is done from the bridge, so you're advised to choose the right mode for a particular situation in advance.",
+    "BridgeHelpAnswer4": "Small unmanned fighters released by your ship are a formidable weapon. They can attack any hostile ship within their range. Launch modes are managed from the bridge, and while in space the fighters can be aimed at any ship by pressing <clr>N<clrEnd>. A single target is attacked by a <clr>flight<clrEnd> of three vehicles. Each vehicle attacks the enemy once per turn, with the damage calculated from the pilot's <clr>technology skill<clrEnd>. Thanks to their small size the fighters can penetrate the enemy's defensive field, while their laser guns' special radiation bypasses the target's hull armor. However, all this goodness comes at a price, consuming energy determined by launch duration. Launch duration and priority list of attacked targets are set from the bridge. If the target dies or becomes unavailable for attack before the indicated duration ends, the fighters automatically return to the ship.",
+    "BridgeHelpAnswer5": "I am the personification of <clr>Ni-Da<clrEnd>, the captain of this ship's prototype from the past, as reproduced by the onboard computer. To make it easier on the user, the image on the bridge was designed to be human, so as to be familiar to all races, for ascertaining the exact appearance of the original design's creators is not possible. That said, judging by the workplaces' ergonomics and dimensions, they appear to be quite similar to those of human beings. If you have any questions about the ship's systems' functions, please feel free to ask me for clarification.",
+    "BridgeHelpAsk": "Tell me about the ship's special systems",
+    "BridgeHelpCancel": "It's all clear",
+    "BridgeHelpChoose": "Captain, our ship is fitted with a reactor which manufactures <clr>energy<clrEnd> and can generate a <clr>black hole<clrEnd> for an instant jump to another system. It can attack the enemy with unmanned <clr>fighters<clrEnd>, as well as change the operating mode of its <clr>shields<clrEnd>. What would you like to know more about?",
+    "BridgeHelpMoreQuestions": "I have more questions...",
+    "BridgeHelpNoQuestions": "I have no further questions",
+    "BridgeHelpQuestion1": "What is energy and how is it used?",
+    "BridgeHelpQuestion2": "How do I create a black hole and what do I do with it afterward?",
+    "BridgeHelpQuestion3": "What are the standard and impulse shield operating modes?",
+    "BridgeHelpQuestion4": "How do I use fighters?",
+    "BridgeHelpQuestion5": "Who are you, anyway? Why do you appear as a hologram?",
+    "BridgeImpulseShieldsOff": "Switch shields to standard mode (<SwitchCost> en.)",
+    "BridgeImpulseShieldsOn": "Switch shields to impulse mode (<SwitchCost> en.)",
+    "BridgeImpulseShieldsStatusOff": "standard",
+    "BridgeImpulseShieldsStatusOn": "impulse",
+    "BridgeInterceptorsAsk": "Managing fighters",
+    "BridgeInterceptorsCallOffAll": "Recall all flights",
+    "BridgeInterceptorsCallOffAsk": "Recall a flight",
+    "BridgeInterceptorsCallOffCancel": "Cancel",
+    "BridgeInterceptorsCallOffChoose": [
+      "<Count> flights currently launched. Ships being attacked:",
+      "<ShipList>",
+      "Select the flight to recall."
+    ],
+    "BridgeInterceptorsCallOffShip": "Recall the flight attacking <Ship>",
+    "BridgeInterceptorsChooseAction": [
+      "---Managing fighters---",
+      "Launched: <Count> flights",
+      "Next target: <Ship>",
+      "Strategy: flights are attacking <Strategy>",
+      "Duration of launches: <Duration> days.",
+      "Energy consumption per departure: <DeployCost> en.",
+      "Choose an action"
+    ],
+    "BridgeInterceptorsDone": "Done managing fighters",
+    "BridgeInterceptorsDurationChangeAsk": "Change launch duration",
+    "BridgeInterceptorsDurationChoose": "Current duration -- <Duration>, energy consumption per launch -- <DeployCost>. Maximum duration -- <DurationMax>, minimum duration -- <DurationMin>.",
+    "BridgeInterceptorsDurationDone": "Done",
+    "BridgeInterceptorsDurationLess": "Decrease duration",
+    "BridgeInterceptorsDurationMore": "Increase duration",
+    "BridgeInterceptorsNextTargetMissing": "missing (no available enemy ships)",
+    "BridgeInterceptorsNextTargetNoEnergy": "missing (not enough energy for an attack)",
+    "BridgeInterceptorsNextTargetNotNormalSpace": "missing (launching flights is only possible in space)",
+    "BridgeInterceptorsNextTargetOff": "missing (target not specified)",
+    "BridgeInterceptorsTargetCancel": "Cancel",
+    "BridgeInterceptorsTargetCancelManual": "Cancel target selection",
+    "BridgeInterceptorsTargetChangeAsk": "Set target for attack",
+    "BridgeInterceptorsTargetChoose": "Select a target",
+    "BridgeInterceptorsTargetNoTargets": "No available targets",
+    "BridgeInterceptorsTargetShip": "<Ship>",
+    "BridgeInterceptorsTargeting": "Automatic targeting settings",
+    "BridgeInterceptorsTargetingAttack": "Attack <StrategyName>",
+    "BridgeInterceptorsTargetingCancel": "Cancel",
+    "BridgeInterceptorsTargetingChoose": "Select which opponents to attack first",
+    "BridgeInterceptorsTargetingStrategyDefMax": "opponents with the best defense",
+    "BridgeInterceptorsTargetingStrategyDistMax": "opponents that are furthest away",
+    "BridgeInterceptorsTargetingStrategyDistMin": "opponents that are closest",
+    "BridgeInterceptorsTargetingStrategyHPMax": "opponents with the highest durability",
+    "BridgeInterceptorsTargetingStrategyHPMin": "opponents with the lowest durability",
+    "BridgeInterceptorsTargetingStrategyManual": "by command only",
+    "BridgeInterceptorsTargetingStrategyStrMax": "strongest opponents"
+  },
+  "CB": {
+    "ConstructPirate": {
+      "AddDefGenerator": "Add shield generator",
+      "AddRadar": "Add radar",
+      "AddRepairRobot": "Add droid",
+      "AddScaner": "Add scanner",
+      "AddWeapon": "Add weapons",
+      "AddedEq": "Added: <PrevItem>",
+      "AddedNothing": "Nothing was added",
+      "Cancelled": "Alright, we're cancelling this. Take in mind, our guys are pretty tired from hauling all this crap, and it's practically everywhere, so watch your step.",
+      "CompletionText": [
+        "Ship is succesfully built:",
+        "<FullName>",
+        "Pilot will be your partner for <CntMonth> months"
+      ],
+      "CompletionTextNotPartner": [
+        "Ship is succesfully built:",
+        "<FullName>"
+      ],
+      "InHold": "<ItemName> at hold, size is <Size>, <Stats>",
+      "InShop": "<ItemName> in stock, size is <Size>, <Stats>, cost is <Cost> cr.",
+      "InStorage": "<ItemName> in stock, size is <Size>, <Stats>",
+      "ItemList": [
+        "Now installed:",
+        "-----------------------",
+        "<ItemList>-----------------------",
+        "Total cost is <TotalCost>, <FreeSpace> free space left."
+      ],
+      "NotAvailable": "There's no slot available",
+      "NotInstalled": "None",
+      "PickCargoHook": "Choose a cargo hook",
+      "PickDefGenerator": "Choose a shield generator",
+      "PickEngine": "Chose an engine",
+      "PickFuelTanks": "Chose a fuel tank",
+      "PickHull": "Okay, let's begin. First of all, you gotta choose a hull.",
+      "PickRadar": "Choose a radar",
+      "PickRepairRobot": "Choose a droid",
+      "PickScaner": "Choose a scanner",
+      "PickWeapon": "Chose a weapon",
+      "PlayerSend": "I'd like to build a ship for one of your pilots",
+      "ReadyCanAddMore": "Okay, this ship is already space-worthy, but you can add some additional equipment, if you want.",
+      "ReadyCanNotAddMore": "There's nothing more to add for this configuration. Let's build?",
+      "StatsCargoHook": "range <Radius>, can haul up to <PickUpSize>",
+      "StatsDefGenerator": "shields <Percent>%",
+      "StatsEngine": "speed <Speed>, jump <Parsec>",
+      "StatsFuelTanks": "capacity: <Capacity>",
+      "StatsHull": "armor <HitProtect>, damage taken E:<FragilityE>% C:<FragilityS>% M:<FragilityM>%",
+      "StatsRadar": "radius <Radius>",
+      "StatsRepairRobot": "can repair up to <RecoverHitPoints>",
+      "StatsScaner": "power <Percent>",
+      "StatsSeries": "<SeriesName> series",
+      "StatsWeapon": "range <Radius>, damage <MinDamage>-<MaxDamage>",
+      "WarningConfirm": "Yep, that'll do",
+      "WarningPirateCnt": "<Player>, don't forget, you can build a new ship, but it's pilot won't become your partner. Your current pirate rating is so low, so it'll be an embarrassment for other pirates out there to join you. You should also know, that even with rating big enough, you can hire only <clr>four<clrEnd> other pirates. You still want to continue?",
+      "cancel": "I've changed my mind, leave the change!",
+      "confirm": "I'm sure, start the assembly",
+      "skip": "I can live without it, go on.",
+      "weaponN": "Gun N"
+    },
+    "GenericRefuseBattle": "<Player>, are you out of your mind, busy playing plasmo-chess? How can you be busy with this, when we're under attack? To the hangar, shotgun, we should help our bros!",
+    "GenericRefuseHaveOtherPlans": "Sorry, we have other plans.",
+    "GenericRefuseNeedLicense": "Do you know, <Player>, that it's difficult, let alone expensive? You should bust your ass in the name of the piracy, then we'll help you. So buy the license already, and piss off, on your way, jog on, bon voyage, let's rob some weenies.",
+    "GenericRefuseNeedPoints": "Do you know, <Player>, that it's difficult, let alone expensive? You should bust your ass in the name of the piracy, then we'll help you.",
+    "GenericRefuseNeedRank": "It's too early for you, your rank is not high enough. Come back when your rank will be at least <PirateRank>.",
+    "GreetingFlyToStar": "This is <CB> dominion. We're going to jump to the system of <FlyToStar>. If your plans does not include that, off you go to the hangar, and take off.",
+    "GreetingHyperspace": "This is <CB> dominion. Right now we're in hyperspace, so you can't leave the station, even if you're really want to. <Player>, you can sleep one off, or have fun at the bar, just don't shoot our nuclear reactor, if it'll go down to shooting. And be ready to rumble once we're arrive!",
+    "GreetingNormal": "<Player>, welcome to the <CB> dominion. That's a heaven for every sophisticated pirate: you can improve your tech here, order a pirate raid, and back construction of the new ships for our pilots. Our portal generator can create a hyper-tunnel, so we can reach the farthest corners of the galaxy, but it's only for those good fellows who rob and blow up civilians on a regular basis, and pays their cut to our pot. Long story short, we can provide anything to anyone for becoming the baddest pirate the galaxy has ever known.",
+    "GreetingPlayerFlyToStar": "This is <CB> dominion. We're ready to sent you, <Player>, to the system of <FlyToStar>. Just go to the hangar and take off, portal should be ready any second now.",
+    "HyperJumpVideo": "data\\hyper2.vdo,Hyper2",
+    "Improvement": {
+      "CBAfterOk": "Okay, we're done here. Would you like to improve something else?",
+      "CBAfterRepeatNo": "Suit yourself. We'd like if you could pay us for another shi... we meant, work, <Player>.",
+      "CBAnswer": [
+        "So, if you want to improve something, <Player>, see for yourself how we will do that.",
+        "Since we can't tune our tools precisely at all, our results of improvement are mostly <clr>random<clrEnd>, depending on how we're smashing your equipment with our nano-hammer. I mean, results are dependent on hardware itself, not on force of the blow. That's why we don't care when you'll bring, say, an engine - a week from now, or right away, it won't matter. But if it'll be a different piece of equipment - that's gonna be a whole new story."
+      ],
+      "CBAnswerNothing": "If you don't want - don't do it, just don't wonder, why half of dials are wrenched away. Our guys, on the other hand, usually run a complex diagnostic procedure - I mean, they rip off all the dials and buttons they can reach.",
+      "CBNeedCostImprovement": "The standard price for the <FullName> improvement is <Money> cr. But since you have our discount of <Discount>% the final sum is only <MoneyDiscount> cr, the rest is on the house.",
+      "CBNeedCostImprovementNodes": "The standard price for the <FullName> improvements is <Money> cr and <Nodes> nodes. But since you have our discount of <Discount>% the final sum is only <MoneyDiscount> cr, plus <NodesDiscount> nodes.",
+      "CBSeeItems": [
+        "Here's the list of the items we can improve:",
+        "------------------------------------------------------",
+        "<ListItems>",
+        "------------------------------------------------------"
+      ],
+      "CBSeeItemsHaveItems": "So, which items do you want to improve?",
+      "CBSeeItemsNotHaveItems": [
+        "...",
+        "Sorry, bro, there's nothing on your ship we can improve."
+      ],
+      "ItemReadyForImprovement": "<ItemName> for <Money> cr.",
+      "PlayerAsk": "So, what can you improve?",
+      "PlayerNo": "This is an extortion, I'm not gonna pay!",
+      "PlayerNothing": "I've changed my mind, forget it.",
+      "PlayerOk": "Alrighty, let's roll!",
+      "PlayerRepeatNo": "No, thank you.",
+      "PlayerRepeatOk": "Yes, of course!",
+      "PlayerSend": "I want to improve my equipment."
+    },
+    "Modern": {
+      "AfterNo": "Quit messing with my head, brah. Make a decision once and for all -- are you with us or against us?",
+      "Answer": "Brah, that is seriously good news. We are always happy when someone wishes to help our pirate community. But before we let you start digging around at our base, you need to contribute to the common pot. A sum of <Money> cr would do. Do we have a deal?"
+    },
+    "PirateLicense": {
+      "CBAfterNo": "Suit yourself, <Player>.",
+      "CBAfterNoProlongate": "Suit yourself, <Player>. Your license will expire in <Days> days.",
+      "CBAfterOk": "Yo, bro, congrats you! Now, when dumping another sucker, remember that your business is approved by the Great Lyakushas and in case of any trouble, you can count on our support! Just pay your share in time.",
+      "CBAfterOkProlongate": "Great, <Player>, now your license will be good as new, it will be valid for a whole next year.",
+      "CBAnswer": [
+        "Great choice, <Player>! Tell me, have you ever known a pirate, who wouldn't want to legally... do what pirates usually do, without anyone looking over your shoulder, without police, and with good profit, huh, brah? No? That's why our big cheeses decided to begin, erm... licensing our fellow pirates, yeah! Damn, I nearly broke my tongue trying to say that!",
+        "Long story short, we would like to offer you, <Player>, to buy a nice, shining <clr>pirate license<clrEnd>. What? What the hell it is, you're asking? This is a special permit, verified by members of the Great Lyakushas Council, which is issued only to clan pirates. Civilian vessels' captains are terrified by the will of the Great Lyakusha, which means that they're more likely to give up on their posessions. But that's not it - owner of this very special license will receive extra experience, <clr>1%<clrEnd> of whatever you'll extort. Overall experience is proportional to your current pirate rating. Unfortunately, due to \"federal regulations\", there will be no additional reward for any extorted cargo. But, there could be some random bonuses!",
+        "So, what's the profit for us, you'll ask? It's simple, we're just taking <clr>10% of any credits you'll rip<clrEnd>. Due to additional complications with cargo loads, though, we won't take any from it, don't you worry.",
+        "License is valid for <clr>one year<clrEnd>. Prices start at <Money> cr, our special discount for you is <Discount>%, which means that final price is <DiscountMoney> cr."
+      ],
+      "CBAnswerProlongate": [
+        "Excellent idea, <Player>, we appreciate regular customers. Only licensed pirates are basis for lawlessness and chaos in this galaxy!",
+        "",
+        "Prolongation price starts at <Money> cr., your discount for you pirate rating is <Discount>%, which means that final price is <DiscountMoney> cr."
+      ],
+      "PlayerNo": "Thanks, but I'll pass",
+      "PlayerOk": "Purchase pirate's license",
+      "PlayerOkProlongate": "Prolong pirate's license",
+      "PlayerSend": "I'd like to purchase a license",
+      "PlayerSendProlongate": "I'd like to renew my license"
+    },
+    "ShuffleTeleport": {
+      "CBAfterCancelTeleport": "Okay, turn off the generator.",
+      "CBAfterConfirm": "Alrighty, let's turn on the generator! Course is laid towards <FlyToStar> system. Go to hanger, <Player>, and get yourself ready.",
+      "CBAfterNoCancel": "Make up your mind already, <Player>. Go to hangar and fly to <FlyToStar>.",
+      "CBAfterNoConfirm": "Dude, that's it! We were ready, reactor was purring, and suddenly you coming and cancelling everything, oy! Next time you're gonna push buttons all by yourself!",
+      "CBAfterRefuse": "Sorry, bud, that's everything that's avaliable at the moment. Half the time even I don't know how this thing chooses destinations. This is nano-technologies, not something precise and boring!",
+      "CBCancelTeleport": "Are you sure, <Player>? We're not returning you any money in any case.",
+      "CBChoseDestination": [
+        "Right now that's all destinations we have available:",
+        "------------------------------------------------------"
+      ],
+      "CBConfirmation": "Plot the course to <ToStar> system for <Cost> credits?",
+      "CBNoEnergy": "Sorry, brah, we don't have enough juice for the generator to work right now, come back later.",
+      "CBNoInHyper": "Are you out of your mind, <Player>?! Wait until we're out of hyperspace, then poke the generator. If it'll have any juice in it, of course.",
+      "CBNoPath": "Sorry, there's no paths available right now.",
+      "CBRefusePrefix": "Say what? You'd like to use our generator? Piss off!",
+      "CancelFly": "I've changed my mind, turn it off!",
+      "CancelNo": "I'd like a few minutes to think.",
+      "CancelYes": "Yes, I'm sure.",
+      "Confirm": "Fire away!",
+      "NoConfirm": "No, cancel this.",
+      "PlayerSend": "I'd like to use your portal generator",
+      "Refuse": "That's not gonna cut it, sorry.",
+      "ToHangar": "To hangar",
+      "ToList": "<ToStar> system (<Dist> ps), <Cost> cr",
+      "ToStar": "To <ToStar> system, <Cost> cr"
+    },
+    "WarPlans": {
+      "Ambush": {
+        "CBAfterOk": "Okay, we're ready to jump to <ToStar>.",
+        "CBAfterRefuse": "Okay, if you say so.",
+        "CBAnswerAmbushAlreadyInProgress": "There's a military operation planned in <Star> system at <Date>, but another dominion is scheduled to fly there, so we have to cancel.",
+        "CBAnswerNoOperations": "Right now nothing is planned.",
+        "CBAnswerNoOperationsSoon": "There's a military operation planned in <Star> system at <Date>, but that's a long time from now. Come to us in, like, two or three weaks before it, and we'll talk.",
+        "CBAnswerNotEnoughPirates": "There's a military operation planned in <Star> system at <Date>, but we don't have enough pirates in our system to mess with military.",
+        "CBAnswerOperationSoon": "There's a military operation planned in <Star> system at <Date>. We can crash there and mess everything up for the military, but that's gonna cost you, <Player>, something like <Cost> cr. Do you have that kind of scratch?",
+        "CBNoEnergy": "Sorry, brah, there's not enough juice in the generator to make jump right now. Come back later.",
+        "CBRefusePrefix": "You want us to mess with the military?",
+        "Confirm": "Alrighty!",
+        "InfoGroup": "There's <Star> system liberation planned at <Date>",
+        "InfoWB": "At <Date> <WB> warnase will jump to <Star> system",
+        "PlayerSend": "We should mess with military",
+        "Refuse": "No, that's not gonna cut it."
+      },
+      "Assault": {
+        "CBAfterConfirm": "Okay, we're ready to jump to <ToStar>.",
+        "CBAfterRefuse": "Is you say so.",
+        "CBChoseDestination": "Right now we can attack these systems:",
+        "CBNoEnergy": "Sorry, brah, there's not enough juice in the generator to make jump right now. Come back later.",
+        "CBNoPath": "We'd love to attack, but there's no worthy targets right now.",
+        "CBRefusePrefix": "Say what? Attack something? Hell's nah!",
+        "PlayerSend": "We should attack a Coalition system!",
+        "PlayerSend2": "We should attack a Dominators' system!",
+        "Refuse": "No, that's not gonna cut it.",
+        "ToStar": "To <ToStar> system, <Cost> cr"
+      },
+      "CBAnswersAboutCapture": [
+        "That's what I'm talking about! You're mad and ruthless, I can tell that! Of course, if you don't want to wait for these drunks to finish gagging on booze, you can raid another system by yourself. In a nutshell, you just have to own a ship, able to withstand more than two shots. The only thing you need to do in order to capture the system is to wipe out all of the military ships based in the system, plus any of the rangers, which could get in your way. Make sure that you won't kill any of the traders, as they're our main source of income.",
+        "Besides that, all the Coalition' bases should be destroyed, except medical centers, they'll be of use to us. I believe, I shouldn't mention our very pirate bases, you shouldn't attack them too - you look smart enough to understand that by yourself.",
+        "Keep in mind - while it's cool and fun, you shouldn't capture all of the Coalition' systems at once, since all of the stuff worth mentioning is being produced within their borders, plus most of the business centers, where we house our bank accounts, are also located there. Besides, their military, for what it's worth, is still making some efforts in order to protect the galaxy from Dominators - and you know that every planet we take over eventually turns into a complete madhouse, everybody's drinking, fighting and that kind of stuff. If it's going to be like that everywhere, we'll be easy prey for Dominators, so while the Coalition is fighting, it's wiser to hide behind their backs and make some money. Got it?"
+      ],
+      "CBAnswersAboutRanks": [
+        "Well, <Player>, it's ancient pirate's tradition... Take it easy, I'm kiddin'. It's something the great Lyakushas invented shortly after this stupid war with the tin cans began. When pirate \"society\" became huge and whatnot, they've seen the problem: every pirate thought that he should be the one with power, should command, that it's worth fighting with other pirates, and so on. Eventually this became a big problem for everyone, with fly-bys, stupid orders and piles of dead bodies. The great Lyakushas decided to bring some kind of order to our community, by implementing a system of pirate ranks and privileges, so that the entire fleet couldn't be controlled by any random dude with a plastic gun.",
+        "On our <BaseName> dominion you should have these ranks in order to:",
+        "Order a pirate raid on a system - <clr>Ship Boy<clrEnd>",
+        "Relocate dominion - <clr>Skipper<clrEnd>",
+        "Sabotage a military operation - <clr>Cutthroat<clrEnd>",
+        "Attack a Coalition system - <clr>Capo<clrEnd>",
+        "Attack a Dominators' system -<clr>Khan<clrEnd>"
+      ],
+      "CBAsk": "What else you'd like to know?",
+      "PlayerAfterAnswerAboutCapture": "Got it",
+      "PlayerAsk": "I want to discuss our war strategy. What's happening on the front lines?",
+      "PlayerAskAboutCapture": "Can I capture Coalition systems all by myself?",
+      "PlayerAskAboutRanks": "What is Rachekhan's Scale?",
+      "PlayerNoQuestions": "I have other business, I should go",
+      "Relocate": {
+        "CBAfterConfirm": "Okay, we're jumping to <ToStar>. If you have any unfinished business, you should take off before we'll be in hyper.",
+        "CBAfterRefuse": "Make up your mind already, <Player> - we're going, we're not going, my grandmother's sick...",
+        "CBChoseDestination": "Right now we can relocate to any of these systems:",
+        "CBNoEnergy": "Sorry, brah, there's not enough juice in the generator to make jump right now. Come back later.",
+        "CBNoPath": "It's a great idea, but we have no worthy destinations. There's no systems right now, ready to let us in.",
+        "CBRefusePrefix": "Say what? Relocate? Hell's nah!",
+        "IgnoreWarning": "I'll keep that in mind.",
+        "PlayerSend": "I'd like to relocate your base",
+        "Refuse": "I changed my mind",
+        "ToHangar": "To hangar",
+        "ToStar": "To <ToStar> system, <Cost> cr"
+      },
+      "WarOperation": {
+        "CBAboutWarOperation": [
+          "A pirate operation isn't easy to pull off, <Player>. You need to get enough bros together and paying attention, give 'em the lowdown and make sure to promise them something shiny for their efforts. Otherwise you'll be SOL, and for good reason -- we ain't some military lackeys to blindly follow somebody's orders.",
+          "But don't worry too much either -- all you really need to organize a run is money. Of course, it's <clr>100%<clrEnd> advance payment for all involved, and you're good to go. Just make sure you've got <Money> cr to put out up front.",
+          "But keep in mind that ordering an operation doesn't guarantee its success. Your money will go toward getting our top specialists to consider all possible options for attack. This means providing them with the best possible working conditions, i.e. lots of booze, and that costs a pretty penny. Once they settle on the best course of attack, we spread the word around, calling all brave pirates to join the fun. The best bros from all over the Galaxy are likely to respond, especially if you kick them back a lil' somethin'.",
+          "But if the experts can't find a suitable attack option, you can kiss your money goodbye. But don't think you're being conned or nothin' -- we do work with total integrity. If the experts say it can't be done, then you better believe it can't be done.",
+          "It's your dough, so you make the call."
+        ],
+        "CBAfterNo": "Then why act all aggressive if you ain't ready? Man, pirates these days are so hesitant, greedy and craven...",
+        "CBAfterOk": [
+          "The experts are assessing the situation...",
+          "The experts are sampling the booze...",
+          "The experts are picking a course of attack...",
+          "--------------------------"
+        ],
+        "CBAfterOkBad": [
+          "Sorry, <Player>, our experts tried their best, but it was all in vain. Due to a very complicated situation on the Galaxy's geopolitical landscape (I memorized this phrase on purpose to add importance to what I'm saying!) we were unable to pick a system to attack.",
+          "Don't feel bad about the money -- they went to a good cause. Just rotten luck, is all. Let's hope we'll be more lucky next time."
+        ],
+        "CBAfterOkGood": [
+          "Our experts succeeded in finding a target suitable for attack. All pirates with itching fists are heading to the <StarEnemy> star system -- the same system we'll be capturing, obviously.",
+          "We hope you don't stand on the sidelines but join the party as its direct sponsor."
+        ],
+        "CBRefusePrefix": "A pirate raid, you say?",
+        "PlayerNo": "No, I'm not ready, maybe some other time...",
+        "PlayerOk": "Yes, I'm ready to pay <Money> cr. Do your best, I'm counting on you!",
+        "PlayerSend": "Order a pirate raid"
+      },
+      "WarWithKlingAndCoalition": {
+        "CoalitionOnly": {
+          "CBAnswerWeControl100Percent": [
+            "Things are just peachy, brah! We took out the Coalition for good! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+            "And though there's no more military, we'not stepping down. Our great dominion is ready to raid another system or relocate to anywhere you want."
+          ],
+          "CBAnswerWeControlMore00Percent": [
+            "Kaput, <Player>, that's really the best word for it...",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, sabotage military operation, or attack a Coalition system."
+          ],
+          "CBAnswerWeControlMore10Percent": [
+            "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the Coalition raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, sabotage military operation, or attack a Coalition system."
+          ],
+          "CBAnswerWeControlMore30Percent": [
+            "It's bad, <Player>, simply bad. We have only <PiratesPercent>% of star systems under our control, with the Coalition retaking the rest for itself. I would lead an assault against the rangers and the jarheads myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+            "But don't you worry, we've seen worse! Our dominion could raid another system, sabotage milirary operation, or attack a Coalition system."
+          ],
+          "CBAnswerWeControlMore50Percent": [
+            "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. The balance of power is presently roughly equal, with us controlling <PiratesPercent>% of territory, and the Coalition controlling the rest. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky rangers. The scale needs a bit of a shove in the right direction.",
+            "But don't you worry, we've seen worse! Our dominion could raid another system, relocate, sabotage military operation, or attack a Coalition system."
+          ],
+          "CBAnswerWeControlMore70Percent": [
+            "It's looking good, <Player>, thanks for asking. We're giving the Coalition hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the Coalition is no more. But don't relax just yet -- there's still plenty of fight left in those rangers and servicemen!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition system."
+          ],
+          "CBAnswerWeControlMore90Percent": [
+            "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing the Coalition like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning the Coalition is hanging on by a thread! One more push and victory will be ours!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate base, sabotage military operation, or attack a Coalition system."
+          ]
+        },
+        "KlingAndCoalition": {
+          "CBAnswerWeControl100Percent": [
+            "Things are just peachy, brah! We took out all our enemies for good! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+            "And though there's no more military, we'not stepping down. Our great dominion is ready to raid another system or relocate to anywhere you want."
+          ],
+          "CBAnswerWeControlMore00Percent": [
+            "Kaput, <Player>, that's really the best word for it...",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, sabotage military operation, or attack a Coalition or Dominators' system."
+          ],
+          "CBAnswerWeControlMore10Percent": [
+            "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the dominators controlling <DominatorsPercent>%, and the Coalition raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition or Dominators' system."
+          ],
+          "CBAnswerWeControlMore30Percent": [
+            "It's bad, <Player>, simply bad. The Coalition has taken possession of <PiratesPercent>% of all territories, and the dominators are controlling <DominatorsPercent>% systems. I would lead an assault myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+            "But don't you worry, we've seen worse! Our dominion could gather remains of our forces, and raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition or Dominators' system."
+          ],
+          "CBAnswerWeControlMore50Percent": [
+            "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. With domers in charge of <DominatorsPercent>% of star systems and the Coalition running <Percent>%, all three sides represent a force to be reckoned with. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky rangers. The scale needs a bit of a shove in the right direction.",
+            "But don't you worry, we've seen worse! Our dominion could gather remains of our forces, and raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition or Dominators' system."
+          ],
+          "CBAnswerWeControlMore70Percent": [
+            "It's looking good, <Player>, thanks for asking. We're giving all our foes hell. The dominators have only <DominatorsPercent>% of systems left under their control, and the Coalition <Percent>%. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the pirate clan is left the singular force in the Galaxy. But don't relax just yet -- there's still plenty of fight left!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition or Dominators' system."
+          ],
+          "CBAnswerWeControlMore90Percent": [
+            "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing our enemies like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning both the Coalition and the dominators are hanging on by a thread! One more push and victory will be ours!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Coalition or Dominators' system."
+          ]
+        },
+        "KlingOnly": {
+          "CBAnswerWeControl100Percent": [
+            "Things are just peachy, brah! We turned the dominators into space dust! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+            "And though there's no more military, we'not stepping down. Our great dominion is ready to raid another system or relocate to anywhere you want."
+          ],
+          "CBAnswerWeControlMore00Percent": [
+            "Kaput, <Player>, that's really the best word for it...",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ],
+          "CBAnswerWeControlMore10Percent": [
+            "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the dominators raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+            "But we're not giving up, pirate brotherhood will prevail! Our dominion could gather remains of our forces, and raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ],
+          "CBAnswerWeControlMore30Percent": [
+            "It's bad, <Player>, simply bad. We have only <PiratesPercent>% of star systems under our control, with the dominators capturing the rest. I would lead an assault against those rusty tin cans myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+            "But don't you worry, we've seen worse! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ],
+          "CBAnswerWeControlMore50Percent": [
+            "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. The balance of power is presently roughly equal, with us controlling <PiratesPercent>% of territory, and the dominators controlling the rest. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky equantors. The scale needs a bit of a shove in the right direction.",
+            "But don't you worry, we've seen worse! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ],
+          "CBAnswerWeControlMore70Percent": [
+            "It's looking good, <Player>, thanks for asking. We're giving the dominators hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the last shtip is turned to rubble. But don't relax just yet -- there's still plenty of fight left in those robots!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ],
+          "CBAnswerWeControlMore90Percent": [
+            "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing the dominators like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning those tin cans are hanging on by a thread! One more push and victory will be ours!",
+            "But let's not run ahead of ourselves, there's lots of evil to be done! Our dominion could raid another system, relocate our base of operation, sabotage military operation, or attack a Dominators' system."
+          ]
+        },
+        "ExtraTextAboutRanks": "Don't forget, brah, we answer only to choosen ones. Great Lyakushas have developed a <clr>Rachekhan's Scale<clrEnd>, which define privileges and ranks."
+      }
+    }
+  },
+  "GN": {
+    "Modern": {
+      "AfterNo": "A pity... But if you change your mind, do come again. Sponsorship is always welcome.",
+      "Answer": "Oh, we are always happy to see sponsors! You can install new equipment on our base or share your combat experience with us. Only you must first pay a small security deposit of <Money> cr, just in case you break something... Things happen, you know? What do you say?",
+      "PlayerAsk": "I want to help develop your base",
+      "PlayerNo": "Umm... On second thought, maybe some other time",
+      "PlayerOk": "I agree! Commencing modernization..."
+    }
+  },
+  "I_Continue": "Next",
+  "I_TakeOff": "So long",
+  "MC": {
+    "Greeting": [
+      "Welcome to the <MC> station, patient <Player>. Please feel at home, but behave yourself and treat the doctors with respect, no matter their race. You have the right to choose your attending physician and to refuse treatment. All consultations are free of charge.",
+      "Please remember that smoking or otherwise consuming narcotic substances is strictly prohibited as per Item <clr>12/2<clrEnd> of <clr>Punitive Repercussions<clrEnd>."
+    ],
+    "Illnes": {
+      "MCSee": [
+        "Well, well, well... Let's see here...",
+        "Your face shows clear signs of exhaustion. A typical condition among rangers with one simple cure -- bed rest."
+      ],
+      "MCSeeAfterExit": "Be smart, <Player>, you're of very little use for us on the front lines in this state!",
+      "MCSeeAfterExitPirate": "Be smart, <Player>, you're of very little use to the pirate clan in this state!",
+      "MCSeeAfterIll": "Excellent, <Player>! <IllName> is no longer a cause for concern. The money withdrawn from your account will be put to good use. Well done!",
+      "MCSeeAfterIllAll": [
+        "Excellent, <Player>! Lie down and relax...",
+        "...",
+        "Commencing procedures. Relax, have another sip. Feel better? Good, let's continue.",
+        "...",
+        "You seem to be doing better.. I like the color of your face. Another victory for traditional treatment methods!",
+        "You're free to go. And here is your ancient certificate from year <CurrentYear>, attesting that you have undergone a voluntary course of <clr>Urinotherapy<clrEnd>."
+      ],
+      "MCSeeAfterIllPirate": "Excellent, <Player>! <IllName> is no longer a cause for concern. The money withdrawn from your account will be put to good use. Keep it up!",
+      "MCSeeAfterIllRadiation": "Unfortunately, though, we cannot cure your <clr>Radiation Sickness<clrEnd>. Don't despair, the illness isn't deadly. In fact, a few months of bed rest and you'll be as good as new.",
+      "MCSeeAfterNo": [
+        "Shame on you, <Player>, for refusing treatment! It's just foolish to be spreading disease all over the Galaxy.",
+        "If the issue is money, then sell something you don't need. I'm sure your ship would do just fine with a few less cannons."
+      ],
+      "MCSeeCureless": [
+        "Now this, my friend, is no laughing matter... You are very, very ill!",
+        "<MCSeeIll>",
+        "---",
+        "Don't despair, the illness isn't deadly. In fact, a few months of bed rest and you'll be as good as new."
+      ],
+      "MCSeeGoodNormalToNormal": "No signs of serious illnesses. Ranger <Player>, you can continue your noble cause!",
+      "MCSeeGoodNormalToPirate": "No signs of serious illnesses. Go, <Player>, and keep it civil from here on!",
+      "MCSeeGoodPirateToNormal": "No signs of serious illnesses. Ranger <Player>, you can continue your noble cause! Or whatever cause you choose to pursue.",
+      "MCSeeGoodPirateToPirate": "No signs of serious illnesses. Pirate <Player> is free to continue being a menace to society!",
+      "MCSeeIll": [
+        "---",
+        "<IllName> <MCSeeIllType>",
+        "Treatment cost: <Money> cr."
+      ],
+      "MCSeeIllType1": "",
+      "MCSeeIllType2": "- virus",
+      "MCSeeIllness": [
+        "Now this, my friend, is no laughing matter... You are very, very ill! Take a look at the full list of illnesses, including viral infections in early stages of development whose symptoms have yet to manifest.",
+        "<MCSeeIll>",
+        "---",
+        "We strongly recommend immediate treatment for all illnesses -- even a single day wasted may prove fatal. If you have medical insurance, we will perform the treatment at half price.",
+        "And for especially destitute rangers we offer a course of <clr>Urinotherapy<clrEnd>! This ancient and cheap method guarantees recovery from nearly all maladies on record, including mental disorders.",
+        "Make your choice, <Player>!"
+      ],
+      "MCSeeIllnessPirate": [
+        "Now this, my friend, is no laughing matter... You are very, very ill! Take a look at the full list of illnesses, including viral infections in early stages of development whose symptoms have yet to manifest.",
+        "<MCSeeIll>",
+        "---",
+        "We strongly recommend immediate treatment for all illnesses -- even a single day wasted may prove fatal.",
+        "For loser pirates we offer a course of <clr>Urinotherapy<clrEnd>! This ancient and cheap method guarantees recovery from nearly all maladies on record, including mental disorders.",
+        "Make your choice, <Player>!"
+      ],
+      "MCSeePirate": [
+        "All right, let's see...",
+        "These are clear signs of exhaustion. The dangerous life of a pirate is having a harmful effect on your health. We recommend bed rest."
+      ],
+      "MCSeeRadiation": [
+        "---",
+        "<clr>Radiation Sickness<clrEnd><br>Treatment cost: -"
+      ],
+      "PlayerExit": "I can't be on bed rest while the Galaxy is in danger!",
+      "PlayerExitPirate": "Bed rest?! Not when there's a whole Galaxy or yet unrobbed suckers out there!",
+      "PlayerIll": "Treat <IllName> (<Money> cr).",
+      "PlayerIllAll": "Undergo a course of urinotherapy (<Money> cr).",
+      "PlayerNo": "Refuse treatment",
+      "PlayerSend": "Undergo a medical examination"
+    },
+    "Modern": {
+      "AfterOk": "With your noble actions, <Player>, you have ensured the safety of thousands of patients at our center!"
+    },
+    "Stimulants": {
+      "MC1": [
+        "As per Item <clr>18/1<clrEnd> of the <clr>744<clrEnd> Medical Code, stimulants are prescribed exclusively for emergencies.",
+        "Seeing as our current situation is pathologically deadly for all our people, we will allow the use of up to <MaxStim> various stimulators"
+      ],
+      "MC2": "by one individual holding the rank of <Rank>.",
+      "MC2Pirate": "by one individual holding the pirate rank of <PirateRank>.",
+      "MC2PirateNoRank": "by one individual not in a pirate clan.",
+      "MC3": "What's that? Your rank is <Rank> and you are due <LawStim> stimulators by law? That may be so, but the health of our patients supersedes all other considerations, and at this time your body simply cannot handle such stimulation without serious consequences.",
+      "MC3Pirate": "What's that you say? Your pirate rank is <PirateRank> and you are due <LawStim> stimulators? That may be so, but the health of our patients supersedes all other considerations, and at this time your body simply cannot handle such stimulation without serious consequences.",
+      "MC3PirateNoRank": "What's that you say? You are due <LawStim> stimulators? That may be so, but the health of our patients supersedes all other considerations, and at this time your body simply cannot handle such stimulation without serious consequences.",
+      "MC4": "There are <CurStim> stimulators currently in your system. That means you can receive <AddStim> more injections.",
+      "MC5": [
+        "Here is what we have available:",
+        "<MCStimInfo>",
+        "---",
+        "Remember that stimulators are a health hazard. The Galactic Health Ministry strongly recommends that you abstain from taking them!"
+      ],
+      "MC5MedPolicy": "If you have medical insurance, we will sell you the stimulators at half-price.",
+      "MCAfterPlayerNo": [
+        "That is wise, <Player>. Stimulators are addictive and may cause chemical dependency, which often ends fatally.",
+        "Instead, try to lead a healthy lifestyle and stay in shape. As for emotional health, you should try meditation and reading the ranger code."
+      ],
+      "MCAfterPlayerNoPirate": [
+        "That is wise, <Player>. Stimulators are addictive and may cause chemical dependency, which often ends fatally.",
+        "Instead, try to lead a healthy lifestyle and stay in shape. As for emotional health, you should visit bar or read some anecdotes about rangers."
+      ],
+      "MCAfterPlayerStim": [
+        "Excellent selection. Take this little pill here...",
+        "And now an injection... Good. Still with me?",
+        "The procedure is over. The effect of the <StimName> stimulator will last until <Date>. In case of side effects, let us know right away."
+      ],
+      "MCStimInfo": [
+        "---",
+        "Stimulator: <StimName>",
+        "Description: <StimText>",
+        "Duration: <Month> mon.",
+        "Cost: <Money> cr."
+      ],
+      "PlayerNo": "Refuse stimulators",
+      "PlayerSend": "Take stimulators",
+      "PlayerStim": "Take <StimName> (<Money> cr)"
+    }
+  },
+  "NotEngine": "Engine not installed",
+  "NotFuelTank": "Fuel tank not installed",
+  "PB": {
+    "AskQuestion": {
+      "PBAnswersAboutCapture": [
+        "Ha, that's the spirit! And I can see you're a true, harebrained pirate! Sure, if you don't wanna wait for your bros to finish boozing and start capturing systems, you can go ahead and do it yourself. All you really need is a tough ship that can take a licking. Getting a star system under the pirate clan's control is simple: just clear out all the rangers and military ships protecting it. Don't bother wasting traders and other smalltime players -- they'll just go on doing their thing.",
+        "Also, the system must not have any remaining Coalition bases. Medical centers, on the other hand, should be left alone, as we can use them too. And I don't need to tell you that the same goes for the pirate bases? You can't be a complete idiot if you were recruited into the ranger corps.",
+        "But keep in mind that capturing all the Coalition systems at once is a shortsighted strategy. It is on those Coalition planets that nearly all the useful merchandise is made, their business centers are a source of revenue for us, and their military are doing their best to keep the dominators at bay. Compare that to pirate-controlled planets, where our boys are boozing it up and causing all manner of mayhem. If the same were to happen everywhere else, we would become easy prey for those tin cans. So let the Coalition suffer with this war, while we sit snug in their rear. Eventually the dominators will die off and all will be well. You feel me?"
+      ],
+      "PBAsk": "Go ahead, bud away. You're one of us, so I'll help if I can.",
+      "PlayerAfterAnswerAboutCapture": "I see",
+      "PlayerAsk": "I want to ask a few questions, pirate to pirate...",
+      "PlayerAskAboutCapture": "Can I capture the Coalition systems on my own?",
+      "PlayerNoQuestions": "I have no more questions"
+    },
+    "Chameleon": {
+      "PBAfterNo": "Scared, are ya? Think that those army boys will start blasting the moment they spot you? Well, it's your call.",
+      "PBAfterNoAlt": "Don't wanna? Think that all transports will bolt at the sight of you? Well, it's your call.",
+      "PBAfterOk": "Excellent, our technicians have uploaded the cloaking software to your onboard computer. By the way, this new model of the cloaking device remains active even after replacing the hull!",
+      "PBAsk": [
+        "We've gotten our hands on a secret military technology, codenamed <clr>Chameleon<clrEnd>. Once mounted on the hull's outer shell, the device generates a holographic projection of various ship models. We were further able to get the following 3D-matrixes of dominator ships:",
+        "<List>",
+        "Which do you want to upload to your ship?"
+      ],
+      "PlayerAsk": "I heard you have a cloaking device",
+      "PlayerNo": "Dress up like the enemy? Over my dead body!",
+      "PlayerOk": "Cloaking Device, series <Series> for <Cost> cr"
+    },
+    "ChangeNationality": {
+      "AfterOperationFei": "All done. You are now a feeble faeyan with a huge head. If you're skeptical, take look in a mirror on your ship. Let's hope you won't turn into a goody-two-shoes, but will use your faeyan appearance to smuggle drugs.",
+      "AfterOperationGaal": "It is done, o wise gaal you. Check yourself in the mirror and marvel at our expertise. You will be respected anywhere you go, but don't let the mirror fool you -- after all, your heart, <Player>, will forever remain with us pirates!",
+      "AfterOperationMaloc": "All done! Take a look in the mirror. You are now a maloq, striking fear into the hearts of... well, everyone! Plunder and murder is your life's calling. Good luck, <Player>!",
+      "AfterOperationPeleng": "It's done! Take a look in the mirror. You are now a vile peleng <Player>, crafty and without honor. Make sure not to bring shame to your compatriots with good deeds.",
+      "AfterOperationPeople": "It's done! Take a look in the mirror. You are now a HUMAN, so wear it proudly! With your potential, you'll be able to find allies easily to fight the dominator scourge. Good luck, <Player>!",
+      "AnswerChangeNationality": "This is a whole array of services, which includes changing your appearance and forging new documents.<br>Once we're done with you, you'll be pure as a tear in the eyes of all planetary governments and ship captains. Moreover, your possessions and achievements will not be lost.<br><br>",
+      "ChangeNationality": "I want to change my nationality",
+      "ChooseFei": "Smart faeyan",
+      "ChooseGaal": "Wise gaal",
+      "ChooseMaloc": "Menacing maloq",
+      "ChoosePeleng": "Cunning peleng",
+      "ChoosePeople": "Proud human",
+      "Confirm": "Did you read the agreement in full? And are you ready to pay <Money> cr?",
+      "NoMoney": "Sorry, bro, but the surgery costs <Money> cr, which is more than you can afford!",
+      "PBAfterNo": "That's what you say now, <Player>. But military patrols will keep hounding you till the end of time. Eventually you'll land in the slammer and rot there.<br>Why would you want all those problems? We can help you save both time and money.",
+      "PBAfterNoAlt": "That's what you say now, <Player>. I bet plenty of folks have got a bone to pick with you. A well-timed ambush and you've got problems -- at the very least a large repairs bill.<br>Why not avoid these problems in the first place? We can help you save both time and money.",
+      "PBNext": [
+        "Here is our complete price list:",
+        "-------------------------------------------",
+        "Maloq <MoneyMaloc> cr.",
+        "Peleng <MoneyPeleng> cr.",
+        "Human <MoneyPeople> cr.",
+        "Fei <MoneyFei> cr.",
+        "Gaal <MoneyGaal> cr.",
+        "-------------------------------------------",
+        "Well, what do you say, <Player>?"
+      ],
+      "PactText": "<clr>Agreement<clrEnd><br>I, <CurName>, being of sound mind and disposing memory, do hereby grant permission to undergo geno-plastic surgery. I release the contractor from liability for any fatal outcomes and undertake a non-disclosure agreement for a period of 3 years.",
+      "PlayerNo": "Thanks, but no thanks",
+      "PlayerOk": "I agree, let's take care of the paperwork"
+    },
+    "ChangeSide": {
+      "AnswerChangeSideToNormal": [
+        "This ain't right, <Player>! Quit thrashing about like a wounded penchecrakus! If you've decided to become a pirate, why are you backtracking?",
+        "You probably don't realize what you're giving up, so allow me to explain. As a pirate, you are one of us. You can grow as a criminal in our underground organization, earn new pirate ranks and generous bonuses, whack anybody you like and even capture entire Coalition systems! But if you go back to being a ranger, before you know it you'll be bored out of your mind and missing the good ol' pirate days. This I promise you.",
+        "So you're sure about returning to the ranger corps, or will you remain a pirate after all? If you're resolved, then I must charge you <Cost> cr to process the paperwork and see you off."
+      ],
+      "AnswerChangeSideToPirate": [
+        "That's what I'm talking about, <Player>! You're doing good by returning to our pirate ranks -- you've got my support and respect! Many of the boys around here didn't like it when you left us the last time, but I always knew you'd get sick of the rangers and come back! Thanks for proving me right, bro.",
+        "I'll even give you a discount to celebrate your return. For only <Cost> cr I'll process all the necessary paperwork and issue you your pirate ID in a flash! Just let me know for certain -- are you back with us or still against us?"
+      ],
+      "AnswerPlayerNoNormal": [
+        "Good choise, wise choice! If you've already decided on the pirate path, then act like it -- there ain't no sense in going back! Bury your doubts and enjoy the ride. Before you know it you'll be swimming in dough and accolades. I can see it in your eyes that you're no ranger at heart, but a true pirate, a pirate's pirate!",
+        "And the cherry in this story is that you've managed to avoid spending your creds, so may I suggest... shots!!!"
+      ],
+      "AnswerPlayerNoPirate": [
+        "No, <Player>, this ain't how it's done. Quit hemming and hawing and make up your damn mind before coming to see me. And I'll tell you something else -- you don't know what you're giving up! This is the only life worth living... But if you really are the kind of sissy to be running governmental errands and guzzling down lukewarm coffee in high-rise office buildings, then I can't help you.",
+        "But remember, this dirty stunt notwithstanding, we won't lose hope to see you back in the ranks of true pirates."
+      ],
+      "AnswerPlayerOkNormal": [
+        "Well, we'll do as you ask. But don't be surprised if our pirate boys start picking on you when next you meet. They don't take kindly to turncoats, you see.",
+        "One last thing I want to tell you is this: if you ever feel like getting back into piracy, we'll be waiting with open arms. 'Cause we don't hold grudges. For a fee, naturally."
+      ],
+      "AnswerPlayerOkPirate": "You da man, <Player>, you da man! More importantly, you're a pirate! With the same filthy pirate mug as the rest of us! Come, let's celebrate your long-awaited return with the boys! Don't worry about the creds -- this is my treat!",
+      "ChangeSideToNormal": "I want to get back my ranger rank",
+      "ChangeSideToPirate": "I want to switch sides to the pirate clan",
+      "PlayerNo": "No, I've changed my mind",
+      "PlayerOk": "Yes, I'm certain"
+    },
+    "GreetingAft": ". With our help you will easily become the best ranger out there.",
+    "GreetingMod": ", and we'll even supply you with anti-dominator programs",
+    "GreetingNormal": ", and we'll even supply you with robot nodes.",
+    "GreetingPre": "You are at a pirate base, <Player>. In this place there aren't any laws, so you can easily conduct your business without fear. We practice free trade of drugs and weapons. Be sure to take a look at the gear we've got for sale.<br>And if you're interested in some of our special services...<br>For the right price, we can even change your nationality",
+    "Modern": {
+      "AfterNo": "Quit messing with my head, brah. Make a decision once and for all -- are you with us or against us?",
+      "Answer": "Brah, that is seriously good news. We are always happy when someone wishes to help our pirate community. But before we let you start digging around at our base, you need to contribute to the common pot. A sum of <Money> cr would do. Do we have a deal?"
+    },
+    "Nod": {
+      "PBAfterNo": "Go right ahead, dude, start hunting. We only give discounts to true pirates.",
+      "PBEnd": "Sorry, <Player>, we are out of stock. Come back in a month or two.",
+      "PBEndPlus": "But if you need nodes that bad, head to sector <ToSector>. Locate a base called <ToBase>. They have a couple of containers you could purchase.",
+      "PBSell": "The deal is done. The container has been loaded onto your ship.<br>Pleasure doing business with you, <Player>! Our business will keep prospering with clients like you!",
+      "PBStart": "Well, we've got some containers of this stuff. These nodes may not be the real deal, but you can still turn them in at any ranger center. <br>One container with <Count> nodes is priced at <MoneyAll> cr. Your pirate rating is <Percent>%, so that's your discount.<br>This brings the total to <MoneyDec> cr per container. Well, buddy, are you buying?",
+      "PlayerAsk": "I need nodes",
+      "PlayerNo": "What's with these ridiculous prices? I'd rather hunt the dominators myself. It'll be easier on the wallet.",
+      "PlayerOk": "Very well, I'll take a container!"
+    },
+    "Program": {
+      "NodCost": "Cost in nodes: <Cost>",
+      "PBAfterNo": "My, aren't we upright? Sooner or later your licenses will expire, and you'll be back here with your tail between your legs.",
+      "PBAfterNoAlt": "My, aren't we upright? Sooner or later your licenses will expire, and you'll be back here with your tail between your legs. 'Cause you won't find new licenses anywhere.",
+      "PBAfterOk": "All done! The <Text> program has been installed on your onboard computer.",
+      "PBStart": [
+        "All of our programs are fully compliant with the <clr>CopyRight<clrEnd> law, meaning they're \"copied right.\" We're willing to issue you a copy of any program in exchange for dominator nodes, taking into account your pirate discount of <Percent>%.",
+        "The nodes will be removed from your cargo bay (<NodTrum> pcs), and should you be missing some, our \"specialists\" will take the required amount from your Node Account (<NodAcc> pcs). Our price list is as follows:<br>"
+      ],
+      "PlayerAsk": "I want to purchase programs",
+      "PlayerNo": "I won't be buying anything. I use only properly licensed programs!",
+      "PlayerOk": "Exchange <Nod> nodes for <Text>"
+    },
+    "RankPoints": {
+      "RankPoints": [
+        "Robbing a diplomat, liner or trader -- <clr>1<clrEnd> point",
+        "Robbing a ranger -- <clr>2<clrEnd> points",
+        "Liquidating a diplomat, liner or trader -- <clr>8<clrEnd> points",
+        "Liquidating a serviceman -- <clr>16<clrEnd> points",
+        "Liquidating a flagship -- <clr>60<clrEnd> points",
+        "Liquidating a non-pirate ranger -- <clr>24<clrEnd> points",
+        "Destroying a business center -- <clr>24<clrEnd> points",
+        "Destroying a research base -- <clr>24<clrEnd> points",
+        "Destroying a ranger center -- <clr>32<clrEnd> points",
+        "Destroying a military base -- <clr>32<clrEnd> points",
+        "Liquidating a klig dominator -- <clr>1<clrEnd> point",
+        "Liquidating a shtip dominator -- <clr>1<clrEnd> point",
+        "Liquidating a menoc dominator -- <clr>2<clrEnd> points",
+        "Liquidating a smersh dominator -- <clr>4<clrEnd> points",
+        "Liquidating an urgant dominator -- <clr>8<clrEnd> points",
+        "Liquidating an equantor dominator -- <clr>16<clrEnd> points",
+        "Liquidating a bertor dominator -- <clr>24<clrEnd> points",
+        "Claiming a system for pirate clan -- <clr>16<clrEnd> points",
+        "Smuggling income is accounted for separately. Every <clr>3000<clrEnd> cr of net profits earns <clr>1<clrEnd> pirate rating point.",
+        "Oh, and if you take exception to giving any help to the Coalition, let me explain it to you that any action taken against the dominators counts towards battle experience in your rating, and not because we owe anyone anything.",
+        "Got it?"
+      ]
+    },
+    "Repair": {
+      "PBAfterNo": "You are such a crook, <Player>! Pinching pennies on repairs, pfft!<br>Off with you now. Misers like you don't last long.",
+      "PBAfterOk": "Excellent, the money has been withdrawn from your account. Our technicians have already completed the job. Go back to your ship, <Player>, and see how we did.",
+      "PBCostAnswerNeedNode": [
+        "<ll>----------------------",
+        "Oh, I almost forgot. There's dominator weaponry installed on your ship. As you probably know, nodes are required to repair it. <NeedNode> nodes should be sufficient."
+      ],
+      "PBYouNeedRepair": [
+        "Appraising repair costs...",
+        "...",
+        "Let's see now... Our standard price is <MoneyAll> cr. Your pirate rating is <Percent>%. Which means your special discounted price comes out to <MoneyDec> cr.",
+        "So, are these repairs happening?"
+      ],
+      "PBYouNotNeedRepair": [
+        "Let's see here...",
+        "...",
+        "<Player>, your ship is in tip-top condition. No maintenance required."
+      ],
+      "PlayerNo": "Thanks, but I changed my mind",
+      "PlayerOk": "Yes, I'm ready to pay",
+      "PlayerSend": "I need to get fixed up"
+    },
+    "SabCrack": {
+      "PBAfterNo": [
+        "Is this the ranger courage we all heard of? Or are you simply a cheapskate, <Player>?",
+        "Is this your plan -- to live out your life without glory, pushing drugs and robbing defenseless liners? You disappoint me."
+      ],
+      "PBAfterOk": [
+        "Very good, <Money> cr has been withdrawn from your account. The program has been uploaded to your computer.",
+        "But be careful, <Player>, don't fry the last of your brain matter. We offer no guarantees."
+      ],
+      "PBAfterOkHalf": [
+        "This ain't junk!",
+        "Fine, then. You can take it for <Money> cr. We've been trying to unload this junk for years with no success.",
+        "Congratulations on the bargain, <Player>! But be careful, don't fry the last of your brain matter."
+      ],
+      "PBContinue": [
+        "Ha-ha, as if! Five minutes later a massive maloq fleet emerged and pounced right on <clr>Patzkhald<clrEnd>. That old crook was on his way here to unload his loot, but didn't make it...",
+        "As you know, murder isn't a serious offense for maloqs. In fact, it pales in comparison to waging trade on their territory. After serving a two-month sentence in the mines, an old outlaw named <clr>Patzkhald<clrEnd> was released. Shortly after that he came to us and asked for a ship, then pawned some of his personal junk, including a curious disk that he had supposedly found among Sab's remains. We were very intrigued, so we gave <clr>Patzkhald<clrEnd> an excellent ship. Utterly ecstatic, he went on his way and we haven't seen him since. And to hell with him, I say.",
+        "As for the disk, our top experts spent considerable time analyzing it. And what they discovered was that this program was designed for robots, namely to upload their brains! I know that you ranger lot don't scare easy, even when it comes to terronoids, which is why I'm offering it to you. It won't come cheap at <Money> cr, but I'm sure you realize the true value of this thing?"
+      ],
+      "PBGreetingAdd": "We are also prepared to make you an interesting offer, provided you have <Money> cr in your account.",
+      "PBInfo": [
+        "You probably haven't heard of a maloq professor named Sab? This distinguished maloq scientist was employed at a research base as head of its terronoid division. His objective was assembling a matrix duplicating the terronoid behavioral model, something he made considerable advances in. While his colleagues marveled and wondered as to the secret of his success, Sab was collecting top-secret information from his government. The maloqs clearly knew where the dominators came from. But none of that matters now.",
+        "What does matter is that Sab was capable of not only building a terronoid, but establishing a link with it! He conducted his experiments in secret, recording all research data on his personal disk. His behavior was growing more erratic with each passing day, puzzling his colleagues even more. He practically stopped eating, sleeping and leaving his lab. When his colleagues tried to find out what he was up to, Sab cut off all contact with them and his own government.",
+        "Strange as it all was, no one could have predicted what would happen next. One day, a shuttle took off from the base, piloted by Sab. Ignoring all attempts at contact, Sab commenced a hyperjump and emerged nose to nose with a pirate. Wasting no time, our colleague demanded that the professor dump his cargo, and fired all his guns once to prove that he wasn't bluffing. Sab never responded, simply continuing on his way. Our colleague <clr>Chesha Patzkhald<clrEnd> was forced to terminate him, at which point he collected all the stuff that fell out of the shuttle."
+      ],
+      "PlayerContinue": "Is that all?",
+      "PlayerInfo": "I'd like to hear an interesting offer",
+      "PlayerNo": "Sorry, not interested",
+      "PlayerOk": "Fine, I'll pay the <Money> cr Give me the disk",
+      "PlayerOkHalf": "I'll take this junk off your hands, but at half-price. Not a credit more!"
+    },
+    "SpecialShip": {
+      "AfterBuy": "We hate to part with such a beautifully designed ship. But we can't deny such a deserving pirate. Moreover, we will help you in your noble cause to become the Galaxy's greatest pirate. To this end, we broke into the galactic database and made some MINOR modifications to your reputation.",
+      "AfterNo": "Fine, we'll save it for a true pirate.",
+      "Ask": "I want a one-of-a-kind ship",
+      "Before": "Our technicians at the docks have built a one-of-a-kind ship. Its magnetic stabilization system provides unrivaled targeting power, while a gamma-plasma accelerator raises the energy output of fuel, significantly boosting speed.",
+      "Complate": "(Completed)",
+      "Info": [
+        "We are ready to sell it for <Price> cr, but only to a true pirate who meets the following criteria:",
+        "- \"Pirate\" status. <PirateComplate>",
+        "- Minimum rank: Ace. <RankComplate>",
+        "- <KillCnt> civilian ships destroyed. <KillComplate>"
+      ],
+      "News": "Technicians have build a new type of ship at the <Name> pirate base in the <Star> system of sector <Sector>.",
+      "PlayerBuy": "I meet all the qualifications, and I'm buying it",
+      "PlayerNo": "I refuse"
+    },
+    "WarOperation": {
+      "PB": [
+        "A pirate operation isn't easy to pull off, <Player>. You need to get enough bros together and paying attention, give 'em the lowdown and make sure to promise them something shiny for their efforts. Otherwise you'll be SOL, and for good reason -- we ain't some military lackeys to blindly follow somebody's orders.",
+        "But don't worry too much either -- all you really need to organize a run is money. Of course, it's <clr>100%<clrEnd> advance payment for all involved, and you're good to go. Just make sure you've got <Money> cr to put out up front.",
+        "But keep in mind that ordering an operation doesn't guarantee its success. Your money will go toward getting our top specialists to consider all possible options for attack. This means providing them with the best possible working conditions, i.e. lots of booze, and that costs a pretty penny. Once they settle on the best course of attack, we spread the word around, calling all brave pirates to join the fun. The best bros from all over the Galaxy are likely to respond, especially if you kick them back a lil' somethin'.",
+        "But if the experts can't find a suitable attack option, you can kiss your money goodbye. But don't think you're being conned or nothin' -- we do work with total integrity. If the experts say it can't be done, then you better believe it can't be done.",
+        "It's your dough, so you make the call."
+      ],
+      "PBAfterNo": "Then why act all aggressive if you ain't ready? Man, pirates these days are so hesitant, greedy and craven...",
+      "PBAfterOk": [
+        "The experts are assessing the situation...",
+        "The experts are sampling the booze...",
+        "The experts are picking a course of attack...",
+        "--------------------------"
+      ],
+      "PBAfterOkBad": [
+        "Sorry, <Player>, our experts tried their best, but it was all in vain. Due to a very complicated situation on the Galaxy's geopolitical landscape (I memorized this phrase on purpose to add importance to what I'm saying!) we were unable to pick a system to attack.",
+        "Don't feel bad about the money -- they went to a good cause. Just rotten luck, is all. Let's hope we'll be more lucky next time."
+      ],
+      "PBAfterOkGood": [
+        "Our experts succeeded in finding a target suitable for attack. All pirates with itching fists are heading to the <StarEnemy> star system -- the same system we'll be capturing, obviously.",
+        "We hope you don't stand on the sidelines but join the party as its direct sponsor."
+      ],
+      "PlayerNo": "No, I'm not ready, maybe some other time...",
+      "PlayerOk": "Yes, I'm ready to pay <Money> cr. Do your best, I'm counting on you!",
+      "PlayerSend": "Order a pirate raid"
+    },
+    "WarWithKlingAndCoalition": {
+      "CoalitionOnly": {
+        "PBAnswerWeControl100Percent": "Things are just peachy, brah! We took out the Coalition for good! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+        "PBAnswerWeControlMore00Percent": "Kaput, <Player>, that's really the best word for it...",
+        "PBAnswerWeControlMore10Percent": "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the Coalition raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+        "PBAnswerWeControlMore30Percent": "It's bad, <Player>, simply bad. We have only <PiratesPercent>% of star systems under our control, with the Coalition retaking the rest for itself. I would lead an assault against the rangers and the jarheads myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+        "PBAnswerWeControlMore50Percent": "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. The balance of power is presently roughly equal, with us controlling <PiratesPercent>% of territory, and the Coalition controlling the rest. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky rangers. The scale needs a bit of a shove in the right direction.",
+        "PBAnswerWeControlMore70Percent": "It's looking good, <Player>, thanks for asking. We're giving the Coalition hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the Coalition is no more. But don't relax just yet -- there's still plenty of fight left in those rangers and servicemen!",
+        "PBAnswerWeControlMore90Percent": "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing the Coalition like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning the Coalition is hanging on by a thread! One more push and victory will be ours!"
+      },
+      "KlingAndCoalition": {
+        "PBAnswerWeControl100Percent": "Things are just peachy, brah! We took out all our enemies for good! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+        "PBAnswerWeControlMore00Percent": "Kaput, <Player>, that's really the best word for it...",
+        "PBAnswerWeControlMore10Percent": "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the dominators controlling <DominatorsPercent>%, and the Coalition raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+        "PBAnswerWeControlMore30Percent": "It's bad, <Player>, simply bad. The Coalition has taken possession of <PiratesPercent>% of all territories, and the dominators are controlling <DominatorsPercent>% systems. I would lead an assault myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+        "PBAnswerWeControlMore50Percent": "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. With domers in charge of <DominatorsPercent>% of star systems and the Coalition running <Percent>%, all three sides represent a force to be reckoned with. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky rangers. The scale needs a bit of a shove in the right direction.",
+        "PBAnswerWeControlMore70Percent": "It's looking good, <Player>, thanks for asking. We're giving all our foes hell. The dominators have only <DominatorsPercent>% of systems left under their control, and the Coalition <Percent>%. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the pirate clan is left the singular force in the Galaxy. But don't relax just yet -- there's still plenty of fight left!",
+        "PBAnswerWeControlMore90Percent": "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing our enemies like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning both the Coalition and the dominators are hanging on by a thread! One more push and victory will be ours!"
+      },
+      "KlingOnly": {
+        "PBAnswerWeControl100Percent": "Things are just peachy, brah! We turned the dominators into space dust! Now the entire Galaxy is under new, tight and vigilant management -- our management!",
+        "PBAnswerWeControlMore00Percent": "Kaput, <Player>, that's really the best word for it...",
+        "PBAnswerWeControlMore10Percent": "I can barely bring myself to say it, <Player>. The situation is worse than you can imagine. We have only <PiratesPercent>% of territories under our control, with the dominators raking in the rest. Looks like we might have overestimated our ability, and grossly underestimated the numbers of craven deserters among us. We must mobilize all reserves and start repulsing enemy attacks, else the pirate clan will soon cease to exist altogether.",
+        "PBAnswerWeControlMore30Percent": "It's bad, <Player>, simply bad. We have only <PiratesPercent>% of star systems under our control, with the dominators capturing the rest. I would lead an assault against those rusty tin cans myself, but there's nobody I could take with me. Almost everybody is a friggin' coward, present company excluded, and the two us won't get far against a proper army. We can only hope the situation improves for the better.",
+        "PBAnswerWeControlMore50Percent": "The situation is kind of like the nuclear reactor in our base: unstable and somewhat concerning. The balance of power is presently roughly equal, with us controlling <PiratesPercent>% of territory, and the dominators controlling the rest. Times like these anything can tip the balance in either direction, so you must seize the day! Go and shoot down a few particularly pesky equantors. The scale needs a bit of a shove in the right direction.",
+        "PBAnswerWeControlMore70Percent": "It's looking good, <Player>, thanks for asking. We're giving the dominators hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the last shtip is turned to rubble. But don't relax just yet -- there's still plenty of fight left in those robots!",
+        "PBAnswerWeControlMore90Percent": "The situation is looking excellent, <Player>! Couldn't be better, in fact! We're crushing the dominators like bugs! The pirate clan is currently in possession of <PiratesPercent>% of populated systems, meaning those tin cans are hanging on by a thread! One more push and victory will be ours!"
+      },
+      "PlayerSend": "How's the situation on the front lines?"
+    }
+  },
+  "RC": {
+    "AboutNod": {
+      "PlayerSend": "I need information on the nodes",
+      "RCAnswer": [
+        "Nodes are microscopic elements which comprise the entire dominator control chain. A dark legacy of klissan technologies which has found new life in Coalition machines. These technologies are so complex, it will take millennia to study and decode them.",
+        "Nevertheless, we've already found practical use for them. When arranged in certain combinations, the nodes turn into universal devices, suitable for utilization with Coalition technology. This fact actually makes perfect sense. After all, at their core the dominators are our machines, and the nodes have adapted to them.",
+        "Our specialists went on to design various performance enhancing micromodules from them. These devices can be adapted to all types of equipment, boosting its parameters. The only drawback to the micromodules is that they are fundamentally incompatible with one another, meaning you cannot install two on the same piece of tech."
+      ],
+      "RCAnswerAdd": [
+        "In an effort to restock the raw materials needed to produce new micromodules, a chain of our centers has acquired license <clr>XC-112<clrEnd> to process the nodes. Rangers bring the nodes to us, and, in accordance with their node accounts, we supply them with assembled micromodules, ready to be integrated in their equipment.",
+        "To be sure, rangers don't get everything they want. Enhancing micromodules are in great demand. As per terms of our license, rangers are issued no more than <Percent>% of all assembled micromodules. The rest are distributed among various military and diplomatic vessels of the Coalition."
+      ]
+    },
+    "BestRanger": {
+      "PlayerSend": "What are the responsibilities of a ranger?",
+      "RCAnswer": [
+        "According to the ranger code, the main responsibility of every ranger is to search and terminate dominators. Unlike the military fleet, however, rangers are free to choose how to go about it. Rangers are completely autonomous -- physically, as well as economically. A ranger must be capable of making independent decisions and showing initiative, whether by supporting a military operation, undertaking a government mission or accruing personal wealth.",
+        "Remember, <Player>, you are your own boss and you answer to no one. For this reason, no matter the situation you find yourself in, let your conscience and sense of duty guide you. Do your best to uphold the reputation of our movement by helping civilian ships, helping to ease relations between the Coalition races, and doing charity when you can.",
+        "You have your entire life ahead of you. Live it with dignity. Then the dominators will never defeat us."
+      ]
+    },
+    "GiveNod": {
+      "AfterNo": "As you wish, <Player>. If you happen to come into possession of micromodules you don't need, come see us.",
+      "AfterOk": "Excellent, <Player>. We're taking your <Name> micromodule and crediting your account with <Count> nodes.",
+      "Answer": "Dear <Player>! We can take off your hands any micromodules you don't need in exchange for a certain amount of nodes. Let's see what you've got...",
+      "Nod": "Micromodule <Name> for <Count> nodes.",
+      "Nothing": "Unfortunately, you don't have any micromodules.",
+      "PlayerNo": "Refuse to trade in micromodules",
+      "PlayerOk": "Micromodule <Name> for <Count> nodes.",
+      "PlayerSend": "Trade in micromodules for nodes",
+      "Sum": "Your node account balance: <BaseNod>"
+    },
+    "Greeting": "Welcome to the <RC> ranger center. Our station is here to help rangers like yourself. We track all your achievements, provide valuable advice, collect and appraise nodes, and supply rangers with micromodules. Our shops offer a wide selection of essential goods and equipment.",
+    "GreetingAdd": "Your node account balance: <BaseNod>",
+    "GreetingBad": "Please wait while we evaluate your progress... Well, according to our data, you, Ranger <Player>, are struggling mightily at your job, coming in at number <Number> in the overall ranger rating, as calculated by the official galactic classification system. You should consider taking a more active role in the ranger movement.",
+    "GreetingBest": "Please wait while we evaluate your progress... Well, according to our data, you, Ranger <Player>, are the finest ranger in the Galaxy. Your duty is to rid the Coalition of the remaining dominator forces.",
+    "GreetingGood": "Please wait while we evaluate your progress... Well, according to our data, you, Ranger <Player>, are doing an excellent job, coming in at number <Number> in the overall ranger rating, as calculated by the official galactic classification system.",
+    "GreetingNormal": "Please wait while we evaluate your progress... Well, according to our data, you, Ranger <Player>, are doing a good job, coming in at number <Number> in the overall ranger rating, as calculated by the official galactic classification system. Having said that, you should still try to become more of a leader in the ranger movement, and that will require taking on a more active role.",
+    "Modern": {
+      "AfterOk": "Your actions were correct, <Player>. Our base can now defend the rangers training here."
+    },
+    "PirateClan": {
+      "PlayerSend": "How can I help the Coalition in the fight against piracy?",
+      "RCAnswer": "We need an agent to infiltrate the pirate's ranks and win over their trust. If you don't yet know about their \"special offer,\" then head on over to any pirate base and you'll understand. Then you just keep on climbing their career ladder and have the smarts to recognize when we come calling... But be very careful, as some of your predecessors are already floating in space as separate atoms after the pirates made them. Know that without accurate information about the pirates' plans and their leader's location, brute force will not help us. We can drive them out of star systems all we want, but they'll just keep coming. Information is the only thing that can put an end to this war, <Player>."
+    },
+    "Rating": {
+      "PlayerSend": "What is the ranger rating?",
+      "RCAnswer": [
+        "Is it your first time here or something? The galactic ranger rating is the classification system used to rate our pilots based on experience.",
+        "Experience points can be earned in a variety of ways. Government missions and military operations against the dominators always yield considerable experience. But experience can also be gained in any skirmish with the Coalition ships, executing trades, handing in basic dominator elements, and so on. Basically, everything that you do will grow both your experience and rating.",
+        "Most importantly, gaining experience enables rangers to hone their skills. For instance, by developing leadership a ranger will be able to command other ships, while developing mobility will improve his chances of evading enemy fire in combat."
+      ]
+    },
+    "SaleNod": {
+      "PlayerSend": "Hand in a batch of nodes: <Count>.",
+      "RCAnswer": [
+        "Good job, <Player>, we accept the nodes and will be crediting your personal node account. Account balance: <BaseNod> nodes.",
+        "Furthermore, your rating has also improved. Keep working to increase our stock of nodes going forward."
+      ]
+    },
+    "TakeNod": {
+      "PlayerNo": "Refuse trade",
+      "PlayerOk": "Trade <Count> nodes for the <Name> micromodule",
+      "PlayerSend": "Get new micromodule",
+      "RCAfterPlayerNo": "A wise decision, <Player>. Keep bringing us nodes to increase your account balance.",
+      "RCAfterPlayerOk": [
+        "Excellent, <Player>. We're debiting <NodCnt> nodes from your account.",
+        "And here's your <Name> micromodule. An absolutely excellent choice. We're happy to help you in the fight against the dominators."
+      ],
+      "RCAnswer": [
+        "Dear <Player>! Today we have the following micromodules available.",
+        "-------------------------------------------"
+      ],
+      "RCAnswerAverage": [
+        "2. Micromodule <Name>",
+        "Specs: <Text>",
+        "Cost: <Count> nodes.",
+        "-------------------------------------------"
+      ],
+      "RCAnswerBig": [
+        "1. Micromodule <Name>",
+        "Specs: <Text>",
+        "Cost: <Count> nodes.",
+        "-------------------------------------------"
+      ],
+      "RCAnswerEnd": "Your node account balance: <BaseNod>",
+      "RCAnswerSmall": [
+        "3. Micromodule <Name>",
+        "Specs: <Text>",
+        "Cost: <Count> nodes.",
+        "-------------------------------------------"
+      ]
+    }
+  },
+  "SB": {
+    "GreetingAdd": "We can offer you upgrades for various equipment from your ship, ready-made items with upgraded specs through our retailer, as well as probes used to survey unpopulated planets. Our maintenance crews can perform thorough repairs on all the worn equipment on your ship.",
+    "GreetingAfterScn": "It's good to see you at our <SB> research station, <Player>! Our network of stations has spread out across the entire Galaxy over the last three centuries. The most brilliant minds of the Interstellar Coalition are here, labouring to solve the great mysteries of the Universe.",
+    "GreetingBeforeScn": "It's good to see you at our <SB> research station, <Player>! Our network of stations has spread out across the entire Galaxy over the last three centuries. The most brilliant minds of the Interstellar Coalition are here, labouring to solve the great mysteries of the Universe. At present we are most concerned with the military actions undertaken by the dominators; as such, we are actively searching for technologies that will allow us to thwart them. To this effect, we are collaborating with the military in developing combat anti-dominator programs, as well as conducting general research into the dominators and their activities.",
+    "Improvement": {
+      "ItemNotReadyForImprovement": "<ItemName> for <Money> cr - upgrade impossible",
+      "ItemReadyForImprovement": "<ItemName> for <Money> cr.",
+      "PlayerAsk": "Which items can you upgrade?",
+      "PlayerDetailNo": "Nope, that doesn't work for me",
+      "PlayerDetailOk": "Focus on <Attr>",
+      "PlayerNo": "I refuse to pay these exorbitant prices!",
+      "PlayerNothing": "I'm not going to choose anything",
+      "PlayerOkAverage": "Let the regular crews handle it",
+      "PlayerOkMax": "I'll pay for the best you've got",
+      "PlayerOkMin": "Interns it is!",
+      "PlayerRepeatNo": "No, thank you",
+      "PlayerRepeatOk": "Yes, of course",
+      "PlayerSend": "I would like to upgrade my equipment",
+      "SBAfterOkAverage": "Excellent, the work is completed and your account has already been debited. We don't waste any time! Is there anything else you wish to upgrade?",
+      "SBAfterOkMax": "Excellent, our top experts have already tinkered with the equipment you specified. We think you will be quite pleased with their work. Is there anything else you wish to upgrade? We could do some more work if the pay is good.",
+      "SBAfterOkMin": "Alrighty , our interns are done poking around your <ShortName>. It looks good at a glance, but we'll let you be the judge of that, <Player>. Go on and check it out. Anything else you wanted to upgrade?",
+      "SBAfterRepeatNo": "As you wish. We would be happy to upgrade something for you, <Player>.",
+      "SBAnswer": "We can try changing the base attributes of any standard equipment, resulting in an upgraded item. However, there is a risk that complicating the item's construction will make it less reliable, making repairs more difficult. To prevent this from happening, we can only upgrade each separate item once. No secondary upgrades will be available. Suffice it to say, <Player>, you should upgrade your ship wisely, sparing no money for proper specialists.",
+      "SBAnswerNothing": "Well, that means no upgrades. Thanks for your cooperation, Ranger <Player>.",
+      "SBDetailImprovement": "The selected equipment has several specs. Our specialists can focus on any one of them so as to get optimal results from the upgrade. Which spec do you want us to focus on?",
+      "SBNeedCostImprovement": [
+        "We can get our best technicians to experiment on your equipment, but they don't come cheap. If you cannot afford them, we will use our regular crews instead. And if you can't afford those either, we'll have to give the job to the interns.<ll>",
+        "Between an item like <FullName> and our crews' commissions, the prices break down as follows:<ll>",
+        "----------------------------------",
+        "Top technicians - <Max> cr.",
+        "Regular crews - <Average> cr.",
+        "Interns - <Min> cr.",
+        "----------------------------------<ll>",
+        "Whom will you entrust this work to, <Player>?"
+      ],
+      "SBNeedCostImprovementNodes": [
+        "We can get our best technicians to experiment on your equipment, but they don't come cheap. They will also need nodes. If you cannot afford them, we will use our regular crews instead. And if you can't afford those either, we'll have to give the job to the interns.<ll>",
+        "Between an item like <FullName> and our crews' commissions, the prices break down as follows:<ll>",
+        "----------------------------------",
+        "Top technicians - <Max> cr and <MaxNode> nodes.",
+        "Regular crews - <Average> cr and <AverageNode> nodes.",
+        "Interns - <Min> cr and <MinNode> nodes.",
+        "----------------------------------<ll>",
+        "Remember, that getting the job done requires nodes for us right here. We can take them from your cargo bay, or at the storage, but not from your node-account.",
+        "So, whom will you entrust this work to, <Player>?"
+      ],
+      "SBSeeItems": [
+        "Let's make a list of all the possible upgrades for your ship:",
+        "------------------------------------------------------",
+        "<ListItems>",
+        "------------------------------------------------------"
+      ],
+      "SBSeeItemsHaveItems": "So, what would you like to upgrade from this list?",
+      "SBSeeItemsNotHaveItems": [
+        "...",
+        "Sorry, but we didn't find any standard upgradeable equipment on your ship."
+      ]
+    },
+    "Modern": {
+      "AfterOk": "Science is the engine of progress. The entire scientific community of our station is applauding you, <Player>."
+    },
+    "Repair": {
+      "PlayerCostAsk": "And how much is it going to cost me?",
+      "PlayerNo": "Thanks, but I can't afford it",
+      "PlayerOk": "I'm willing to pay",
+      "PlayerSend": "I need to repair my ship",
+      "SBAfterNo": [
+        "That's what you say now, <Player>. But when space pirates attack you, breach your fuel tank and knock out your engine... What you be singing the same tune?",
+        "Better fix it all now and make sure you avoid an unpleasant situation like that."
+      ],
+      "SBAfterOk": [
+        "Excellent, <Player>, the money has been debited from your account. Our technicians are almost finished.",
+        "Go back to the ship and see for yourself. Not even a scratch! Pleasure doing business with you, <Player>."
+      ],
+      "SBAnswer": [
+        "Our crews can repair or perform maintenance on any equipment on your ship. All of your equipment, both standard and unique, will be as good as new once we're done with it. Our service isn't cheap, but our operation is flawless.",
+        "Say yes, <Player>!"
+      ],
+      "SBCostAnswerNeedNode": [
+        "<ll>----------------------",
+        "Oh, and another thing. Your ship is outfitted with nonstandard equipment. Repairing it will require nodes. Our technicians say that <NeedNode> nodes ought to do it."
+      ],
+      "SBCostAnswerNonEquipmentsForRepair": [
+        "Let's see here...",
+        "...",
+        "<Player>, your ship is in tip-top condition."
+      ],
+      "SBCostAnswerYouHaveBadEquipments": [
+        "Let's see now... This here's broken down, and that there is in ruins... Adding it all up...",
+        "Your ship and virtually all equipment is in awful condition... Repairs are going to cost you a pretty penny. This is no way to care for one's vessel... Aren't you scared of flying it?",
+        "",
+        "Here's our estimate:",
+        "Equipment repairs - <EqMoney> cr.",
+        "Artifact repairs - <ArtMoney> cr.",
+        "----------------------",
+        "Total: <Money> cr.",
+        "",
+        "Sure, it's a lot, but what are you going to do? It IS a complete wreck!"
+      ],
+      "SBCostAnswerYouHaveGoodEquipments": [
+        "Let's see here...",
+        "Let's see now... There are some minor malfunctions that we can fix on the cheap. Sound good?",
+        "",
+        "Here's our estimate:",
+        "Equipment repairs - <EqMoney> cr.",
+        "Artifact repairs - <ArtMoney> cr.",
+        "----------------------",
+        "Total: <Money> cr."
+      ]
+    },
+    "Satellite": {
+      "PlayerInstruction": "Probe Operation Training",
+      "PlayerNo": "I'll buy it some other time",
+      "PlayerOk": "I'll buy <SatMoney> cr for <SatName>",
+      "PlayerSend": "I am interested in research probes",
+      "SBAfterNo": "Some other time, of course. In the meantime, maybe you need to upgrade some of your equipment?",
+      "SBAfterOk": "You've made a wise purchase. We've delivered <SatName> to your ship.<br>Now you have to find an unpopulated planet, land there and plant the probe. You can then go about your business. The probe may take many months to survey a planet -- a process that can be expedited by putting several probes on the orbit.",
+      "SBInfo": [
+        "Research probes are widely used to survey unpopulated planets. Please refer to our briefing for the specifics. Now, let's get straight to the point.",
+        "---------------------------------",
+        "In an exclusive, limited-time offer, rangers can purchase <SatName> from us.",
+        "Description: <SatText>",
+        "Cost: <SatMoney> cr.",
+        "Weight: <SatSize>",
+        "---------------------------------",
+        "Number of probes: <SatCurCount>.",
+        "Technical control skill: <SatMayCount>."
+      ],
+      "SBInfoNo": "Total: We are forced to deny your request. Please complete our probe control training.",
+      "SBInfoOk": "Total: We are ready to sell you the probe.",
+      "SBInstruction": [
+        "<clr>General:<clrEnd> Research probes have been used for many centuries to survey the surfaces of unpopulated and undeveloped planets. Each probe is designed to work with specific terrain types, which determines its speed and efficiency. A probe's output is typically measured in millions of square kilometers relative to oceanic surface, land and mountainous terrain it can cover per day.",
+        "<clr>Probe control:<clrEnd> When surveying unpopulated planets, several probes can be controlled at a time. The exact number hinges on the operator's technical control. Research stations are prohibited from selling probes to those who haven't yet learned all the elements of operating such valuable equipment. This decree is grounded in concern for the native life forms and integrity of their natural development. We mustn't allow heaps of garbage flying on the orbit of undeveloped planets.",
+        "<clr>Operating instructions:<clrEnd> After landing on an unpopulated planet, open your explorer's map, take a probe and select its flight trajectory from the available options on the map. Take note of the number of days left until the survey is complete. Planting several probes will allow you to survey the planet faster. Pay close attention to the probe's specs. For example, if the probe cannot survey oceans, it makes no sense planting it on an oceanic planet. Your probes' activity will be updated regularly on the information panel. You can fly about your business, leaving the probes to do their work and send updates on the discovered goods and equipment. Upon returning to the planet, you can pick up the discovered objects, remove the probes from orbit and fly some place else.",
+        "<clr>Rights to research:<clrEnd> All the objects found by your probes are yours by law. Our probes are programmed to survey for objects created by highly developed civilizations. Please note that we cannot prevent unsanctioned landings and crashes which may lead to contamination of the environment. Some of the unpopulated planets are home to undeveloped life forms. They have a future of their own to discover, and it is your duty to clean up their planets' surface from the products of our civilizations. A misplaced barrel of fuel mustn't become the cause of another species' demise!",
+        "We strongly recommend that you save this information, <Player>."
+      ]
+    },
+    "Scn": {
+      "ItemsCool": "x2",
+      "PlayerAsk": "I would like to contribute to anti-dominator research.",
+      "PlayerBuyTechBlazer": "I am interested in the Blazeroid Department research and what they came up with.",
+      "PlayerBuyTechKeller": "I am interested in the Kelleroid Department research and what they came up with.",
+      "PlayerBuyTechNo": "Seems a bit expensive, maybe some other time.",
+      "PlayerBuyTechOk": "All right, I'll pay <Money> cr.",
+      "PlayerBuyTechTerron": "I am interested in the Terronoid Department research and what they came up with.",
+      "PlayerSale": "Take <ItemName>.",
+      "PlayerSaleAllEq": "Take all dominator equipment",
+      "PlayerSaleAllUselessBlazer": "Take all blazeroid debris",
+      "PlayerSaleAllUselessKeller": "Take all kelleroid debris",
+      "PlayerSaleAllUselessTerron": "Take all terronoid debris",
+      "PlayerSaleNo": "I do not have any dominator items for you.",
+      "PlayerSectionChoose": "View information about the departments again.",
+      "SBAfterPlayerBuyTechBlazer": [
+        "That's great, <Player>! The money has been debited from your account.",
+        "The <clr>Counteraction<clrEnd> program module has been downloaded to your system. We sincerely hope that it will help you to finally win this war."
+      ],
+      "SBAfterPlayerBuyTechKeller": [
+        "That's great, <Player>! The money has been debited from your account.",
+        "The new OS has been successfully installed and <clr>Dematerializer<clrEnd> connected. We hope that you will not have to use it. Killing your colleagues, inorganic as they may be, is nothing to take pride in. Please try to resolve the matter in a peaceful manner if at all possible."
+      ],
+      "SBAfterPlayerBuyTechNo": "No problem, we'll wait. Always happy to offer our best technologies to you!",
+      "SBAfterPlayerBuyTechTerron": [
+        "That's great, <Player>! The money has been debited from your account.",
+        "One copy of the <clr>Energotron<clrEnd> program has been downloaded to your onboard computer. Use it wisely. We sincerely hope that you will not regret this purchase."
+      ],
+      "SBAfterPlayerSaleNo1": "Too bad indeed. We really hoped to be able to do some business with you.",
+      "SBAfterPlayerSaleNo2": "Sorry for being so persistent. Thank you, <Player>. We are always glad to cooperate with you!",
+      "SBAfterSectionNone": "Well, I guess you should go and get some then, <Player>. Rangers have always taken good care of our researchers. We have faith in you.",
+      "SBAnswer": [
+        "As you know, there are three series of robots that are totally different from each other. For each of the series, we have developed a separate research strategy. Each of them is currently being pursued by our respective dedicated research departments.",
+        "<SBSectionInfo>"
+      ],
+      "SBAnswer2": [
+        "The following departments are currently engaged with the dominator research effort:",
+        "<SBSectionInfo>"
+      ],
+      "SBBuyTechBlazer": [
+        "As you know, our department has been developing a strategy to allow us to interact with combat dominators of the Blazer series. In the course of this work, we have discovered that this series makes use of fairly primitive logic. Basically, the only order that blazeroids are capable of following is to destroy, which makes it impossible in principle to carry out any kind of dialogue with them. We have also learned that all orders are transmitted from a unified blazeroid control center, which is constantly on the move. And we are glad to report that our research is finally complete.",
+        "We have developed a program module that we named <clr>Counteraction<clrEnd>, the purpose of which is to establish direct contact with the blazeroid command center and to try replacing their basic logic. Be warned that we cannot guarantee the safety of such contact or any possible outcomes thereof.",
+        "In view of the great service you have done this research network, we are prepared to offer this module to you for as little as <Money> cr. If you cannot afford this expenditure at the moment, we are prepared to wait. Patience is the cornerstone of civilized development."
+      ],
+      "SBBuyTechKeller": [
+        "In light of some amazing new discoveries, the kelleroid research department has essentially exhausted the possible research avenues of their program; however, certain issues have in fact been ascertained. Our experts determined that the kelleroids are basically our colleagues, and they even have a head founder scientist! We do not know what it calls itself, so we call it Keller.",
+        "By this point we are certain you understand that killing scientists is not an option for ethical reasons. For that reason, we stopped all weapons development efforts concentrating instead on possible ways to promote mutual understanding and awareness between our respective civilizations. As it turned out, just like ourselves, kelleroids study the surrounding world, only they use their own methods for that purpose. Each kelleroid has a self-assembly nanomechanism, their software is totally intrusion-proof and they are very mobile.",
+        "Some overzealous researches have even tried to connect to these dominators, only to regret their actions. It turned out that even rank and file kelleroids vastly exceed any of the Coalition members intellectually. As a result, they simply displace our minds by flooding them with all kinds of information!",
+        "Unable to devise a way to communicate, we have developed <clr>Dematerializer<clrEnd>. This device can prevent kelleroids from teleporting themselves or reconstituting themselves thereafter. A super-weapon it isn't, but it is better than nothing. Taking into account our labor costs and your help with obtaining study materials, we could offer to install the new OS and connect the <clr>Dematerializer<clrEnd> device for as little as <Money> cr. Our offer shall remain valid indefinitely."
+      ],
+      "SBBuyTechTerron": [
+        "We have completed our studies of the Terron series. The conclusions the Terronoid Department has come to are not good. This is the most dangerous series of all, even though these dominators are remarkably dumb. They have no drive or motivation other than their urge to self-reproduce, which is to say that given the necessary basic materials a terronoid would replicate itself. In the event of any direct contact, they attempt to load their own matrix into their counterparty's brain for as long as the communication channel remains open.",
+        "However, we have discovered something they are after and named the resulting technology <clr>Energotron<clrEnd>. Essentially, it transforms energy into matter. Assuming the terronoids get hold of this new technology, their behavior may change. However, possible consequences of such a development are unpredictable, and for that reason we do not believe that making the technology available to the rangers would be the right thing to do. However, under pressure from the Ranger Center Network, the Coalition Council made a different decision that we will comply with. The choice between using our technology or not is entirely yours.",
+        "Regardless, please do not assume that we will make the technology available to you for free. For your information, <Player>, it has cost us a lot of effort. For many years, we have studied debris supplied by you and your colleagues. What we want at this point is to recoup at least some of our costs by selling our intellectual property. We have priced this technology at <Money> cr per download. We hope this will not be a problem."
+      ],
+      "SBSection1": [
+        "<SectionName>",
+        "-------------------------------",
+        "We have scanned your cargo bay for any possible samples of dominator technologies that could be of interest to us. Here is the list of items we would like to obtain:",
+        "<Items><br>",
+        "Which of these items do you intend to make available to our department? We are willing to pay double for anything marked <ItemsCool>."
+      ],
+      "SBSection2": [
+        "<SectionName>",
+        "-------------------------------",
+        "Thank you, <Player>! With your assistance, our department has acquired <Count> units of material for our research. And the rate we pay has helped your bank balance to grow by <Money> cr!"
+      ],
+      "SBSection2Add": [
+        "Here's a list of what we still want:",
+        "<Items><br>",
+        "Which of these items do you intend to make available to our department? Let me remind you that anything marked as <ItemsCool> will command a double price."
+      ],
+      "SBSectionEnd": "Thank you very much, <Player>! It has been a pleasure doing business with you. How about upgrading your equipment?",
+      "SBSectionInfo": [
+        "-------------------------------",
+        "<clr>Department 1 -- Blazeroids<clrEnd>",
+        "Aim: Develop a strategy to interact with combat dominators of the Blazer series.",
+        "<SBAnswerInfoBlazer>",
+        "<clr>Department 2 -- Kelleroids<clrEnd>",
+        "Aim: Study supermobility options and molecular assembly of the Keller series research dominators.",
+        "<SBAnswerInfoKeller>",
+        "<clr>Department 3 - Terronoids<clrEnd>",
+        "Aim: Inhibit growth of self-reproducing dominators of the Terron series.",
+        "<SBAnswerInfoTerron>",
+        "Research progress is largely dependent upon the availability of materials for study. And this is where the rangers help us a lot, by providing us with all sorts of dominator equipment. So if you have any material for us, choose the appropriate department."
+      ],
+      "SBSectionInfoAdd": [
+        "Basic material: <Count> t.",
+        "Research current speed: <Speed> %.",
+        "Estimated time: <Day> days",
+        "-------------------------------"
+      ],
+      "SBSectionInfoEnd": [
+        "Research successfully completed.",
+        "-------------------------------"
+      ],
+      "SectionBlazer": "Blazeroid Department",
+      "SectionKeller": "Kelleroid Department",
+      "SectionNone": "I do not have any dominator material in the cargo bay.",
+      "SectionTerron": "Terronoid Department"
+    },
+    "SpecialShip": {
+      "AfterBuy": "You've purchased an excellent ship. Furthermore, we have recently replaced the rear reflectors with an experimental antenna, boosting radar range. Needless to say, you will have a much easier time detecting enemy units.",
+      "AfterNo": "No problem, there won't be a shortage of folks wanting to get their hands on such a speedy ship.",
+      "Ask": "I want a one-of-a-kind ship",
+      "Before": "Our technicians at the docks have built a one-of-a-kind ship. Its krypton cores raise the temperatures in the engine's reactor, granting a significant boost to speed and increasing hyperjump range.",
+      "Complate": "(Completed)",
+      "Info": [
+        "We are willing to sell this ship for <Price> cr, but only if you match the following requirements:",
+        "- Minimum rank: Ace. <RankComplate>",
+        "- <KillCnt> dominator ships destroyed. <KillComplate>",
+        "- <QuestCnt> quests completed. <QuestComplate>"
+      ],
+      "News": "Technicians have build a new type of ship at the <Name> research station in the <Star> system of sector <Sector>.",
+      "PlayerBuy": "I meet all the qualifications, and I'm buying it",
+      "PlayerNo": "I refuse"
+    }
+  },
+  "ShipOvercharging": "Ship overloaded",
+  "WB": {
+    "Ace": {
+      "Greeting": "Greetings, <Player>! You have already become one of the Galaxy's celebrities, having garnered a reputation as one of history's most courageous pilots. Know that you will always receive the warmest welcome here at the <WB> military base.",
+      "NewRank": "You, <Player>, are without a doubt our finest military pilot. Your escapades have become the stuff of legend on many a planet, and we have more than enough factual evidence confirming their accuracy. And now you've earned the rank of <Rank>.<br>We hope that you will continue serving your people with honor and pride, exterminating our enemies without mercy, and striving to earn the highest rank of Commander, which no living soul has merited heretofore. In the meantime, please accept this <ItemName> from us as a token of our gratitude for your accomplishments in the line of fire."
+    },
+    "Admiral": {
+      "Greeting": "Greetings, <Player>! You have done the unthinkable, once more proving that perfection knows no limits! On behalf of the entire crew of the <WB> military base, we bow before the merits of a legendary warrior that is you!",
+      "NewRank": "Ranger <Player>! After convening for an emergency session, the Galactic Council has decided to institute a new military rank -- <Rank> -- and assign it exclusively to you! So great a warrior you are that I'm barely holding back from asking for your autograph!<br>To be sure, your titanic efforts could never be fully compensated, but we would be honored if you'd accept this <ItemName> from us as a gift! We're confident you will make good use of it. Oh, I can see it in your face that you're not utterly delighted :-( Then take this one-of-a-kind <MMName> as well! For you, <Player>, I'd give the shirt off my back!"
+    },
+    "Cadet": {
+      "Greeting": "Welcome to the <WB> military base, Cadet <Player>! You have savored the first taste of blood, as enemies of the Coalition fell by your hand. But this is only the beginning.<br>Our enemies are creeping inexorably toward our main bases. Soon they will conquer the whole Galaxy, unless thwarted by brave heroes in training like you. Liberate a few of our star systems and you will earn the rank of Pilot, as well as a wonderful gift!",
+      "NewRank": "<Player>, your combat pilot rating has exceeded <PredPoints>. According to the galactic classification system, this makes you a <Rank>. We are happy to congratulate you on this achievement, and hope that you will soon earn the title of Pilot.<br>To help make this happen sooner, please take this <ItemName> in excellent condition!<br>Consider this an incentive: if you keep working hard and exterminating enemy ships, we will be happy to provide you with any equipment you need, as well as performance bonuses."
+    },
+    "Commander": {
+      "Greeting": "Hello, <Player>! It is common knowledge that you are the Galaxy's biggest celebrity and most intrepid pilot. Know that you will always receive the heartiest welcome here at the <WB> military base. We simply adore your accomplishments in battle.",
+      "NewRank": "Ranger <Player>! After convening for an emergency session, the Galactic Council has decided to promote you to <Rank>! This is the highest rank a pilot can earn. And as the greatest pilot of all time and people, you certainly deserve it. We have the utmost faith that you can save our Galaxy from the dominator threat!<br>And we think that our last gift of <ItemName> will help you in this."
+    },
+    "FlyToEnemy": {
+      "GreetingAdd": "A secret military operation will soon be taking place. On <Date> we are planning a jump to the <StarEnemy> system. You can come with us by remaining aboard the <WB> station.",
+      "PlayerAsk": "I want to go with you to the <StarEnemy> system",
+      "PlayerFly": "Let's go!",
+      "PlayerHangar": "To the hangar",
+      "PlayerNotFly": "No thanks! I'm not ready for bed just yet",
+      "PlayerQuestions": "Ask questions",
+      "PlayerToChamber": "Proceed to the anabiosis chamber",
+      "PlayerUp": "Get up",
+      "WBAfterNotFly": "Think about it. They say that the anabiosis chamber prolongs life and treats all illnesses. But it's your call, <Player>, we have plenty of other combat pilots.",
+      "WBAfterQuestions": "No more questions. The combat operation has already started. Take off immediately. The enemy must be terminated!",
+      "WBInChamber": [
+        "Excellent, make yourself at home, <Player>!",
+        "All pilots will be awoken automatically as soon as we enter normal space. So, are you ready for bed?"
+      ],
+      "WBInStarEnemy": "We're on location. Leave the anabiosis chamber immediately and proceed to the conference room.",
+      "WBStarEnemyInfo": [
+        "We have just completed a hyperjump to parsec <N>. The <Star> system has been scanned for dominator presence. The following enemy ships were detected:",
+        "<Ships>.",
+        "Your objective as part of this strike force is to start liberating this system straight away. Take off!"
+      ],
+      "WBToChamber": "Proceed to the anabiosis chamber. No normal living body can withstand such G-force. It is only with the help of new automation technology that we are now able to make a safe null-jump across an entire spiral arm."
+    },
+    "HyperJumpVideo": "data\\hyper.vdo,Hyper",
+    "Leader": {
+      "Greeting": "Hello, <Player>! You are already quite a celebrity in this Galaxy and one of its most intrepid pilots. Know that you will always receive the warmest welcome here at the <WB> military base.",
+      "NewRank": "Congratulations! According to our scale your piloting experience already corresponds to the next rank. You are now a <Rank>, one of the best pilots in the Galaxy. Know that you will always receive the warmest welcome here at the <WB> military base.<br>In the meantime, please accept this <ItemName> from us as a token of our gratitude for your accomplishments in the line of fire."
+    },
+    "Modern": {
+      "AfterNo": "<Player>, how dare you refuse such an honor? Do you want to be court-martialed?!",
+      "Answer": "<Player>, managing the modernization of our base is a great honor for you. Rest assured that we don't make such offers to just anyone. To be granted access to the holy of holies you must pay a fee of <Money> cr, whereupon you can proceed with the modernization process. What is your decision, <Player>?"
+    },
+    "NextRank": {
+      "PlayerSend": "When will I be promoted to <NextRank>?",
+      "WBAnswer": [
+        "To be promoted to <NextRank>, you must accumulate <NeedPoints> combat pilot points. Here is the score sheet for destroyed dominator ships:",
+        "-------------------------------------------",
+        "Giant <Name6> - <RankPointsForK6>",
+        "Heavy <Name1> - <RankPointsForK1>",
+        "Strike <Name2> - <RankPointsForK2>",
+        "Hi-speed <Name3> - <RankPointsForK3>",
+        "Light <Name4> - <RankPointsForK4>",
+        "Compact <Name5> - <RankPointsForK5>",
+        "Violent <Name7> - <RankPointsForK7>",
+        "-------------------------------------------",
+        "For liberating star systems you will earn <RankPointsForLiberationSystem> points.",
+        "For each pirate killed, including ranger pirates, you will earn <RankPointsForDeadPirates> points.",
+        "If more than one ship is involved in a combat operation, all the participants will earn points. The ship that gets the kill shot will earn the standard amount of points, while the others will earn half the points due for shooting down a ship.",
+        "Additionally, you will earn warrior points for completing various combat missions issued by planetary governments. That's right, everything will be taken into account. Which also means that if you breach flight regulations, kill civilian ships, display cowardice or desert the battlefield, you will lose your hard-earned points and may even be demoted in rank! Is that understood, <Player>?!",
+        "The only place where you are outside of our control is the hyperspace. Even the latest military scanners are powerless before it."
+      ]
+    },
+    "Pilot": {
+      "Greeting": "Greetings, pilot <Player>! You've seen plenty of battle, and this is far from your first time at a military base. We're witnessing a turning point in the war.<br>The dominators are no longer the invincible force they seemed at first, and it's rangers like you we have to thank for it. So keep exterminating those bastards!",
+      "NewRank": "Your piloting experience is constantly rising, <Player>. What happened to that noob, wet behind the ears and without a single kill under his belt? Come on now, quit blushing!<br>You've already exceeded <PredPoints> pilot points, rightly earning the rank of <Rank> and this wonderful <ItemName> as a reward. Now a proper combat pilot, it won't be long until you accumulate the <NeedPoints> points it will take to become Captain."
+    },
+    "Programms": {
+      "GreetingAdd": "Our top rangers are supplied the finest anti-dominator combat programs, invented at our network of research stations. The number of programs and their launches is determined exclusively by the node-carriers. The programs can be purchased exclusively from us and planetary governments in return for rendering special services.",
+      "Info": [
+        "Program: <Name>",
+        "Description: <Text>",
+        "----------------------"
+      ],
+      "PlayerAsk": "Get combat programs",
+      "PlayerOk": "Load combat programs",
+      "WBAfterOk": [
+        "Excellent, <Player>! All the data have been successfully uploaded to your onboard computer.",
+        "",
+        "Remember that the Command of the Armed Forces of the Interstellar Coalition is responsible for your use of these programs. Read the instructions below very carefully!",
+        "",
+        "INSTRUCTIONS:",
+        "----------------------",
+        "A direct contact with a dominator is required before executing the program. If you have the <clr>Intercom<clrEnd> program installed on your computer, you will be able to understand what the machine says and even communicate with it. Once contact is established, waste no time in launching the needed program! Remember that the dominator can disconnect at any time, and you can only run the <clr>Intercom<clrEnd> so many times.",
+        "The reliability of these programs has been verified by top pilots in combat situations and calculated at <clr>99.95<clrEnd>%."
+      ],
+      "WBAnswer": [
+        "The contents of your databank are as follows:",
+        "----------------------",
+        "<Programms>",
+        "The node-carriers are ready to be uploaded to the onboard computer. Before we begin the upload, note that the manufacture of node-carriers at our network of research stations is an incredibly expensive process. Most importantly, a node-carrier is rendered useless when read, forcing our scientists to construct newer and newer matrixes to supply the combat pilots with."
+      ]
+    },
+    "Repair": {
+      "PlayerCostAsk": "And how much is it going to cost me?",
+      "PlayerNo": "Thanks, but I can't afford it",
+      "PlayerOk": "I'm willing to pay <Money> cr to have my ship repaired",
+      "PlayerSend": "I need to repair my ship",
+      "WBAfterNo": [
+        "That's what you say now, <Player>. But when space pirates attack you, breach your fuel tank and knock out your engine... What are you going to do then?",
+        "That's right, you are going to regret sparing money for thorough repairs. But you aren't going to regret it long, seeing as they will blow you into the mighty oblivion in next to no time, and you will become stardust..."
+      ],
+      "WBAfterOk": "Excellent, the money has been withdrawn from your account. Our technicians are almost done. Go back to your ship, <Player>, and see how we did. Not that an inspection is necessary. Our work is always top notch.",
+      "WBAnswer": "Our crews can repair or perform maintenance on any standard equipment on your ship. And it will cost you less than anywhere else in the Galaxy. All of your standard equipment will be as good as new once we're done with it.",
+      "WBCostAnswerNonEquipmentsForRepair": [
+        "Let's see here...",
+        "...",
+        "Your ship is in tip-top condition, so you're good to go. No standard equipment is in need of repair."
+      ],
+      "WBCostAnswerYouHaveBadEquipments": [
+        "Whoa, whoa whoa... What kind of crap is this?!!",
+        "You've got a real lemon on your hands, and fixin' it will cost you a pretty penny! <Money> cr, to be precise, and not a cred less."
+      ],
+      "WBCostAnswerYouHaveGoodEquipments": [
+        "Let's see here...",
+        "Well... There are some minor malfunctions that we can fix on the cheap. Sound good?"
+      ]
+    },
+    "Rookie": {
+      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!",
+      "NewRank": "not use"
+    },
+    "SpecialShip": {
+      "AfterBuy": "We hate to part with such a beautifully designed ship. But we're willing to do whatever it takes to restore peace in the Galaxy.",
+      "AfterNo": "Fine, we'll save it for a true warrior.",
+      "Ask": "I want a one-of-a-kind ship",
+      "Before": "Our technicians at the docks have built a one-of-a-kind ship. Extra titanium plates scatter most of incoming damage upon impact, while simplified maintenance boosts the effectiveness of repair works.",
+      "Complate": "(Completed)",
+      "Info": [
+        "We're willing to sell this highly protective hull to a true warrior for <Price> cr. To prove that you're a true warrior, you must match the following criteria:",
+        "- \"Warrior\" status. <WarriorComplate>",
+        "- Minimum rank: Ace. <RankComplate>",
+        "- <KillCnt> pirate ships destroyed. <KillComplate>"
+      ],
+      "News": "Technicians have build a new type of ship at the <Name> military base in the <Star> system of sector <Sector>.",
+      "PlayerBuy": "I meet all the qualifications, and I'm buying it",
+      "PlayerNo": "I refuse"
+    },
+    "WarOperation": {
+      "PlayerNo": "Not right now, maybe next time!",
+      "PlayerOk": "My intentions are serious. I am ready to pay <Money> cr to initiate a new military operation.",
+      "PlayerSend": "Order military operation",
+      "WB": [
+        "A military operation is serious, expensive and top secret. We can organize a military operation for our customers per the following conditions:",
+        "--------------------------",
+        "The customer makes <clr>100<clrEnd>% advance payment.",
+        "Our operations division considers all potential scenarios and issues a report.",
+        "If their conclusion is affirmative, the customer is informed about the terms and logistics of the operation. If not, the customer is refunded their money, save for small operational expenses in the amount of <DecMoney> cr, and our working relationship ends on good terms.",
+        "--------------------------",
+        "At present, the cost of a military operation equals <Money> cr. Are you ready to place the order, <Player>?"
+      ],
+      "WBAfterNo": "If you cannot pay, why inquire about the order in the first place? The command only shows their gratitude to those rangers who are actually useful in the war against the dominators.",
+      "WBAfterOk": [
+        "Situation analysis in progress...",
+        "Please wait...",
+        "Data received..."
+      ],
+      "WBAfterOkBad": [
+        "Unfortunately, even the top specialists from our operations division were unable to assemble a suitable strike force for the attack.",
+        "We will be retaining <DecMoney> cr from your account, and that's a good thing! Nothing makes governments feel more secure than the knowledge that Ranger <Player> is prepared to sacrifice everything for the sake of victory. Your actions were both noble and appreciated by many."
+      ],
+      "WBAfterOkGood": [
+        "A military operation to liberate the <StarEnemy> system is scheduled for <Date>. We will launch the offensive from the <StarNormal> system, which will be used as a fueling point for the military ships involved in the operation.",
+        "--------------------------",
+        "<Names>",
+        "--------------------------<br>",
+        "We thank you for allocating material funds in the amount of <Money> cr. If every citizen of the Coalition acted like you, <Player>, our victory would be inevitable!"
+      ]
+    },
+    "WarWithKlingAndPirates": {
+      "KlingAndPirates": {
+        "WBAnswerWeControl100Percent": "We are in total control of our arm of the Galaxy. In fact, <Player>, our sources report that all our enemies are defeated, and we're practically already celebrating victory today.",
+        "WBAnswerWeControlMore00Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The enemy forces have captured nearly this entire spiral arm of the Galaxy, with a mere <Percent>% of systems still under the Coalition control. The surviving rangers are planning to commence an operation to liberate the <Star> system. You and others like you are our last and only hope, <Player>.",
+        "WBAnswerWeControlMore10Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The enemy forces are capturing one system after another, with a mere <Percent>% of populated planets still under the Coalition control.<br>Presently we're getting ready to recapture the <Star> system. <Player>, if you wish to take part in this operation, you had better hurry, as several rangers have already volunteered.",
+        "WBAnswerWeControlMore30Percent": "As of now, we control a mere <Percent>% of populated systems. This lamentable fact looks even worse when you consider that our positions are weakening by the day.<br>Currently, our key strategic point is the <Star> system (sector <Sector>). You must go there, <Player>, and take part in the ensuing combat.",
+        "WBAnswerWeControlMore50Percent": "In recent days the balance of power has been wavering. The enemy refuses to give up their positions, while our forces control a mere <Percent>% of territory in this spiral arm of the Galaxy. But the situation is coming to a head. Sooner or later one of the sides will emerge victorious, and we hope that it will be the Coalition.<br><Player>, you can do us a tremendous service by helping to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore70Percent": "The situation looks good. We control some <Percent>% of populated systems in this Galaxy. The combined forces of rangers and the military are gradually pushing the enemy from the invaded territories. Our technologies can rival those of the enemy, and our weapons have become quite effective against their ships. All in all, <Player>, there's reason for optimism! We are currently planning to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore90Percent": "At this time we control about <Percent>% of populated worlds. The enemy does not pose much of a threat; according to our estimates, we should liberate all captured systems as early as next year. <Player>, it is time to launch the final offensive!"
+      },
+      "KlingOnly": {
+        "WBAnswerWeControl100Percent": "We are in total control of our arm of the Galaxy. In fact, <Player>, our sources report that dominators are totally defeated, and we're practically already celebrating victory today.",
+        "WBAnswerWeControlMore00Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The dominators have captured nearly this entire spiral arm of the Galaxy, with a mere <Percent>% of systems still under the Coalition control. The surviving rangers are planning to commence an operation to liberate the <Star> system. You and others like you are our last and only hope, <Player>.",
+        "WBAnswerWeControlMore10Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The dominators are capturing one system after another, with a mere <Percent>% of populated planets still under the Coalition control.<br>Presently we're getting ready to recapture the <Star> system. <Player>, if you wish to take part in this operation, you had better hurry, as several rangers have already volunteered.",
+        "WBAnswerWeControlMore30Percent": "As of now, we control a mere <Percent>% of populated systems. This lamentable fact looks even worse when you consider that our positions are weakening by the day.<br>Currently, our key strategic point is the <Star> system (sector <Sector>). You must go there, <Player>, and take part in the ensuing combat.",
+        "WBAnswerWeControlMore50Percent": "In recent days the balance of power has been wavering. The dominators refuse to give up their positions, while our forces control a mere <Percent>% of territory in this spiral arm of the Galaxy. But the situation is coming to a head. Sooner or later one of the sides will emerge victorious, and we hope that it will be the Coalition.<br><Player>, you can do us a tremendous service by helping to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore70Percent": "The situation looks good. We control some <Percent>% of populated systems in this Galaxy. The combined forces of rangers and the military are gradually pushing the dominators from the invaded territories. Our technologies can rival those of the enemy, and our weapons have become quite effective against their ships. All in all, <Player>, there's reason for optimism! We are currently planning to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore90Percent": "At this time we control about <Percent>% of populated worlds. The dominators don't pose much of a threat; according to our estimates, we should liberate all captured systems as early as next year. <Player>, it is time to launch the final offensive!"
+      },
+      "PiratesOnly": {
+        "WBAnswerWeControl100Percent": "We are in total control of our arm of the Galaxy. In fact, <Player>, our sources report that the pirate clan is totally defeated, and we're practically already celebrating victory today.",
+        "WBAnswerWeControlMore00Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The pirates have enslaved nearly this entire spiral arm of the Galaxy, with a mere <Percent>% of systems still under the Coalition control. The surviving rangers are planning to commence an operation to liberate the <Star> system. You and others like you are our last and only hope, <Player>.",
+        "WBAnswerWeControlMore10Percent": "Disclosing information about combat developments is not standard practice, but we make an exception for rangers. The current situation on the front lines is simply awful. The pirate forces are capturing one system after another, with a mere <Percent>% of populated planets still under the Coalition control.<br>Presently we're getting ready to recapture the <Star> system. <Player>, if you wish to take part in this operation, you had better hurry, as several rangers have already volunteered.",
+        "WBAnswerWeControlMore30Percent": "As of now, we control a mere <Percent>% of populated systems. This lamentable fact looks even worse when you consider that our positions are weakening by the day.<br>Currently, our key strategic point is the <Star> system (sector <Sector>). You must go there, <Player>, and take part in the ensuing combat.",
+        "WBAnswerWeControlMore50Percent": "In recent days the balance of power has been wavering. The pirates refuse to surrender the captured star systems to us, while our forces control a mere <Percent>% of territory in this spiral arm of the Galaxy. But the situation is coming to a head. Sooner or later one of the sides will emerge victorious, and we hope that it will be the Coalition.<br><Player>, you can do us a tremendous service by helping to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore70Percent": "The situation looks good. We control some <Percent>% of populated systems in this Galaxy. The combined forces of rangers and the military are gradually pushing the pirates from the invaded territories. Our technologies can rival those of the enemy, and our weapons have become quite effective against their ships. All in all, <Player>, there's reason for optimism! We are currently planning to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore90Percent": "At this time we control about <Percent>% of populated worlds. The pirates don't pose much of a threat; according to our estimates, we should liberate all captured systems as early as next year. <Player>, it is time to launch the final offensive!"
+      },
+      "PlayerSend": "Speak about the military developments"
+    },
+    "Wingman": {
+      "Greeting": "Greetings, Captain <Player>! You have made quite a name for yourself throughout the Galaxy as one of the most intrepid pilots out there.<br>Know that you will always receive the warmest welcome here at the <WB> military base.",
+      "NewRank": "Congratulations, you are now a <Rank>. To get promoted to the next rank you will have to accumulate <NeedPoints> points, so keep going, you've got a long way to the top. That said, <Player>, you show great promise, and it won't surprise us to see you grow into one of the best pilots out there.<br>And to help you advance in your career we are happy to give you this <ItemName> in excellent condition!"
+    }
+  }
+}

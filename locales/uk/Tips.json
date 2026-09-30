@@ -1,0 +1,42 @@
+{
+  "00": "This is a hint. An ordinary hint can be deleted by a right-click.<br>    Some important hints cannot be deleted until you complete or fail the related quest.<br>    To save a game, go to Menu (<clr>ESC<clrEnd>) and press Save (<clr>F2<clrEnd>). To load a previously saved game, press (<clr>F3<clrEnd>).",
+  "01": "To take off from a planet, enter a Hangar (<clr>H<clrEnd>) and command takeoff (<clr>F<clrEnd>).",
+  "02": "Hangars are used to repair the hull of your ship, refuel and take off from a planet. For your convenience, a robot in the upper part of the screen will always inform the pilot about breakdowns of the ship's vital systems (hull, engine, fuel tank) or absence thereof. Here the player can also check the other ships currently docked in the same spaceport.",
+  "03": "Learn to control the camera by moving the cursor to one edge of the screen, then the other. You can also move the camera by holding down the left mouse button and moving the cursor on the radar, or by holding down the right mouse button on any open area of space. Mouse over a ship, planet or any other significant object to display a hint with the description and characteristics of the object.<br>    To find your ship again, press on the Search button on the radar (<clr>C<clrEnd>).",
+  "04": "To land on a planet or a station, double-click on it. The ship will then head to the planet and land.",
+  "05": "To speak with the government, click on the Government menu button or press (<clr>G<clrEnd>) on your keyboard.",
+  "06": "To go to the trade center, click on the Trade Center menu button or press (<clr>T<clrEnd>) on your keyboard.",
+  "07": "The trade center window is divided into two parts. On the left is the list of available goods and their prices on this particular planet. On the right are the goods in your cargo bay and the prices at which you can sell them. Some of the goods might have a thumbs up symbol next to them. When on the left side, it means that the purchase price is good (i.e. cheap); when on the right side (which displays the contents of your cargo bay), it means that selling the merchandise is to your advantage (sale price is higher than purchase price).<br>    Clicking an item in the left side of the window will bring up the Purchase window. Clicking an item in the right side of the window will open the Sell window.",
+  "08": "To approach an asteroid, double-click next to it. The ship will then fly to the chosen spot.",
+  "09": "To destroy an asteroid, go to the weapons menu or press (<clr>W<clrEnd>) on your keyboard. Having chosen a weapon, select a target and press End Turn. If the weapon's range is too small, close in on the object.<br>    To fire from all weapons without going to the weapons menu, press (<clr>~<clrEnd>) on your keyboard.",
+  "10": [
+    "To pick up minerals/cargo, you must be in the immediate proximity of them. When you mouse over a mineral the cursor will change to a hand and a pickup radius will be drawn around the ship. Click on all the minerals you want to pick up, making the selected minerals with the hand icon. Then press End Turn (<clr>SPACEBAR<clrEnd>), and the ship will pick up the minerals within the pickup radius. To collect the remaining minerals you must move closer to them.",
+    "If you double-click on a specific mineral, the ship will automatically move closer and pick it up.",
+    "Make sure you have sufficient space in your cargo bay. If an object is big and doesn't fit in the available space, you will not be able to pick it up. Also, you will not be able to pick up an object without a gripper or if the gripper is not powerful enough."
+  ],
+  "11": [
+    "To find out if your ship is equipped with a gripper and its capacity, open the Ship window (<clr>S<clrEnd>).",
+    "This window displays all of your property. Mouse over an item to see its properties. You can also manipulate items. Pick up the engine and move it into the cargo bay. Close the Ship window (<clr>Esc<clrEnd>), and you will discover that you cannot fly. To fix the problem, reopen the Ship window and return the engine to its original position."
+  ],
+  "12": "To make a hyperjump, open the Galaxy Map (<clr>M<clrEnd>). Then click the star you want to jump to within your hyperengine's operating radius (displayed as a circle with your current location in the center). A path to this star system will be charted on the map. Press Hyperjump. The Galaxy Map window will close and the ship will lay a course to the target star system. Press End Turn (<clr>SPACEBAR<clrEnd>). The ship will fly to the edge of the current system and make a hyperjump.",
+  "13": "To refuel, enter the Hangar (Hangar button or <clr>H<clrEnd>), and press Refuel (<clr>B<clrEnd>). The button will only be available if your fuel tanks aren't filled to the brim.",
+  "14": "To engage another ship in battle, open the weapons menu (<clr>W<clrEnd>). Upon choosing a weapon, select a target and press End Turn. Press (<clr>~<clrEnd>) to select all available weapons.",
+  "15": [
+    "To pursue a ship, left-click on it once. Click on the ship again to select one of three possible combat options:",
+    "- <clr>Standard pursuit<clrEnd>. Suitable for pursuing civilian targets. In this mode your ship will follow the target at the closest possible distance.",
+    "- <clr>Combat pursuit<clrEnd>. Recommended for difficult fights. In this mode your ship will try to keep the target just within your firing range.",
+    "- <clr>Autocombat<clrEnd>. In this mode your ship will maneuver and use weapons automatically. Recommended for easy fights.",
+    "You can select the default pursuit mode in Settings.",
+    "When double-clicking on an object, you will automatically end your turn and your ship will fly over to the target."
+  ],
+  "16": "If there is another ship within your radar range, you can communicate with it. To do that, press Talk (<clr>T<clrEnd>) and click on the ship you want to talk to.<br>    While in talk mode, you can demand money and cargo from other captains, urge them to attack other ships, or give orders to your partners.<br>    If your ship is equipped with a scanner, you can try to scan other ships. To do that, press Scan (<clr>I<clrEnd>) and click on the object. If your scanner is powerful enough, you will see the target ship from the inside.",
+  "17": "All rangers can have other ships under their command -- so-called partners. In order for a partner to help you in a battle you must inform them of your plans. Your partner will always appear on the radar as an icon. Left-click on the icon quickly find your partner, right-click on the icon to open a dialogue window and give orders to them. Before starting a dialogue with your partner, click on the target you want to direct them to. For instance, if you are landing on a planet, you can order your partner to land on it too. The same applies to pursuing ships and hyperjumps.",
+  "18": [
+    "A black hole is actually a hyperspatial gate to other systems. Inside the hole there are hyperspatial clusters of matter, where you can encounter hostile ships from other galaxies. If that happens, only by destroying all the enemies can you exit the cluster.",
+    "Controls inside of the cluster are manual: Forward, Back, Left, Right. Fire by pressing <clr>CTRL<clrEnd>. Be ready, for you will need great courage and lightning-fast reflexes to defeat a cunning enemy. If things get rough, hand the controls over to the autopilot.",
+    "During a hyperspace fight you can collect various bonuses that may either increase or decrease your chances at victory. Simply fly over a bonus to pick it up.",
+    "To pick up an object in hyperspace, get close and click on it. The object will not be picked up if it's outside gripper range, if the gripper isn't powerful enough or if there's not enough space in your cargo bay.",
+    "Your enemies' artifacts and equipment will be your reward for victory in the black hole. Due to its non-standard construction, equipment picked up in black holes cannot be upgraded using micromodules. However, it can strengthen the effect of certain artifacts.",
+    "Be careful: when flying into a black hole you lose the ability to change equipment and weapons until you find an exit."
+  ]
+}
