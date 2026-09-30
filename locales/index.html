@@ -9,7 +9,8 @@
     --bg: #0e1418; --panel: #162028; --line: #26343f; --text: #d9e4ea; --dim: #8aa0ad;
     --accent: #5fb3e0; --warn: #e0b35f; --hl: #213442;
   }
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; border-radius: 0; }
+  input[type=search] { -webkit-appearance: none; appearance: none; }
   body { margin: 0; background: var(--bg); color: var(--text);
     font: 14px/1.45 system-ui, -apple-system, 'Segoe UI', sans-serif; }
   header { position: sticky; top: 0; z-index: 2; background: var(--panel);
@@ -17,7 +18,7 @@
     gap: 10px 16px; align-items: center; }
   header h1 { font-size: 16px; margin: 0 8px 0 0; font-weight: 600; }
   select, input[type=search] { background: var(--bg); color: var(--text); border: 1px solid var(--line);
-    border-radius: 6px; padding: 6px 8px; font: inherit; }
+    padding: 6px 8px; font: inherit; }
   input[type=search] { min-width: 240px; flex: 1; }
   label { color: var(--dim); white-space: nowrap; cursor: pointer; }
   .langs label { margin-right: 8px; }
@@ -32,7 +33,7 @@
   td.missing { color: var(--dim); font-style: italic; }
   tr.target { background: var(--hl); }
   .acts { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
-  button { background: transparent; color: var(--dim); border: 1px solid var(--line); border-radius: 5px;
+  button { background: transparent; color: var(--dim); border: 1px solid var(--line);
     padding: 2px 8px; font: 12px system-ui, sans-serif; cursor: pointer; }
   button:hover { color: var(--text); border-color: var(--dim); }
   #more { display: block; margin: 16px auto; padding: 6px 16px; font-size: 14px; }
