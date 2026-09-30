@@ -1,130 +1,130 @@
 {
   "01": {
     "Access": "1",
-    "Desc": "The arena features corridors long and wide, as well as a few spikes that may help a savvy pilot achieve victory without firing even a single shot.",
+    "Desc": "Велика карта для любителів політати наввипередки з суперниками. Забезпечена довгими і широкими коридорами, а також парочкою шипів, що дають змогу перемогти без жодного пострілу.",
     "Dif": "0",
     "Image": "Map01.jpg",
     "Map": "ABMap.map_1",
-    "Name": "Pursuit"
+    "Name": "Погоня"
   },
   "02": {
     "Access": "1",
-    "Desc": "An adventure for fans of aggressive gaming, where pure firepower is your best bet. The bubble is fairly large with objects scattered throughout the surface, making it difficult to find cover in the arena.",
+    "Desc": "Пригода для любителів агресивної гри, в якій ставка робиться на вогневу міць. Бульбашка досить велика, об'єкти в ній розосереджені по всій поверхні, тому ховатися на цій арені не вийде.",
     "Dif": "0",
     "Image": "Map02.jpg",
     "Map": "ABMap.map_2",
-    "Name": "Arena of Justice"
+    "Name": "Арена Справедливості"
   },
   "03": {
     "Access": "1",
-    "Desc": "Narrow passages and treacherous gravitational spikes that grab hold of ships flown by careless pilots at the bends are but a few on a long list of surprises that await rangers in this arena.",
+    "Desc": "Вузькі проходи і підступні гравітаційні шипи на поворотах, що вистачають кораблі пілотів, що втратили пильність - далеко не повний список несподіванок і сюрпризів, що чекають на рейнджера на цій арені.",
     "Dif": "0",
     "Image": "Map03.jpg",
     "Map": "ABMap.map_3",
-    "Name": "Pandorica"
+    "Name": "Пандоріка"
   },
   "04": {
     "Access": "1",
-    "Desc": "This spherical arena will please fans of strategy and the fae, all of whom are obsessive military tacticians. With numerous narrow passageways branching out from the main route, there is always an opportunity for crafty tricks and maneuvers.",
+    "Desc": "Цікава для шанувальників стратегії та феян (які всі любителі будувати плани на бій) сферична арена, з безліччю вузьких відгалужень від основного маршруту, що ідеально підходять для хитромудрих маневрів.",
     "Dif": "1",
     "Image": "Map04.jpg",
     "Map": "ABMap.map_4",
-    "Name": "Los-Lasonium"
+    "Name": "Лос-Ласоніум"
   },
   "05": {
     "Access": "1",
-    "Desc": "A radial, average-sized map furnished with a few spikes that could either help you best your opponent or prove to be your undoing. It all depends on which one of you gets lucky.",
+    "Desc": "Радіальна карта середніх розмірів, з парочкою шипів, за допомогою яких можна домогтися додаткової переваги в сутичці, або ж навпаки, допомогти противнику здолати вас. Залежить від того, кому більше поталанить.",
     "Dif": "2",
     "Image": "Map05.jpg",
     "Map": "ABMap.map_5",
-    "Name": "Centrifuge"
+    "Name": "Центрифуга"
   },
   "06": {
     "Access": "1",
-    "Desc": "Loaded with objects, this arena makes it downright impossible to travel at high speeds. On the other hand, there's tremendous potential to hone your <color=0,69,231>mobility</color> skill. Recommended for novices who wish to raise their piloting skill.",
+    "Desc": "Насичена об'єктами арена. Рух на високих швидкостях у цьому міхурі просто неможливий, зате є величезний потенціал для відпрацювання ваших навичок <color=0,69,231>маневреності</color>. Рекомендується новачкам, які бажають підвищити свій рівень пілотажу.",
     "Dif": "1",
     "Image": "Map06.jpg",
     "Map": "ABMap.map_6",
-    "Name": "Labyrinth"
+    "Name": "Лабіринт"
   },
   "07": {
     "Access": "1",
-    "Desc": "The contours of this recently opened hyperspatial bubble resemble a ball used in a classic game from the ancient times -- <color=0,69,231>faceball</color> (official translation from Ancient English). For this reason, it is immensely popular among human rangers and pirates.",
+    "Desc": "Нещодавно відкритий гіперпросторовий міхур, що нагадує своїми обрисами м'ячик, що використовується у великій грі давнини - <color=0,69,231>фейсболі</color> (офіційний переклад із давньоангліканського). Через це дуже популярний серед рейнджерів та піратів людської раси.",
     "Dif": "0",
     "Image": "Map07.jpg",
     "Map": "ABMap.map_7",
-    "Name": "Ball"
+    "Name": "М'яч"
   },
   "08": {
     "Access": "1",
-    "Desc": "Popular thanks to its unusual form, this wondrous hyperbubble boasts contours that mirror exactly the only shape in gaalian geometry that has borders. The bubble is protected by law, and vandalism is strictly prohibited. For this very reason, it is especially popular among pirates.",
+    "Desc": "Дивовижний гіперміхур, популярний завдяки своїй унікальній формі. Він точно повторює своїми контурами єдину фігуру, що має межі в гаальській геометрії. Бульбашка охороняється законом, а вандалізм у ньому суворо заборонено. Саме тому він особливо популярний серед піратів.",
     "Dif": "2",
     "Image": "Map08.jpg",
     "Map": "ABMap.map_8",
-    "Name": "Polyhedral Gaalexagon"
+    "Name": "Багатогранний гаалоліпіпед"
   },
   "09": {
     "Access": "1",
-    "Desc": "Yet another unique bubble, artificially cultivated by the renowned gaal thinker and scientist <color=0,69,231>Krooldyn</color>. A construct of several loops, linked together by narrow corridors and packing a few surprises in the center, both pleasant and not so much.",
+    "Desc": "Ще один унікальний міхур, штучно вирощений відомим гаальським ученим-мислителем - <color=0,69,231>Кроолдіном</color>. Уявляє собою кілька кіл, з'єднаних вузькими коридорами і з парочкою сюрпризів у центральній частині, як приємними, так і не дуже.",
     "Dif": "1",
     "Image": "Map09.jpg",
     "Map": "ABMap.map_9",
-    "Name": "Artificale"
+    "Name": "Артифікал"
   },
   "10": {
     "Access": "1",
-    "Desc": "Three paths were bequeathed to us by the great prophet <color=0,69,231>Fayelienoa</color>, three choices offered by the thinkers of years past, three roads presented by the ancient legends. The laws of faeyan shui necessitate that at the base this hyperbubble must lie another triangle, its energy rays running parallel to the corridors that branch outward from the center.",
+    "Desc": "Три шляхи заповідані нам великим пророком <color=0,69,231>Файлайном</color>, три варіанти пропонували вибрати мислителі минулого, три дороги пропонують нам давні оповіді. В основі даного гіперміхура за всіма законами феяншуя так само лежить трикутник, і промені його енергії паралельні коридорам, що розходяться в сторони від центру.",
     "Dif": "3",
     "Image": "Map10.jpg",
     "Map": "ABMap.map_10",
-    "Name": "Tricyclism"
+    "Name": "Трициклізм"
   },
   "11": {
     "Access": "1",
-    "Desc": "Along the \"equator\" of this rather interesting bubble, pirates are known to stage illegal drag races. Half the size of what it once was, the arena folded on itself after a critical energy mass overload, leaving only half of the bubble fit for operation. If you listen hard to sounds coming from the other side of the bubble's wall, you can still hear opposing ships going at it.",
+    "Desc": "Досить цікава бульбашка, за \"екватором\" якої пірати люблять влаштовувати нелегальні драг-гонки. Раніше арена була вдвічі більшою, але потім через критичне перевантаження енергомаси частина її зхлопнулася, залишивши вільною для перебування лише половину міхура. Якщо прислухатися, то можна почути, як по той бік стінки міхура, що залишилися в ньому в момент зхлопування, кораблі досі борються між собою.",
     "Dif": "3",
     "Image": "Map11.jpg",
     "Map": "ABMap.map_11",
-    "Name": "Hemisphere"
+    "Name": "Півсфера"
   },
   "12": {
     "Access": "1",
-    "Desc": "This arena is of primary interest to researchers of hyperspace bubbles, as well as pirates hunting said researchers of hyperspace bubbles. Due to an extraordinary whim of nature, the bubble features mostly right angles, adding a measure of difficulty to maneuvering.",
+    "Desc": "Арена, цікава в першу чергу для дослідників гіперпросторових міхурів і для піратів, що полюють на дослідників гіперпросторових міхурів. Завдяки якомусь неймовірному забаганку природи більшість кутів у міхурі прямі, що створює певні труднощі для маневрування.",
     "Dif": "3",
     "Image": "Map12.jpg",
     "Map": "ABMap.map_12",
-    "Name": "Quadrubble"
+    "Name": "Квадразир"
   },
   "13": {
     "Access": "1",
-    "Desc": "A large hyperbubble with wide corridors, which not only aids maneuverability and skirmishing with the enemy, but makes even a simple flight pure pleasure. The arena bears the name of its discoverer, who, for reasons unknown, wasn't able to escape the bubble and ended up dying inside it. The official report claims that his ship had caught on the spikes, causing critical damage to the engine and grounding the ship to the sinister berth, where it ultimately perished.",
+    "Desc": "Великий гіперміхур із широкими коридорами, що дають простір для маневру, в якому не тільки зручно розправлятися з ворогами, а й просто приємно літати. Арена названа так на честь її першовідкривача, який з якихось невідомих причин не зміг вибратися з міхура і в ньому ж помер. Офіційна версія того, що сталося, полягає в тому, що він випадково зіткнувся з шипами, які пошкодили двигун і корабель залишився прикутим до підступної пристані, яка знищила його.",
     "Dif": "3",
     "Image": "Map13.jpg",
     "Map": "ABMap.map_13",
-    "Name": "Reegbar's Arena"
+    "Name": "Арена Реєгбара"
   },
   "14": {
     "Access": "1",
-    "Desc": "Shaped like a cross, this arena has been officially added as a pilgrimage site for followers of the <color=0,69,231>Bubblism</color> religion, believing that inside the hyperbubble they have a greater chance of hearing the voice of God. One thing is clear: those who encounter pirates in this bubble are very much likely to not only hear God, but see him as well.",
+    "Desc": "Завдяки своїй унікальній хрестоподібній формі ця арена офіційно зарахована до місць паломництва шанувальників релігії \"<color=0,69,231>пузиристів</color>\", які вважають, що всередині гіперпузиря у них більше шансів почути голос Божий. Точно відомо лише те, що ті, хто зустрічаються у міхурі з піратами, згодом можуть не тільки почути Бога, а й побачити його, з великою ймовірністю.",
     "Dif": "2",
     "Image": "Map14.jpg",
     "Map": "ABMap.map_14",
-    "Name": "Cross"
+    "Name": "Хрест"
   },
   "15": {
     "Access": "1",
-    "Desc": "This bubble, known for being well suited for combat, was allegedly the favorite hangout place for the infamous bandit <color=0,69,231>Rachehan</color>, who used to gather his pirate forces here before leading raids on other hyperbubbles and the outer part of the Galaxy. These days you can often meet pirates from the <color=0,69,231>Rachehan's Children</color> clan here, renowned for their ruthlessness and a tendency to destroy any ship they encounter, including pirate ships of other clans.",
+    "Desc": "Досить зручний для битв міхур, за чутками був улюбленим місцем перебування знаменитого розбійника <color=0,69,231>Рачехана</color>, який проводив у ньому піратські зльоти перед тим, як влаштовувати набіги на інші гіперпузирі або зовнішню частину галактики. В наші дні в ньому часто зустрічаються пірати клану \"<color=0,69,231>Діти Рачехана</color>\", що славляться своєю злісністю і знищують будь-який корабель, включаючи піратські кораблі інших кланів.",
     "Dif": "3",
     "Image": "Map15.jpg",
     "Map": "ABMap.map_15",
-    "Name": "Rachehania"
+    "Name": "Рахання"
   },
   "16": {
     "Access": "1",
-    "Desc": "This one-of-a-kind round bubble was formed as a direct consequence of <color=0,69,231>Keller</color> generating a black hole. Few who get to see this arena of death firsthand live to tell about it. Thus, unsubstantiated rumors dominate the informational landscape, mostly relating to the advantages of nonstandard combat tactics in this bubble.",
+    "Desc": "Унікальний круглий міхур, що формується безпосередньо при генерації чорної діри <color=0,69,231>Келлером</color>. Мало кому вдається побачити на власні очі це арену смерті, тому переважно про неї ходять невизначені чутки, що стосуються переважно нестандартних тактик ведення бою в даному міхурі.",
     "Dif": "3",
     "Image": "Map16.jpg",
     "Map": "ABMap.map_boss",
-    "Name": "Kelleriada"
+    "Name": "Келеріада"
   }
 }

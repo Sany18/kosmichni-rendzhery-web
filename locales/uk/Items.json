@@ -1,28 +1,28 @@
 {
   "CargoHook": {
     "AverageSize": "40",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Gripper is now broken.",
-    "BrokenInBattle": "Warning! The gripper was damaged in battle. You will not be able to pull in objects until you get it fixed.",
-    "BrokenInUse": "You will not be able to grip any more items. The gripper is worn out and needs repair.",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Захоплення більше не працює.",
+    "BrokenInBattle": "Увага! Під час бою було пошкоджено захоплення. Ви не зможете притягувати предмети, доки не відремонтуєте його.",
+    "BrokenInUse": "Більше ви не зможете захопити жодного предмета. Справа в тому, що захоплення зносилося і потребує ремонту.",
     "Detail": {
-      "1": "Power",
-      "2": "Range"
+      "1": "Потужність",
+      "2": "Дальність"
     },
-    "KlingName": "Menthoprobe",
-    "KlingText": "Generates a directed menthokinetic flow and grips objects up to <PickUpSize> units in size within a radius of <Radius>.",
-    "Name": "<Type> gripper",
-    "ShortName": "Gripper",
-    "Text": "Grips small objects up to <PickUpSize> units in size within a radius of <Radius>.",
+    "KlingName": "Ментощуп",
+    "KlingText": "Створює спрямований ментокінезний потік та здійснює захоплення предметів розміром до <PickUpSize> одиниць на відстані <Radius>.",
+    "Name": "<Type> захоплення",
+    "ShortName": "Захоплення",
+    "Text": "Захоплює невеликі об'єкти розміром до <PickUpSize> одиниць на відстані <Radius>.",
     "Type": {
-      "1": "Activating",
-      "2": "Telekinetic",
-      "3": "Plasmathread",
-      "4": "Ectogenic",
-      "5": "Piezotropic",
-      "6": "Erimetric",
-      "7": "Optoundular",
-      "8": "Microtonal"
+      "1": "Активаторний",
+      "2": "Телекінетичний",
+      "3": "Плазмонітовий",
+      "4": "Ектогенний",
+      "5": "П'єзотронний",
+      "6": "Ериметроїдний",
+      "7": "Оптохвильовий",
+      "8": "Мікротональний"
     },
     "mMass": "40,50,60,80,90,100,150,500",
     "mRadius": "100,110,120,130,140,150,175,200",
@@ -30,133 +30,133 @@
     "mSpeedFar": "1,1,2,3,3,4,5,7"
   },
   "Cistern": {
-    "FromFuelTanks": "Dump fuel from the fuel tank?",
-    "Merge": "Transfer fuel?",
-    "Name": "Cistern",
-    "Name2": "Cistern",
+    "FromFuelTanks": "Злити паливо із паливного бака?",
+    "Merge": "Перелити паливо?",
+    "Name": "Цистерна",
+    "Name2": "Цистерну",
     "Text": [
-      "Fuel Cistern",
-      "Amnt: <Fuel>/<Capacity>"
+      "Цистерна з паливом",
+      "Кількість: <Fuel>/<Capacity>"
     ],
-    "ToFuelTanks": "Fill the fuel tank with fuel?"
+    "ToFuelTanks": "Залити паливо у паливний бак?"
   },
   "DefGenerator": {
     "AverageSize": "40",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Shield generator is now broken.",
-    "BrokenInBattle": "Danger! The shield generator was damaged by a direct hit. The defensive field is no longer functional. Urgent repair required!",
-    "BrokenInUse": "The shield generator is broken. Timely maintenance is advised in the future.",
-    "KlingName": "Pixelyte",
-    "KlingText": "An impact-matrix shield generator capable of neutralizing up to <Percent>% of incoming negative effects.",
-    "Name": "<Type> shield generator",
-    "NameSmall": "<Type> shield generator",
-    "ShortName": "Shield Generator",
-    "Text": "Blocks <Percent>% of incoming damage.",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Генератор захисту не працює.",
+    "BrokenInBattle": "Небезпека! Генератор захисту був пошкоджений прямим попаданням. Захисне поле більше не працює. Потрібен терміновий ремонт!",
+    "BrokenInUse": "Генератор захисту зламався. Потрібно своєчасно робити ремонт.",
+    "KlingName": "Пікселіт",
+    "KlingText": "Генератор точкового захисту, здатний нейтралізувати <Percent>% негативного зовнішнього впливу.",
+    "Name": "<Type> генератор захисту",
+    "NameSmall": "<Type> Г.З.П.",
+    "ShortName": "Генератор захисту",
+    "Text": "Блокує <Percent>% шкоди, що завдається.",
     "Type": {
-      "1": "Shortwave",
-      "2": "Polarizing",
-      "3": "Mesonic",
-      "4": "Mesh",
-      "5": "Polygon",
-      "6": "Zone",
-      "7": "Microlevel",
-      "8": "Ultraplasmic"
+      "1": "Короткохвильовий",
+      "2": "Поляризуючий",
+      "3": "Мезонний",
+      "4": "Сітчастий",
+      "5": "Полігональний",
+      "6": "Зональний",
+      "7": "Мікрорівневий",
+      "8": "Ультраплазмовий"
     },
     "mDef": "0.10,0.13,0.16, 0.19, 0.22, 0.25, 0.28, 0.31"
   },
   "Engine": {
     "AverageSize": "40",
-    "Broken": "(repairs required)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Engine is now broken.",
-    "BrokenInBattle": "Warning! The engine was damaged by a direct enemy hit. It is strongly recommended to leave combat immediately and drive the impulse to the nearest base.",
-    "BrokenInUse": "Your engine is completely worn out and in need of repair. It is an essential part of your ship, so timely maintenance is a must!",
+    "Broken": "(Вимагає ремонту)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Двигун зламався.",
+    "BrokenInBattle": "Увага! Пряме влучення в двигун вивело його з ладу. Рекомендується вийти з бою та на останньому імпульсі дотягнути до найближчої бази.",
+    "BrokenInUse": "Двигун дуже поганий і вимагає ремонту. Це важлива частина корабля, необхідно своєчасно робити його ремонт!",
     "Detail": {
-      "1": "Speed",
-      "2": "Jump"
+      "1": "Швидкість",
+      "2": "Стрибок"
     },
     "ForsageCoef": "2.0",
-    "KlingName": "Torsion Reactor",
-    "KlingText": "Allows for a top speed of <Speed> units and a hyperjump range of <Parsec> parsecs.",
-    "Name": "<Type> engine",
-    "NoPowerJump": "Insufficient power to jump to the <Star> system.",
-    "ShortName": "Engine",
-    "Text": "Allows for a top speed of <Speed> units and a hyperjump range of <Parsec> parsecs.",
+    "KlingName": "Торсійний реактор",
+    "KlingText": "Дозволяє розвивати швидкість до <Speed> одиниць і здійснювати гіперстрибок на <Parsec> парсек.",
+    "Name": "<Type> двигун",
+    "NoPowerJump": "Бракує потужності для стрибка в систему <Star>.",
+    "ShortName": "Двигун",
+    "Text": "Дозволяє розвивати швидкість до <Speed> одиниць і здійснювати гіперстрибок на <Parsec> парсек.",
     "Type": {
-      "1": "Diving",
-      "2": "Singular",
-      "3": "Gillnozzle",
-      "4": "Flow",
-      "5": "Splash",
-      "6": "Graviton",
-      "7": "Stensor",
-      "8": "Temporal"
+      "1": "Нирковий",
+      "2": "Сингулярний",
+      "3": "Жаброюзний",
+      "4": "Потоковий",
+      "5": "Сплешевий",
+      "6": "Гравітонний",
+      "7": "Стансерний",
+      "8": "Темпоральний"
     },
     "mJump": "17,19,21,25,29,33,37,41",
     "mSpeed": "400,450,500,600,700,800,900,1000"
   },
   "Equpments": {
-    "AverageDuration": "(over 50% damage)",
-    "CanNotBeRepaired": "(repair unavailable)",
-    "CanNotBeUsed": "(usage unavailable)",
-    "NowCanRepair": "Great news! You have familiarized yourself with the latest achievements of technical progress and now know how to repair the following equipment:",
-    "NowCanUse": "Great news! You have got acquainted with the latest achievements of technical progress and can now use the following equipment:",
-    "SmallDuration": "(critical condition)"
+    "AverageDuration": "(понад 50% пошкоджень)",
+    "CanNotBeRepaired": "(ремонт недоступний)",
+    "CanNotBeUsed": "(використання недоступне)",
+    "NowCanRepair": "Чудові новини! Ви ознайомилися з найновішими досягненнями технічного прогресу і тепер знаєте, як ремонтувати наступне обладнання:",
+    "NowCanUse": "Чудові новини! Ви ознайомилися з найновішими досягненнями технічного прогресу і тепер можете використати наступне обладнання:",
+    "SmallDuration": "(на межі поломки)"
   },
   "FuelTanks": {
     "AverageSize": "40",
-    "Broken": "(leaking)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Fuel tank is now leaking.",
-    "BrokenInBattle": "Warning! The fuel tank was damaged by a direct hit! It is leaking.",
-    "BrokenInUse": "The fuel tank broke down from the overload. It is strongly recommended that you land and repair it -- flying with a leaking fuel tank is very dangerous.",
-    "KlingName": "Stackbarrel",
-    "KlingText": "A fuel container with a capacity of <Capacity>. Fuel amount: <Fuel>.",
-    "LostFuel": "There was some leakage from the breached tank.",
-    "Name": "<Type> fuel tank",
-    "NoFuelJump": "Insufficient fuel to jump to the <Star> system.",
-    "ShortName": "Fuel Tank",
-    "Text": "Tank capacity: <Capacity>. Fuel amount: <Fuel>.",
+    "Broken": "(Протікає)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Паливний бак почав протікати.",
+    "BrokenInBattle": "Увага! Пряме влучення в паливний бак вивело його з ладу! Він протікає.",
+    "BrokenInUse": "Паливний бак не витримав навантажень і зламався. Рекомендується здійснити посадку і зробити ремонт, так як польоти з паливним баком, що протікає, небезпечні.",
+    "KlingName": "Стекбарель",
+    "KlingText": "Паливний контейнер ємністю <Capacity>. Кількість палива <Fuel> одиниць.",
+    "LostFuel": "З пробитого бака випливло трохи палива.",
+    "Name": "<Type> паливний бак",
+    "NoFuelJump": "Бракує палива для стрибка в систему <Star>.",
+    "ShortName": "Паливний бак",
+    "Text": "Місткість бака <Capacity>. Кількість палива <Fuel> одиниць.",
     "Type": {
-      "1": "Hyperliquid",
-      "2": "Condensed",
-      "3": "Reductional",
-      "4": "Protovesicular",
-      "5": "Positional",
-      "6": "Endoclustered",
-      "7": "Gyroscopic",
-      "8": "Tecronic"
+      "1": "Гіперрідинний",
+      "2": "Конденсатний",
+      "3": "Редукційний",
+      "4": "Протопузирчастий",
+      "5": "Позиційний",
+      "6": "Ендокластерний",
+      "7": "Гіроскопічний",
+      "8": "Текриновий"
     },
     "mCapacity": "10,15,20,25,30,35,40,45"
   },
   "Goods": {
     "Name": {
-      "1": "Foodstuffs",
-      "2": "Medical Supplies",
-      "3": "Technics",
-      "4": "Luxury",
-      "5": "Minerals",
-      "6": "Alcohol",
-      "7": "Weapons",
-      "8": "Narcotics"
+      "1": "Продукти",
+      "2": "Медикаменти",
+      "3": "Техніка",
+      "4": "Розкіш",
+      "5": "Мінерали",
+      "6": "Алкоголь",
+      "7": "Зброя",
+      "8": "Наркотики"
     },
     "NameBuy": {
-      "1": "Foodstuffs",
-      "2": "Medical Supplies",
-      "3": "Technics",
-      "4": "Luxury",
-      "5": "Minerals",
-      "6": "Alcohol",
-      "7": "Weapons",
-      "8": "Narcotics"
+      "1": "Продукти",
+      "2": "Медикаменти",
+      "3": "техніку",
+      "4": "Розкіш",
+      "5": "Мінерали",
+      "6": "Алкоголь",
+      "7": "Зброя",
+      "8": "Наркотики"
     },
     "Text": {
-      "1": "All manner of edible goods, sealed in tetrogenic packaging.",
-      "2": "Products designed to treat and prevent illnesses.",
-      "3": "Electronic equipment and appliances for personal and industrial use.",
-      "4": "Jewelry, works of art and other items of indulgence.",
-      "5": "Minerals, precious metals and other rare elements.",
-      "6": "Spirits and other low-toxicity products.",
-      "7": "All manner of weapons: edged, hand-held, nuclear, psychotropic, etc.",
-      "8": "Banned gaostimulators and other controlled substances."
+      "1": "Різні їстівні товари, запаковані в тетрогенні упаковки.",
+      "2": "Продукція, що служить для лікування та профілактики захворювань.",
+      "3": "Предмети електроніки, побутової та виробничої техніки.",
+      "4": "Дорогоцінності, витвори мистецтва та інші предмети розкоші.",
+      "5": "Мінерали, цінні метали та інші рідкісні елементи.",
+      "6": "Вино-горілчані вироби та інша слабонаркотична продукція.",
+      "7": "Різні види зброї: холодна, ручна, ядерна, психотропна та інше.",
+      "8": "Заборонені гаостимулятори та інші наркотичні продукти."
     },
     "kInflationMax": "4.0",
     "kInflationMin": "1.0",
@@ -165,27 +165,27 @@
   },
   "Hull": {
     "AverageSize": "500",
-    "Name": "<Type> hull <ShipType>",
+    "Name": "<Type> корпус <ShipType>",
     "ShipType": {
-      "Diplomat": "diplomat",
-      "Kling": "dominator",
-      "Liner": "liner",
-      "Pirate": "pirate",
-      "Ranger": "ranger",
-      "Transport": "transport",
-      "Warrior": "warrior"
+      "Diplomat": "дипломата",
+      "Kling": "домінатора",
+      "Liner": "лайнера",
+      "Pirate": "пірата",
+      "Ranger": "рейнджера",
+      "Transport": "транспорту",
+      "Warrior": "воїна"
     },
-    "ShortName": "Hull",
-    "Text": "Hull durability: <Size> (<MaxSize>) units, skin blocks up to <HitProtect> incoming damage. Damage susceptibility:<br>E:<FragilityE>%  S:<FragilityS>%  M:<FragilityM>%.",
+    "ShortName": "Корпус",
+    "Text": "Стійкість корпусу: <Size> (<MaxSize>) одиниць, обшивка блокує до <HitProtect> одиниць шкоди. Сприйнятливість до втрат:<br>Е:<FragilityE>% Про:<FragilityS>% Р:<FragilityM>%.",
     "Type": {
-      "1": "Gravicore",
-      "2": "Mesostructural",
-      "3": "Rogust",
-      "4": "Brominated",
-      "5": "Chrobyte",
-      "6": "Polymorphic",
-      "7": "Nanochitinous",
-      "8": "Bioslotting"
+      "1": "Гравікорний",
+      "2": "Мезоструктурний",
+      "3": "Рогостовий",
+      "4": "Бромований",
+      "5": "Хробайтовий",
+      "6": "Поліморфний",
+      "7": "Нанохітіновий",
+      "8": "Біослотовий"
     },
     "mAlloy": "1,2,3,4,5,6,7,8",
     "mFragilityByLevelEnergy": "1.00, 1.00, 1.00, 1.05, 1.10, 1.00, 0.95, 0.85",
@@ -197,211 +197,211 @@
     "mFragilityByShipType": "1.0, 0.9, 1.1, 1.2, 1.1, 1.0, 1.0, 1.0, 0.9, 1.0, 0.9"
   },
   "Nod": {
-    "Name": "Nodes",
-    "S0": "Blazer",
-    "S1": "Keller",
-    "S2": "Terron",
+    "Name": "Ноди",
+    "S0": "Блазера",
+    "S1": "Келера",
+    "S2": "Терона",
     "Text": [
-      "Elementary dominator microelements.",
-      "Amnt: <N> pcs."
+      "Найпростіші мікроелементи домінаторів.",
+      "Кількість: <N> шт."
     ]
   },
   "Radar": {
     "AverageSize": "30",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Radar is now broken.",
-    "BrokenInBattle": "Warning! The radar was damaged by a direct hit. Immediate repairs are required.",
-    "BrokenInUse": "The radar broke. Timely maintenance is advised in the future.",
-    "KlingName": "Sensotron",
-    "KlingText": "Picks up data about objects within a radius of <Radius> million kilometers.",
-    "Name": "<Type> radar",
-    "ShortName": "Radar",
-    "Text": "Picks up data about objects within a radius of <Radius> million kilometers.",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Радар більше не працює.",
+    "BrokenInBattle": "Увага! Внаслідок влучного влучення радар вийшов з ладу. Потрібен терміновий ремонт.",
+    "BrokenInUse": "Радар зламався. Потрібно своєчасно робити ремонт.",
+    "KlingName": "Сенсотрон",
+    "KlingText": "Дозволяє отримувати інформацію про об'єкти на відстані до <Radius> млн. км.",
+    "Name": "<Type> радар",
+    "ShortName": "Радар",
+    "Text": "Отримує інформацію про об'єкти з відривом до <Radius> млн. км.",
     "Type": {
-      "1": "Undular",
-      "2": "Subtransfer",
-      "3": "Octonic",
-      "4": "Fascicular",
-      "5": "Cathauric",
-      "6": "Neurolinear",
-      "7": "Ethane",
-      "8": "Zero-contact"
+      "1": "Хвильовий",
+      "2": "Субтрансферний",
+      "3": "Октонний",
+      "4": "Пучковий",
+      "5": "Катаурний",
+      "6": "Нейрострумовий",
+      "7": "Етановий",
+      "8": "Нуль-контактний"
     },
     "mRadius": "1200,1400,1600,1800,2100,2400,2700,3000"
   },
   "RepairRobot": {
     "AverageSize": "40",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Droid is now broken.",
-    "BrokenInBattle": "Warning! The droid is damaged! It can no longer mend the skin and requires repairs.",
-    "BrokenInUse": "The droid overexerted itself, causing all its microchips to short-circuit. Repairs are required.",
-    "KlingName": "Dianode",
-    "KlingText": "Patches damaged areas with a rapidly solidifying substance, restoring <RecoverHitPoints> hit points to the ship's skin.",
-    "Name": "<Type> droid",
-    "ShortName": "Droid",
-    "Text": "Restores <RecoverHitPoints> hit points to the ship's skin.",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Дроїд більше не працює.",
+    "BrokenInBattle": "Увага! Дроїд пошкоджено! Він більше не здатний лагодити обшивку і потребує ремонту.",
+    "BrokenInUse": "Дроїд перепрацював. У нього згоріли всі мікросхеми. Він потребує ремонту.",
+    "KlingName": "Діанод",
+    "KlingText": "Заповнює пошкоджені місця швидкозатвердювальною речовиною, відновлює <RecoverHitPoints> одиниць пошкодженої обшивки.",
+    "Name": "<Type> дроїд",
+    "ShortName": "Дроїд",
+    "Text": "Відновлює <RecoverHitPoints> одиниць пошкодженої обшивки.",
     "Type": {
-      "1": "Biotic",
-      "2": "Suspensory",
-      "3": "Tracking",
-      "4": "Tubular",
-      "5": "Bolide",
-      "6": "Tensor",
-      "7": "Dowel",
-      "8": "Duplex"
+      "1": "Біотичний",
+      "2": "Суспензорний",
+      "3": "Трекінговий",
+      "4": "Стовбуровий",
+      "5": "Болідний",
+      "6": "Тензорний",
+      "7": "Штифтовий",
+      "8": "Дуплексний"
     },
     "mRepair": "10,15,20,25,30,40,50,60"
   },
   "Satellite": {
     "0": {
       "Cost": "Small",
-      "Name": "Operon",
+      "Name": "Оперон",
       "Size": "10",
       "Speed": "1,1,1",
       "Text": [
-        "A high-orbit C class satellite. Carries out monitoring on all kinds of terrain. Mid reliability.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Високоорбітальний супутник класу \"C\". Розвідка на всіх типах місцевостей. Середня надійність.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Average"
     },
     "1": {
       "Cost": "Small",
-      "Name": "Cerind",
+      "Name": "Керінд",
       "Size": "7",
       "Speed": "0,2,0",
       "Text": [
-        "A low-orbit C class satellite. Carries out monitoring on plains. Long service period guaranteed.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Низькоорбітальний супутник класу \"С\". Здійснює розвідку на рівнинних ділянках. Гарантується тривалий термін експлуатації.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Small"
     },
     "2": {
       "Cost": "Big",
-      "Name": "Tecton",
+      "Name": "Тектон",
       "Size": "15",
       "Speed": "0,2,2",
       "Text": [
-        "A high-orbit B class satellite. Carries out monitoring on plains and mountains. Mid reliability.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Високоорбітальний супутник класу \"B\". Здійснює розвідку суші та гірської місцевості. Середня надійність.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Average"
     },
     "3": {
       "Cost": "Big",
-      "Name": "Shacklas",
+      "Name": "Шаклас",
       "Size": "10",
       "Speed": "3,1,0",
       "Text": [
-        "A low-orbit B class satellite. Excellent at scanning sea depths and adjoining lands. Requires constant maintenance.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Низькоорбітальний супутник класу \"B\". Відмінно сканує глибоководні ділянки моря та прилеглу сушу. Потребує постійного ремонту.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Huge"
     },
     "4": {
       "Cost": "Huge",
-      "Name": "Neutra",
+      "Name": "Нейтра",
       "Size": "15",
       "Speed": "2,2,2",
       "Text": [
-        "A spy A class satellite Used by special services. Efficient at scanning all types of terrain, but has low reliability.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Шпигунський супутник класу \"A\". Використовується спецслужбами. Ефективний при розвідці у будь-якій місцевості, але має низьку надійність.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Big"
     },
     "5": {
       "Cost": "Huge",
-      "Name": "Oculus",
+      "Name": "Глазнюк",
       "Size": "25",
       "Speed": "1,1,4",
       "Text": [
-        "A low-orbit A class satellite. Excellent at scanning mountains and adjoining territory. Virtually everlasting.",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Низькоорбітальний супутник класу \"A\". Відмінно сканує гірські масиви та прилеглі території. Майже вічний.",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ],
       "Wear": "Mini"
     },
-    "Broken": "(repairs required)",
-    "BrokenInUse": "Incoming signal from planet <Planet>. Recon probe <Name> has malfunctioned and requires repair.",
-    "IdleInfo": "- <Name> (weight <Size>) is idle on planet <Planet>",
-    "Name": "Probe",
-    "Work": "(monitoring planet)",
-    "WorkEnd": "(idle)"
+    "Broken": "(Вимагає ремонту)",
+    "BrokenInUse": "Отримано сигнал із планети <Planet>. Розвідзонд <Name> вийшов з ладу та потребує ремонту.",
+    "IdleInfo": "- <Name> (вага <Size>) простоює на планеті <Planet>",
+    "Name": "Зонд",
+    "Work": "(Досліджує планету)",
+    "WorkEnd": "(Простоює)"
   },
   "Scaner": {
     "AverageSize": "30",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Scaner is now broken.",
-    "BrokenInBattle": "Warning! The scanner was damaged by a direct hit. It is broken and requires repairs. Ship scanning is impossible.",
-    "BrokenInUse": "The scanner has ended its service life. It needs to be repaired or replaced.",
-    "KlingName": "Tech Detector",
-    "KlingText": "Scans for tech objects with a shield generator at less than <Percent>%",
-    "Name": "<Type> scanner",
-    "ShortName": "Scanner",
-    "Text": "Scans for objects with a shield generator at less than <Percent>%",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Сканер більше не працює.",
+    "BrokenInBattle": "Увага! Пряме влучення в сканер. Він зламаний і потребує ремонту. Сканування кораблів неможливо.",
+    "BrokenInUse": "Сканер відпрацював свій експлуатаційний термін. Потрібний ремонт або повна заміна.",
+    "KlingName": "Тех-детектор",
+    "KlingText": "Здійснює сканування технологічних об'єктів із захисним полем менше <Percent>%",
+    "Name": "<Type> сканер",
+    "ShortName": "Сканер",
+    "Text": "Сканує об'єкти, захисне поле яких менше <Percent>%",
     "Type": {
-      "1": "Tracer",
-      "2": "Vortex",
-      "3": "Neuroprobic",
-      "4": "Molecular",
-      "5": "Colloidal",
-      "6": "Tecoral",
-      "7": "Deatomic",
-      "8": "Quantifying"
+      "1": "Трасійний",
+      "2": "Вортексний",
+      "3": "Нейрощупний",
+      "4": "Молекулярний",
+      "5": "Колоїдний",
+      "6": "Текторний",
+      "7": "Деатомарний",
+      "8": "Кванторний"
     }
   },
-  "SmallInfo": "Container",
+  "SmallInfo": "Контейнер",
   "TreasureMap": {
-    "Hint": "The treasure's exact coordinates are encrypted, probes will be required to search for it.",
-    "Name": "Treasure Map",
-    "Text": "The map shows that <Ship> hid the looted treasure on planet <Planet>."
+    "Hint": "Точні координати скарбу зашифровані, потрібні зонди для його пошуку.",
+    "Name": "Карта скарбів",
+    "Text": "Карта свідчить, що <Ship> сховав награбовані скарби на планеті <Planet>."
   },
   "Weapon": {
-    "AddText": "Type: <WeaponType>",
-    "Broken": "(non-functional)",
-    "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. <Name> is now broken.",
-    "BrokenInBattle": "Warning! <Name> was damaged by a direct hit.",
-    "BrokenInUse": "<Name> has malfunctioned while firing.",
+    "AddText": "Тип: <WeaponType>",
+    "Broken": "(не функціонує)",
+    "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Зброя <Name> більше не працює.",
+    "BrokenInBattle": "Увага! В результаті влучного влучення зброю <Name> виведено з ладу.",
+    "BrokenInUse": "Під час стрілянини зафіксовано поломку зброї <Name>.",
     "Detail": {
-      "1": "Damage",
-      "2": "Range"
+      "1": "Втрата",
+      "2": "Дальність"
     },
     "Missile": {
       "15": {
-        "Name": "Torpedo",
-        "Text": "Homing Torpedo"
+        "Name": "Торпеда",
+        "Text": "Самонаводяча торпеда"
       },
       "18": {
-        "Name": "EM-Missile",
-        "Text": "Homing EM-Missile"
+        "Name": "ЕМ-ракета",
+        "Text": "ЕМ-ракета, що самонаводиться."
       },
       "4": {
-        "Name": "Missile",
-        "Text": "Homing Missile"
+        "Name": "Ракета",
+        "Text": "Самонавідна ракета"
       },
-      "TextDamage": "Damage: <Damage>",
-      "TextFrom": "Fired: <Name>",
-      "TextNoTarget": "Target lost",
-      "TextSpeed": "Speed: <Speed>",
-      "TextTarget": "Target: <Name>"
+      "TextDamage": "Втрата: <Damage>",
+      "TextFrom": "Випустив: <Name>",
+      "TextNoTarget": "Ціль втрачена",
+      "TextSpeed": "Швидкість: <Speed>",
+      "TextTarget": "Ціль: <Name>"
     },
     "Name": {
-      "1": "Industrial Laser",
-      "10": "Atomic Vision",
-      "11": "Disintegrator",
-      "12": "Turbogravitron",
-      "13": "IMHO-9000",
-      "14": "Vertix",
-      "15": "Torpedo Tube",
-      "16": "Esodapher",
-      "17": "Caphasitor",
-      "18": "Lirecron",
-      "2": "Fragmentation Cannon",
-      "3": "Flux",
-      "4": "Missile Launcher",
-      "5": "Treton",
-      "6": "Wave Phaser",
-      "7": "Flow Blaster",
-      "8": "Electronic Cutter",
-      "9": "Multiresonator"
+      "1": "Промисловий лазер",
+      "10": "Атомний візій",
+      "11": "Дезінтегратор",
+      "12": "Турбогравір",
+      "13": "ІМХО-9000",
+      "14": "Вертікс",
+      "15": "Торпедний апарат",
+      "16": "Есодафер",
+      "17": "Кафаситор",
+      "18": "Лірекрон",
+      "2": "Уламкова зброя",
+      "3": "Лезка",
+      "4": "Ракетомет",
+      "5": "Третон",
+      "6": "Хвильовий фазер",
+      "7": "Поточний бластер",
+      "8": "Електронний різак",
+      "9": "Мультирезонатор"
     },
     "Stats": {
       "1": {
@@ -656,28 +656,28 @@
       }
     },
     "Text": {
-      "1": "Emits a powerful light beam, inflicting <MinDamage>-<MaxDamage><Bonus> damage to the target within a <Radius> radius.",
-      "10": "An explosion of antimatter forms a field of energy which deals <MinDamage>-<MaxDamage><Bonus> damage to the target and surrounding objects. Maximum range: <Radius>.",
-      "11": "Destroys molecular bonds within matter, inflicting <MinDamage>-<MaxDamage><Bonus> damage. Maximum effective range: <Radius>.",
-      "12": "Splashes of gravitational energy inflict <MinDamage>-<MaxDamage><Bonus> damage to the target within a <Radius> radius. In case of target destruction, remanent charge, powered by explosion energy, deals damage to nearby ships, which is proportional to killed enemy mass.",
-      "13": "A high-precision weapon. An emitter of five textured tubes strikes the target within a <Radius> radius, inflicting <MinDamage>-<MaxDamage><Bonus> damage.",
-      "14": "Distorts space around the ship within a <Radius> radius, dealing <MinDamage>-<MaxDamage><Bonus> damage to all objects within the area of effect.",
-      "15": "Torpedoes rigged with gravitational matter destabilizers deal <MinDamage>-<MaxDamage><Bonus> damage at virtually any range.<br>Quantity: <Count>/<MaxCount>.",
-      "16": "Fires a cluster of nanomachines, dealing <MaxDamage><Bonus> damage and weakening the armor of a target within a <Radius> radius. For safety reasons, software limitations have been placed on the operating period and efficiency of activated nanites.",
-      "17": "Destroys armor with high-voltage discharges, dealing <MinDamage> to <MaxDamage><Bonus> damage within a <Radius> radius. When concentrating fire at a specific target, the power is increased with time via surface ionization of the target's hull.",
-      "18": "Fires missiles fitted with an electromagnetic warhead at the target, disrupting equipment function and dealing <CntShots>x(<MinDamage>-<MaxDamage>)<Bonus> damage to the hull.<br>Number of salvos: <Count>/<MaxCount>.",
-      "2": "Strikes the target with a series of small blasts. Inflicts <MinDamage>-<MaxDamage><Bonus> damage within a <Radius> radius.",
-      "3": "Inflicts <MinDamage>-<MaxDamage><Bonus> damage with a focused discharge of energy from all barrels. The scattering effect lowers the maximum effective range to <Radius>.",
-      "4": "Strikes the target with homing missiles, inflicting <CntShots>x(<MinDamage>-<MaxDamage>)<Bonus> damage.<br>Number of salvos: <Count>/<MaxCount>.",
-      "5": "Slows the target and deals minor damage (<MinDamage>-<MaxDamage><Bonus>) within a <Radius> radius.",
-      "6": "Rigged with a wave modulator, this enhanced phaser is a devastating weapon, dealing <MinDamage>-<MaxDamage><Bonus> damage. Range: <Radius>.",
-      "7": "Thousands of tiny explosive shells perforate the target, dealing <MinDamage>-<MaxDamage><Bonus> damage. Maximum effective range: <Radius>.",
-      "8": "An electromagnetic impulse disturbs the electronic innards of equipment. Damage can range from <MinDamage> to <MaxDamage><Bonus> points. Effective range: <Radius>.",
-      "9": "Strikes the target with a vibroprojective, triggering a resonance effect. Inflicts <MinDamage>-<MaxDamage><Bonus> damage to the target within a <Radius> radius."
+      "1": "Вражає ціль потужним світловим променем, завдаючи <MinDamage>-<MaxDamage><Bonus> од. втрати на дистанції до <Radius>.",
+      "10": "Вибух антиречовини утворює енергетичне поле, що завдає шкоди <MinDamage>-<MaxDamage><Bonus> од. цілі та навколишнім її об'єктам. Дистанція до <Radius>.",
+      "11": "Руйнує молекулярні зв'язки матерії, завдаючи мети <MinDamage>-<MaxDamage><Bonus> од. шкоди. Максимальна дальність ураження мети: <Radius>.",
+      "12": "Гравірні енергетичні сплески наносять цілі від <MinDamage> до <MaxDamage><Bonus> од. шкоди з відривом до <Radius>. У разі знищення мети, залишковий заряд, підживлений енергією вибуху, завдає шкоди іншим кораблям, що знаходяться поруч, пропорційний масі збитого супротивника.",
+      "13": "Високоточне знаряддя. Випромінювач з п'яти фактурних трубок вражає ціль на відстані до <Radius>, завдаючи шкоди <MinDamage>-<MaxDamage><Bonus> од.",
+      "14": "Спотворює простір навколо корабля на дистанції до <Radius>, завдаючи <MinDamage>-<MaxDamage><Bonus> од. шкоди всім об'єктам у зоні дії.",
+      "15": "Торпеди, оснащені гравітаційним дестабілізатором матерії, наносять від <MinDamage> до <MaxDamage><Bonus> од. шкоди цілі та найближчим до неї кораблям. Ефективні практично на будь-якій відстані. <br>Кількість: <Count>/<MaxCount> шт.",
+      "16": "Вистрілює потік наномашин, що завдають мети пошкодження <MaxDamage><Bonus> од. і тих, що послаблюють її броню, на дистанцію до <Radius>. З міркувань безпеки на тривалість роботи та продуктивність активованих нанітів накладено програмні обмеження.",
+      "17": "Руйнує броню високовольтними розрядами з втратою від <MinDamage> до <MaxDamage><Bonus> од. на дистанції <Radius>, при тривалому обстрілі обраної мети, збільшуючи потужність за рахунок поверхневої іонізації корпусу мети.",
+      "18": "Вражає мета ракетами з електромагнітною боєголовкою, що порушує роботу обладнання та пошкоджує корпус на <CntShots>x(<MinDamage>-<MaxDamage>)<Bonus> од.<br>Кількість залпів: <Count>/<MaxCount> шт.",
+      "2": "Вражає ціль серією невеликих вибухів. Наносить від <MinDamage> до <MaxDamage><Bonus> од. шкоди з відривом до <Radius>.",
+      "3": "Спрямованим викидом енергії зі всіх стволів наносить <MinDamage>-<MaxDamage><Bonus> од. шкоди. Через розсіювальний ефект дальність стрілянини не перевищує <Radius>.",
+      "4": "Вражає мета самонавідними ракетами, що наносять <CntShots>x(<MinDamage>-<MaxDamage>)<Bonus> од. урону.<br>Кількість залпів: <Count>/<MaxCount> шт.",
+      "5": "Уповільнює рух мети та завдає слабких пошкоджень <MinDamage>-<MaxDamage><Bonus> од. на відстані до <Radius>. Відновлює структуру корпусу за рахунок нанесених противнику пошкоджень.",
+      "6": "Оснащений хвильовим модулятором, удосконалений фазер завдає тяжких ушкоджень від <MinDamage> до <MaxDamage><Bonus> од. У разі наявності трьох ворожих цілей у зоні поразки шкода розподіляється з-поміж них, якщо противників менше - остання мета отримує додатковий урон. Дальність стрілянини <Radius>.",
+      "7": "Тисячі невеликих розривних снарядів прошивають ціль та наносять <MinDamage>-<MaxDamage><Bonus> од. шкоди. Дальність поразки до <Radius>.",
+      "8": "Впливає електромагнітним імпульсом на електронні начинки обладнання. Пошкодження від <MinDamage> до <MaxDamage><Bonus> од. Дальність пострілу до <Radius>.",
+      "9": "Вражає ціль віброснарядом, що викликає ефект резонансу. Наносить цілі <MinDamage>-<MaxDamage><Bonus> од. шкоди з відривом до <Radius>."
     },
-    "TypeEnergy": "energy",
-    "TypeMissile": "missile",
-    "TypeSplinter": "fragmentation",
-    "WSpecial": "Modification:"
+    "TypeEnergy": "енергетичне",
+    "TypeMissile": "ракетне",
+    "TypeSplinter": "осколкове",
+    "WSpecial": "Модифікація:"
   }
 }

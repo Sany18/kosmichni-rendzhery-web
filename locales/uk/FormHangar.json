@@ -1,38 +1,38 @@
 {
   "EngineStatus": {
-    "AverageDuration": "Engine - Worn out",
-    "CanNotUse": "Engine - Not functional",
-    "NeedRepair": "Engine - Damaged",
-    "Non": "Engine - Not installed",
-    "Ok": "Engine - OK",
-    "SmallDuration": "Engine - Critical condition"
+    "AverageDuration": "Двигун - Зношений",
+    "CanNotUse": "Двигун - Не функціонує",
+    "NeedRepair": "Двигун - Пошкоджений",
+    "Non": "Двигун - Не встановлений",
+    "Ok": "Двигун - Ок",
+    "SmallDuration": "Двигун - На межі поломки"
   },
   "FuelTankStatus": {
-    "AverageDuration": "Fuel tank - Worn out",
-    "CanNotUse": "Fuel tank - Not functional",
-    "Cost": "Refuel - <Money> cr",
-    "Empty": "Fuel tank - Empty",
-    "NeedFuel": "Fuel tank - Not full",
-    "NeedRepair": "Fuel tank - Leaking",
-    "Non": "Fuel tank - Not installed",
-    "NotMoney": "Refueling cost: <Money> cr",
-    "Ok": "Fuel tank - OK",
-    "SmallDuration": "Fuel tank - Critical condition"
+    "AverageDuration": "Паливний бак - Зношений",
+    "CanNotUse": "Паливний бак - Не функціонує",
+    "Cost": "Заправити бак - <Money> cr",
+    "Empty": "Паливний бак - Порожній",
+    "NeedFuel": "Паливний бак - Не повний",
+    "NeedRepair": "Паливний бак - Протікає",
+    "Non": "Паливний бак - Не встановлений",
+    "NotMoney": "Вартість заправки <Money> cr",
+    "Ok": "Паливний бак - Ок",
+    "SmallDuration": "Паливний бак - На межі поломки"
   },
   "HullStatus": {
-    "Cost": "Repair hull: <Money> cr",
-    "NeedRepair": "Hull - Damaged",
-    "NotMoney": "Hull repair cost: <Money> cr",
-    "Ok": "Hull - OK"
+    "Cost": "Полагодити корпус - <Money> cr",
+    "NeedRepair": "Корпус - Пошкоджений",
+    "NotMoney": "Вартість лагодження корпусу <Money> cr",
+    "Ok": "Корпус - Ок"
   },
-  "Prison": "(arrested)",
-  "TakeOff": "Take off from planet <CurPlanet>",
-  "TestSystem": "Testing system:",
+  "Prison": "(заарештований)",
+  "TakeOff": "Злетіти з планети <CurPlanet>",
+  "TestSystem": "Тестування системи:",
   "TotalStatus": {
-    "Bad": "Flight impossible",
-    "Good": "Ship ready for takeoff",
-    "Nearly": "Ship <color=255,0,0>almost</color> ready for takeoff",
-    "RuinInHyperSpace": "Station in hyperspace",
-    "ShipOvercharging": "Ship overloaded"
+    "Bad": "Політ неможливий",
+    "Good": "Корабель до зльоту готовий",
+    "Nearly": "Корабель до зльоту <color=255,0,0>майже</color> готовий",
+    "RuinInHyperSpace": "Станція в гіперпросторі",
+    "ShipOvercharging": "Корабель перевантажений"
   }
 }

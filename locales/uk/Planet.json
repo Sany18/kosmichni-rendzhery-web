@@ -2,70 +2,70 @@
   "Civil": {
     "Info": {
       "BadDopInfo": [
-        "You are not allowed to visit:",
-        "- equipment store",
-        "- trade center",
-        "- information center"
+        "Вам не можна відвідувати:",
+        "- магазин обладнання",
+        "- торговий центр",
+        "- інформаційний центр"
       ],
       "TextAboutPlanet": [
-        "Resident race: <Race>",
-        "Population: <Population> million",
-        "Economic system: <Economy>",
-        "Political system: <Goverment>",
-        "Your reputation: <Relation>"
+        "Роза, що проживає: <Race>",
+        "Населення: <Population> млн",
+        "Економічний тип: <Economy>",
+        "Політичний устрій: <Goverment>",
+        "Ставлення до вас: <Relation>"
       ],
-      "TextNamePlanet": "Planet <Planet>",
-      "TextPlanetControlledByPirates": "Controlled by pirates"
+      "TextNamePlanet": "Планета <Planet>",
+      "TextPlanetControlledByPirates": "Перебуває під контролем піратів"
     }
   },
   "Kling": {
     "Info": {
       "TextAboutPlanet": [
-        "Resident race: <Race>",
-        "Under dominator control",
-        "Landing impossible"
+        "Роза, що проживає <Race>",
+        "Перебуває під контролем домінаторів",
+        "Посадку здійснити неможливо"
       ]
     }
   },
   "MainPiratePlanet": {
     "Info": {
       "TextAboutPlanet": [
-        "Hide-out for the pirate clan leaders.",
-        "Despite of its huge size, evidently requires major repair and doesn't pose a threat to anyone."
+        "Таємний притулок керівництва піратського клану.",
+        "Незважаючи на величезні розміри, явно потребує ремонту і серйозної загрози не становить."
       ],
       "TextAboutPlanetAlt": [
-        "Former hide-out for the pirate clan leaders.",
-        "Despite of its huge size, evidently requires major repair and doesn't pose a threat to anyone."
+        "Колишній таємний притулок керівництва піратського клану, захоплений силами коаліції.",
+        "Незважаючи на величезні розміри, явно потребує ремонту і серйозної загрози не становить."
       ]
     }
   },
-  "Name": "Planet",
+  "Name": "Планета",
   "NotCivil": {
-    "AllExplore": "explored",
+    "AllExplore": "досліджено",
     "Info": {
       "TextAboutPlanet": [
-        "Sentient life not detected.",
-        "No spaceport available, landing undesirable.",
-        "Unexplored territories",
-        "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
+        "Розвинені форми життя не зареєстровані.",
+        "Космодром відсутня, посадка небажана.",
+        "Недосліджені території",
+        "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
       ]
     },
     "QuestPlay": {
-      "MsgContinue": "Next",
-      "MsgDeath": "The great ranger's life has ended",
-      "MsgFail": "Quest failed",
-      "MsgFailPrison": "Taking off!",
-      "MsgLoad": "Would you like to return in time and try the quest again?",
-      "MsgReplayQuest": "Restart quest",
-      "MsgSuccess": "Mission accomplished",
-      "MsgSuccessPrison": "You were released on bail"
+      "MsgContinue": "Далі",
+      "MsgDeath": "Життя великого рейнджера закінчилося",
+      "MsgFail": "Квест провалений",
+      "MsgFailPrison": "Швидко злітаємо!",
+      "MsgLoad": "Ви хочете повернутись у минуле, щоб мати можливість пройти квест заново?",
+      "MsgReplayQuest": "Почати квест заново",
+      "MsgSuccess": "Завдання виконане",
+      "MsgSuccessPrison": "Вас випустили на поруки"
     },
     "Treasure": {
-      "Few": "Low treasure value",
-      "Lots": "Very high treasure value",
-      "Many": "High treasure value",
-      "Nothing": "No treasure",
-      "Some": "Medium treasure value"
+      "Few": "Низька цінність скарбів",
+      "Lots": "Дуже висока цінність скарбів",
+      "Many": "Висока цінність скарбів",
+      "Nothing": "Клади відсутні",
+      "Some": "Середня цінність скарбів"
     }
   }
 }

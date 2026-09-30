@@ -1,334 +1,334 @@
 {
-  "AchievementReceived": "Achievement unlocked <br>'<Achievement>'!",
-  "Achieved": "Achieved:",
-  "Caption": "Achievements",
+  "AchievementReceived": "Отримано досягнення <br>'<Achievement>'!",
+  "Achieved": "Отримано:",
+  "Caption": "Досягнення",
   "Of": "/",
   "AGENT": {
-    "Description": "Complete 50 government missions",
-    "Name": "Secret Agent"
+    "Description": "Виконати 50 урядових завдань",
+    "Name": "Спецагент"
   },
   "ARCHEOLOGY": {
-    "Description": "Survey 30 000 sq. km of territory on uninhabited planets",
-    "Name": "Archeologist"
+    "Description": "Дослідити 30 000 кв. км. незаселених планет",
+    "Name": "Археолог"
   },
   "BLACKHEAD": {
-    "Description": "Destroy 200 non-combat ships",
-    "Name": "Black Skull"
+    "Description": "Знищити 200 мирних кораблів",
+    "Name": "Чорний Череп"
   },
   "BREZHNEV": {
-    "Description": "Get all possible decorations",
-    "Name": "Brezhnev Descendant"
+    "Description": "Отримати всі можливі медалі",
+    "Name": "Нащадок Брежнєва"
   },
   "BUMMER": {
-    "Description": "Complete the game without completing any mission",
-    "Name": "I Don't Have Time For This"
+    "Description": "Пройти гру, не виконавши жодного завдання",
+    "Name": "Великий Нехочуха"
   },
   "CHAMPION": {
-    "Description": "Complete the game with a score of at least 50 000",
-    "Name": "Champion"
+    "Description": "Завершити гру з результатом понад 50 000 очок",
+    "Name": "Чемпіон"
   },
   "DOLGOZHID": {
-    "Description": "Finish the game in at least 100 years, earning a score of at least 20 000",
-    "Name": "Long-lived"
+    "Description": "Пройти гру більш ніж за 100 років з результатом не менше 20000 очок",
+    "Name": "Довгожитель"
   },
   "HOLEMAN": {
-    "Description": "Eliminate 500 ships in hyperspace",
-    "Name": "Ethereal"
+    "Description": "Збити 500 кораблів у гіперпросторі",
+    "Name": "Потойбічний воїн"
   },
   "ILL": {
-    "Description": "Recover from all the possible illnesses",
-    "Name": "Eternal Healthcare"
+    "Description": "Перехворіти на всі можливі хвороби",
+    "Name": "Вічний пацієнт"
   },
   "KIBERMAN": {
-    "Description": "Complete the game without loading a save",
-    "Name": "Hardcore Nerdiness"
+    "Description": "Пройти гру жодного разу не завантажившись",
+    "Name": "Кіберманіяк"
   },
   "MANYFACES": {
-    "Description": "Change your race 30 times",
-    "Name": "Many Faces"
+    "Description": "Змінити расу 30 разів",
+    "Name": "Багатоликий"
   },
   "MONEY": {
-    "Description": "Hoard 10 000 000 credits",
-    "Name": "It's Never Enough"
+    "Description": "Накопичити 10 000 000 кредитів",
+    "Name": "Багатенький Буратіно"
   },
   "NARKOMAN": {
-    "Description": "Try all the drugs in known universe",
-    "Name": "Addict"
+    "Description": "Прийміть усі можливі стимулятори",
+    "Name": "Раб анаболіків"
   },
   "OLDFAG": {
-    "Description": "Earn 5 000 000 experience points",
-    "Name": "Old Guard"
+    "Description": "Набрати 5 мільйонів одиниць досвіду",
+    "Name": "Ветеран"
   },
   "PEACELOVER": {
-    "Description": "Complete the game without shooting down any ships",
-    "Name": "True Pacifist"
+    "Description": "Пройти гру, не збивши жодного корабля",
+    "Name": "Пацифіст"
   },
   "PIECECREATOR": {
-    "Description": "Liberate Gralgar system",
-    "Name": "Peacemaker"
+    "Description": "Звільнити систему Гралгар",
+    "Name": "Миротворець"
   },
   "PRISON": {
-    "Description": "Serve 10 sentences in a jail",
-    "Name": "Jailbird"
+    "Description": "Відсидіти у в'язниці 10 разів",
+    "Name": "Пахан"
   },
   "SHIELD": {
-    "Description": "Kill 500 pirates",
-    "Name": "Guardian"
+    "Description": "Збити 500 піратів",
+    "Name": "Правоохоронець"
   },
   "SPEED": {
-    "Description": "Reach speed of 2300 points",
-    "Name": "Need for Velocity"
+    "Description": "Розвинути швидкість понад 2300 одиниць",
+    "Name": "Гонщик боліда"
   },
   "SPRINTER": {
-    "Description": "Complete the game in less than 7 (game) years",
-    "Name": "FTL"
+    "Description": "Пройти гру менше, ніж за 7 ігрових років",
+    "Name": "Спрінтер"
   },
   "TERMINATOR": {
-    "Description": "Defeat Blazer in a fair fight in space",
-    "Name": "Terminator"
+    "Description": "Знищити Блазера у чесному бою у відкритому космосі",
+    "Name": "Термінатор"
   },
   "MASTER": {
-    "Description": "Have 6 wingmen under your command at the same time",
-    "Name": "Natural Born Leader"
+    "Description": "Найняти 6 кораблів одночасно",
+    "Name": "Вождь"
   },
   "POSTMAN": {
-    "Description": "Fail 10 parcel deliveries",
-    "Name": "Postman"
+    "Description": "Провалити 10 завдань на доставку",
+    "Name": "Пошта Карагона"
   },
   "HULL": {
-    "Description": "Find the secret hull \"Shadow of the Empire\"",
-    "Name": "Power Overwhelming"
+    "Description": "Отримати секретний корпус \"Тінь Імперії\"",
+    "Name": "Мир та порядок!"
   },
   "PIRATE": {
-    "Description": "Conquer 10 solar systems for the pirate clan",
-    "Name": "Yo-ho-ho"
+    "Description": "Захопити 10 систем для піратського клану",
+    "Name": "Йо-хо-хо"
   },
   "FRY": {
-    "Description": "Fry 10 ships with a star",
-    "Name": "Well Done"
+    "Description": "Знищити 10 кораблів за допомогою зірки",
+    "Name": "Смажені факти"
   },
   "COALLITION": {
-    "Description": "Eliminate the pirate threat",
-    "Name": "For Coalition!"
+    "Description": "Успішно позбавити галактику піратської загрози",
+    "Name": "За коаліцію!"
   },
   "DEALER": {
-    "Description": "Sell goods for 5 000 000 credits total",
-    "Name": "Tycoon"
+    "Description": "Продати товарів на загальну суму понад 5 млн. кредитів",
+    "Name": "Магнат"
   },
   "JUMPER": {
-    "Description": "Make 500 hyperjumps",
-    "Name": "Hyperactivity"
+    "Description": "Здійснити понад 500 гіперстрибків",
+    "Name": "Гіперактивність"
   },
   "DEFENDER": {
-    "Description": "Defend 20 systems from Dominator or pirate assault",
-    "Name": "Phalanx"
+    "Description": "Відбити 20 систем від нападу домінаторів чи піратів",
+    "Name": "Ворогу не здається..."
   },
   "NEGOCIANT": {
-    "Description": "Convince 15 pirates to cease attack of another ship without using weapons",
-    "Name": "Negotiator"
+    "Description": "Переконати 15 піратів дати спокій свою жертву без застосування зброї",
+    "Name": "Переговорник"
   },
   "HATER": {
-    "Description": "Make sure you're hated by every race of the Coalition at the same time",
-    "Name": "Pariah"
+    "Description": "Здобути вороже ставлення всіх рас коаліції одночасно",
+    "Name": "Ізгой"
   },
   "CREDITOR": {
-    "Description": "Fail to pay 3 debts in time",
-    "Name": "Defaulter"
+    "Description": "Прострочити оплату 3 кредитів у бізнес-центрі",
+    "Name": "Злісний неплатник"
   },
   "HOLEPEACE": {
-    "Description": "Defeat your enemies in a black hole without using weapons",
-    "Name": "I Didn't Do Anything Wrong, Sir"
+    "Description": "Перемогти ворогів у чорній дірі, не використовуючи зброї",
+    "Name": "Таранів"
   },
   "SKILL": {
-    "Description": "Max out all skills",
-    "Name": "Been There, Seen That"
+    "Description": "Прокачати всі навички до максимального рівня",
+    "Name": "Відмінник бойової та політичної"
   },
   "GUARD": {
-    "Description": "Successfully complete 30 system defence missions",
-    "Name": "You Shall Not Pass"
+    "Description": "Виконати 30 завдань на охорону систем",
+    "Name": "На варті"
   },
   "SCIENCE": {
-    "Description": "Research all Dominator technologies at a science base",
-    "Name": "Light of Science"
+    "Description": "Дослідити всі антидомінаторські технології на науковій базі",
+    "Name": "Двигун прогресу"
   },
   "IRONMAN": {
-    "Description": "Win 40 planetary battles",
-    "Name": "Robot General"
+    "Description": "Перемогти у 40 планетарних битвах",
+    "Name": "Полководець"
   },
   "BOMBER": {
-    "Description": "Vaporize 5 ships in one turn using quark bombs",
-    "Name": "Splash Damage"
+    "Description": "Знищити 5 кораблів за хід за допомогою кваркових бомб",
+    "Name": "Вибухотехнік"
   },
   "ROCKET": {
-    "Description": "Destroy 150 ships using missiles",
-    "Name": "Fire & Forget"
+    "Description": "Знищити 150 кораблів за допомогою ракетної зброї",
+    "Name": "Натомість ми робимо ракети"
   },
   "CONTRABAND": {
-    "Description": "Sell at least 200 illegal shipments (50 units or more each)",
-    "Name": "Smuggler"
+    "Description": "Продати понад 200 партій нелегальних товарів щонайменше 50 одиниць кожна",
+    "Name": "Ель контрабандисто"
   },
   "ASTEROID": {
-    "Description": "Pulverize 100 asteroids",
-    "Name": "Space Miner"
+    "Description": "Зруйнувати 100 астероїдів",
+    "Name": "Сміттєзбірник"
   },
   "QUEST": {
-    "Description": "Complete 30 text adventures",
-    "Name": "Reading Is Your Friend"
+    "Description": "Виконати 30 текстових квестів",
+    "Name": "Читання – запорука здоров'я!"
   },
   "KELLERRESEARCH": {
-    "Description": "Send Keller to explore the galaxy",
-    "Name": "New Frontier"
+    "Description": "Надіслати Келлера дослідити галактику",
+    "Name": "До прогресу!"
   },
   "KELLERDESTROY": {
-    "Description": "Destroy Keller in the hyperspace",
-    "Name": "Hasta La Vista"
+    "Description": "Знищити Келлера у гіперпросторі",
+    "Name": "Аста ла виста"
   },
   "BLAZERPROGRAM": {
-    "Description": "Take a scientific approach to the Blazer problem",
-    "Name": "Blazzard"
+    "Description": "Знищити Блазера за допомогою наукової програми",
+    "Name": "Блаззард"
   },
   "BLAZERPIECE": {
-    "Description": "Force Blazer to land on a Coalition planet",
-    "Name": "You're Grounded"
+    "Description": "Змусити Блазера до посадки на планету коаліції",
+    "Name": "Врятуй та збережи"
   },
   "TERRONSTAR": {
-    "Description": "Send Terron on a star conversion mission",
-    "Name": "Transform This"
+    "Description": "Надіслати Терона перетворювати зірку",
+    "Name": "Трансформуй це!"
   },
   "TERRONBATTLE": {
-    "Description": "Land on the Terron and defeat it in a planetary battle",
-    "Name": "Death From Above"
+    "Description": "Знищити Терона за допомогою висадки на нього у планетарному бою",
+    "Name": "За ВДВ!"
   },
   "PIRATESYSTEMS": {
-    "Description": "Help pirates conquer all the known systems",
-    "Name": "Captain Chaos"
+    "Description": "Допомогти піратам захопити всі системи галактики",
+    "Name": "Містер Хаос"
   },
   "NODES": {
-    "Description": "Accumulate 25 000 nodes",
-    "Name": "Noda Bene"
+    "Description": "Накопичити на нод-рахунку понад 25 000 нод",
+    "Name": "Нода бене"
   },
   "RATING": {
-    "Description": "Take the lead in rangers rating",
-    "Name": "Pole Position"
+    "Description": "Очолити рейтинг рейджерів",
+    "Name": "Поул-позишн"
   },
   "RUINS": {
-    "Description": "Fund the construction of 20 Coalition bases",
-    "Name": "Please Donate"
+    "Description": "Профінансувати будівництво 20 баз коаліції",
+    "Name": "Меценат"
   },
   "PIRATEWIN": {
-    "Description": "Help the pirates defeat the Coalition",
-    "Name": "Galaxy in Flames"
+    "Description": "Привести піратський клан до перемоги над коаліцією",
+    "Name": "Рачехан і все-все-все"
   },
   "BEST": {
-    "Description": "Upgrade all the equipment of your ship at a science base",
-    "Name": "Prototype"
+    "Description": "Повністю укомплектувати корабель обладнанням з покращеними на науковій базі характеристиками",
+    "Name": "Краще"
   },
   "COMMANDOR": {
-    "Description": "Get promoted to the \"Admiral\" military rank",
-    "Name": "Commander"
+    "Description": "Здобути військове звання \"Адмірал\"",
+    "Name": "Справжній полковник"
   },
   "BARON": {
-    "Description": "Get promoted to the \"Baron\" pirate rank",
-    "Name": "Baron"
+    "Description": "Отримати піратське звання \"Барон\"",
+    "Name": "Вбивальників начальник"
   },
   "GIRLSQUEST": {
-    "Description": "Complete all the missions given by female special agents",
-    "Name": "Henpecked"
+    "Description": "Виконати всі завдання дівчат-спецагентів",
+    "Name": "Підкаблучник"
   },
   "GIRLSHIRE": {
-    "Description": "Hire three female special agents",
-    "Name": "Ranger's Angels"
+    "Description": "Найняти трьох дівчат-спецагентів",
+    "Name": "Якби я був султан..."
   },
   "SHU": {
-    "Description": "Kill the original Mr. Shu",
-    "Name": "Copyright"
+    "Description": "Знищити оригінального містера Шу",
+    "Name": "Клонобоєць"
   },
   "SIDECHANGER": {
-    "Description": "Switch your allegiance from Coalition to pirates (or vice versa) at least 15 times",
-    "Name": "Uncertainty principle"
+    "Description": "Перейти з боку коаліції до піратів (або навпаки) не менше ніж 15 разів",
+    "Name": "Принцип невизначеності"
   },
   "ENERGY": {
-    "Description": "Destroy 250 ships using energy weapons",
-    "Name": "High energy"
+    "Description": "Знищити 250 кораблів за допомогою енергетичної зброї",
+    "Name": "Високі енергії"
   },
   "SCRATCHDAMAGE": {
-    "Description": "Do only 1 HP damage per shot to a ship 20 times",
-    "Name": "Ricochet"
+    "Description": "При атаці завдати кораблю пошкодження 1 одиницю за постріл не менше 20 разів",
+    "Name": "Чи не пробив!"
   },
   "SPLINTER": {
-    "Description": "Destroy 200 ships using splinter weapons",
-    "Name": "Splinters of the Empire"
+    "Description": "Знищити 200 кораблів за допомогою осколкової зброї",
+    "Name": "Осколки імперії"
   },
   "EXPLORER": {
-    "Description": "Land on 100 uninhabited planets",
-    "Name": "That's one small step for a man"
+    "Description": "Здійснити посадку на 100 різних безлюдних планет",
+    "Name": "На запорошених стежках далеких планет"
   },
   "TRANCLUCATORS": {
-    "Description": "Activate 10 Tranclucator units in space simultaneously",
-    "Name": "Glory to Robots!"
+    "Description": "Активувати в космосі щонайменше 10 транклюкаторів одночасно",
+    "Name": "Слава роботам!"
   },
   "SUNFUEL": {
-    "Description": "Scoop 40 fuel into a single tank from a star",
-    "Name": "Thermonuclear Gas Station"
+    "Description": "Заправити бак від зірки на 40 одиниць палива",
+    "Name": "Термоядерна бензоколонка"
   },
   "TERRORIST": {
-    "Description": "Destroy 30 Coalition bases in space",
-    "Name": "Demolition Man"
+    "Description": "Знищити 30 баз Коаліції в космосі",
+    "Name": "Підривник-витівник"
   },
   "COUNTERTERRORIST": {
-    "Description": "Destroy 30 Pirate bases in space",
-    "Name": "Copyright Holder"
+    "Description": "Знищити 30 піратських баз у космосі",
+    "Name": "Правовласник"
   },
   "BLUEKILLS": {
-    "Description": "Destroy 500 Keller series Dominators",
-    "Name": "Unscientific"
+    "Description": "Знищити 500 домінаторів серії \"Келлер\"",
+    "Name": "Антинауковий"
   },
   "GREENKILLS": {
-    "Description": "Destroy 500 Terron series Dominators",
-    "Name": "The Grass Was Greener"
+    "Description": "Знищити 500 домінаторів серії \"Террон\"",
+    "Name": "І трава зеленіша"
   },
   "REDKILLS": {
-    "Description": "Destroy 500 Blazer series Dominators",
-    "Name": "War Is Just War"
+    "Description": "Знищити 500 домінаторів серії \"Блазер\"",
+    "Name": "Війна-війною"
   },
   "BERTORSLAYER": {
-    "Description": "Destroy 50 Bertor-class ships",
-    "Name": "Monster Mania"
+    "Description": "Знищити 50 кораблів типу \"Бертор\"",
+    "Name": "Монстр манія"
   },
   "MAPBUILDER": {
-    "Description": "Reveal the star map completely before January 1st, 3304",
-    "Name": "Mercator wannabe"
+    "Description": "Повністю відкрити зіркову картку до 1 січня 3304 року",
+    "Name": "Географ карту купив"
   },
   "HACKER": {
-    "Description": "Use anti-dominator programs (except Intercom) 100 times",
-    "Name": "Hacktivist"
+    "Description": "Використовувати антидомінаторські програми (крім Інтеркому) 100 разів",
+    "Name": "Хактивіст"
   },
   "DELIVERY": {
-    "Description": "Complete 50 delivery missions",
-    "Name": "Mr. Postman"
+    "Description": "Виконати 50 завдань на доставку",
+    "Name": "Листоноша Пєчкін"
   },
   "INVESTOR": {
-    "Description": "Get 300 000 cr. profit from a single deposit",
-    "Name": "Fat Cat"
+    "Description": "Отримати з одного депозиту дохід 300 000 cr.",
+    "Name": "Почесний інвестор"
   },
   "INSURANCE": {
-    "Description": "Your relatives must receive 20 000 cr. insurance after your death",
-    "Name": "Insure Yourself"
+    "Description": "Ваші родичі повинні отримати страхове відшкодування 20 000 грн. за вашу загибель",
+    "Name": "Застрахуй братуху"
   },
   "PRISONBAIL": {
-    "Description": "Pay bribes and free 30 prisoners from a jail",
-    "Name": "Nobody Will Be Left Behind"
+    "Description": "Викупити із в'язниці 30 ув'язнених",
+    "Name": "Своїх не кидаємо!"
   },
   "ROBBER": {
-    "Description": "Rob ships 100 times",
-    "Name": "This Is Our Territory!"
+    "Description": "Пограбувати кораблі 100 разів",
+    "Name": "Це наша корова"
   },
   "WARRIORKILLS": {
-    "Description": "Destroy 100 Coalition military ships",
-    "Name": "Gulp Of Freedom"
+    "Description": "Знищити 100 військових кораблів Коаліції",
+    "Name": "Ковток свободи"
   },
   "DRAIN": {
-    "Description": "Drain 10 000 HP from enemy ships to yours",
-    "Name": "Mechanical Vampire"
+    "Description": "Висмоктати з противників у собі 10 000 одиниць міцності",
+    "Name": "Механічний вампір"
   }
 }

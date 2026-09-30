@@ -1,345 +1,345 @@
 {
   "0": {
-    "Name": "Order of the Ox",
+    "Name": "Орден Бика",
     "Race": "Maloc",
     "Status": "Pirate",
-    "Text": "The Hunen black ox is the traditional maloq symbol of power, fury and uncontrollability. Order of the Ox was established to distinguish the pirates who have earned the respect of the maloqs in the war with the dominators.",
+    "Text": "Гунський чорний бик - традиційний малокський символ могутності, люті та некерованості. Орден Бика заснований як спеціальна нагорода піратам, які заслужили повагу малоків під час війни з домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "1": {
-    "Name": "Calcite Spearhead",
+    "Name": "Калкітовий наконечник",
     "Race": "Maloc",
     "Status": "Any",
-    "Text": "This ancient maloq spearhead is awarded to warriors who have liberated a maloq system from the dominators. Considered to be a very honorable award.",
+    "Text": "Наконечник давнього малокського списа присуджується як нагорода воїнам, які звільнили від домінаторів малокську систему. Вважається дуже почесною нагородою.",
     "Type": "ForLiberationSystem"
   },
   "10": {
-    "Name": "Crankshaft",
+    "Name": "Колінвал",
     "Race": "Fei",
     "Status": "Trader",
-    "Text": "A miniature reward from the entire Facet Coalition for the businessmen who contribute to the struggle against the dominators in spite of their busy schedules. It is fashioned in the shape of the greatest faeyan invention -- a cogwheel, which marked the dawn of their industrial revolution.",
+    "Text": "Мініатюрна нагорода від усієї фасеткової спільноти для бізнесменів, які, незважаючи на зайнятість, беруть участь у битвах з домінаторами. Виконана у вигляді найбільшого винаходу феян - шестерні, з якої почалася ера технічного прогресу.",
     "Type": "ForLiberationSystem"
   },
   "11": {
-    "Name": "Small Anglum",
+    "Name": "Малий англум",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "An official award from the Gaalian Security Magistrate for warriors who have distinguished themselves liberating planetary systems.",
+    "Text": "Офіційна нагорода гаальського магістрату безпеки для воїнів, які відзначилися при звільненні систем.",
     "Type": "ForLiberationSystem"
   },
   "12": {
-    "Name": "Kanven-Iviris Medal",
+    "Name": "Медаль \"Канвен-івіріс\"",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "Established by the Gaalian Ranger Support Fund, the award is translated from gaalian as \"No Peace for Aggressors.\" It is given to pilots fighting against dominators.",
+    "Text": "Нагорода, започаткована гаальським Фондом підтримки рейнджерів, у перекладі з гаальської означає \"немає світу агресору\". Вручається пілотам, які борються з домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "13": {
-    "Name": "Order of Dignity",
+    "Name": "Орден гідності",
     "Race": "Any",
     "Status": "Any",
-    "Text": "An award instituted by the Galactic Council. It is given to rangers and other pilots actively fighting the dominators.",
+    "Text": "Нагорода, започаткована Галактичною Радою. Вручається рейнджерам та іншим пілотам, які активно борються з домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "14": {
-    "Name": "Guard's Pennant",
+    "Name": "Гвардійський вимпел",
     "Race": "Maloc",
     "Status": "Any",
-    "Text": "A token decorating its owner as a top notch fighter. Awarded for heroism comparable to that of the maloq people.",
+    "Text": "Знак означає свого володаря як першокласного бійця. Видається за досягнення, порівняні з бойовими подвигами малокського народу.",
     "Type": "ForAccomplishment"
   },
   "15": {
-    "Name": "Dirty Kamikaze Badge",
+    "Name": "Брудний камікадзе значок",
     "Race": "Peleng",
     "Status": "Any",
-    "Text": "This special token was established to honor the old peleng custom of mud fighting. It is awarded to those who distinguish themselves before the peleng people.",
+    "Text": "Цей особливий знак було засновано за сформованою пелензькою традицією грязьових боїв. Його можна отримати лише сильно відзначившись перед пелензьким народом.",
     "Type": "ForAccomplishment"
   },
   "16": {
-    "Name": "Frog in a Circle",
+    "Name": "Жаба з кола",
     "Race": "Peleng",
     "Status": "Pirate",
-    "Text": "An award in the shape of a frog in a circle, symbolizing the protection afforded to pelengs by all races. It is given to pirates who don't forget their peleng brothers and associates.",
+    "Text": "Нагорода у вигляді жаби у колі, що символізує захист пеленгів усіма расами. Присуджується піратам, які не забувають пеленгських братів та колег.",
     "Type": "ForAccomplishment"
   },
   "17": {
-    "Name": "Red Pantheon",
+    "Name": "Червоний пантеон",
     "Race": "Peleng",
     "Status": "Pirate",
-    "Text": "An honorary peleng award for contributing to space entrepreneurship and sabotage. The owner is presumably a pirate who's willing to defend the values of the peleng civilization to the end.",
+    "Text": "Пеленгська почесна нагорода за внесок у розвиток космічного підприємництва та саботажу. Вважається, що його власник – пірат, і готовий до кінця життя відстоювати цінності пеленгської цивілізації.",
     "Type": "ForAccomplishment"
   },
   "18": {
-    "Name": "Hero's Gold Star",
+    "Name": "Золота зірка героя",
     "Race": "People",
     "Status": "Any",
-    "Text": "An honorary human award, signifying one's services before humanity. Awarded to the select few. Shines especially bright in the setting rays of the human Sun.",
+    "Text": "Почесна нагорода людей, що говорить про заслуги перед людством. Присуджується лише обраним. Особливо яскраво світиться у західних променях людської зірки Сонце.",
     "Type": "ForAccomplishment"
   },
   "19": {
-    "Name": "Triple Oreon",
+    "Name": "Потрійний ореон",
     "Race": "People",
     "Status": "Any",
-    "Text": "An expanding three-layered disk containing the fingerprints of this century's prominent figures. The outer layer boasts the owner's freshly made fingerprints. A great honor and decoration, this award is given to those humanoids who have distinguished themselves before humanity.",
+    "Text": "Тришаровий диск, що розсувається, з відбитками пальців видатних особистостей цього століття. На останньому прошарку красуються свіжі відбитки пальців власника. Це висока честь, бути внесеним у таку нагороду, випадає лише гуманоїдам, які відзначилися перед людством.",
     "Type": "ForAccomplishment"
   },
   "2": {
-    "Name": "Killing Blow",
+    "Name": "Убивчий удар",
     "Race": "Maloc",
     "Status": "Warrior",
-    "Text": "Made using the traditional maloq method -- with the supreme commander himself flattening the section of a dominator ship with his fist. Awarded to fighters who have selflessly liberated dominator-captured systems.",
+    "Text": "Медаль, що робиться патріотичним малокським способом – частина обшивки домінаторського корабля розплющується ударом кулака найвищого головнокомандувача. Присуджується воїнам, які самовіддано звільняли захоплені домінаторами системи.",
     "Type": "ForLiberationSystem"
   },
   "20": {
-    "Name": "Ashian Ribbon",
+    "Name": "Ашіанська стрічка",
     "Race": "Fei",
     "Status": "Any",
-    "Text": "A ribbon with the three colors of Ashian -- the \"city of progress\" at Eipentak -- blue, purple and white. Awarded to persons who have assisted the faeyan civilization.",
+    "Text": "Стрічка, що повторює три кольори Ашіана, \"міста прогресу\" на Ейпентаку - синій, фіолетовий та білий. Присуджується особам, які надали допомогу феянській цивілізації.",
     "Type": "ForAccomplishment"
   },
   "21": {
-    "Name": "Big Anglum",
+    "Name": "Великий англум",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "The highest official award issued by the gaalian government. Awarded for outstanding services before the gaalian people.",
+    "Text": "Найвища офіційна нагорода гаальського уряду. Вручається за визначні заслуги перед гаальським народом.",
     "Type": "ForAccomplishment"
   },
   "22": {
-    "Name": "Uranium Milk",
+    "Name": "Уранове млеко",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "A one-of-a-kind award of gamma radiation. They say if you put it to your head several times a day, you can clear your mind of all impure thoughts.",
+    "Text": "Унікальна нагорода гамма-впливу. Кажуть, якщо прикладати до голови кілька разів на день, можна очистити мозок від усіх поганих думок.",
     "Type": "ForAccomplishment"
   },
   "23": {
-    "Name": "Elite Guard Medal",
+    "Name": "Медаль елітної охорони",
     "Race": "Maloc",
     "Status": "Any",
-    "Text": "Upon completing an especially dangerous special mission, pilots are raised to the status of elite maloq guards, granted the appropriate honors and awarded the corresponding symbol.",
+    "Text": "Пілоти, що виконали небезпечне спецзавдання, прирівнюються за статусом і почестями до агентів елітних малокських охоронних підрозділів, отримуючи відповідний знак.",
     "Type": "ForSecretMission"
   },
   "24": {
-    "Name": "Secret Force Order",
+    "Name": "Орден прихованої сили",
     "Race": "Maloc",
     "Status": "Pirate",
-    "Text": "An award for the optimal execution of special operations. Awarded to pirates who never fail to complete a mission entrusted to them, unlike merchants and diplomats.",
+    "Text": "Нагорода за найкраще виконання спецоперацій. Вручається піратам, які завжди виконують завдання, на відміну від торгашів та дипломатів.",
     "Type": "ForSecretMission"
   },
   "25": {
-    "Name": "Dancing Pirate Badge",
+    "Name": "Бляха \"Танцюючий пірат\"",
     "Race": "Peleng",
     "Status": "Any",
-    "Text": "This pirate award was named after the famous peleng clan of Dancing Pirates. Awarded for special achievements in the fight against the enemies of the peleng people.",
+    "Text": "Піратська нагорода, що отримала назву від знаменитого пеленгського клану Танцюючих піратів. Присуджується за успіхи у справі боротьби з ворогами пеленгського народу.",
     "Type": "ForSecretMission"
   },
   "26": {
-    "Name": "Dried Bubbles",
+    "Name": "Сушений бульбашкам",
     "Race": "Peleng",
     "Status": "Pirate",
-    "Text": "Formerly given to those who have drowned in green swamps, it has been decided to include pirates to this list. Awarded for carrying out special operations for the benefit of the peleng race.",
+    "Text": "Раніше пухирцям давався потопельникам зелених боліт. Тепер було вирішено прирівняти до них піратів. Надається за виконання спецоперацій в ім'я пеленгської раси.",
     "Type": "ForSecretMission"
   },
   "27": {
-    "Name": "Green Mike",
+    "Name": "Зелена миля",
     "Race": "Peleng",
     "Status": "Any",
-    "Text": "A medal of swamp special services. Made from the highest grade mud, it confers unique antiseptic qualities during absorption. Recommended to wear under clothing.",
+    "Text": "Медаль болотяних спецслужб. Зроблена з елітних сортів глини, вона має унікальні антисептичні властивості при розсмоктуванні. Рекомендується носити під одягом.",
     "Type": "ForSecretMission"
   },
   "28": {
-    "Name": "Aaron King's Badge",
+    "Name": "Аарона Кінга значок",
     "Race": "People",
     "Status": "Any",
-    "Text": "The exact copy of the aluminum badge worn by the legendary spy Aaron \"Rapper\" King. The official award of human special services.",
+    "Text": "Точна копія алюмінієвої бляшки, яку носив легендарний шпигун Аарон \"Репер\" Кінг. Є офіційною нагородою людських спецслужб.",
     "Type": "ForSecretMission"
   },
   "29": {
-    "Name": "Galobutton",
+    "Name": "Галопуговиця",
     "Race": "Fei",
     "Status": "Any",
-    "Text": "Awarded to pilots who have distinguished themselves while carrying out secret missions for the faeyan government; functions both as a souvenir and a pricey optical toy.",
+    "Text": "Пілотам, які відзначилися під час виконання феянських секретних місій, вручається галопуговиця - це сувенір, і дорога оптична іграшка.",
     "Type": "ForSecretMission"
   },
   "3": {
-    "Name": "Warrior Board",
+    "Name": "Табель воїна",
     "Race": "Maloc",
     "Status": "Warrior",
-    "Text": "An honorary maloq award for warriors of elite detachments. Lists all of the fighter's combat achievements. Carries particular distinction in the rare event it is not issued posthumously.",
+    "Text": "Почесна малокська нагорода для воїнів елітних підрозділів. На табелі зафіксовано всі воєнні здобутки бійця. Якщо не видана посмертно – значить, ви визнаний воїн за життя.",
     "Type": "ForLiberationSystem"
   },
   "30": {
-    "Name": "Aibo-3001",
+    "Name": "Айбо-3001",
     "Race": "Fei",
     "Status": "Pirate",
-    "Text": "A faeyan award for pirates who succeed in completing missions of national importance. Mimics the logo of the world's first robotic company, creators of the Aibo miniature droid model.",
+    "Text": "Феянська нагорода для піратів, які успішно справляються із завданнями державної важливості. Виконана у вигляді логотипу першої у світі робототехнічної компанії, яка створила маленького дроїда Айбо.",
     "Type": "ForSecretMission"
   },
   "31": {
-    "Name": "Necrylic Pin",
+    "Name": "Некрилова шпилька",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "A sharp necrylic pin with the owner's name encrusted on it. A proper weapon in its own right, the award is given to pilots who actively collaborate with the gaalian security services.",
+    "Text": "Гостра шпилька з некрила з інкрустованим ім'ям власника – повноцінна зброя. Вручається пілоту, який активно співпрацює з гаальськими службами безпеки.",
     "Type": "ForSecretMission"
   },
   "32": {
-    "Name": "World Map",
+    "Name": "Карта світу",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "An award shaped like a symbolic map of the Galaxy, marking areas where peace reigns thanks to the efforts of gaalian special services. Awarded by the secret services of the gaalian race.",
+    "Text": "Нагорода у вигляді символічної карти Галактики, із зазначеними областями, де панують мирні відносини завдяки гаальським спецслужбам. Нагорода секретних служб Гаальської раси.",
     "Type": "ForSecretMission"
   },
   "33": {
-    "Name": "Diamond Sleeve",
+    "Name": "Алмазна гільза",
     "Race": "Any",
     "Status": "Any",
-    "Text": "Awarded by the Galactic Council to employees of secret services, both regular and freelance. The award signifies that its owner can be entrusted with virtually any task.",
+    "Text": "Нагорода Галактичної Ради, яка присуджується працівникам секретних служб як штатним, так і позаштатним. Свідчить те, що її власнику можна довірити будь-яке завдання.",
     "Type": "ForSecretMission"
   },
   "34": {
-    "Name": "Sandy Skull",
+    "Name": "Пісочний череп",
     "Race": "Maloc",
     "Status": "Any",
-    "Text": "A mark for the most despicable quality a maloq can possess - cowardice. The skull is said to crumble to dust if the cowardly owner finally becomes brave. The theory is yet to be confirmed.",
+    "Text": "Знак за найогидніше, що може бути для молока - боягузливість. Вважається, що голова розсиплеться, коли боягуз стане хоробрим. Однак це ще ніколи не підтверджувалось.",
     "Type": "ForCowardice"
   },
   "35": {
-    "Name": "Rabbit Head",
+    "Name": "Кроляча голова",
     "Race": "People",
     "Status": "Any",
-    "Text": "A miniature furry rabbit head with sulfur eyes decorates the collection of a fighter who has disgraced himself with contemptible cowardice before the human civilization.",
+    "Text": "Мініатюрна пухова голова кролика з очима із сірки прикрашає колекцію бійця, який заплямував свою честь ганебною боягузтвом по відношенню до людської цивілізації.",
     "Type": "ForCowardice"
   },
   "36": {
-    "Name": "Mongo Burdock",
+    "Name": "Реп'ях Монго",
     "Race": "Fei",
     "Status": "Any",
-    "Text": "The faeyan government awards pilots not known for their courage a Mongo Burdock -- a plant with a peculiar, acrid odor and a symbol of cowardice.",
-    "TextOld": "The faeyan government awards pirates not known for their courage a Mongo Burdock -- a plant with a peculiar, acrid odor and a symbol of cowardice.",
+    "Text": "Пілот, який не відрізняється хоробрістю, отримує від феянського уряду реп'ях Монго - рослина зі специфічним різким запахом, символ боягузтво.",
+    "TextOld": "Пірат, що не відрізняється хоробрістю, отримує від феянського уряду реп'ях Монго - рослина зі специфічним різким запахом, символ боягузтво.",
     "Type": "ForCowardice"
   },
   "37": {
     "Kill": "Warrior",
-    "Name": "Black Mark",
+    "Name": "Чорна мітка",
     "Race": "Any",
     "Status": "Any",
-    "Text": "A sign of tremendous shame. It marks the bearer as a dangerous recidivist who attacks military ships and undermines peaceful relations between races.",
-    "TextOld": "A sign of tremendous shame. It marks the bearer as a coward who flees the field of battle.",
+    "Text": "Це дуже ганебний знак. Позначає свого носія як небезпечного рецидивіста, який нападає на військові кораблі та підриває мирні відносини між расами",
+    "TextOld": "Це дуже ганебний знак. Позначає свого носія як боягуза, що втік із поля бою.",
     "Type": "ForPerfidy"
   },
   "38": {
     "Kill": "Ranger",
-    "Name": "Rusty Nail",
+    "Name": "Іржавий цвях",
     "Race": "Any",
     "Status": "Any",
-    "Text": "A mark of disgrace, this rusty nail in the third stage of corrosion is reserved for brave pilots turned heinous traitors, having turned their weapons against their former brothers-in-arms.",
-    "TextOld": "A mark of disgrace, this rusty nail in the third stage of corrosion is reserved by maloqs for brave combat pilots turned heinous traitors.",
+    "Text": "Для колишніх хоробрих пілотів, а нині мерзенних зрадників, які повернули зброю проти своїх бойових товаришів, ганебний знак - мідний цвях у третій стадії корозії.",
+    "TextOld": "Для колишніх хоробрих бойових пілотів, а нині мерзенних зрадників, малоки мають спеціальний знак - мідний цвях у третій стадії корозії.",
     "Type": "ForPerfidy"
   },
   "39": {
     "Kill": "Transport",
-    "Name": "Black Heart",
+    "Name": "Чорне серце",
     "Race": "Any",
     "Status": "Any",
-    "Text": "Serves as proof that its bearer has lost all sense of morality and is known to ruthlessly plunder and destroy peaceful trade ships.",
-    "TextOld": "Serves as proof that its bearer has lost all sense of morality.",
+    "Text": "Ця річ служить підтвердженням того, що її власник, втративши всяке уявлення про моральність, безжально грабує і вбиває мирні торгові кораблі.",
+    "TextOld": "Ця річ є підтвердженням того, що її власник не має уявлення про моральність.",
     "Type": "ForPerfidy"
   },
   "4": {
-    "Name": "Trident Order",
+    "Name": "Тризубчастий орден",
     "Race": "Peleng",
     "Status": "Any",
-    "Text": "Shaped like a war trident -- an ancient weapon used by Rakhish warriors in their heyday -- this order is issued by the peleng government to those who have distinguished themselves in the fight against the dominators.",
+    "Text": "Орден у формі бойового тризубця - стародавньої зброї, якою користувалися воїни Рахіша у його найкращі часи - вручається пелензьким урядом активним борцям із домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "40": {
-    "Name": "Order of Saab",
+    "Name": "Орден Сааба",
     "Race": "Maloc",
     "Status": "Warrior",
-    "Text": "A rare award in the form of two crossed red sabers. Bestowed for liberating maloq planets from dominator control. The military high command never forgets its heroes.",
+    "Text": "Рідкісна нагорода у вигляді перехрестя червоних шабель. Вручається за визволення малокських планет від домінаторів. Військове верховне командування не забуває своїх героїв.",
     "Type": "ForPlanetBattle"
   },
   "41": {
-    "Name": "Otto the Slug",
+    "Name": "Слимака Отто",
     "Race": "Peleng",
     "Status": "Pirate",
-    "Text": "This piece sample of an award souvenir is conferred to pirates who have contributed great efforts to destroy the remains of dominator forces on peleng planets, dear to every pirate.",
+    "Text": "Штучний екземпляр нагородного сувеніру для піратів, які доклали чимало сил для знищення залишків домінаторських військ на рідних кожному пірату пеленгських планет.",
     "Type": "ForPlanetBattle"
   },
   "42": {
-    "Name": "Mario Brother",
+    "Name": "Брат Маріо",
     "Race": "People",
     "Status": "Trader",
-    "Text": "A memorable statuette for rangers whose entrepreneurial mindset has helped to sweep dominator forces off human planets. Fashioned in the honor of the great Mario, who, according to legend, rescued not only his beloved but the whole world from a grave threat.",
+    "Text": "Пам'ятна статуетка для рейнджерів, які завдяки підприємницькому розуму, змогли очистити планети людей від домінаторів. Створена на честь великого Маріо, за легендою, яка врятувала не лише свою кохану, а й увесь світ від ворогів.",
     "Type": "ForPlanetBattle"
   },
   "43": {
-    "Name": "Quartz Sting",
+    "Name": "Кварцовий стінг",
     "Race": "Fei",
     "Status": "Any",
-    "Text": "A medal with an internal driving mechanism, displaying time on all faeyan planets simultaneously. Awarded to heroic rangers who have liberated faeyan planets from the metallic occupiers.",
+    "Text": "Медаль з внутрішнім механізмом, що рухається, показує час на всіх феянських планетах відразу. Вручається рейнджерам-героям, які звільнили феянські планети від металевих окупантів.",
     "Type": "ForPlanetBattle"
   },
   "44": {
-    "Name": "Crystal Chakra",
+    "Name": "Кришталева чакра",
     "Race": "Gaal",
     "Status": "Any",
-    "Text": "A special award from the Gaalian Coalition for Freedom And Pure Relations. Bestowed to rangers who have liberated gaalian planets from the dominator troops.",
+    "Text": "Спеціальна нагорода від гаальської організації свободи та чистоти відносин. Вручається рейнджерам, які звільняють від домінаторських військ планети гаальців.",
     "Type": "ForPlanetBattle"
   },
   "45": {
-    "Name": "Order of Dzuhallag",
+    "Name": "Орден Дзухаллага",
     "Race": "Peleng",
     "Status": "Any",
-    "Text": "An award issued to members of the Dzuhallag military organization or especially selfless warriors who have displayed extraordinary ability leading combat operations on occupied planets.",
+    "Text": "Нагорода, видатна членам військової організації \"Дзухалаг\" або дуже самовідданим воїнам, які якісно керували воєнними діями на окупованих планетах.",
     "Type": "ForPlanetBattle"
   },
   "46": {
-    "Name": "Quack Commendation",
+    "Name": "Квакова грамота",
     "Race": "Maloc",
     "Status": "Any",
-    "Text": "The maloq government awards this commendation to warriors who have defied the odds and managed to liberate a maloq planet from an overwhelming dominator force.",
+    "Text": "Грамота малокського уряду вручається воїнам, які, незважаючи на переважаючі сили домінаторів, змогли звільнити малокську планету від ворожої навали.",
     "Type": "ForPlanetBattle"
   },
   "47": {
-    "Name": "Helping Hand",
+    "Name": "Рука допомоги",
     "Race": "People",
     "Status": "Any",
-    "Text": "Awarded by the human government for assisting in the execution of a successful military campaign against the remnants of dominator forces on planets belonging to the human race.",
+    "Text": "Довірча нагорода людського уряду за допомогу у проведенні виграшної військової кампанії проти залишків домінаторських військ на планетах людської раси.",
     "Type": "ForPlanetBattle"
   },
   "5": {
-    "Name": "Swamp Spirit",
+    "Name": "Дух боліт",
     "Race": "Peleng",
     "Status": "Pirate",
-    "Text": "A hermetically sealed metallic microsarcophagus, storing the scent of peleng swamps. Must not be opened, lest the relic will discharge aromatic gases and lose its value. This honorary award is reserved for pirates who have played an active role in liberating a peleng system from the dominator forces.",
+    "Text": "Нагородний герметично запаяний металевий мікросаркофаг із запахом пеленгських боліт. Відкривати заборонено, інакше відбудеться викид ароматних газів, і реліквія втратить свою цінність. Почесна нагорода для піратів, які брали активну участь у визволенні пеленгської системи від домінаторських військ.",
     "Type": "ForLiberationSystem"
   },
   "6": {
-    "Name": "Congressional Medal",
+    "Name": "Медаль Конгресу",
     "Race": "People",
     "Status": "Any",
-    "Text": "The award is issued by the Congress of the Confederation to warriors who strive to rid the Galaxy of dominators.",
+    "Text": "Медаль від людського Конгресу Конфедерації – нагорода воїнам, які звільняють Галактику від домінаторів.",
     "Type": "ForLiberationSystem"
   },
   "7": {
-    "Name": "Nominal Coin",
+    "Name": "Іменна монета",
     "Race": "People",
     "Status": "Trader",
-    "Text": "Bearing the engraving of the owner's name, this platinum stamped coin is worth one thousand credits and serves as a special award from the human government's chamber of commerce. Bestowed to merchant pilots who have achieved success in the war with the dominators.",
+    "Text": "Платинова гербова монета номіналом в одну тисячу кредитів, з вигравіруваним ім'ям власника - спеціальна нагорода від торгової палати людського уряду. Вручається комерційним пілотам, які досягли успіху у війні з домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "8": {
-    "Name": "Ivicus",
+    "Name": "Івікус",
     "Race": "Fei",
     "Status": "Any",
-    "Text": "Essentially a sphere made of holographic phosphorite and encrusted in white energens, this faeyan Ivicus is an honorary award for warriors who have found success in the struggle against the dominators.",
+    "Text": "Феянський івікус - сфера з голографічного фосфориту, інкрустована білими енергенами - почесна нагорода для воїнів, які досягли успіху у боротьбі з домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "9": {
-    "Name": "Mercine Pendant",
+    "Name": "Мерцинова підвіска",
     "Race": "Fei",
     "Status": "Trader",
-    "Text": "A pendant made from super-expensive mineral mercine. Founded by the faeyan government, this extremely honorary award is bestowed to merchants for their participation in battles against the dominators.",
+    "Text": "Підвіска із наддорогого мінералу мерцину. Дуже почесна нагорода. Заснована урядом феян для нагородження торговців, які беруть участь у битвах із домінаторами.",
     "Type": "ForLiberationSystem"
   },
   "Count": "48"

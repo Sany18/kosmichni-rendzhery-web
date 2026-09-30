@@ -1,134 +1,134 @@
 {
   "CreateBK": {
     "Name": [
-      "Business center in the <Star> system.",
-      "Cost: <Money> cr."
+      "Бізнес-центр у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a business center",
+    "PlayerSend": "Будувати бізнес-центр",
     "Text": [
-      "That's the best choice of all, <Player>! Your money will go toward paying off our loan.",
-      "The <Name> station in the <Star> system is now open for business!"
+      "Ось це найправильніший вибір, <Player>! Ваші гроші покрили нашу заборгованість із фінансування.",
+      "З цього дня станція <Name> у системі <Star> починає свою роботу з кредитування клієнтів."
     ]
   },
   "CreateMC": {
     "Name": [
-      "Medical center in the <Star> system.",
-      "Cost: <Money> cr."
+      "Медичний центр у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a medical center",
+    "PlayerSend": "Будувати медичний центр",
     "Text": [
-      "You're awesome, <Player>! Caring for others is the hallmark of a true ranger.",
-      "Your money has helped make a miracle! The <Name> center is now operating in the <Star> system, ready to tend to all who are in need of assistance. We salute you!"
+      "Ви молодець, <Player>! Турбота про ближніх є першорядною для справжнього рейнджера.",
+      "Ваші гроші дозволили зробити диво! Тепер у системі <Star> відкрито центр <Name>, готовий прийняти всіх страждаючих. Ми вам салютуємо!"
     ]
   },
   "CreatePB": {
     "Name": [
-      "Pirate base in the <Star> system.",
-      "Cost: <Money> cr."
+      "Піратська база у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a pirate base",
+    "PlayerSend": "Будувати базу піратів",
     "Text": [
-      "We've invested your funds in the construction of a pirate base in the <Star> system. While this decision will likely be popular amongst all manner of dubious characters, you shouldn't expect gaalian and faeyan planets to approve...",
-      "It is done, <Player>. We're getting reports that the <Name> pirate base is up and running."
+      "Ми вклали ваші гроші в будівництво піратської станції в системі <Star>. Звичайно, всілякі сумнівні особи будуть вітати вас, але навряд чи ваша політика отримає хороші відгуки на планетах гаальців і феян.",
+      "Готово, <Player>. Нам повідомляють, що піратська база <Name> вже майже приведена в дію."
     ]
   },
   "CreateRC": {
     "Name": [
-      "Ranger center in the <Star> system.",
-      "Cost: <Money> cr."
+      "Центр рейнджерів у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a ranger center",
-    "Text": "Excellent, <Player>, the Ranger Center Network thanks you. The <Name> base, constructed in the <Star> system with your assistance, will help rookie and seasoned rangers alike in the fight for the common good. And you are credited <Point> points!"
+    "PlayerSend": "Будувати центр рейнджерів",
+    "Text": "Відмінно, <Player>, мережа центрів рейнджерів дякує вам. База <Name>, побудована завдяки вашій допомозі в системі <Star>, допоможе як новачкам, так і досвідченим рейнджерам у цій боротьбі. Вам нараховується <Point> очок рейнджера!"
   },
   "CreateSB": {
     "Name": [
-      "Research Station in the <Star> system.",
-      "Cost: <Money> cr."
+      "Наукова база у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a research station",
+    "PlayerSend": "Будувати наукову базу",
     "Text": [
-      "<Player>, the scientific community of the Interstellar Coalition extends its gratitude! Your gift of lab <Name> in the <Star> system is very much appreciated.",
-      "The lab will surely aid in the research and development of anti-dominator combat programs going forward."
+      "Вчені міжзоряної коаліції дякують вам, <Player>, за цей подарунок у вигляді нової лабораторії <Name> у системі <Star>.",
+      "Швидкість роботи вчених над створенням програм для боротьби з домінаторами незабаром збільшиться."
     ]
   },
   "CreateWB": {
     "Name": [
-      "Military Base in the <Star> system.",
-      "Cost: <Money> cr."
+      "Військова база у системі <Star>.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Build a military base",
+    "PlayerSend": "Будувати військову базу",
     "Text": [
-      "The Ministry of War of the <Star> system is very grateful, <Player>. The new <Name> military base will help the Coalition in the war against the dominators.",
-      "We're being told that you've been credited <Point> bonus combat pilot points."
+      "Військове відомство системи <Star> дякує вам, <Player>. Нова військова база <Name> допоможе коаліції у боротьбі проти домінаторів.",
+      "Нам повідомляють, що вам було нараховано <Point> додаткових очок військового льотчика."
     ],
-    "TextAlt": "The Ministry of War of the <Star> system is very grateful, <Player>. The new <Name> military base will help the Coalition in the war against the dominators."
+    "TextAlt": "Військове відомство системи <Star> дякує вам, <Player>. Нова військова база <Name> допоможе коаліції у боротьбі проти домінаторів."
   },
   "LostSubsidy": {
-    "GalaxyMessage": "Ranger <Player> has made a gesture of remarkable charity, donating money to the assistance fund for needy families who have lost loved ones in the war. The valorous ranger transferred a sum of <Money> cr from his personal account through <BK> bank!",
+    "GalaxyMessage": "Жест доброї волі зробив рейнджер <Player>. Завдяки йому нові кошти надійшли до фонду допомоги незаможним сім'ям, які втратили близьких у цій війні. Доблесний рейнджер, скориставшись послугами банку <BK>, переказав зі свого особистого рахунку <Money> cr!",
     "Name": [
-      "The money will go toward assisting families that have lost loves ones in the war with the dominators.",
-      "Cost: <Money> cr."
+      "Допомога сім'ям, що втратили близьких у війні з домінаторами.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Assistance to families affected by the war",
+    "PlayerSend": "Допомога сім'ям, що постраждали від війни",
     "Text": [
-      "We bow before your generosity, <Player>! It is inspiring to know that in spite of all the financial difficulties you haven't forgotten about the families of our fallen heroes.",
-      "We hope that this deed will not go unnoticed, making you a welcomed guest on all of the Galaxy's progressive planets. <BK> bank will make the most of your donation of <Money> cr."
+      "Ми схиляємось перед вашим вчинком, <Player>! Так тішить, що ви, незважаючи на всі фінансові труднощі, не забуваєте про сім'ї загиблих героїв.",
+      "Сподіваємося, що цей крок не залишиться непоміченим, і на всіх прогресивних планетах вас тепер будуть раді бачити. Ваш <Money> cr наш банк <BK> використовує максимально ефективно."
     ]
   },
   "PiratesSubsidy": {
     "GalaxyMessage": [
-      "Attention, pirates!",
-      "Ranger <Player> showed his support for Mr. Saracen's fund. One can't help but feel disturbed by the fact that a hefty sum of <Money> cr was transferred to a fund supporting pirate activities."
+      "Увага, пірати!",
+      "Рейнджер <Player> підтримав фонд містера Сороскіна. Цей факт не може не насторожувати, адже чимала сума у ​​розмірі <Money> cr була переведена до фонду підтримки піратської діяльності."
     ],
     "Name": [
-      "This is a subsidy to inveterate pirates.",
-      "Cost: <Money> cr."
+      "Субсидія запеклим піратам.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Subsidize pirates",
+    "PlayerSend": "Субсидувати піратів",
     "Text": [
-      "You're quite the risk taker, <Player>. The pirate subsidy program exists in a legal gray area.",
-      "The program was founded by Mr. Saracen, a multi-billionaire. He is of the opinion that pirates help promote honest competition by \"levelling the playing field\". It appears that you agree with this viewpoint. Your <Money> cr will be fairly distributed among pirate vessels when they arrive at spaceports. We won't waste even a single credit -- you can trust us.",
-      "In general, if you want to gain favor with the pirates, it is illegal. In which case you will face arrest. Don't be surprised if some of the governments of the planets actively fighting pirates will be offended by you."
+      "Ви ризиковий хлопець, <Player>. Програма субсидування піратів перебуває на межі законності.",
+      "Біля витоків цієї програми стоїть містер Сороскін, мультимільярдер. Він вважає, що пірати створюють благодатне поле для чесної конкуренції. Видно, що ви згодні з ним. Ваші гроші у розмірі <Money> cr будуть чесно розподілені серед піратських суден, у міру заходження їх у космопорти. Можете нам вірити, ми не розтратимо жодного кредиту.",
+      "Взагалі, якщо ви таким чином бажаєте отримати розташування піратів, це незаконно. В цьому випадку вам загрожує арешт. Не дивуйтеся, якщо частина урядів планет, що активно борються з піратами, буде на вас образливою."
     ]
   },
   "RangersSubsidy": {
     "GalaxyMessage": [
-      "Attention all rangers!",
-      "Ranger <Player> has made a gesture of remarkable charity, He transferred <Money> cr to the impoverished rangers' assistance fund,"
+      "Увага всім рейнджерам!",
+      "Здійснив жест доброї волі рейнджер <Player>. Він перевів <Money> cr у фонд підтримки незаможних рейнджерів."
     ],
     "Name": [
-      "subsidizing the Galaxy's poorest rangers.",
-      "Cost: <Money> cr."
+      "Субсидія найбіднішим рейнджерам.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Sponsor impoverished rangers",
-    "Text": "Excellent, <Player>, the money has been transferred. The sum of <Money> cr has been equally distributed amongst the poorest rangers. Your generosity will go down in legend. As far as we've been told, all the rangers are simply delighted with you."
+    "PlayerSend": "Спонсорувати бідних рейнджерів",
+    "Text": "Добре, <Player>, гроші переведені. Сума у ​​розмірі <Money> cr була розподілена між найбіднішими рейнджерами. Про вашу щедрість тепер ходитимуть легенди. Наскільки ми можемо судити, всі рейнджери мають бути в захваті від такого кроку."
   },
   "TransportSubsidy": {
-    "GalaxyMessage": "The Transportation Committee is delighted to report on a large investment in the amount of <Money> cr. The funds were a gracious gift from Ranger <Player>, intented to support the economy. The move will most certainly affect the quality of cargo transportation.",
+    "GalaxyMessage": "Транспортний комітет повідомляє про надходження великого внеску на суму <Money> cr. Ці гроші рейнджер <Player> безоплатно передав на підтримку торгової діяльності. Цей факт не може не вплинути на якість вантажоперевезень.",
     "Name": [
-      "Transportation Committee Fund.",
-      "Cost: <Money> cr."
+      "Фонду транспортного комітету.",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Support the Transportation Committee",
+    "PlayerSend": "Підтримати транспортний комітет",
     "Text": [
-      "Your donation of <Money> cr is but a drop in the sea of cargo transportation. Nevertheless, it will have something for every captain: if not an upgrade to some ultramodern radar, at least a mug of quality beer.",
-      "All merchant vessels salute you, <Player>!"
+      "Ваша сума в <Money> cr просто крапля у морі вантажоперевезень. Проте кожен капітан зможе поставити собі якщо не новий ультрасучасний радар, то хоча б банку хорошого пива.",
+      "Усі торгові судна салютують вам, <Player>!"
     ]
   },
   "WarSubsidy": {
     "GalaxyMessage": [
-      "The pirates are panicking! Ranger <Player> and the <BK> business center have funded the construction of a new military fleet on planet <Planet>.",
-      "The contract sum of <Money> cr will facilitate the construction of <Count> new military ships in the nearest future!"
+      "Пірати з жахом! Рейнджер <Player> та бізнес-центр <BK> сплатили будівництво нового військового флоту на планеті <Planet>.",
+      "Сума контракту розміром <Money> cr дозволить у найкоротші терміни побудувати <Count> нових військових кораблів!"
     ],
     "Name": [
-      "Investment in the construction of new combat ships on planet <Planet> (<Star> system).",
-      "Cost: <Money> cr."
+      "Оплата виробництва нових військових кораблів планети <Planet> (система <Star>).",
+      "Вартість <Money> cr."
     ],
-    "PlayerSend": "Construction of military fleet for planet <Planet>",
+    "PlayerSend": "Побудова військового флоту для планети <Planet>",
     "Text": [
-      "You've made a right choice, <Player>! Planet <Planet> will start the construction of <Count> battleships effective immediately. The new fleet will comprise the following ships:",
+      "Це правильний вибір, <Player>! Планета <Planet> негайно починає будівництво <Count> лінійних кораблів. Новий флот буде представлений такими кораблями:",
       "<ShipsName>",
-      "You will always be a welcomed guest there. Pirates and dominators alike will be decisively rebuffed in the <Star> system."
+      "Тепер вас там завжди будуть раді бачити. Пірати та домінатори отримають гідну відсіч у системі <Star>."
     ]
   }
 }

@@ -1,23 +1,23 @@
 {
-  "DayWait": "<br>You have <CurPoints> points.<br> <br>The cheat will become available in <Day> days.",
+  "DayWait": "<br>У вас є <CurPoints> очок.<br> <br>Чит буде доступний через <Day> днів.",
   "Info": [
-    "Cheat: <Name>",
-    "Cost: <CheatPoints>"
+    "Чит: <Name>",
+    "Вартість: <CheatPoints>"
   ],
-  "Mod_Ammo": "Ammo",
-  "Mod_Domik": "Dominators:",
-  "Mod_DomikExtremal": "Standart",
-  "Mod_DomikHellish": "Hell",
-  "Mod_DomikHorrible": "Horror",
-  "Mod_DomikNightmare": "Nightmare",
-  "Mod_God": "Invulnerability",
-  "Mod_Stasis": "Stasis",
-  "Mod_Technic": "Technic",
-  "Mod_Ultrascan": "Ultrascaner",
+  "Mod_Ammo": "Боєприпаси",
+  "Mod_Domik": "Домінатори:",
+  "Mod_DomikExtremal": "Стандартні",
+  "Mod_DomikHellish": "Пекло",
+  "Mod_DomikHorrible": "Жах",
+  "Mod_DomikNightmare": "Кошмар",
+  "Mod_God": "Невразливість",
+  "Mod_Stasis": "Стазіс",
+  "Mod_Technic": "Технік",
+  "Mod_Ultrascan": "Ультрасканер",
   "Ok": [
-    "<br>Cheat successful!<br>",
-    "A total of <AllPoints> cheat points used."
+    "<br>Чит успішно запущений!<br>",
+    "Усього використано <AllPoints> чит-окулярів."
   ],
-  "SelectABMap": "Select AB map",
-  "Warning": "Cheats"
+  "SelectABMap": "Вибір гіпер-картки",
+  "Warning": "Чити"
 }

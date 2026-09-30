@@ -1,6 +1,6 @@
 {
-  "Name": "Asteroid -<Number>-",
-  "Text": "Ore deposits amount to <Count> units, asteroid speed equals <Speed>.",
+  "Name": "Астероїд -<Number>-",
+  "Text": "Зміст корисних руд сягає <Count> одиниць, швидкість астероїда <Speed>.",
   "kAsteroidMaxDamagePercent": "20",
   "kAsteroidMaxDamagePercentDef": "20",
   "kAsteroidMinDamagePercent": "10",

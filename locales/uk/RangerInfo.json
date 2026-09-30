@@ -1,7 +1,7 @@
 {
   "Type": {
-    "Pirate": "Pirate",
-    "Trader": "Merchant",
-    "Warrior": "Warrior"
+    "Pirate": "Пірат",
+    "Trader": "Продавець",
+    "Warrior": "Воїн"
   }
 }

@@ -1,87 +1,87 @@
 {
   "LiberationAwardNormals": {
-    "AddArtefact": "We thought long and hard about your reward and decided that it must be something special. So, please accept this <Artefact>!",
-    "AddNod": "On behalf of the Coordination Council of the Ranger Center Network, allow me to present you with this special present: <Nod>!",
-    "AddPoints": "<Points> experience gained.",
-    "AddProgramms": "As a token of our gratitude, we would like to upgrade your onboard computer with the <Programm> program. Number of copies: <Count>.",
-    "AddReward": "On behalf of the entire <Star> system we wish to award you with an order reflecting your valor: <Reward>! We hope it will inspire you to even greater heights."
+    "AddArtefact": "Ми довго думали, як нагородити вас, і вирішили, що подарунок має бути особливим. Нехай це буде <Artefact>!",
+    "AddNod": "Від Координаційної Ради Мережі Центрів Рейнджерів дозвольте вручити вам особливий подарунок: <Nod>!",
+    "AddPoints": "Отримано досвіду: <Points> очок.",
+    "AddProgramms": "На знак подяки ми завантажуємо у ваш бортовий комп'ютер програму <Programm>. Кількість примірників: <Count> шт.",
+    "AddReward": "Від імені всієї нашої системи <Star> ми вручаємо вам знак, що відповідає вашій доблесті: <Reward>! Сподіваємося, що цей жест підштовхне вас до нових подвигів."
   },
   "LiberationAwardPirateClan": {
-    "AddArtefact": "We thought long and hard about your reward and decided that it must be something special. So, please accept this <Artefact>!",
-    "AddNod": "And as a sign of our special relationship, allow me to present you with this special present: <Nod>!",
-    "AddPoints": "<Points> experience gained.",
-    "AddProgramms": "As a token of our gratitude, we would like to upgrade your onboard computer with the <Programm> program. Number of copies: <Count>.",
-    "AddReward": "On behalf of the entire <Star> system we wish to award you with an order reflecting your valor: <Reward>! We hope it will inspire you to even greater heights."
+    "AddArtefact": "Ми довго думали, як нагородити вас, і вирішили, що подарунок має бути особливим. Нехай це буде <Artefact>!",
+    "AddNod": "А на знак нашого особливого відношення, отримаєте й особливий подарунок – <Nod>!",
+    "AddPoints": "Отримано досвіду: <Points> очок.",
+    "AddProgramms": "На знак подяки ми завантажуємо у ваш бортовий комп'ютер програму <Programm>. Кількість примірників: <Count> шт.",
+    "AddReward": "Від імені всієї нашої системи <Star> ми вручаємо вам знак, що відповідає вашій доблесті: <Reward>! Сподіваємося, що цей жест підштовхне вас до нових подвигів."
   },
   "LiberationStarNormalsFromKling": {
-    "FeiText": "A brilliant fight following by a brilliant victory, ensuring that the name <Player> shall be immortalized in the annals of the <Star> system. We expect that you will keep up the good fight with the same fervor. Allow us to express our gratitude for liberating our system from the dominator invasion.",
-    "GaalText": "<Player>, we didn't doubt for a second that a courageous leader such as yourself would liberate our wonderful <Star> system. Please allow us to thank you for your brilliant victory.",
-    "MalocText": "<Player>, we are happy to welcome a great warrior such as yourself on the hospitable maloq planet <Planet>! Allow us to express our gratitude for liberating our system from the dominator invasion.",
-    "PelengText": "<Player>, you have set a wonderful example of courage and heroism for our youth! We endeavor to follow your example. Allow us to express our gratitude for liberating our system from the dominator invasion.",
-    "PeopleText": "All hail <Player>, a great warrior who routed throngs of dominators and liberated the <Star> system! We want to express our sincerest gratitude and appreciation."
+    "FeiText": "Блискуча сутичка, блискуча перемога, ім'я <Player> увічнено в анналах системи <Star>. Ми припускаємо, що ви продовжите вашу діяльність у таких же чудових традиціях. Дозвольте вам віддячити за звільнення нашої системи від навали домінаторів.",
+    "GaalText": "<Player>, ми навіть не сумнівалися, що такий відважний лідер, як ви, звільнить нашу чудову систему <Star>. Дозвольте вам віддячити за блискучу перемогу.",
+    "MalocText": "Ми раді вітати такого великого воїна, як <Player>, на гостинній малокській планеті <Planet>! Дозвольте вам віддячити за звільнення нашої системи від навали домінаторів.",
+    "PelengText": "<Player>, який чудовий приклад героїзму та відваги ви подали нашій молоді! Ми прагнемо дотримуватися вашого зразка. Дозвольте вам віддячити за звільнення нашої системи від навали домінаторів.",
+    "PeopleText": "Хай живе великий воїн <Player>, який розбив полчища домінаторів і звільнив систему <Star>! Ми висловлюємо вам щиру подяку та вдячність."
   },
   "LiberationStarNormalsFromPirateClan": {
-    "FeiText": "You are a true hero, <Player>! In our hour of need you came to the aid of a star system plagued by pirates and achieved success where the Coalition's military suffered an inglorious defeat! Your name has been entered into history books on all the planets in our sector. Allow us to thank you properly for the millions of Coalition subjects you've saved!",
-    "GaalText": "Certainly, living under the boot of pirate aggressors, hopelessly lacking any aspiration to attain insight and harmony of the universe, was tough for us, like an unsolvable combination in Iike-Baana. Blessed are we that there are still heroes like you in this Galaxy, <Player>. Allow us to thank you for liberating our star system and returning it into Coalition hands.",
-    "MalocText": "We salute your valor, <Player>! Like a ferocious swarokok, you swooped into our star system and tore those pathetic pirates to shreds! Of course, we would have dealt with them ourselves sooner or later, but thanks just the same for saving us time and resources. And now we want to honor you properly, the great warrior that you are!",
-    "PelengText": "You know, <Player>, for a creature with limited limbs you sure did a great job mopping up those pirate occupiers in our system. Sure, they were good company and hella fun, but seeing as we have a long-standing contract with the Coalition, we feel it's best to maintain this course. For as long as the Coalition still exists, that is. In the meantime, let us thank you for your efforts.",
-    "PeopleText": "Your help in driving out the pirate invaders from our star system was invaluable, <Player>! Watching your triumphant battle from planetside was great fun! I bet the video will get a gazillion hits on GalaTube in no time. And while it's being uploaded, allow us to thank you for rescuing us!"
+    "FeiText": "Ви справжній герой, <Player>! У складну хвилину ви прийшли на допомогу пригніченою піратами зірковій системі і досягли успіху там, де військові Коаліції були безславно розбиті! Ваше ім'я вже занесене до всіх підручників історії планет нашого сектора. Тож дозвольте віддячити вам за порятунок мільйонів підданих Коаліції!",
+    "GaalText": "Життя під гнітом піратських агресорів, у яких повністю відсутнє прагнення до гармонії і потяг до пізнання всесвіту було важким для нас, немов нерозв'язною комбінацією в Ііке-Баані. Яке щастя, що в галактиці є герої на зразок вас, <Player>. Дозвольте віддячити вам за звільнення нашої зіркової системи та повернення її під контроль Коаліції.",
+    "MalocText": "Ми захоплюємось вашою доблестю, <Player>! Подібно до лютого сварококу ви вдерлися в нашу зоряну систему і роздерли цих жалюгідних піратишок! Звичайно, рано чи пізно, ми б і самі з ними впоралися, але ви заощадили нам і час і ресурси, за що ми дуже вдячні. Дозвольте ж віддати вам за заслуги, як великому воїну.",
+    "PelengText": "Для істоти з обмеженою кількістю кінцівок ви просто чудово впоралися з піратами, що окупували нашу систему, <Player>. Звичайно, я не можу заперечувати, що з ними було весело, але коли ми колись давно підписали договір і вступили до лав Коаліції, то й надалі будемо дотримуватися цього курсу. Поки що Коаліція ще існує, звичайно ж. А поки дозвольте віддячити вам за роботу.",
+    "PeopleText": "Ви чудово допомогли впоратися з піратами, що захопили нашу зіркову систему, <Player>! Ми отримали справжнє задоволення, спостерігаючи за вашим тріумфальним боєм із планети. Схоже, запис цієї події ще не один рік буде в топі галатюба. А поки ми заливаємо відео, дозвольте віддячити вам за наш порятунок!"
   },
   "LiberationStarPirateClanFromKling": {
     "0": {
       "Priority": "10",
-      "Text": "Those domers ain't so tough after all, eh, <Player>?! With your help, we sure gave 'em hell! We pirates are the toughest SOBs in the Galaxy! Neither the Coalition nor the dominators can touch us!"
+      "Text": "Не такі страшні домінатори, як їх малюють, а <Player>?! Задали ми їм спеку з твоєю допомогою! Ми, пірати, крутіші за всіх у галактиці, Коаліції з домінаторами нас не перемогти!"
     },
     "1": {
       "Priority": "10",
-      "Text": "Many of our bros are surprised that we're capturing systems from dominators and not from the Coalition. They ain't smart enough to know the meaning of strategy and tactics -- all they care about is raiding and shooting their guns. But you and I, <Player>, we understand the importance of it. So from one wise guy to another, thanks for helping to capture this system!"
+      "Text": "Багато наших пацанів дивуються, навіщо ми захоплюємо системи домінаторів, а не Коаліцію. Вони просто середнього розуму, їм не зрозуміти, що таке стратегія і тактика, їм би тільки пограбувати та з гармат постріляти. А ось ми з тобою, <Player>, добре це розуміємо. Так що персонально тобі, як чувакові, що розуміє, я дякую за допомогу в захопленні цієї системи!"
     },
     "2": {
       "Priority": "10",
-      "Text": "Ha, those stupid tin cans didn't know what hit 'em! And you crushed them bastards like insects, <Player>! It's great to see you put your ranger's past to good use. If nothing else, you lot are masters at beating up on dominators. Now this star system is ours, and I want to thank you on behalf of the entire pirate community for a glorious fight!"
+      "Text": "Хех, ці тупі залізця навіть не зрозуміли, що це було! Ти, <Player>, проїхався ними, ніби ковзанка і розмолотив їх у дрібні шматки! Хоч у чомусь твоє рейнджерське минуле нам знадобилося. Що-що, а домінаторів кришити ви майстри. Ця зоряна система тепер наша, а тобі я від імені всієї піратської спільноти висловлюю подяку за славну бійку!"
     },
     "3": {
       "Priority": "10",
-      "Text": "That's how we roll, eh, <Player>?! Those Coalition wussies may be powerless against the tin cans they themselves have created, but we sure as hell ain't! You definitely proved that with this fight today. The system is now ours, and we're gonna be divvying up the booty soon. This calls for a celebration!"
+      "Text": "Ось так і треба, так, <Player>?! Ці хіляки з Коаліції не можуть упоратися із залізяками, яких самі ж створили, а от ми навпаки, ще як можемо! Твій сьогоднішній бій це добре довів! Система тепер наша і ми вже займаємося поділом видобутку. За це треба випити!"
     },
     "CongratulationsCount": "4"
   },
   "LiberationStarPirateClanFromNormals": {
     "0": {
       "Priority": "10",
-      "Text": "Excellent work, <Player>! Yet another system is in our hands, and your contribution is very much recognized and appreciated. Keep up the good work, and soon people will forget the meaning of the word \"Coalition\"!"
+      "Text": "Відмінна робота, <Player>! Ще одна система тепер знаходиться в наших руках, а ти посильно взяв участь у цій справі, за що ми тобі дуже вдячні. Продовжуй так само, і незабаром люди забудуть значення слова \"Коаліція\"!"
     },
     "1": {
       "Priority": "10",
       "Text": [
-        "Har-har, <Player>, my friend, up top! Excellent work up there on the orbit. Seeing you in action was a treat -- you're a real animal!",
-        "Now that the system is ours, you can relax and let loose. But not too loose, you hear? We've got big plans for this here planet. Oh, by the way, the bar is right around the corner, if you're interested. Everybody's already there and waiting on you!"
+        "Ха-хах, друже <Player>, дай п'ять! Чудова робота там, на орбіті. Бачив тебе у бою, ти просто звір!!",
+        "Гаразд, система тепер наша, так що можеш розслабитися і відірватися від душі, тільки особливо не буянь, у нас ще є на цю планету далекосяжні плани. До речі, бар за рогом, якщо тобі цікаво. Всі наші вже там, чекають на тебе!"
       ]
     },
     "2": {
       "Priority": "10",
-      "Text": "<Player>, thank you for helping us in that fight on the orbit. If it weren't for you, things might have ended badly for us. Fortunately, the battle is over, and now we can look forward to celebrating and splitting loot. Let's hope the Coalition forces won't be visiting us for a while; and if they do, we'll give 'em a proper pirate welcome. Are you in? Hell, of course you are!"
+      "Text": "<Player>, ми дякуємо тобі за допомогу в битві на орбіті. Якби не ти – нам би довелося туго. На щастя бій уже позаду, а попереду лише привітання та ділення видобутку. Сподіватимемося, що війська Коаліції не скоро зберуться нас відвідати, а якщо вони все ж таки наважаться - ми дамо їм гідну відсіч. Як ти вважаєш, адже дамо? Ось, і я про те саме."
     },
     "3": {
       "Priority": "10",
-      "Text": "Excellent, <Player>, simply excellent. Your help in establishing control over this system was invaluable. And it's always great to take those goody two-shoes Coalition punks down a peg. They fought like they had never even smelled a whiff of gunpowder... And now they never will! Anyway, we won, and winners are right by default. And you know what else winners are? They are congratulated, so let me shake your firm hand -- or better yet, both of them! The more the merrier, I say!"
+      "Text": "Добре, просто добре, <Player>. Твоя допомога у встановленні контролю за цією системою просто неоціненна. Ми вкотре прищемили хвіст цим зразковим хлопчикам, захисникам Коаліції, які ще й пороху до ладу не нюхали. Втім, тепер уже й не понюхають... однак убік лірику. Ми перемогли, а переможців, як ти знаєш, не судять. Їх вітають, так що дай я потисну твою тверду руку, а краще одразу дві руки! Адже більше – не менше!"
     },
     "4": {
       "Priority": "1",
       "Text": [
-        "Oh, hic... <Player>, sorry, I'm just so, hic... hammered! While yer out dere congraidulatin' folk, cherin' in deir joys... You were gr8! Or waz it you... Daaamn, twins! C'mere, lemme kiss you both on da lips! Wait, where you goin'... Dis is a cellebrashin, and you twos are lik' twos peas in a pod, ha-ha-ha! Dat was a gewd joke...",
-        "Now, where waz mah soberrol...",
-        "Ugh, my head! I apologize for my behavior, <Player>. It is a noble pirate ritual to drink a shot for every survivor. And so I raise this full glass for you with pride!"
+        "Ох, ік, <Player>, пробач, але чо-то я вже набрався ... поки всіх привітаєш, ік, сам з ніг звалишся! Ти молодець, ось. Ви, точніше. Офігети, близнюки. Давай, я, ік, вас обох розцілую... ну ж, не тікайте! Таке свято, а ви... двоє з яйця, однакові з обличчя, ха-ха-ха! Хороша щітка, гик.",
+        "Десь тут був мій витрверезин? А, от він...",
+        "Ох, моя голова. Перепрошую, <Player>, якщо збентежив вас своєю поведінкою. Це славний піратський ритуал - пити за кожного переможця, що вижив. Тож я з гордістю піднімаю за вас цей повний келих!"
       ]
     },
     "CongratulationsCount": "5"
   },
   "Quest": {
-    "AddArtefact": "In this case, money cannot be considered fair payment for what you've done, <Player>. Therefore, as an added bonus we would like to present you with this special gift: <Artefact>!",
-    "AddNod": "But that's not all. We must admit that the successful completion of this task is worthy of any ranger. As an added bonus, the Ranger Center Network Coordination Council would like to give you this special gift: micromodule <Nod>!",
-    "AddNodPirate": "But that's not all. We must admit that the successful completion of this task is worthy of any ranger. As an added bonus, I would like to give you this special gift: micromodule <Nod>!",
-    "AddPoints": "<Points> experience gained.",
-    "AddProgramms": "As an added bonus for your merits, we would like to upgrade your onboard computer with the <Programm> program.<br>Number of copies: <Count>.<br>We hope that it will be of use in your battles against the dominators.",
-    "AddReward": "We would also like to honor you with <Reward> for your successful operation. Glory is more important than money, is it not?"
+    "AddArtefact": "Гроші не можуть бути в даному випадку адекватною оцінкою вашої праці, <Player>. Тому як додаткова винагорода, ми вирішили вручити вам спеціальний подарунок: \"<Artefact>\"!",
+    "AddNod": "Це ще не все. Треба визнати, що успішне виконання цього завдання гідне будь-якого рейнджера. Від Координаційної Ради Мережі Центрів Рейнджерів у вигляді додаткової винагороди за працю дозвольте вручити вам особливий подарунок: мікромодуль <Nod>!",
+    "AddNodPirate": "Це ще не все. Треба визнати, що успішне виконання цього завдання гідне будь-якого рейнджера. Від імені себе особисто, у вигляді додаткової винагороди за працю, дозвольте вручити вам особливий подарунок: мікромодуль <Nod>!",
+    "AddPoints": "Отримано досвіду: <Points> очок.",
+    "AddProgramms": "У вигляді додаткового бонусу за ваші послуги ми завантажуємо у ваш бортовий комп'ютер програму: <Programm>.<br>Кількість копій: <Count> шт.<br>Сподіваємося, що це дозволить вам більш ефективно вести військові дії проти домінаторів.",
+    "AddReward": "І ще дозвольте вручити вам нагороду <Reward> за проведену операцію! Слава ж важливіша за гроші, чи не так?"
   }
 }

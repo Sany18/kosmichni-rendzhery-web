@@ -1,176 +1,176 @@
 {
   "ExtraIllness": {
     "1": {
-      "End": "<Date><br>Lately the symptoms of radiation sickness have become less and less pronounced. Your health has finally stabilized, and the disease is no longer a threat to your well-being. You have firmly decided that it pays to handle suspicious artifacts with extra care.",
-      "Name": "Radiation Sickness",
-      "Next": "<Date><br>Before fully recovering from radiation sickness, you were subjected to yet another strong dose of radiation. As the illness intensified, your condition was exacerbated, and complete recovery likely won't come until much later.",
-      "Start": "<Date><br>You were subjected to a strong dose of radiation, the source presumably being the transfactorial beacon. You begin to feel nauseous. You nearly pass out from the combination of a splitting headache and exhaustion. As you finally gather your thoughts, you realize that these are all symptoms of radiation sickness,",
-      "Text": "Appear after severe radiation exposure. The afflicted suffers diminished brain function, greatly reducing their learning capacity. The condition passes automatically after a month or two, depending on the severity of exposure. No treatment methods have been found as of yet.",
-      "TextEx": "At your current condition you're loosing <Percent> of dominator kills experience. It's recommended to stay away from additional exposure to preserve your health."
+      "End": "<Date><br> Останнім часом симптоми \"Променевої хвороби\" ставали все менш помітними. Нарешті ваше самопочуття повністю стабілізувалося, і хвороба перестала загрожувати вашому здоров'ю. Ви твердо вирішили, що надалі слід обережніше поводитися з підозрілими артефактами.",
+      "Name": "Променева хвороба",
+      "Next": "<Date><br>Так і не оговтавшись від \"Променевої хвороби\", ви знову зазнали впливу потужного випромінювання. Ваше самопочуття лише погіршилося. Тяжкість хвороби зросла, а повне одужання, схоже, відбудеться тепер набагато пізніше.",
+      "Start": "<Date><br>Ви зазнали впливу потужного випромінювання, джерелом якого імовірно став трансфакторний маяк. Вас почало нудити. Від найсильнішого головного болю і перевтоми ви мало не знепритомніли. Нарешті, абияк зібравшись з думками, ви зрозуміли, що все це симптоми \"Променевої хвороби\".",
+      "Text": "Виникає під впливом сильного випромінювання. У хворого погіршується розумова активність, внаслідок чого сильно знижується його учність. Недуг проходить саме через місяць-два, залежно від отриманої дози опромінення. Методи лікування поки що не знайдені.",
+      "TextEx": "У вашому поточному стані ви втрачаєте досвід <Percent> від знищення домінаторів. Рекомендується утримуватися від повторного опромінення, щоб уникнути погіршення самопочуття."
     }
   },
   "Illness": {
     "0": {
-      "End": "Your eyesight has gradually returned to you. The blindness and stinging in your eyes are gone. Your body began to recover on its own. Your eyesight has become perfect.",
-      "Name": "Blindness",
+      "End": "<Date><br>Ваш зір поступово відновився. Сліпота та різь в очах пройшла. Організм самостійно пішов на виправлення. Зір став просто ідеальним.",
+      "Name": "Осліплення",
       "Start": [
-        "<Date><br>Your vision goes black for a minute...",
-        "This must be the delayed consequence of a tough battle, <clr>Blindness<clrEnd>! Opening your eyes, you notice that the contours of gauges on the panel have become blurred. You should head to a medical center before you overlook something truly important."
+        "<Date><br>В очах на хвилину потемніло...",
+        "Це, безумовно, наслідки важкого бою, що запізнилися, <clr>\"Сліпіння\"<clrEnd>! Розплющивши очі, ви помітили, що обриси приладів розпливаються. Настав час вирушати в медичний центр, поки не переглянули щось важливе."
       ],
-      "Text": "The early stage of total blindness. Blurred vision of targets on the radar and in the immediate vicinity."
+      "Text": "Початкова стадія повної втрати зору. Погане бачення цілей на радарі та в навколишньому просторі."
     },
     "1": {
-      "End": "<Date><br>Your organism proved to be quite hardy. The nightmares began to gradually recede, while fits of delirium have disappeared altogether. Thanks to a healthy diet and regular exercise, you were able to singlehandedly defeat <clr>Chekumash<clrEnd>, the deadliest virus of modern times.",
-      "Name": "Chekumash",
+      "End": "<Date><br>Ваш організм виявився на рідкість живучим. Жахи поступово проходили, маячні видіння повністю зникли. Це здорове харчування та регулярні заняття спортом допомогли вам самостійно побороти <clr>\"Чекумаш\"<clrEnd>, найзліший вірус сучасності.",
+      "Name": "Чекумаш",
       "Start": [
-        "<Date><br>You did not sleep well at night, tormented by nightmares. During the day your condition only worsened, visions persisted and strange things started happening all around.",
-        "You used your first-aid kit. The result was all too obvious. This is <clr>Chekumash<clrEnd>, one of the deadliest viruses in existence, developed by brilliant peleng scientists. The virus affects all races... Except for the mentally stable maloqs, naturally.",
-        "In this case we recommend visiting the nearest treatment center ASAP. Idle at your own risk! In the meantime, try not to be shocked at anything while you are sick. According to the ship's medical handbook, an infected pilot can experience visions even in outer space!"
+        "<Date><br>Ви погано спали вночі, вас мучили кошмари. Вдень стало тільки гірше, видіння не залишали, дивні речі творилися довкола.",
+        "Ви вдалися до допомоги аптечки. Результат був очевидним. Це <clr>\"Чекумаш\"<clrEnd>, один із найзлішніших вірусів сучасності, виведений геніальними пеленгськими вченими. Вражає всі раси, крім, очевидно, психічно стійких молоков.",
+        "В даному випадку рекомендується якнайшвидше відвідати найближчий медичний центр. Поки що ще не пізно. Поки що головне не дивуватися нічому під час хвороби, адже згідно з бортовим меддовідником, хворий пілот може бачити міражі в космосі!"
       ],
-      "Text": "Presence of imaginary objects in space: delirium-induced planets, nebulae. Otherworldly voices calling to the infected."
+      "Text": "Наявність у космосі нереальних об'єктів: маячних планет, туманностей. Потойбічні звуки, що волають до зараженого."
     },
     "10": {
-      "End": "<Date><br>The intellectual overstrain of both frontal lobes has receded. The <clr>Aka Sezyanka<clrEnd> is gradually fading away. You are once again capable of operating machinery and firing at several targets simultaneously.",
-      "Name": "Aka Sezyanka",
-      "Start": "<Date><br>You've been greatly overstraining your intellect of late. This is unacceptable for a fragile faeyan organism. An illness known as <clr>Aka Sezyanka<clrEnd> has paralyzed all of your activities. The disease is common among the fae, making frequent use of one's frontal lobes very dangerous. Blood recedes from the brain, inhibiting brain activity by up to three times. When the brain gets to such a \"molten\" state, either a lengthy rest or an intensive therapy course at a treatment center is required. In other words, it's better to not think about anything.",
-      "Text": "The afflicted loses focus. Their combat aim goes to hell, and they start losing equipment in open space. As an interesting side note, the brain's reduced response time has a positive effect on faeyans' commerce skill."
+      "End": "<Date><br>Інтелектуальна втома обох лобових часток відступила. Хвороба <clr>\"Ака Сеціянка\"<clrEnd> повільно перейшла в загасаючу стадію. Ви знову можете кваліфіковано впоратися з усім обладнанням, вести вогонь з кількох цілей.",
+      "Name": "Ака Сеціянка",
+      "Start": "<Date><br> Останнім часом ви дуже сильно інтелектуально перенапружувались. Для тендітного феянського організму це неприйнятно. <clr>\"Ака Сеціянка\"<clrEnd> паралізувала вашу активну діяльність. Це поширена феянська хвороба, за якої часте використання лобових часток стає небезпечним. Кров відливає від голови, і діяльність мозку скорочується втричі. З такими \"плавленими\" мізками вам потрібний тривалий відпочинок або інтенсивний курс терапії в медичному центрі. А поки що краще ні про що не думати.",
+      "Text": "У хворого з'являється неуважність. Він страшенно косить у бою і часом втрачає обладнання у космосі. Цікаво, що уповільнення роботи мозку позитивно позначається на навичці торгівлі феян."
     },
     "11": {
-      "End": "End=<Date><br>The hormonal activation stage is over. The gaalian <clr>New Molizone<clrEnd> is no longer a threat, except for its latent form. Thankfully, in most cases gaals gain immunity for several years after recovery, enabling you to get back to trading.",
-      "Name": "New Molizone",
+      "End": "<Date><br>Стадія гормональної активації минула. Гаальська <clr>\"Новий молізон\"<clrEnd> більше вам не загрожує, хіба що у прихованій формі. Але, як правило, частіше ніж раз на кілька років гаалець на них захворіти не може, і це дуже тішить, адже знову можна безперешкодно торгувати.",
+      "Name": "Новий молізон",
       "Start": [
-        "<Date><br>You started exuding a rather peculiar smell. The ship's first-aid kit displayed the diagnosis: <clr>New Molizone<clrEnd>. This notion is closely related to the \"name carrier,\" i.e. the fetus. According to long-established standards, the infected host, which is essentially every mature gaal, carries a fetus which absorbs all of the host's thoughts and desires until the fetus assumes full control. After that, the fetus leaves the host body and becomes independent.",
-        "The fetuses undergo a period of hormonal activation, called \"New Molizone.\" During this time the host's organism becomes toxic, making food and any other objects touched by the infected gaal hazardous for other living beings. At the same time, the process positively affects the host's reaction time, accuracy and mobility.",
-        "There are two treatment options. Wait until the hormonal activation stage is over: avoid handling food or medication, focusing on combat activities instead. Or undergo a deactivation course at a treatment center; naturally, this option is more sensible."
+        "<Date><br>Ви стали виділяти специфічний запах. Бортова аптечка показала результат: <clr> \"Новий молізон\"<clrEnd>. Як відомо, це поняття тісно пов'язане з носієм імені, тобто. зародком. Відповідно до затверджених багато років тому стандартів, у тілі індивідуума-носія, яким є кожен дорослий гаалець, живе зародок, який сприймає всі його думки та бажання аж до моменту інтелектуальної перемоги над носієм. Після чого зародок залишає тіло і стає самостійним.",
+        "Зародки мають період гормональної активації, що називається \"Новим молізоном\". У цей час організм носія стає токсичним, тому їжа та інші предмети, до яких торкнувся гаалець, можуть бути небезпечними для інших живих істот. Однак активація благотворно позначається на реакції носія, його навички стрілянини та маневреності зростають.",
+        "Є два шляхи. Перечекати гормональну активацію, утримуючись від торгівлі їжею та медикаментами в даному періоді, воліючи вести військові дії. Або пройти курс деактивації в медичному центрі, що, звісно, ​​розумніше."
       ],
-      "Text": "Selling food or medication is strictly prohibited on all planets (and is deemed a contraband operation). Hormonal exchange is activated, leading to improved accuracy and mobility."
+      "Text": "На всіх планетах суворо забороняється торгувати медикаментами та їжею (це розцінюється як контрабандна операція). Активізується гормональний обмін, що призводить до зростання навичок стрілянини та маневреності."
     },
     "2": {
-      "End": "<Date><br>You got tired of hating the dominators. The <clr>Fanaticism<clrEnd> virus has left your organism. Your reactions to different situations have improved, so you can put off that visit to a medical center for another time.",
-      "Name": "Holy Fanaticism",
+      "End": "<Date><br>Ви втомилися ненавидіти домінаторів. Вірус <clr>\"Фанатизм\"<clrEnd> вас залишив. Ви стали адекватно реагувати на різні ситуації, тепер можна відкласти відвідування медичного центру до найгірших часів.",
+      "Name": "Святий фанатизм",
       "Start": [
-        "<Date><br>You start seeing things through a bloody red veil. A burning hatred towards robots is nagging at you to avenge the lives they have taken. In every shadow cast, in the details of every object you see the essence of dominators which must be eradicated.",
-        "Something is wrong... You turn to your first-aid kit, scanning the medical handbook in your mind. Of course -- this must be <clr>Fanaticism<clrEnd>, an ancient psychic virus affecting maloqs, pelengs and humans. If infected, rangers are advised to forget about dominators and complete a rehabilitation course at a medical center."
+        "<Date><br>Ваші очі застелила червона пелена. Ви відчули порив ненависті до робот і бажання помститися за занапащені життя. У кожному предметі ви бачили приховану домінаторську суть, яку слід було вижити.",
+        "Щось тут було не так. Ви вдалися по допомогу аптечки, подумки покопалися в довіднику. Ну звичайно, це ж <clr>\"Фанатизм\"<clrEnd>, древній психічний вірус, що вражає малоків, пеленгів та людей. Рейнджерам у таких випадках наказується забути про домінаторів та пройти курс адаптивного лікування у медичному центрі."
       ],
-      "Text": "In open space all ships appear to be dominators. All objects on all planets look dominator-made. Due to random outbreaks of rage, sane creatures begin to lose respect for the diseased humanoid. Charisma is reduced to a minimum, while accuracy, mobility and leadership skills are increased."
+      "Text": "У космосі всі кораблі здаються домінаторами. На планетах речі схожі на домінаторські. Тимчасові напади сказу, оточуючі втрачають повагу до хворого на гуманоїд. Навичка чарівності мінімальна. Навички стрілянини, маневреності та лідерства підвищуються."
     },
     "3": {
-      "End": "<Date><br>This is crazy! The tests show that your immune system is in perfect health. It's like you were never even sick with <clr>Complex Immunocide<clrEnd>. No visit to medical center is required.",
-      "Name": "Complex Immunocide",
-      "Start": "<Date><br>You have completed a detailed examination of your system. And the results are not good. The test for <clr>Complex Immunocide<clrEnd> came back positive. You have grown so weak that even the weakest virus is 100 times more likely to infect your organism. You need to get to a medical center for urgent treatment.",
-      "Text": "The infected's immune system is compromised, making them far more susceptible to diseases. Contact with other races is not recommended."
+      "End": "<Date><br>Це просто нонсенс! Аналізи показали, що ваш імунітет у повному порядку. Хвороби <clr> \"Комплексний імуноцид\"<clrEnd> як не бувало. Відвідування медичного центру більше не потрібне.",
+      "Name": "Комплексний імуноцид",
+      "Start": "<Date><br>Ви провели ретельне обстеження свого організму. Результати не тішили. Аналіз на <clr> \"Комплексний імуноцид\"<clrEnd> був позитивним. Ви так ослабли, що будь-який, навіть найменший вірус має у 100 разів більше шансів вразити ваш організм. Треба терміново вирушати на медичну базу для проходження курсу лікування.",
+      "Text": "У хворого ослаблений імунітет. В результаті він легко хворіє на хвороби. Контакт із представниками якихось рас небажаний."
     },
     "4": {
-      "End": "<Date><br>Unfortunately, you have fully recovered from <clr>Luatanza<clrEnd>. A telegram soon arrived from the Mystery of Luatan Fund, informing you that they would no longer be financing your illness.",
-      "Name": "Mysterious Luatanza",
-      "Start": "<Date><br>Suddenly you come down with <clr>Luatanza<clrEnd>, which has a reputation as a \"sudden\" illness. But all the symptoms were there. No desire to sleep, eat or extort cargoes from merchant ships. That final symptom is especially devastating. But there is a bright side. The Mystery of Luatan Fund makes regular monetary transfers to the diseased's account, and generally treats them well. So you don't need to rush to a medical center just yet.",
-      "Text": "The player cannot effectively fire, demand money or extort cargoes, but enjoys maximum reputation. Periodically a message arrives from the Luatan support fund, along with monetary aid for the diseased."
+      "End": "<Date><br>На жаль, період хвороби <clr>\"Луатанція\"<clrEnd> завершився. До вас прийшла телеграма із фонду \"Загадка луатан\". У ній повідомлялося, що фінансування вашої хвороби призупинено.",
+      "Name": "Загадкова луатанція",
+      "Start": "<Date><br>Раптово ви захворіли <clr>\"Луатанцією\"<clrEnd>, це взагалі раптова хвороба. Всі симптоми були в наявності. Відсутність бажання спати, є і вимагати вантажі торговельних кораблів. Остання особливо жахливо. Щоправда, ця хвороба має і хорошу властивість. Хворим на луатанців фонд \"Загадка луатан\" регулярно перераховує гроші, і всі ставляться до них дуже позитивно. Тож можна не поспішати вирушати на медичну базу.",
+      "Text": "Гравець не може ефективно стріляти, вимагати грошей або вимагати вантажі, навичка ставлення до нього максимальна. Іноді надходить повідомлення від фонду підтримки луатанців, і хворому надсилають гроші."
     },
     "5": {
-      "End": "<Date><br>You've finally determined you were not going to take any more drugs and single-handedly overcome your addiction. This is just great!",
-      "Name": "Drug Addiction",
+      "End": "<Date><br>Нарешті ви рішуче відмовилися від прийому наркотиків і самостійно позбулися наркозалежності. Це просто чудово!",
+      "Name": "Наркозалежність",
       "Start": [
-        "<Date><br>You've realized that you're addicted to doping, and everything is going to hell. Your regular abuse of stimulators is doing you no good. You're a junkie now!!!",
-        "To save your dignity, or at least to stop your hands from shaking, you really should rush to a medical center. It's never too late to get help!"
+        "<Date><br>Ви виявили пристрасть до допінгу, все пішло в рознесення. Регулярний прийом стимуляторів не доводить добра. Ви тепер наркоман!",
+        "Щоб врятувати свою честь, і хоча б більше не тряслися руки, варто поспішити на медичну базу. Лікуватися ніколи не пізно!"
       ],
-      "Text": "The diseased becomes addicted to stimulators. His limbs shake and wear and tear of equipment is increased. Attack and mobility drop to a minimum."
+      "Text": "У хворого з'являється залежність від прийому стимуляторів. Трясуться кінцівки, збільшується знос обладнання. Навички атаки та маневреності мінімальні."
     },
     "6": {
-      "End": "<Date><br>Your concussion symptoms are suddenly gone. Your ears may still be ringing a bit, but that's it. Your <clr>Concussion<clrEnd> has finally passed, and you're healthy again!",
-      "Name": "Whirlwind Concussion",
+      "End": "<Date><br>Сьогодні запаморочення несподівано припинилося. У вухах ще трохи дзвеніло, але результат був очевидний. <clr>\"Контузія\"<clrEnd> пройшла, і ви нарешті здорові!",
+      "Name": "Вихрова контузія",
       "Start": [
-        "<Date><br>An enemy shot hit your vessel and stripped some of its skin. You hit your head pretty hard and lost consciousness.",
-        "Having regained your senses, you realized you're feeling dizzy and nauseous. Looks like you've got a <clr>Concussion<clrEnd>. You need to undergo treatment at a medical center."
+        "<Date><br>Постріл супротивника зніс частину обшивки корабля. Вас здорово струсило, і ви знепритомніли.",
+        "Прийшовши до тями, ви відчули безперервне запаморочення і нудоту. Схоже, це <clr> \"Контузія\" <clrEnd>. Потрібно пройти курс процедур на медичній базі."
       ],
-      "Text": "A not-uncommon side effect of combat. Concussion disrupts sleep, resulting in impaired focus, thus lowering attack and mobility. The commerce skill vanishes altogether."
+      "Text": "Настає у бою. У хворого порушується сон. В результаті він не може концентруватися, втрачає навички атаки та маневреності. Торгова навичка зникає геть-чисто."
     },
     "7": {
-      "End": "<Date><br>Your muscles have recovered and no longer hurt. And your spirits are higher than ever!",
-      "Name": "Pulled Muscle",
-      "Start": "<Date><br>In the heat of battle you pulled a muscle. Now the pain is making it hard to concentrate and take aim. Of course, your muscle will eventually recover on its own, but you can still seek treatment at a medical center.",
-      "Text": "Severe pain obstructs movement, impairs concentration and the ability to give commands, thus lowering nearly all skills."
+      "End": "<Date><br>М'язи заспокоїлися і більше не болять, розтягнення пройшло. Настрій просто чудовий!",
+      "Name": "М'язове розтягування",
+      "Start": "<Date><br>У розпал бою ви потягли м'яз. Тепер через біль вам важко зосередитися і точно прицілитися. Розтягнення, звісно, ​​і саме скоро пройде, але можна підлікуватись і на медичній базі.",
+      "Text": "Сильний біль ускладнює рухи, заважає концентруватися і віддавати накази, що призводить до втрати багатьох навичок."
     },
     "8": {
-      "End": "<Date><br>After months of being sick, you've finally stopped gaining weight, easily shedding more than half of the excess weight. The <clr>Grand Malosausus<clrEnd> looks to have passed from your system. The key now is to stay away from stress, lest you relapse.",
-      "Name": "Grand Malosausus",
+      "End": "<Date><br> Через місяці хвороби організм перестав товстіти. Ви швидко скинули більше половини зайвої ваги. Схоже, хвороба <clr> \"Великий Малососус\"<clrEnd> пройшла. Важливо тепер якнайменше нервувати, щоб не захворіти знову.",
+      "Name": "Великий Малососус",
       "Start": [
-        "<Date><br>All of a sudden you started gaining a lot of weight. Upon checking the rookie ranger medical handbook, you discover that these are symptoms of a disease called the <clr>Grand Malosausus<clrEnd>. The infection affects over 92% of all maloqs. The illness is passive, developing gradually in your system, sometimes over the course of many years. Then, having claimed the entire organism, it manifests in stressful situations. With exposure to risk, the diseased experiences stress and starts gaining weight. Thus the organism compensates for its owner's losses on the moral front. The harder his life, the bigger the weight gain.",
-        "It's time to pay a visit to a medical center. Your system will not be able to easily defeat the illness on its own."
+        "<Date><br>Щось ви стали різко набирати вагу. Звернувшись до меду. довіднику рейнджера-початківця, ви виявили, що це симптоми хвороби <clr>\"Великий Малососус\"<clrEnd>. Це малокська інфекція, якої схильні близько 92% всіх молоков. Хвороба пасивна, спочатку вона повільно розвивається в організмі, іноді протягом багатьох років. Потім, захопивши весь організм, вона проявляється у стресових ситуаціях. Нервуючи, переживаючи, наражаючись на ризик, хворий починає товстіти. Таким чином, організм компенсує всі моральні втрати власника. Чим важче життя, тим більша його вага.",
+        "Настав час вирушати в медичний центр. Самостійно подолати цю хворобу організм швидко не може."
       ],
-      "Text": "The diseased maloq rapidly gains in physical mass and social influence. The changes are so significant that even the ship's mass becomes visibly larger, slowing down speed. Leadership and commerce skills rise by an order of magnitude."
+      "Text": "У хворого молока різко збільшується фізична маса, а з нею і вага в суспільстві. Зміни такі великі, що маса корабля стає помітно більшою, а це призводить до зменшення швидкості. При цьому навички лідерства та торгівлі зростають на порядок."
     },
     "9": {
-      "End": "<Date><br>All the symptoms of <clr>Bitter Pelenosia<clrEnd> have disappeared. The unhealthy urge to break stuff is gone. You have regained full control of yourself and are no longer interested in monkeying around. How fortunate that this illness passes quickly.",
-      "Name": "Bitter Pelenosia",
+      "End": "<Date><br>Сьогодні симптоми хвороби <clr>\"Гірка пеленоша\"<clrEnd> практично зникли. Нездоровий інтерес до псування майна раптово зник. Ви знову тримаєте себе в руках, і вам більше не хочеться займатися нісенітницею. Добре, що ця хвороба швидко минає.",
+      "Name": "Гірка пеленоша",
       "Start": [
-        "<Date><br>Suddenly you find yourself overcome with a desire to look inside every object and taste every component that's inside. You can hardly fight back the urge to dismantle and disassemble everything in sight. Stuff is starting to break down all the time. Upon conducting a self test, you make the correct diagnosis: <clr>Bitter Pelenosia<clrEnd>, a peleng disease. It transforms the individual into an irritable child, itching to break something. Virtually every peleng is susceptible to this disease. There is a theory that the pervasiveness of Bitter Pelenosia is responsible for the inclinations of the race.",
-        "The disease comprises two stages: a lengthy incubation period and a fulminant peak. At the conclusion of the second stage, convalescence is almost instant. However, you wouldn't need to wait long if you visit a medical center, as the illness is easy treatable."
+        "<Date><br>Вам раптово захотілося подивитися, що всередині тієї чи іншої штучки, спробувати її деталі на смак. Дивна потяг до розгляду охопила вас цілком і повністю. Обладнання все частіше почало виходити з ладу. Зробивши самостійно аналіз, ви виявили <clr> \"Гірку пеленошу\"<clrEnd>, пелензьку хворобу. Вона перетворює індивідуума на роздратовану дитину, якій хочеться щось зіпсувати. Практично кожен пеленг схильний до цього захворювання. Вважається, що саме велика поширеність \"Гіркого пеленаші\" впливає на діяльність цієї раси в цілому.",
+        "Хвороба має два цикли: тривалої інкубації та швидкоплинної хвороби. Після закінчення другого циклу відбувається раптове одужання. Втім, у медичному центрі чекати на одужання не доведеться, т.к. ця хвороба легко виліковна."
       ],
-      "Text": "A common childhood illness which also affects some adults. The diseased is unable to handle equipment properly, drastically reducing its service life."
+      "Text": "Поширене дитяче пелензьке захворювання, яке переслідує і частину дорослого населення. У період хвороби хворий погано поводиться з обладнанням, що різко зменшує термін його експлуатації."
     },
-    "EndDate": "The illness will probably last till<br><Date>"
+    "EndDate": "Хвороба триватиме до<br><Date>"
   },
   "Stimulant": {
     "0": {
-      "End": "<Date><br>The effect of the <clr>Maloq Sizha<clrEnd> stimulant is over. Your accuracy and mobility skills have decreased.",
-      "Name": "Maloq Sizha",
-      "Text": "A liquid stimulant. Use once a year only, or else you will become addicted. Improves accuracy and mobility to nearly their maximum. It is not for nothing that this stimulant is often referred to as \"the Devil's Luck.\""
+      "End": "<Date><br>Дія стимулятора <clr>\"Малокська Сижа\"<clrEnd> закінчилося. Ваші навички влучності та маневреності зменшилися.",
+      "Name": "Малокська сіжа",
+      "Text": "Рідкий стимулятор. Використовувати не частіше ніж один раз на рік, інакше викликає звикання. Покращує влучність і маневреність, майже до краю. Недарма про цей стимулятор кажуть: \"Рідко, але влучно\"."
     },
     "1": {
-      "End": "<Date><br> The effect of the <clr>One-eyed Khamas<clrEnd> stimulant is over, the creature died of exertion.",
-      "Name": "One-eyed Khamas",
-      "Text": "A peleng stimulant. In 3227 it was adopted for use by other races. Looks like a small one-eyed creature. The creature roots itself onto a humanoid, enters its brain, and imparts to it hypnotic abilities. Any ship that the pilot may claim tribute from will give away their goods without argument. On the downside, the stimulant negatively affects reputation, reducing leadership and charisma."
+      "End": "<Date><br>Дія стимулятора <clr>\"Одноокий Хамас\"<clrEnd> закінчилося, він здох від перенапруги.",
+      "Name": "Одноокий Хамас",
+      "Text": "Пеленгський стимулятор. У 3227 адаптований для використання іншими расами. Виглядає як маленька істота із єдиним оком. Ця істота присмоктується до гуманоїду, пускає коріння у його мозок та дає йому силу дії гіпнозом. Усі кораблі, з кого б пілот не попросив данину у вигляді товару, віддадуть її беззастережно. Стимулятор погано впливає на репутацію, знижує навички лідерства та чарівності."
     },
     "10": {
-      "End": "<Date><br>The effect of the <clr>Doubleplex<clrEnd> stimulant-virus is over. Rewards for completing government missions have stabilizied.",
-      "Name": "Doubleplex",
-      "Text": "A short-lived virus artificially developed on Earth in 2117 as part of a series of experiments using the theory of relativity. Rumor has it that the infected become successful in virtually any endeavor, though this claim has never been proven. One known side effect of the virus is anemia, resulting in reduced attack and mobility. On the other hand, the infected are guaranteed greater rewards for completing government missions, as every planet has got its share of superstitious humanoids."
+      "End": "<Date><br>Дія вірусу-стимулятора <clr>\"Дубльплекс\"<clrEnd> закінчилося. Вартість урядових завдань знову гаразд.",
+      "Name": "Дубльплекс",
+      "Text": "Короткоживучий вірус, штучно виведений Землі в 2117 року, у межах експериментів з теорією ймовірності. Ходять затяті чутки, що зараженому цим вірусом завжди супроводжує успіх у всіх його справах, хоча це так і не було доведено. Як побічний ефект вірус викликає легку слабкість, через що знижуються навички атаки та маневреності. Проте носієві вірусу гарантується висока винагорода за виконання урядових завдань, оскільки забобонні гуманоїди знайдуться на будь-якій планеті."
     },
     "11": {
-      "End": "<Date><br> The effect of the <clr>Absolute Status<clrEnd> stimulant is over. You can no longer count on easy missions and preferential treatment.",
-      "Name": "Absolute Status",
-      "Text": "Seen exclusively on bioscans in governmental institutions. Those with the status enjoy unusual, minimal requirements. Namely, the terms of offered government missions are less stringent."
+      "End": "<Date><br>Дія стимулятора <clr>\"Абсолютний статус\"<clrEnd> завершено. Тепер можна не розраховувати на легкі урядові завдання та завищене ставлення.",
+      "Name": "Абсолютний статус",
+      "Text": "Видно виключно при біо-скануванні в урядових установах. До власників пред'являються спеціальні, мінімальні вимоги. А саме - м'якіші терміни при видачі урядових завдань."
     },
     "2": {
-      "End": "<Date><br>The effect of the <clr>Stardust<clrEnd> stimulant is over. The powder has passed from your system.",
-      "Name": "Stardust",
-      "Text": "A stimulant in the form of particle micropowder, recovered in close vicinity of black holes. For internal use only. Improves the brain function in creatures of any race for an prolonged period of time. Improves a whole set of skills."
+      "End": "<Date><br>Дія стимулятора <clr>\"Зоряний пил\"<clrEnd> закінчилося. Порошок успішно вийшов із вашого організму.",
+      "Name": "Зоряний пил",
+      "Text": "Стимулятор у вигляді мікропорошку з частинок, які знаходять поряд із чорними дірками. Приймати усередину. На тривалий час покращує функції мозку будь-якої раси. Підвищується ціла низка навичок."
     },
     "3": {
-      "End": "End=<Date><br> The effect of the <clr>Super Technician<clrEnd> stimulant is over. The biostimulant has passed from your system.",
-      "Name": "Super Technician",
-      "Text": "A faeyan biostimulant that improves technical skills. Equipment wear and tear becomes almost nonexistent. However, the duration is very limited."
+      "End": "<Date><br>Дія стимулятора <clr>\"Супер технік\"<clrEnd> закінчилося. Біостимулятор успішно розсмоктався вашим організмом.",
+      "Name": "Супер технік",
+      "Text": "Феянський біостимулятор розвиває технічні навички. Майже перестає зношуватися обладнання. Дія вкрай обмежена."
     },
     "4": {
-      "End": "<Date><br> The effect of the <clr>Gaalian Alacrity<clrEnd> stimulant is over. Your brain activity is back to normal.",
-      "Name": "Gaalian Alacrity",
-      "Text": "A gaalian combat stimulant. Recommended for use in combat. Speeds up brain activity by several thousand times. Ship speed and firing accuracy see a sharp improvement."
+      "End": "<Date><br>Дія стимулятора <clr>\"Гаалістра часу\"<clrEnd> закінчилося. Ваш мозок тепер перебуває у стані спокою.",
+      "Name": "Гаалістра часу",
+      "Text": "Гаальський бойовий стимулятор. Рекомендується використовувати під час битв. Короткочасно змушує мозок працювати у кілька тисяч разів швидше. Швидкість корабля та точність стрілянини різко збільшується."
     },
     "5": {
-      "End": "<Date><br> The effect of the <clr>Blood Djogar<clrEnd> is over. Your biological resistance to viruses has sharply decreased.",
-      "Name": "Blood Djogar",
-      "Text": "A solid oily clot from a maloq sand djogar. The stimulant improves blood supply by replacing regular blood cells with enhanced, artificial substitutes, making the body less susceptible to disease."
+      "End": "<Date><br>Дія стимулятора <clr>\"Кров'яний джогар\"<clrEnd> закінчилося. Ваші біологічні здібності до опору вірусам різко впали.",
+      "Name": "Кров'яний джогар",
+      "Text": "Твердий маслянистий потік із малокського пісочного джогару. Стимулятор покращує кровопостачання, замінюючи кров'яні тільця своїми – потужнішими штучними замінниками. Робить організм менш сприйнятливим до хвороб."
     },
     "6": {
-      "End": "<Date><br> The effect of the <clr>Ragobam Whisper<clrEnd> stimulant is over. You have lost the ability to eat ragobam bullfrogs and conduct flawless negotiations.",
-      "Name": "Ragobam Whisper",
-      "Text": "The stimulant is made from a tincture of filthy swamp slush, using radioactive extracts of ragobam bullfrog poison. Increases negotiation and persuasion skills, improving the pilot's likability. Additionally, it is safe to consume ragobam bullfrogs."
+      "End": "<Date><br>Дія стимулятора <clr>\"Рагобамський шепіт\"<clrEnd> закінчилося. Втрачено здібності до поїдання рагобамських жаб та майстерність ідеальних переговорів.",
+      "Name": "Рагобамський шепіт",
+      "Text": "Стимулятор зроблений з настою на смердючій болотяній жижі, із застосуванням радіоактивного вичавлення отрути рагобамських жаб. Підвищує майстерність умовлянь та пояснень, ставлення до пілоту покращується. Можна їсти рагобамських жаб."
     },
     "7": {
-      "End": "<Date><br> The effect of the <clr>Shakhmandoo Leader<clrEnd> stimulant is over. The leadership and persuasion skills are decreased.",
-      "Name": "Shakhmandoo Leader",
-      "Text": "This peleng stimulant temporary inflates the subject's self-esteem -- a priceless quality for rallying others around you. The stimulant boosts leadership and enables you to conclude long-term contracts."
+      "End": "<Date><br>Дія стимулятора <clr>\"Ведучий Шахманду\"<clrEnd> закінчилося. Навичка лідерства та умовлянь втрачена.",
+      "Name": "Ведучий Шахманду",
+      "Text": "Вплив цього пеленгського препарату дає на деякий час сильну віру в себе - безцінну якість, що дозволяє згуртувати довкола натовпу соратників! Препарат покращує навички лідерства та дозволяє укладати партнерські контракти на тривалий термін."
     },
     "8": {
-      "End": "<Date><br> The effect of the <clr>Psychotropic Cache<clrEnd> stimulant is over. The scanner and radar are back to normal operation. Charisma is back to normal as well.",
-      "Name": "Psychotropic Cache",
-      "Text": "The stimulator enables the brain to send impulse signals to the radar and scanner, tremendously boosting their capacity. The human scanner irritates everyone around him, eliciting a negative response no matter what he does."
+      "End": "<Date><br>Дія стимулятора <clr>\"Психотропний кеш\"<clrEnd> закінчилося. Сканер та радар знову працюють у звичайному режимі. Навичка чарівності в нормі.",
+      "Name": "Психотропний кеш",
+      "Text": "Мозок під впливом стимулятора посилає імпульси радару та сканеру, неймовірно збільшуючи їхню міць. Людина-сканер викликає роздратування в оточуючих, що призводить до негативної оцінки будь-яких дій останнього."
     },
     "9": {
-      "End": "<Date><br> The effect of the temporary <clr>Business Mark<clrEnd> is over. Not even a trace of it is left on your skin.",
-      "Name": "Business Mark",
-      "Text": "A temporary hypodermic business mark. Indicates a wealth of experience in conducting commercial deals. Enables maximum profit when selling equipment (80% of actual value)."
+      "End": "<Date><br>Дія тимчасового <clr>Торгового маркування<clrEnd> закінчилося. На вашій шкірі не залишилося сліду від неї.",
+      "Name": "Торгове маркування",
+      "Text": "Тимчасове торгове підшкірне маркування. p align=\"justify\"> Є свідченням великого досвіду у справі здійснення торгових операцій. Устаткування завдяки цьому продається за максимально можливу вартість (80% від фактичної)."
     },
-    "EndDate": "The stimulator's effect will end on<br><Date>"
+    "EndDate": "Ефект стимулятора закінчиться <br><Date>"
   }
 }

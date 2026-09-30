@@ -1,34 +1,34 @@
 {
   "AddInfo": {
     "Chameleon": {
-      "Charge": "The cloaking software has been uploaded to the onboard computer:",
-      "Count": "<Count>",
+      "Charge": "У бортовий комп'ютер завантажено програми для активації камуфляжу:",
+      "Count": "<Count> шт.",
       "Detect": "Warning! Your enemies have figured out that you're not a real dominator!<br>The camouflage will no longer deceive them.",
-      "Disable": "Disable camouflage",
-      "Name": "Camouflage",
-      "Series": "Camouflage series",
-      "Text": "Camouflage module is active. Holographic model: <Series>-<Type>-<Count>"
+      "Disable": "Вимкнути камуфляж",
+      "Name": "Камуфляж",
+      "Series": "Камуфляж серії",
+      "Text": "Працює модуль камуфляжу. Голографічна модель: <Series>-<Type>-<Count>"
     },
     "CustomInfos": {},
     "DebtInfo": {
-      "Name": "Credit",
-      "Text": "The loan amount, along with interest, comes out to <Money> cr and must be repaid by <Date>."
+      "Name": "Кредит",
+      "Text": "Не пізніше <Date> потрібно погасити кредит з урахуванням відсотків у розмірі <Money> cr."
     },
     "DepositInfo": {
-      "Name": "Deposit",
-      "Text": "<Date><br>New deposit account opened with a balance of <Money> cr at <Percent>% annual interest.<br>Available balance: <Sum> cr."
+      "Name": "Депозит",
+      "Text": "<Date><br>Відкрито депозитний рахунок на суму <Money> cr. під <Percent>% річних.<br>Доступний баланс: <Sum> cr."
     },
     "MedPolicy": {
-      "Name": "Insurance Policy",
-      "Text": "This document doubles the holder's life insurance policy. The holder is granted discounts when choosing from the standard range of services offered by the insurer's network of medical centers. Valid till <Date>."
+      "Name": "Страховий поліс",
+      "Text": "Документ дає право на отримання подвійної довічної компенсації. Власнику надається знижка при виборі стандартного набору послуг мережі медичних центрів. Дійсно до <Date>."
     },
     "PirateLicenseInfo": {
-      "Name": "Pirate license",
-      "Text": "Increases chance of successful robbery and gives additional experience in exchange for 10% deduction from extortion."
+      "Name": "Піратська ліцензія",
+      "Text": "Збільшує шанс успішного пограбування і дає додатковий досвід замість 10% відрахування з поборів у общак. Дійсно до <Date>."
     }
   },
   "Forsage": {
-    "Name": "Afterburner",
-    "Text": "Shifts the engine to extreme mode, multiplying speed by <clr>2<clrEnd>. Greatly accelerates wear and tear."
+    "Name": "Форсаж",
+    "Text": "Перемикає двигун в екстремальний режим, швидкість збільшується в <clr>2<clrEnd> рази. Двигун швидко зношується."
   }
 }

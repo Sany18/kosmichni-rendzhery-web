@@ -1,33 +1,33 @@
 {
-  "PointForNextLevel": "<PointForNextLevel> experience points required to improve the skill.",
+  "PointForNextLevel": "Потрібно <PointForNextLevel> очок досвіду для покращення навички.",
   "sAccuracy": {
-    "Name": "Pilot's Accuracy",
+    "Name": "Точність пілота",
     "Points": "2000, 4000, 7500, 14000, 26500, 50000",
-    "Text": "<SkillValue>% probability of dealing maximum damage. Influenced by the enemy's mobility."
+    "Text": "Ймовірність нанесення максимального пошкодження <SkillValue>%. Залежить від маневреності супротивника."
   },
   "sCharm": {
-    "Name": "Pilot's Charisma",
+    "Name": "Чарівність пілота",
     "Points": "1200,2400,4500,8400,15900,30000",
-    "Text": "Positive reaction from others is increased by <SkillValue>%, along with the fee for completing missions."
+    "Text": "Позитивна реакція оточуючих збільшується на <SkillValue>%, так само як і сума винагород за виконання завдань."
   },
   "sLeadership": {
-    "Name": "Leadership",
+    "Name": "Лідерство",
     "Points": "1200,2400,4500,8400,15900,30000",
-    "Text": "The pilot can command a total of <SkillValue> other ships and receive up to <SkillValue2>% of the experience earned by his or her subordinates."
+    "Text": "Пілот може мати у своєму підпорядкуванні <SkillValue> інших кораблів і отримує до <SkillValue2>% від досвіду, заробленого підлеглими."
   },
   "sMobility": {
-    "Name": "Pilot's Mobility",
+    "Name": "Маневреність пілота",
     "Points": "2000, 4000, 7500, 14000, 26500, 50000",
-    "Text": "<SkillValue>% probability of sustaining minimum damage. Influenced by the enemy's accuracy."
+    "Text": "Ймовірність отримання мінімального пошкодження <SkillValue>%. Залежить від точності супротивника."
   },
   "sTechnical": {
-    "Name": "Technology Skill",
+    "Name": "Знання техніки",
     "Points": "1600,3200,6000,11200,21200,40000",
-    "Text": "Equipment wears out <SkillValue>% slower than usual. Capable of controlling <N> probes."
+    "Text": "Зношування обладнання відбувається на <SkillValue>% повільніше, ніж зазвичай. Здібності контролю <N> зондів."
   },
   "sTrader": {
-    "Name": "Commerce Skill",
+    "Name": "Навичка торгівлі",
     "Points": "1600,3200,6000,11200,21200,40000",
-    "Text": "The pilot can sell equipment and weapons for <SkillValue>% of actual cost. The goods' sale price is <SkillValue2>% closer to the best price."
+    "Text": "Пілот може продавати обладнання та зброю за <SkillValue>% від її фактичної вартості. Ціна продажу товару на <SkillValue2>% ближче до оптимальної."
   }
 }

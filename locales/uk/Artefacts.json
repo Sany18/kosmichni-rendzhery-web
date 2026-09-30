@@ -1,260 +1,260 @@
 {
   "ArtAnalyzer": {
-    "AttackDomik": "The probability analyzer has processed the statistical data of military operations in the Galaxy and predicted that the dominators' next attack will happen in the <Star> system.",
-    "AttackPirates": "The probability analyzer has processed the statistical data of military operations in the Galaxy and predicted that the pirates' next attack will happen in the <Star> system.",
-    "Broken": "(not functional)",
-    "BrokenInBattle": "Warning! Some of the memory blocks were demagnetized by an enemy shot, knocking the probability analyzer out of order. You will need to make decisions without its assistance until it is reinstalled.",
-    "BrokenInUse": "The probability analyzer attempted an illegal operation and will be shut down. You will need to make decisions without its assistance until it is reinstalled.",
-    "Description": "The probability analyzer is capable of making highly accurate predictions on the outcome of battles. The device is installed in the ship's onboard computer.",
-    "KellerHole": "Drawing on statistical data of <clr>Keller's<clrEnd> operations, the probability analyzer has predicted that his next emergence from hyperspace will happen in the <Star> system.",
-    "Name": "Probability Analyzer",
-    "TechLevelDown": "The probabbility analyzer processed statistical data for the Galaxy and predicted a decline in general technological level.",
-    "TechLevelUp": "The probabbility analyzer processed statistical data for the Galaxy and predicted a rise in general technological level.",
-    "Text": "Calculates and predicts the probability of victory against any opponent. Also predicts dominator attacks on the coalition systems.",
-    "TextToRadar": "Victory probability: <ChanceToWin>%"
+    "AttackDomik": "Імовірнісний аналізатор опрацював статистичні дані бойових дій у галактиці та передбачив найближчу атаку домінаторів, яка відбудеться на систему <Star>.",
+    "AttackPirates": "Імовірнісний аналізатор опрацював статистичні дані бойових дій у галактиці та передбачив найближчу атаку піратів, яка відбудеться на систему <Star>.",
+    "Broken": "(не працює)",
+    "BrokenInBattle": "Увага! При попаданні були розмагнічені деякі блоки пам'яті, і аналізатор ймовірності більше не функціонує. Вам доведеться приймати рішення без його допомоги, доки він не буде переінстальований.",
+    "BrokenInUse": "Програма ймовірнісного аналізатора здійснила неприпустиму операцію і буде закрито. Вам доведеться приймати рішення без його допомоги, доки він не буде переінстальований.",
+    "Description": "Постійно обробляє великі масиви одержуваних із джерел статистичних даних у пошуках інформації, корисної пілоту. Інсталюється у бортову систему корабля.",
+    "KellerHole": "Імовірнісний аналізатор, ґрунтуючись на статистичних даних активності боса <clr>Келлера<clrEnd>, передбачив найближчий його вихід із гіперпростору, який відбудеться в системі <Star>.",
+    "Name": "Імовірнісний аналізатор",
+    "TechLevelDown": "Імовірнісний аналізатор опрацював статистичні дані по галактиці і передбачив падіння загальної технологічної оснащеності.",
+    "TechLevelUp": "Імовірнісний аналізатор опрацював статистичні дані щодо галактики і передбачив майбутнє підвищення загальної технологічної оснащеності.",
+    "Text": "Розраховує і показує ймовірність перемоги над будь-яким противником, передбачає напади домінаторів, допомагає знаходити сховані на планетах скарби.",
+    "TextToRadar": "Імовірність перемоги: <ChanceToWin>%"
   },
   "ArtAntigrav": {
-    "Broken": "(damaged)",
-    "BrokenInBattle": "The antigravitizer failed to withstand force field fluctuations in combat and went out of order.",
-    "BrokenInUse": "The antigravitazer's service period has expired. The device needs repairs.",
-    "Description": "Antigravitazer is a device which forms a bubble around a ship, absorbing negative kinetic energy as per the Gnuk-Einstein principle. The mass and volume constants inside the bubble are distorted, reducing the ship's actual mass.",
-    "Name": "Antigravitazer",
-    "Text": "Forms a standalone gravitational field, reducing the ship's actual mass by <clr>25<clrEnd> percent."
+    "Broken": "(зіпсований)",
+    "BrokenInBattle": "Антигравітатор не витримав вагань силових полів під час бою і вийшов з ладу.",
+    "BrokenInUse": "Добіг кінця експлуатаційний термін антигравітатора. Пристрій потребує ремонту.",
+    "Description": "Антигравітатор - пристрій, що створює навколо корабля міхур, який нагнітається негативна кінетика за принципом Гнука-Ейнштейна. Усередині міхура константи маси та обсягу викривляються, зменшуючи фактичну масу корабля.",
+    "Name": "Антигравітатор",
+    "Text": "Створює власне гравітаційне поле, зменшуючи фактичну масу корабля на <clr>25<clrEnd> відсотків."
   },
   "ArtArtefactor": {
-    "Description": "The Artifactor is an artifact connection adapter. Designed on the principle of crystal signal inversion, it allows to connect <clr>three<clrEnd> artifacts instead of one droid.",
-    "Name": "Artifactor",
-    "Text": "A splitter for connecting rare weapon types. Allows the use of a droid connector to connect <clr>three<clrEnd> additional artifacts. Additional power lines and data transfers enable the <clr>Prolonger<clrEnd>, <clr>Probability Analyzer<clrEnd>, <clr>Scanner Cache<clrEnd> and <clr>Bioworld<clrEnd> to function in limited mode from ship's cargo hold without taking up a nonstandard expansion slot."
+    "Description": "Артефактор – перехідник для підключення артефактів. У його схемі використовується принцип кристалічного інвертування сигналу, тому дозволяє підключити <clr>три<clrEnd> артефакта замість одного дроїда.",
+    "Name": "Артефактор",
+    "Text": "Розгалужувач для підключення рідкісних видів обладнання. Дозволяє використовувати конектор дроїда для підключення <clr>трьох<clrEnd> артефактів. Додаткові шини живлення і передачі даних дають можливість <clr>Пролонгеру<clrEnd>, <clr>Вірогіднісному аналізатору<clrEnd>, <clr>Сканерному кешу<clrEnd> і <clr>Біоміру<clrEnd> працювати в режимі обмеженої функціональності з ."
   },
   "ArtBio": {
-    "Broken": "(damaged)",
-    "BrokenInBattle": "Warning! In the course of combat maneuvering you've smashed against the Bioworld indicator panel, causing the screen to break. The indicator thus needs replacement.",
-    "BrokenInUse": "You need to take better care of your health. The high numbers of pathogenic bacteria passing through the Bioworld sensors were too much for the device to handle, causing a breakdown. Service maintenance is required.",
-    "Description": "Bioworld is a biosensory analyzer, designed to detect hazardous viruses and microorganisms. When a hazard is detected, the device starts flashing a designated indicator light.",
-    "Name": "Bioworld",
-    "Text": "A bio-cybernetic immune adaptation module. Boosts disease resistance and sensitivity to stimulators.",
-    "TextOld": "A biological microworld transducer for a spaceship cockpit. The indicator light signals a threat to the pilot's health."
+    "Broken": "(зіпсований)",
+    "BrokenInBattle": "Увага! Під час бойових маневрів ви вдарилися об індикаційну панель Біоміра. Екран розбився, потрібна заміна індикатора.",
+    "BrokenInUse": "Ви маєте краще стежити за своїм здоров'ям. Через велику кількість хвороботворних бактерій, які проходили через датчики Біоміра, він зіпсувався, не витримавши навантаження. Потрібне обслуговування.",
+    "Description": "Біомир - біосенсорний аналізатор, який служить виявлення небезпечних вірусів і мікроорганізмів. У разі виявлення небезпеки подає сигнал за допомогою світлового індикатора.",
+    "Name": "Біомир",
+    "Text": "Модуль біокібернетичної адаптації імунної системи Підвищує стійкість до хвороб та сприйнятливість до стимуляторів.",
+    "TextOld": "Датчик біологічного мікросвіту кабіни космольоту. Колірний індикатор сигналізує про загрозу здоров'ю пілота."
   },
   "ArtBlackHole": {
-    "Description": "A subportal is a spherical bicameral matter multiplier. One cavity contains antimatter, while the other holds the multiplying process catalyst. When activated, the device starts multiplying the antimatter at the speed of light until a black hole forms. Self-consumes after use.",
-    "Name": "Subportal",
+    "Description": "Субпортал – сфероподібний двопорожнинний множник матерії. В одній порожнині знаходиться антиречовина, в іншій - каталізатор процесу розмноження. При активації пристрій зі швидкістю світла збільшує кількість антиматерії до чорної діри. Після використання самопоглинається.",
+    "Name": "Субпортал",
     "OnUseCode": {
       "0": "OnUseCodeBlackHole();"
     },
-    "Text": "Single use antimatter multiplier. Increases the critical mass of the antimatter until a black hole forms."
+    "Text": "Одноразовий множник антиматерії. Збільшує критичну масу антиречовини до появи чорної дірки."
   },
   "ArtBomb": {
-    "Broken": "do not use",
-    "Description": "The quark bomb is a very expensive device with a payload of enormous destructive power. The bomb must be ejected from the ship that would then need to move as far away from it as possible and detonate it with a single shot. Take any subsequent action that the situation may require (provided you remain alive).",
-    "Name": "Quark bomb",
-    "Text": "When blown up, inflicts substantial damage upon all physical objects."
+    "Broken": "not use",
+    "Description": "Кваркова бомба - дуже дорогий пристрій, начинений неймовірно руйнівною сумішшю. Бомбу слід викинути з корабля, максимально віддалитися та підірвати одним пострілом. Далі дійте за обставинами (якщо, звичайно, залишитеся живими).",
+    "Name": "Кваркова бомба",
+    "Text": "Під час вибуху завдає всім матеріальним об'єктам значних ушкоджень."
   },
   "ArtDecelerate": {
-    "Broken": "(damaged)",
-    "BrokenInBattle": "Attention!!! The Zing is damaged! Due to the ship withstanding a strong jolt, the cyborg hit the mechanical partitions and cannot go through its life cycles anymore.",
-    "BrokenInUse": "The Zing has planted an enormous quantity of thermal charges and now some of its components need to be replaced or repaired. It needs rest and a good cyborg professional.",
-    "Description": "Zing is an experimental cyborg with an intellectual matrix of a zing (gaalian insect). The cyborg fully replicates the actual insect's behavior, in particular, the egg-laying routine. Thermal charges play the role of eggs, and the cyborg lays them into fragmentation shells thus considerably increasing their yield.",
-    "Name": "Zing",
-    "Text": "Adds thermal charges to fragmentation shells. In addition to explosive damage, each charge impacts the target with a powerful thermal wave that may cause the enemy's engines to overheat."
+    "Broken": "(пошкоджений)",
+    "BrokenInBattle": "Увага, стрибок пошкоджений! Через сильний струс корабля кіборг вдарився об механічні перегородки і не може здійснювати свої життєві цикли.",
+    "BrokenInUse": "Вжик проробив величезну роботу з кладки термічних зарядів, деякі його частини вимагають заміни чи ремонту. Йому потрібен відпочинок і добрий фахівець з кіборгів.",
+    "Description": "Вжик - експериментальний кіборг з інтелектуальною матрицею вжика (гаальської комахи). Повністю повторює його поведінку, саме - кладку яєць. Роль яєць у кіборга виконують термічні заряди, які він відкладає в осколкові снаряди, тим самим збільшуючи їхню міць.",
+    "Name": "Вжик",
+    "Text": "Додає термічні заряди в осколкові снаряди. Крім пошкоджень, кожен заряд завдає потужного теплового удару, що веде до перегріву двигунів противника."
   },
   "ArtDef": {
-    "Broken": "(not functional)",
-    "BrokenInBattle": "The polarizer focusing mechanism was damaged in combat. Interspersing with the protection shield, the electrons neutralize it, leaving the ship without proper protection. Immediate professional repairs are needed.",
-    "BrokenInUse": "Warning! The polarizer is out of order. Having changed their momentum, its electrons interspersed with the protection shield causing it to become ineffective. The ship is now without one of its crucial defenses.",
-    "Description": "The polarizer is a unique device that generates highly active subatomic systems that interact with the protection shield and make it stronger.",
-    "Name": "Polarizer",
-    "Text": "Emits electrons that increase the efficiency of the ship's shield generator by <clr>5<clrEnd> percent. There is also a chance that it may deflect an incoming strike back at the enemy."
+    "Broken": "(не працює)",
+    "BrokenInBattle": "У бою було збито фокусування поляризатора. Електрони, змішавшись із захисним полем, нейтралізують його, залишаючи корабель без захисту. Потрібне термінове втручання фахівців.",
+    "BrokenInUse": "Увага! Вийшов із ладу поляризатор. Його електрони, змінивши свій імпульс, змішалися із захисним полем та нейтралізують його. Корабель залишився без захисту.",
+    "Description": "Поляризатор - це унікальний пристрій, джерело високоактивних субатомних систем, які взаємодіють із захисним полем та підсилюють його.",
+    "Name": "Поляризатор",
+    "Text": "Випускає електрони, що підсилюють захисне поле корабля на <clr>5<clrEnd> відсотків. З невеликою ймовірністю відображає завдану шкоду назад у противника."
   },
   "ArtDefToArms1": {
-    "Description": "The Proton is an auxiliary unit to the power plant. It is built into the shield generator's energy distribution mechanism and uses some of that energy to power an additional slot for a weapons turret.",
-    "Name": "Proton",
-    "Text": "Integrated into the shield generator's power unit. It uses up to <clr>10%<clrEnd> of its power to activate an additional weapon turret."
+    "Description": "Протон – доповнення до енергетичного блоку. Вбудовується в механізм розподілу енергії захисного поля та, використовуючи частину цієї енергії, активує додатковий слот для гармати.",
+    "Name": "Протон",
+    "Text": "Інтегрується до енергетичного блоку захисного поля. Використовує <clr>10%<clrEnd> його потужності для активації додаткової гарматної турелі."
   },
   "ArtDefToArms2": {
-    "Description": "The ARMS is a stationary set for prompt retrofitting of the shield generator slot. It includes universal connectors for a pair of weapon turrets.",
-    "Name": "ARMS",
-    "Text": "It allows for installing <clr>two<clrEnd> weapon turrets in the compartment designed for the shield generator."
+    "Description": "Армс - стаціонарний комплект для швидкого переоснащення слота генератора захисного поля. Включає універсальні конектори для пари гарматних турелів.",
+    "Name": "Армс",
+    "Text": "Дозволяє розмістити у відсіку, призначеному для генератора захисного поля, <clr>две<clrEnd> гарматної турелі."
   },
   "ArtDefToEnergy": {
-    "Broken": "(short-circuited)",
-    "BrokenInBattle": "An enemy shell penetrated the external hitch with the hull fuses and caused a power surge. The condenser coil of the proportionar short-circuited.",
-    "BrokenInUse": "The power surge caused the proportionar to short-circuit. Main contact groups have shorted. The device needs to be repaired.",
-    "Description": "The proportionar connects to the hull energy system controller. It routes the energy flows in such a way so as to redirect some of the energy used to power the shield generator to generators of energy weapons. This arrangement allows for increasing the firepower at the expense of the defense systems.",
-    "Name": "Proportionar",
-    "Text": "It redirects the energy flows within the ship's internal network. It cuts the voltage available to the shield generator <clr>in half<clrEnd> to increase the yield of energy weapons proportionally."
+    "Broken": "(перегорів)",
+    "BrokenInBattle": "Ворожий постріл пробив зовнішній люк із запобіжниками корпусу, що викликало різкий стрибок напруги. Конденсаторна котушка пропорційника згоріла.",
+    "BrokenInUse": "Енергетичний сплеск викликав коротке замикання у пропорціонері. Згоріли основні групи контактів. Апарату потрібен ремонт.",
+    "Description": "Пропорціонар підключається до контролера енергосистеми корпусу. Він здійснює маршрутизацію енергетичних потоків таким чином, що частина енергії виявляється перенаправлена ​​із захисного поля в генератори потужності енергетичної зброї. Така система дозволяє посилити бойову міць за рахунок захисту.",
+    "Name": "Пропорціонар",
+    "Text": "Перенаправляє енергетичні потоки внутрішньої мережі корабля. Зменшує підживлення захисного поля <clr>удвічі<clrEnd>, за рахунок цього пропорційно збільшує потужність енергетичної зброї."
   },
   "ArtDroid": {
-    "Broken": "(damaged)",
-    "BrokenInBattle": "Warning! The junior droid was damaged in battle. Repairs are needed.",
-    "BrokenInUse": "The junior droid has been operating in adverse conditions for far too long and broke down. Repairs are needed.",
-    "Description": "The junior droid is a lighter version of the main droid connected to the trunk cable via a special synchronization system. It works together with the main droid, reducing its wearing two times and speeding up repairs on board.",
-    "Name": "Junior Droid",
-    "Text": "This small droid can restore up to <clr>10<clrEnd> units of the ship's damaged hull and is capable of operating even in hyperspace. Also reduces main droid wearing <clr>two times<clrEnd>."
+    "Broken": "(зіпсований)",
+    "BrokenInBattle": "Увага! Молодший дроїд був пошкоджений у бою. Потрібен ремонт.",
+    "BrokenInUse": "Молодший дроїд довго працював у нестерпних умовах і зламався. Потрібен ремонт.",
+    "Description": "Молодший дроїд - полегшений варіант основного дроїда, який за допомогою спеціальної системи синхронізації підключається до загального кабелю. Працює разом з основним дроїдом, знижуючи його зношування вдвічі, а також збільшуючи швидкість ремонтних робіт на кораблі.",
+    "Name": "Дроїд молодший",
+    "Text": "Цей маленький дроїд може відновлювати <clr>10<clrEnd> одиниць пошкодженого корпусу корабля і здатний працювати навіть у гіперпросторі. Також знижує зношування основного дроїда в <clr>2<clrEnd> рази."
   },
   "ArtEnergyDef": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "The swallower's energy receivers got worn out. The last shell that hit the ship's hull completely put it out of commission. It needs to be repaired or replaced.",
-    "BrokenInUse": "The swallower's high voltage sensors got worn out. Bot gauges must be replaced.",
-    "Description": "The swallower is an adjustable mechanical energy absorber that consumes large amounts of power. Best used when connected to the hull protection generator. It absorbs hits from energy weapons preventing any potential damage.",
-    "Name": "Swallower",
-    "Text": "In <clr>30%<clrEnd> of all cases it absorbs the heat component of energy weapons' beams, converting the hit impulses into safe electrical surges."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Енергоприймачі ковтання зносилися. Чергове влучення в корпус корабля повністю вивело його з ладу. Необхідна заміна чи ремонт.",
+    "BrokenInUse": "Сенсори високої напруги ковтання зносилися. Потрібна заміна датчиків робота.",
+    "Description": "Проковт - розсувний механічний енергоабсорбент, що споживає велику кількість енергії. Найкраще застосування - підключення до генератора захисту корпусу. Поглинає влучення від енергетичної зброї, тим самим зводячи збитки до нуля.",
+    "Name": "Проковтнення",
+    "Text": "У <clr>30%<clrEnd> випадків поглинає теплову складову променя енергетичної зброї, перетворюючи імпульси потраплянь на безпечні електричні сплески."
   },
   "ArtEnergyPulse": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "An enemy shot has caused the power equipment of the weapons compartment to short-circuit. The fiver is not functioning properly.",
-    "BrokenInUse": "Warning! The fiver has suffered an energy buffer overflow. The device is out of order.",
-    "Description": "A fiver is a powerful energy module used for charge accumulation. It interfaces with the combat impulse generator and accumulates the charge. Once the critical voltage threshold is reached, the charge augments the current discharge to deliver a powerful strike.",
-    "Name": "Fiver",
-    "Text": "It increases the yield of the power impulse generated augmenting every <clr>third<clrEnd> shot fired by the energy weapons."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Вороже влучення викликало замикання енергетичного обладнання відсіку зброї. Функціональність п'ятерика порушена.",
+    "BrokenInUse": "Увага! Відбулося переповнення енергобуфера п'ятерика. Пристрій вийшов з ладу.",
+    "Description": "П'ятерик – потужний енергетичний модуль для накопичення заряду. Взаємодіє з генератором бойового імпульсу та накопичує у собі заряд. При досягненні критичної сили заряд поєднується з поточним пострілом і відбувається потужний удар.",
+    "Name": "П'ятерик",
+    "Text": "Збільшує потужність енергетичного імпульсу, що генерується, за рахунок чого кожен <clr>третій<clrEnd> постріл енергетичних знарядь посилюється."
   },
   "ArtFastRacks": {
-    "Broken": "(not functional)",
-    "BrokenInBattle": "Rals was shutted down due to damage caused to its logic block.",
-    "BrokenInUse": "Rals is non-functional due to significant wear of its flash memory. Full system service is neccesary.",
-    "Description": "Rals is a beta-version of firmware, designed to speed up fire rate of rocket weaponry. It's allowing to fire two times faster due to rewritten software algorithms.",
-    "Name": "Rals",
-    "Text": "Gives a <clr>15%<clrEnd> chance of perfoming double salvo from rocket weaponry."
+    "Broken": "(не працює)",
+    "BrokenInBattle": "Влучення пошкодили логічний блок Ралса і він відключився.",
+    "BrokenInUse": "Багато циклів перезапису вичерпало ресурс пам'яті Ралса. Необхідний кваліфікований ремонт.",
+    "Description": "Ралс – тестова версія нового програмного забезпечення механізму заряджання ракетної зброї, виконана у вигляді окремого субблоку. Дозволяє зробити два залпи замість одного за рахунок оптимізації алгоритмів переміщення рухомих частин.",
+    "Name": "Ралс",
+    "Text": "Забезпечує <clr>15%<clrEnd> шанс подвійного залпу з ракетної зброї."
   },
   "ArtForsage": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "Engine nozzle reported hit. The oblivion connector is seriously damaged. The device needs to be repaired.",
-    "BrokenInUse": "The oblivion connector has come to the end of useful life. Contact the developer team to have the device refurbished.",
-    "Description": "The oblivion connector contains several thousand celleroid nanomodules built into a specially designed mesh. The mesh is spread over the engine surface and helps repair the damage caused to its walls by wear and tear. This way the engine's service life is doubled even when in the afterburner mode.",
-    "Name": "Oblivion Connector",
-    "Text": "This is a technology based on the use of celleroid nanomodules. It allows for cutting <clr>in half<clrEnd> the engine wear and tear in the afterburner mode."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Зафіксовано попадання у сопло двигуна. Обливіонний конектор зазнав серйозних пошкоджень. Прилад необхідний ремонт.",
+    "BrokenInUse": "Облівіонний конектор виробив свій ресурс. Зверніться до розробника для відновлення приладу.",
+    "Description": "Обливіонний конектор – кілька тисяч наномодулів келероїдів, вбудованих у спеціальну сітку. Сітка розподілена поверхнею двигуна і реставрує його стінки при зносі. Навіть у режимі форсажу термін роботи двигуна продовжується вдвічі.",
+    "Name": "Обливіонний конектор",
+    "Text": "Технологія, створена з урахуванням наномодулів келлероїдів. Дозволяє скорочувати зношування двигуна в режимі форсажу в <clr>2<clrEnd> рази."
   },
   "ArtFuel": {
-    "Broken": "(resource depleted)",
-    "BrokenInBattle": "What a mess! An enemy shot went right into the black goo. Fuel generation has ceased.",
-    "BrokenInUse": "The black goo is all exhausted. It must be replaced. But with what?",
-    "Description": "The black goo is a mixture synthesized by ancient scientists. The black goo recipe has been irreversibly lost; however, there are still a few loads of this substance available in the Galaxy. Placed into the fuel tank, the goo acts as a catalyst that gradually increases the amount of fuel in it.",
-    "Name": "Black Goo",
-    "Text": "It generates fuel gradually filling the fuel tank."
+    "Broken": "(Ресурс вичерпаний)",
+    "BrokenInBattle": "Жах! Ворожий постріл потрапив у чорну жижу. Вироблення палива припинено.",
+    "BrokenInUse": "Чорна жижа вичерпала свої ресурси. Потрібно заправити її. Але що?",
+    "Description": "Чорна жижа - суміш, отримана вченими давнини. Спосіб приготування чорної жижі безповоротно втрачено, але кілька порцій цієї речовини досі перебувають у Галактиці. Вміщена в паливний бак, жижа діє як каталізатор - кількість палива поступово збільшується.",
+    "Name": "Чорна жижа",
+    "Text": "Виробляє паливо, поступово наповнюючи паливний бак."
   },
   "ArtGiperJump": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "Danger! The last hit sustained by the ship's hull produced strong vibration that caused micro-cracking of the hypergenerator's motherboards. The device needs to be repaired.",
-    "BrokenInUse": "The hypergenerator resource is depleted. Repairs are needed.",
-    "Description": "The hypergenerator is a unique addition to the engine. It generates a low-frequency impulse that produces space fluctuations and moves the ship into a hyper-tunnel. This allows for making jumps of up to 40 parsecs regardless of engine capacity. However, it wears out quickly. Additionally, it reduces the temporary expenses to make the jump.",
-    "Name": "Hypergenerator",
-    "Text": "It moves the ship to a hyper-tunnel that allows for shortcuts of up to <clr>40<clrEnd> parsecs regardless of engine capacity, and also reduces the jumping time."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Небезпека! Останнє попадання в корпус корабля створило сильну вібрацію, що спричинила мікротріщини на платах гіпергенератора. Пристрій потребує відновлювальних заходів.",
+    "BrokenInUse": "Ресурс гіпергенератора вичерпано. Необхідний ремонт.",
+    "Description": "Гіпергенератор – унікальне доповнення для двигуна. Генерує низькочастотний імпульс, який викликає коливання простору та переносить носій у гіпертунель. Це дозволяє стрибати до 40 парсек незалежно від характеристик двигуна. Має великий коефіцієнт зношування. Також зменшує тимчасові витрати на здійснення стрибка.",
+    "Name": "Гіпергенератор",
+    "Text": "Переносить корабель в гіпертонель, що дозволяє подолати відстань до <clr>40<clrEnd> парсек незалежно від характеристик двигуна, і зменшує тривалість стрибка."
   },
   "ArtHook": {
-    "Broken": "(not functioning properly)",
-    "BrokenInBattle": "The polarizing head was knocked off the erimeter during battle. The device is out of order and prevents the gripper from operating properly.",
-    "BrokenInUse": "The erimeter has come to to the end of its long service life. It must be repaired as soon as possible since it now prevents the gripper from operating properly.",
-    "Description": "The erimeter brings the gripper beam into focus, narrowing down its directional range substantially and increasing efficiency. As a result, the gripper beam becomes capable of pulling in heavier objects that exceed its maximum rated capacity.",
-    "Name": "Erimeter",
-    "Text": "It allows the gripper beam to pull in objects whose mass exceeds the device's rated capacity by up to <clr>30<clrEnd>. It increases the gripper's pull-in speed and radius."
+    "Broken": "(Нормально не функціонує)",
+    "BrokenInBattle": "У бою з ериметра був збитий поляризуючий наконечник. Пристрій вийшов з ладу та заважає функціонуванню захоплення.",
+    "BrokenInUse": "Тривалий термін експлуатації ериметра добіг кінця. Він терміново вимагає ремонту, оскільки став заважати функціонуванню захоплення.",
+    "Description": "Ериметр фокусує промінь захоплення, завдяки чому його спрямованість різко звужується, а ККД збільшується. У результаті промінь захоплення може притягувати предмети з масою більшою за розрахункову.",
+    "Name": "Ериметр",
+    "Text": "Дозволяє променю захоплення притягувати предмети з більшою масою розрахункової на <clr>30<clrEnd> одиниць. Підвищує швидкість притягування речей та радіус захоплення."
   },
   "ArtHull": {
-    "Broken": "(Zoopie in a coma)",
-    "BrokenInBattle": "The queen of your zoopie was injured in combat. The colony is not reproducing anymore. Only a miracle can save the queen now.",
-    "BrokenInUse": "The zoopie queen has fallen badly ill. The colony is not reproducing anymore. They say that only a miracle can save the zoopie queen.",
-    "Description": "The iron zoopie would establish a colony on the ship's hull plating, and once a special nutrient solution is applied they start producing zoopinum -- a special substance that adds to the strength and elasticity of the the hull. The colony is controlled and replenished by the queen.",
-    "Name": "Iron Zoopie",
-    "Text": "An iron zoopie colony lead by the queen may increase hull defense by <clr>5<clrEnd>."
+    "Broken": "(жупи в комі)",
+    "BrokenInBattle": "Матка ваших жупи пошкоджена у бою. Колонія більше не розмножується. Вилікувати матку може лише диво.",
+    "BrokenInUse": "Матка жупі тяжко захворіла. Колонія більше не розмножується. Кажуть, що вилікувати матку жупі може лише диво.",
+    "Description": "Залізні жупи поселяються на обшивці корабля і, після внесення поживного розчину, починають виділяти жупинум - особливу речовину, що надає міцність і еластичність обшивці. Колонія контролюється та поповнюється маткою.",
+    "Name": "Залізні жупи",
+    "Text": "Колонія залізних жупи, на чолі з маткою, збільшує захист корпусу на <clr>5<clrEnd> одиниць."
   },
   "ArtMiniExpl": {
-    "Broken": "(non-functional)",
-    "BrokenInBattle": "Warning! The blast wave localizer was hit and damaged in combat. Better stop using it before it localizes the blast wave on your own ship.",
-    "BrokenInUse": "In the course of its long service, the localizer had been clogged with way too much space dust and stopped working properly. The service program made the decision to switch the device off to prevent it from accidentally localizing the blast wave on your own ship.",
-    "Description": "The localizer channels the energy of a shot to the enemy ship's outer surface so as to minimize the explosive effects on any equipment.",
-    "Name": "Blast Wave Localizer",
-    "Text": "It helps save much of the enemy's valuable equipment for potential future use."
+    "Broken": "(не функціонує)",
+    "BrokenInBattle": "Увага! У бою був зачеплений та пошкоджений локаліст вибухової хвилі. Краще припинити його експлуатацію, поки він не локалізував вибухову хвилю на вашому ж кораблі.",
+    "BrokenInUse": "Внаслідок тривалої експлуатації в локаліст вибухової хвилі забилося надто багато космічного пилу, і він став давати збої. Сервісна програма вирішила відключити прилад, щоб він випадково не локалізував вибухову хвилю на вашому кораблі.",
+    "Description": "При попаданні локалізатор відводить енергію пострілу на зовнішню поверхню ворожого корабля, щоб у разі можливого вибуху постраждало якнайменше устаткування.",
+    "Name": "Локалізатор вибухової хвилі",
+    "Text": "Зберігає багато цінного устаткування ворога за його ліквідації."
   },
   "ArtMissileDef": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "Warning! The rocketang has incorrectly calculated the hit probability and an enemy shot split the overall number of the nanomechanisms in two. Professional help is needed to put them back together again.",
-    "BrokenInUse": "The plasmourethane component of the rocketang surface has dried up due to high stellar activity. The nanomechanisms have stalled, repairs are required.",
-    "Description": "Rocketang is a system of nanomechanisms that cover the surface of the hull with  a thin controlled plasmourethane film. They are uniquely capable of  detecting where a projectile may impact and instantly reinforcing the armor at that location.",
-    "Name": "Rocketang",
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Увага! Ракетанг невдало визначив можливість попадання, і ворожий постріл розділив загальну масу наномеханізмів на частини. Для з'єднання потрібна допомога фахівця.",
+    "BrokenInUse": "Плазмоуританова складова шару ракетангу висохла через сильну зіркову активність. Наномеханізми паралізовані, потрібний ремонт.",
+    "Description": "Ракетанг – система наномеханізмів, які покривають поверхню корпусу тонкою керованою плазмоуритановою плівкою. Їхня унікальність у тому, що вони визначають місце влучення ракети і миттєво зміцнюють броню в потрібному місці.",
+    "Name": "Ракетанг",
     "OnUseCode": {
       "0": "OnUseCodeMissileDef();"
     },
-    "Text": "A plasmourethane protection mechanism equipped with upgraded rocket detectors. It may help prevent <clr>10-40%<clrEnd> of damage from rocket-propelled weapons."
+    "Text": "Плазмоуритановий захисний механізм оснащений посиленими детекторами ракет. Блокує <clr>10-40%<clrEnd> шкоди від влучення ракетної зброї."
   },
   "ArtNano": {
-    "Broken": "(software error)",
-    "BrokenInBattle": "The nanitoid software was corrupted in battle, and instead of repairing the ship the units started sabotaging it! If you cannot reinstall nanitoid software, you'd better get rid of them.",
-    "BrokenInUse": "The nanitoids have faithfully gone about fixing your equipment for a while, but you have discounted their advanced artificial intelligence. Some of them became so smart that they decided they did not want to work for free. Not only did they stop working, but they also started sabotaging your ship deliberately to use your equipment for their own sinister purposes. It is crucial that you clear the nanitoid memory banks as soon as possible before they take over the entire ship.",
-    "Description": "The nanitoids are advanced intelligent miniature robots. Guided by their state of the art software, they are capable of repairing even previously unfamiliar objects. They are constantly learning and improving themselves.",
-    "Name": "Nanitoids",
-    "RepairItem": "Good news, the nanitoids have patched up <Name>!",
-    "Text": "These miniature robots can repair any one damaged item on board your ship at the rate of up to <clr>10<clrEnd>% a day."
+    "Broken": "(програмний збій)",
+    "BrokenInBattle": "У бою були збиті програми нанітоїдів, і замість того, щоб лагодити корабель, вони почали псувати його! Якщо ви не в змозі змінити програмне забезпечення нанітоїдів, то краще позбутися їх.",
+    "BrokenInUse": "Нанітоїди справно лагодили ваше обладнання, але ви забули про їхній просунутий програмний інтелект. Серед популяції з'явилися особливо розвинені особини, які бажають працювати задарма. Вони не лише припинили свою роботу, а й стали завдавати шкоди, використовуючи ваше обладнання у власних корисливих цілях. Вам слід якнайшвидше очистити банки пам'яті нанітоїдів, поки вони не захопили весь корабель.",
+    "Description": "Нанітоїди – це інтелектуально розвинені мініатюрні роботи. За допомогою унікальної програми вони здатні ремонтувати навіть невідомі предмети. Постійно самонавчаються та вдосконалюються.",
+    "Name": "Нанітоїди",
+    "RepairItem": "Хороша новина – нанітоїди підлатали <Name>!",
+    "Text": "Мініатюрні роботи чинять на день до <clr>10<clrEnd>% від одного з випадково обраних предметів на кораблі, цілісність яких не перевищує <clr>60<clrEnd>%."
   },
   "ArtPDTurret": {
-    "Broken": "(non-functional)",
-    "BrokenInBattle": "PRO artifact broke down in combat.",
-    "BrokenInUse": "PRO artifact broke down.",
-    "Description": "Strikes at missiles and torpedoes outside the fire area with directional impulses that disrupt their targeting systems and cause the payload to self-destruct.",
-    "Name": "a'Egis",
-    "Text": "Shoots down missiles and torpedoes fired by the enemy. Can destroy up to five targets per turn, depending on the density and intensity of fire. The artifact's effective radius is <clr>150<clrEnd>."
+    "Broken": "(не працює)",
+    "BrokenInBattle": "Артефакт ПРО поламаний у бою.",
+    "BrokenInUse": "Артефакт ПРО поламано.",
+    "Description": "Вражає ракети та торпеди, що знаходяться в зоні досяжності, спрямованими імпульсами, що викликають збій у їх системах наведення і призводять до самопідриву бойової частини.",
+    "Name": "а'Егіс",
+    "Text": "Стріляє по випущених противниками ракет і торпед. Може знищити до п'яти цілей за хід, залежно від купчастості та інтенсивності стрілянини. Радіус дії артефакту становить <clr>150<clrEnd> од."
   },
   "ArtPower": {
-    "Broken": "(overheated)",
-    "BrokenInBattle": "Warning! The engine has become seriously overheated in combat. The frostix could not compensate for the heat emissions and retracted into a snowball to survive. They can now only be defrosted under laboratory conditions.",
-    "BrokenInUse": "The frostix colony has been doing its utmost to cool the engine, but they failed and the engine continues to heat up!!! The frosix quit and huddled into a snowball. They can now only be defrosted under laboratory conditions.",
-    "Description": "The frostix are super-cold bacteria that can live on any warm surface. When placed onto an engine, the colony would do their best to cool it down, thus stabilizing the ship's speed in the heat of the battle.",
-    "Name": "Frostix",
-    "Text": "They cool the engine, protecting it from overheating, and help to quickly regain the speed lost in battle. Additionally, they protect the ship when in a star's heat zone."
+    "Broken": "(перегрілися)",
+    "BrokenInBattle": "Увага! Двигун сильно перегрівся у бою. Відморозки не змогли компенсувати теплове випромінювання і зібралися в снігову кулю, щоб вижити. Розморозити їх можна лише у лабораторних умовах.",
+    "BrokenInUse": "Колонія відморозків довгий час намагалася заморозити двигун, але їхні зусилля були марними: двигун продовжує грітися! Кинувши свою роботу, відморозки зібралися в снігову кулю. Розморозити їх можна лише у лабораторних умовах.",
+    "Description": "Відморозки – надхолодні бактерії. Живуть на будь-якій теплій поверхні. При приміщенні колонії на двигуні намагаються охолодити його, тим самим стабілізуючи швидкість корабля в спекотному бою.",
+    "Name": "Відморозки",
+    "Text": "Охолоджують двигун, захищаючи його від перегріву, та швидко відновлюють втрачену швидкість під час бою. Крім того, вони захищають корабель, коли той перебуває у зоні теплового ураження зірки."
   },
   "ArtRadar": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "Warning! The prolonger sustained a direct hit and sprang a crack. Repairs are needed.",
-    "BrokenInUse": "The prolonger became overloaded with incoming signals. Instead of amplifying the signal it began producing static, so the radar has switched to the standard mode. Filters need to be calibrated and the generator needs a tune-up.",
-    "Description": "Prolonger is mounted on the radar. It amplifies and decodes signals received from remote objects, thus increasing the radars effective range.",
-    "Name": "Prolonger",
-    "Text": "A radar extension piece that helps increase its effective range by <clr>600<clrEnd>. It collects information about ships in distant systems."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Увага! Пролонгер тріснув від прямого влучення. Потрібен ремонт.",
+    "BrokenInUse": "Пролонгер зашкалило від сигналів. Замість посилення сигналу він став видавати перешкоди, тож радар переключився на стандартний режим роботи. Потрібно калібрування фільтра та налаштування генератора.",
+    "Description": "Пролонгер кріпиться до радару. Він посилює і розшифровує сигнали, що надходять від віддалених об'єктів, сприяючи збільшенню радіуса дії радара.",
+    "Name": "Пролонгер",
+    "Text": "Насадка на радар, що збільшує його радіус дії на <clr>600<clrEnd> одиниць. Дозволяє отримувати інформацію про кораблі у віддалених системах."
   },
   "ArtScaner": {
-    "Broken": "(non-functional)",
-    "BrokenInBattle": "Warning! Scanner cache was damaged in battle, and many of the chips suffered a meltdown. The device is no longer operational and needs to be repaired.",
-    "BrokenInUse": "Scanner cache has remained in operation long enough, and its memory is now completely used up. Unfortunately, the developers provided for no periodic memory purge capability. You should seek professional help to see if something could be done about this.",
-    "Description": "Scanner cache is a software amplifier of the scanner's computing capacity. This device helps increase the speed of algorithm decoding by way of caching the signals in real time. It uses its own buffer to create a database of previously decoded signals.",
-    "Name": "Scanner Cache",
-    "Text": "Software amplifier capable of increasing the scanner's computing capacity by <clr>10<clrEnd> percent. It helps increase the amount of information about distant ships available to the crew."
+    "Broken": "(не функціонує)",
+    "BrokenInBattle": "Увага! Сканерний кеш пошкоджений у бою, багато його мікросхем оплавлені. Пристрій більше не функціонує і потребує ремонту.",
+    "BrokenInUse": "Сканерний кеш працював досить довго, його пам'ять повністю заповнена. На жаль, розробники не передбачили можливості її періодичного очищення. Вам варто звернутися до фахівців – можливо їм вдасться щось зробити.",
+    "Description": "Сканерний кеш – це програмний підсилювач обчислювальної потужності сканера. Цей пристрій прискорює алгоритми розшифровки шляхом кешування сигналів у режимі реального часу. Має власний буфер, де формує базу даних за вже розшифрованими типами сигналів.",
+    "Name": "Сканерний кеш",
+    "Text": "Програмний підсилювач обчислювальної потужності сканера на <clr>10<clrEnd> відсотків. Збільшує обсяг інформації про кораблі."
   },
   "ArtSpeed": {
-    "Broken": "(awareness spaced out)",
-    "BrokenInBattle": "The psi-accelerator failed to cope with battle stress and withdrew from this plane of existence. To have its awareness restored, the accelerator needs a trip to a research station.",
-    "BrokenInUse": "The psi-accelerator has served you long and hard. It is tired and is taking some time to recuperate outside your plane of existence. To have its awareness restored, the accelerator needs a trip to a research station.",
-    "Description": "Using its own advanced intelligence, the psi-accelerator allows the engine to use the physical laws of the psi-space. By taking advantage of some of these laws, the engine is capable of producing substantially higher speeds.",
-    "Name": "Matter Psi-Accelerator",
-    "Text": "It uses psychic synergy to help the engine increase the ship's speed."
+    "Broken": "(свідомість поза простором)",
+    "BrokenInBattle": "Псі-прискорювач не витримав емоційного сплеску бою та від'єднався від нашого простору. Щоб відновити його свідомість назад, потрібно доставити його на наукову базу.",
+    "BrokenInUse": "Псі-прискорювач довго працював на вас. Він втомився та відпочиває поза нашим простором. Щоб відновити його свідомість назад, потрібно доставити його на наукову базу.",
+    "Description": "За допомогою власної потужної свідомості псі-прискорювач дозволяє двигуну використовувати фізичні закони псі-простору. Реалізуючи деякі з цих законів, двигун суттєво збільшує швидкість руху.",
+    "Name": "Псі-прискорювач матерії",
+    "Text": "Вступає в психічний симбіоз із двигуном, забезпечуючи збільшення швидкості корабля."
   },
   "ArtSplinter": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "The hustle and bustle of battle dislodged the screw-on from its base. Having shifted, the mini-plant performed an illegal operation and screwed a splitter into its own body. Professional repairs are needed.",
-    "BrokenInUse": "The splitters have all been used up. The last few cycles, the screw-on has been running idle. This has caused the mini-plant's mechanical components to overheat, and the unit is no longer operational.",
-    "Description": "The screw-on is a mini-plant for upgrading explosive charges. It is placed over the weapon's breach to enhance the shell's yield by way of introducing a splitter element into it. It is very low-maintenance, requires no additional power source and does not overheat.",
-    "Name": "Screw-on",
-    "Text": "Each shell placed into the breech receives a splitter warhead. This helps increase the combat efficiency of fragmentation weapons by <clr>20%<clrEnd>."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Тряска під час бою збила гвинт із кріпильного місця. Змістившись, мінізавод виконав неприпустиму операцію і вкрутив у своє тіло розщеплювач. Потрібно втручання майстра.",
+    "BrokenInUse": "Комплект розщеплювачів закінчився. Останні операції гвинт виконував вхолосту. Це викликало перегрів механічної частини мінізаводу, пристрій не функціонує.",
+    "Description": "Навінт - мінізавод з технічного вдосконалення снарядів. Розміщується над затвором зброї та змінює потужність заряду шляхом вмонтування розщеплювального елемента. Невибагливий у використанні: не вимагає додаткових джерел живлення та не перегрівається.",
+    "Name": "Гвинт",
+    "Text": "Кожен снаряд у затворі оснащується боєголовкою-розщеплювачем. Завдяки цьому ефективність ураження осколкової зброї зростає на <clr>20%<clrEnd>."
   },
   "ArtTranclucator": {
-    "Description": "A tranclucator is a unique autonomous system whose purpose it is to protect its master. When launched into space, the device is activated and starts monitoring its immediate environment. Whenever the tranclucator believes its master to be in danger, it unleashes its not inconsiderable firepower on the enemy. A lucky proprietor of one of those devices can afford to throw caution to the wind since the tranclucator always stays true.",
-    "Name": "Tranclucator",
+    "Description": "Транклюкатор є унікальним автономним пристроєм, призначеним для захисту господаря. При викиді його в космос транклюкатор активується і стежить за подіями, що відбуваються навколо. Якщо господареві, на думку транклюкатора, загрожує небезпека, він обрушує на ворога всю свою вогневу міць. Власникам таких пристроїв не страшний сам чорт, тому що транклюкатор ніколи не підводить.",
+    "Name": "Транклюкатор",
     "OnUseCode": {
       "0": "OnUseCodeTranclucator();"
     },
-    "Text": "A combat droid that protects its master in open space."
+    "Text": "Бойовий дроїд призначений для захисту свого господаря у відкритому космосі."
   },
   "ArtTransmitter": {
-    "Broken": "(accumulating charges)",
-    "Description": "The beacon is a remote system for studying new objects. When activated, it transmits into hyperspace a quadruple-wave signal indicating a large amount of new material to be studied. Any kelleroids receiving the signal give it top priority and rush to where the signal had originated from. Signal strength determines the number of research robots arriving. The signal can be intercepted by other dominators.",
-    "Name": "Transfactorial Beacon",
+    "Broken": "(Накопичує заряд)",
+    "Description": "Маяк є дистанційною системою вивчення об'єктів. При активації він передає у гіперпростір квадратно-хвильовий сигнал про велику кількість невивченого матеріалу. Келероіди, що вловили сигнал, виставляють йому максимальний пріоритет і прилітають на місце виклику. Від сили сигналу залежить кількість роботів-дослідників. Сигнал може бути перехоплений іншими домінаторами.",
+    "Name": "Трансфакторний маяк",
     "OnUseCode": {
       "0": "OnUseCodeTransmitter();"
     },
-    "Text": "When used in space, it alerts the recipient to the presence of previously unexplored material. Charge energy: <Power>."
+    "Text": "При використанні в космосі передає дані про наявність невивченого матеріалу. Енергія заряду: <Power> од."
   },
   "ArtWeaponToSpeed": {
-    "Broken": "(broken)",
-    "BrokenInBattle": "The exterior elements of the nozzlenator were damaged in battle. The nozzles got clogged with fragments and space junk. The device may only become operational once repairs are made.",
-    "BrokenInUse": "The nozzlenator is out of order. The channels connecting the nozzles to the engine have failed under the load. Restoration work is required.",
-    "Description": "The nozzlenator is a self-extracting set of additional nozzles, which are installed instead of one unused weapon compartment. Thanks to better power release into space, the speed of the ship is increased.",
-    "Name": "Nozzlenator",
-    "Text": "Increases the engine speed by <clr>100<clrEnd> points through installation of additional nozzles in lieu of one <clr>weapon<clrEnd> compartment."
+    "Broken": "(зламаний)",
+    "BrokenInBattle": "Зовнішні елементи співпланатора було пошкоджено під час бою. Сопла забилися ошметками та космічним сміттям. Робота пристрою можлива лише після ремонту.",
+    "BrokenInUse": "Сопланатор вийшов із ладу. Канали, що з'єднують сопла з двигуном, не витримали навантаження на них. Потрібні відновлювальні роботи.",
+    "Description": "Сопланатор - комплект, що саморозпаковується, додаткових сопел, які підключаються за рахунок одного гарматного відсіку, що не використовується. Завдяки більш вільному викиду енергії в космічний простір швидкість корабля збільшується.",
+    "Name": "Сопланатор",
+    "Text": "На <clr>100<clrEnd> одиниць збільшує швидкість двигуна за рахунок встановлення додаткових сопел на базі одного <clr>гарматного<clrEnd> відсіку."
   },
   "CustomArtefacts": {},
   "NumericValues": {
@@ -329,6 +329,6 @@
     "kTransmitterPenaltySameSystem": "5",
     "kTransmitterPenaltySameSystemDuration": "30"
   },
-  "TextArtCanGetBoost": "The ship is fitted with equipment which boosts the effectiveness of this artifact.",
-  "TextArtGettingBoost": "The artifact receives a bonus to effectiveness thanks to good compatibility with the ship's equipment."
+  "TextArtCanGetBoost": "На борту є обладнання, при спільному використанні з яким цей артефакт здатний працювати з підвищеною ефективністю.",
+  "TextArtGettingBoost": "Артефакт отримує бонус до ефективності завдяки гарній сумісності зі встановленим на кораблі обладнанням."
 }

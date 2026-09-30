@@ -1,10 +1,10 @@
 {
-  "Exit": "Exit (E)",
-  "Help": "Help (H)",
-  "HelpFile": "ManualEng.exe",
-  "Load": "Load (F3)",
-  "QExit": "Do you want to quit the game?",
-  "Resume": "Continue (Esc)",
-  "Save": "Save (F2)",
-  "Settings": "Settings (C)"
+  "Exit": "Вихід (E)",
+  "Help": "Довідка (H)",
+  "HelpFile": "ManualRus.exe",
+  "Load": "Завантажити (F3)",
+  "QExit": "Бажаєте завершити гру?",
+  "Resume": "Продовжити (Esc)",
+  "Save": "Зберегти (F2)",
+  "Settings": "Налаштування (C)"
 }

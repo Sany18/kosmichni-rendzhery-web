@@ -1,10 +1,10 @@
 {
-  "HelpAnimTextOff": "Text animation off",
-  "HelpAnimTextOn": "Text animation on",
-  "HelpExit": "Exit (<color=255,245,80>R</color> - restart quest)",
-  "HelpExitAlt": "Exit",
-  "HelpStyle1": "Gray background",
-  "HelpStyle2": "Dark background",
-  "HelpStyle3": "Light background",
-  "HelpStyle4": "Green background"
+  "HelpAnimTextOff": "Анімація тексту вимкнена",
+  "HelpAnimTextOn": "Анімація тексту включена",
+  "HelpExit": "Вихід (<color=255,245,80>R</color> - перезапустити квест)",
+  "HelpExitAlt": "Вихід",
+  "HelpStyle1": "Сірий фон",
+  "HelpStyle2": "Темний фон",
+  "HelpStyle3": "Світлий фон",
+  "HelpStyle4": "Зелений фон"
 }

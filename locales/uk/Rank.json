@@ -1,44 +1,44 @@
 {
   "Ace": {
-    "Name": "Ace",
-    "NameBig": "First-Class Pilot",
-    "Text": "Pilots like him are greatly respected and admiringly called \"aces\"!"
+    "Name": "Ас",
+    "NameBig": "Першокласний льотчик",
+    "Text": "Таких пілотів, як він, поважають і називають не інакше як 'АС'!"
   },
   "Admiral": {
-    "Name": "Admiral",
-    "NameBig": "Incredible Admiral",
-    "Text": "The greatest pilot in the Galaxy -- the one and only! There have never been any like him before and there probably won't be any like him in the future. His enemies go pale and skedaddle at the very mention of his name!"
+    "Name": "Адмірал",
+    "NameBig": "Неймовірний адмірал",
+    "Text": "Найвеличніший пілот галактики, єдиний і неповторний! Інших таких не було і, швидше за все, не буде. Вороги бліднуть і мерщій тікають геть від однієї лише згадки його імені!"
   },
   "Cadet": {
-    "Name": "Cadet",
-    "NameBig": "Young Cadet",
-    "Text": "The cadet already knows the smell of gunpowder."
+    "Name": "Кадет",
+    "NameBig": "Молодий кадет",
+    "Text": "Кадет уже встиг пороху понюхати."
   },
   "Commander": {
-    "Name": "Commander",
-    "NameBig": "Supreme Commander",
-    "Text": "There are only a handful of these in the Galaxy. Any pilot would consider it an honor to serve under the Commander."
+    "Name": "Командор",
+    "NameBig": "Великий командор",
+    "Text": "Таких льотчиків у галактиці одиниці. Будь-який пілот матиме за честь служити під началом командора."
   },
   "Leader": {
-    "Name": "Fighter",
-    "NameBig": "Combat Fighter",
-    "Text": "Such a pilot can dispatch several enemies singlehandedly."
+    "Name": "Винищувач",
+    "NameBig": "Бойовий винищувач",
+    "Text": "Такий пілот самотужки може впоратися з кількома супротивниками."
   },
-  "NextRankGetText": "The pilot was promoted to the rank of <NextRank>! It's time to fly to the nearest military base.",
-  "NextRankText": "<WarPoints> warrior points is required to gain the rank of <NextRank>.",
+  "NextRankGetText": "Пілот представлений до звання <NextRank>! Час летіти на найближчу військову базу.",
+  "NextRankText": "Потрібно <WarPoints> очок воїна для отримання звання <NextRank>.",
   "Pilot": {
-    "Name": "Pilot",
-    "NameBig": "Experienced Pilot",
-    "Text": "Can stand up for himself and probably shouldn't be messed with."
+    "Name": "Пілот",
+    "NameBig": "Досвідчений пілот",
+    "Text": "З такими хлопцями краще не зв'язуватися, можуть і образити."
   },
   "Rookie": {
-    "Name": "Rookie",
-    "NameBig": "Green Rookie",
-    "Text": "Green rookies can't do anything right."
+    "Name": "Новачок",
+    "NameBig": "Зелений новачок",
+    "Text": "Зелені новачки нічого не вміють."
   },
   "Wingman": {
-    "Name": "Captain",
-    "NameBig": "Captain",
-    "Text": "As a rule, captains have subordinates and don't fly alone."
+    "Name": "Капітан",
+    "NameBig": "Капітан",
+    "Text": "Капітани, як правило, мають підлеглих і поодинці не літають."
   }
 }

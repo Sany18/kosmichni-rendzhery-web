@@ -1,44 +1,44 @@
 {
   "Ataman": {
-    "Name": "Capo",
-    "NameBig": "Chief Capo",
-    "Text": "Only truly distinguished persons with highly developed professional skills are capable of earning this rank. Careful, positions are limited!"
+    "Name": "Отаман",
+    "NameBig": "Батько отаман",
+    "Text": "Тільки видатні особистості, які мають добре розвинені професійні навички, здатні отримати це звання. Стережіться, кількість місць обмежена!"
   },
   "Baron": {
-    "Name": "Baron",
-    "NameBig": "High Baron",
-    "Text": "The leader of the pirate community. Outranked only by stars in the sky."
+    "Name": "Барон",
+    "NameBig": "Верховний барон",
+    "Text": "Лідер піратського руху. Крутіше за нього тільки зірки."
   },
   "Khan": {
-    "Name": "Khan",
-    "NameBig": "Made Khan",
-    "Text": "One of the leaders of the pirate community, deadly and incredibly charismatic. Every pirate dreams of one day earning this title."
+    "Name": "Хан",
+    "NameBig": "Блатний хан",
+    "Text": "Один із лідерів піратського руху, смертельно небезпечний і шалено харизматичний. Кожен пірат мріє одного разу отримати це звання."
   },
   "Kid": {
-    "Name": "Ship Boy",
-    "NameBig": "Sprightly Ship Boy",
-    "Text": "Hardly useful beyond rummaging through old ladies' pockets and taking candy away from children, but has the makings of a pirate just the same."
+    "Name": "Юнга",
+    "NameBig": "Жвавий юнга",
+    "Text": "Годиться тільки на те, щоб нишпорити по кишенях у стареньких і забирати у дітей іграшки, але піратські задатки вже є."
   },
-  "NextRankGetText": "A scoundrel was promoted to the rank of <NextRank>! It's time to hit the nearest pirate base.",
-  "NextRankText": "<WarPoints> points required to earn the next rank.",
+  "NextRankGetText": "Негідник представлений до звання <NextRank>! Час летіти на найближчу піратську базу.",
+  "NextRankText": "Потрібно <WarPoints> очк.  для здобуття наступного звання.",
   "Noobie": {
-    "Name": "Noob",
-    "NameBig": "Clueless Noob",
-    "Text": "Green like a pickle with an almost religious deference of law, he elicits nothing but scorn."
+    "Name": "Салага",
+    "NameBig": "Безглуздий салага",
+    "Text": "Зелений, як огірок, що страждає від качки, і взагалі до непристойності правопорядний тип, що викликає лише зневагу."
   },
   "Rader": {
-    "Name": "Raider",
-    "NameBig": "Clever Raider",
-    "Text": "Capable of shaking down transport vessels when nobody's looking, but is yet to accomplish something truly great in his pirate career."
+    "Name": "Рейдер",
+    "NameBig": "Тлумачний рейдер",
+    "Text": "Здатний самотужки розводити на бабло транспортні кораблі, поки ніхто не бачить, але великі звершення на ниві піратства ще попереду."
   },
   "Rough": {
-    "Name": "Cutthroat",
-    "NameBig": "Militant Cutthroat",
-    "Text": "This professional bandit can undertake criminal missions of any difficulty. A tough customer who's not to be trifled with."
+    "Name": "Головоріз",
+    "NameBig": "Бойовий головоріз",
+    "Text": "Професійний бандит, який виконує протиправні завдання будь-якої складності. Такому палець у рот не клади – пристрелить і закопає."
   },
   "Skipper": {
-    "Name": "Skipper",
-    "NameBig": "Seasoned Skipper",
-    "Text": "An experienced pirate with a nose for gunpowder. Now it is he who hands out knuckle-sandwiches to aspiring bandits. Only goes for the big score."
+    "Name": "Шкіпер",
+    "NameBig": "Досвідчений шкіпер",
+    "Text": "Досвідчений пірат, що нюхнув пороху. Тепер він сам може роздавати затріщини бандитам-початківцям. Не розмінюється на дрібниці."
   }
 }

@@ -3,1105 +3,1105 @@
   "ExampleAsteroid": {
     "Cost": "Mini",
     "Description": "",
-    "Name": "Dummy Asteroid",
+    "Name": "Навчальний астероїд",
     "Owner": "None",
     "Size": "10",
-    "Text": "A dummy asteroid serves to help pilots learn to shoot. Contains some minerals."
+    "Text": "Макет астероїда служить на навчання пілотів навичкам стрільби. Містить небагато мінералів."
   },
   "OperatedProbe": {
     "Cost": "Mini",
-    "Description": "Performs various monitoring tasks; can be controlled from a nearby ship or a remote command center.",
-    "Name": "Controlled Recon Probe",
+    "Description": "Виконує різні завдання спостереження, управляється як з корабля, що знаходиться поблизу, так і з віддаленого командного центру.",
+    "Name": "Керований розвідзонд",
     "Owner": "Peleng",
     "Size": "10",
-    "Text": "A peleng spy device."
+    "Text": "Шпигунський пристрій пеленгів."
   },
   "Remains_0": {
     "Cost": "Big",
-    "Name": "Coordinator",
+    "Name": "Координатор",
     "Owner": "Blazer,Keller,Terron",
     "Size": "8",
-    "Text": "Data flow router. Coordinates the work of all systems. Interfaces with the main processor via a dedicated line."
+    "Text": "Маршрутизатор потоків даних. Координує роботу всіх систем. Взаємодіє з головним процесором у вигляді виділеної лінії."
   },
   "Remains_1": {
     "Cost": "Small",
-    "Name": "Damper",
+    "Name": "Стволовик",
     "Owner": "Blazer,Keller,Terron",
     "Size": "10",
-    "Text": "Weapons kickback neutralization system. Dampens vibrations and emissions lethal for the intellectual matrix."
+    "Text": "Система нейтралізації віддачі знарядь. Гасить коливання та поглинає випромінювання, згубні для інтелектуальної матриці."
   },
   "Remains_10": {
     "Cost": "Small",
-    "Name": "Destructurizer",
+    "Name": "Деструктуризатор",
     "Owner": "Blazer",
     "Size": "1",
-    "Text": "An element of the intellectual logic system of combat tactics. Contains several million models of combat behavior."
+    "Text": "Елемент інтелектуально-логічної системи ведення бою. Містить кілька мільйонів моделей поведінки під час битви."
   },
   "Remains_11": {
     "Cost": "Small",
-    "Name": "Argent",
+    "Name": "Аргент",
     "Owner": "Blazer",
     "Size": "1",
-    "Text": "A commutative element for blazeroid group interface. Actuated during a centralized attack against a single target."
+    "Text": "Комутативний елемент взаємодії групи блазероїдів. Включається під час централізованої атаки, спрямованої проти одного об'єкта."
   },
   "Remains_12": {
     "Cost": "Average",
-    "Name": "Relector",
+    "Name": "Релектор",
     "Owner": "Blazer",
     "Size": "3",
-    "Text": "Synchronizes non-combat systems with the strigger. Actuated in the course of active combat to prevent equipment disturbance."
+    "Text": "Здійснює синхронізацію небойових систем зі стригером. Активізується під час активних бойових дій для запобігання конфліктам обладнання."
   },
   "Remains_13": {
     "Cost": "Big",
-    "Name": "Raptorizer",
+    "Name": "Рапторизатор",
     "Owner": "Blazer",
     "Size": "7",
-    "Text": "Conducts instantaneous transfers of power from one system to another. Used in critical situations, such as an emergency power transfer from attack systems to active defense systems."
+    "Text": "Здійснює миттєві перекидання енергії з однієї системи до іншої. Використовується в критичних ситуаціях, наприклад, для екстреного переведення енергії із систем нападу до системи активного захисту."
   },
   "Remains_14": {
     "Cost": "Small",
-    "Name": "Binomial T-21/4",
+    "Name": "Біном Т-21/4",
     "Owner": "Keller",
     "Size": "1",
-    "Text": "An intellectual model unit. Comprised of four processors: the main pair processes information, while the auxiliary pair records data to the stabilitron."
+    "Text": "Блок із інтелектуальною моделлю. Складається з чотирьох процесорів: два основні обробляють інформацію, два вторинних фіксують дані в стабілітрон."
   },
   "Remains_15": {
     "Cost": "Average",
-    "Name": "Stabilitron",
+    "Name": "Стабілітрон",
     "Owner": "Keller",
     "Size": "5",
-    "Text": "A memory block for storing analyzed information flows. Synchronizes with main databank every 0.0001 g/s."
+    "Text": "Блок пам'яті зберігання потоків аналізованої інформації. Раз на 0.0001 гс виробляється синхронізація з головним банком даних."
   },
   "Remains_16": {
     "Cost": "Big",
-    "Name": "Destabilizer",
+    "Name": "Дестабілізатор",
     "Owner": "Keller",
     "Size": "10",
-    "Text": "An active system element for decomposing material to the subatomic level. Prepares the subject for analysis."
+    "Text": "Активний елемент системи розкладання матеріалів груп субатомів. Готує об'єкт для аналізу."
   },
   "Remains_17": {
     "Cost": "Small",
-    "Name": "Spectron",
+    "Name": "Спектрон",
     "Owner": "Keller",
     "Size": "2",
-    "Text": "A quark analyzer. Conducts detailed spectral analysis of studied materials via quark bombardment of the surveyed surface."
+    "Text": "Кварковий аналізатор. Здійснює детальний спектральний аналіз матеріалів, що вивчаються шляхом кваркового бомбардування поверхні, що вивчається."
   },
   "Remains_18": {
     "Cost": "Average",
-    "Name": "Mimicron",
+    "Name": "Мімікрон",
     "Owner": "Keller",
     "Size": "7",
-    "Text": "A masking unit. Shifts the ships into a transparent state, projecting a hologram of the immediate environment onto the hull surface."
+    "Text": "Маскувальний вузол. Переводить корабель у транспарентний стан, проецируя на поверхню корпусу голограму навколишнього оточення."
   },
   "Remains_19": {
     "Cost": "Small",
-    "Name": "Enricher",
+    "Name": "Збагачувач",
     "Owner": "Terron",
     "Size": "10",
-    "Text": "Apparatus designed to give solid bodies a terronoid shape via injections of nanobots. The restructuring time is directly proportional to the subject's weight."
+    "Text": "Апарат для перетворення твердих тіл на терроноїдний вид шляхом впровадження наноботів. Час реструктуризації прямо пропорційно масі об'єкта."
   },
   "Remains_2": {
     "Cost": "Mini",
-    "Name": "Turbion",
+    "Name": "Турбійон",
     "Owner": "Terron,Blazer,Keller",
     "Size": "4",
-    "Text": "A tank with engineering fluid, circulating through cooling channels. Prevents system overheating."
+    "Text": "Бак з технічною рідиною, що циркулює по каналах, що охолоджують. Запобігає перегріву системи."
   },
   "Remains_20": {
     "Cost": "Average",
-    "Name": "Reproducer",
+    "Name": "Репродуктор",
     "Owner": "Terron",
     "Size": "12",
-    "Text": "Part of the reproduction system. Duplicates undamaged elements of own body."
+    "Text": "Частина системи відтворення. Дублює непошкоджені елементи свого тіла."
   },
   "Remains_21": {
     "Cost": "Big",
-    "Name": "Nestotron",
+    "Name": "Гніздотрон",
     "Owner": "Terron",
     "Size": "16",
-    "Text": "A personal matrix. Contains a base number and over a quadrillion ways to process various matter after its own image."
+    "Text": "Особистісна матриця. Містить базовий номер і більше квадрилліона методів переробки різних матерій у свій вигляд."
   },
   "Remains_22": {
     "Cost": "Average",
-    "Name": "Accelerine",
+    "Name": "Акселірин",
     "Owner": "Terron",
     "Size": "5",
-    "Text": "A database containing information on artificial randomization of personal matrices."
+    "Text": "База даних, що містить дані про штучну рандомізацію особистісних матриць."
   },
   "Remains_23": {
     "Cost": "Small",
-    "Name": "Michurer",
+    "Name": "Мічурер",
     "Owner": "Terron",
     "Size": "2",
-    "Text": "An intellectual add-on to the enricher. Analyzes new generations of terronoids and performs selection to breed most efficient models."
+    "Text": "Інтелектуальна приставка до збагачувача. Аналізує нові покоління терроноїдів та виробляє селекцію з метою створення найефективніших видів."
   },
   "Remains_3": {
     "Cost": "Average",
-    "Name": "Spimmer",
+    "Name": "Спімер",
     "Owner": "Terron,Blazer,Keller",
     "Size": "1",
-    "Text": "A metablock-powered identification pulse gauge. Integrates with all objects belonging to any dominator series."
+    "Text": "Датчик розпізнавальних імпульсів, які отримують від метаблока. Інтегрується у всі об'єкти, що належать до будь-якої серії домінаторів."
   },
   "Remains_4": {
     "Cost": "Small",
-    "Name": "Inbreedon",
+    "Name": "Інбридон",
     "Owner": "Terron,Blazer,Keller",
     "Size": "10",
-    "Text": "A node-container. Used for storing nodes in their primordial, protoplasmic state. Serves as backup storage of dominator memory so that it can be restored after breakdowns."
+    "Text": "Нід-контейнер. Використовується для зберігання нодів у первородному, протоплазмовому стані. Служить для резервного зберігання пам'яті домінатора, відновлення після збоїв."
   },
   "Remains_5": {
     "Cost": "Small",
-    "Name": "Metablock",
+    "Name": "Метаблок",
     "Owner": "Blazer,Keller,Terron",
     "Size": "2",
-    "Text": "A logic-plotting device. Generates a list of actions from received directives."
+    "Text": "Логікобудівельний апарат. Генерує список дій згідно з отриманими директивами."
   },
   "Remains_6": {
     "Cost": "Huge",
-    "Name": "Grobot",
-    "Owner": "Any",
+    "Name": "Гробот",
+    "Owner": "Blazer, Keller, Terron",
     "Size": "30",
-    "Text": "A universal weapons protocomplex. Used by the dominator as foundation for assembling new weapons, utilizing components damaged in combat."
+    "Text": "Універсальний гарматний протокомплекс. На його базі домінатор збирає нову зброю, використовуючи деталі пошкодженого у бою."
   },
   "Remains_7": {
     "Cost": "Average",
-    "Name": "Energopack",
+    "Name": "Енергопакет",
     "Owner": "Blazer,Keller,Terron",
     "Size": "5",
-    "Text": "A practically inexhaustible energy source used by the dominators. Unfortunately, Coalition scientists never managed to puzzle it out."
+    "Text": "Практично невичерпне джерело енергії, яке використовується домінаторами. На жаль, вченим не вдалося зрозуміти принцип його дії."
   },
   "Remains_8": {
     "Cost": "Mini",
-    "Name": "Basic Construction",
+    "Name": "Базова конструкція",
     "Owner": "Blazer,Keller,Terron",
     "Size": "5",
-    "Text": "A module of unknown designation that hasn't been fully assembled. The incomplete element is entirely non-functional."
+    "Text": "Ще повністю змонтований модуль незрозумілого призначення. Незавершений елемент абсолютно не функціональний."
   },
   "Remains_9": {
     "Cost": "Average",
-    "Name": "Strigger",
+    "Name": "Стрігер",
     "Owner": "Blazer",
     "Size": "5",
-    "Text": "Combat systems controller. Locks in the target, performs laying, selects weapon, fires and reloads. The data received during combat is stored in the destructurizer memory matrix."
+    "Text": "Контролер бойових систем. Здійснює захоплення мети, наведення, вибір зброї, стрілянину та перезарядку. Отримані під час бою дані зберігаються у матрицю пам'яті деструкторизатора."
   },
   "Usl_0": {
     "Cost": "Mini",
-    "Name": "Detonating Gripper",
+    "Name": "Захоплення-підривник",
     "Owner": "Maloc",
     "Size": "10",
-    "Text": "A miniature detonating gripper, designed for underground demolition work."
+    "Text": "Мініатюрне захоплення-підривник, призначений для вибухових робіт під землею."
   },
   "Usl_1": {
     "Cost": "Small",
-    "Name": "Cryogenic Flask",
+    "Name": "Кріогенна колба",
     "Owner": "Maloc",
     "Size": "2",
-    "Text": "A vessel containing part of an organic creature -- a gaalian hand."
+    "Text": "Резервуар, що містить частину органічної істоти – руку гаальця."
   },
   "Usl_10": {
     "Cost": "Big",
-    "Name": "Ckhasha",
+    "Name": "Чхаша",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A very ancient ckhasha from the Tzin Dynasty."
+    "Text": "Дуже давня чхаша династії Цхін."
   },
   "Usl_11": {
     "Cost": "Mini",
-    "Name": "Khavas Container",
+    "Name": "Контейнер \"Хавас\"",
     "Owner": "Peleng",
     "Size": "5",
-    "Text": "A container of bacteriological weapon."
+    "Text": "У контейнері знаходиться бактеріологічна зброя."
   },
   "Usl_12": {
     "Cost": "Average",
-    "Name": "Ceremonial Silverware",
+    "Name": "Парадні черпала",
     "Owner": "Peleng",
     "Size": "6",
-    "Text": "A set of patterned war silverware for parade ceremonies."
+    "Text": "Комплект бойових розписних черпал для парадних виступів."
   },
   "Usl_13": {
     "Cost": "Mini",
-    "Name": "Green Cake",
+    "Name": "Зелений торт",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A ceremonial mud cake made of swamp slush and pakryak blood. Smells absolutely revolting."
+    "Text": "Церемоніальний грязьовий торт з болотної жижі та крові покряків. Має огидний запах."
   },
   "Usl_14": {
     "Cost": "Average",
-    "Name": "Transparent Amphora",
+    "Name": "Прозора амфора",
     "Owner": "Peleng",
     "Size": "2",
-    "Text": "A vessel containing expensive peleng booze."
+    "Text": "Резервуар з дорогим алкогольним пеленгським пійлом."
   },
   "Usl_15": {
     "Cost": "Average",
-    "Name": "Robot Clone",
+    "Name": "Робот-клон",
     "Owner": "Peleng",
     "Size": "5",
-    "Text": "A mechanical clone of the peleng president."
+    "Text": "Механічний клон пеленгського президента."
   },
   "Usl_16": {
     "Cost": "Average",
-    "Name": "Clothes",
+    "Name": "Одяг",
     "Owner": "Peleng",
     "Size": "3",
-    "Text": "A set of peleng color-changing coats."
+    "Text": "Набір пеленгських плащів, що змінюють колір."
   },
   "Usl_17": {
     "Cost": "Average",
-    "Name": "Matrices with Data",
+    "Name": "Матриці із записом",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A collection of brain imagings from the universe's most vicious villains."
+    "Text": "Набір образів мозку жорстоких лиходіїв всесвіту."
   },
   "Usl_18": {
     "Cost": "Small",
-    "Name": "Prize Cups",
+    "Name": "Призові кубки",
     "Owner": "Peleng",
     "Size": "4",
-    "Text": "A set of prize cups and a SL medallion for winners of the mud-throwing competition."
+    "Text": "Кубки та почесний орден \"ВЛ\" для переможців змагань із кидання бруду."
   },
   "Usl_19": {
     "Cost": "Small",
-    "Name": "Pack of Cigarettes",
+    "Name": "Упаковка сигарет",
     "Owner": "People",
     "Size": "7",
-    "Text": "A pack of cigarettes of all kinds of brands."
+    "Text": "Коробка сигарет різних марок."
   },
   "Usl_2": {
     "Cost": "Small",
-    "Name": "Maloq Flag",
+    "Name": "Мало прапор",
     "Owner": "Maloc",
     "Size": "3",
-    "Text": "A maloq flag, secured to a peculiar stick."
+    "Text": "Мало прапор, укріплений на дивному держаку."
   },
   "Usl_20": {
     "Cost": "Average",
-    "Name": "Ancient Books",
+    "Name": "Старовинні книги",
     "Owner": "People",
     "Size": "3",
-    "Text": "Several ancient tomes. \"The Fairy Tales of Our Childhood, XX Century\" series."
+    "Text": "Декілька томів старовинних книг. Серія \"Казки нашого дитинства, XX століття\"."
   },
   "Usl_21": {
     "Cost": "Average",
-    "Name": "Compact Disks",
+    "Name": "Компакт-диски",
     "Owner": "People",
     "Size": "5",
-    "Text": "CDs with the Windoffs software. Cannot be used in modern computers due to format differences."
+    "Text": "Диски із програмним забезпеченням \"Віндовс\". Використовувати в сучасних комп'ютерах неможливо через різниці форматів."
   },
   "Usl_22": {
     "Cost": "Average",
-    "Name": "Container with Religious Souvenirs",
+    "Name": "Контейнер із релігійними сувенірами",
     "Owner": "People",
     "Size": "10",
-    "Text": "A large collection of all matter of religious paraphernalia."
+    "Text": "Велика кількість різноманітних релігійних інструментів різних релігій."
   },
   "Usl_23": {
     "Cost": "Average",
-    "Name": "Clockwork",
+    "Name": "Часовий механізм",
     "Owner": "People",
     "Size": "1",
-    "Text": "Clockwork for the famous amorphous clock."
+    "Text": "Механізм для знаменитого аморфного годинника."
   },
   "Usl_24": {
     "Cost": "Mini",
-    "Name": "Colored Cube",
+    "Name": "Різнокольоровий куб",
     "Owner": "People",
     "Size": "1",
-    "Text": "A cube 20X20 cm in size. According to the manual, it can expand into a real palace."
+    "Text": "Куб розміром 20X20 см. Згідно з інструкцією, він здатний трансформуватися у справжній палац."
   },
   "Usl_25": {
     "Cost": "Big",
-    "Name": "Disodane",
+    "Name": "Дізодан",
     "Owner": "People",
     "Size": "10",
-    "Text": "A valuable mineral. Affects the psyche of biological organisms."
+    "Text": "Цінна мінеральна порода. Впливає на психіку біологічних організмів."
   },
   "Usl_26": {
     "Cost": "Big",
-    "Name": "Processors",
+    "Name": "Процесори",
     "Owner": "People",
     "Size": "1",
-    "Text": "Multilevel architecture processors for planetary billboards."
+    "Text": "Процесори багаторівневої архітектури планетарних рекламних щитів."
   },
   "Usl_27": {
     "Cost": "Average",
-    "Name": "Armored Case",
+    "Name": "Броньований кейс",
     "Owner": "People",
     "Size": "2",
-    "Text": "A special police catalogue of peleng criminals."
+    "Text": "Спеціальна поліцейська картотека, що містить дані щодо пеленгських злочинних осіб."
   },
   "Usl_28": {
     "Cost": "Small",
-    "Name": "Plastic Box",
+    "Name": "Пластиковий короб",
     "Owner": "People",
     "Size": "1",
-    "Text": "A box with a decoder for a secret agent."
+    "Text": "Коробка із шифром шифру для агента."
   },
   "Usl_29": {
     "Cost": "Mini",
-    "Name": "Tape",
+    "Name": "Касета",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "The recording of a hymn to unify humans and faeyans."
+    "Text": "Запис гімну, що об'єднує людей та феян."
   },
   "Usl_3": {
     "Cost": "Average",
-    "Name": "President's Brain",
+    "Name": "Мозок президента",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A container with a separated maloq brain. In a state of hypersleep."
+    "Text": "Контейнер з відокремленим мозком молока. Знаходиться у стані гіперсну."
   },
   "Usl_30": {
     "Cost": "Mini",
-    "Name": "Toothbrush",
+    "Name": "Зубна щітка",
     "Owner": "People",
     "Size": "1",
-    "Text": "The toothbrush serves to restore the oral cavity."
+    "Text": "Зубна щітка служить відновлення ротової порожнини."
   },
   "Usl_31": {
     "Cost": "Mini",
-    "Name": "Synodisks",
+    "Name": "Сінодиски",
     "OnUseCode": {
       "0": "StartVideo('data\\record.vdo','Record');"
     },
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A copy of a video depicting the destruction of a human town. Use the disks in the activation window to view the video."
+    "Text": "Копія відеозапису знищення людського міста. Щоб переглянути, слід використовувати диски у вікні активації."
   },
   "Usl_32": {
     "Cost": "Average",
-    "Name": "Matrix Painting",
+    "Name": "Матрична картина",
     "Owner": "Fei",
     "Size": "2",
-    "Text": "Special paint was used to create this masterpiece, imparting live colors to the painting. The paint becomes visible once in a hundred years."
+    "Text": "Для створення цього шедевра використовувалися спеціальні фарби, що надають картині живих кольорів. Фарба проявляється один раз на сто років."
   },
   "Usl_33": {
     "Cost": "Average",
-    "Name": "Three Henir Vessels",
+    "Name": "Три гінірні ємності",
     "Owner": "Fei",
     "Size": "11",
-    "Text": "Heniroil lubricant for robotic resources."
+    "Text": "Мастильний матеріал, гініромасло для робототехнічних ресурсів."
   },
   "Usl_34": {
     "Cost": "Big",
-    "Name": "Red Buttons",
+    "Name": "Червоні кнопки",
     "Owner": "Fei",
     "Size": "2",
-    "Text": "A batch of twenty red buttons with removable attachments. Handle with care."
+    "Text": "Партія з двадцяти червоних клавіш зі змінними насадками. Чи не кантувати."
   },
   "Usl_35": {
     "Cost": "Big",
-    "Name": "Psy-weapon",
+    "Name": "Псі-зброя",
     "Owner": "Fei",
     "Size": "6",
-    "Text": "A batch of faeyan psychotropic weapons. Danger! Application prohibited on majority of worlds."
+    "Text": "Партія феянського психотропного зброї. Небезпечно! Заборонено до використання у більшості світів."
   },
   "Usl_36": {
     "Cost": "Small",
-    "Name": "Disk Reader",
+    "Name": "Зчитувач дисків",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "A faeyan-made reader of ancient compact disks."
+    "Text": "Створений феянами зчитувач старовинних компакт-дисків."
   },
   "Usl_37": {
     "Cost": "Average",
-    "Name": "Set of Biogames",
+    "Name": "Комплект біоігор",
     "Owner": "Fei",
     "Size": "10",
-    "Text": "Consoles with biogames that connect directly to the brain."
+    "Text": "Приставки з біоіграми, які підключаються безпосередньо до мозку."
   },
   "Usl_38": {
     "Cost": "Average",
-    "Name": "SSA Fabric",
+    "Name": "СВ-тканини",
     "Owner": "Fei",
     "Size": "5",
-    "Text": "Special fabric for the latest military uniforms."
+    "Text": "Унікальні тканини для створення найновішої військової форми."
   },
   "Usl_39": {
     "Cost": "Big",
-    "Name": "Server",
+    "Name": "Сервер",
     "Owner": "Fei",
     "Size": "2",
-    "Text": "A navigation server to control robots remotely."
+    "Text": "Навігаційний сервер для дистанційного керування роботами."
   },
   "Usl_4": {
     "Cost": "Average",
-    "Name": "Insectus",
+    "Name": "Комахус",
     "Owner": "Maloc",
     "Size": "15",
-    "Text": "A giant model of the smallest maloq insect."
+    "Text": "Величезна модель найменшої малокської комахи."
   },
   "Usl_40": {
     "Cost": "Small",
-    "Name": "Bugs",
+    "Name": "Жучки",
     "Owner": "People",
     "Size": "1",
-    "Text": "A special case with a set of spy bugs. The bugs are temporarily paralyzed."
+    "Text": "Спеціальний кейс із набором шпигунських жучків. Жучки тимчасово паралізовані."
   },
   "Usl_41": {
     "Cost": "Average",
-    "Name": "Batch of Gekkers",
+    "Name": "Партія грауків",
     "Owner": "Gaal",
     "Size": "10",
-    "Text": "Small semi-intelligent creatures. Currently in a state of cryosleep."
+    "Text": "Маленькі напіврозумні істоти. Знаходяться у кріосні."
   },
   "Usl_42": {
     "Cost": "Small",
-    "Name": "Warm Clothes",
+    "Name": "Теплий одяг",
     "Owner": "Gaal",
     "Size": "8",
-    "Text": "Maloq clothing, designed to offer protection in low temperatures. Extra extra large."
+    "Text": "Одяг для молока, створений для захисту від низьких температур. Дуже великий розмір."
   },
   "Usl_43": {
     "Cost": "Mini",
-    "Name": "Pizza Recipe",
+    "Name": "Рецепт піци",
     "Owner": "Gaal",
     "Size": "1",
-    "Text": "A framed pizza recipe -- a token of friendship from gaals for humans. Bears personal signatures of gaalian chefs."
+    "Text": "Рецепт піци на знак дружби від гаальців людей. З особистими підписами шеф-кухарів гаальської раси в рамці."
   },
   "Usl_44": {
     "Cost": "Big",
-    "Name": "Block of Ice",
+    "Name": "Глиба льоду",
     "Owner": "Gaal",
     "Size": "10",
-    "Text": "A rectangular block of ice with a trapped light beam."
+    "Text": "Прямокутний шматок льоду зі зупиненим променем світла всередині."
   },
   "Usl_45": {
     "Cost": "Big",
-    "Name": "Portal",
+    "Name": "Портал",
     "Owner": "Gaal",
     "Size": "13",
-    "Text": "The second part of the Beta Portal 01 megaportal."
+    "Text": "Друга частина мегапорталу \"Портал 01 бета\"."
   },
   "Usl_46": {
     "Cost": "Mini",
-    "Name": "Biocontainer",
+    "Name": "Біоконтейнер",
     "Owner": "Peleng",
     "Size": "4",
-    "Text": "Holds Decrepitliptus -- a lower form peleng animal."
+    "Text": "У контейнері нижча пелензька тварина, Дряхлоуст."
   },
   "Usl_47": {
     "Cost": "Big",
-    "Name": "Programmator",
+    "Name": "Програматор",
     "Owner": "Gaal",
     "Size": "6",
-    "Text": "A device for reprogramming spaceship onboard computers."
+    "Text": "Пристрій перепрограмування бортових комп'ютерів космічних кораблів."
   },
   "Usl_48": {
     "Cost": "Big",
-    "Name": "Universe Scanner",
+    "Name": "Сканер всесвіту",
     "Owner": "Gaal",
     "Size": "2",
-    "Text": "A mind-reading device."
+    "Text": "Пристрій, який дозволяє читати думки."
   },
   "Usl_49": {
     "Cost": "Average",
-    "Name": "Spherical Shield",
+    "Name": "Сферощит",
     "Owner": "Gaal",
     "Size": "10",
-    "Text": "A defense module. Isolates the source of high radioactivity."
+    "Text": "Захисний блок. Локалізує джерело підвищеного радіоактивного впливу."
   },
   "Usl_5": {
     "Cost": "Average",
-    "Name": "Evidence",
+    "Name": "Докази",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A collection of items found at the crime scene where three faeyan ambassadors were assassinated."
+    "Text": "Набір предметів, які були знайдені на місці вбивства на замовлення трьох феянських послів."
   },
   "Usl_50": {
     "Cost": "Small",
-    "Name": "Liberation Helmet",
+    "Name": "Шолом Визволення",
     "Owner": "Gaal",
     "Size": "1",
-    "Text": "A sacred item to Disciples of the Liberation Helmet cult. They claim that the helmet enables one to travel to another dimension."
+    "Text": "Священний предмет секти шанувальників Шолома Визволення. За їхніми твердженнями, допомагає переміститися до іншого виміру."
   },
   "Usl_51": {
     "Cost": "Mini",
-    "Name": "Bababoom",
+    "Name": "\"Бабабум\"",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "An ancient maloq statue, depicting a maloq gripping the symbol of Harmony -- a perfect sphere."
+    "Text": "Давньомалоцька статуетка, що зображує молока, що стискає в руках символ Гармонії - ідеальну сферу"
   },
   "Usl_52": {
     "Cost": "Mini",
-    "Name": "Container",
+    "Name": "Контейнер",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A container with some kind of grass. An order from one of the great maloq warrior maidens."
+    "Text": "Контейнер із якоюсь травою. Замовлення від однієї з великих малоцьких войовниць."
   },
   "Usl_53": {
     "Cost": "Average",
-    "Name": "Container with a Trap",
+    "Name": "Посилання з пасткою",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A container with an inert anti-rodent deterrent system with pressure action."
+    "Text": "Посилання з інерційно-пресійною антимаусовою пасткою"
   },
   "Usl_54": {
     "Cost": "Mini",
-    "Name": "Button",
+    "Name": "Гудзик",
     "Owner": "People",
     "Size": "1",
-    "Text": "A button belonging to Maria -- the great niece of the son of her double removed aunt. Handle with care."
+    "Text": "Гудзик внучатої племінниці сина двоюрідної тітоньки Марії. Чи не кантувати."
   },
   "Usl_55": {
     "Cost": "Big",
-    "Name": "Matter Annihilator",
+    "Name": "Анігілятор матерії",
     "Owner": "People",
     "Size": "10",
-    "Text": "Matter annihilator, used by a human consul to dispose of secret documents."
+    "Text": "Анігілятор матерії, за допомогою якого людський консул знищує надсекретні папери."
   },
   "Usl_56": {
     "Cost": "Big",
-    "Name": "Lie Detector",
+    "Name": "Детектор брехні",
     "Owner": "Gaal",
     "Size": "10",
-    "Text": "Latest generation lie detector."
+    "Text": "Новітня модель детектора брехні"
   },
   "Usl_57": {
     "Cost": "Small",
-    "Name": "Penchesplasher Remains",
+    "Name": "Останки пенчехлюпу",
     "Owner": "Peleng",
     "Size": "5",
-    "Text": "The remains of a penchesplasher -- an ancient Churassic ancestor of the modern day penchekrakus."
+    "Text": "Останки древнього викопного щурського періоду - пенчехлюпа, далекого предка сучасних пенчекряків."
   },
   "Usl_58": {
     "Cost": "Average",
-    "Name": "Antique Carpet",
+    "Name": "Раритетний килим",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "An antique carpet. Needs to be delivered to the dry-cleaner's."
+    "Text": "Раритетний килим. Потрібно доставити до хімчистки."
   },
   "Usl_59": {
     "Cost": "Small",
-    "Name": "Shield Control Console",
+    "Name": "Пульт керування щитом",
     "Owner": "People",
     "Size": "1",
-    "Text": "A planetary shield control console, designed to keep dominators from landing on the planet's surface."
+    "Text": "Пульт управління планетарним щитом, який, за задумом його розробників, має запобігти висадженню домінаторів на поверхню."
   },
   "Usl_6": {
     "Cost": "Small",
-    "Name": "Maloq Lie Detector",
+    "Name": "Малокський детектор брехні",
     "Owner": "Maloc",
     "Size": "5",
-    "Text": "An indispensable device for interrogating representatives of all races."
+    "Text": "Незамінний прилад під час допиту представників будь-якої раси."
   },
   "Usl_60": {
     "Cost": "Mini",
-    "Name": "Gaalian Book",
+    "Name": "Гаальська книга",
     "Owner": "Gaal",
     "Size": "1",
-    "Text": "This gaalian book contains all the top-secret knowledge in the field of physics and high technologies."
+    "Text": "У цій гаальській книзі містяться надсекретні знання з галузі фізики та високих технологій."
   },
   "Usl_61": {
     "Cost": "Small",
-    "Name": "Holy Grail",
+    "Name": "Святий Грааль",
     "Owner": "Maloc",
     "Size": "25",
-    "Text": "The maloq Holy Grail."
+    "Text": "Малокський Святий Грааль"
   },
   "Usl_62": {
     "Cost": "Small",
-    "Name": "Geartrunk",
+    "Name": "\"Семеренка\"",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A new maloq invention in the field of high technology -- the geartrunk."
+    "Text": "Новий винахід молоков у галузі високих технологій - \"Семеренка\""
   },
   "Usl_63": {
     "Cost": "Mini",
-    "Name": "Letter",
+    "Name": "Лист",
     "Owner": "People",
     "Size": "1",
-    "Text": "A most ordinary non-secret letter from one person to another, sealed in an ordinary paper envelope."
+    "Text": "Найпростіший несекретний лист від однієї людини іншій у типовому паперовому конверті"
   },
   "Usl_64": {
     "Cost": "Small",
-    "Name": "Maloq Stool",
+    "Name": "Малоцький табурет",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A maloq stool for analysis."
+    "Text": "Малокський табурет на експертизу"
   },
   "Usl_65": {
     "Cost": "Mini",
-    "Name": "Vessel of Moral Turpitude",
+    "Name": "Посудина Морального Помутніння",
     "Owner": "Gaal",
     "Size": "1",
-    "Text": "A Vessel of Moral Turpitude from the Galactic Museum of Vials and Containers."
+    "Text": "Посудина Морального Помутніння з Галактичного Музею Судин та Ємностей"
   },
   "Usl_66": {
     "Cost": "Small",
-    "Name": "Black Box",
+    "Name": "\"Чорна скринька\"",
     "Owner": "Kling",
     "Size": "1",
-    "Text": "A black box with information about the final moments of an equantor dominator."
+    "Text": "\"Чорна скринька\" з інформацією про останні миті життя домінаторського Еквентора."
   },
   "Usl_67": {
     "Cost": "Small",
-    "Name": "Tape with Video Recording",
+    "Name": "Касета з відеозаписом",
     "Owner": "People",
     "Size": "1",
-    "Text": "An ancient video recording about dominators."
+    "Text": "Стародавній відеозапис, присвячений домінаторам"
   },
   "Usl_68": {
     "Cost": "Small",
-    "Name": "Vacuum extractor for small-scale life-forms",
+    "Name": "Вакуумний витягувач малогабаритних організмів",
     "Owner": "Gaal",
     "Size": "1",
-    "Text": "A heavy-duty gaalian vacuum that is still economical and thrifty with respect to the items being sucked up. Retro style."
+    "Text": "Надпотужний, але при цьому економічний і ощадливий по відношенню до предметів, що засмоктуються, гаальський пилосос. Дизайн виконаний у стилі ретро."
   },
   "Usl_69": {
     "Cost": "Small",
-    "Name": "MONSTER teleport",
+    "Name": "Телепорт \"УРОД\"",
     "Owner": "Fei",
     "Size": "5",
-    "Text": "A very odd-looking device created by faeyans for use as the standard method of instant translocation. Includes an integrated self-correction feature for failed teleportations"
+    "Text": "Дивного виду пристрій, створений феянами для використання як стандартного засобу миттєвого переміщення. Має вбудовану функцію корекції помилок невдалих телепортацій"
   },
   "Usl_7": {
     "Cost": "Mini",
-    "Name": "Sports Mascot",
+    "Name": "Спортивний талісман",
     "Owner": "Maloc",
     "Size": "6",
-    "Text": "The stolen cut stone with a golden inscription \"Strength and Honor.\""
+    "Text": "Червоний огранований камінь із золотим написом \"СИЛА І ЧЕСТЬ\"."
   },
   "Usl_70": {
     "Cost": "Small",
-    "Name": "Data drive",
+    "Name": "Носій інформації",
     "Owner": "People",
     "Size": "1",
-    "Text": "A high-capacity, but quite fragile data storage device. The receptacle for connecting to an information terminal is labeled \"Do not insert the wrong side!\""
+    "Text": "Містке, але досить тендітне сховище даних. На роз'єм для підключення до інформаційного терміналу напис \"Не тією стороною втикати забороняється!\""
   },
   "Usl_71": {
     "Cost": "Mini",
-    "Name": "Secret Note with Password",
+    "Name": "Секретна записка з паролем",
     "Owner": "PirateClan",
     "Size": "1",
-    "Text": "A small document with keywords list for a voice lock."
+    "Text": "Невеликий документ зі списком ключових фраз голосового замку."
   },
   "Usl_72": {
     "Cost": "Big",
-    "Name": "Envelope Full of Credits",
+    "Name": "Конверт із кредитами",
     "Owner": "PirateClan",
     "Size": "1",
-    "Text": "Solid envelope, it can make someone a Richie Rich!"
+    "Text": "Щільний конверт, під зав'язку набитою готівкою. Чи не для відправки поштою Карагона!"
   },
   "Usl_73": {
     "Cost": "Average",
-    "Name": "Pirate Flag",
+    "Name": "Піратський прапор",
     "Owner": "PirateClan",
     "Size": "3",
-    "Text": "Famous \"Jolly Rovher\", once belonged to Bambai Frake."
+    "Text": "Знаменитий \"Веселий Ровжер\", що колись належав бамбаю Фрейку."
   },
   "Usl_74": {
     "Cost": "Small",
-    "Name": "Locked Credit Card",
+    "Name": "Заблокована картка з кредитами",
     "Owner": "PirateClan",
     "Size": "1",
-    "Text": "Cannot be used until activated."
+    "Text": "Кредитна картка, яку неможливо скористатися, не активувавши її."
   },
   "Usl_75": {
     "Cost": "Average",
-    "Name": "Capsule with Humanoid",
+    "Name": "Капсула з гуманоїдом",
     "Owner": "PirateClan",
     "Size": "5",
-    "Text": "Cryocapsule, contains one of the Coalition's leaders. Has detonation anti-breaking system installed."
+    "Text": "Кріокапсула, всередині якої знаходиться один із лідерів Коаліції. Обладнана детонаційним захистом від злому."
   },
   "Usl_8": {
     "Cost": "Small",
-    "Name": "Gift Box",
+    "Name": "Коробка подарункова",
     "Owner": "Maloc",
     "Size": "2",
-    "Text": "A colorful box with unknown contents."
+    "Text": "Барвисті коробки з невідомим вмістом."
   },
   "Usl_9": {
     "Cost": "Small",
-    "Name": "Bullfrog Incubator",
+    "Name": "Інкубатор для жаб",
     "Owner": "Peleng",
     "Size": "7",
-    "Text": "An efficient instrument for breeding ragobam bullfrogs."
+    "Text": "Ефективний інструмент розведення рагобамських жаб."
   },
   "Usl_AmuletFragment1": {
     "Cost": "Mini",
-    "Name": "Amulet Fragment",
+    "Name": "Фрагмент амулету",
     "Owner": "None",
     "Size": "1",
-    "Text": "The first fragment of the Eye of the Crab amulet."
+    "Text": "Перший фрагмент амулету \"Око краба\"."
   },
   "Usl_AmuletFragment2": {
     "Cost": "Mini",
-    "Name": "Amulet Fragment",
+    "Name": "Фрагмент амулету",
     "Owner": "None",
     "Size": "1",
-    "Text": "The second fragment of the Eye of the Crab amulet."
+    "Text": "Другий фрагмент амулету \"Око краба\"."
   },
   "Usl_AmuletFragment3": {
     "Cost": "Mini",
-    "Name": "Amulet Fragment",
+    "Name": "Фрагмент амулету",
     "Owner": "None",
     "Size": "1",
-    "Text": "The third fragment of the Eye of the Crab amulet."
+    "Text": "Третій фрагмент амулету \"Око краба\"."
   },
   "Usl_AncientCrystal": {
     "Cost": "Huge",
-    "Name": "Ancient holocrystal",
+    "Name": "Стародавній голокристал",
     "Owner": "None",
     "Size": "1",
-    "Text": "An ancient holocrystal which has lain on an empty planet since time began (maybe longer), which has been encoded with some incomprehensible cipher. Through a microscope you can see a half-erased marking that reads: \"Property of Kuat Drive Yards\". If you find this crystal, please return it to our employees without reading its contents. We recommend additional analysis by cryptographic specialists."
+    "Text": "Старовинний голографічний кристал, що лежав на пустельній планеті з початку часів, а може й довше, закодований незрозумілим шифром. Через мікроскоп можна розглянути напівстерту маркування \"Власність Куат Драйв Ярдс. Якщо ви знайшли цей кристал, будь ласка, поверніть його нашим співробітникам, не читаючи вмісту\". Рекомендується подальший аналіз фахівцями з криптозахисту."
   },
   "Usl_AnimalCase": {
     "Cost": "Mini",
-    "Name": "Cage with a Rare Animal",
+    "Name": "Клітина з рідкісною твариною",
     "Owner": "None",
     "Size": "1",
-    "Text": "The cage holds a rare animal -- the rotmygut."
+    "Text": "У клітці знаходиться рідкісна тварина - вротмневолос."
   },
   "Usl_BeaconBox": {
     "Cost": "Mini",
-    "Name": "Container of beacons",
+    "Name": "Контейнер з маяками",
     "Owner": "None",
     "Size": "30",
-    "Text": "A container of beacons designed to track pirate movements."
+    "Text": "Контейнер із маяками, призначеними для відстеження переміщень піратів."
   },
   "Usl_Blastshot": {
     "Cost": "Mini",
-    "Name": "Cryocapsule",
+    "Name": "Кріокапсула",
     "Owner": "None",
     "Size": "5",
-    "Text": "A cryocapsule with Blast Shot -- veteran of the anti-pirate movement."
+    "Text": "Кріокапсула з ветераном антипіратського руху, Бласт Шот."
   },
   "Usl_Bomber": {
     "Cost": "Average",
-    "Name": "White Ticket",
+    "Name": "Білий білет",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A ticket allowing its bearer to viciously beat up their superior. Issued to pilots who are prepared to execute their orders at any cost."
+    "Text": "Квиток, що дає право жорстоко побити свого начальника. Видається пілотам, готовим виконати наказ за будь-яку ціну."
   },
   "Usl_Cactus": {
     "Cost": "Mini",
-    "Name": "Container with Cacti",
+    "Name": "Контейнер із кактусами",
     "Owner": "None",
     "Size": "3",
-    "Text": "Pots of cacti are visible through the transparent lid of the container."
+    "Text": "Контейнер, через прозору кришку якого видніються горщики з кактусами."
   },
   "Usl_CapsuleStukach": {
     "Cost": "Mini",
-    "Name": "Capsule",
+    "Name": "Капсула",
     "Owner": "None",
     "Size": "1",
-    "Text": "A life-saving capsule of a pirate snitch."
+    "Text": "Рятувальна капсула пірата-стукача."
   },
   "Usl_Citadels": {
     "Cost": "Big",
-    "Name": "\"Ci\" Badge",
+    "Name": "Значок \"Ці\"",
     "Owner": "People",
     "Size": "1",
-    "Text": "Cast in the form of the Citadel intellectual game card. A collectible."
+    "Text": "Виконаний у вигляді ігрової картки інтелектуальної гри \"Цитаделі\". Колекційний екземпляр."
   },
   "Usl_DataArchive": {
     "Cost": "Mini",
-    "Name": "Secret Archive",
+    "Name": "Секретний архів",
     "Owner": "None",
     "Size": "1",
-    "Text": "A ruler's archive, containing encrypted information."
+    "Text": "Архів імператора, що містить зашифровану інформацію."
   },
   "Usl_DataDisk": {
     "Cost": "Mini",
-    "Name": "Disk",
+    "Name": "Диск",
     "Owner": "None",
     "Size": "1",
-    "Text": "A disk with important information."
+    "Text": "Диск із важливою інформацією."
   },
   "Usl_Drugs": {
     "Cost": "Average",
-    "Name": "Report",
+    "Name": "Доповідь",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A full report on the development of new weapons by Professor Koochie von Yuchee."
+    "Text": "Повний звіт про створення нової зброї професора Куучі Фон Ючі."
   },
   "Usl_Elus": {
     "Cost": "Mini",
-    "Name": "Small Elunie",
+    "Name": "Малий елунів",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "A level 002 intellect diploma for Ranger <Player>. Grants the right to attend scientific council meetings."
+    "Text": "Диплом про наявність у рейнджера <Player> інтелекту рівня 002. Надає право присутності на засіданнях вченої ради."
   },
   "Usl_FakedRecords": {
     "Cost": "Mini",
-    "Name": "Records",
+    "Name": "Записи",
     "Owner": "None",
     "Size": "1",
-    "Text": "Records of peleng rowdiness."
+    "Text": "Записи пеленгських безчинств."
   },
   "Usl_Faruk": {
     "Cost": "Big",
-    "Name": "Fariolas",
+    "Name": "Фарюки",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "Six foul-smelling fruits in an air-tight container."
+    "Text": "Шість мерзотних фруктів у повітронепроникному кейсі."
   },
   "Usl_Foncers": {
     "Cost": "Huge",
-    "Name": "Foncer-999",
+    "Name": "Фонсер-999",
     "Owner": "People",
     "Size": "5",
-    "Text": "A champion's gold medal in foncer racing. Cast in the shape of a real-size racing bolide wheel."
+    "Text": "Золота медаль чемпіон гонки на фонсерах. Виконана у вигляді штурвала гоночного боліда у натуральну величину."
   },
   "Usl_Frodo": {
     "Cost": "Mini",
-    "Name": "Generator",
+    "Name": "Генератор",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "A highly unusual power generator shaped like a ring."
+    "Text": "Дуже незвичайний генератор електричної енергії у вигляді кільця."
   },
   "Usl_GoldenRocket": {
     "Cost": "Mini",
-    "Name": "Gold Replica",
+    "Name": "Золота статуетка",
     "Owner": "None",
     "Size": "1",
-    "Text": "A collectible gold replica of the ancient human P-7 rocket."
+    "Text": "Золота статуетка стародавньої ракети людства Р-7."
   },
   "Usl_InDrynCage": {
     "Cost": "Mini",
-    "Name": "Cage with Ein-Drein",
+    "Name": "Клітина з Інь-Дринем",
     "Owner": "None",
     "Size": "5",
-    "Text": "A cage with a rare ten-gendered animal."
+    "Text": "Клітина з рідкісною десятистатевою твариною."
   },
   "Usl_JimmyGuitar": {
     "Cost": "Mini",
-    "Name": "Guitar",
+    "Name": "Гітара",
     "Owner": "None",
     "Size": "3",
-    "Text": "An antique guitar once belonging to renowned rock musician Jimi Hendrigz."
+    "Text": "Раритетна гітара Джиммі Хрендрікса, знаменитого гітариста та рок-н-рольщика."
   },
   "Usl_LasosCup": {
     "Cost": "Mini",
-    "Name": "Cup",
+    "Name": "Чашка",
     "Owner": "None",
     "Size": "1",
-    "Text": "A ceramic cup depicting some kind of fish."
+    "Text": "Керамічна чашка, на якій зображено якусь рибу."
   },
   "Usl_Melok": {
     "Cost": "Mini",
-    "Name": "Crayon",
+    "Name": "Дрібниця",
     "Owner": "None",
     "Size": "3",
-    "Text": "A Bin-Key crayon, designed to help fight the dominators."
+    "Text": "Дрібниця \"Машень-К\", призначена для боротьби з домінаторами."
   },
   "Usl_MemoryModule": {
     "Cost": "Mini",
-    "Name": "Memory Module",
+    "Name": "Модуль пам'яті",
     "Owner": "None",
     "Size": "1",
-    "Text": "A pirate memory module."
+    "Text": "Піратський модуль пам'яті."
   },
   "Usl_Ministry": {
     "Cost": "Big",
-    "Name": "Certificate",
+    "Name": "Свідоцтво",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "An official deed of ownership to the Rectal Island for the next 50 years."
+    "Text": "Офіційний документ власника Прямокишкового острова на найближчі 50 років."
   },
   "Usl_MusicialTools": {
     "Cost": "Mini",
-    "Name": "Instruments",
+    "Name": "Інструменти",
     "Owner": "None",
     "Size": "5",
-    "Text": "A container with percussion instruments from the hypermarket."
+    "Text": "Контейнер з ударними інструментами із гіпермаркету."
   },
   "Usl_Muzon": {
     "Cost": "Small",
-    "Name": "Musical Cup",
+    "Name": "Музичний кубок",
     "Owner": "People",
     "Size": "2",
-    "Text": "A hyper-rock festival victor's cup. They say that if you put an ear to it, you can hear music from other worlds."
+    "Text": "Кубок переможця гіпер-рок-фестивалю. Кажуть, якщо додати вухо до нього, то можна почути музику інших світів."
   },
   "Usl_Orcs": {
     "Cost": "Small",
-    "Name": "Ancient Book",
+    "Name": "Старовинна книга",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "A Tale of Filaneya and Gromgar -- the classic maloq military annal."
+    "Text": "\"Сказання про Філаней і Громгар\", класичний малокський військовий літопис."
   },
   "Usl_OverloadedBeacon": {
     "Cost": "Mini",
-    "Name": "Kazakhstar-111 Beacon",
+    "Name": "Маяк \"Казахстар-111\"",
     "Owner": "None",
     "Size": "1",
-    "Text": "A pirate-enhanced transfactorial beacon."
+    "Text": "Посилений піратами трансфакторний маяк."
   },
   "Usl_PTQ63": {
     "Cost": "Mini",
-    "Name": "Game Disk",
+    "Name": "Диск із грою",
     "Owner": "People",
     "Size": "1",
-    "Text": "Disk with the newest game from the Space Rangers series."
+    "Text": "Диск із найновішою грою з серіалу \"Космічні рейнджери\""
   },
   "Usl_PTQ64": {
     "Cost": "Big",
-    "Name": "Promissory Note",
+    "Name": "Вексель",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A payment order to receive a fee for completing a quest. Don't lose it!"
+    "Text": "Платіжне доручення отримання гонорару за квест. Чи не втрачати!"
   },
   "Usl_PTQ65": {
     "Cost": "Huge",
-    "Name": "Evil Genius Monocle",
+    "Name": "Монокль Злого Генія",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A bonus Evil Genius monocle. Issued as a memento of taking over the world."
+    "Text": "Нагородний парадний монокль Злого Генія. Виданий на згадку про завоювання світу."
   },
   "Usl_PTQ66": {
     "Cost": "Huge",
-    "Name": "Great Fisher's Cup",
+    "Name": "Кубок Великого Риболова",
     "Owner": "People",
     "Size": "1",
-    "Text": "Great Fisher's Golden Cup for winning the fishing championship."
+    "Text": "Золотий Кубок Великого Рибалки за перемогу в чемпіонаті з лову риби"
   },
   "Usl_PTQ67": {
     "Cost": "Huge",
-    "Name": "Case with a Contract",
+    "Name": "Кейс із контрактом",
     "Owner": "Fei",
     "Size": "1",
-    "Text": "A case with a contract for qsetvoemitter production."
+    "Text": "Кейс із контрактом на виробництво ксетовипромінювачів"
   },
   "Usl_PTQ68": {
     "Cost": "Huge",
-    "Name": "Secret Documentation",
+    "Name": "Секретні документи",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "An envelope with secret data."
+    "Text": "Конверт із секретними даними"
   },
   "Usl_PTQ69": {
     "Cost": "Huge",
-    "Name": "Golden Palette Order",
+    "Name": "Орден \"Золота палітра\"",
     "Owner": "People",
     "Size": "1",
-    "Text": "A Golden Palette Order for winning the art tournament."
+    "Text": "Орден \"Золотої палітри\" за перемогу на турнірі художників"
   },
   "Usl_PTQ70": {
     "Cost": "Huge",
-    "Name": "Box of Gold",
+    "Name": "Ящик із золотом",
     "Owner": "None",
     "Size": "5",
-    "Text": "Illegally procured gold nuggets."
+    "Text": "Нелегально здобуті самородки"
   },
   "Usl_PTQ71": {
     "Cost": "Average",
-    "Name": "Megavision Glasses",
+    "Name": "Окуляри \"Мегавіжн\"",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "Enable the bearer to see an experimental invisible ship."
+    "Text": "Дозволяють бачити експериментальний корабель-невидимку"
   },
   "Usl_PTQn60": {
     "Cost": "Mini",
-    "Name": "Disk",
+    "Name": "Диск",
     "Owner": "None",
     "Size": "1",
-    "Text": "A disk with important information."
+    "Text": "Диск із важливою інформацією"
   },
   "Usl_PTQn64": {
     "Cost": "Huge",
-    "Name": "Important Documentation",
+    "Name": "Важливі документи",
     "Owner": "None",
     "Size": "1",
-    "Text": "Important documentation. Not for resale!"
+    "Text": "Важливі документи На барахолці не штовхати!"
   },
   "Usl_PTQn66": {
     "Cost": "Average",
-    "Name": "Orange Box",
+    "Name": "Помаранчева коробка",
     "Owner": "None",
     "Size": "1",
-    "Text": "A black box with data."
+    "Text": "Чорний ящик із записами"
   },
   "Usl_Pilot": {
     "Cost": "Average",
-    "Name": "License",
+    "Name": "Сертифікат",
     "Owner": "Peleng",
     "Size": "1",
-    "Text": "A legal document, granting the bearer license to pilot heavy-load vessels."
+    "Text": "Юридично засвідчений папір, що дає право водіння великовантажних кораблів."
   },
   "Usl_RandomItem_01": {
     "Cost": "Mini",
-    "Name": "Container with an Animal",
+    "Name": "Контейнер із твариною",
     "Owner": "None",
     "Size": "1",
-    "Text": "Holds an unknown animal. Opening the container is NOT recommended!"
+    "Text": "Контейнер з невідомою твариною. Розкривати категорично не рекомендується!"
   },
   "Usl_RandomItem_02": {
     "Cost": "Mini",
-    "Name": "Urgent Letter",
+    "Name": "Терміновий лист",
     "Owner": "None",
     "Size": "1",
-    "Text": "A paper letter with additional orders. For the purpose of secrecy, it is made of paper and requires security."
+    "Text": "Паперовий лист із наказом про подальші дії. З метою конспірації воно паперове і йому потрібна охорона."
   },
   "Usl_RandomItem_03": {
     "Cost": "Mini",
-    "Name": "Armored Box with Precious Cargo",
+    "Name": "Броньований ящик з цінним вантажем",
     "Owner": "None",
     "Size": "1",
-    "Text": "A highly valuable cargo. So valuable that sawing the box in half is the only way of getting to it."
+    "Text": "Дуже цінний вантаж. Настільки цінний, що відкрити його, можна тільки розпиливши ящик навпіл."
   },
   "Usl_RandomItem_04": {
     "Cost": "Mini",
-    "Name": "Case with Documents",
+    "Name": "Кейс із документами",
     "Owner": "None",
     "Size": "1",
-    "Text": "A case with important documents that needs to be delivered to one of the planets."
+    "Text": "Кейс із важливими документами, який потрібно доставити на одну із планет."
   },
   "Usl_Robots": {
     "Cost": "Small",
-    "Name": "Dementor",
+    "Name": "Дементор",
     "Owner": "Maloc",
     "Size": "3",
-    "Text": "A giant Robot Battle Intergalactic Champion's Cup."
+    "Text": "Величезний кубок чемпіона Галактики з битв на бойових роботах."
   },
   "Usl_Rvk": {
     "Cost": "Average",
-    "Name": "Military Uniform",
+    "Name": "Військова форма",
     "Owner": "People",
     "Size": "2",
-    "Text": "Ceremonial military commander uniform. An inscription in gold letters reads \"<Player>\" on the chest."
+    "Text": "Парадна форма військкома. На грудях золотими літерами вишито ім'я \"<Player>\"."
   },
   "Usl_Shashki": {
     "Cost": "Mini",
-    "Name": "Intellectual-PROF",
+    "Name": "Інтелектуал-ПРОФ",
     "Owner": "People",
     "Size": "1",
-    "Text": "An Intergalactic Hyperjumping Plasma Checkers Champion's Cup. A memorable prize cast out of the winner's checkers."
+    "Text": "Кубок чемпіона Галактики з гіперстрибучих плазмошашок. Пам'ятний приз виплавлено із шашок переможця."
   },
   "Usl_Soberisam": {
     "Cost": "Mini",
-    "Name": "Dominator Model Kit",
+    "Name": "Набір \"Збери домінатора\"",
     "Owner": "None",
     "Size": "1",
-    "Text": "A construction set that makes it possible to assemble a miniature dominator model."
+    "Text": "Конструктор, із якого можна зібрати мініатюрну модель домінатора."
   },
   "Usl_SpecialBomb": {
     "Cost": "Mini",
-    "Name": "Bomb",
+    "Name": "Бомба",
     "Owner": "None",
     "Size": "1",
-    "Text": "A special bomb, manufactured to destroy research stations."
+    "Text": "Спеціальна бомба створена для знищення наукових станцій."
   },
   "Usl_Stroyka": {
     "Cost": "Mini",
-    "Name": "Container with Construction Materials",
+    "Name": "Контейнер із будматеріалами",
     "Owner": "None",
     "Size": "70",
-    "Text": "A universal kit for residential interior finish."
+    "Text": "Універсальний набір для внутрішнього оздоблення житла."
   },
   "Usl_Svarokok": {
     "Cost": "Average",
-    "Name": "Swarokox",
+    "Name": "Сварококс",
     "Owner": "Maloc",
     "Size": "1",
-    "Text": "Traditional maloq medicine for treating blaster burns."
+    "Text": "Народні молочні ліки для лікування опіків від бластеру."
   },
   "Usl_VigenereCoin": {
     "Cost": "Mini",
-    "Name": "Engraved coin",
+    "Name": "Гравірована монета",
     "Owner": "PirateClan",
     "Size": "1",
-    "Text": "Gold coin with encrypted engraving from captain Virsle. On the emblem of the pirate clan in capital letters it says \"VIGENERE\" in the middle, in small letters \"kiiltgjtfjph kqxwzr\" on the left and \"virsle\" on the right."
+    "Text": "Золота монета з зашифрованим гравіюванням від капітана Версля. На гербі піратського Клану великими літерами написано \"VIGENERE\" посередині, маленькими літерами \"kiiltgjtfjph kqxwzr\" зліва та \"virsle\" праворуч."
   }
 }

@@ -1,13 +1,13 @@
 {
-  "Cancel": "Cancel",
-  "Caption": "Quests: Quick Launch",
-  "Group0": "Original",
-  "Group1": "Addon Quests",
-  "Group2": "Custom",
-  "PFromPlanet": "Mokva",
-  "PFromStar": "Diatar",
-  "PRanger": "Graefe",
-  "PToPlanet": "Bonnasis",
-  "PToStar": "Procion",
-  "Start": "Start"
+  "Cancel": "Скасування",
+  "Caption": "Квести: Швидкий запуск",
+  "Group0": "Оригінальні",
+  "Group1": "Квести аддону",
+  "Group2": "Свої",
+  "PFromPlanet": "Моква",
+  "PFromStar": "Діатар",
+  "PRanger": "Греф",
+  "PToPlanet": "Боннасіс",
+  "PToStar": "Проціон",
+  "Start": "Старт"
 }
