@@ -1,0 +1,82 @@
+{
+  "Camouflage": {},
+  "Dematerial": {
+    "GalaxyNews": "Attention all rangers!<br>The Kelleroid Department of the network of research stations has concluded its latest project. Our research has resulted in a special unit called the <clr>Dematerializer<clrEnd>. All rangers who have assisted in the research are advised to head to the nearest research station for additional details and to procure the actual unit. The purchase price will hinge on your contributions to the cause of science!",
+    "Name": "Dematerializer",
+    "Text": "Renders all kelleroids in the immediate vicinity unable to materialize and teleport."
+  },
+  "Disconnection": {
+    "AddToShipInfo": "Shutdown",
+    "Name": "System shutdown",
+    "Text": [
+      "All robot data is deleted. The dominator shuts down, unable to respond to any signals.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "Energotron": {
+    "GalaxyNews": "Attention all rangers!<br>The Terronoid Department of the network of research stations has concluded its latest project. They have developed a unique technology for converting energy into matter -- the <clr>Energotron<clrEnd>. All rangers who have assisted in the research are advised to head to the nearest research station for additional details. The purchase price will hinge on your contributions to the cause of science!",
+    "Name": "Energotron",
+    "Text": "Program development model for converting energy into matter. Is of special interest for terronoids."
+  },
+  "Insanity": {
+    "AddToShipInfo": "System overload",
+    "Name": "Gatrix matrix",
+    "Text": [
+      "A giant matrix of chaotic data overloads the robot's electronic circuits with a torrent of information, forcing the target to fly and shoot aimlessly.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "Intercom": {
+    "Name": "Intercom",
+    "Text": [
+      "Once uploaded to the onboard computer, the program is able to decode dominator speech. With most dominators, you must first break through the defensive field with a scanner.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "KellerCall": {
+    "Name": "iKeller",
+    "Text": "A program received from Keller, containing kelleroid communication protocols. Marks the site where priority research is conducted."
+  },
+  "LogicalNegation": {
+    "GalaxyNews": "Attention all rangers!<br>The Blazeroid Department of the network of research stations has concluded its latest project. They have created a <clr>Counteraction<clrEnd> program module. All rangers who have actively assisted in the research of dominator technologies are expected at the nearest research station. There you will be able to get the complete information and purchase the module. The purchase price will hinge on your contributions to the cause of science!",
+    "Name": "Counteraction",
+    "Text": "A program of logical negation, designed to establish contact with the blazeroid command center."
+  },
+  "Reprogramming": {},
+  "SabCrack": {
+    "Name": "Submodem",
+    "Text": "Opens up the test subject's brain for data upload, while granting access to transmitting side systems."
+  },
+  "SelfDestruction": {
+    "AddToShipInfo": "Command Zero",
+    "Name": "Absolute weapon",
+    "Text": [
+      "Level zero command self-destruct. Cannot be resisted by dominators.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "Shipwreck": {
+    "AddToShipInfo": "Distress signal",
+    "Name": "Distress signal",
+    "Text": [
+      "Upon receiving a distress signal, the dominator will dump some of its equipment and weapons.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "Shock": {
+    "AddToShipInfo": "Electromagnetic shock",
+    "Name": "Shocker-5300",
+    "Text": [
+      "The program disrupts the function of electronic circuits, complicating navigation and impairing the robot's speed and accuracy.",
+      "Number of runs: <Count>."
+    ]
+  },
+  "WeaponBlocking": {
+    "AddToShipInfo": "Weapon blockage",
+    "Name": "W-Coder",
+    "Text": [
+      "A universal codec for hacking and changing passwords of weapon systems. The targeted dominator will require time to restore the data.",
+      "Number of runs: <Count>."
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-Warning ^{
-    AutoSaveFailed=<clr>Warning!<clrEnd> Autosave failed.<br>The most likely causes are insufficient memory and/or corrupt game data.
-    LowPhysicalMemory=<clr>Warning!<clrEnd> There is less than 100 MB of memory available.<br>To avoid data loss, we recommend that you save your game and restart the application.
-    LowVirtualMemory=<clr>Warning!<clrEnd> There is less than 100 MB of virtual memory available.<br>To avoid data loss, we recommend that you save your game and restart the application.
-    QuickSaveFailed=<clr>Warning!<clrEnd> Quick save failed.<br>The most likely causes are insufficient memory and/or corrupt game data.
-    TurnSaveFailed=<clr>Warning!<clrEnd> Turn save failed.<br>The most likely causes are insufficient memory and/or corrupt game data.
-    WeRunOnWine=<clr>Warning!<clrEnd><br> <br>It appears that you are running the game using Wine or Proton,<br>which allows Windows apps to run on Linux and MacOS.<br> <br>While we're fairly sure that the game will work as intended, <br>such configuration is not officially supported.<br> <br>Depending on Wine or Proton version,<br>some things might be automatically tweaked:<br> <br>- hardware graphics rendering mode might be turned off<br>(can be enabled via <clr>AllowHardwareRenderUnderWine=True<clrEnd> in <clr>cfg.txt<clrEnd>)<br> <br>- save game file names will be transcribed <br> from any national language to English<br> <br>- search functionality of the infocenter <br>might not be working properly.<br> <br>Please visit <clr>https://www.protondb.com/app/214730<clrEnd><br>to find the solutions to other issues not mentioned here.
-    XonarDetected=Asus Xonar soundcard was discovered in your system. It may cause bugs and failures to the game. Please read the "Known compatibility issues" section of the readme.txt file located in the game installation folder to find a way to remove the problems.
-}

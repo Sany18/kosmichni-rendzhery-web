@@ -1,0 +1,17 @@
+{
+  "00": "0,\t100,\t0,\tBandit",
+  "01": "25,\t75,\t0,\tThug",
+  "02": "50,\t50,\t0,\tCorsair",
+  "03": "75,\t25,\t0,\tDealer",
+  "04": "100,\t0,\t0,\tMagnate",
+  "05": "0,\t75,\t25,\tGangster",
+  "06": "25,\t50,\t25,\tRaider",
+  "07": "50,\t25,\t25,\tHuckster",
+  "08": "75,\t0,\t25,\tHuckster",
+  "09": "0,\t50,\t50,\tMercenary",
+  "10": "20,\t30,\t50,\tMercenary",
+  "11": "50,\t0,\t50,\tMercenary",
+  "12": "0,\t25,\t75,\tWarrior",
+  "13": "25,\t0,\t75,\tWarrior",
+  "14": "0,\t0,\t100,\tHero"
+}

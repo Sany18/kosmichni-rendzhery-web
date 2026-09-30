@@ -1,0 +1,3495 @@
+{
+  "0": {
+    "FlyType": "Any",
+    "Relations": "Bad,Normal,Good",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Мне конкретно надоело видеть ваши противные рожи. Худосочные инопланетные морды неестественных цветов. А цвет морды, к твоему сведению, <Player>, у настоящего рейнджера должен быть красный, как у меня! Так что когда разговариваешь со мной, рожу-то потри, чтобы кровь в башке прилила."
+  },
+  "1": {
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Relations": "War,Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Несмотря на то, что отношения между нами паршивые, я вынужден признать, что доминаторы еще хуже, чем ты, <Player>. Давай вначале с ними разберемся, а потом уже между собой будем выяснять отношения."
+  },
+  "10": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "PlayerRating": "Mini",
+    "PlayerStrength": "Mini,Small,Average",
+    "Priority": "1",
+    "Relations": "Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Привет, друг! Знаю, что ты в таблице рейнджеров в самом отстойнике, и выражаю по этому поводу свои соболезнования. Ты главное напрягись, купи крутую пушку и лети мочить доминаторов. У тебя, <Player>, все получится!"
+  },
+  "100": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Medicine",
+    "PlayerStatus": "Pirate",
+    "Priority": "50",
+    "Relations": "Bad,Normal",
+    "ShipGoodsTypeCnt": "3,4,5",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport",
+    "Text": [
+      "Транспортное судно <Ship> на связи.",
+      "В данный момент я везу медикаменты и другие товары на планету <ToPlanet>. Я знаю, что ты, <Player>, промышляешь пиратством. Поэтому не поделюсь с тобой важной экономической информацией!"
+    ],
+    "ToPlanetIsHomePlanet": "No"
+  },
+  "101": {
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Average,Big,Huge",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Я везу большую партию еды на <ToPlanet>. Заказ срочный, прошу меня не задерживать, иначе товар испортится."
+  },
+  "102": {
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Average,Big,Huge",
+    "ShipGoodsTypeCnt": "2,3,4,5",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport",
+    "Text": [
+      "Транспортное судно <Ship> приветствует вас, рейнджер <Player>!",
+      "Мы везем большую партию разных товаров на планету <ToPlanet>. Заказ срочный, очень спешим. Чем можем помочь?"
+    ]
+  },
+  "103": {
+    "FlyType": "ToPlanet",
+    "Goods": "Luxury",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Я спешу на <ToPlanet> с важной дипломатической миссией. Но если ваше дело срочное, то могу посодействовать.",
+      "Кстати, <Player>, я располагаю информацией о том, что на <ToPlanet> завышенные цены на предметы роскоши! Это связано с приходом нового монарха, впрочем, как и моя миссия."
+    ],
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoverment": "Monarchy"
+  },
+  "104": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Luxury",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipHaveGoods": "No",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Liner",
+    "Text": "Как приятно встретить соотечественника в этом далеком космосе, <Player>! Мне приходится возить пассажиров на всякие чужие планеты. Многие хотят посмотреть на живых малоков вблизи. А чего на них смотреть, спрашивается? Всего-то и зрелища - здоровенные красные морды да здоровые кулаки? Кстати, говорят, на <ToPlanet> крайне низкие цены на предметы роскоши. Ихние табуретки идут по <ToPlanetGoodsSale> cr за тонну. Неплохой ведь бизнес?",
+    "ToPlanetGoodsSale": "Mini",
+    "ToPlanetRace": "Maloc",
+    "ToPlanetRaceIsShipRace": "No"
+  },
+  "105": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "4,5,6,7,8",
+    "ShipType": "Transport,Liner,Ranger,Pirate",
+    "Text": "Приветствую, <Player>! Я совершаю посадку на чужеземную планету <ToPlanet> и хочу продать всякий хлам. Мой трюм просто завален бесполезным барахлом, сильно б/у, так сказать. Все, от неисправной техники, до испорченной еды и бесполезных минералов. Интересно, твои соотечественники поведутся? Купят всю эту хрень у меня втридорога?",
+    "ToPlanetRaceIsPlayerRace": "Yes",
+    "ToPlanetRaceIsShipRace": "No"
+  },
+  "106": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Minerals",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Приветствую, <Player>! А ты знаешь, что цены на минералы на планете <ToPlanet> очень и очень высокие? Я советую тебе срочно сбить какой-нибудь астероид или развести какого-нибудь простачка на минеральчики. Хорошие денежки ждут тебя!",
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "107": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Pirate",
+    "Text": "Приветствую, <Player>! На планете <ToPlanet>, как известно, еду практически не выращивают. Чисто индустриальная планета. Я планирую продать продовольствие и набить трюмы всякими техническими товарами. И ты тоже не тормози! Подключайся!",
+    "ToPlanetEconomy": "Industrial",
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "108": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToPlanet",
+    "Goods": "Medicine",
+    "PlayerRank": "Rookie,Cadet",
+    "PlayerRating": "Mini,Small",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipHaveGoods": "No",
+    "ShipType": "Transport,Liner",
+    "Text": [
+      "Эй, <Player>, чего такой кислый? Выше нос, у тебя только начало карьеры, все победы еще впереди! Станешь еще лучшим рейнджером.",
+      "Я сейчас иду на планету <ToPlanet> за товаром. У них там опять кризис перепроизводства, поэтому жутко дешевые медикаменты и всякие технические изделия."
+    ],
+    "ToPlanetEconomy": "Mixed,Industrial",
+    "ToPlanetGoodsCnt": "Average,Big,Huge",
+    "ToPlanetGoodsSale": "Mini,Small"
+  },
+  "109": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Arms",
+    "PlayerRank": "Rookie,Cadet",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Дипломатическое судно <Ship> приветствует тебя, <Player>! Знаю, что ты еще новичок на просторах вселенной, о чем красноречиво говорит твое звание <PlayerRank>. Выше нос, у тебя все еще впереди!",
+      "Кстати, если нужна партия оружия, то рекомендую планету <ToPlanet>. После последнего государственного переворота там бросовые цены."
+    ],
+    "ToPlanetGoodsSale": "Mini,Small",
+    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy"
+  },
+  "11": {
+    "FlyType": "Any",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "PlayerRating": "Mini,Small",
+    "PlayerStatus": "Trader,Warrior",
+    "Relations": "Bad,Normal,Good",
+    "ShipRace": "Peleng",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStatus": "Pirate",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
+    "Text": "Привет тебе, малорукое существо по имени <Player>. Рейнджер из тебя пока никудышный, торговец тоже. Ты займись делом, всякими грабежами и убийствами. Вот тогда быстро станешь уважаемым членом общества. Я знаю, что говорю!"
+  },
+  "110": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc",
+    "LastPlanetRaceIsPlayerRace": "No",
+    "Priority": "40",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Liner",
+    "Text": [
+      "Наш лайнер <Ship> недавно совершал посадку на планету <LastPlanet> в системе <LastPlanetStar>. Надо сказать, что природа у них там очень даже ничего. Но аскетизм малоков нас искренне потряс! Как можно в наши-то дни ходить в деревянные сортиры?",
+      "Вы меня простите, <Player>, но ведь на наших планетах этого уже нигде не найдешь. Мечтаю поскорее вернуться домой, на планету <HomePlanet>, и отделаться от этих мерзопакостных впечатлений."
+    ],
+    "ToPlanetIsHomePlanet": "Yes"
+  },
+  "111": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Minerals",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipRace": "Maloc,Peleng,People,Fei",
+    "ShipType": "Transport,Liner",
+    "Text": "Приветствую, <Player>! Я планирую совершить посадку на планету <ToPlanet>. Слышал, что там в цене минералы и другие полезные ископаемые, а мои трюмы как раз забиты этой дрянью. Надеюсь все продать.",
+    "ToPlanetGoodsBuy": "Average,Big,Huge"
+  },
+  "112": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Technics",
+    "PlayerGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "PlayerHaveGoods": "Yes",
+    "Priority": "50",
+    "Relations": "Bad",
+    "ShipMayScanPlayer": "Yes",
+    "ShipRace": "Peleng,People",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Я так уважаю тебя, <Player>, что хочу поделиться с тобой маленькой тайной. На планете <ToPlanet> сейчас идет сбор урожая.",
+      "Ты можешь получить кучу денег, если доставишь им туда технику. Знаю, у тебя сейчас трюмы всяким хламом забиты, так лети и продай все! Неужто ты думаешь, что я могу обмануть?"
+    ],
+    "ToPlanetEconomy": "Industrial",
+    "ToPlanetGoodsSale": "Mini,Small"
+  },
+  "113": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Приветствую, <Player>! Мой корабль совершает посадку на планету <ToPlanet>. Груз в трюме представляет собой продовольственные товары, купленные на планете <LastPlanet> системы <LastPlanetStar> по цене <LastPlanetGoodsSale> cr за единицу."
+  },
+  "114": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Narcotics",
+    "Priority": "50",
+    "Relations": "Bad,Normal,Good",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Мне конкретно надоело видеть ваши противные рожи, ваши худосочные инопланетные морды! То ли дело мы, малоки. Взять, к примеру, наши зубы! Они способны перегрызть стальной прут! А ты, <Player>, сможешь отгрызть себе руку своей хамкалкой?",
+      "Лечу я на планету <ToPlanet> из чувства протеста. Хочу морды всем иноземцам бить, ну и заодно наркоту сбыть. Цены, говорят, там завышены - таможня свирепствует. А я ничего не боюсь, мне все пофигу!"
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge",
+    "ToPlanetRaceIsShipRace": "No"
+  },
+  "115": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Alcohol",
+    "Relations": "Bad,Normal",
+    "ShipGoodsCnt": "Average,Big,Huge",
+    "ShipRace": "People",
+    "ShipStructure": "Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Слуш-шай, п-почему когда я, ик, набиваю полный трюм первоклас-с-сной выпивкой, до пункта назнач-чения, ик, т-только половина полными долетает? А вт-торая, ик, половина бутылок - пустые? А?",
+    "ToPlanetGoodsBuy": "Average,Big,Huge"
+  },
+  "116": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Alcohol",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Mini,Small",
+    "ShipGoodsTypeCnt": "1,2,3",
+    "ShipRace": "Peleng,People",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Э-э, <Player>, сегодня вообще-то какое число? Куда мы вообще-то летим? Я курс проложил на планету <ToPlanet>, но что-то не помню, зачем...",
+      "Ах, вспомнил! Везу я немного сухого вина, чтоб выгода в деле была!",
+      "Осталось ли в трюме, не помню уже, с похмелья болит  голова."
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge"
+  },
+  "117": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Minerals",
+    "PlayerStructure": "Mini,Small",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipRace": "Maloc,Peleng,People",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Ты пойми меня правильно, <Player>, но твой корабль сильно поврежден. Тебе, друг, быстрей чиниться надо. Давай со мной на <ToPlanet> садись. Там твой корабль залатают, будешь как новенький.",
+      "Заодно и минеральчиков купишь. Планета-то не промышленная, она минералы экспортирует! По дешевке приобретешь несколько контейнеров. А потом к гаальцам или фэянам рванешь. Они за такой товар хорошо заплатят. Дело говорю!"
+    ],
+    "ToPlanetEconomy": "Agriculture",
+    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "ToPlanetGoodsSale": "Mini,Small"
+  },
+  "118": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "PlayerStructure": "Mini,Small,Average",
+    "Priority": "50",
+    "Relations": "Bad,Normal,Good",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Слушай, <Player>, наши корабли сильно повреждены. Предлагаю слетать на <ToPlanet> и починиться. А уж потом каждый за себя."
+  },
+  "119": {
+    "FlyType": "ToPlanet",
+    "PlayerStructure": "Average,Big,Huge",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipStructure": "Mini,Small",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Ты пойми меня правильно, <Player>...",
+      "Тебе хорошо, твой корабль в отличном состоянии. А посмотри на мое корыто. Оно все в дырках. Проклятые пираты! Я сейчас могу думать только о посадке и починке. Мне не до разговоров."
+    ]
+  },
+  "12": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "PlayerRating": "Mini,Small",
+    "PlayerStatus": "Trader,Pirate",
+    "Relations": "Bad,Normal,Good",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStatus": "Pirate,Warrior",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
+    "Text": [
+      "И как только таких недоносков в рейнджеры записывают, а, <Player>? Настоящими рейнджерами могут стать только малоки, а остальные просто халявщики. Только малок знает, какова цена чужой жизни...",
+      "Так вот, чужая жизнь бесценна - то есть грош ломаный ей цена. И только с этой философией можно разгромить доминаторов. Тебе, чужак, этого никогда не понять."
+    ]
+  },
+  "120": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "InFear": "Yes",
+    "Priority": "50",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipStructure": "Mini,Small,Average,Big",
+    "ShipTurnBeforeEndOrder": "1,2,3,4",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Опасность, враги повсюду! Что делать? Надо срочно совершить посадку на ближайшую планету <ToPlanet>.",
+      "И тебе, <Player>, советую последовать моему примеру! Тут не до разговоров. Я же не малок, у меня самообладание не железное!"
+    ]
+  },
+  "121": {
+    "FlyType": "ToPlanet",
+    "InFear": "Yes",
+    "Priority": "100",
+    "Relations": "Bad,Normal,Good",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStructure": "Mini,Small,Average,Big",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Опасность, враги повсюду! Но малокские корабли никогда не отступают! Лишь изредка нам приходится совершать посадки на планеты, чтобы заправиться и пожрать. Сейчас как раз именно такой случай, а потом я всем покажу.",
+      "Ты чего ухмыляешься, <Player>? Смотри, а то ведь я твою рожу голыми руками на дюзу натянуть могу. Мы, малоки, не любим, когда над нами смеются."
+    ]
+  },
+  "122": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Alcohol",
+    "InFear": "Yes",
+    "PlayerRace": "Peleng,People,Fei,Gaal",
+    "Priority": "100",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadRace": "Maloc",
+    "ShipBadType": "Transport,Liner,Diplomat,Pirate,Warrior",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "SOS, SOS, на моем хвосте сидит малок! Этот тупой дикарь где-то раздобыл неплохое, надо признать, вооружение, и теперь удовлетворяет свои первобытные инстинкты, сидя за штурвалом звездолета <ShipBad> и используя меня в качестве объекта агрессии!",
+      "Помоги мне, <Player>, отгони от меня этого монстра, а я поделюсь ценной информацией! На <ToPlanet> очень дешевая водочка. Товар для бизнеса просто идеальный. Быстро состояние сколотишь!"
+    ],
+    "ToPlanetGoodsSale": "Mini,Small"
+  },
+  "123": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "InFear": "Yes",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Pirate",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "SOS, SOS, на моем хвосте пират! Пытаюсь уйти от преследования звездолета <ShipBad>!",
+      "Помоги мне, <Player>, прогони пирата, а я поделюсь ценной информацией! На <ToPlanet> очень дешевые апельсины. Товар для бизнеса просто идеальный. Стоит копейки!"
+    ],
+    "ToPlanetGoodsSale": "Mini,Small"
+  },
+  "124": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Arms",
+    "InFear": "Yes",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Ranger,Pirate",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Я вез партию стрелкового оружия на планету <ToPlanet>. Никого не трогал. Тут этот хрен, <FullShipBad>, сел мне на хвост и требует, чтобы я выкинул свой груз.",
+      "Ты, <Player>, парень не промах, должен понять, что если ты отгонишь этого наглеца, то сможешь сам оружие на <ToPlanet> возить. А цены там офигенные, надо сказать. Вроде как там государственный переворот намечается."
+    ],
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "125": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Medicine",
+    "InFear": "Any",
+    "Priority": "100",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Ranger,Pirate",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Я мирно вез партию медикаментов, и тут этот мерзавец, <FullShipBad>, сел мне на хвост с требованием выкинуть груз! А я не могу так поступить, я везу редкие лекарства бедным детишкам.",
+      "Ты, <Player>, еще новичок, и законов совсем не знаешь, но должен понимать, что мне ты помочь обязан. Если расправишься с наглецом, то сможешь сам медикаменты на <ToPlanet> возить. А это тебе не наркотой промышлять, бизнес самый законный и очень доходный."
+    ],
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "126": {
+    "AutoTalk": "No",
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "100",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Доминатор преследует меня. Эта тварь, <FullShipBad>, сидит у меня на хвосте. Пытаюсь зайти на посадку на <ToPlanet>. На разговоры нет времени."
+  },
+  "127": {
+    "AutoTalk": "No",
+    "FlyType": "ToPlanet",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>!",
+      "Я следую на планету <ToPlanet>. Ты обращаешься по делу, или просто поболтать? В последнем случае ничем не могу помочь."
+    ]
+  },
+  "128": {
+    "FlyType": "ToPlanet",
+    "Relations": "Normal,Good,Best",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>! Я всегда рад видеть соотечественника!",
+      "Ты обращаешься по делу, или просто поболтать? Я вообще-то пытаюсь рассчитать траекторию посадки на <ToPlanet>, и не могу отвлекаться."
+    ]
+  },
+  "129": {
+    "FlyType": "ToPlanet",
+    "Goods": "Minerals",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>! Чем могу помочь, дружище?",
+      "В данный момент я намереваюсь совершить посадку на планете <ToPlanet> и, по возможности, сбыть партию минералов."
+    ]
+  },
+  "13": {
+    "FlyType": "Any",
+    "Priority": "10",
+    "RangerInCurStar": "5,6,7,8,9,Many",
+    "Relations": "Bad,Normal",
+    "ShipMayScanPlayer": "No",
+    "ShipStatus": "Pirate,Warrior",
+    "ShipStructure": "Huge",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "У-у... Развелось тут рейнджеров как собак нерезаных. Пора отстреливать. Тебе чего надо, дохлячок?",
+      "Если у тебя на борту есть ценный груз, то выкидывай. Это моя территория, да и на полегчавшем корабле у тебя будет больше шансов удрать."
+    ]
+  },
+  "130": {
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>! Как дела?",
+      "Я сейчас сяду на <ToPlanet> и попробую продать все продовольствие, что везу."
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge"
+  },
+  "131": {
+    "FlyType": "ToPlanet",
+    "Goods": "Technics",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Привет, <Player>! Интересно, мне удастся продать на планете <ToPlanet> все контейнеры с техникой? По идее да, ведь это не промышленная планета, насколько я знаю.",
+    "ToPlanetEconomy": "Agriculture,Mixed",
+    "ToPlanetGoodsBuy": "Average,Big,Huge"
+  },
+  "132": {
+    "FlyType": "ToPlanet",
+    "Goods": "Arms",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "1",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>! Видишь, я везу партию оружия на планету <ToPlanet>.",
+      "Заказчики ждут, так что ты меня не отвлекай почем зря. Правительство там совсем не демократичное. Оружие всегда в цене."
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge",
+    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy"
+  },
+  "133": {
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Ranger,Pirate",
+    "ShipStructure": "Mini,Small,Average,Big",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Пытаюсь уйти от пирата <ShipBad> на планету <ToPlanet>. Извини меня, <Player>, но на разговоры у меня совсем нет времени. Вот починю свое корыто, поставлю крутую пушку - тогда и поговорим."
+  },
+  "134": {
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipRace": "Any",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Warrior",
+    "Text": [
+      "Эх, <Player>. Я подбит и получил приказ на посадку. К сожалению, не могу ослушаться приказа командования, а то бы еще показал этому корыту <FullShipBad>.",
+      "Ничего, меня сейчас подлатают на планете <ToPlanet>, и я вновь вступлю в бой. Честь превыше всего!"
+    ],
+    "ToPlanetIsLastPlanet": "Any"
+  },
+  "135": {
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "3",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipRace": "Maloc",
+    "ShipStructure": "Mini",
+    "ShipTurnBeforeEndOrder": "4,5,6,7,8,9,Far",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Эх, <Player>, ну и досталось же мне! Компьютер закончил тестирование систем, и что-то говорит о какой-то \"разгерметизации\". Может, знаешь, что это такое?",
+      "Черт, как дышать тяжело. Слышишь этот резкий свист? Кажется, я уже понял, что означает это слово. Надеюсь, мне удастся дотянуть до планеты <ToPlanet> и совершить посадку. А пока слушай совет бывалого малока: \"Не ленись читать инструкцию, пилот, дольше проживешь!\""
+    ],
+    "ToPlanetIsLastPlanet": "Any"
+  },
+  "136": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "3",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipRace": "People",
+    "ShipStructure": "Mini,Small",
+    "ShipTurnBeforeEndOrder": "4,5,6,7,8,9,Far",
+    "ShipType": "Liner",
+    "Text": [
+      "SOS! SOS! <Player>, примите сигнал бедствия! ...Это будет невероятная удача, если мне удастся дотянуть до планеты <ToPlanet>.",
+      "Говорят, как вы судно назовете, так оно и поплывет... Когда я купил этот корабль, он назывался \"Титаник-2\". Похоже, смена названия на <Ship> мне не очень помогла, а, <Player>?"
+    ],
+    "ToPlanetIsLastPlanet": "Any"
+  },
+  "137": {
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "Priority": "5",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipRace": "Peleng,People",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Я спешу на <ToPlanet>, <Player>. Скоро там начнется концерт известного поп-певца, Фила Фарюка, и у меня есть билет в первый ряд.",
+      "Нет, ха-ха, я вовсе не большой поклонник его творчества - даже совсем наоборот. Как и подавляющее большинство жителей планеты <ToPlanet>. Из первого ряда проще будет добросить до сцены... Не зря ведь у меня трюм забит первоклассными фарюками. И сам душу отведу, и кучу денег заработаю - тухлые фрукты в эти дни будут нарасхват."
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge",
+    "ToPlanetRace": "Peleng,People,Gaal"
+  },
+  "138": {
+    "FlyType": "ToPlanet",
+    "Goods": "Narcotics",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipRace": "Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Вы даже не подозреваете, рейнджер, как вседозволенность способствует процветанию бизнеса. Взять, к примеру, планету <ToPlanet>. Совсем недавно там возникло новое направление в искусстве - наркопись. Обкурившиеся художники создают необычайные композиции, пользующиеся большим спросом. Естественно, что цены на галлюциногенные препараты подскочили.",
+      "Мы, гаальцы, должны способствовать духовному процветанию всех рас, поэтому я везу на планету <ToPlanet> партию сильнодействующих препаратов, для поддержания вдохновения художников-новаторов. Ведь искусство способствует духовному познанию мира, пробуждает стремление к совершенству. Жаль, что не все чиновники развитых планет это понимают, большинство из них всячески препятствуют развитию творческого потенциала своей нации!"
+    ],
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoverment": "Monarchy,Republic,Democracy",
+    "ToPlanetRaceIsShipRace": "No"
+  },
+  "139": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "InFear": "Any",
+    "Priority": "10",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Ranger,Pirate,Warrior",
+    "Text": "Твое счастье, <Player>, что мой корабль поврежден, и я захожу на посадку. Но ничего - на планете <ToPlanet> меня подлатают, и я тебя еще достану - попомни мои слова."
+  },
+  "14": {
+    "FlyType": "Any",
+    "Goods": "Medicine",
+    "LastPlanetDistToShipInTurn": "1,2,3",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerStatus": "Trader",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Привет, <Player>! Как твой бизнес? Если ты узнал, что на <LastPlanet> есть дешевые медикаменты, то опоздал! Я ими набил полный трюм и надеюсь хорошенько подзаработать. Ха-ха, всего по <LastPlanetGoodsSale> cr!"
+  },
+  "140": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Priority": "5",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "Peleng",
+    "ShipStructure": "Mini,Small",
+    "Text": "Эх, как красиво свистит воздух, выходя через пробоину в корпусе - очень похоже на свист, которым самцы рагобамских жаб завлекают своих самок. Знаешь, <Player>, наверное, когда буду чиниться на планете <ToPlanet>, то попрошу оставить одну свистящую пробоину в корпусе. Пусть она будет своим пением напоминать мне о родном доме, планете <HomePlanet>.",
+    "ToPlanetIsHomePlanet": "No"
+  },
+  "141": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Medicine",
+    "LastPlanetGoodsCnt": "Average,Big,Huge",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetRace": "Any",
+    "Priority": "30",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "ShipType": "Transport,Liner",
+    "Text": "Приветствую, <Player>! По дружбе могу подсказать тебе очень выгодный торговый маршрут, которым и сам пользуюсь порой. Лети на планету <LastPlanet> и затарься там медикаментами, цена которых сейчас составляет всего лишь <LastPlanetGoodsSale> cr за тонну. Их там полно сейчас! Ну а сбыть все это можно здесь, на планете <ToPlanet>. И, между прочим, по более чем приличным расценкам.",
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "142": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Technics",
+    "LastPlanetGoodsCnt": "Average,Big,Huge",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetRace": "Any",
+    "Priority": "30",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipType": "Transport,Liner",
+    "Text": "Удачной торговли, <Player>! И как раз в этом я могу тебе помочь, подсказать неплохой торговый маршрут. На планете <LastPlanet> кризис перепроизводства, горы техники уходят почти за бесценок, максимум <LastPlanetGoodsSale> cr за контейнер. Ну а на планете <ToPlanet>, куда я, кстати, лечу, продать все это можно значительно дороже, и получить неплохую прибыль. А то зачем тогда столько техники у меня в трюме?",
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "143": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Luxury",
+    "LastPlanetGoodsCnt": "Average,Big,Huge",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetRace": "Peleng,People,Fei,Gaal",
+    "PlayerStatus": "Trader",
+    "Priority": "30",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipType": "Transport",
+    "Text": "Привет, собрат по ремеслу, как торговля нынче? Лично я, <Player>, предпочитаю делать бизнес на роскоши. Покупаю крупную партию на планете <LastPlanet> по бросовым ценам - всего <LastPlanetGoodsSale> cr за контейнер, а потом сбываю этот товар на планете <ToPlanet> по <ToPlanetGoodsBuy>. Это очень выгодно, присоединяйся!",
+    "ToPlanetGoodsBuy": "Big,Huge"
+  },
+  "144": {
+    "AutoTalk": "Yes",
+    "FlyType": "ToPlanet",
+    "Goods": "Technics",
+    "Priority": "5",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport,Diplomat,Ranger",
+    "Text": [
+      "Хагрр-р, привет, <Player>! Ты тоже летишь на планету <ToPlanet>, на ежегодную выставку макроизделий? Говорят, там будет выставляться малокская новинка - гигантский червяк-робот!",
+      "Так я заодно и немного техники прихватил, чтобы сбыть ее, пока ажиотаж вокруг технических новинок, вызванный выставкой, не угас."
+    ],
+    "ToPlanetGoodsBuy": "Average,Big,Huge",
+    "ToPlanetRace": "Maloc"
+  },
+  "145": {
+    "AutoTalk": "Any",
+    "FlyType": "ToPlanet",
+    "Goods": "Food",
+    "LastPlanetRace": "Peleng",
+    "PlayerStatus": "Pirate",
+    "Priority": "5",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Mini,Small,Average,Big",
+    "ShipRace": "Peleng",
+    "ShipStatus": "Pirate",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Ашш-ш... Приветсс-ствую, <Player>! А я вот решш-шил завязать с разбоем и заняться частным извозом. Везу на планету <ToPlanet> болотную похлебку для церемонии перемужания... Заодно собираюсь сбыть свою партию жратвы - наверняка перед праздником цены на нее поднимутсс-ся.",
+    "ToPlanetGoodsBuy": "Average,Big,Huge",
+    "ToPlanetRace": "Peleng"
+  },
+  "146": {
+    "AutoTalk": "Yes",
+    "FlyType": "ToPlanet",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "People",
+    "PlayerRace": "Peleng,People,Fei,Gaal",
+    "Priority": "2",
+    "Relations": "Good,Best",
+    "ShipRace": "People",
+    "ShipType": "Ranger",
+    "Text": "Нет, ну ты прикинь, <Player> - я везу на планету <ToPlanet> головоломку, подарок для тамошнего правителя, который просто помешан на таких штучках. Самое удивительное это то, что планета малокская! Эти громилы мохнатые, оказывается, не такие и тупые, как считается - я сам уже восьмой день над этой головоломкой без толку бьюсь.",
+    "ToPlanetGoverment": "Dictatorship,Monarchy",
+    "ToPlanetRace": "Maloc"
+  },
+  "147": {
+    "AutoTalk": "Yes",
+    "FlyType": "ToPlanet",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "People",
+    "Priority": "2",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "People",
+    "ShipStatus": "Trader",
+    "ShipType": "Ranger",
+    "Text": [
+      "Приветствую, дружище <Player>! Как твои дела? А я вот лечу на планету <ToPlanet>, везу фэянам на экспертизу редкий минерал дизодан, найденный нашими умниками в обломках астероида.",
+      "Ха! Наши ученые просто побоялись заниматься им сами - говорят, что он на психику влияет. Нет, ты слыхал когда-нибудь подобную чушь? Приветствую, дружище <Player>... Думаю, они просто не хотели признаваться в собственном бессилии. Приветствую, дружище <Player>.",
+      "Приветствую, дружище <Player>... Приветствую, дружище <Player>..."
+    ],
+    "ToPlanetRace": "Fei"
+  },
+  "148": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToPlanet",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc,Peleng,People",
+    "Priority": "2",
+    "Relations": "Good,Best",
+    "ShipRace": "Peleng",
+    "ShipType": "Diplomat,Ranger,Pirate",
+    "Text": [
+      "Ох, <Player>, и дос-с-стали же меня эти с-спецслужбы! Загоняли уже совсем со своими секретными заданиями - \"отвези туда, отвези сюда\"... Я уже пятнадцатое посс-сланьице везу, на этот раз на планетку <ToPlanet>...",
+      "Если бы не обещанные денежки, давно бы плюнул на них, тьфу, и бросил это дело!",
+      "А вот на ковер я зря плюнул - нет у меня больше роскошного халанусского ковра ручной работы, слюной разъело... Это все от приема стимуляторов гадских!"
+    ],
+    "ToPlanetRace": "Peleng"
+  },
+  "15": {
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "LastPlanetDistToShipInTurn": "1,2,3,4",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRaceIsShipRace": "No",
+    "PlayerRank": "Rookie,Cadet",
+    "PlayerRating": "Mini",
+    "Priority": "1",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc,Peleng",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Привет, <Player>! Как там жизнь? Знаю, что ты пока никудышный рейнджер, но считаю, что все у тебя еще впереди.",
+      "Я вот только что побывал на <LastPlanet> c важной дипломатической миссией и могу заметить, что переговоры прошли не очень удачно. Ну да ладно."
+    ]
+  },
+  "16": {
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "LastPlanetDistToShipInTurn": "1,2,3,4",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRaceIsShipRace": "No",
+    "PlayerRank": "Rookie,Cadet",
+    "PlayerRating": "Mini",
+    "Priority": "1",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "People,Fei,Gaal",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Привет, <Player>! Как успехи? Знаю, что ты слабоват в рейтинге, но зато у тебя есть куда расти, к чему стремиться. Это хорошо, когда есть цель в жизни.",
+      "Я вот только что побывал на <LastPlanet> c дипломатической миссией и, надо сказать, я добился определенных успехов! Наши народы теперь будут более дружны. Ну да ладно, тебя это вряд ли интересует."
+    ]
+  },
+  "17": {
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "LastPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Relations": "Good,Best",
+    "ShipGoodsCnt": "Mini,Small,Average",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Привет, <Player>! Ты, наверное, просканировал мой корабль, и знаешь, что на моем борту наркотики.",
+      "Ты не подумай, я не контрабандист. Просто попросил друг из посольства привезти немного всякой дряни. А на <LastPlanet> наркоты всегда навалом. Так что лети и отоваривайся побыстрее!"
+    ]
+  },
+  "18": {
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "PlayerStatus": "Trader,Warrior",
+    "Relations": "Bad,Normal",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "Peleng,People",
+    "ShipType": "Diplomat",
+    "Text": "Вы связались с дипломатическим кораблем <Ship>. Если вас интересует мой груз, то сообщаю, что наркотиков у меня на борту нет и не было. Я везу груз сильнодействующих медикаментов, и все документы на провозимые товары имеются. Будут еще вопросы, или мне можно лететь?"
+  },
+  "19": {
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerStatus": "Pirate",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "Peleng,People",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Вы связались с дипломатическим кораблем <Ship>. Если вас интересует наш груз, то сообщаю, что наркотиков у нас на борту нет и не было. Все документы на провозимые товары имеются. Будут еще вопросы, или мне можно лететь?",
+      "Да ты, <Player>, не контрабандист ли случайно? Тогда другой разговор. Могу порекомендовать планету <LastPlanet> как наилучшее место для покупки травки. Так что лети, отоваривайся, брат!"
+    ]
+  },
+  "2": {
+    "FlyType": "Any",
+    "PlayerIsShipBad": "No",
+    "Relations": "War,Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "С тобой я разделаюсь позже, <Player>. Сейчас у меня другой враг имеется."
+  },
+  "20": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Luxury",
+    "PlayerHaveGoods": "Yes",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good",
+    "ShipHaveGoods": "No",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Я, высокопоставленный малокский дипломат, ясно вижу по твоей иноземной роже, что ты имеешь на борту запрещенный товар! :-(",
+      "Разве ты не знаешь, что предметы роскоши не меньше, чем наркотики разлагают нашу молодежь?!! Вы, инопланетяне чертовы, ничего не понимаете в малокских традициях! Рекомендую тебе, <Player>, избавиться от страшного груза, пока ты не попался малокскому патрулю."
+    ]
+  },
+  "200": {
+    "FlyType": "ToStar",
+    "Relations": "Normal,Good,Best",
+    "ShipTurnBeforeEndOrder": "1",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Я скоро совершаю гиперпрыжок в систему <ToStar>, и уже завтра меня здесь не будет. Так что разговор, скорее всего, не состоится."
+  },
+  "201": {
+    "FlyType": "ToStar",
+    "Relations": "Normal,Good,Best",
+    "ShipTurnBeforeEndOrder": "2,3,4",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Говори быстрее, <Player>, я уже готовлюсь прыгать в систему <ToStar>."
+  },
+  "202": {
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipTurnBeforeEndOrder": "2,3,4,5",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Мне не до разговоров, <Player>. Я поврежден!",
+      "Мне надо успеть дотянуть до точки гиперперехода в систему <ToStar>."
+    ]
+  },
+  "203": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "No",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipTurnBeforeEndOrder": "2,3",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "До места гиперперехода осталось совсем немного. Надеюсь, <FullShipBad> меня не достанет, и я успею прыгнуть в систему <ToStar>."
+  },
+  "204": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "Priority": "50",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipStructure": "Average,Big,Huge",
+    "ShipTurnBeforeEndOrder": "1",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Ты меня уже не достанешь, <Player>! Встретимся в системе <ToStar>. Там и поговорим!"
+  },
+  "205": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "PlayerStatus": "Pirate",
+    "Priority": "100",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "StrengthShipWithPlayer": "Mini,Small,Average",
+    "Text": [
+      "Ты грязная собака, рейнджер <Player>! Отстань от меня, пожалуйста. Я готов покинуть эту систему!",
+      "Я буду жаловаться, и ты еще пожалеешь, что связался со мной! Думаешь, что пирату все сойдет с рук?"
+    ]
+  },
+  "206": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "PlayerStatus": "Pirate",
+    "Priority": "50",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipStatus": "Trader,Warrior",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "StrengthShipWithPlayer": "Mini,Small,Average",
+    "Text": "Лети своей дорогой, <Player>, и не вздумай меня преследовать. Если сунешься на расстояние выстрела, то сильно пожалеешь, пиратская морда."
+  },
+  "207": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Priority": "50",
+    "Relations": "War,Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Несмотря на то, что отношения между нами паршивые, я вынужден признать, что доминаторы еще хуже, чем ты, <Player>. Дай мне уйти от <ShipBad>, а уж потом мы встретимся и выясним отношения."
+  },
+  "208": {
+    "FlyType": "ToStar",
+    "Goods": "Food",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
+    "ShipTurnBeforeEndOrder": "6,7,8,9,Far",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Мне нужно в систему <ToStar>. Опять маршрут неудобный, лететь долго.",
+      "Так у меня товары все скоро испортятся, ведь в трюме огромная куча всякого барахла и еды. Уж и не знаю, где это все сбыть."
+    ]
+  },
+  "209": {
+    "FlyType": "ToStar",
+    "HomePlanetInCurStar": "Yes",
+    "HomePlanetInToStar": "No",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
+    "ShipType": "Diplomat",
+    "Text": "Держу курс на систему <ToStar>. Там меня ждут с важной дипломатической миссией от планеты <HomePlanet>."
+  },
+  "21": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Minerals",
+    "LastPlanetEconomy": "Mixed,Industrial",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerHaveGoods": "Yes",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipHaveGoods": "No",
+    "ShipMayScanPlayer": "Yes",
+    "ShipRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStructure": "Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Слушай, <Player>, ты случайно не минералы везешь, а, морда ты иноземная? Если я не ошибаюсь, и твой трюм полон этим добром, то рекомендую планету <LastPlanet>. Я недавно был там и заметил, что их промышленности сейчас очень требуется сырье.",
+      "Благодарности оставь себе. У меня просто хорошее настроение."
+    ]
+  },
+  "210": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Minerals",
+    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipGoodsTypeCnt": "0",
+    "ShipMayScanPlayer": "Yes",
+    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
+    "ShipType": "Transport",
+    "Text": "Я просканировал твой корабль, <Player>, и вижу, что ты раздобыл где-то партию минералов. Мне кажется, что я смогу приобрести партию ископаемых по хорошей цене в системе <ToStar>. А то трюмы совсем пустые, бизнес на нуле!"
+  },
+  "211": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Minerals",
+    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "PlayerGoodsTypeCnt": "1,2",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipGoodsCnt": "Zero",
+    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
+    "ShipMayScanPlayer": "Yes",
+    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
+    "ShipType": "Transport",
+    "Text": "Я просканировал твой корабль, <Player>. Вижу, что ты раздобыл где-то партию минералов и еще чего-то. Но мой ассортимент гораздо богаче твоего будет! В системе <ToStar> я найду кучу покупателей!"
+  },
+  "212": {
+    "FlyType": "ToStar",
+    "Goods": "Minerals",
+    "Relations": "Good,Best",
+    "ShipHaveGoods": "No",
+    "ShipTurnBeforeEndOrder": "7,8,9,Far",
+    "ShipType": "Transport",
+    "Text": [
+      "Мне далековато лететь до точки гиперперехода, и я всегда рад поговорить с тобой, <Player>.",
+      "Сейчас сижу и рассчитываю, сколько минералов мне нужно будет купить в системе <ToStar>, чтобы за раз заработать на апгрейд двигателя."
+    ]
+  },
+  "213": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc,Peleng,People,Fei",
+    "ShipTurnBeforeEndOrder": "7,8,9,Far",
+    "ShipType": "Transport,Liner,Diplomat,Pirate",
+    "Text": "Вот невезение: я, значит, собираюсь прыгать в систему <ToStar>, а точка гиперперехода черт знает где! Неблагодарное дело эти межзвездные перелеты."
+  },
+  "214": {
+    "FlyType": "ToStar",
+    "PlayerRating": "Mini",
+    "Relations": "Good,Best",
+    "ShipRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Diplomat",
+    "Text": "Здорово, <Player>. Я собираюсь навестить приятеля в системе <ToStar>. Заодно решу и некоторые дипломатические проблемы нашего народа. Мы ведь с тобой одной крови!"
+  },
+  "215": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "HomePlanetInToStar": "Yes",
+    "PlayerRace": "Maloc",
+    "PlayerRating": "Mini",
+    "Priority": "30",
+    "Relations": "Bad,Normal",
+    "ShipRace": "Fei",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Слушай, ты, малокская морда по кличке <Player>. Я держу курс на систему <ToStar>. Не вздумай туда лететь, там таких как ты не любят. Это фэянская система."
+  },
+  "216": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "HomePlanetInToStar": "No",
+    "PlayerRating": "Mini",
+    "PlayerStatus": "Trader,Warrior",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Gaal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStatus": "Trader,Warrior",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Приветствую тебя, рейнджер <Player>!",
+      "Знаю, что ты не прославил пока свое имя, но как представитель гаальского народа я восхищаюсь стремлением представителя другого народа спасти нашу галактику от гнета машин. Пусть удача всегда сопутствует всем твоим начинаниям.",
+      "Я же устремлюсь навстречу своей судьбе в систему <ToStar>."
+    ]
+  },
+  "217": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Goods": "Minerals",
+    "HomePlanetInToStar": "Yes",
+    "LastPlanetGoodsBuy": "Big,Huge",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRank": "Rookie,Cadet",
+    "PlayerRating": "Mini",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Эй, выше нос, <Player>! Ты, конечно, пока хлюпик и, наверное, пороху еще не нюхал. :-)",
+      "Надо тебе на крутое оружие денежек собрать и начать выполнять свой долг рейнджера перед обществом.",
+      "Между прочим, на планете <LastPlanet> возник ажиотаж вокруг полезных ископаемых. Тебе настрелять этих астероидов плевое дело, а заработок обещает быть неплохим. Ну а я домой пока полечу, в систему <HomePlanetStar>."
+    ],
+    "ToPlanetEconomy": "Mixed,Industrial"
+  },
+  "218": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Luxury",
+    "HomePlanetInToStar": "Yes",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRaceIsShipRace": "No",
+    "PlayerHaveGoods": "No",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Привет, <Player>! Как жизнь? Я тут собираюсь предметы роскоши свозить домой, в систему <ToStar>. На наших планетах они должны стоить немало, в отличие от этой планеты <LastPlanet>, где я их купил. Кстати, и тебе советую, соверши посадочку и затарься. А потом к нам, милости просим!"
+  },
+  "219": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Luxury",
+    "HomePlanetInToStar": "Yes",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRaceIsShipRace": "No",
+    "PlayerHaveGoods": "No",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Привет, <Player>! Как жизнь? Я тут собираюсь предметы роскоши свозить домой, в систему <ToStar>.",
+      "На наших планетах они должны стоить немало, в отличие от этой планеты <LastPlanet>, где я их купил. Между прочим, там еще порядком осталось, так что спеши затариться. Ну, а где все это сбыть можно, я уже говорил."
+    ]
+  },
+  "22": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Luxury",
+    "PlayerHaveGoods": "Yes",
+    "PlayerRace": "Maloc",
+    "Priority": "20",
+    "Relations": "War,Bad,Normal",
+    "ShipHaveGoods": "Yes",
+    "ShipMayScanPlayer": "Yes",
+    "ShipRace": "Peleng",
+    "ShipType": "Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "Слушай ты, тупая малокская морда по имени <Player>!",
+      "Ты, говорят, занимаешься извозом предметов роскоши? Так вот, это мой бизнес, улавливаешь? Вы, тупые малокские морды, не должны роскошь возить. Для вас это табу, понятно?!!",
+      "Вываливай свой товар и скорей сматывай удочки... Я ясно выражаюсь?"
+    ]
+  },
+  "220": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Food",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Привет, <Player>! Я тут собираюсь партию еды отвезти в систему <ToStar>. Я этого добра на планете <LastPlanet> купил. Стоит копейки. Там чего только не выращивают!"
+  },
+  "221": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Alcohol",
+    "LastPlanetGoodsSale": "Mini,Small,Average",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerHaveGoods": "No",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsCnt": "Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Привет, дружище <Player>! Ну и затарился я этим вином, понимаешь... По самое не хочу!",
+      "Купил я это добро на планете <LastPlanet>. Брать не хотел, но уговорили. Говорят, раз летишь в систему <ToStar>, то надо купить. Там, дескать, цены повыше. Может, оно и так?"
+    ]
+  },
+  "222": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Technics",
+    "LastPlanetEconomy": "Mixed,Industrial",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetGoverment": "Monarchy,Republic,Democracy",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Рад тебя видеть, рейнджер <Player>!",
+      "Не желаешь заработать? Если да, то обрати внимание на планету <LastPlanet>. Эта высокоразвитая планета занимается экспортом технических товаров и импортом продуктов питания. Цена на промышленные товары сейчас там составляет <LastPlanetGoodsSale> cr. Почем они покупают продовольствие не помню, но цена точно высока."
+    ]
+  },
+  "223": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Arms",
+    "LastPlanetGoodsBuy": "Big,Huge",
+    "LastPlanetGoverment": "Anarchy,Dictatorship,Monarchy",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Привет, <Player>! Я совершаю транзитный рейс и сейчас направляюсь в систему <ToStar>.",
+      "Возможно, тебя заинтересует, что на планете <LastPlanet>, где я совершал посадку, недавно был государственный переворот. Цены на вооружение жутко взвинчены, и партию оружия можно сбыть по <LastPlanetGoodsBuy> cr за контейнер."
+    ]
+  },
+  "224": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Привет, <Player>! Давай вместе мочить доминаторов?! Летим в систему <ToStar>. Там быстренько сбиваем половину этих тварей и прыгаем назад, в систему <CurStar>. Присоединяйся скорей!",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "225": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Priority": "50",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Привет, <Player>! Наши уже воюют в <ToStar>. Бьются с доминаторами. Я отправляюсь туда. Ты тоже не тормози, быстрей прыгай. Лишних бойцов не бывает.",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "226": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "2,3,4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": [
+      "Привет, <Player>. Ты в курсе, что доминаторы напали на систему <ToStar>? Я отправляюсь туда, чтобы помочь нашим.",
+      "Это и твой долг тоже!"
+    ],
+    "ToStarControlByKling": "No",
+    "ToStarInBattle": "Yes"
+  },
+  "227": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "InFear": "Any",
+    "KlingInCurStar": "1,2,3,4,5,6,7,8,9,Many",
+    "PlayerGoodsTypeCnt": "1,2,3,4,5,6,7,8",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipType": "Ranger",
+    "Text": [
+      "Ой, <Player>, я срочно сматываюсь отсюда, и тебе советую. Доминаторы в системе!",
+      "Надеюсь, что в системе <ToStar> я найду местечко для дозаправки, ремонта и продажи товара."
+    ]
+  },
+  "228": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "No",
+    "Priority": "30",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadTurnBeforeEndOrder": "1,2",
+    "ShipBadType": "Ranger,Pirate",
+    "ShipStructure": "Small,Average,Big",
+    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Помоги, дружище <Player>! За мной гонится пират <ShipBad>. Я постараюсь дотянуть до точки гиперперехода. Если не успею - не поминай лихом. А если успею, то встретимся в системе <ToStar>!"
+  },
+  "229": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "Goods": "Medicine",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetGoverment": "Republic,Democracy",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7",
+    "ShipHaveGoods": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Приветствую тебя, космический скиталец, рейнджер <Player>!",
+      "Хочу перед тем, как прыгнуть в систему <ToStar>, тебя предупредить, что планета <LastPlanet>, откуда я лечу, очень высоко развита. Медицина всем доступна наравне с образованием. Так вот, если ты хочешь учебников купить, или медицинских препаратов, то очень советую. Сам бы взял, но, к сожалению, трюм уже до отказа завален другими товарами."
+    ]
+  },
+  "23": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Relations": "Good,Best",
+    "ShipGoodsTypeCnt": "1,2,3,4,5,6,7,8",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Liner",
+    "Text": [
+      "Наш лайнер <Ship> совершает рейс согласно графику. Последняя посадка была на планете <LastPlanet>, где я взял новых пассажиров и сопутствующий груз.",
+      "Пассажиры выражают надежду, что вы, <Player>, добьетесь успеха. Все верят, что вы сможете в скором времени стать лучшим рейнджером и прославить наш народ, уничтожив доминаторов! Удачи вам!"
+    ]
+  },
+  "230": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "No",
+    "PlayerIsShipBad": "Any",
+    "Priority": "10",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipType": "Warrior",
+    "Text": "Ну че смотришь, <Player>? Лети своей дорогой, пиратская морда. Предупреждаю, мною получена директива с планеты <HomePlanet> на открытие огня без предупреждения. Так что если сунешься на расстояние выстрела, то сильно пожалеешь!",
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Any"
+  },
+  "231": {
+    "AutoTalk": "Yes",
+    "FlyType": "ToStar",
+    "InFear": "Any",
+    "PlayerIsShipBad": "No",
+    "PlayerStatus": "Pirate",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "ShipStructure": "Small,Average,Big",
+    "ShipTurnBeforeEndOrder": "2,3,4",
+    "ShipType": "Pirate",
+    "Text": [
+      "Здорова, братан! Ты посмотри на этого идиота, <FullShipBad> - не с его кораблем за мной гоняться. Еще немного, и я смоюсь в систему <ToStar>. А если ты меня прикроешь, кореш, то я тебе по гроб обязан буду, а я за базар всегда отвечаю.",
+      "Ну, покедова, братан, вперед и с песней: \"Нас не догоню-ю-ют!..\""
+    ]
+  },
+  "232": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "PlayerRank": "Leader,Ace,Commander, Admiral",
+    "Priority": "30",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Ranger,Pirate,Warrior",
+    "Text": [
+      "Арргх! <Player>! Как насчет немного пострелять? Я обещал своей самке привезти ей пару деталей от доминаторов. Так что лечу в систему <ToStar>, за подарком...",
+      "Летим со мной. Ты крутой воин, пусть и из расы хлюпиков. О, зарделся, теперь морда у тебя что надо!"
+    ],
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "233": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "PlayerRace": "People,Fei,Gaal",
+    "Priority": "5",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Fei",
+    "ShipType": "Ranger,Warrior",
+    "Text": [
+      "Уважаемый <Player>! Не хотите ли поспособствовать научно-техническому прогрессу? Вам ведь известно, что для победы над доминаторами нужно знать их слабые места. Я собираюсь за образцами, в систему <ToStar>, и прошу вашей помощи - наверняка образцы будут отчаянно сопротивляться и пытаться помешать моей миссии.",
+      "Если вы отвлечете их на себя, я займусь сбором ошметков. Да и вам перепадет немало, будет чем порадовать наших спецов с научных станций."
+    ],
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "234": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "PlayerRace": "Any",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "Priority": "30",
+    "RankShipWithPlayer": "Average,Big,Huge",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Any",
+    "ShipType": "Ranger",
+    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
+    "Text": "Приветствую, <Player>! Вижу, ты не очень крутой вояка, поэтому могу дать хороший совет - летим со мной в систему <ToStar>, на доминаторов поохотимся. В моей компании у тебя больше шансов уцелеть, а если зевать не станешь, то и опыта наберешься.",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "235": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "PlayerRace": "Any",
+    "PlayerRank": "Wingman,Leader,Ace,Commander, Admiral",
+    "PlayerStatus": "Warrior",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc,Peleng,People",
+    "ShipStatus": "Warrior",
+    "ShipType": "Ranger,Warrior",
+    "Text": "Арр-а!!! <Player>, рад нашей встрече. Уверен, ты не упустишь возможность хорошенько подраться, а мне не помешает помощь опытного вояки. Я собираюсь выбить доминаторов из системы <ToStar>. Вперед, этот приказ с планеты <HomePlanet> не обсуждается!",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "236": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "Any",
+    "ShipType": "Warrior",
+    "Text": "Внимание, <Player>! С вами говорит офицер регулярных войск планеты <HomePlanet>. В данный момент моя задача мобилизовать всех пилотов, годных к операции по освобождению системы <ToStar>. Немедленно следуйте за мной!",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Any"
+  },
+  "237": {
+    "AutoTalk": "Yes",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Any",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Эй, <Player>! Между прочим, в системе <ToStar> наши ребята сейчас пытаются надавать доминаторам по микросхемам, а мы тут прохлаждаемся. Айда со мной, нельзя оставаться в стороне!",
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Yes"
+  },
+  "238": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "5,6,7,8,9,Many",
+    "PlayerStatus": "Warrior,Trader",
+    "PlayerStrength": "Mini,Small,Average",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Уважаемый <Player>! В данный момент в системе <ToStar> проходят ожесточенные бои. Я предлагаю присоединиться к отважным героям, рискующим своей жизнью - хоть вы и не достаточно сильны для прямой атаки, но, думаю, вы вполне сможете собирать останки доминаторов, необходимые нашим ученым для исследований.",
+      "Вы даже представить не можете, какое количество бесценных образцов может пропасть во время сражения!"
+    ],
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Yes",
+    "TransportInToStar": "2,3,4,5,6,7,8,9,Many",
+    "WarriorInToStar": "2,3,4,5,6,7,8,9,Many"
+  },
+  "239": {
+    "AutoTalk": "Yes",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "Priority": "30",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Арр-р! <Player>, разве ты не знаешь, что наши войска сейчас сражаются в системе <ToStar> с доминаторами? И ты еще здесь? Да еще смеешь называться после этого рейнджером?!! Живо дуй со мной в систему <ToStar>, покажем этим жестянкам, что малоки умеют не только коников из грязи лепить...",
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Yes"
+  },
+  "24": {
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Arms",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Relations": "Good,Best",
+    "ShipGoodsTypeCnt": "1,2,3",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "People",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Transport,Liner",
+    "Text": [
+      "Я совершаю рейс согласно графику. Последняя посадка была совершена на планете <LastPlanet>, где я взял сопутствующий груз ручного оружия.",
+      "Вы, <Player>, как и я, человек! И, конечно, понимаете, что только люди, как высшая раса, смогут справиться с доминаторами. Сначала они, а потом настанет очередь и других рас. Зачистим космос от всех иноземных тварей!"
+    ]
+  },
+  "240": {
+    "AutoTalk": "Yes",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "People",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Ranger,Warrior",
+    "Text": "Рейнджер <Player>, какого хрена ты здесь торчишь, когда в системе <ToStar> идет схватка с доминаторами? Я всегда считал, что только люди способны быть настоящими воинами! Если ты хочешь попробовать переубедить меня в этом, то летим со мной, а там посмотрим, кто из нас больше железяк насшибает, и у кого медаль круглее будет...",
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Yes"
+  },
+  "241": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Gaal",
+    "ShipType": "Ranger,Warrior",
+    "Text": "О, <Player>... Неужели идеи гуманизма настолько чужды вам, что вы не отправитесь вместе со мной в систему <ToStar>, где истинные защитники разумной органической жизни, бравые воины и борцы за свободу, ведут неравные бои с превосходящими силами кибернетических захватчиков?",
+    "ToStarControlByKling": "Any",
+    "ToStarInBattle": "Yes"
+  },
+  "242": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "InFear": "Any",
+    "KlingInCurStar": "4,5,6,7,8,9,Many",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Полундра! Ты что, <Player>, разве не видишь - доминаторы вторглись в нашу систему. Не знаю, как ты, а я лично собираюсь сматываться отсюда в систему <ToStar>, где нет никаких железяк.",
+    "TransportInCurStar": "3,4,5,6,7,8,9,Many"
+  },
+  "243": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "InFear": "Any",
+    "KlingInCurStar": "1,2,3",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Осторожнее, <Player>, хоть доминаторов и не так много, но не стоит недооценивать противника. Лично я лечу в систему <ToStar>. Только не подумай, что я струсил - я за подмогой..."
+  },
+  "244": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
+    "PirateInToStar": "0",
+    "PlayerStatus": "Trader",
+    "Priority": "15",
+    "Relations": "Normal,Good,Best",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport,Liner,Ranger",
+    "Text": "Эй, <Player>, ты неплохой парень, поэтому хочу дать тебе совет, как торговец торговцу. В этой системе слишком много пиратов, а это плохо для бизнеса. Если ты действительно хочешь успешным делом заняться, то попробуй попытать счастья в системе <ToStar>. Там, говорят, нет ни одного пирата!"
+  },
+  "245": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "KlingInCurStar": "0",
+    "PlayerStatus": "Pirate",
+    "Priority": "30",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng,People,Fei",
+    "ShipStatus": "Pirate",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Тебе, <Player>, для здоровья полезней будет со мной в систему <ToStar> лететь. Посмотри, сколько вояк развелось - совсем пролету не дают, житья от них здесь не стало. Нынче нашему брату-пирату нужно сидеть в норе, а не то, не ровен час, можно и нарваться на очень большие неприятности.",
+    "WarriorInCurStar": "4,5,6,7,8,9,Many"
+  },
+  "246": {
+    "AutoTalk": "Any",
+    "FlyType": "ToStar",
+    "InFear": "Any",
+    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
+    "PirateInToStar": "0,1",
+    "PlayerStatus": "Pirate",
+    "Priority": "40",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Ranger,Pirate",
+    "ShipStatus": "Pirate",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Нет здесь, <Player>, простора для нашего бизнеса. Сматываюсь я в систему <ToStar>, там конкуренции такой нет, как здесь - на пару жалких торгашей целая толпа рэкетиров. А этот <ShipBad> совсем задрал!",
+    "TransportInCurStar": "1,2,3",
+    "TransportInToStar": "3,4,5,6,7,8,9,Many"
+  },
+  "247": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToStar",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
+    "ShipRace": "Maloc,Peleng,People,Fei",
+    "ShipType": "Transport",
+    "Text": [
+      "Эх, ты даже не представляешь, <Player>, как меня достала моя работа. Лечу в систему <ToStar>, сбывать весь этот товар.",
+      "Достало! Брошу все нахрен и куплю себе военный корабль. Махну в рейнджеры, буду как ты, совершать подвиги!",
+      "Хотя, с другой стороны, у меня есть свой бизнес. Надежный, безопасный, к чему мне проблемы? А вам, рейнджерам, говорят, копейки платят."
+    ]
+  },
+  "25": {
+    "FlyType": "Any",
+    "Goods": "Food",
+    "LastPlanetDistToShipInTurn": "1,2,3,4",
+    "LastPlanetGoodsBuy": "Big,Huge",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerHaveGoods": "Yes",
+    "Relations": "Best",
+    "ShipHaveGoods": "No",
+    "ShipRace": "Maloc,People,Fei,Gaal",
+    "ShipType": "Transport",
+    "Text": [
+      "Транспортное судно <Ship> информирует вас, <Player>:",
+      "Только что мы совершали посадку на <LastPlanet> и загружались всякими товарами народного потребления. При этом мы заметили, что на этой планете крайне высокая цена на продовольствие. Если у вас на борту есть продовольствие, то скорей совершайте посадку и все продавайте!"
+    ]
+  },
+  "26": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Priority": "10",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Гражданское судно <Ship> обращается к вам с просьбой, <Player>!",
+      "Нас преследует <FullShipBad>. Просим помощи, нам нужна огневая поддержка. Заранее спасибо!"
+    ]
+  },
+  "27": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "Yes",
+    "LastPlanetRace": "Gaal",
+    "Priority": "2",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "ShipRace": "Gaal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner",
+    "Text": [
+      "Я был маленьким гаальским пацаном, когда папа в первый раз взял меня в космос. Мы взлетели с <HomePlanet> и я, очарованный красотой космоса, решил пойти по стопам отца и стать пилотом корабля <Ship>.",
+      "Теперь я уже десяток лет вожу еду, медикаменты и другие товары народного потребления. И мне уже надоело летать по чужим системам. Я хочу вернуться в свою родную систему <LastPlanetStar>. Эх, тяжела гаальская доля, ты, <Player>, меня никогда не поймешь!"
+    ]
+  },
+  "28": {
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "2",
+    "Relations": "Normal,Good",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner",
+    "Text": "Чего тебе надо, инопланетный рейнджер <Player>? Я привез сюда груз из системы <LastPlanetStar>, никого не трогаю. У меня на борту только разрешенные товары."
+  },
+  "29": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Alcohol",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRating": "Average,Big,Huge",
+    "Priority": "20",
+    "Relations": "Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Всегда рад приветствовать борца с машинами! Знаю, что ты, <Player>, активный рейнджер, и скоро победишь доминаторов!",
+      "Кстати, я только что прилетел из системы <LastPlanetStar> и заметил, что там на планете <LastPlanet> крайне дешевое спиртное. Цена одного ящика составляет всего <LastPlanetGoodsSale> cr, склады просто забиты!"
+    ]
+  },
+  "3": {
+    "FlyType": "Any",
+    "PlayerIsShipBad": "No",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Не волнуйся, очередь и до тебя дойдет, <Player>. Список моих врагов возглавляет <FullShipBad>, а затем идешь ты."
+  },
+  "30": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Alcohol",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRating": "Mini,Small",
+    "Priority": "20",
+    "Relations": "Best",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Вижу, вижу соотечественника! Ты, <Player>, еще пока слабоват, и в рейтинге не ахти. Но у тебя все впереди. Хочешь, ценный совет дам?",
+      "Я только что прилетел из системы <LastPlanetStar> и заметил, что там на планете <LastPlanet> крайне дешевое спиртное. Цена ящика всего <LastPlanetGoodsSale> cr, склады ими просто забиты! Не будь лопухом, лети и делай бизнес."
+    ]
+  },
+  "300": {
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Artefact",
+    "Priority": "2",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Ты немного погоди с разговорами, <Player>, я сейчас подберу одну вещь, тогда и поговорим. Вроде как захват на моем корабле вполне ее вытянет."
+  },
+  "301": {
+    "FlyType": "ToItem",
+    "ItemType": "Protoplasm",
+    "Relations": "Bad,Normal,Good",
+    "ShipType": "Ranger",
+    "Text": "Ты не лезь, <Player>, это мои ноды! Как все соберу, так и поговорим."
+  },
+  "302": {
+    "FlyType": "ToItem",
+    "ItemType": "Weapon",
+    "Priority": "30",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipNeedInItem": "Yes",
+    "ShipType": "Ranger",
+    "Text": "Хе-хе, дружище! Сейчас я затарюсь оружием конкретно! <Item> - это вещь!"
+  },
+  "303": {
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
+    "Relations": "Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Привет, друг! Я собираю оборудование, а у тебя как дела? Осмотрись по сторонам, вона <Item> валяется! Сейчас подберу, если успею. Может, наперегонки? :-)"
+  },
+  "304": {
+    "FlyType": "ToItem",
+    "ItemType": "Minerals",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger,Pirate",
+    "Text": [
+      "Привет, дружище <Player>! Я смотрю, минеральчики вона лежат бесхозные.",
+      "Надо этот беспорядок оперативно устранить."
+    ]
+  },
+  "305": {
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToItem",
+    "ItemType": "Minerals",
+    "Relations": "Good,Best",
+    "ShipStatus": "Warrior",
+    "ShipType": "Ranger",
+    "Text": [
+      "Привет, дружище <Player>! Как дела? Вижу, минеральчики тут валяются, и хозяина вроде нет.",
+      "Если ты не против, то я их возьму, ок? Ты не подумай, что я торгаш или разбойник какой, я вообще по военному делу мастер. Бить доминаторов и прочую нечисть. Но не пропадать же добру, верно?"
+    ]
+  },
+  "306": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
+    "Priority": "50",
+    "Relations": "Bad",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Эй, <Player>! Видишь, там <Item> лежит? Так вот, не смей трогать! Это моя добыча!"
+  },
+  "307": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
+    "Relations": "Normal,Good,Best",
+    "ShipNeedInItem": "No",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Слушай, <Player>, тут дрянь одна валяется. Она мне нафиг не нужна, но продать зато можно."
+  },
+  "308": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipNeedInItem": "Yes",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Минуточку, <Player>, мне надо сделать маленький апгрейд! Вижу одну очень полезную и очень бесхозную вещичку!"
+  },
+  "309": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Food,Medicine,Technics,Luxury,Alcohol,Arms,Narcotics",
+    "Relations": "Normal,Good,Best",
+    "ShipNeedInItem": "No",
+    "ShipType": "Ranger,Pirate",
+    "Text": [
+      "Привет, <Player>! Вижу прямо по курсу контейнер, в нем <Item>.",
+      "Оно мне, конечно, не надо, но денег-то стоит!"
+    ]
+  },
+  "31": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Technics",
+    "LastPlanetEconomy": "Industrial",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRating": "Big,Huge",
+    "Priority": "20",
+    "Relations": "Best",
+    "ShipRace": "People,Fei,Gaal",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Я всегда рад видеть тебя, <Player>, одного из лучших рейнджеров нашей галактики!",
+      "Хотелось бы помочь, посодействовать, так сказать... Знаешь, я только что прибыл из системы <LastPlanetStar>. Там на известной техногенной планете <LastPlanet> все технические товары стоят просто копейки. Уж и не знаю, интересует ли тебя бизнес, но очень советую в любом случае."
+    ]
+  },
+  "310": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Minerals",
+    "RangerInCurStar": "3,4,5,6,7,8,9,Many",
+    "Relations": "War,Bad,Normal",
+    "ShipBadFlyToShip": "Any",
+    "ShipStructure": "Big,Huge",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Эй вы, рейнджеры, отвалите! И ты, <Player>, тоже! Я возьму эти минералы, потому что они мои! И все, кто стоит на моем пути, будут уничтожены."
+  },
+  "311": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "Relations": "Normal,Good,Best",
+    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
+    "Text": "Иду по курсу, чтобы взять <Item>. Далековато лететь. Но ведь оно стоит того! Я предупредил, что это моя добыча!"
+  },
+  "312": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Alcohol",
+    "Relations": "Good,Best",
+    "Text": "Смотри-ка, <Player>, по курсу выпивка бесхозная болтается. Была бесхозная, а станет хозная!"
+  },
+  "313": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Narcotics",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng",
+    "ShipStatus": "Pirate",
+    "ShipType": "Ranger,Pirate",
+    "Text": [
+      "Опа - укольчики по курсу. Тебе, <Player>, они все равно ни к чему, а у меня дома детей трое, у всех пяти - ломка страшная!",
+      "Как хороший отец семи детей, я все соберу и домой отвезу."
+    ]
+  },
+  "314": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Weapon",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipNeedInItem": "Yes",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Отличная пушечка <Item>! Как раз то, чего мне не хватает. Ты, <Player>, даже не вздумай перехватить ее у меня - мне это орудие позарез нужно."
+  },
+  "315": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Alcohol",
+    "Priority": "5",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "Peleng,People",
+    "ShipType": "Ranger,Pirate",
+    "Text": "По курсу целый контейнер выпивки! Осталось только его забрать, продать на ближайшей планете, а деньги - пропить."
+  },
+  "316": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "Priority": "30",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "Gaal",
+    "ShipTurnBeforeEndOrder": "1,2,3,4,5,6,7,8,9,Many",
+    "ShipType": "Ranger,Pirate",
+    "Text": [
+      "Ай-ай-ай, сколько здесь мусора. <Player>, признавайтесь - ваша работа? А как же чистота окружающей среды? Подумайте о будущем, о наших детях. Вы же не хотите, чтобы они жили на галактической свалке?",
+      "Надеюсь, никто не будет возражать, если я здесь немного соберу мусора?"
+    ]
+  },
+  "317": {
+    "FlyType": "ToItem",
+    "ItemType": "Artefact",
+    "Priority": "10",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Наконец-то мне удастся заполучить один из артефактов для изучения! А вы, <Player>, не вздумайте встать на пути технического прогресса. Наука требует жертв, и вы вполне можете оказаться одной из них."
+  },
+  "318": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Food,Medicine,Technics,Luxury,Minerals,Alcohol,Arms,Narcotics",
+    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
+    "PlayerStatus": "Pirate",
+    "Priority": "5",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Ranger,Pirate",
+    "Text": [
+      "Внимание, прямо по курсу обнаружен контейнер, его содержимое: <Item>. Выполняю маневр захвата...",
+      "А вы, стервятники, не вздумайте перехватить мою добычу, иначе пожалеете! Развелось тут пиратов... Тебя, <Player>, это тоже касается."
+    ]
+  },
+  "319": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToItem",
+    "KlingInCurStar": "3,4,5,6,7,8,9,Many",
+    "Priority": "10",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipTurnBeforeEndOrder": "2,3,4,5,6",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Не думаю, что это понравится доминаторам, но я рискну взять этот контейнер с <Item> на борт."
+  },
+  "32": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Technics",
+    "LastPlanetEconomy": "Industrial",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "PlayerRating": "Mini,Small",
+    "Priority": "20",
+    "Relations": "Best",
+    "ShipRace": "People,Fei,Gaal",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Вижу, вижу, новичок <Player>, хороший ты парень, но пока плохой рейнджер, судя по рейтингу.",
+      "Хотелось бы помочь, посодействовать, так сказать... Знаешь, я только что прибыл из системы <LastPlanetStar>. Там на известной техногенной планете <LastPlanet> все технические товары стоят просто копейки. Уж и не знаю, интересует ли тебя бизнес, но очень советую в любом случае."
+    ]
+  },
+  "320": {
+    "AutoTalk": "Any",
+    "FlyType": "ToItem",
+    "ItemType": "Food,Medicine,Technics,Luxury,Alcohol,Arms,Narcotics",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8,Any",
+    "ShipTurnBeforeEndOrder": "2,3,4,5",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Еще немного, и я расширю свой ассортимент товаров. <Item> нынче можно выгодно продать, тем более, что мне этот товар на халяву достанется."
+  },
+  "33": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Medicine",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "People,Fei,Gaal",
+    "Priority": "20",
+    "Relations": "Best",
+    "ShipRace": "People,Fei,Gaal",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Привет, <Player>! Надеюсь, чувствуешь себя хорошо, не болеешь? Коммерческая информация нужна?",
+      "Я только что прибыл из системы <LastPlanetStar>. Так вот, залетаю я на планету <LastPlanet>, а там... прикинь, медицина бесплатная для всего населения! Медикаменты по самым бросовым ценам! Ящики со шприцами, бинтами и прочее всего по <LastPlanetGoodsSale> кредиток! На планетах малоков и пеленгов все это стоит на порядок дороже!"
+    ]
+  },
+  "34": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Food",
+    "LastPlanetEconomy": "Agriculture",
+    "LastPlanetGoodsSale": "Mini",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "20",
+    "Relations": "Good,Best",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Привет, <Player>! Тебе партия еды не нужда? Товаром интересуешься, дружище? А?",
+      "На аграрной планете <LastPlanet> (система <LastPlanetStar>) собрали большой урожай. У них теперь гниет все на складах, просто жуть! Распродают свои припасы они за копейки. Ну где это видано, всего <LastPlanetGoodsSale> cr за тонну?"
+    ]
+  },
+  "35": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Luxury",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetIsHomePlanet": "No",
+    "LastPlanetRace": "Maloc",
+    "PlayerRace": "Peleng,People,Fei,Gaal",
+    "Priority": "20",
+    "Relations": "Good,Best",
+    "ShipHaveGoods": "Yes",
+    "ShipRace": "Peleng,People,Gaal",
+    "ShipStatus": "Trader",
+    "ShipType": "Transport",
+    "Text": [
+      "Слушай, друг, ты куда летишь? Я вот только что взлетел с малокской планеты <LastPlanet>.",
+      "Хотел там партию компьютеров закупить, но оказалось, что они такого не выпускают! :-) Конкретно тупая раса! Зато предметы роскоши у них копейки стоят. У меня дома эти малокские табуретки за тройную цену пойдут!"
+    ]
+  },
+  "36": {
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "Priority": "2",
+    "Relations": "Bad,Normal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipStrength": "Average,Big,Huge",
+    "ShipStructure": "Huge",
+    "ShipType": "Pirate",
+    "Text": "Я старый пират и много повидал на своем веку. И морды иноземцев типа твоей, <Player>, я видел. О чем пойдет разговор? Я сразу предупреждаю, что недавно починил свой корабль на <LastPlanet> и готов к бою."
+  },
+  "37": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "LastPlanetGoodsCnt": "Average,Big,Huge",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerStatus": "Pirate",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": [
+      "Здорово, <Player>! Я вижу, ты под нашего брата косишь, занимаешься делишками темными и антисоциальными? :-)",
+      "Если тебе интересно, то на <LastPlanet> есть целая партия наркоты по бросовой цене."
+    ]
+  },
+  "38": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerStatus": "Pirate,Warrior",
+    "Priority": "5",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Transport,Liner,Diplomat",
+    "ShipType": "Pirate",
+    "Text": [
+      "Здорово, <Player>! Меня конкретно достал корабль <ShipBad>. Он преследует меня, и я не знаю, куда мне от него деться. Конечно, я сам виноват, полез на него сдуру, да что уж теперь говорить...",
+      "Я слышал, ты неплохой малый, крутой вояка! Может, ты к нему зайдешь с тылу? А его добро потом поделим!"
+    ]
+  },
+  "39": {
+    "FlyType": "Any",
+    "PlayerIsShipBad": "No",
+    "Relations": "War,Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Pirate",
+    "Text": "Отстань от меня, инопланетное страшилище. Не желаю видеть твою уродливую рожу на своем мониторе! У меня сейчас и так проблем хватает. С тобой и всей твоей расой я разберусь позже."
+  },
+  "4": {
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "PlayerRating": "Big,Huge",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipRace": "Peleng",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "А ты знаешь, <Player>, что согласно решению галактического совета, за каждого убитого тобой пеленга ты будешь лишаться половины очков рейнджера? Так что если ты меня убьешь, то быстро скатишься в самый низ списка! Вот такая тебя ждет судьба."
+  },
+  "40": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerIsShipBad": "Yes",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipFlyToPlayer": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "Ну сунься, сунься, подонок! Сразу превратишься в пыль, <Player>!",
+      "У меня на борту тяжелое вооружение. Так что давай, иди сюда, я тебя не боюсь."
+    ]
+  },
+  "400": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Transport,Liner,Diplomat,Pirate,Kling",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "У меня проблемы, <Player>! Прошу помочь мне в бою с <FullShipBad>!",
+    "ToShipRelations": "War"
+  },
+  "401": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipType": "Ranger",
+    "Text": "У меня проблемы! Пожалуйста, <Player>, помоги мне в бою с <FullShipBad>. Рейнджеры должны выручать друг друга!",
+    "ToShipRelations": "War"
+  },
+  "402": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipBadType": "Ranger",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Приветствую, <Player>! Прошу помочь мне в нападении на рейнджера <ShipBad>. Это очень опасный субъект, уж поверь мне. Он разбойник.",
+    "ToShipRelations": "War"
+  },
+  "403": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "50",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipBadType": "Kling",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Ты с нами или нет, <Player>?!! Надо уничтожить этого доминатора!",
+      "Цель - <FullShipBad>!"
+    ],
+    "ToShipRelations": "War"
+  },
+  "404": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "KlingInCurStar": "1,2,3,4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "Relations": "War,Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Это крайняя форма идиотизма. Доминаторы в системе, а мы друг с другом деремся!",
+      "Надо прекращать войну и всем выступать против этих озверевших машин. Прислушайтесь к голосу разума!"
+    ],
+    "ToShipRelations": "War"
+  },
+  "405": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "100",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Pirate",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "SOS! На меня напали пираты! Прошу помочь!",
+      "Хотя бы ты, <Player>, помоги мне разделаться с пиратским кораблем <ShipBad>!"
+    ],
+    "ToShipBad": "Yes"
+  },
+  "406": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "100",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipType": "Warrior",
+    "Text": "Рейнджер <Player>! Присоединяйся к военной операции. Наша цель - <FullShipBad>. Либо он совершает посадку на планету <HomePlanet>, либо мы его уничтожаем.",
+    "ToShipInPlanet": "No",
+    "ToShipRelations": "War",
+    "ToShipType": "Ranger,Pirate"
+  },
+  "407": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerFlyToShip": "No",
+    "PlayerIsShipBad": "Yes",
+    "Priority": "20",
+    "Relations": "War",
+    "ShipFlyToPlayer": "Yes",
+    "ShipType": "Pirate",
+    "Text": [
+      "Я чувствую, тут пахнет жареным. Мои условия таковы, <Player>!",
+      "Ты должен заплатить мне за проезд. Если денег нет, выбрасывай груз, оружие и оборудование. И тогда, возможно, ты улетишь отсюда живым."
+    ],
+    "ToShipInPlanet": "No"
+  },
+  "408": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerFlyToShip": "Any",
+    "PlayerIsShipBad": "Yes",
+    "PlayerStatus": "Trader,Pirate",
+    "Priority": "20",
+    "Relations": "War",
+    "ShipFlyToPlayer": "Yes",
+    "ShipRace": "Maloc,People,Fei,Gaal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Мерзкий пират! Я тебе, <Player>, и всей твоей мерзкой пиратской расе еще покажу! Бортовые системы, цельсь!!!"
+  },
+  "409": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Yes",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Pirate",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipStructure": "Mini,Small",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Сегодня я бесстрашен как малок! Иду в последнюю атаку на пирата <ShipBad>! Прошу поддержки, <Player>!",
+    "ToShipBad": "Yes"
+  },
+  "41": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerIsShipBad": "Yes",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipFlyToPlayer": "No",
+    "ShipRace": "Maloc,Peleng,People",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "Ну давай, лети за мной, <Player>!",
+      "Подойдешь на расстояние выстрела - получишь заряд в бок из моей тяжелой пушки.",
+      "Думаешь, я тебя боюсь, сопляк? Да я таких, как ты, на обед ем! Ха-ха-ха!"
+    ]
+  },
+  "410": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "Priority": "5",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Peleng,People,Fei",
+    "ShipType": "Ranger,Pirate,Warrior",
+    "Text": "Мы должны уничтожить доминаторов, <Player>!!! Они не просто угрожают нашему существованию, они собираются захватить нас, и использовать в качестве батареек. Согласно предсказанию, только я могу помешать их планам! Атакую <ShipBad>, вперед, за мной!",
+    "ToShipBad": "Yes",
+    "ToShipType": "Kling"
+  },
+  "411": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerFlyToShip": "No",
+    "PlayerRace": "Maloc,Peleng",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "Здорова, <Player>. Видал этого умника, <ShipBad>? Вздумал дразнить меня мохнатой обезьяной, урод большеголовый. А у меня нежная, ранимая эта... как ее... душа, во! Разворачиваю я турели в его сторону, и начинаю объяснять, что нехорошо обзываться.",
+      "Ты просто обязан помочь мне! Сколько можно терпеть унижение от этих нтиликтуалов? Пора показать яйцеголовым, кто в космосе хозяин!"
+    ],
+    "ToShipInPlanet": "No",
+    "ToShipRace": "Fei,Gaal",
+    "ToShipRelations": "War",
+    "ToShipType": "Transport,Liner,Diplomat,Ranger,Pirate"
+  },
+  "412": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "Priority": "20",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipBadType": "Kling",
+    "ShipType": "Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Эй, <Player>, может, давай поспорим - кто первый замочит доминатора?",
+      "Предлагаю в качестве цели корабль <ShipBad>!"
+    ],
+    "ToShipBad": "Yes",
+    "ToShipType": "Kling"
+  },
+  "413": {
+    "AutoTalk": "Any",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "Any",
+    "KlingInCurStar": "5,6,7,8,9,Many",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Any",
+    "ShipBadType": "Kling",
+    "ShipType": "Warrior",
+    "Text": "Нас слишком мало здесь, <Player>, чтобы справиться с доминаторами! <FullShipBad> висит у меня на хвосте - предлагаю начать с него.",
+    "ToShipBad": "Yes",
+    "WarriorInCurStar": "1,2,3"
+  },
+  "414": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "InFear": "Yes",
+    "Priority": "20",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipStructure": "Mini,Small",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Выручай, <Player>! Еще немного, и этот <FullShipBad> отправит меня на тот свет. Мы ведь с тобой одной расы, и должны держаться друг друга.",
+    "ToShipBad": "Yes"
+  },
+  "415": {
+    "AutoTalk": "No",
+    "FlyType": "ToShip",
+    "InFear": "No",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipStatus": "Pirate",
+    "ShipStructure": "Average,Big,Huge",
+    "ShipTurnBeforeEndOrder": "1,2,3",
+    "ShipType": "Ranger,Pirate",
+    "Text": "Ты только не подумай плохого, <Player>, я просто сопровождаю корабль <ToShip>, охраняя его от негодяев. Лети своим путем, пока!",
+    "ToShipBad": "Yes",
+    "ToShipInPlanet": "No",
+    "ToShipType": "Transport,Liner,Diplomat"
+  },
+  "416": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerIsShipBad": "Yes",
+    "PlayerRank": "Leader,Ace,Commander, Admiral",
+    "PlayerStatus": "Trader,Warrior",
+    "PlayerStructure": "Mini,Small,Average",
+    "Priority": "10",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "Yes",
+    "ShipStatus": "Pirate",
+    "ShipTurnBeforeEndOrder": "1,2,3,4",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": "Ха, <Player>, похоже, что тебе конец. Ты, знаю, много нас, пиратов, замочил! Сейчас я прикончу тебя, и они будут отомщены!"
+  },
+  "417": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerIsShipBad": "Yes",
+    "PlayerStatus": "Pirate",
+    "PlayerStructure": "Mini,Small,Average",
+    "Priority": "10",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "Yes",
+    "ShipStatus": "Trader,Warrior",
+    "ShipTurnBeforeEndOrder": "1,2",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": "Пара выстрелов, и еще на одного гнусного пирата станет меньше. Передавай привет Рачехану, <Player>!!!"
+  },
+  "418": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "PlayerIsShipBad": "Yes",
+    "PlayerStructure": "Mini,Small,Average",
+    "Priority": "5",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "Yes",
+    "ShipStatus": "Pirate",
+    "ShipTurnBeforeEndOrder": "1,2,3",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": "Только без обид, <Player>. Я всего лишь выполняю задание для агентства \"Закажи другу друга\". Слыхал, наверное? Понятия не имею, чем ты не угодил заказчику, но поручение я намерен выполнить до конца."
+  },
+  "419": {
+    "AutoTalk": "Any",
+    "FlyType": "ToShip",
+    "Goods": "Technics",
+    "LastPlanetRace": "Peleng",
+    "PlayerIsShipBad": "Yes",
+    "Priority": "5",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "Yes",
+    "ShipStatus": "Pirate",
+    "ShipTurnBeforeEndOrder": "1,2,3,4,5,6",
+    "ShipType": "Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": "Ох и не повезло же тебе, <Player>! Может, слыхал про одно из самых жестоких пеленгских шоу \"Убей, или проиграешь\"? То самое, где каждому из участников предстоит уничтожить случайно выбранный корабль. Я один из участников, полуфиналист шоу этого года, и как раз сейчас борюсь за право выйти в финал. Мне нужна <LastPlanetGoodsBuy> жертва, и ей станешь ты!"
+  },
+  "42": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "No",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "StrengthShipWithPlayer": "Mini,Small",
+    "Text": "Пощади меня, <Player>. Что я могу сделать, чтобы задобрить тебя?"
+  },
+  "420": {
+    "FlyType": "ToPlanet",
+    "PirateRankShipWithPlayer": "Average,Big,Huge",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipType": "Pirat",
+    "Text": "<PlayerPirateRank>, братиш, прикрой меня, попытаюсь доползти до космодрома. Починюсь и снова в бой!"
+  },
+  "421": {
+    "FlyType": "ToStar",
+    "InFear": "No",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipType": "Pirat",
+    "Text": "Знаешь, братан, какое тут дело на днях приключилось? Вызывают меня на базар как будто по интеркому, выдвигают тему, не нужно ли типа починить проводку в корабле, краны, значит, подтянуть, в мониторе лампу заменить. Я глядь на радар, а корабля с такими позывными, значит, в системе и нету! Думаю, что же это за штукотрулина, конкретно, но сам виду не подаю, отвечаю, в гальюне типа лампочка перегорела. А на канале блаженный нарисовался: молись, постись, прими истину пузыризма, и всё пройдёт само. Типа слухи ходили, про каких-то пузыристов и их типа пранк-молебны из гипера, но если б сам не услышал, не поверил бы."
+  },
+  "422": {
+    "FlyType": "ToPlanet",
+    "Goods": "Technics",
+    "InFear": "No",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipHaveGoods": "Yes",
+    "ShipType": "Pirat",
+    "Text": "Здорово, <Player>! На планете <ToPlanet> такой бешеный спрос на технику, что даже дорогие приборы расходятся как пирожки! Если хочешь хорошенько подзаработать деньжат, не заработав нагоняя от властей, набирай оптовую партию машин и поскорее вези на <ToPlanet>. Конечно, наше акриновое оборудование вне конкуренции, но и тебе немало перепадёт."
+  },
+  "423": {
+    "FlyType": "ToPlanet",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipStructure": "Mini",
+    "ShipType": "Pirat",
+    "Text": "Когда рядом нет корешей, даже верному пилоту картеля приходится несладко. Хорошо бы братишки на подмогу прилетели, пока мой корабль чинят в ангаре."
+  },
+  "424": {
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "PirateRankShipWithPlayer": "Big,Huge",
+    "PlayerPirateRank": "Noobie, Kid, Rader, Skipper",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirat",
+    "Text": "Знаешь, <Player>, в чём сила? В единстве! И пока Коалиция ведёт разборки внутри себя, наше братство будет набирать силу. Развивая собственную промышленность, благодаря слаженной организации и повсеместному применению акриновых технологий мы станем самой могучей силой в Галактике. Для нас не будет преград и непреодолимых трудностей. Йо-хо-хо! Только что это у меня на дисплее два прицела? Два дисплея? Похоже, я выпил слишком много рома. А кто не выпьет по пятой, тот не пират! Ну, за твоё здоровье! Йо-хо-хо!"
+  },
+  "425": {
+    "FlyType": "ToShip",
+    "InFear": "No",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadType": "Kling",
+    "ShipType": "Pirat",
+    "Text": "Сейчас ты познаешь мощь пиратского братства! Понеслась!"
+  },
+  "426": {
+    "FlyType": "Any",
+    "PirateRankShipWithPlayer": "Big,Huge",
+    "PlayerPirateRank": "Noobie",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipRace": "Maloc",
+    "ShipType": "Pirat",
+    "Text": "Товар, деньги, товар, деньги - всё это не имеет значения в нашей жизни. Товар, деньги - всё иллюзии нашего бренного мира. Не то что товар, деньги, товар, деньги. Понимаешь смысл моих слов? Товар, деньги, товар, деньги - всё пустое. Забудь эти два слова и займись грабежом, как настоящий мужчина!"
+  },
+  "427": {
+    "FlyType": "ToItem",
+    "InFear": "No",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipType": "Pirat",
+    "Text": "\"Бух-бабах, наши пушки самые мощные! Вжих-вжих, наши движки самые быстрые! Покупайте акриновое оборудование, только от нашего пиратского братства!\" Это я придумываю рекламу для наших передовых технологий, лучших в нашем рукаве Галактики. Правда ведь, неплохо получается?"
+  },
+  "428": {
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "InFear": "No",
+    "Relations": "Good,Best",
+    "ShipType": "Pirat",
+    "Text": "Хороший у меня денёк нынче. Купил на базе новый акриновый захват. Кстати, парень, ты не задумывался, как это получается? Наше братство выпускает лучшее в мире оборудование, которого у Коалиции попросту нет. Ты тайны хранить умеешь? Открою тебе маленький секрет: это потому что... Нет, я передумал, своя шкура дороже."
+  },
+  "429": {
+    "FlyType": "Any",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirat",
+    "Text": "Ох, тысяча пенчекряков, почему ж у меня так голова второй день болит? Это, наверное, потому, что я не протрезвел до сих пор. На <LastPlanet> настоящий пиратский ром по смешным ценам, ни один головорез братства не устоял бы. Надеюсь, торговцы его ещё не весь скупили."
+  },
+  "43": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Transport,Liner,Diplomat",
+    "StrengthShipWithPlayer": "Mini,Small",
+    "Text": [
+      "Наша раса очень мирная, а ты, <Player>, из нашего народа!",
+      "Прошу пощады! Пощади своих братьев!"
+    ]
+  },
+  "430": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "InFear": "No",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Pirat",
+    "Text": "Знаешь, в чём сила, брат? А сила как раз в братстве. Один пират - мишень для военных. Два пирата - тоже мелочь. А с нашим братством вся Коалиция считается. На нашей стороне и пилоты, и деньги, и технологии. Увидишь, мы и доминаторов разгромим быстрее, чем хвалёные вояки и нытики-рейнджеры. Дай нам двадцать лет, и ты не узнаешь галактику!"
+  },
+  "431": {
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "ToShip",
+    "InFear": "No",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipBadType": "Kling",
+    "ShipType": "Pirat",
+    "Text": "Что, видишь пирата? Выворачивай карманы, железка! Был доминатор - стал донатор! А не захочешь делиться, продам тебя на металлолом! Хе-хе!"
+  },
+  "432": {
+    "FlyType": "Any",
+    "InFear": "No",
+    "Relations": "Bad,Normal",
+    "ShipType": "Pirat",
+    "Text": "Может, в братстве тебя и уважают, но я тебя как не выносил, так и не выношу. Будешь так себя вести и дальше - наш рукав галактики станет слишком тесным для нас двоих."
+  },
+  "433": {
+    "FlyType": "ToPlanet",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "No",
+    "ShipType": "Pirat",
+    "Text": "Люблю мир в космосе! Птички заливаются, рагобамские жабы переквакиваются, дождик над головой идёт. Нет-нет-нет, я не сбрендил, просто включил голографическую видеосистему для кабины. Помогает расслабиться после жаркой битвы."
+  },
+  "434": {
+    "FlyType": "Any",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirat",
+    "Text": "Ведомо ли тебе, <Player>, что секрет пиратского счастья - в борще и варениках? Как говорится, на пустое брюхо с удачей глухо, а такого борща, как у нашего кока, ни в одном ресторане не найдёшь!"
+  },
+  "435": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Ох, моя голова... до сих пор трещит, так классно отмечали победу над Коалицией. Хорошо, что она была всего одна на наш рукав галактики, а то я бы так спился на радостях."
+  },
+  "436": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": [
+      "Как же так, <Player>, а? Как вы, рейнджеры, борцы со злом, могли допустить поражение Коалиции? На вас была вся надежда, а вы позорно продули!",
+      "Ха-ха, не злись, я просто подшучиваю над тобой. Всем прекрасно известно, что ты-то как раз на нашей стороне воевал. И это правильный выбор!"
+    ]
+  },
+  "437": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Коалиции больше нет. Как дальше жить, что делать, с кем торговать, в кого стрелять - ничего непонятно...",
+      "Может, хоть ты, <Player>, подскажешь чего полезного?"
+    ]
+  },
+  "438": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": "Коалиции больше нет, но жизнь продолжается, <Player>. Главное - быстро и успешно ассимилироваться, а там никто и не вспомнит, что мы когда-то не на пиратов батрачили. Для простых обитателей галактики работа всегда найдется."
+  },
+  "439": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Привет, <Player>. Я тут поразмыслил на досуге и пришел к следующему: как хорошо, что конец Коалиции еще не означает конец света.",
+      "Вот, вроде бы, все пропало и все кончено, но по сути ничего не изменилось, только в высоких кабинетах теперь вместо продувных политиков сидят продувные пираты, да на улицах постреливают. Но это ничего, к такому привыкнуть несложно."
+    ]
+  },
+  "44": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "PlayerRating": "Mini,Small",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Maloc,Peleng,People",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "StrengthShipWithPlayer": "Mini,Small",
+    "Text": [
+      "Мы же братья по крови! Ну как ты можешь иметь что-то против меня, <Player>? Может, отпустишь меня по-хорошему? Космос полон иноземцев, бей лучше их! Это фэяне и гаальцы твои враги, а не я!",
+      "Я всегда тебя уважал и никогда не смеялся, тыкая тебе, что ты на последнем месте в списке рейнджеров!"
+    ]
+  },
+  "440": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": [
+      "Привет тебе, <Player>!",
+      "Знаешь, я вот подумал и понял: жалко, что доминаторов больше нет. Раньше все военные на них отвлекались, грабь - не хочу, раздолье. А сейчас, стоит только выстрелить разок и сразу у тебя на хвосте пара истребителей. Сплошная маета и никакого профита."
+    ]
+  },
+  "441": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Здорово, <Player>! Давай поспорим с тобой, кто победит: пираты или Коалиция. Уж очень я охоч до всяких пари. Только вот с деньгами у меня проблемы, как раз последние кредиты проспорил. Ставил на доминаторов, что они все живое в галактике уничтожат, но прогадал, продули тупые железки. Может, хоть на щелбаны забьемся?"
+  },
+  "442": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": [
+      "Продаю куски обшивки Террона на сувениры! Лучший подарок любимой жене и отличное украшение для вашего дома! Достоверность проверена! Только сегодня! Количество ограничено!",
+      "Ой, это ты, <Player>. Извини, ничего личного, просто бизнес. На грабеже торгашей сейчас нормальных денег не поднять, вот и приходится крутиться. Ты же никому не скажешь, что я фуфло задвигаю?"
+    ]
+  },
+  "443": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Как же хорошо жить-то стало, да, <Player>? Доминаторы больше не угрожают нашим звездным системам, можно спокойно бизнесом заниматься. Пираты, конечно, на нервы действуют, но от них хоть откупиться можно, если прижмут. Они и сами понимают, что если понемногу мзду брать, но корабли не дырявить, то можно потом будет и дальше их шерстить. А если один раз грохнешь, то с кого потом денежку получать?"
+  },
+  "444": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "От лица всех мирных тружеников галактики говорю тебе, <Player>, спасибо за то, что ты и остальные герои избавили нас от доминаторского гнета. Теперь можно спокойно жить и работать, не опасаясь, что на твою звездную систему неожиданно нападут полчища неразумных механизмов."
+  },
+  "445": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Ну вот, <Player>, с доминаторами мы уже разобрались совместными усилиями. Теперь еще пиратам хвост прищемить и тогда вообще не жизнь, а сказка будет."
+  },
+  "446": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Вот скажи, <Player>, не скучно тебе живется? Мне вот скучно. Коалиции уже нет, доминаторов тоже. Только и остается, что мирные корабли пощипывать. Правда, они слабаки и еле ползают, никакого адреналина от боя не получаешь. Хоть за клисанами в другой рукав галактики улетай..."
+  },
+  "447": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Йоу, <Player>! Скажу честно, я тобой восхищаюсь. Ты один из немногих гуманоидов в галактике, которые реально повлияли на уничтожение Коалиции и доминаторов. Может быть, тиснешь мне парочку автографов? Я своим пиратским детям и внукам буду рассказывать, что со мной сам <Player> парой слов однажды перекинулся."
+  },
+  "448": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Знаешь, <Player>, ведь мы, пираты, не можем жить без врагов. Так что после уничтожения Коалиции и доминаторов мир долго не протянет. Если какой-то внешний враг не появится, то наверняка внутренние разборки начнутся. Скоро галактика опять погрузится в войну, это я тебе ответственно заявляю. Так что наслаждайся недолгими деньками спокойствия, пока есть возможность."
+  },
+  "449": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Никто ни с кем не воюет, <Player>. Отличное время для бизнеса. Да и пираты пока не спохватились и не начали налоги с пошлинами повышать. Только тссс, не повторяй никому мои слова. Хотелось бы продлить этот благодатный период."
+  },
+  "45": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "PlayerRating": "Mini,Small",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "ShipStructure": "Mini,Small,Average",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "StrengthShipWithPlayer": "Mini,Small",
+    "Text": [
+      "Отстань от меня, <Player>! Не буду я больше смеяться над твоим позорным званием <PlayerRank>, и над твоим низким рейтингом тоже. Ты самый крутой, самый уважаемый мною рейнджер!",
+      "У меня полно товаров на борту. Хочешь, отдам тебе часть? Может, отпустишь меня по-хорошему, а, <Player>?"
+    ]
+  },
+  "450": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Знаешь, что такое когнитивный диссонанс, <Player>? Привожу пример: с одной стороны я радуюсь уничтожению доминаторов, но с другой - расстраиваюсь поражению Коалиции. Двойственные чувства...",
+      "С пиратами мы каши не сварим, это я тебе гарантирую. Скоро им надоест играть в политику и мы все останемся у разбитого корыта, без денег, промышленности и возможности защищаться от потенциальных врагов."
+    ]
+  },
+  "451": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng,Maloc,Gaal,People",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Честно говоря, <Player>, я жутко негодую, как потомственный космический промысловик. Отец мой был торговец и дед тоже, и прадед. Издавна наша семья промышляла провозом наркотических веществ на гаальские планеты. Это была целая наука. Где спрятать, чтобы не нашли на таможне, кому продать, чтобы не кинули, кому на лапу сунуть, чтобы не заложили...",
+      "А сейчас все планеты под контролем пиратов, никаких ограничений, вози что хочешь, хоть биоконтейнеры с пхедокской язвой, лишь бы покупатель нашелся. Получается, что моя наука больше не нужна. Обидно, понимаешь. И сын мой неизвестно кем теперь будет, когда подрастет."
+    ]
+  },
+  "452": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Pirate",
+    "Text": "Вот и нет больше вашей Коалиции, <Player>. Была, да вся сплыла, хе-хе. Ну да не парься, ты пацан конкретный, не пропадешь."
+  },
+  "453": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng,Maloc,Gaal,People",
+    "ShipType": "Warrior",
+    "Text": "Доминаторы повержены, <Player>, победа за нами. Скоро можно будет оставить службу и вернуться домой, к жене и детишкам. Жду не дождусь этого дня."
+  },
+  "454": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Warrior",
+    "Text": "Слушаю тебя внимательно, <Player>. После победы над доминаторами мы вас, рейнджеров, больше зауважали, так что говори смело, чего хотел."
+  },
+  "455": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Warrior",
+    "Text": "<Player>, давай-ка, бросай свои ерундовые дела и собирайся с нами, пиратов уничтожать. С доминаторами мы успешно разобрались, теперь надо разогнать всех этих мерзавцев, которые воспользовались нашей слабостью и атаковали Коалицию в спину."
+  },
+  "456": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": [
+      "<Player>, дружище, коллега! Как мы их, а, доминаторов этих?! До сих пор не могу отойти от радости, прямо хочется всех вокруг обнимать, скакать, прыгать!",
+      "Говори скорее, чего ты хотел. Чем смогу - помогу!"
+    ]
+  },
+  "457": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Здравствуй, коллега <Player>. Слушай, вот победили мы доминаторов, здорово. А что дальше-то будет? Не распустят ли нас часом? Скажут, все, война окончена, сдайте значки и расходитесь по домам. Или нам теперь с пиратами сражаться? Тоже не знаешь? Как можно вообще работать в таких условиях, когда каждую кроху информации практически с силой вырывать из начальства нужно? Не дело это."
+  },
+  "458": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Fei,Gaal,People",
+    "ShipType": "Ranger",
+    "Text": "Сейчас вот покончим с пиратами, <Player>, и вернусь я домой. У меня домик в пригороде, вокруг сад, цветы цветут, птички поют. Родственники еды вкусной наготовят. Буду сидеть у окошка и вспоминать, как воевали с доминаторами. Лепота, одним словом."
+  },
+  "459": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Maloc",
+    "ShipType": "Ranger",
+    "Text": "Сейчас вот покончим с пиратами, <Player>, и вернусь я домой. У меня большая пещера в горах, вокруг непролазные пропасти, соседи по выходным перестрелки устраивают, в долинах фортификационные сооружения возводят. Большой Зажор отмечать буду раз в неделю, а все остальное время сторожить на вышке с пулеметом и вспоминать, как воевали с доминаторами. Лепота, одним словом."
+  },
+  "46": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetIsHomePlanet": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRelations": "War",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipRaceIsPlayerRace": "Yes",
+    "ShipType": "Warrior",
+    "Text": "Вы, <Player>, должны немедленно совершить посадку на планету <LastPlanet>, где вас будут судить как предателя своего народа! Диалог в космосе для нас более неприемлем."
+  },
+  "460": {
+    "CoalitionAlreadyDefeated": "No",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Peleng",
+    "ShipType": "Ranger",
+    "Text": "Сейчас вот покончим с пиратами, <Player>, и вернусь я домой. У меня логово в лесной чаще, вокруг болота, рагобамские жабы квакают, самки красивые вокруг бродят, соседи тараканьи бега по выходным устраивают. Заправлюсь по приезду янвелбом, залезу по ноздри в жижу и буду вспоминать, как воевали с доминаторами. Лепота, одним словом."
+  },
+  "461": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": [
+      "Чего надо, братец-пиратец? Если позовешь торгашей трясти, то я завсегда согласный...",
+      "А, это ты, <Player>. Фух, я уж испугаться успел. Теперь вот, видишь, вынужден шифроваться, притворяться пиратом, чтобы не порешили. Коалиции-то нет, теперь каждый сам за себя. А на нас, рейнджеров, такое чувство, каждый теперь огромный зубище имеет."
+    ]
+  },
+  "462": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Говори быстрее, <Player>, за мной тут охота идет со стороны пиратского клана. Боюсь, долго не протяну. Придется бросать корабль и скрываться в каком-нибудь индустриальном гигаполисе. Глядишь, пару годков еще повожу смерть за нос. Ты тоже крути почаще радаром на все триста шестьдесят, а то мы, рейнджеры, после развала Коалиции для пиратов самая лакомая цель."
+  },
+  "463": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "DominatorsAlreadyDefeated": "Yes",
+    "InFear": "No",
+    "Relations": "Normal,Good,Best",
+    "ShipType": "Ranger",
+    "Text": "Кругом измена, <Player>, будь бдителен! Нет теперь нашему брату, рейнджеру, житья в галактике! Хотя, я гляжу, ты и сам уже под черным флагом ходишь. Тьфу, как так жить. Полечу, пропью корабль и займусь любимой работой. Я ведь ландшафтный дизайнер по образованию. Забью права на какую-нибудь необитаемую планету и поработаю над ней орбитальным лазером. Возведу своими собственными руками гигантский мемориал гуманоидной глупости. Может быть, потомки оценят..."
+  },
+  "47": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetIsHomePlanet": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRelations": "War",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Warrior",
+    "Text": "Вы, <Player>, должны немедленно совершить посадку на планету <LastPlanet>. Диалог в космосе для нас более неприемлем. Вас будут судить за все злодеяния, как чужеземца, регулярно нарушавшего наши законы!"
+  },
+  "48": {
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetIsHomePlanet": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRelations": "War",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipType": "Warrior",
+    "StrengthShipWithPlayer": "Mini,Small",
+    "Text": "Я на службе планеты <LastPlanet>, но воевать с таким крутым воином мне совсем неохота. Позвольте мне вернуться домой. Обещаю поговорить со своими и убедить всех в вашей невиновности."
+  },
+  "49": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetIsHomePlanet": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRelations": "War",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "На моей родине, в системе <LastPlanetStar>, на планете <LastPlanet>, по тебе, <Player>, тюрьма плачет. Если ты мирно полетишь и сдашься властям, то тебя наверняка простят, в таком случае постараюсь замолвить за тебя словечко.",
+      "Но что-то мне подсказывает, что ты так никогда не поступишь..."
+    ]
+  },
+  "5": {
+    "FlyType": "Any",
+    "PlayerFlyToShip": "Yes",
+    "PlayerRating": "Mini,Small,Average",
+    "Priority": "5",
+    "Relations": "Bad,Normal,Good",
+    "ShipFlyToPlayer": "No",
+    "ShipType": "Ranger,Pirate,Warrior",
+    "Text": "Ты чего за мной летишь, дупель? Я маслом вроде не намазан. А ну, сворачивай, пока по рогам не получил!"
+  },
+  "50": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Technics",
+    "LastPlanetEconomy": "Industrial",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerGoodsTypeCnt": "2,3,4,5,6,7,8",
+    "PlayerHaveGoods": "Yes",
+    "Relations": "Bad,Normal",
+    "ShipRace": "Peleng",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Я так уважаю тебя, <Player>, что хочу поделиться с тобой маленькой тайной. На планете <LastPlanet>(система <LastPlanetStar>) сейчас время сенокоса. Ты можешь получить кучу денег, если доставишь им туда предметы техники. Даю честное пеленгское слово!"
+  },
+  "51": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Luxury",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "PlayerRank": "Rookie",
+    "Relations": "Bad,Normal",
+    "ShipRace": "Peleng",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "На пеленгском судне <Ship> очень рады возможности пообщаться с таким прославленным рейнджером, как ты! Я, капитан этого корабля, просто преклоняюсь перед твоими воинскими достижениями, <Player>! :-)",
+      "Так вот, знай, что на планете <LastPlanet> (система <LastPlanetStar>) резко взвинтились цены на предметы роскоши. Тебе нужно как можно быстрее приобрести где-то роскошь, и тогда получишь за товар тройную цену. Век будешь благодарить нас, пеленгов, которые всегда говорят только от чистого сердца!"
+    ]
+  },
+  "52": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "LastPlanetGoodsSale": "Mini",
+    "LastPlanetGoverment": "Anarchy",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "LastPlanetRaceIsShipRace": "No",
+    "Relations": "Good,Best",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Привет, <Player>! Я буквально на днях побывал на планете <LastPlanet> с важной, можно сказать, дипломатической миссией. Творится там нечто ужасное. Анархическое правительство разрешает черт знает что! Наркотики продаются прямо на улицах, полный беспредел. Я, конечно, купил и себе немного. Благо, очень дешево, по сравнению с ценами на родине.",
+      "Ты тоже отоваривайся, не тормози!"
+    ]
+  },
+  "53": {
+    "FlyType": "Any",
+    "Priority": "50",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Pirate",
+    "ShipStructure": "Small,Average,Big",
+    "ShipType": "Pirate",
+    "Text": [
+      "Здорово, <Player>! Я тут поссорился из-за бабок с дружком - командиром корабля <FullShipBad>. Мы не поделили кое-что, и он теперь на меня наезжает. Было бы здорово, если бы ты зашел с тылу и всадил бы ему из всех орудий!",
+      "А его добро потом поделим!"
+    ]
+  },
+  "54": {
+    "AutoTalk": "Any",
+    "CoalitionAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Goods": "Arms",
+    "LastPlanetDistToShipInTurn": "1,2,3,4",
+    "LastPlanetGoodsSale": "Mini,Small",
+    "LastPlanetInCurStar": "Yes",
+    "LastPlanetRace": "Peleng,People,Fei,Gaal",
+    "PlayerRace": "Peleng,People,Fei,Gaal",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "PlayerRating": "Mini,Small,Average",
+    "Relations": "Good,Best",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipType": "Liner",
+    "Text": [
+      "Экипаж и пассажиры лайнера <Ship> приветствуют тебя, <Player>! Мы знаем, что ты еще начинающий рейнджер, и пока всего лишь <PlayerRank>, но тем не менее весь наш экипаж надеется, что ты еще всем покажешь и заберешься на вершину хит-парада рейнджеров! Выше нос, все еще впереди!",
+      "Кстати, если нужна партия оружия, то рекомендую планету <LastPlanet>. Я только что оттуда, цены на оружие там просто замечательные! Продашь потом этот товар малокам втридорога!"
+    ]
+  },
+  "55": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Luxury",
+    "LastPlanetGoodsBuy": "Big,Huge",
+    "LastPlanetInCurStar": "No",
+    "LastPlanetRace": "Peleng",
+    "Relations": "Bad,Normal",
+    "ShipRace": "Peleng",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "На пеленгском судне <Ship> очень рады возможности пообщаться с тобой, <Player>. Нашему уважению и почтению нет предела. Тебе, единственному чужеземцу в этом мире, мы готовы открыть коммерческую тайну! В нашей пеленгской системе <LastPlanetStar> на всех планетах резко упали цены на предметы роскоши.",
+      "Быстрей слетай туда и привози сюда все, что сможешь купить. Сомневаешься? Даю честное слово пеленга!"
+    ]
+  },
+  "56": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerAttackGoodShip": "Yes",
+    "Priority": "10",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipStructure": "Average,Big,Huge",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": [
+      "Эй, <Player>! Ты разве не знаешь, что <FullShipGood> мой друг?",
+      "Немедленно прекрати атаку! В обратном случае я за свое отношение к тебе не ручаюсь, и всем расскажу о твоих грязных проделках!"
+    ]
+  },
+  "57": {
+    "FlyType": "Any",
+    "PlayerRace": "Maloc",
+    "Priority": "5",
+    "Relations": "Good,Best",
+    "ShipRace": "Gaal",
+    "ShipType": "Diplomat,Ranger",
+    "Text": "Здравия желаю, <Player>! Я тут недавно узнал древнемалокский рецепт непобедимости, могу процитировать: \"Чем больше я поем, тем стану я сильнее - и всех победю\"! Да, смотрю я на твою морду и вижу, что кушаешь ты действительно неплохо. Небось, можешь гаалмедок ложками лопать?"
+  },
+  "58": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Any",
+    "PlayerRace": "Peleng",
+    "Priority": "10",
+    "Relations": "Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipRace": "Peleng",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": [
+      "Эй, <Player>, зелень твоей луже! Капитан судна <Ship> просит поддержки!",
+      "Нас преследует чужак, <FullShipBad>. Не в наших пеленгских правилах помогать друг другу, но в виде исключения, эм-м?.."
+    ]
+  },
+  "59": {
+    "FlyType": "Any",
+    "Priority": "2",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipRace": "Maloc",
+    "ShipType": "Transport,Liner,Diplomat,Ranger",
+    "Text": [
+      "Как думаешь, <Player>, вышибем мы доминаторов из <CurStar>? Уверен, что да, столько вояк кругом, что жестянкам здесь ничего не светит. Я про это даже стихи сочинил:",
+      "Красные звезды пылают в ночи,",
+      "Драгги, увидев врага,",
+      "Желтые зубы вонзили в него,",
+      "Враг мимо них не пройдет!",
+      "Правда, красиво? И кто сказал, что малокам чужда антидоминаторская поэзия?"
+    ],
+    "WarriorInCurStar": "4,5,6,7,8,9,Many"
+  },
+  "6": {
+    "FlyType": "Any",
+    "PlayerFlyToShip": "Yes",
+    "Priority": "1",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipFlyToPlayer": "No",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "Ты зачем летишь за мной, рейнджер <Player>? Надеюсь, у тебя хорошие намерения? Я буду считать тебя почетным эскортом, если ты не против."
+  },
+  "60": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerAttackGoodShip": "Yes",
+    "Priority": "30",
+    "Relations": "Bad,Normal,Good",
+    "ShipType": "Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "Опа-на, это еще что за беспредел, в натуре? <Player>! Ты на кого наехал, а? На <FullShipGood> летает мой братан, и я за него пасть любому порву.",
+      "Ну, че, просек типа?"
+    ]
+  },
+  "61": {
+    "AutoTalk": "Yes",
+    "FlyType": "Any",
+    "PlayerAttackGoodShip": "Yes",
+    "Priority": "3",
+    "Relations": "Bad,Normal,Good,Best",
+    "ShipType": "Warrior",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": "Внимание, <Player>! С вами говорит капитан корабля <Ship>. Немедленно прекратите преследование <FullShipGood>. Нападение на данный корабль будет рассматриваться как провокация, направленная против правительства планеты <HomePlanet>."
+  },
+  "62": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerAttackGoodShip": "Yes",
+    "Priority": "10",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "People,Fei,Gaal",
+    "ShipType": "Diplomat",
+    "Text": "Рейнджер <Player>! Как дипломат, я не могу не отреагировать на ваш акт агрессии по отношению к кораблю <FullShipGood>. Я взываю к вашему милосердию и состраданию. Задумайтесь, какой пример вы подаете нашей молодежи?"
+  },
+  "63": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Narcotics",
+    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "PlayerHaveGoods": "Yes",
+    "Priority": "20",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "Yes",
+    "ShipMayScanPlayer": "Yes",
+    "ShipRace": "Maloc,People,Fei,Gaal",
+    "ShipType": "Warrior",
+    "Text": [
+      "\"Stop, narcotics, narkomano stopo...\". А к чему это я? А к тому, <Player>, что сканирование обнаружило на борту вашего судна груз наркотиков - запрещенного, между прочим, товара.",
+      "Извините, но, согласно законам моей планеты, <HomePlanet>, контрабандисты-наркоторговцы должны безжалостно уничтожаться. Ничего личного, рейнджер, таков порядок."
+    ]
+  },
+  "64": {
+    "AutoTalk": "Yes",
+    "FlyType": "Any",
+    "PlayerRace": "Fei",
+    "Priority": "3",
+    "Relations": "Normal,Good,Best",
+    "ShipRace": "Fei",
+    "ShipType": "Liner,Diplomat",
+    "Text": [
+      "Приветствую, <Player>, рейнджер-фэй! У нас, на борту судна <FullShip>, есть кое-кто, кто хотел бы поговорить с вами!",
+      "...",
+      "Аллилуйя, братья и сестры! Восславим Господа нашего, Творца всего сущего. Славься, славься...",
+      "Сегодня я расскажу вам, братья и сестры, о создании первых фэян, историю Творения Разума. Создал Бог первое существо из молекул органических соединений, коих было кругом во множестве. И сказал Бог: \"Живи!\" И ожило существо. И сказал Бог: \"Мысли!\" И стало мыслить существо, и обрело разум. Задумался Господь и, запамятовав, снова сказал: \"Мысли!\" И вдвое сильнее стало мыслить существо. И назвал Бог это существо Мужчиной, и нарек его именем Айам. Но скучно было Айаму, и тогда взял Бог образцы костной ткани и внутренних жидкостей Айама, и создал Женщину, и нарек ее именем Фева. И жили Айам и Фева вместе, но недружно - постоянно устраивали диспуты научные, с обязательным выдиранием волосьев, и мерили, чей IQ больше. И разгневался Господь. Взял, и путем неизвестным, но явно не хирургическим, соединил Айама и Феву в одно существо, и нарек его Фэй. И лишил он это существо волосяного покрова - на всякий случай. И пошли от Фэя фэяне - мужчины и женщины, в едином существе воплощенные. Так восславим же Творца нашего, Господа всемогущего! Аллилуйя, братья и сестры!.."
+    ]
+  },
+  "65": {
+    "FlyType": "Any",
+    "PlayerFlyToShip": "Yes",
+    "Priority": "10",
+    "Relations": "Any",
+    "ShipBadFlyToShip": "Any",
+    "ShipFlyToPlayer": "No",
+    "ShipRace": "Maloc",
+    "ShipType": "Diplomat",
+    "Text": [
+      "Эй, ты, <Player>, лети своим путем. Или ты думаешь, я начну тебя уговаривать оставить меня по-хорошему? Так поступил бы какой-нибудь задохлик, но только не малокский дипломат, ведь мощь нашей дипломатии стоит твердой почве: сила есть - слова излишни!",
+      "Врага надо мочить сами знаете где, пока он не запросит пощады и не согласится на наши условия!"
+    ]
+  },
+  "66": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerFlyToShip": "Yes",
+    "PlayerRace": "Peleng",
+    "PlayerStatus": "Pirate,Warrior",
+    "Priority": "10",
+    "Relations": "Bad,Normal,Good",
+    "ShipFlyToPlayer": "No",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat",
+    "Text": "А ну, <Player>, лучше по-хорошему отстань от меня, пиратская морда! Я знаю, что ты задумал недоброе. К вам, пеленгам, спиной лучше не поворачиваться - так и норовите подлость какую сделать."
+  },
+  "67": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Goods": "Food",
+    "PlayerRace": "Maloc",
+    "Priority": "1",
+    "Relations": "War,Bad",
+    "ShipGoodsCnt": "Small,Average,Big,Huge",
+    "ShipRace": "Peleng,People,Fei",
+    "ShipType": "Transport,Liner,Ranger,Pirate",
+    "StrengthShipWithPlayer": "Average,Big,Huge",
+    "Text": [
+      "Эй, ты, <Player>, гамадрила волосатая! Я к кому обращаюсь, дикарь? Ты небось красные микросхемы-то на обед кушаешь? Ха-ха!",
+      "Извини, у меня трюмы забиты едой, а вот бананов для тебя сегодня нету. Ха-ха!"
+    ]
+  },
+  "68": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "Priority": "5",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Any",
+    "ShipRace": "Gaal",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Warrior",
+    "Text": [
+      "Внимание, капитан <Player>, ваше антисоциальное поведение вызвало крайне негативную реакцию на планете <LastPlanet>. Поэтому вам крайне рекомендовано пройти полный курс реабилитации морально-личностных качеств в особом пансионате. Там вам привьют нормы поведения в цивилизованном обществе, и с дубинкой надсмотрщика вы впитаете принципы Гуманизма и постижения Совершенства.",
+      "Ваш отказ, <Player>, послужит признанием вашей неспособности сосуществовать с высокоразвитыми представителями гуманоидных рас, что делает вас потенциально опасным для общества. С прискорбием сообщаю, что терпеть присутствие подобных раздражающих элементов мы не намерены, и у меня есть приказ на устранение потенциальной угрозы обществу в вашем лице."
+    ]
+  },
+  "69": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "Yes",
+    "Priority": "1",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipRace": "Fei",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Diplomat,Ranger,Pirate,Warrior",
+    "StrengthShipWithPlayer": "Mini,Small,Average",
+    "Text": "Лучше отвали от меня, <Player>. Меня-то ты, конечно, замочишь... Но ты ведь знаешь, что мы, фэяне, самая развитая раса? Пыточные устройства Дзухуллага ничто по сравнению с тем, что способен изобрести высокоразвитый фэянский разум, пылающий жаждой мщения."
+  },
+  "7": {
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "Relations": "Normal,Good,Best",
+    "ShipBadFlyToShip": "Yes",
+    "ShipGoodsTypeCnt": "0",
+    "ShipRace": "Peleng,People,Fei,Gaal",
+    "ShipStructure": "Mini,Small",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": [
+      "SOS! SOS!",
+      "Меня преследует <FullShipBad>! Мой корабль поврежден, жить осталось недолго. Прошу тебя, <Player>, вступиться за меня.",
+      "Увы, предложить взамен ничего не могу. Никаких товаров у меня нет, как и денег. Но дружбу по гроб жизни обещаю."
+    ]
+  },
+  "70": {
+    "AutoTalk": "Any",
+    "FlyType": "Any",
+    "PlayerIsShipBad": "Yes",
+    "Priority": "1",
+    "Relations": "War",
+    "ShipBadFlyToShip": "Yes",
+    "ShipRace": "Maloc",
+    "ShipRaceIsPlayerRace": "No",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Арр-р, <Player>! И как только у тебя хватило смелости напасть на малокский корабль? Или ты не слыхал о малокской доблести? Наверное, ты слишком глуп, чтобы осознать безнадежность своего поступка. Так что пеняй на себя, если сегодня твои родственники станут богаче на 10000 cr!"
+  },
+  "8": {
+    "FlyType": "Any",
+    "InFear": "Yes",
+    "PlayerIsShipBad": "No",
+    "Relations": "Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadTurnBeforeEndOrder": "1,2",
+    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "ShipRace": "War",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+    "Text": "Даже в такую минуту я не хочу видеть твою рожу, <Player>! Я к тебе отношусь не лучше, чем к типу, что сидит у меня на хвосте."
+  },
+  "9": {
+    "DominatorsAlreadyDefeated": "No",
+    "FlyType": "Any",
+    "Relations": "War,Bad",
+    "ShipBadFlyToShip": "Yes",
+    "ShipBadType": "Kling",
+    "ShipStructure": "Mini,Small",
+    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
+    "Text": "Хоть мы и враги, рейнджер <Player>, но дела мои так плачевны, что я вынужден взывать к твоему милосердию! Еще немного, и эти доминаторы меня прикончат, выручай, а?"
+  },
+  "CountShipGreetings": "500",
+  "Dominator": {
+    "Blazer": "Идентификация: Объект <Player>.<br>Приказ: Уничтожить.<br>Состояние: Выполняется.",
+    "Blazer1": "Идентификация: Враг.<br>Приготовься к уничтожению, <Player>.",
+    "BlazerChameleon": "Идентификация: Объект <Player>.<br>Приказ: Сотрудничество.<br>Состояние: Ожидание команды.",
+    "Keller": "Идентификация объекта: Рейнджер <Player>. Доступ нулевого уровня. Предполагается изучение структуры.",
+    "Keller1": "Производится сбор информации. Объект связи: Рейнджер <Player>. Структура не изучена.",
+    "KellerChameleon": "Объект на связи: <Player>.<br>Структура: Идентичная.<br>Продолжается сбор информации...",
+    "ProgrammRun": "Выполняю программу <Name>.<br>Контакт не представляется возможным.",
+    "Rnd": "HGFD 83-82 n42kuhdn2 iu3hkw bsdqwd st8asxtg2k23j42k jv1u2f31s2 h32iug3 2i3g 12-12 dfg3l4n5 4kj3b4k5j2 234j2h1 231h4!...",
+    "Rnd1": "sdfs s d fg dfgd fgsdljl4k,saazc zi3h 2k-14n 23jk4nbkfgn 34ofns,mdfn34  gedl434 5erg et-34 dfgme4t34g e48853 34594 11...",
+    "Rnd2": "dfgd fg fgbf gbfdngb fgbfgner et 34t 3ygmgh gh n 45t3 4 34w efgthrth  34343ggg g fghfgn zwner wertkewtn e rt2 p y1...",
+    "Rnd3": "YTFnb 345h3hi32u 234h2k3o2i4h 44-hgpdf gfg fghr t r;g9fgb9cfb dqa18d7fg df67gd8g3f d89fg9d df2gd5 dfg6 d65df8g !...",
+    "Terron": "Вид объекта не акцептирован. Ожидается ввод данных.",
+    "Terron1": "Терроноид <Player> не опознан. Объекту следует приступить к немедленной дематериализации.",
+    "TerronChameleon": "Терроноид <Player> распознан.<br>Идет подготовка к обмену данными..."
+  },
+  "Group": {
+    "PirateInvaderAfter": "<Player>, шуруй сюда, не то пропустишь все самое интересное. Мы захватываем систему <Star>. Сейчас она под контролем Коалиции, но мы живенько выбьем отсюда эту заразу. Давай, не тяни, операция уже началась!",
+    "PirateInvaderAfterKling": "Мы тут летим мочить тупых железяк в системе <StarEnemy>. Подключайся, <Player>, отщипни от нашего пирога кусочек славы! Вылет прямо сейчас!",
+    "PirateInvaderBefore": "Ха-ха, <Player>, братан, сколько лет, сколько планет. Помнишь, как мы с тобой в одной малокской тюряге парились? Или не с тобой дело было? Память уже не та, да и неважно. Полетели лучше с нами захватывать систему <Star>. Подобьем пару торгашей, стырим, если что выпадет из них, приобщимся к славе. Как тебе идея? Если ты за, то давай, подтягивайся к нам до <Date>.",
+    "PirateInvaderBefore1": "О, хорошо, что ты вышел на связь, <Player>. Есть одно дельце. Мы тут летим брать под контроль систему <Star>. Говорят, что там сейчас мало войск Коалиции. Давай-ка, дуй с нами. Всяко спокойнее, когда рядом такой боевой парень, как ты. Начинаем <Date>.",
+    "PirateInvaderBefore2": "Слышал анекдот про трех пенчекряков, рейнджер? Нет? Жалко, я думал, хоть ты мне напомнишь. В наказание за свою провинность полетишь <Date> с нами, отвоевывать у Коалиции систему <Star>. Отказ не принимается, сам понимаешь, хе-хе.",
+    "PirateInvaderBeforeKling": "Здорово, <Player>. Мы тут летим отбивать у домиков систему <StarEnemy>. Айда за компанию, а то у нас один чувак в тюрягу загремел, некому фланг прикрывать. Соображай быстрее, вылетаем <Date>.",
+    "PirateInvaderBeforeKling1": [
+      "Здорово, <Player>. Мы тут летим отбивать у домиков систему <StarEnemy>. Айда за компанию, а то у нас один чувак в тюрягу загремел, некому фланг прикрывать. Соображай быстрее, вылетаем <Date>.",
+      "Не улетай далеко, без профита останешься. Держись рядом."
+    ],
+    "WarriorLiberatorAfter": "Мы выполняем приказ по освобождению системы <StarEnemy>. Будем рады, если вы поможете нам. Держитесь рядом, <Player>, боевая операция уже началась!",
+    "WarriorLiberatorBefore": "Рады видеть вас, <Player>. Наша группа послана для освобождения системы <StarEnemy>. Будем рады, если вы поможете нам. Держитесь рядом. Напоминаем, что операция в системе начнется <Date>.",
+    "WarriorLiberatorBefore1": [
+      "Рейнджер <Player>! Мы летим освобождать систему <StarEnemy>. Начало операции назначено на <Date>.",
+      "Держись рядом, если хочешь помочь."
+    ]
+  },
+  "Standart": {
+    "DiplomatBad": "Общение с вами, <Player>, ни к чему хорошему не приведет. Вы почти вне закона на моей планете <HomePlanet>.",
+    "DiplomatBad1": "Вы хотите сказать, что мне есть, что обсуждать с гнусным разбойником вроде вас, <Player>?",
+    "DiplomatBad2": "Как дипломат могу заметить, что вы, <Player>, не самая приятная личность из тех, с кем мне когда-либо приходилось иметь дело.",
+    "DiplomatBad3": "Должен вам заметить, <Player>, что я испытываю к вам неприязнь и вовсе не горю желанием общаться.",
+    "DiplomatBest": "Чем могу служить, <Player>?",
+    "DiplomatBest1": "Здравствуйте, <Player>. Обязательно посетите наше консульство на планете <HomePlanet>, там вроде как было какое-то задание для вас.",
+    "DiplomatBest2": "Спасибо, что пришли на мой канал, <Player>. С удовольствием обсужу с вами любой вопрос.",
+    "DiplomatChameleon": "Как официальный представитель сил Коалиции, я призываю вашу расу разумных ..эээ.. механизмов сесть за стол переговоров и покончить, наконец, с этой бессмысленной войной.",
+    "DiplomatChameleon1": "Пожалуйста, перейдите, наконец, от варварских методов ведения войны к гуманистической дипломатии. От этого выиграют обе стороны!",
+    "DiplomatChameleon2": "Выражаю вам свое возмущение вашими поступками, направленными на уничтожение всех разумных рас. Вы немедленно должны прекратить огонь и проследовать со мной для подписания мирного соглашения.",
+    "DiplomatGood": "От имени своего правительства, планеты <HomePlanet>, передаю вам горячий привет, <Player>!",
+    "DiplomatGood1": "Всегда рад уделить вам минуту своего драгоценного времени, господин <Player>. Возможно, на дипломатическом поприще вы могли бы добиться значительных успехов.",
+    "DiplomatNormal": "Возможно, у нас есть общие темы для разговора. Итак, я вас слушаю. Но предупреждаю сразу. На моей родине, планете <HomePlanet>, от меня ждут решительных дипломатических действий. Так что говорите быстрей, что вам надо!",
+    "DiplomatNormal1": "Приветствую, <Player>. В чем заключается ваша проблема? Если вы хотите попросить политического убежища, то я лично ничем не могу помочь. Советую обратиться в наше консульство на планете <HomePlanet>.",
+    "DiplomatNormal2": "Вы связались с ответственным чиновником по всем вопросам. Я готов вас выслушать от имени планеты <HomePlanet>.",
+    "DiplomatWar": "Я не уполномочен вступать в связь с врагами моего народа. Прошу освободить эфир от вашего присутствия, <Player>.",
+    "DiplomatWar1": "Я не нахожу возможности обсуждать какие-либо вопросы с пиратом. Уходи с моей волны, <Player>!",
+    "FemaleBad": "Что тебе, <Player>, от меня надо? Я не хочу иметь с тобой никаких дел.",
+    "FemaleBad1": "Не поверишь, но меня совершенно не интересует, что ты хочешь мне сказать. И на связь я вышла только для того, чтобы донести эту информацию до тебя, <Player>.",
+    "FemaleBad2": [
+      "Знаешь, <Player>, я могу уделить тебе не больше времени и внимания, чем мусору, прилипшему к подошве ботинка, потому что я не люблю таких типов, как ты.",
+      "Имей это в виду, если захочешь донести до меня какую-либо информацию."
+    ],
+    "FemaleBest": "Салют, <Player>, дружище, сколько лет, сколько зим! Вижу, ты времени зря не теряешь, растешь над собой как личность. Рада за тебя.",
+    "FemaleBest1": "Вот кого я рада видеть в бескрайних просторах космоса, так это тебя, <Player>! Как жизнь молодая? Чем порадуешь?",
+    "FemaleBest2": "Эх, если бы не было этой проклятой войны, я бы обязательно вышла за тебя замуж, <Player>, ты такой славный... Чем порадуешь?",
+    "FemaleBest3": "Рассказала бы тебе новый анекдот, <Player>, но немножко тороплюсь, прости уж. Чего ты хочешь?",
+    "FemaleBest4": "Рада тебя видеть, друг! Желаю тебе удачи в бою и процветания твоему бизнесу.",
+    "FemaleBest5": "<Player>, как я рада, что ты вышел на связь. Всегда приятно поговорить с хорошим гуманоидом!",
+    "FemaleChameleon": "Привет, привет. Что, в этом сезоне мода на корабли доминаторов? Может, мне тоже себе прикупить камуфляж, как считаешь?",
+    "FemaleChameleon1": "Вот всем хороши доминаторские корабли, красивые, стремительные, огоньками всякими перемигиваются, но при этом атакует каждый дурак. Все же без маскировки летать спокойнее, а ты как считаешь?",
+    "FemaleChameleonWar": "<Player>, мало того, что ты сам по себе негодяй, каких поискать, так еще и под доминаторов косишь! Ну держись, сейчас ты у меня получишь...",
+    "FemaleChameleonWar1": "Прямо не могу удержаться от негодования, когда вижу тебя в таком виде, <Player>. Если я тебя сейчас пристрелю, то в суде меня наверняка оправдают, как находящуюся в состоянии аффекта.",
+    "FemaleChameleonWar2": "Значит, теперь ты еще и под доминатора косплеишь. Меня тошнит от таких, как ты. Готовься к смерти.",
+    "FemaleGood": "Приветствую тебя, <Player>. Как поживаешь?",
+    "FemaleGood1": "О, привет, друг. Как поживаешь, чем порадуешь?",
+    "FemaleGood2": "<Player>, а ты знаешь, что доминаторы сходят с ума от звуков флейты? Мне по секрету один знакомый ученый рассказал. Правда, он еще не проверял эту теорию на практике, но клянется, что это так.",
+    "FemaleGood3": "А ты любишь котят, <Player>? Я вот очень люблю. Они такие пушистенькие, кругленькие, глазастенькие... Так и просятся всем видом, чтобы их погладили по шерстке... Ой, извини, ты что-то хотел?",
+    "FemaleGood4": "<Player>, какая помада мне идет больше, зеленая или фиолетовая? Впрочем, чего я тебя спрашиваю, все равно пока сама не определюсь, никого больше не буду слушать. Ты чего-то хотел от меня?",
+    "FemaleGood5": "А-а!... Подожди, не смотри! Секунду!.. Фух, все, можешь смотреть. Случайно нажала на кнопку приема... Ты чего-то хотел, друг <Player>?",
+    "FemaleNormal": "Привет, <Player>, выкладывай побыстрей, что там у тебя. Я сильно спешу.",
+    "FemaleNormal1": "Чего ты от меня хочешь, <Player>? Я особа занятая, у меня нет времени трепотню в эфире разводить.",
+    "FemaleNormal2": "Так, <Player>, у тебя ровно минута на то, чтобы объяснить, зачем ты отвлекаешь меня от дел. Я тебе не продавщица в магазине, с которой можно часами языком болтать.",
+    "FemalePartner": "О, <Player>! Надеюсь, у тебя нет ко мне никаких претензий? Я стараюсь выполнять условия нашего договора.",
+    "FemalePartner1": "Здравствуй, <Player>. Все нормально? Если что-то не так - сразу скажи мне.",
+    "FemalePartner2": "Привет! Я стараюсь делать все так, как ты сказал, босс. Извини, если что не так.",
+    "FemalePartnerChameleon": "Слушай, <Player>, в чем прикол? Меня как-то напрягает, что ты в доминаторской маскировке, да и окружающие подозрительно косятся.",
+    "FemalePartnerChameleon1": "Может быть снимешь эту дурацкую маскировку? Хоть я и в твоем подчинении, но меня все равно раздражает этот вид в иллюминаторе...",
+    "FemalePartnerChameleon2": "Никак не пойму, зачем ты нацепил эту дрянь на свой корабль, <Player>. Не удивляйся, если тебя неправильно поймут.",
+    "FemaleWar": "Свет не видывал негодяя хуже тебя, <Player>. Даже говорить с тобой не хочу.",
+    "FemaleWar1": "Между нами не может быть хороших отношений. Ты так себя ведешь, что меня тошнит от одного вида твоего имени в рейтинге рейнджеров. Следовательно, говорить нам не о чем.",
+    "FemaleWar2": "А я-то думала, почему такое поганое предстувствие меня мучает весь день. Оказывается, оно было к тому, что я встречу отброса вроде тебя, <Player>.",
+    "LinerBad": "Если честно, <Player>, я не в восторге от мысли с тобой пообщаться. Ты занесен в список опасных пиратов.",
+    "LinerBad1": "От тебя, <Player>, нужно держаться подальше. Ты занесен в список опасных пиратов.",
+    "LinerBest": "Салют, <Player>! Для меня большая честь - общаться с тобой.",
+    "LinerChameleon": "О боже, доминатор! Он еще и разговаривает со мной! Это конец! Спокойствие, только спокойствие, за моей спиной сидят сотни пассажиров, они верят в меня. Я должен быть сильным: вдох, выдох, вдох, выдох...",
+    "LinerChameleon1": "Что за?.. Доминаторы решили запугать нас видом своих страшных физиономий! Пассажиры, пристегнитесь покрепче, сейчас мы поддадимся на эту уловку и унесем отсюда ноги!",
+    "LinerChameleon2": "Взываю к твоему процессору, доминатор! Помилуй жизни сотен пассажиров, которые ни в чем не виноваты!",
+    "LinerGood": "Приветствую тебя, <Player>. Спасибо, что почтил меня своим вниманием.",
+    "LinerGood1": "Приветствую, <Player>. Надеюсь, ты хочешь меня защитить от пиратов?",
+    "LinerNormal": "Привет, <Player>. Что привело тебя на мою волну?",
+    "LinerNormal1": "Привет, привет. Хоть я и скован жестким графиком, но для тебя, <Player>, всегда найду минутку.",
+    "LinerWar": "На моем корабле нет ни одного пассажира, который не плевался бы при одном упоминании твоего имени, <Player>.",
+    "LinerWar1": "Я тебя ненавижу, <Player>. Ты грязный, мерзкий тип. Ты пират, я знаю!!!",
+    "PirateBad": "Что-то мне твоя физиономия не нравится, <Player>. Ты, кажется, должен мне немного бабла?",
+    "PirateBad1": "Ба, кто тут летает! Ты че, в детстве лопатой по морде получил, что такой красавец? А, <Player>???",
+    "PirateBad2": "Я тут искал цель для стрельбы. Кажется, твое гнилое корыто, <Player>, как раз отвечает моим требованиям...",
+    "PirateBad3": "Чего тебе надо, слизняк?",
+    "PirateBest": "Ты че, дебил, вареж... А! Извини, брат, не узнал. Ты по делу, <Player>? Мож, замочим кого сегодня?",
+    "PirateBest1": "Але, приятель, я на связи... Але, братан, я не понял... Йоу, наркота паленая была вчера, в курсе?.. Че надо?",
+    "PirateBest2": "Ну че пялишься, <Player>? Что, типа не видал никогда настоящего пирата? Аа-а? Давай, переходи сразу к делу, кого будем мочить?",
+    "PirateChameleon": "Хе, чувак, ты неплохо смотришься в этом камуфляже, все так и шарахаются от тебя! Ты по делу или как?",
+    "PirateChameleon1": "Эй, братан, пыль в глаза лохам пускаешь? Ну давай, аккуратнее только. От меня-то чего хотел?",
+    "PirateChameleon2": "Здарова, маскировщик. Че, в этом сезоне мода на корабли доминаторов? Может, мне тоже себе прикупить камуфляж, как считаешь?",
+    "PirateChameleonWar": "Ты совсем оборзел, <Player>, нацепил камуфляж и корчишь из себя доминатора. Сгинь с глаз моих долой!",
+    "PirateChameleonWar1": "Слышь ты, домик из деревни, я тебе сейчас крышу-то снесу!",
+    "PirateChameleonWar2": "<Player>, ты меня совсем задрал. Твой маскарад меня не проведет, готовься к смерти!",
+    "PirateGood": "Здарова, как делы, <Player>? Одолжил бы, что ли, бабла немного, а то у меня бизнес в последнее время плохо прет.",
+    "PirateGood1": "Здаров, кореш, в чем проблема? Я кое-что слышал о тебе, <Player>. Ой, как меня кумарит сегодня...",
+    "PirateNormal": "Чувак, ты че-то хотел?! Не в моих правилах общаться с рейнджерами вроде тебя, <Player>.",
+    "PirateNormal1": "Че надо, брателло? Может, ты, <Player>, хочешь мне бабок отвалить? А?",
+    "PirateNormal2": "Ну что ж, ты вроде не слизняк. Я тоже тут понемногу развожу всех на бабки. А в чем твоя фишка, братан?",
+    "PirateNormal3": "Ты че, не въезжаешь, что я занят. Еще есть вопросы?",
+    "PirateNormal4": "Привет братан. Че, купил себе диплом рейнджера? Думаешь, с ним можно больше бабла заработать?",
+    "PiratePartner": "О, <Player>! Я стараюсь выполнять свои партнерские обязательства.",
+    "PiratePartner1": "Всегда рад встрече, босс. О чем пойдет разговор?",
+    "PiratePartner2": "Всегда рад тебя видеть, <Player>. Какие будут указания?",
+    "PiratePartner3": "Капитан <Player>?! Жду ценных указаний!",
+    "PiratePartner4": "Говори, босс. Я внемлю всем твоим инструкциям.",
+    "PirateWar": "Ты че оборзел вконец, я не понял. Отвали, <Player>!!!",
+    "PirateWar1": "Че пялишься, придурок, в рог захотел? Проваливай с моего канала, <Player>!",
+    "PirateWar2": "Я вовсе не рад общаться с тобой, грязный недоносок <Player>. Придушил бы собственными руками...",
+    "PirateWar3": "Твоя грязная морда на экране выводит меня из состояния равновесия. Что тебе надо, <Player>?",
+    "PirateWar4": "Ты вообще врубаешься, баран, куда прешь?! Я еще разделаюсь с тобой, <Player>! Считай, что ты уже труп.",
+    "RangerBad": "Что тебе, <Player>, от меня надо? Я не хочу иметь с тобой никаких дел.",
+    "RangerBad1": "Не имею ни малейшего желания с тобой общаться. Наши понятия о чести рейнджеров здорово расходятся.",
+    "RangerBad2": "Грязный прохвост <Player>, ты напрасно тратишь драгоценное время такого выдающегося рейнджера, как я, поскольку я вовсе не собираюсь с тобой разговаривать!",
+    "RangerBad3": "Тебе мало врагов, <Player>, хочешь нажить еще одного? Уноси поскорее отсюда свою задницу.",
+    "RangerBest": "Приветствую тебя, <Player>. Как дела, дружище?",
+    "RangerBest1": "Приветствую тебя, дружище! Как делишки?",
+    "RangerBest2": "Приветствую, <Player>. Наше дело правое, мы победим доминаторов!",
+    "RangerBest3": "Привет, друг, у тебя там случаем не завалялась бутылочка-другая? Может, разопьем на двоих? Я так соскучился по родному дому...",
+    "RangerChameleon": "Ух ты, говорящий доминатор! Мне за тебя кучу очков дадут. Ты никуда не улетай, я сейчас тобой займусь.",
+    "RangerChameleon1": "Спокойствие, только спокойствие... Ложки нет, доминаторы не умеют разговаривать, я просто вчера немного перебрал...",
+    "RangerChameleon2": "Ну что такое, опять связь барахлит. Попадись мне этот пеленгский техник, который поставил на стереофон этот скринсейвер с доминатором... Что? Это уже сеанс связи? Ну все, железяка, ты мне ответишь за порчу нервов!",
+    "RangerGood": "Приветствую тебя, <Player>. Как дела?",
+    "RangerGood1": "Здравствуйте, <Player>. Польщен встречей с вами. Кажется, мы встречались ранее?",
+    "RangerGood2": "Ба, <Player>, собственной персоной! И по какому поводу, собственно?",
+    "RangerNormal": "Привет, <Player>, надеюсь, ты меня побеспокоил не просто так?",
+    "RangerNormal1": "Привет, <Player>, выкладывай побыстрей, что там у тебя. Я сильно спешу.",
+    "RangerNormal2": "Привет и тебе. Если есть какое дельце, выкладывай, только быстро.",
+    "RangerPartner": "О, <Player>! Я стараюсь выполнять свои партнерские обязательства.",
+    "RangerPartner1": "Всегда рад встрече, партнер. О чем пойдет разговор?",
+    "RangerPartner2": "Всегда рад тебя видеть, <Player>. Какие будут указания?",
+    "RangerPartner3": "Капитан <Player>?! Жду ценных указаний!",
+    "RangerPartner4": "Говори, босс. Я внемлю всем твоим инструкциям.",
+    "RangerPartnerChameleon": "Слушай, <Player>, на нас постоянно все косятся и корабль твой выглядит как-то странно, ты его перекрасил что ли? Ладно, не мои проблемы, ты чего хотел, собственно?",
+    "RangerWar": "<Player>, вероятно, ты не знаешь моего мнения о тебе. Так вот, отношений с твоей мерзкой персоной я не хочу иметь никаких.",
+    "RangerWar1": "Тебе нет места в этом мире, грязная собака <Player>. Я, капитан корабля <Ship>, всегда мечтал разделаться с тобой!",
+    "RangerWar2": "Как же я хочу взорвать твое старое корыто, <Player>! Прямо не могу удержаться от бранных слов в адрес твоей матери.",
+    "TransportBad": "Оставь меня в покое, <Player>. Я не желаю с тобой общаться.",
+    "TransportBad1": "Слушай, <Player>, если ты не прекратишь мне докучать, я поставлю тебя в режим игнорирования.",
+    "TransportBad2": "Я не общаюсь со всякими пиратами вроде тебя, <Player>.",
+    "TransportBest": "Салют, <Player>! Всегда рад встрече с тобой.",
+    "TransportBest1": "Приветище, <Player>. Я тебя уважаю и всегда готов помочь в трудную минуту.",
+    "TransportChameleon": "Нет, не убивайте меня! Пощадите! Если вы оставите меня в живых, я буду служить на благо великой империи доминаторов!",
+    "TransportChameleon1": "Пожалуйста, не трогайте меня! Я в детстве любил играть с роботами, я прекрасно уживусь с вами!",
+    "TransportChameleon2": "Я всего лишь скромный работяга, я не представляю никакой угрозы! Если хотите, я могу перевозить грузы для вас с огромной скидкой, только оставьте меня в живых!",
+    "TransportGood": "Всегда рад приветствовать тебя, <Player>. Как там доминаторы, еще не заржавели?",
+    "TransportGood1": "Приветствую, <Player>. Надеюсь, ты хочешь меня защитить от пиратов?",
+    "TransportNormal": "Что ж, привет и тебе, <Player>. Только постарайся быть кратким, а то я спешу - поставщики торопят.",
+    "TransportNormal1": "Время - деньги, <Player>. Надеюсь, у тебя действительно важное дело.",
+    "TransportWar": "Я тебя ненавижу, <Player>. Ты грязный, мерзкий тип. Ты пират, я знаю, и всем это расскажу!",
+    "TransportWar1": "У тебя хватает наглости меня вызывать, <Player>? Ты мерзавец, грязный пират! На моей родной планете <HomePlanet> по тебе электрический стул плачет.",
+    "TransportWar2": "Пропади ты пропадом, чертов <Player>! Я не желаю с тобой общаться.",
+    "WarriorBad": "Я нахожусь на боевом посту. Не приставай, <Player>. На моей планете <HomePlanet> ты практически вне закона.",
+    "WarriorBad1": "Будь моя воля, <Player>, давно бы тебя уже прикончил. Но вот получил с <HomePlanet> приказ пока тебя не трогать. Однако если ты еще хоть что-то сделаешь противозаконное, то тебе конец.",
+    "WarriorBest": "Салют, <Player>! Экипаж корабля <Ship> всегда рад поддержать тебя в бою!",
+    "WarriorBest1": "Согласно приказу планеты <HomePlanet>, я обязан выслушать тебя, <Player>.",
+    "WarriorChameleon": "Что за?.. Отставить разговорчики! Контакты с врагом запрещены! Приготовься к смерти.",
+    "WarriorChameleon1": "Ты еще смеешь разговаривать со мной, тупая железка? Сейчас ты испробуешь на себе всю мощь моего корабля!",
+    "WarriorChameleon2": "Не пытайся отвлечь мое внимание разговорами, тебе это все равно не удастся. Все орудия - в полную боеготовность!",
+    "WarriorGood": "Что вам нужно, <Player>? Я буду рад вам помочь, если только это не повредит моему заданию.",
+    "WarriorGood1": "Вы обратились по адресу, <Player>. Военный экипаж <Ship> уполномочен решением планеты <HomePlanet> вести военные операции.",
+    "WarriorNormal": "Выкладывай, что тебе надо, <Player>, только кратко. Я на задании и болтать не намерен.",
+    "WarriorNormal1": "Так, я патруль с планеты <HomePlanet>. Если у вас есть на борту контрабандные товары, запрещенные на <HomePlanet>, то лучше выкиньте их немедленно. Иначе мы уничтожим вас вместе с грузом.",
+    "WarriorNormal2": "Служить и защищать - мой девиз. Если вам нужна помощь, <Player>, то я, в принципе, готов помочь.",
+    "WarriorNormal3": "Привет тебе, космический рейнджер. В каком-то смысле мы с тобой коллеги! Ты галактический бродяга, а я на службе планеты <HomePlanet>.",
+    "WarriorWar": [
+      "Я имею все основания уничтожить вас, рейнджер <Player>, и взяток не принимаю.",
+      "Повторяю: ВЗЯТОК НЕ ПРИНИМАЮ."
+    ],
+    "WarriorWar1": "Я получил приказ с планеты <HomePlanet> уничтожить вас, <Player>. Молитесь своему богу или молите о пощаде."
+  }
+}

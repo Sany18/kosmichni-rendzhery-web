@@ -1,0 +1,11 @@
+{
+  "Caption": "Planet <Name>",
+  "Complate": "Researched: <val>",
+  "Hill": "Mountains",
+  "Land": "Plains",
+  "Satellite": "Research Probes",
+  "SatelliteInPlanet": "Leave research probes on the orbit of planet <Name>?",
+  "Space": "Area: <val>",
+  "TimeLeft": "Remaining: <val> days",
+  "Water": "Ocean"
+}

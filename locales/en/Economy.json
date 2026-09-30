@@ -1,0 +1,12 @@
+{
+  "Name": {
+    "0": "Agricultural",
+    "1": "Mixed",
+    "2": "Industrial"
+  },
+  "ShortName": {
+    "0": "Agricult.",
+    "1": "Mixed",
+    "2": "Industr."
+  }
+}

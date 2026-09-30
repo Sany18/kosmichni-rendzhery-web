@@ -1,0 +1,9 @@
+{
+  "Type": {
+    "0": "Anarchy",
+    "1": "Dictatorship",
+    "2": "Monarchy",
+    "3": "Republic",
+    "4": "Democracy"
+  }
+}

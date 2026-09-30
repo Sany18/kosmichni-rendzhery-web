@@ -1,7 +1,0 @@
-RangerInfo ^{
-    Type ^{
-        Pirate=Pirate
-        Trader=Merchant
-        Warrior=Warrior
-    }
-}

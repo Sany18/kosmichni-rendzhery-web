@@ -1,0 +1,9 @@
+{
+  "AfterBuyHull": "Excellent! The new hull will be delivered to storage, where you can replace it personally.",
+  "Buy": "Would you like to buy <Item> for <Money> cr?",
+  "BuyHelp": "Buy: <Item>",
+  "BuyHull": "Would you like to buy a new ship hull for <Money> cr?",
+  "NoMoney": "Insufficient <Money> cr",
+  "NoSize": "No space available",
+  "UpgradeHull": "You don't have the funds to buy, but you do have enough to replace it. Would you like to replace the hull of your ship for <Money> cr?"
+}

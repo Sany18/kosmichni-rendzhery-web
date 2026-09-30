@@ -1,0 +1,100 @@
+{
+  "BlazerChangeSide": "<Blazer> в рядах Коалиции.",
+  "BlazerChangeSideAlt": "<Blazer> сотрудничает с пиратами.",
+  "BlazerDead": "<Blazer> повержен в бою.",
+  "BlazerLeave": "<Blazer> жив и ведет войну.",
+  "BlazerSuicide": "<Blazer> самоуничтожился.",
+  "Clear": "Удалить",
+  "DateWin": "Дата:<br><Date>",
+  "Exp": "Опыт: <Exp>",
+  "HelpClear": "Удалить текущий рекорд",
+  "HelpExit": "Выход",
+  "HelpToServer": "Сохранить рекорд",
+  "KellerDead": "<Keller> успешно нейтрализован.",
+  "KellerFly": "<Keller> улетел к клисанам.",
+  "KellerLeave": "<Keller> изучает галактику.",
+  "KellerNewResearch": "<Keller> изучает социум.",
+  "Kill": "Убил:",
+  "KillDominator": "Доминаторы",
+  "KillHyper": "В гипере",
+  "KillNormal": "Другие",
+  "KillPirate": "Пираты",
+  "LLevel": "Сложность",
+  "LName": "Имя",
+  "LPlace": "Место",
+  "LRace": "Раса",
+  "LScore": "Очки",
+  "LiberationSystem": "Освободил систем: <LiberationSystem>",
+  "Note": "Примечание:<br>Очки=(Опыт)*Сложность/100/<br>         max(7,Время игры/365)^1.3",
+  "PirateWin0": "Пираты воюют с Коалицией.",
+  "PirateWin1": "Пираты проникли во власть.",
+  "PirateWin2": "Пираты вернулись к истокам.",
+  "PirateWin3": "Коалиция спасена от пиратов.",
+  "PirateWin4": "Пиратов преследуют неудачи.",
+  "PirateWin5": "Пираты поработили Коалицию.",
+  "PlanetBattles": "Выиграл планетарных сражений: <PlanetBattles>",
+  "QueryClear": "Желаете удалить собственные рекорды?",
+  "QueryDelete": "Хотите удалить рекорд <Name> на <Score> очков?",
+  "Quests": "Выполнил заданий: <Quests>",
+  "Quests1": "Выполнено <N> заданий по доставке грузов",
+  "Quests2": "Выполнено <N> заданий по уничтожению кораблей",
+  "Quests3": "Выполнено <N> планетарных квестов",
+  "Quests4": "Выполнено <N> заданий по охране систем",
+  "Quests5": "Выполнено <N> заданий по защите кораблей",
+  "Rank": "Звание: <Rank>",
+  "Rewards": "Получил наград: <Rewards>",
+  "TerronBattle": "<Terron> убит в наземной битве.",
+  "TerronDead": "<Terron> полностью уничтожен.",
+  "TerronLeave": "<Terron> пока размножается.",
+  "TerronStar": "<Terron> преобразовывает звезду.",
+  "ToServer": "Ваша игра, <Player>, успешно сохранена в файле <File><br> <br>Теперь Вам надлежит принять участие в Галактическом Рейтинге Рейнджеров.<br>Все дальнейшие инструкции на официальном сайте игры <clr>ru.spacerangershd.com<clrEnd><br> <br><WinGameDate><br>Комиссия по приемке рекордов.",
+  "TotalLoss": "НЕ ДОЖИЛ ДО ПОБЕДЫ",
+  "TotalWin": "Итого очков: <Total>",
+  "TurnWin": "Время игры:<br><Date> дней",
+  "Winners": {
+    "0": {
+      "Name": "Мудрец гаала",
+      "Race": "Gaal"
+    },
+    "1": {
+      "Name": "Интеллектуал",
+      "Race": "Fei"
+    },
+    "10": {
+      "Name": "Хвастун",
+      "Race": "People"
+    },
+    "2": {
+      "Name": "Гвардеец Михалыч",
+      "Race": "People"
+    },
+    "3": {
+      "Name": "Камикадзе",
+      "Race": "Peleng"
+    },
+    "4": {
+      "Name": "Толстомордый",
+      "Race": "Maloc"
+    },
+    "5": {
+      "Name": "Неуловимый хакер",
+      "Race": "Fei"
+    },
+    "6": {
+      "Name": "Грузчик",
+      "Race": "Maloc"
+    },
+    "7": {
+      "Name": "Очиститель душ",
+      "Race": "Gaal"
+    },
+    "8": {
+      "Name": "Зверожабер",
+      "Race": "Peleng"
+    },
+    "9": {
+      "Name": "Мисс вселенная",
+      "Race": "People"
+    }
+  }
+}

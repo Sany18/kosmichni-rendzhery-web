@@ -1,3 +1,0 @@
-ShipCharacterFemale ^{
-    00=34,	33,	33,	Спецагент
-}

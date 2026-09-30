@@ -1,0 +1,100 @@
+{
+  "BlazerChangeSide": "<Blazer> is in the Coalition ranks.",
+  "BlazerChangeSideAlt": "<Blazer> is allied with pirates.",
+  "BlazerDead": "<Blazer> was damaged in action.",
+  "BlazerLeave": "<Blazer> is alive and fighting.",
+  "BlazerSuicide": "<Blazer> self-destructed.",
+  "Clear": "Delete",
+  "DateWin": "Date:<br><Date>",
+  "Exp": "Experience: <Exp>",
+  "HelpClear": "Delete current record",
+  "HelpExit": "Exit",
+  "HelpToServer": "Save record",
+  "KellerDead": "<Keller> was neutralized.",
+  "KellerFly": "<Keller> flew away to the klissan.",
+  "KellerLeave": "<Keller> is surveying the Galaxy.",
+  "KellerNewResearch": "<Keller> is analyzing society.",
+  "Kill": "Kills:",
+  "KillDominator": "Dominators",
+  "KillHyper": "In hyperspace",
+  "KillNormal": "Other",
+  "KillPirate": "Pirates",
+  "LLevel": "Difficulty",
+  "LName": "Name",
+  "LPlace": "Location",
+  "LRace": "Race",
+  "LScore": "Points",
+  "LiberationSystem": "Systems liberated: <LiberationSystem>",
+  "Note": "Note:<br>Points=(Experience)*Difficulty/100/<br>         max(7,Game time/365)^1.3",
+  "PirateWin0": "Pirates are fighting with the Coalition.",
+  "PirateWin1": "Pirates have infiltrated government.",
+  "PirateWin2": "Pirates have returned to their roots.",
+  "PirateWin3": "The Coalition has been saved from pirates.",
+  "PirateWin4": "Pirates are plagued by misfortunes.",
+  "PirateWin5": "Pirates have enslaved the Coalition.",
+  "PlanetBattles": "Planetary battles won: <PlanetBattles>",
+  "QueryClear": "Do you want to delete your own records?",
+  "QueryDelete": "Do you want to delete <Name>'s record of <Score> points?",
+  "Quests": "Missions completed: <Quests>",
+  "Quests1": "Completed <N> cargo delivery missions",
+  "Quests2": "Completed <N> ship termination missions",
+  "Quests3": "Completed <N> planetary quests",
+  "Quests4": "Completed <N> system protection missions",
+  "Quests5": "Completed <N> ship protection missions",
+  "Rank": "Rank: <Rank>",
+  "Rewards": "Awards received: <Rewards>",
+  "TerronBattle": "<Terron> was killed in a land battle.",
+  "TerronDead": "<Terron> was completely destroyed.",
+  "TerronLeave": "<Terron> is still reproducing.",
+  "TerronStar": "<Terron> is transforming a star.",
+  "ToServer": "<Player>, your game was saved to <File><br> <br>Now you have to take part in the Galactic Ranger Rating.<br>For additional instructions please visit the official site of the game: <clr>www.RANGERS.ru<clrEnd><br> <br><WinGameDate><br>Record Acceptance Committee.",
+  "TotalLoss": "DID NOT LIVE TO SEE VICTORY",
+  "TotalWin": "Total score: <Total>",
+  "TurnWin": "Game time:<br><Date> days",
+  "Winners": {
+    "0": {
+      "Name": "Gaal Sage",
+      "Race": "Gaal"
+    },
+    "1": {
+      "Name": "Intellectual",
+      "Race": "Fei"
+    },
+    "10": {
+      "Name": "Braggart",
+      "Race": "People"
+    },
+    "2": {
+      "Name": "Mickey the Guard",
+      "Race": "People"
+    },
+    "3": {
+      "Name": "Kamikaze",
+      "Race": "Peleng"
+    },
+    "4": {
+      "Name": "Fatface",
+      "Race": "Maloc"
+    },
+    "5": {
+      "Name": "Elusive Hacker",
+      "Race": "Fei"
+    },
+    "6": {
+      "Name": "Mover",
+      "Race": "Maloc"
+    },
+    "7": {
+      "Name": "Soul Purifier",
+      "Race": "Gaal"
+    },
+    "8": {
+      "Name": "Bullfrogasaurus",
+      "Race": "Peleng"
+    },
+    "9": {
+      "Name": "Miss Universe",
+      "Race": "People"
+    }
+  }
+}
