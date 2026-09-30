@@ -3,7 +3,6 @@
   "Cancel": "Cancel",
   "CaptionLoad": "Load Game",
   "CaptionSave": "Save Game",
-  "DateFormatStr": "(hh:nn, dd.mm.yyyy)",
   "Delete": "Delete",
   "Load": "Load",
   "LoadDumpConfirm": "There is a text dump for this save. Do you want to load it (the save will become unfit for sending to RT and getting achievements)?",
@@ -19,6 +18,5 @@
   "Save": "Save",
   "SaveError": "Saving Error",
   "SaveInPlanet": "Planet <Planet>",
-  "SaveInShip": "<ShipName>",
   "SaveInSpace": "<Star> System"
 }

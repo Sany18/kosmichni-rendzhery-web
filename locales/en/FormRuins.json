@@ -29,17 +29,11 @@
         "---",
         "You can choose whichever program is closest to your heart."
       ],
-      "BKAfterInvestment": "<InvestmentText>",
       "BKAfterPlayerNo": [
         "What do you mean, that's enough investments? For shame, <Player>! Investments are the backbone of this world. Where would you be without us and our subsidies?",
         "Think, maybe you have some spare cash? And even if you don't, consider taking out a loan to feed the hungry!...",
         "Ahem, I got carried away, my apologies. This decision is yours and yours alone. After all, we are not a charity either -- this is business. And you are an example for us, Ranger <Player>."
       ],
-      "BKInvestment": [
-        "---",
-        "<InvestmentFullName>"
-      ],
-      "PlayerInvestment": "<InvestmentShortName>",
       "PlayerNo": "Thanks, maybe some other time",
       "PlayerSend": "Invest in projects"
     },
@@ -214,7 +208,6 @@
     "BridgeInterceptorsTargetChangeAsk": "Set target for attack",
     "BridgeInterceptorsTargetChoose": "Select a target",
     "BridgeInterceptorsTargetNoTargets": "No available targets",
-    "BridgeInterceptorsTargetShip": "<Ship>",
     "BridgeInterceptorsTargeting": "Automatic targeting settings",
     "BridgeInterceptorsTargetingAttack": "Attack <StrategyName>",
     "BridgeInterceptorsTargetingCancel": "Cancel",
@@ -295,7 +288,6 @@
     "GreetingHyperspace": "This is <CB> dominion. Right now we're in hyperspace, so you can't leave the station, even if you're really want to. <Player>, you can sleep one off, or have fun at the bar, just don't shoot our nuclear reactor, if it'll go down to shooting. And be ready to rumble once we're arrive!",
     "GreetingNormal": "<Player>, welcome to the <CB> dominion. That's a heaven for every sophisticated pirate: you can improve your tech here, order a pirate raid, and back construction of the new ships for our pilots. Our portal generator can create a hyper-tunnel, so we can reach the farthest corners of the galaxy, but it's only for those good fellows who rob and blow up civilians on a regular basis, and pays their cut to our pot. Long story short, we can provide anything to anyone for becoming the baddest pirate the galaxy has ever known.",
     "GreetingPlayerFlyToStar": "This is <CB> dominion. We're ready to sent you, <Player>, to the system of <FlyToStar>. Just go to the hangar and take off, portal should be ready any second now.",
-    "HyperJumpVideo": "data\\hyper2.vdo,Hyper2",
     "Improvement": {
       "CBAfterOk": "Okay, we're done here. Would you like to improve something else?",
       "CBAfterRepeatNo": "Suit yourself. We'd like if you could pay us for another shi... we meant, work, <Player>.",
@@ -617,7 +609,6 @@
         "<IllName> <MCSeeIllType>",
         "Treatment cost: <Money> cr."
       ],
-      "MCSeeIllType1": "",
       "MCSeeIllType2": "- virus",
       "MCSeeIllness": [
         "Now this, my friend, is no laughing matter... You are very, very ill! Take a look at the full list of illnesses, including viral infections in early stages of development whose symptoms have yet to manifest.",
@@ -1359,7 +1350,6 @@
       ],
       "WBToChamber": "Proceed to the anabiosis chamber. No normal living body can withstand such G-force. It is only with the help of new automation technology that we are now able to make a safe null-jump across an entire spiral arm."
     },
-    "HyperJumpVideo": "data\\hyper.vdo,Hyper",
     "Leader": {
       "Greeting": "Hello, <Player>! You are already quite a celebrity in this Galaxy and one of its most intrepid pilots. Know that you will always receive the warmest welcome here at the <WB> military base.",
       "NewRank": "Congratulations! According to our scale your piloting experience already corresponds to the next rank. You are now a <Rank>, one of the best pilots in the Galaxy. Know that you will always receive the warmest welcome here at the <WB> military base.<br>In the meantime, please accept this <ItemName> from us as a token of our gratitude for your accomplishments in the line of fire."
@@ -1444,8 +1434,7 @@
       ]
     },
     "Rookie": {
-      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!",
-      "NewRank": "not use"
+      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!"
     },
     "SpecialShip": {
       "AfterBuy": "We hate to part with such a beautifully designed ship. But we're willing to do whatever it takes to restore peace in the Galaxy.",

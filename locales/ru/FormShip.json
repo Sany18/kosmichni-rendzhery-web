@@ -3,7 +3,6 @@
   "CloseHold": "Закрыть трюм",
   "CostGoods": "Куплено за <OldCost> cr.",
   "DestrCount": "<Count> зв.<br>(<Cost> эн.)",
-  "DestrEnergy": "<Value1><br>(<Value2>)",
   "DestrIShield": "имп.",
   "DestrLabel": "Статистика",
   "DestrNShield": "норм.",
@@ -73,7 +72,6 @@
     }
   },
   "Repair": "починка<br><Money> cr",
-  "RepairAll": "<Money> cr",
   "RepairMsgAllEnoughNode": "Для починки нестандартного оружия дополнительно требуются ноды в количестве <NeedNode> шт. Вы хотите починить нестандартное оружие?",
   "RepairMsgAllNeedNode": "Для полной починки требуются ноды в количестве <NeedNode> шт. На данный момент у вас нет необходимого количества. Ремонт нестандартного оружия не будет произведен.",
   "RepairMsgEnoughNode": "Для починки нестандартного оружия необходимы ноды в качестве материала. На ремонт будет потрачено <NeedNode> нд.",
@@ -95,7 +93,6 @@
     "Cost": "Стоимость",
     "Main": "Собственность вне корабля",
     "Page": "Страница",
-    "PlanetNO": "( <Water> / <Land> / <Hill> )",
     "Size": "Вес",
     "Star": "Система <Star>",
     "StarInfo": "система"

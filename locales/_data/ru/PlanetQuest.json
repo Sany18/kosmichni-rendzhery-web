@@ -1,0 +1,719 @@
+{
+  "ItemForPlanetQuest": {
+    "0": "none",
+    "1": "none",
+    "10": "none",
+    "11": "Usl_Elus",
+    "12": "Usl_Faruk",
+    "13": "Usl_Foncers",
+    "14": "none",
+    "15": "none",
+    "16": "none",
+    "17": "Usl_Ministry",
+    "18": "none",
+    "19": "Usl_Muzon",
+    "2": "Usl_Bomber",
+    "20": "none",
+    "21": "none",
+    "22": "none",
+    "23": "none",
+    "24": "Usl_Pilot",
+    "25": "none",
+    "26": "none",
+    "27": "Usl_Robots",
+    "28": "Usl_Rvk",
+    "29": "Usl_Shashki",
+    "3": "none",
+    "30": "none",
+    "31": "Usl_Svarokok",
+    "32": "none",
+    "33": "none",
+    "34": "none",
+    "35": "none",
+    "36": "Usl_PTQ63",
+    "37": "Usl_PTQ65",
+    "38": "none",
+    "39": "Usl_PTQ66",
+    "4": "Usl_Citadels",
+    "40": "Usl_PTQ67",
+    "41": "none",
+    "42": "Usl_PTQ68",
+    "43": "Usl_PTQ69",
+    "44": "none",
+    "45": "none",
+    "46": "none",
+    "47": "none",
+    "48": "none",
+    "49": "none",
+    "5": "none",
+    "50": "none",
+    "51": "Usl_PTQ64",
+    "52": "Usl_PTQ70",
+    "53": "Usl_PTQ71",
+    "54": "none",
+    "55": "none",
+    "56": "none",
+    "57": "none",
+    "58": "none",
+    "59": "none",
+    "6": "none",
+    "60": "Usl_PTQn60",
+    "61": "none",
+    "62": "none",
+    "63": "none",
+    "64": "Usl_PTQn64",
+    "65": "none",
+    "66": "Usl_PTQn66",
+    "67": "none",
+    "68": "none",
+    "69": "none",
+    "7": "none",
+    "70": "Usl_VigenereCoin",
+    "8": "Usl_Drugs",
+    "9": "none"
+  },
+  "List": {
+    "0": {
+      "Access": "9",
+      "Dif": "40",
+      "Group": "0",
+      "Image": "Bm.PQI.Amnesia_08",
+      "Length": "3"
+    },
+    "1": {
+      "Access": "6",
+      "Dif": "23",
+      "Group": "0",
+      "Image": "Bm.PQI.Banket_00",
+      "Length": "2"
+    },
+    "10": {
+      "Access": "1",
+      "Dif": "2",
+      "Group": "0",
+      "Image": "Bm.PQI.Election_00",
+      "Length": "0"
+    },
+    "11": {
+      "Access": "9",
+      "Dif": "44",
+      "Group": "0",
+      "Image": "Bm.PQI.Elus_00",
+      "Length": "2"
+    },
+    "12": {
+      "Access": "8",
+      "Dif": "35",
+      "Group": "0",
+      "Image": "Bm.PQI.Faruk_00",
+      "Length": "2"
+    },
+    "13": {
+      "Access": "3",
+      "Dif": "9",
+      "Group": "0",
+      "Image": "Bm.PQI.Foncers_01",
+      "Length": "2"
+    },
+    "14": {
+      "Access": "11",
+      "Dif": "53",
+      "Group": "0",
+      "Image": "Bm.PQI.Gaidnet_03",
+      "Length": "4"
+    },
+    "15": {
+      "Access": "9",
+      "Dif": "46",
+      "Group": "0",
+      "Image": "Bm.PQI.Jumper_01",
+      "Length": "2"
+    },
+    "16": {
+      "Access": "11",
+      "Dif": "51",
+      "Group": "0",
+      "Image": "Bm.PQI.Maze_00",
+      "Length": "4"
+    },
+    "17": {
+      "Access": "1",
+      "Dif": "3",
+      "Group": "0",
+      "Image": "Bm.PQI.Ministry_00",
+      "Length": "2"
+    },
+    "18": {
+      "Access": "12",
+      "Dif": "55",
+      "Group": "0",
+      "Image": "Bm.PQI.Moi_17",
+      "Length": "4"
+    },
+    "19": {
+      "Access": "2",
+      "Dif": "5",
+      "Group": "0",
+      "Image": "Bm.PQI.Muzon_01",
+      "Length": "2"
+    },
+    "2": {
+      "Access": "6",
+      "Dif": "24",
+      "Group": "0",
+      "Image": "Bm.PQI.Bomber_03",
+      "Length": "2"
+    },
+    "20": {
+      "Access": "10",
+      "Dif": "47",
+      "Group": "0",
+      "Image": "Bm.PQI.Olympiada_03",
+      "Length": "4"
+    },
+    "21": {
+      "Access": "8",
+      "Dif": "37",
+      "Group": "0",
+      "Image": "Bm.PQI.Pachvarash_00",
+      "Length": "3"
+    },
+    "22": {
+      "Access": "8",
+      "Dif": "34",
+      "Group": "0",
+      "Image": "Bm.PQI.Park_05",
+      "Length": "3"
+    },
+    "23": {
+      "Access": "1",
+      "Dif": "1",
+      "Group": "0",
+      "Image": "Bm.PQI.Pharaon_01",
+      "Length": "0"
+    },
+    "24": {
+      "Access": "2",
+      "Dif": "4",
+      "Group": "0",
+      "Image": "Bm.PQI.Pilot_02",
+      "Length": "2"
+    },
+    "25": {
+      "Access": "5",
+      "Dif": "22",
+      "Group": "0",
+      "Image": "Bm.PQI.Pizza_00",
+      "Length": "2"
+    },
+    "26": {
+      "Access": "4",
+      "Dif": "15",
+      "Group": "0",
+      "Image": "Bm.PQI.Player_00",
+      "Length": "0"
+    },
+    "27": {
+      "Access": "4",
+      "Dif": "14",
+      "Group": "0",
+      "Image": "Bm.PQI.Robots_00",
+      "Length": "2"
+    },
+    "28": {
+      "Access": "6",
+      "Dif": "27",
+      "Group": "0",
+      "Image": "Bm.PQI.Rvk_03",
+      "Length": "2"
+    },
+    "29": {
+      "Access": "5",
+      "Dif": "18",
+      "Group": "0",
+      "Image": "Bm.PQI.Shashki_00",
+      "Length": "1"
+    },
+    "3": {
+      "Access": "2",
+      "Dif": "7",
+      "Group": "0",
+      "Image": "Bm.PQI.Borzukhan_04",
+      "Length": "3"
+    },
+    "30": {
+      "Access": "3",
+      "Dif": "13",
+      "Group": "0",
+      "Image": "Bm.PQI.Ski_01",
+      "Length": "2"
+    },
+    "31": {
+      "Access": "3",
+      "Dif": "11",
+      "Group": "0",
+      "Image": "Bm.PQI.Svarokok_00",
+      "Length": "2"
+    },
+    "32": {
+      "Access": "7",
+      "Dif": "28",
+      "Group": "0",
+      "Image": "Bm.PQI.Xenolog_00",
+      "Length": "2"
+    },
+    "33": {
+      "Access": "5",
+      "Dif": "17",
+      "Group": "0",
+      "Image": "Bm.PQI.Xenopark_00",
+      "Length": "0"
+    },
+    "34": {
+      "Access": "7",
+      "Dif": "45",
+      "Group": "1",
+      "Image": "Bm.PQI.Glavred_02",
+      "Length": "3"
+    },
+    "35": {
+      "Access": "3",
+      "Dif": "25",
+      "Group": "1",
+      "Image": "Bm.PQI.van_01",
+      "Length": "2"
+    },
+    "36": {
+      "Access": "6",
+      "Dif": "41",
+      "Group": "1",
+      "Image": "Bm.PQI.van_12",
+      "Length": "4"
+    },
+    "37": {
+      "Access": "5",
+      "Dif": "38",
+      "Group": "1",
+      "Image": "Bm.PQI.van_13",
+      "Length": "4"
+    },
+    "38": {
+      "Access": "1",
+      "Dif": "6",
+      "Group": "1",
+      "Image": "Bm.PQI.Siege_03",
+      "Length": "0"
+    },
+    "39": {
+      "Access": "2",
+      "Dif": "12",
+      "Group": "1",
+      "Image": "Bm.PQI.van_14",
+      "Length": "2"
+    },
+    "4": {
+      "Access": "7",
+      "Dif": "29",
+      "Group": "0",
+      "Image": "Bm.PQI.Citadels_00",
+      "Length": "2"
+    },
+    "40": {
+      "Access": "2",
+      "Dif": "20",
+      "Group": "1",
+      "Image": "Bm.PQI.van_50",
+      "Length": "1"
+    },
+    "41": {
+      "Access": "6",
+      "Dif": "43",
+      "Group": "1",
+      "Image": "Bm.PQI.proprolog_00",
+      "Length": "3"
+    },
+    "42": {
+      "Access": "3",
+      "Dif": "21",
+      "Group": "1",
+      "Image": "Bm.PQI.feipsycho_00",
+      "Length": "1"
+    },
+    "43": {
+      "Access": "4",
+      "Dif": "33",
+      "Group": "1",
+      "Image": "Bm.PQI.van_38",
+      "Length": "2"
+    },
+    "44": {
+      "Access": "5",
+      "Dif": "36",
+      "Group": "1",
+      "Image": "Bm.PQI.van_32",
+      "Length": "3"
+    },
+    "45": {
+      "Access": "1",
+      "Dif": "10",
+      "Group": "1",
+      "Image": "Bm.PQI.van_40",
+      "Length": "2"
+    },
+    "46": {
+      "Access": "6",
+      "Dif": "42",
+      "Group": "1",
+      "Image": "Bm.PQI.kas_16",
+      "Length": "4"
+    },
+    "47": {
+      "Access": "5",
+      "Dif": "39",
+      "Group": "1",
+      "Image": "Bm.PQI.stealth_10",
+      "Length": "3"
+    },
+    "48": {
+      "Access": "3",
+      "Dif": "26",
+      "Group": "1",
+      "Image": "Bm.PQI.van_44",
+      "Length": "2"
+    },
+    "49": {
+      "Access": "7",
+      "Dif": "49",
+      "Group": "1",
+      "Image": "Bm.PQI.domoclan_01",
+      "Length": "4"
+    },
+    "5": {
+      "Access": "10",
+      "Dif": "48",
+      "Group": "0",
+      "Image": "Bm.PQI.Depth_00",
+      "Length": "4"
+    },
+    "50": {
+      "Access": "8",
+      "Dif": "54",
+      "Group": "1",
+      "Image": "Bm.PQI.mafia_00",
+      "Length": "4"
+    },
+    "51": {
+      "Access": "4",
+      "Dif": "30",
+      "Group": "1",
+      "Image": "Bm.PQI.van_65",
+      "Length": "2"
+    },
+    "52": {
+      "Access": "1",
+      "Dif": "8",
+      "Group": "1",
+      "Image": "Bm.PQI.edelweiss_00",
+      "Length": "2"
+    },
+    "53": {
+      "Access": "2",
+      "Dif": "19",
+      "Group": "1",
+      "Image": "Bm.PQI.stealth_00",
+      "Length": "1"
+    },
+    "54": {
+      "Access": "5",
+      "Dif": "31",
+      "Group": "1",
+      "Image": "Bm.PQI.van_57",
+      "Length": "3"
+    },
+    "55": {
+      "Access": "4",
+      "Dif": "56",
+      "Group": "1",
+      "Image": "Bm.PQI.Cybersport_04",
+      "Length": "4"
+    },
+    "56": {
+      "Access": "5",
+      "Dif": "48",
+      "Group": "1",
+      "Image": "Bm.PQI.Rush_04",
+      "Length": "2"
+    },
+    "57": {
+      "Access": "8",
+      "Dif": "70",
+      "Group": "1",
+      "Image": "Bm.PQI.63_Sibolusovt",
+      "Length": "4"
+    },
+    "58": {
+      "Access": "8",
+      "Dif": "30",
+      "Group": "1",
+      "Image": "Bm.PQI.mafia_03",
+      "Length": "3"
+    },
+    "59": {
+      "Access": "8",
+      "Dif": "31",
+      "Group": "1",
+      "Image": "Bm.PQI.Taxist_00",
+      "Length": "2"
+    },
+    "6": {
+      "Access": "4",
+      "Dif": "16",
+      "Group": "0",
+      "Image": "Bm.PQI.Diver_04",
+      "Length": "0"
+    },
+    "60": {
+      "Access": "9",
+      "Dif": "17",
+      "Group": "1",
+      "Image": "Bm.PQI.Disk_60",
+      "Length": "0"
+    },
+    "61": {
+      "Access": "9",
+      "Dif": "37",
+      "Group": "1",
+      "Image": "Bm.PQI.Podstava_01",
+      "Length": "2"
+    },
+    "62": {
+      "Access": "9",
+      "Dif": "55",
+      "Group": "1",
+      "Image": "Bm.PQI.Kiberrazum_06",
+      "Length": "4"
+    },
+    "63": {
+      "Access": "10",
+      "Dif": "21",
+      "Group": "1",
+      "Image": "Bm.PQI.Doomino",
+      "Length": "2"
+    },
+    "64": {
+      "Access": "10",
+      "Dif": "46",
+      "Group": "1",
+      "Image": "Bm.PQI.Filial_00",
+      "Length": "3"
+    },
+    "65": {
+      "Access": "10",
+      "Dif": "29",
+      "Group": "1",
+      "Image": "Bm.PQI.Forum_00",
+      "Length": "2"
+    },
+    "66": {
+      "Access": "11",
+      "Dif": "28",
+      "Group": "1",
+      "Image": "Bm.PQI.Gluki_01",
+      "Length": "2"
+    },
+    "67": {
+      "Access": "11",
+      "Dif": "6",
+      "Group": "1",
+      "Image": "Bm.PQI.Energy_00",
+      "Length": "2"
+    },
+    "68": {
+      "Access": "11",
+      "Dif": "32",
+      "Group": "1",
+      "Image": "Bm.PQI.Provoda_00",
+      "Length": "2"
+    },
+    "69": {
+      "Access": "12",
+      "Dif": "53",
+      "Group": "1",
+      "Image": "Bm.PQI.Election_05",
+      "Length": "3"
+    },
+    "7": {
+      "Access": "7",
+      "Dif": "32",
+      "Group": "0",
+      "Image": "Bm.PQI.Driver_01",
+      "Length": "3"
+    },
+    "70": {
+      "Access": "12",
+      "Dif": "53",
+      "Group": "1",
+      "Image": "Bm.PQI.Kidnapped_01",
+      "Length": "3"
+    },
+    "8": {
+      "Access": "11",
+      "Dif": "52",
+      "Group": "0",
+      "Image": "Bm.PQI.Drugs_00",
+      "Length": "4"
+    },
+    "9": {
+      "Access": "10",
+      "Dif": "50",
+      "Group": "0",
+      "Image": "Bm.PQI.Easywork_06",
+      "Length": "4"
+    },
+    "PirateClanPrison": {
+      "Access": "0",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.Driver_04",
+      "Length": "2"
+    },
+    "Prison": {
+      "Access": "0",
+      "Dif": "0",
+      "Group": "0",
+      "Image": "Bm.PQI.Driver_04",
+      "Length": "2"
+    },
+    "STQ_Ataman1": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.STQ_Ataman1_00",
+      "Length": "4"
+    },
+    "STQ_Ataman2": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.Penetrator_04",
+      "Length": "4"
+    },
+    "STQ_Baron1": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.Commando_03",
+      "Length": "4"
+    },
+    "STQ_Baron2": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.Siege_00",
+      "Length": "4"
+    },
+    "STQ_Baron3": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.van_64",
+      "Length": "4"
+    },
+    "STQ_Baron4": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.Diamond_01",
+      "Length": "4"
+    },
+    "STQ_Headhunter": {
+      "Access": "10",
+      "Dif": "0",
+      "Group": "-1",
+      "Image": "Bm.PQI.STQ_Headhunter_00",
+      "Length": "4"
+    }
+  },
+  "PlanetQuest": {
+    "0": "data\\Quest\\Rus\\Amnesia.qmm",
+    "1": "data\\Quest\\Rus\\Banket.qmm",
+    "10": "data\\Quest\\Rus\\Election.qmm",
+    "11": "data\\Quest\\Rus\\Elus.qmm",
+    "12": "data\\Quest\\Rus\\Faruk.qmm",
+    "13": "data\\Quest\\Rus\\Foncers.qmm",
+    "14": "data\\Quest\\Rus\\Gaidnet.qmm",
+    "15": "data\\Quest\\Rus\\Jumper.qmm",
+    "16": "data\\Quest\\Rus\\Maze.qmm",
+    "17": "data\\Quest\\Rus\\Ministry.qmm",
+    "18": "data\\Quest\\Rus\\Moi.qmm",
+    "19": "data\\Quest\\Rus\\Muzon.qmm",
+    "2": "data\\Quest\\Rus\\Bomber.qmm",
+    "20": "data\\Quest\\Rus\\Olympiada.qmm",
+    "21": "data\\Quest\\Rus\\Pachvarash.qmm",
+    "22": "data\\Quest\\Rus\\Park.qmm",
+    "23": "data\\Quest\\Rus\\Pharaon.qmm",
+    "24": "data\\Quest\\Rus\\Pilot.qmm",
+    "25": "data\\Quest\\Rus\\Pizza.qmm",
+    "26": "data\\Quest\\Rus\\Player.qmm",
+    "27": "data\\Quest\\Rus\\Robots.qmm",
+    "28": "data\\Quest\\Rus\\Rvk.qmm",
+    "29": "data\\Quest\\Rus\\Shashki.qmm",
+    "3": "data\\Quest\\Rus\\Borzukhan.qmm",
+    "30": "data\\Quest\\Rus\\Ski.qmm",
+    "31": "data\\Quest\\Rus\\Svarokok.qmm",
+    "32": "data\\Quest\\Rus\\Xenolog.qmm",
+    "33": "data\\Quest\\Rus\\Xenopark.qmm",
+    "34": "data\\Quest\\Rus\\Glavred.qmm",
+    "35": "data\\Quest\\Rus\\Badday.qmm",
+    "36": "data\\Quest\\Rus\\Testing.qmm",
+    "37": "data\\Quest\\Rus\\Evilgenius.qmm",
+    "38": "data\\Quest\\Rus\\Logic.qmm",
+    "39": "data\\Quest\\Rus\\Fishingcup.qmm",
+    "4": "data\\Quest\\Rus\\Citadels.qmm",
+    "40": "data\\Quest\\Rus\\Photorobot.qmm",
+    "41": "data\\Quest\\Rus\\Proprolog.qmm",
+    "42": "data\\Quest\\Rus\\Feipsycho.qmm",
+    "43": "data\\Quest\\Rus\\Leonardo.qmm",
+    "44": "data\\Quest\\Rus\\Codebox.qmm",
+    "45": "data\\Quest\\Rus\\Sortirovka1.qmm",
+    "46": "data\\Quest\\Rus\\Colonization.qmm",
+    "47": "data\\Quest\\Rus\\Piratesnest.qmm",
+    "48": "data\\Quest\\Rus\\Tourists.qmm",
+    "49": "data\\Quest\\Rus\\Domoclan.qmm",
+    "5": "data\\Quest\\Rus\\Depth.qmm",
+    "50": "data\\Quest\\Rus\\Mafia.qmm",
+    "51": "data\\Quest\\Rus\\Vulkan.qmm",
+    "52": "data\\Quest\\Rus\\Edelweiss.qmm",
+    "53": "data\\Quest\\Rus\\Stealth.qmm",
+    "54": "data\\Quest\\Rus\\Losthero.qmm",
+    "55": "data\\Quest\\Rus\\Complex.qmm",
+    "56": "data\\Quest\\Rus\\Rally.qmm",
+    "57": "data\\Quest\\Rus\\Sibolusovt.qmm",
+    "58": "data\\Quest\\Rus\\SpaceLines.qmm",
+    "59": "data\\Quest\\Rus\\Taxist.qmm",
+    "6": "data\\Quest\\Rus\\Diver.qmm",
+    "60": "data\\Quest\\Rus\\Disk.qmm",
+    "61": "data\\Quest\\Rus\\Evidence.qmm",
+    "62": "data\\Quest\\Rus\\Kiberrazum.qmm",
+    "63": "data\\Quest\\Rus\\Doomino.qmm",
+    "64": "data\\Quest\\Rus\\Filial.qmm",
+    "65": "data\\Quest\\Rus\\Forum.qmm",
+    "66": "data\\Quest\\Rus\\Gluki.qmm",
+    "67": "data\\Quest\\Rus\\Megatest.qmm",
+    "68": "data\\Quest\\Rus\\Provoda.qmm",
+    "69": "data\\Quest\\Rus\\Deadoralive.qmm",
+    "7": "data\\Quest\\Rus\\Driver.qmm",
+    "70": "data\\Quest\\Rus\\Kidnapped.qmm",
+    "8": "data\\Quest\\Rus\\Drugs.qmm",
+    "9": "data\\Quest\\Rus\\Easywork.qmm",
+    "PirateClanPrison": "data\\Quest\\Rus\\PirateClanPrison.qmm",
+    "Prison": "data\\Quest\\Rus\\Prison.qmm",
+    "STQ_Ataman1": "data\\Quest\\Rus\\STQ_Ataman1.qmm",
+    "STQ_Ataman2": "data\\Quest\\Rus\\STQ_Ataman2.qmm",
+    "STQ_Baron1": "data\\Quest\\Rus\\STQ_Baron1.qmm",
+    "STQ_Baron2": "data\\Quest\\Rus\\STQ_Baron2.qmm",
+    "STQ_Baron3": "data\\Quest\\Rus\\STQ_Baron3.qmm",
+    "STQ_Baron4": "data\\Quest\\Rus\\STQ_Baron4.qmm",
+    "STQ_Headhunter": "data\\Quest\\Rus\\STQ_Headhunter.qmm"
+  }
+}

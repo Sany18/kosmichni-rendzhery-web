@@ -38,9 +38,6 @@
   "ArtBlackHole": {
     "Description": "Субпортал - сферообразный двуполостный множитель материи. В одной полости находится антивещество, в другой - катализатор множительного процесса. При активации устройство со скоростью света увеличивает количество антиматерии до возникновения черной дыры. После использования самопоглощается.",
     "Name": "Субпортал",
-    "OnUseCode": {
-      "0": "OnUseCodeBlackHole();"
-    },
     "Text": "Одноразовый множитель антиматерии. Увеличивает критическую массу антивещества до возникновения черной дыры."
   },
   "ArtBomb": {
@@ -169,9 +166,6 @@
     "BrokenInUse": "Плазмоуритановая составляющая слоя ракетанга высохла из-за сильной звездной активности. Наномеханизмы парализованы, требуется ремонт.",
     "Description": "Ракетанг - система наномеханизмов, которые покрывают поверхность корпуса тонкой управляемой плазмоуритановой пленкой. Их уникальность в том, что они определяют место попадания ракеты и мгновенно укрепляют броню в нужном месте.",
     "Name": "Ракетанг",
-    "OnUseCode": {
-      "0": "OnUseCodeMissileDef();"
-    },
     "Text": "Плазмоуритановый защитный механизм, оснащенный усиленными детекторами ракет. Блокирует <clr>10-40%<clrEnd> ущерба от попадания ракетного оружия."
   },
   "ArtNano": {
@@ -234,18 +228,12 @@
   "ArtTranclucator": {
     "Description": "Транклюкатор представляет собой уникальное автономное устройство, предназначенное для защиты хозяина. При выбросе его в космос транклюкатор активируется и следит за происходящими вокруг событиями. Если хозяину, по мнению транклюкатора, угрожает опасность, он обрушивает на врага всю свою огневую мощь. Обладателям таких устройств не страшен сам черт, потому что транклюкатор никогда не подводит.",
     "Name": "Транклюкатор",
-    "OnUseCode": {
-      "0": "OnUseCodeTranclucator();"
-    },
     "Text": "Боевой дроид, предназначенный для защиты своего хозяина в открытом космосе."
   },
   "ArtTransmitter": {
     "Broken": "(накапливает заряд)",
     "Description": "Маяк является дистанционной системой изучения объектов. При активации он передает в гиперпространство квадратно-волновой сигнал о большом количестве неизученного материала. Келлероиды, уловившие сигнал, выставляют ему максимальный приоритет и прилетают на место вызова. От силы сигнала зависит количество роботов-исследователей. Сигнал может быть перехвачен другими доминаторами.",
     "Name": "Трансфакторный маяк",
-    "OnUseCode": {
-      "0": "OnUseCodeTransmitter();"
-    },
     "Text": "При использовании в космосе, передает данные о наличии неизученного материала. Энергия заряда: <Power> ед."
   },
   "ArtWeaponToSpeed": {
@@ -257,78 +245,6 @@
     "Text": "На <clr>100<clrEnd> единиц увеличивает скорость двигателя за счет установки дополнительных сопел на базе одного <clr>орудийного<clrEnd> отсека."
   },
   "CustomArtefacts": {},
-  "NumericValues": {
-    "AverageTransmitterPower": "200",
-    "BombPower": "600",
-    "BombPowerMax": "800",
-    "BombPowerMin": "400",
-    "BombRadius": "250",
-    "MaxTransmitterPower": "1000",
-    "MinTransmitterPower": "100",
-    "kArtDefToArms1Penalty": "0.1",
-    "kArtDefToEnergyMin": "1.1",
-    "kArtDefToEnergyMinEx": "0.1",
-    "kArtDefToEnergyPenalty": "0.5",
-    "kArtDefToEnergyPenaltyEx": "-0.25",
-    "kArtDefToEnergyUp": "1.6",
-    "kArtDefToEnergyUpEx": "0.6",
-    "kArtEnergyPulse": "1.3",
-    "kArtEnergyPulseChance": "0.3",
-    "kArtEnergyPulseEx": "0.3",
-    "kArtFastRacksChance": "0.15",
-    "kArtFastRacksChanceEx": "0.15",
-    "kArtForsage": "0.5",
-    "kArtForsageEx": "-0.25",
-    "kArtGiperJump": "40",
-    "kArtGiperJumpEx": "20",
-    "kArtPowerSunProtection": "0.5",
-    "kArtPowerSunProtectionEx": "0.25",
-    "kArtSplinter": "1.2",
-    "kArtSplinterEx": "0.2",
-    "kArtWeaponToSpeed": "100",
-    "kArtWeaponToSpeedEx": "100",
-    "kArtefactAntigrav": "0.75",
-    "kArtefactAntigravEx": "-0.25",
-    "kArtefactDef": "0.05",
-    "kArtefactDefEx": "0.05",
-    "kArtefactDroid": "10",
-    "kArtefactDroidAcidClean": "1.5",
-    "kArtefactDroidAcidCleanEx": "0.5",
-    "kArtefactDroidEx": "10",
-    "kArtefactDroidWear": "-0.5",
-    "kArtefactDroidWearEx": "-0.17",
-    "kArtefactFuel": "2",
-    "kArtefactFuelEx": "2",
-    "kArtefactHook": "30",
-    "kArtefactHookEx": "30",
-    "kArtefactHookRaduis": "25",
-    "kArtefactHookRaduisEx": "25",
-    "kArtefactHookSpeed": "1",
-    "kArtefactHookSpeedEx": "1",
-    "kArtefactHull": "5",
-    "kArtefactHullEx": "5",
-    "kArtefactHullShockDissipation": "1.5",
-    "kArtefactHullShockDissipationEx": "0.5",
-    "kArtefactNano": "5",
-    "kArtefactNanoEx": "5",
-    "kArtefactPower": "20",
-    "kArtefactPowerEx": "20",
-    "kArtefactRadar": "600",
-    "kArtefactRadarEx": "600",
-    "kArtefactScaner": "10",
-    "kArtefactScanerEx": "10",
-    "kArtefactSpeed": "1.2",
-    "kArtefactSpeedEx": "0.2",
-    "kPDTurretCountShots": "5",
-    "kPDTurretRange": "150",
-    "kPDTurretRangeEx": "150",
-    "kSubportalPenalty": "30",
-    "kSubportalPenaltyDuration": "30",
-    "kTransmitterPenaltyAnySystem": "1",
-    "kTransmitterPenaltyAnySystemDuration": "90",
-    "kTransmitterPenaltySameSystem": "5",
-    "kTransmitterPenaltySameSystemDuration": "30"
-  },
   "TextArtCanGetBoost": "На борту имеется оборудование, при совместном использовании с которым данный артефакт способен работать с повышенной эффективностью.",
   "TextArtGettingBoost": "Артефакт получает бонус к эффективности, благодаря хорошей совместимости с установленным на корабле оборудованием."
 }

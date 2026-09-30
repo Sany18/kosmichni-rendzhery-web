@@ -1,0 +1,29 @@
+{
+  "BK": {
+    "Investment": {
+      "BKAfterInvestment": "<InvestmentText>",
+      "BKInvestment": [
+        "---",
+        "<InvestmentFullName>"
+      ],
+      "PlayerInvestment": "<InvestmentShortName>"
+    }
+  },
+  "Bridge": {
+    "BridgeInterceptorsTargetShip": "<Ship>"
+  },
+  "CB": {
+    "HyperJumpVideo": "data\\hyper2.vdo,Hyper2"
+  },
+  "MC": {
+    "Illnes": {
+      "MCSeeIllType1": ""
+    }
+  },
+  "WB": {
+    "HyperJumpVideo": "data\\hyper.vdo,Hyper",
+    "Rookie": {
+      "NewRank": "not use"
+    }
+  }
+}

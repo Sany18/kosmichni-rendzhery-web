@@ -95,10 +95,6 @@
     "Ranger1": "Ranger <Name> has been sentenced to <Month> months in a high security prison. A regular on the <Star> system's authorities' most wanted list, he has finally turned himself in on planet <Planet>."
   },
   "Group": {
-    "PirateInvader": {
-      "Create": "GalaxyNews.Group.PirateInvader.Create",
-      "CreateKling": "GalaxyNews.Group.PirateInvader.CreateKling"
-    },
     "WarriorLiberator": {
       "Create": "All available rangers are invited to take part in a military operation to liberate the <StarEnemy> system. The rallying point is in the <StarNormal> system of sector <SectorNormal>. The combined forces of the military and the free rangers will launch a decisive offensive from there on <Date>.",
       "Create1": "Heightened military activity is reported in the <StarNormal> system of sector <SectorNormal>. Our analysts conclude that the military forces are planning to launch an attack on the dominator-controlled <StarEnemy> system on <Date>. If true, we ask that all interested rangers join in and help our armed forces.",

@@ -53,48 +53,37 @@
   "TurnWin": "Game time:<br><Date> days",
   "Winners": {
     "0": {
-      "Name": "Gaal Sage",
-      "Race": "Gaal"
+      "Name": "Gaal Sage"
     },
     "1": {
-      "Name": "Intellectual",
-      "Race": "Fei"
+      "Name": "Intellectual"
     },
     "10": {
-      "Name": "Braggart",
-      "Race": "People"
+      "Name": "Braggart"
     },
     "2": {
-      "Name": "Mickey the Guard",
-      "Race": "People"
+      "Name": "Mickey the Guard"
     },
     "3": {
-      "Name": "Kamikaze",
-      "Race": "Peleng"
+      "Name": "Kamikaze"
     },
     "4": {
-      "Name": "Fatface",
-      "Race": "Maloc"
+      "Name": "Fatface"
     },
     "5": {
-      "Name": "Elusive Hacker",
-      "Race": "Fei"
+      "Name": "Elusive Hacker"
     },
     "6": {
-      "Name": "Mover",
-      "Race": "Maloc"
+      "Name": "Mover"
     },
     "7": {
-      "Name": "Soul Purifier",
-      "Race": "Gaal"
+      "Name": "Soul Purifier"
     },
     "8": {
-      "Name": "Bullfrogasaurus",
-      "Race": "Peleng"
+      "Name": "Bullfrogasaurus"
     },
     "9": {
-      "Name": "Miss Universe",
-      "Race": "People"
+      "Name": "Miss Universe"
     }
   }
 }

@@ -16,6 +16,7 @@ locales/
   ru/   Russian (original game text)
   uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
   <code>/  your translation, same file names as en/
+  _data/   non-text values (file names, numbers, resources) — not for translation
 ```
 
 Example / приклад — `en/FormGameMenu.json`:
@@ -34,9 +35,9 @@ Example / приклад — `en/FormGameMenu.json`:
 - Keep markup and placeholders as they are: `<br>`, `<clr>…<clrEnd>`,
   `<color=R,G,B>…</color>`, `<Player>`, `<Money>`, `<Number>` and other `<…>` tags.
   Розмітку й підстановки `<…>` лишайте як є.
-- Some values are not text (file names like `ManualEng.exe`, numbers, image
-  names) — keep them as in `en/`.
-  Деякі значення — не текст (імена файлів, числа, картинки): лишайте як в `en/`.
+- Only texts are here. File names, numbers and resource references live in `_data/` — do not
+  translate or copy them. / Тут лише тексти; імена файлів, числа й посилання на ресурси — у `_data/`,
+  їх не перекладають.
 - Arrays keep their length and order. / Масиви — тієї ж довжини й у тому ж порядку.
 
 ## Adding a language / Нова мова

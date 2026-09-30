@@ -1,0 +1,1748 @@
+{
+  "DefShip": {
+    "0": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "1": {
+      "GovernmentAward": "Programms,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "10": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "11": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "12": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "13": {
+      "GovernmentAward": "Reward",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "14": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "15": {
+      "GovernmentAward": "Reward,Programms,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "16": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "17": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "18": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "19": {
+      "GovernmentAward": "Reward,Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "2": {
+      "InThisSystem": "No",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Trader"
+    },
+    "20": {
+      "GovernmentAward": "Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "21": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "22": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "23": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "24": {
+      "GovernmentAward": "Programms,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "25": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "26": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "27": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "28": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Ranger",
+      "Status": "Pirate"
+    },
+    "29": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "3": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "30": {
+      "InThisSystem": "No",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "31": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "32": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "33": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "34": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Trader"
+    },
+    "35": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "36": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "37": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Trader"
+    },
+    "38": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng,People,Fei",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "39": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "4": {
+      "GovernmentAward": "Reward,Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "40": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Pirate"
+    },
+    "41": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Warrior"
+    },
+    "42": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "43": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "44": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Any"
+    },
+    "45": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People,Fei,Gaal",
+      "ShipType": "Any",
+      "Status": "Any"
+    },
+    "46": {
+      "GovernmentAward": "Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "47": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "48": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "49": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Warrior,Pirate"
+    },
+    "5": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "50": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "51": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "52": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "53": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "54": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat"
+    },
+    "55": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "56": {
+      "GovernmentAward": "Reward,Nod,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "ShipType": "Diplomat,Liner",
+      "Status": "Pirate"
+    },
+    "57": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "ShipType": "Any",
+      "Status": "Any"
+    },
+    "58": {
+      "GovernmentAward": "Reward",
+      "InThisSystem": "No",
+      "PlanetRace": "Gaal,OnlyPirate",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "6": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "7": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "8": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "9": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "Count": "59"
+  },
+  "DefSystem": {
+    "0": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior"
+    },
+    "1": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "10": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "11": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "12": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "13": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Pirate"
+    },
+    "14": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "15": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Trader"
+    },
+    "16": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Warrior"
+    },
+    "17": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Trader"
+    },
+    "18": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "19": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "2": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "20": {
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "21": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "22": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "23": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Warrior"
+    },
+    "24": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Pirate"
+    },
+    "25": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior"
+    },
+    "26": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Trader"
+    },
+    "27": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Any"
+    },
+    "28": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior"
+    },
+    "29": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Trader"
+    },
+    "3": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "30": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Pirate"
+    },
+    "31": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior,Trader"
+    },
+    "32": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal,Fei,People",
+      "Status": "Trader"
+    },
+    "33": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Pirate"
+    },
+    "34": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "35": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Warrior,Trader"
+    },
+    "36": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "37": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "38": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Trader"
+    },
+    "39": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Any"
+    },
+    "4": {
+      "GovernmentAward": "Programms,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "40": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "41": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "42": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "43": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Trader"
+    },
+    "44": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "45": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Trader"
+    },
+    "46": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior"
+    },
+    "47": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "48": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "49": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior,Trader"
+    },
+    "5": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Pirate"
+    },
+    "50": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "51": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "52": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal,OnlyPirate",
+      "Status": "Pirate,Warrior"
+    },
+    "53": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,Fei,OnlyPirate",
+      "Status": "Any"
+    },
+    "54": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Gaal,OnlyPirate",
+      "Status": "Any"
+    },
+    "55": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,OnlyPirate",
+      "Status": "Pirate,Warrior"
+    },
+    "6": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "7": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "8": {
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "9": {
+      "GovernmentAward": "Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Pirate"
+    },
+    "Count": "56"
+  },
+  "KillShip": {
+    "0": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "1": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Trader"
+    },
+    "10": {
+      "GovernmentAward": "Reward,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Any",
+      "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+      "Status": "Warrior"
+    },
+    "11": {
+      "GovernmentAward": "Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Any",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "12": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Trader"
+    },
+    "13": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Trader"
+    },
+    "14": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "15": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "16": {
+      "GovernmentAward": "Reward",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "17": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "18": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "19": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "2": {
+      "PlanetRace": "Maloc",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "20": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "21": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "22": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "23": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "24": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "25": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "26": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "27": {
+      "GovernmentAward": "Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "28": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Trader"
+    },
+    "29": {
+      "GovernmentAward": "Reward,Programms,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "People",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "3": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng,People,Fei,Gaal",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "30": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "31": {
+      "GovernmentAward": "Reward,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Any",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "32": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc,Peleng,People,Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "33": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "34": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Any",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "35": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "36": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Trader"
+    },
+    "37": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "38": {
+      "GovernmentAward": "Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "39": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "4": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "40": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "41": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "People",
+      "ShipType": "Diplomat,Transport,Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "42": {
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "43": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "44": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "45": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "46": {
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "47": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "48": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "49": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger,Transport,Liner,Diplomat",
+      "Status": "Pirate,Warrior"
+    },
+    "5": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Pirate"
+    },
+    "50": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Pirate"
+    },
+    "51": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Any",
+      "ShipRace": "People,Fei,Gaal",
+      "ShipType": "Ranger,Diplomat,Pirate",
+      "Status": "Pirate"
+    },
+    "52": {
+      "GovernmentAward": "Programms",
+      "PlanetRace": "Any",
+      "ShipRace": "People,Fei,Gaal",
+      "ShipType": "Ranger,Transport,Liner,Diplomat",
+      "Status": "Pirate,Warrior"
+    },
+    "53": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Transport,Liner",
+      "Status": "Pirate,Warrior"
+    },
+    "54": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal,Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "55": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Peleng",
+      "ShipRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "56": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "57": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Any",
+      "ShipType": "Diplomat",
+      "Status": "Warrior,Pirate"
+    },
+    "58": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "59": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "6": {
+      "GovernmentAward": "Reward",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "60": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "Gaal",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "61": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger",
+      "Status": "Warrior"
+    },
+    "62": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Peleng,People,Fei,Gaal,OnlyPirate",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior,Pirate"
+    },
+    "63": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc,OnlyPirate",
+      "PlayerRace": "Peleng,People,Gaal",
+      "ShipRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "64": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "PlayerRace": "Maloc,People,Fei,Gaal",
+      "ShipRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Pirate"
+    },
+    "7": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "8": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "9": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "Count": "65"
+  },
+  "QuestMoneyBase": "1200,3000,2100,1800,1400",
+  "QuestMoneyPerc": "7,13,10,9,7",
+  "QuestPoints": "300, 600, 500, 300, 400",
+  "QuestTurns": "40,80,50,50,50",
+  "SendLetter": {
+    "0": {
+      "FromRace": "Maloc",
+      "Status": "Any",
+      "SysName": "Usl_0",
+      "ToRace": "Maloc"
+    },
+    "1": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_1",
+      "ToRace": "Maloc"
+    },
+    "10": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_10",
+      "ToRace": "Peleng"
+    },
+    "11": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_11",
+      "ToRace": "People"
+    },
+    "12": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_12",
+      "ToRace": "Maloc"
+    },
+    "13": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Artefact",
+      "Status": "Any",
+      "SysName": "Usl_13",
+      "ToRace": "Peleng"
+    },
+    "14": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_14",
+      "ToRace": "Peleng"
+    },
+    "15": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_15",
+      "ToRace": "Gaal"
+    },
+    "16": {
+      "FromRace": "Peleng",
+      "Status": "Pirate",
+      "SysName": "Usl_16",
+      "ToRace": "People"
+    },
+    "17": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_17",
+      "ToRace": "Peleng"
+    },
+    "18": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_18",
+      "ToRace": "Peleng"
+    },
+    "19": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_19",
+      "ToRace": "Peleng"
+    },
+    "2": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_2",
+      "ToRace": "Fei"
+    },
+    "20": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_20",
+      "ToRace": "Gaal"
+    },
+    "21": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_21",
+      "ToRace": "Maloc"
+    },
+    "22": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "SysName": "Usl_22",
+      "ToRace": "Gaal"
+    },
+    "23": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_23",
+      "ToRace": "Peleng"
+    },
+    "24": {
+      "FromRace": "People",
+      "Status": "Any",
+      "SysName": "Usl_24",
+      "ToRace": "Maloc"
+    },
+    "25": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward",
+      "Status": "Trader",
+      "SysName": "Usl_25",
+      "ToRace": "Fei"
+    },
+    "26": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_26",
+      "ToRace": "Peleng"
+    },
+    "27": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Artefact",
+      "Status": "Warrior",
+      "SysName": "Usl_27",
+      "ToRace": "Peleng"
+    },
+    "28": {
+      "FromRace": "People",
+      "Status": "Any",
+      "SysName": "Usl_28",
+      "ToRace": "People"
+    },
+    "29": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_29",
+      "ToRace": "People"
+    },
+    "3": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_3",
+      "ToRace": "People"
+    },
+    "30": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_30",
+      "ToRace": "People"
+    },
+    "31": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_31",
+      "ToRace": "Maloc"
+    },
+    "32": {
+      "FromRace": "Fei",
+      "Status": "Trader",
+      "SysName": "Usl_32",
+      "ToRace": "People"
+    },
+    "33": {
+      "FromRace": "Fei",
+      "Status": "Any",
+      "SysName": "Usl_33",
+      "ToRace": "People"
+    },
+    "34": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_34",
+      "ToRace": "Maloc"
+    },
+    "35": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_35",
+      "ToRace": "Peleng"
+    },
+    "36": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_36",
+      "ToRace": "Peleng"
+    },
+    "37": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_37",
+      "ToRace": "People"
+    },
+    "38": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_38",
+      "ToRace": "Maloc"
+    },
+    "39": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_39",
+      "ToRace": "Maloc"
+    },
+    "4": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_4",
+      "ToRace": "Maloc"
+    },
+    "40": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_40",
+      "ToRace": "People"
+    },
+    "41": {
+      "FromRace": "Gaal",
+      "Status": "Pirate",
+      "SysName": "Usl_41",
+      "ToRace": "Maloc"
+    },
+    "42": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_42",
+      "ToRace": "Maloc"
+    },
+    "43": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_43",
+      "ToRace": "People"
+    },
+    "44": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_44",
+      "ToRace": "Fei"
+    },
+    "45": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_45",
+      "ToRace": "People"
+    },
+    "46": {
+      "FromRace": "Gaal",
+      "Status": "Any",
+      "SysName": "Usl_46",
+      "ToRace": "Peleng"
+    },
+    "47": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_47",
+      "ToRace": "Maloc"
+    },
+    "48": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Trader",
+      "SysName": "Usl_48",
+      "ToRace": "Maloc"
+    },
+    "49": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_49",
+      "ToRace": "Peleng"
+    },
+    "5": {
+      "FromRace": "Maloc",
+      "Status": "Any",
+      "SysName": "Usl_5",
+      "ToRace": "Fei"
+    },
+    "50": {
+      "FromRace": "People",
+      "Status": "Trader",
+      "SysName": "Usl_50",
+      "ToRace": "People"
+    },
+    "51": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_51",
+      "ToRace": "Maloc"
+    },
+    "52": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "SysName": "Usl_52",
+      "ToRace": "People"
+    },
+    "53": {
+      "FromRace": "Maloc",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_53",
+      "ToRace": "People"
+    },
+    "54": {
+      "FromRace": "People",
+      "Status": "Any",
+      "SysName": "Usl_54",
+      "ToRace": "People"
+    },
+    "55": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_55",
+      "ToRace": "People"
+    },
+    "56": {
+      "FromRace": "Fei,Gaal",
+      "Status": "Any",
+      "SysName": "Usl_56",
+      "ToRace": "Maloc"
+    },
+    "57": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Nod",
+      "Status": "Any",
+      "SysName": "Usl_57",
+      "ToRace": "Fei"
+    },
+    "58": {
+      "FromRace": "Peleng,Maloc",
+      "Status": "Trader",
+      "SysName": "Usl_58",
+      "ToRace": "Gaal"
+    },
+    "59": {
+      "FromRace": "People,Fei,Gaal",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_59",
+      "ToRace": "Fei,Gaal"
+    },
+    "6": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_6",
+      "ToRace": "People"
+    },
+    "60": {
+      "FromRace": "Maloc,Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_60",
+      "ToRace": "Gaal"
+    },
+    "61": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_61",
+      "ToRace": "People"
+    },
+    "62": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_62",
+      "ToRace": "People,Fei,Gaal"
+    },
+    "63": {
+      "FromRace": "Any",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_63",
+      "ToRace": "Any"
+    },
+    "64": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_64",
+      "ToRace": "People,Fei,Gaal"
+    },
+    "65": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_65",
+      "ToRace": "People"
+    },
+    "66": {
+      "FromRace": "Maloc,Peleng,People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_66",
+      "ToRace": "Fei,Gaal"
+    },
+    "67": {
+      "FromRace": "Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_67",
+      "ToRace": "People"
+    },
+    "68": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "SysName": "Usl_Orcs",
+      "ToRace": "Fei"
+    },
+    "69": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_Frodo",
+      "ToRace": "People"
+    },
+    "7": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward",
+      "Status": "Trader",
+      "SysName": "Usl_7",
+      "ToRace": "People"
+    },
+    "70": {
+      "FromRace": "Peleng,People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Trader",
+      "SysName": "Usl_Soberisam",
+      "ToRace": "Fei"
+    },
+    "71": {
+      "FromRace": "People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Trader",
+      "SysName": "Usl_Stroyka",
+      "ToRace": "People"
+    },
+    "72": {
+      "FromRace": "Maloc,People,Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_Blastshot",
+      "ToRace": "Peleng"
+    },
+    "73": {
+      "FromRace": "People",
+      "GovernmentAward": "Programms,Artefact",
+      "PlayerRace": "Maloc,Peleng,People,Gaal",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_MusicialTools",
+      "ToRace": "Fei"
+    },
+    "74": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_InDrynCage",
+      "ToRace": "Peleng"
+    },
+    "75": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_LasosCup",
+      "ToRace": "People"
+    },
+    "76": {
+      "FromRace": "Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_Cactus",
+      "ToRace": "Maloc"
+    },
+    "77": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "SysName": "Usl_Melok",
+      "ToRace": "Fei"
+    },
+    "78": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "SysName": "Usl_JimmyGuitar",
+      "ToRace": "People"
+    },
+    "79": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Trader,Warrior",
+      "SysName": "Usl_68",
+      "ToRace": "People"
+    },
+    "8": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_8",
+      "ToRace": "Fei"
+    },
+    "80": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Any",
+      "SysName": "Usl_69",
+      "ToRace": "Maloc"
+    },
+    "81": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Any",
+      "SysName": "Usl_70",
+      "ToRace": "Peleng"
+    },
+    "82": {
+      "FromRace": "Peleng,People,Fei,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "SysName": "Usl_71",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "83": {
+      "FromRace": "Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "SysName": "Usl_74",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "84": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Trader,Pirate",
+      "SysName": "Usl_73",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "85": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Warrior,Pirate",
+      "SysName": "Usl_75",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "86": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "SysName": "Usl_72",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "9": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "SysName": "Usl_9",
+      "ToRace": "People"
+    },
+    "Count": "87"
+  }
+}

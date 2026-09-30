@@ -2,7 +2,6 @@
   "AchievementReceived": "Achievement unlocked <br>'<Achievement>'!",
   "Achieved": "Achieved:",
   "Caption": "Achievements",
-  "Of": "/",
   "AGENT": {
     "Description": "Complete 50 government missions",
     "Name": "Secret Agent"

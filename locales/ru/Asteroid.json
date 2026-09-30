@@ -1,8 +1,4 @@
 {
   "Name": "Астероид -<Number>-",
-  "Text": "Содержание полезных руд достигает <Count> единиц, скорость астероида <Speed>.",
-  "kAsteroidMaxDamagePercent": "20",
-  "kAsteroidMaxDamagePercentDef": "20",
-  "kAsteroidMinDamagePercent": "10",
-  "kAsteroidMinDamagePercentDef": "10"
+  "Text": "Содержание полезных руд достигает <Count> единиц, скорость астероида <Speed>."
 }

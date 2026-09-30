@@ -2,7 +2,6 @@
   "AchievementReceived": "Получено достижение <br>'<Achievement>'!",
   "Achieved": "Получено:",
   "Caption": "Достижения",
-  "Of": "/",
   "AGENT": {
     "Description": "Выполнить 50 правительственных заданий",
     "Name": "Спецагент"

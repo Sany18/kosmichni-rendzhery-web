@@ -1,34 +1,17 @@
 {
   "0": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad",
     "Text": "Ваша діяльність, <Player>, нас аж ніяк не надихає. Вам забороняється займатися комерційною діяльністю на нашій планеті."
   },
   "1": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal",
-    "Priority": "1",
     "Text": "З чим завітали, пане <Player>? Ви начебто не є нашим штатним агентом."
   },
   "10": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "People,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRank": "Rookie,Cadet,Pilot,Wingman,Leader,Ace",
-    "PlayerRating": "Mini,Small,Average",
-    "PlayerStatus": "Pirate",
-    "Priority": "10",
     "Text": [
       "А ось піратів ми, <Player>, не любимо. Хіба ви не знаєте, що наша раса не схвалює дії піратів та контрабандистів? Як можна під час війни з домінаторами займатися такими брудними справами?!!",
       "Вам має бути дуже соромно, пане <Player>!"
     ]
   },
   "100": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "Priority": "5",
     "Text": [
       "Гоп-стоп, ми підлетіли не поспішаючи, гоп-стоп, ми гальмували торгаша.",
       "А, привіт, <Player>, не хочеш заспівати зі мною дуетом? Така пісня гарна, аж сльозу вибиває. Ти це, не звертай уваги, просто директива вчинила, вивчити піратський фольклор, якщо ми тепер під ними ходимо. Та й сленг теж. Ось, послухай: пацанчик, ти чого, рамси поплутав? Чого пальці розкинув, фраєре? Гони бабло, нюня, а то почекаю ножиком.",
@@ -36,95 +19,42 @@
     ]
   },
   "101": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "Priority": "3",
     "Text": "Вітаю тебе, <Player>, на найкращій піратській планеті в галактиці. Звичайно, чутки говорять про протилежне, але це лише підступи заздрісників і конкурентів. У нас тут найкращі розваги на будь-який, найбрудніший і збочений смак, щодня здійснюються сотні протиправних угод, на штанах найбільше лампасів, а вбивств стільки, що щоранку доводиться об'їжджати вулиці на вантажівці та збирати тіла. І навіть не питай, що з цими тілами потім роблять, побережи свій апетит. Запитай краще щось у справі."
   },
   "102": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Bad",
-    "DominatorsAlreadyDefeated": "No",
     "Text": "Ти мерзенний тип, <Player> і твоя поява тут нікого не тішить. У старі часи я б тебе запроторив до штрафного рейнджерського батальйону і відправив валити домінаторів. Що ти взагалі тут робиш, коли прокляті залозки ще коптять небосхил?"
   },
   "103": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal",
-    "DominatorsAlreadyDefeated": "No",
     "Text": "Замість того, щоб забирати час, <Player>, ти міг би принести реальну користь, відвоювавши у домінаторів пару зіркових систем. Оскільки Коаліції немає, нам самим доводиться розбиратися із цими тупими залозками."
   },
   "104": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good",
-    "DominatorsAlreadyDefeated": "No",
     "Text": "Ех, <Player>, мені навіть не віриться, що Коаліції більше немає. На жаль, я не можу сказати того ж самого про домінаторів. Сказати, що ці тупі залозки завдають нам занепокоєння – отже не сказати нічого. Якщо тобі робити нічого - негайно підключайся до їх винищення!"
   },
   "105": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Best",
-    "DominatorsAlreadyDefeated": "No",
     "Text": "Вітаю тебе, друже <Player>! Уяви всю глибину іронії: Коаліції вже немає, а їхні дітища - домінатори, які все ще псують нам кров. З ними потрібно терміново щось робити, доки вони у нас усю галактику назад не відвоювали."
   },
   "106": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Bad",
-    "DominatorsAlreadyDefeated": "Yes",
     "Text": "Що тобі потрібне, <Player>? Хоч ти і пірат, але ми виразно бачимо твою мерзенну рейнджерську суть. Тож кажи, чого хотів і провалюй на всі триста шістдесят градусів!"
   },
   "107": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal",
-    "DominatorsAlreadyDefeated": "Yes",
     "Text": "Ось так подивишся на тебе, <Player> і начебто бачиш перед собою нормального, розумного пірата. Але при цьому є в тобі якась гнилизна, якийсь грішок. Ти не викликаєш довіри, <Player>."
   },
   "108": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good",
-    "DominatorsAlreadyDefeated": "Yes",
     "Text": "Неймовірно <Player>, але факт. Ми перемогли всіх наших ворогів! Коаліція та домінатори тепер не більше ніж сторінка історії, яку ми за бажання взагалі можемо вирвати з підручника та викинути у відкритий космос. Ніхто нічого не скаже, бо нікому й нема чого."
   },
   "109": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Best",
-    "DominatorsAlreadyDefeated": "Yes",
     "Text": [
       "Галактика в руках піратів, <Player> і ти зробив неабиякий внесок у цю перемогу! Чарки за твоє здоров'я піднімаються у всіх барах галактики, а на твоїй рідній планеті ми збираємось поставити пам'ятник. Тож будеш ти тепер у двох примірниках: в оригіналі та ще п'яти метрів заввишки, бронзовий!",
       "Запитаєш, чому не золотий? То ж ми пірати, все золото вже давно стирили."
     ]
   },
   "11": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Maloc,People,Fei,Gaal",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Technics",
-    "PlayerStatus": "Pirate",
-    "Priority": "30",
     "Text": [
       "Так-так, <Player>. І коли ви припините займатися протизаконною діяльністю? Ви іноземець, пірате, і при цьому приходьте сюди, як до себе додому! Безумовно, ми поки що непогано до вас ставимося, але наше терпіння вже на межі.",
       "Найкраще купіть на нашій планеті партію техніки. Ніхто не бере, розумієш... :-("
     ]
   },
   "110": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerPirateRank": "Kid, Rader, Skipper, Rough, Ataman, Khan",
     "Text": [
       "Здорово, <Player>. Ти знаєш, що у піратів останнім часом проблеми із домінаторами? Не знаєш? Та гаразд, з якого рукава галактики ти випав? Чи це ти так жартуєш?",
       "Втім, не має значення. Проблеми є, і я навіть чув, що верховний піратський лідер оголосив, що підвищить того, хто знищить домінаторського боса, до свого особистого підручного. Не важливо, хто це буде: смертоносний головоріз чи зелений салага. Хоча я не думаю, що салага зможе бодай подряпати домінаторську обшивку. А ось у тебе шанси дуже непогані, як на мене.",
@@ -132,22 +62,12 @@
     ]
   },
   "111": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "DominatorsAlreadyDefeated": "No",
     "Text": [
       "Щастить вам, <Player>, вільним піратам. Я зараз сам із задоволенням рвонув битися з домінаторами, але змушений сидіти в цьому тісному кабінеті.",
       "Коли замочиш найголовнішого робота - не забудь привезти мені як сувенір шматочок його обшивки. Буду дуже вдячний. А поки що давай вип'ємо по чарці за якнайшвидшу і остаточну перемогу піратського клану над усіма ворогами."
     ]
   },
   "112": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "DominatorsAlreadyDefeated": "No",
     "Text": [
       "А, привіт, <Player>. Не зважай на мій поганий настрій. Просто сьогодні вночі наснилося, що домінатори напали на нашу зіркову систему та захопили її.",
       "Нехай я зараз скажу крамольну річ, але з Коаліцією було краще. Вони билися з роботами, а ми знімали вершки і взагалі, як фарюки в маслі, каталися. Але тепер Коаліції немає і домінатори пруть на наші піратські системи. А з піратів якісь воїни... труси, які тільки транспортники обчищати вміють.",
@@ -155,11 +75,6 @@
     ]
   },
   "113": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "DominatorsAlreadyDefeated": "No",
     "Text": [
       "О, <Player>, якщо вже зайшов - скажи як на духу, скільки ви, пірати, ще збираєтесь мурижитися з домінаторами? Давно вже час зібратися з духом і вибити їх з нашого рукава галактики!",
       "З Коаліцією ми впоралися, то чому з цими залізками не можемо? Мені вже самому хочеться застрибнути в корабель і полетіти вибивати з них дурницю. Або з вас, бо дістали. Ми втрачаємо величезні гроші на цій війні. А у нас на планеті і так економіка кульгає на обидві ноги.",
@@ -167,520 +82,194 @@
     ]
   },
   "114": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "CurStarInBattlePirates": "Yes",
-    "Priority": "1",
     "Text": [
       "І в страшному сні не могло нам наснитися, <Player>, що на нашу зіркову систему нападуть одночасно пірати та домінатори! Так, вони із задоволенням знищують одна одну, але й наші сили оборони теж зазнають величезних втрат!",
       "Зробіть же щось, <Player>, поки ми всі не загинули! Не треба стояти і думати, біжіть скоріше в ангар! Дорогою зрозумійте, що саме від вас потрібно."
     ]
   },
   "115": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "CurStarInBattlePirates": "Yes",
-    "Priority": "1",
     "Text": [
       "Про яке мистецтво бою, про яку тактику, про яку стратегію може йтися, шановний <Player>, коли до зіркової системи одночасно вторгаються домінатори та пірати? Жодні нормативи та схеми не працюють. Ми навіть не можемо координувати дії сил оборони. На орбіті зараз справжня м'ясорубка!",
       "Уся надія на вас, <Player>! Тільки ви можете залізною рукою навести лад на полі бою, вселити жах у наших ворогів і надихнути наших союзників!"
     ]
   },
   "116": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "CurStarInBattlePirates": "Yes",
-    "Priority": "1",
     "Text": [
       "Рейнджере, все пропало! Все, що нажите непосильною працею, буде знищено в спекотній битві, яка проходить зараз на орбіті! Нічого іншого й чекати не варто, коли борються сили Коаліції, домінатори та пірати! Ми отримуємо повідомлення, що пілоти не знають, у кого їм взагалі стріляти, настільки там все заплутано!",
       "<Player>, рятуйте! Уся надія на вас! Якщо ви негайно не повернетеся на орбіту і не очоліть опір - ми втратимо цю зіркову систему так швидко, що навіть пенчекряк викопати норку собі не встигне!"
     ]
   },
   "12": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Maloc,People,Fei",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal",
-    "PlayerRace": "Peleng",
-    "Priority": "2",
     "Text": "Що брудний чотирирукий пеленг <Player> забув на нашій процвітаючій планеті? Він, швидше за все, прилетів обікрасти нас?"
   },
   "13": {
-    "CurPlanetEconomy": "Agriculture",
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Food",
-    "PlayerRace": "Peleng,People,Fei,Gaal",
-    "Priority": "10",
     "Text": "<Player>, don't you know that your race is dying out? And that soon maloqs will be ruling the entire Galaxy, and you will all serve us?<br>Ha! Relax, boy! This is just modern maloq humor. You dimwitted aliens can't even appreciate a joke. Ha-ha!<br>Oh, by the way, our food prices are pretty low. I strongly suggest that you stock up, 'cause this here's the best agricultural planet in this sector!"
   },
   "14": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
     "PlayerRank": "Leader, Ace, Commander, Admiral",
-    "Priority": "10",
-    "Text": "Відомий рейнджер <Player>. Ми раді вітати вас на планеті <CurPlanet>. Заходьте в наші магазини, ми будемо дуже раді, якщо ви придбаєте щось у нас!<br>Крім того, ми просимо вас взяти участь у звільненні системи <ToStar> від домінаторів найближчим часом. Будь таким добрим.",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToStarControlByKling": "Yes"
+    "Text": "Відомий рейнджер <Player>. Ми раді вітати вас на планеті <CurPlanet>. Заходьте в наші магазини, ми будемо дуже раді, якщо ви придбаєте щось у нас!<br>Крім того, ми просимо вас взяти участь у звільненні системи <ToStar> від домінаторів найближчим часом. Будь таким добрим."
   },
   "15": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "PlayerRating": "Mini,Small",
-    "Priority": "10",
-    "Text": "На систему <ToStar> напали домінатори. Допоможіть нашим братам, які живуть у цій системі. Ми вас дуже просимо, <Player>. Знаємо, що ви не найкрутіший рейнджер, але все ж таки і ваша допомога не завадить.",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "Yes",
-    "ToStarInBattle": "Yes"
+    "Text": "На систему <ToStar> напали домінатори. Допоможіть нашим братам, які живуть у цій системі. Ми вас дуже просимо, <Player>. Знаємо, що ви не найкрутіший рейнджер, але все ж таки і ваша допомога не завадить."
   },
   "16": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Medicine",
-    "KlingInToStar": "4,5,6,7,8,9,Many",
-    "Priority": "50",
     "Text": [
       "Зараз у системі <ToStar>, йдуть кровопролитні бої з домінаторами. Ви, <Player>, можете суттєво допомогти своїй расі!",
       "По-перше, якщо полетите туди і допоможете у битві. По-друге, якщо захопите при цьому партію медикаментів, які можете придбати тут же, на нашій планеті. Як бачите, ми дбаємо не лише про себе, а й про інших!"
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "No",
-    "ToPlanetRaceIsPlayerRace": "Yes",
-    "ToStarInBattle": "Yes"
+    ]
   },
   "17": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "KlingInToStar": "4,5,6,7,8,9,Many",
-    "Priority": "50",
-    "RangerInToStar": "3,4,5,6,7,8,9,Many",
-    "Text": "О, <Player>, чому ви тут, а не в системі <ToStar>? Ця система була захоплена домінаторами, але сьогодні найкращі рейнджери намагаються її звільнити! Адже там, на планеті <ToPlanet> мешкають наші співвітчизники. Як ви можете залишатися осторонь?",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "Yes",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Yes"
+    "Text": "О, <Player>, чому ви тут, а не в системі <ToStar>? Ця система була захоплена домінаторами, але сьогодні найкращі рейнджери намагаються її звільнити! Адже там, на планеті <ToPlanet> мешкають наші співвітчизники. Як ви можете залишатися осторонь?"
   },
   "18": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "KlingInToStar": "2,3,4,5,6,7,8,9,Many",
-    "Priority": "10",
-    "Text": "Ми раді бачити вас, <Player>, на нашій планеті <CurPlanet>.<br>Зараз важкий час для нас усіх. Нещодавно домінатори вторглися до системи <ToStar>. Жалюгідна спроба! Сили Коаліції дадуть їм гідну відсіч. Ви згодні, <Player>?",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToStarInBattle": "Yes"
+    "Text": "Ми раді бачити вас, <Player>, на нашій планеті <CurPlanet>.<br>Зараз важкий час для нас усіх. Нещодавно домінатори вторглися до системи <ToStar>. Жалюгідна спроба! Сили Коаліції дадуть їм гідну відсіч. Ви згодні, <Player>?"
   },
   "19": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRelations": "Good,Best",
-    "PlayerStatus": "Trader",
-    "Priority": "10",
     "Text": [
       "Привіт <Player>. Ми раді бачити тебе на цій чудовій малокській планеті <CurPlanet>. Тільки навіщо ти постійно займаєшся торговельною діяльністю і ганьбиш своє ім'я?",
       "Ми вважаємо, що тобі треба більше їсти та частіше бити своїх ворогів. Будь чоловіком, <Player>, не ходи більше до нашого торгового центру, і ми станемо тебе ще більше поважати!"
     ]
   },
   "2": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good",
-    "Priority": "1",
     "Text": "Для нас честь вас бачити тут, <Player>!"
   },
   "20": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Narcotics",
-    "PlayerStatus": "Trader,Pirate",
-    "Priority": "30",
     "Text": [
       "На планеті <CurPlanet> завжди раді бачити рейнджера, <Player>. Ми співчуваємо істоті, обділеній кінцівками, але сподіваємось, що цей факт не заважає займатися контрабандою!",
       "До речі, у нас дешево можна купити хорошу партію наркоти. Радимо відвезти товар феянам чи гаальцям. Вони дуже на нього ласі."
     ]
   },
   "21": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Arms",
-    "Priority": "30",
     "Text": "На планеті <CurPlanet> завжди раді бачити рейнджера, <Player>. Перевезення продуктів нашого військово-промислового комплексу цікавить? Звичайно, так!<br>Так ось, сьогодні контейнери з озброєнням у нас всього по <CurPlanetGoodsSale> cr! Непогано, га?"
   },
   "22": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal",
-    "PlayerRace": "Peleng",
-    "Priority": "10",
     "Text": "Привіт тобі, чотирирукий <Player>! Що треба на нашій планеті представнику такого низького народу? Ви, пеленги, вмієте тільки нападати з-за рогу та возити контрабанду."
   },
   "23": {
-    "CurPlanetEconomy": "Industrial",
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Technics",
-    "Priority": "10",
     "Text": "Вітаємо тебе, <Player>, як справи?<br>Ми готові запропонувати велику партію предметів техніки. Немає бажання зробити добрий бізнес? Контейнер коштує лише <CurPlanetGoodsSale> cr. Зараз на складі є <CurPlanetGoodsCnt> одиниць товару. У сусідів такого вибору немає!"
   },
   "24": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good",
-    "Goods": "Technics",
-    "PlayerRace": "Maloc,Peleng,People",
-    "Priority": "20",
     "Text": "Представники твоєї раси, <Player>, на жаль, не наділені могутнім інтелектом. Тим не менш, ти повинен розуміти, що контейнер з технічними виробами вартістю <CurPlanetGoodsSale> cr не часто зустрінеш. Заглянь до нас у торговий центр та купи партію. Можливо, в голові розуму і побільшає."
   },
   "25": {
-    "CurPlanetGoodsBuy": "Big,Huge",
-    "CurPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "CurPlanetGoodsPermit": "No",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Gaal",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Narcotics",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "Priority": "10",
     "Text": "Наша раса давно сидить на голці... <br>Це ви, іноземці, є причиною нашого поступового вимирання! Ми боремося із наркоділками, але нічого не допомагає. Ціни стають тільки вищими і досягли вже <CurPlanetGoodsBuy> cr за одну умовну одиницю. Попереджаємо, щоб ти, <Player>, не ввозив цю погань на нашу планету, інакше ми станемо ворогами."
   },
   "26": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "No",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "Goods": "Luxury",
-    "Priority": "20",
     "Text": [
       "Привіт <Player>. І чому, власне, інші раси так люблять наші витвори мистецтва? Мистецтво це марення, вся суть у силі! А вам все подавай наші табурети. Та краще я цю табуретку розіб'ю про твою інопланетну голову!",
       "Підняли вже ціни по <CurPlanetGoodsSale> cr за тонну. Вивозять наше дерево як предметів розкоші. Ми забороняємо вивозити наші табурети. Ясно тобі?"
     ]
   },
   "27": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsBuy": "Big,Huge",
-    "CurPlanetGoodsCnt": "Zero,Mini,Small",
-    "CurPlanetGoverment": "Dictatorship",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Food",
-    "Priority": "2",
     "Text": [
       "Привіт <Player>. Не секрет, що нашою планетою править диктатор. Економіка перебуває у занепаді. Ціни нестабільні. Відбулася екологічна криза. Наш народ голодує, ми зараз дуже потребуємо їжі та медикаментів.",
       "Якщо можливо, допоможи нам, привези партію їжі на планету <CurPlanet>."
     ]
   },
   "28": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetGoverment": "Monarchy",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Technics",
-    "Priority": "50",
     "Text": [
       "Завжди раді бачити вас, <Player>.<br>Сьогодні вартість товарів технічного призначення становить <CurPlanetGoodsSale> cr за одиницю. Ця ціна, дуже низька, встановлена ​​нашим монархом!",
       "Ми вважаємо, що з такими низькими цінами відвідуваність нашої планети зросте, тим більше, що в нашому секторі є відсталі планети, які готові заплатити хороші гроші. Так, на планеті <ToPlanet> (система <ToStar>) можна продати куплені у нас товари вже за <ToPlanetGoodsBuy> cr! Варто замислитись про перспективи!"
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetGoodsPermit": "Yes",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "29": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetGoverment": "Monarchy,Republic,Democracy",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng,People,Fei,Gaal",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Luxury",
-    "Priority": "10",
     "Text": "Дорогий <Player>! На нашій квітучій планеті проводиться розпродаж предметів розкоші! Чудові малокські табуретки, людські валянки та інші чудеса мистецтва всього за <CurPlanetGoodsSale> cr за тонну! Поспішай у торговий центр!"
   },
   "3": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Best",
-    "Priority": "1",
     "Text": "Завжди раді бачити вас, <Player>. Хочете каву або секретне завдання?"
   },
   "30": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsBuy": "Average,Big,Huge",
-    "CurPlanetGoodsCnt": "Zero,Mini,Small",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Minerals",
-    "Priority": "20",
     "Text": [
       "Для нас честь бачити вас тут, <Player>!<br>Хочемо повідомити, якщо ви ще не в курсі, що на нашій планеті відчувається гостра нестача руд для промисловості. Якщо хочете заробити грошей, можете привезти сюди на <CurPlanet> партію з корисними копалинами.",
       "У вас є захоплення? Тоді ви можете розстріляти астероїд та зібрати цінні частини. Ми сплатимо кожну тонну у розмірі <CurPlanetGoodsBuy> cr! Непогано?"
     ]
   },
   "31": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsBuy": "Average,Big,Huge",
-    "CurPlanetGoodsCnt": "Zero,Mini,Small",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Minerals",
-    "Priority": "50",
     "Text": [
       "Вітаємо вас, <Player>!<br>Хочемо повідомити, що на сусідній планеті тваринників <ToPlanet> промисловість знаходиться в зародковому стані, тому ціни на руду просто смішні. Ми ж гостро потребуємо її.",
       "Тож якщо вам потрібні гроші, то можна швидко та цілком законно їх отримати. Тільки поспішайте, поки інший, більш заповзятливий торгаш вас не випередив."
-    ],
-    "ToPlanetEconomy": "Agriculture",
-    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "ToPlanetGoodsSale": "Mini,Small",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "32": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsBuy": "Average,Big,Huge",
-    "CurPlanetGoodsCnt": "Zero,Mini,Small",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng,People",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Alcohol",
-    "Priority": "50",
     "Text": [
       "Вітаємо, <Player>! Ви знаєте, що плутанина на <ToPlanet>, викликана відсутністю нормального уряду, призвела до різкого зниження цін на винно-горілчану продукцію?",
       "На нашій планеті даний вид товарів традиційно має великий попит, і ми заплатили б за нього хороші гроші. Поки що ви, <Player>, є власником цієї інформації! Але поспішайте, якщо хочете заробити, бо заповзятливі торговці завжди знайдуться."
-    ],
-    "ToPlanetEconomy": "Agriculture,Mixed",
-    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "ToPlanetGoodsPermit": "Yes",
-    "ToPlanetGoodsSale": "Mini,Small",
-    "ToPlanetRace": "Peleng,People,Fei"
+    ]
   },
   "33": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRating": "Mini,Small,Average",
-    "Priority": "10",
     "Text": [
       "Вітаємо, <Player>! Ви хороший рейнджер, чи не так? Але чомусь у центрі рейнджерів так не вважають і записують вас на останні місця. Чому це? І ще повідомлення з планети <ToPlanet> про те, що вас розшукують як особливо небезпечного злочинця. Чим це ви так насолили?",
       "Треба вам приборкати свій запал і направити його в правильніше русло, зайнявшись нарешті домінаторами."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRelations": "War"
+    ]
   },
   "34": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Good,Best",
     "PlayerRank": "Cadet,Pilot,Wingman,Leader,Ace,Commander, Admiral",
-    "PlayerRating": "Average,Big,Huge",
-    "Priority": "20",
     "Text": [
       "Вітаємо, наш уславлений співвітчизник, рейнджер <Player>! Знаємо, що ви добрий рейнджер, і пишаємося вами.",
       "Тут прийшов папір із системи <ToStar>, що мовляв вас там розшукують і хочуть ув'язнити. Ми заступалися як могли, але вони не хочуть говорити з нами. Ця раса має дивні уявлення про закон. Ми рекомендуємо вам туди більше не літати, бо вас негайно заарештують і посадять у тамтешню в'язницю."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsPlayerRace": "No",
-    "ToPlanetRelations": "War"
+    ]
   },
   "35": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "Priority": "50",
     "Text": [
       "Вітаємо, рейнджер <Player>! Наші сусіди з планети <ToPlanet> вимагають негайної вашої видачі. Ми ж вважаємо вас непоганим рейнджером, тож відмовили їм.",
       "Але вони збираються зустріти вас на орбіті, про що ми вас попереджаємо! Будьте пильні, купіть гарну зброю!"
-    ],
-    "ToPlanetInCurStar": "Yes",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRelations": "War"
+    ]
   },
   "36": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRace": "People",
-    "PlayerRating": "Mini,Small",
-    "Priority": "5",
     "Text": "Вітаємо тебе, людино, на нашій чудовій планеті <CurPlanet>. Зауважимо, що тобі потрібно вести активніший спосіб життя. Поки що твій рейтинг серед рейнджерів дуже малий."
   },
   "37": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerStatus": "Pirate,Warrior",
-    "Priority": "5",
     "Text": [
       "Ми, пеленги, завжди раді бачити уславлених воїнів на своїй планеті. Що скажете про перевезення контрабанди на планети інших рас?",
       "У нас все дозволено!"
     ]
   },
   "38": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Priority": "1",
     "Text": "Коли ви прогулюєтеся нашою планетою, інші б'ються з домінаторами на орбіті! Як вам не соромно, <Player>?!!<br>Ці рейнджери зовсім нічого не розуміють..."
   },
   "39": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc,Peleng,People",
-    "CurPlanetRelations": "Good,Best",
-    "Goods": "Arms",
-    "Priority": "10",
     "Text": [
       "На планеті <ToPlanet>, де мешкають наші співвітчизники, готується переворот. Ціни на озброєння нечувані.",
       "Як щодо того, щоб відвезти в систему <ToStar> партію зброї в <CurPlanetGoodsCnt> одиниць, за ціною <CurPlanetGoodsSale> cr?<br>Якщо пропозиція вас зацікавила, то йдіть до торгового центру. Виручку гарантуємо."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetGoodsPermit": "Yes",
-    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People",
-    "ToPlanetRaceIsCurPlanetRace": "Yes"
+    ]
   },
   "4": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad",
-    "Priority": "1",
     "Text": "Якого біса тобі потрібно на нашій планеті, іноземець <Player>? Тобі тут зовсім не раді."
   },
   "40": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetGoverment": "Republic,Democracy",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng,People,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Luxury",
-    "Priority": "50",
     "Text": [
       "Розквіт культури на такій цивілізованій планеті, як наша, призвів до повної гармонії. Ми давно є експортерами різних витворів мистецтва. Сьогодні предмети розкоші можна купити за ціною <CurPlanetGoodsSale> cr за умовну одиницю.",
       "Можливо, ви, <Player>, зацікавлені в легальному бізнесі і готові відвезти партію товару, скажімо, в систему <ToStar> на планету <ToPlanet>. Тамтешній монархічний уряд завжди платить добрі гроші за нього."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetGoodsPermit": "Yes",
-    "ToPlanetGoverment": "Monarchy",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Peleng,People,Fei,Gaal"
+    ]
   },
   "41": {
-    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "No",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng,People,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Narcotics",
-    "Priority": "3",
     "Text": [
       "Шановний <Player>! Ми раді вітати вас на нашій планеті. Щиро сподіваємося, що предмети наркотичного утримання вас не цікавлять, і ви вестимете на нашій планеті виключно легальну діяльність.",
       "Якщо все ж таки ви схиблені на наркотиках, то летить у систему <ToStar> на планету <ToPlanet>. Там цього добра можна набрати легально, за <ToPlanetGoodsSale> cr за умовну одиницю."
-    ],
-    "ToPlanetGoodsPermit": "Yes",
-    "ToPlanetGoodsSale": "Mini,Small,Average",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "42": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad",
     "Text": "Рейнджер, <Player>, ви погано зарекомендували себе у відносинах з нашою планетою та нашою расою взагалі. Тому, як представник уряду, доводжу до вашого відома, що займатися комерційною діяльністю на нашій планеті вам заборонено."
   },
   "43": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Normal,Good",
-    "Priority": "1",
     "Text": [
       "Як ситуація в космосі, <Player>? Яка мета вашого візиту? Чи є у вас на борту заборонені вантажі? Негайно відповідайте.",
       "Втім, можна і не відповідати. Всі ці питання не більш як формальність для представників нашої раси."
     ]
   },
   "44": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng,Fei",
-    "CurPlanetRelations": "Bad,Normal",
-    "PlayerRace": "Maloc",
-    "Priority": "5",
     "Text": "Рейнджер <Player>, вам було призначено чи ви з'явилися без запрошення? Ці товстоморді молоки вештаються де завгодно і просять, просять... Ну що вам ще треба?"
   },
   "45": {
-    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Alcohol",
-    "PlayerRace": "People",
-    "Priority": "10",
     "Text": [
       "Шановна людина <Player>! Ми раді бачити, як людська раса йде шляхом прогресу.",
       "Послуги нашого космопорту завжди відкриті для Вас. Вас, мабуть, цікавить алкоголь? Звісно, ​​не соромтеся, ми знаємо потреби ваших співвітчизників. Товар є абсолютно легальним, вартість <CurPlanetGoodsSale> cr за одиницю. Приємних покупок!"
     ]
   },
   "46": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Maloc,Peleng,People",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRace": "Gaal",
-    "Priority": "5",
     "Text": "Пане <Player>, дякуємо вам за посадку на нашій планеті. Не кожен день можна побачити добропорядного рейнджера, та й до того ж представника такої стародавньої раси. Ми завжди шанували гаальців. Говорять, що ви вимираєте, це правда?"
   },
   "47": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Medicine",
-    "PlayerRank": "Rookie,Cadet",
-    "Priority": "2",
     "Text": [
       "Поважний <Player>! Ми гідні приємної честі бачити вас. Наш уряд робить все можливе, щоб нас відвідувало якнайбільше таких рейнджерів, як ви.",
       "Нехай ви поки що і не заслужили високого військового звання, але ми віримо у вас!",
@@ -688,202 +277,85 @@
     ]
   },
   "48": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Good,Best",
-    "Priority": "1",
     "Text": [
       "Шановний <Player>, ми раді вітати вас на нашій планеті. Що привело вас до нас? Бажаєте перепочити після довгих мандрівок чи отримати завдання?",
       "А може ви хочете купити наші товари? У будь-якому випадку, почувайтеся як вдома!"
     ]
   },
   "49": {
-    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "Goods": "Narcotics",
-    "Priority": "10",
     "Text": [
       "Рейнджер <Player>!  Радий, що ви залетіли до нас. Ви, напевно, давно поневіряєтеся системами, і чули, як там справи в системі <ToStar>? По очах бачу, не знаєте. А ми, пеленги, давно стежимо за подіями у захопленій системі, але поки що нічого не робили, щоб нас не зрозуміли неправильно. Ну, ви, звичайно, зрозуміли, що я мав на увазі?",
       "Так ось, дуже чудовий препарат із висушеного вичавлення болотних рослин робили на одній із планет системи <ToStar>. Раніше ми влаштовували туди нарко... вибачте, бізнес-тури, але зараз через домінатори ми втратили це, можна сказати, святе місце. Тепер нам залишається лише чекати, коли ви, рейнджери, зломите натиск цих тупих залізяків."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,People,Fei,Gaal",
-    "ToStarControlByKling": "Yes"
+    ]
   },
   "5": {
-    "CurPlanetEconomy": "Agriculture,Mixed",
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Food",
-    "Priority": "10",
     "Text": [
       "Вітаємо, <Player>!<br>За нашими даними, на планеті <ToPlanet> проблеми з продуктами харчування. Їхні запаси мізерні, а ціни великі.",
       "Ви, <Player>, можете зробити хороші гроші, зайнявшись доставкою наших товарів до системи <ToStar>. Поспішайте, зараз у нас на складі є <CurPlanetGoodsCnt> одиниць продовольства."
-    ],
-    "ToPlanetEconomy": "Mixed,Industrial",
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "50": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PirateInToStar": "3,4,5,6,7,8,9,Many",
-    "PlayerStatus": "Pirate",
-    "Priority": "10",
     "Text": [
       "Ача! Пірат, <Player>!  Ми раді, що інші пірати не забувають про своїх братів пеленгів!",
       "Ми отримали інформацію, що в системі <ToStar> збираються якісь багаті особи для відпочинку на курортних планетах. Це означає, що піратам буде чим поживитися. Якщо ви збираєтесь туди, то будьте пильні, не тільки ви дізналися від нас про це."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "51": {
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoverment": "Democracy",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Technics",
-    "Priority": "10",
     "Text": [
       "Шановний <Player>! Чули новину? На сусідній планеті <ToPlanet> форма правління - монархія. Ми, звісно, ​​співчуваємо народу, позбавленому права голосу на демократичних виборах.",
       "Їх монарх не приймає технічного прогресу, вважає, що технічний прогрес вбиває душу. Тому ціни там розвинені на таку продукцію, чим не пропустили скористатися деякі ділові особи."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetGoodsPermit": "Any",
-    "ToPlanetGoverment": "Monarchy",
-    "ToPlanetInCurStar": "Yes",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "52": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetGoverment": "Anarchy",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc,People,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Narcotics",
-    "Priority": "10",
     "Text": "Рейнджер <Player>! Зараз на нашій планеті відбувається чергова зміна урядового устрою, тому ми без чіткого керівництва. І у нас ви зможете придбати будь-які заборонені на інших планетах товари, наприклад, найкращі наркотики за найкращими цінами."
   },
   "53": {
-    "CurPlanetGoodsBuy": "Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Goods": "Arms",
-    "Priority": "30",
     "Text": [
       "Військовий стан у нашій системі, <Player>, спонукав усіх жителів нашої планети озброюватися. Навіть мирні мешканці готуються дати відсіч агресорам!",
       "Сьогодні ми купуємо зброю за нечуваними цінами. Якщо вам є що продати, то зробіть це, ви тільки виграєте. А потім одразу в бій. Будемо разом протистояти домінаторам!"
     ]
   },
   "54": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "Priority": "2",
     "Text": [
       "Парад, салют, бойові покази! Рейнджер <Player>, сьогодні ми відзначаємо всемалокське свято \"Сім вибухів\".",
       "Прошу вас довго не затримувати мене. Вам, інопланетянам, нас не збагнути."
     ]
   },
   "55": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "Priority": "3",
     "Text": [
       "Рейнджер <Player>, сьогодні ми відзначаємо всемалокське свято \"Залізної хватки\". Бойовий парад, салют та рукопашні сутички на вулицях!",
       "Прошу вас довго не затримувати мене. Вам, інопланетянам, нас не збагнути. Втім можете спробувати взяти в цьому участь як манекен ворога. Ми будемо вам дуже вдячні."
     ]
   },
   "56": {
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad, Normal,Good,Best",
-    "Priority": "3",
     "Text": [
       "Це \"Великий зажор\", <Player>! Чергове Всемалокське свято. Сьогодні проводиться бойовий парад найміцніших і найгодованіших солдатів, кам'яна боротьба сутро та салют, присвячений величі малокської цивілізації!",
       "Вам, інопланетянам, краще сьогодні на вулиці не показуватись. Народ сьогодні багато їсть. Чи не виникло б прецеденту. Заздалегідь дякую."
     ]
   },
   "57": {
-    "CurPlanetPirateClan": "No",
     "PlayerRank": "Ace, Commander, Admiral",
-    "PlayerRating": "Big,Huge",
-    "Priority": "1",
     "Text": "Рейнджер <Player>! Нам честь вітати великого воїна на нашій скромній планеті. Якщо ви відвідаєте наші магазини, то ми розповідатимемо про це нашим дітям."
   },
   "58": {
-    "CurPlanetEconomy": "Agriculture",
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Food",
-    "PlayerRace": "People,Fei",
-    "PlayerStatus": "Trader",
-    "Priority": "60",
     "Text": [
       "Бізнесмени не оминають нас стороною, от і шановний торговець <Player>. Відразу видно, що боги чують наші молитви!",
       "Наша планета займається експортом їжі вже багато років. Всі продукти харчування виготовлені з високоякісного бруду найзатхліших озер <CurPlanet>. Ціна може й висока, але для багатих людей та феян це не проблема. Спеціально для вас ми пропонуємо в торговому центрі чудову нугу з кремашок та запечанців за мінімальною ціною. Думаю, вам як досвідченому підприємцю не потрібно пояснювати, що до чого?"
     ]
   },
   "59": {
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Goods": "Luxury",
-    "Priority": "10",
     "Text": [
       "Як вас сюди занесло, <Player>? У нас тривають запеклі бої із силами домінаторів. Мирні жителі тікають із системи, продають усе, що можна. Ціни на предмети розкоші просто впали!",
       "Допоможіть нам захистити систему <CurStar>!"
     ]
   },
   "6": {
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Medicine",
-    "Priority": "10",
     "Text": [
       "За нашими даними, на планеті <ToPlanet> зараз проблеми з медикаментами. Населення страждає на хвороби, і ми їм дуже співчуваємо.",
       "Ви, <Player>, можете зробити хороші гроші, зайнявшись доставкою наших медикаментів у систему <ToStar>. Поспішайте, поки більш заповзятливі рейнджери вас не обставили."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+    ]
   },
   "60": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Maloc",
-    "CurPlanetRelations": "Bad,Normal",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRace": "Maloc",
-    "PlayerRank": "Rookie,Cadet,Pilot,Wingman",
-    "PlayerStatus": "Trader",
-    "Priority": "50",
     "Text": [
       "Що бачу, <Player>! Малок-торгаш, грім та блискавка! Від малокських братів я не міг цього чекати. А тим більше від справжнього рейнджера.",
       "Не ганьби свою расу великих воїнів та підкорювачів галактик! Ти подумав про те, що довелося пережити твоїй родині, твоїй матері, гранд-саперу третього дивізіону десантного полку, коли ти став брудним торгашем?",
@@ -891,11 +363,6 @@
     ]
   },
   "61": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Fei",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Priority": "30",
     "Text": [
       "Що ви тут робите, рейнджер <Player>?!!",
       "Не час займатися науковими дослідженнями та просити у нас завдання. А ну, швидше заправляйтеся, ремонтуйтеся - або що там вам ще потрібно - і назад у бій! У системі домінатори!",
@@ -904,23 +371,12 @@
     ]
   },
   "62": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "People",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Priority": "5",
     "Text": [
       "Люди стікаються до нас у систему, щоб допомогти братам відбити атаку ворогів. Дякую і вам, <Player>.",
       "Прошу вас, поспішайте, ви потрібні там, у бою, на орбіті планети <CurPlanet>, а не тут, на її поверхні."
     ]
   },
   "63": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "PlayerRace": "Gaal",
-    "Priority": "30",
     "Text": [
       "Рейнджер <Player>, ви вибрали не найкращий час для посадки на планету. Наша система в небезпеці, домінатори атакують із новою силою.",
       "У цій ситуації є конфлікт між домінаторами і гаальцями. Пам'ятайте, що наша мета – мирними шляхами вирішити цей конфлікт.",
@@ -928,26 +384,12 @@
     ]
   },
   "64": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "Goods": "Arms",
-    "PlayerRace": "Maloc",
-    "Priority": "30",
     "Text": [
       "Ну чого ви, <Player>, все, вибачте, буваєте? Взяли б, зібрали флот і рознесли б базу цих пихатих феян. Знаю, знаю, вони вам, малокам, ох як не подобаються.",
       "Так це купіть у нас партію зброї. Знаєте, дуже якісно, ​​дуже добре! І - як ви, молоко, любите - дуже багато, аж <CurPlanetGoodsCnt> од!"
     ]
   },
   "65": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Narcotics",
-    "PlayerRace": "Gaal",
-    "Priority": "20",
     "Text": [
       "І попало ж тебе, <Player>, вродити гаальцем. Ти одразу таким стародавнім на світ народився, чи операцію зі спотворення зробив?",
       "Що образився? А це не мої слова, це феяни та люди так говорять про вас. Я лише відкриваю тобі правду. Крім нас, пеленгів, хіба від кого почуєш хоч слово правди? Ось те.",
@@ -955,42 +397,18 @@
     ]
   },
   "66": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRace": "People",
-    "Priority": "10",
     "Text": [
       "\"Мушик сказав - мушик зробив!\" Це я про вас, <Player>! Приємно чути? Звісно! Я знаю багато людських приказок!",
       "Або ще: \"Пес, ти мені за це заплатиш!\" Звучить, так? Я думаю, що пес, це щось на кшталт молока, щось тупе й неслухняне. А заплатити молоко завжди встигне. Грошей тільки в них мало, ми їм поставили феянські банкомати з хитруном, і тепер з усіх операцій ми отримуємо половину грошей. А молоко вже звикли витрачати вдвічі більше, думають, що так і треба. Втім, що вам людям до молок, коли у вас на шляху стоять ці гордовиті феяни і манірні гаальці. Вашій расі треба просуватися разом із нами! Відразу після цієї війни ми з вами укласти союз!"
     ]
   },
   "67": {
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Narcotics",
-    "PlayerRace": "Maloc,People,Gaal",
-    "Priority": "10",
     "Text": [
       "А, <Player>, чудово. Тут феяни нам оголосили ембарго, так. На постачання нешкідливої ​​трави. Ем-м... Нам не хотілося б порушувати закон, тому, як суті іншої раси, вам не важко буде зробити нам невеликий, але скромний подарунок. Отже, хочете заробити? Слухайте!",
       "На феянській планеті <ToPlanet> потрібна вона сама. У нас все легально – берете, везете, продаєте. Ціна закупівлі <CurPlanetGoodsSale>, а ціна продажу <ToPlanetGoodsBuy> cr! Уловлюєте різницю? Краще пропозиції вам просто не знайти!"
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoodsPermit": "No",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Fei"
+    ]
   },
   "68": {
-    "CurPlanetGoodsCnt": "Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Luxury",
-    "Priority": "5",
     "Text": [
       "Так, <Player>, це доля. Ви не грали в паратруперс? Це досить поширена гра серед нашого кола. Два добровольці, один пеленг, а інший - будь-який інопланетянин на кшталт вас, одягаються у спеціальну форму, в якій вони мають скоїти п'ять ненавмисних злочинів. При цьому жителі, звичайно, вас вбиватимуть, заважаючи вчиненню акту насильства та вандалізму. А нагородою за це дійство буде служити все те, що вам вдасться забрати чи вкрасти, навіть якщо це чарди з ноги верховного жаби! А той, хто вкраде більше, впаде від руки того, хто вкрав менше. О як!",
       "Ну, швидше думайте!",
@@ -998,275 +416,103 @@
     ]
   },
   "69": {
-    "CurPlanetGoodsCnt": "Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRace": "Peleng",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Technics",
-    "Priority": "10",
     "Text": [
       "Чогось у мене голова болить від цих комп'ютерних ігор. Ці прокляті чотирирукі джойстики у мене вже ось де сидять! Неможливо й подумати, як можна після цього думати про продовження. Ви хоч розумієте, що я вам пропоную?!! Море прекрасних джойстиків, мнемонічних сидюків і всякої іншої погані, необхідної винахідливому бізнесмену!",
       "Зараз звірюся з прайсом для оптових покупців. Так, на складі є <CurPlanetGoodsCnt> одиниць добірного товару, за <CurPlanetGoodsSale> cr! Це чудово, <Player>, це ваша доля зробити таку покупку! Поспішайте до нашого торгового центру!"
     ]
   },
   "7": {
-    "CurPlanetGoodsBuy": "Big,Huge",
-    "CurPlanetPirateClan": "Any",
-    "CurPlanetRelations": "Bad",
-    "Goods": "Minerals",
-    "Priority": "30",
     "Text": "Що ти тут забув, <Player>? Тобі не дозволяється займатися торговими угодами на планеті. І це твоя проблема, тому що ми скуповуємо корисні копалини за будь-якими цінами. Але в тебе ми принципово не купимо нічого."
   },
   "70": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Bad",
     "Text": "Ви, <Player>, зовсім не той, кого хотілося б бачити у своєму кабінеті. Отже, вам забороняється займатися будь-якою комерційною діяльністю на цій планеті."
   },
   "71": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal",
-    "Priority": "1",
     "Text": "А, <Player>, чого ви тут втратили? Не сказав би, що ваша поява викликає у мене шквал позитивних емоцій. Швидше, навіть навпаки."
   },
   "72": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good",
-    "Priority": "1",
     "Text": "Чудово, що ви зайшли, <Player>! Я дуже радий нашій зустрічі! Кажіть, чого хотіли, я уважно слухаю."
   },
   "73": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Best",
-    "Priority": "1",
     "Text": "Завжди раді вас бачити, <Player>! Хочете пару чарок втикіли чи секретне завдання? А може бути й те, й інше, ха-ха?"
   },
   "74": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad",
-    "Priority": "1",
     "Text": "Якого біса тобі потрібно на нашій планеті, <Player>? Провалюй, доки я не покликав своїх шісток, і вони не проломили твій тупий інопланетний череп!"
   },
   "75": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Priority": "1",
     "Text": "Вітаємо, <Player>! Ми завжди раді бачити рідну пику на зразок вашої на планеті <CurPlanet>."
   },
   "76": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRank": "Cadet,Pilot,Wingman,Leader",
-    "PlayerRating": "Mini,Small",
-    "Priority": "10",
     "Text": "Well, well, Ranger <Player>. Your <PlayerRank> stripe tells me that you're not terribly good at performing your ranger duties. That's a good thing around here -- we don't much like zealous upstarts that blindly follow the Coalition.<br>If ever you become one, you had better avoid coming here. But if you become a pirate instead, you'll get all the respect from us."
   },
   "77": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "People,Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRank": "Rookie,Cadet,Pilot,Wingman,Leader,Ace",
-    "PlayerRating": "Mini,Small,Average",
-    "PlayerStatus": "Pirate",
-    "Priority": "10",
     "Text": "А ось піратів ми, <Player>, не любимо! Ви немов ложка гострого соусу малокського в бочці з ніжним нектаром.<br> Ха-хах, та жартую я, жартую! Ви, пірати, славні хлопці, я від вас тягнуся. Розбій, контрабанда... ех, романтика. Якби я не домігся розкішної можливості марно обсиджувати стілець у цій кімнаті – обов'язково пішов би до піратів і сам."
   },
   "78": {
-    "CurPlanetEconomy": "Mixed,Industrial",
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetGoodsPermit": "Yes",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "Maloc,People,Fei,Gaal",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Technics",
-    "PlayerStatus": "Pirate",
-    "Priority": "30",
     "Text": [
       "Ласкаво просимо, <Player>. Ми завжди раді піратам, які відвідують нашу планету. Хоч ви і іноземець, але явно славний малий, так що не поспішайте відлітати, погостюйте у нас пару днів, огляньте визначні пам'ятки, поторгуйте на ринку.",
       "До речі, прохання до вас, не в службу, а в дружбу купіть на нашій планеті партію техніки. А то ніхто не бере, розумієш... :-("
     ]
   },
   "79": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "Maloc,People,Fei",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad,Normal",
-    "PlayerRace": "Peleng",
-    "Priority": "2",
     "Text": "Що брудний чотирирукий пеленг <Player> забув на нашій процвітаючій планеті? Він, швидше за все, прилетів, щоби рознюхати наші плани і потім продати їх Коаліції?"
   },
   "8": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Priority": "1",
     "Text": "Вітаємо співвітчизника, рейнджер <Player>! Ми завжди раді бачити вас на планеті <CurPlanet>."
   },
   "80": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRank": "Leader,Ace,Commander, Admiral",
-    "Priority": "10",
-    "Text": "Уславлений рейнджер <Player> власною персоною. Ми тут не любимо таких як ти, май це на увазі. Зрозуміло, ми не можемо викидати всіх рейнджерів з планети, тому що це буде шкідливо для торгівлі, але ходячи вулицями частіше оглядайся, щоб якийсь молодий і швидкий піратик не проломив тобі голову. Повір, у суді його виправдають. Лети-но ти краще в зіркову систему <ToStar>, постріляй разом із військовими домінаторів. Ти ж це любиш.",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToStarControlByKling": "Yes"
+    "Text": "Уславлений рейнджер <Player> власною персоною. Ми тут не любимо таких як ти, май це на увазі. Зрозуміло, ми не можемо викидати всіх рейнджерів з планети, тому що це буде шкідливо для торгівлі, але ходячи вулицями частіше оглядайся, щоб якийсь молодий і швидкий піратик не проломив тобі голову. Повір, у суді його виправдають. Лети-но ти краще в зіркову систему <ToStar>, постріляй разом із військовими домінаторів. Ти ж це любиш."
   },
   "81": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "PlayerRating": "Mini,Small",
-    "Priority": "10",
-    "Text": "На систему <ToStar> напали домінатори. Нам-то, звичайно, пофіг на цих невдах, проте якщо домінатори там окопаються, то незабаром дістануться цієї планети, а нашестя цих залізниць дуже шкодить бізнесу. Тож просимо вас, <Player>, допоможіть відвести потенційну загрозу від меж нашої системи.",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "Yes",
-    "ToStarInBattle": "Yes"
+    "Text": "На систему <ToStar> напали домінатори. Нам-то, звичайно, пофіг на цих невдах, проте якщо домінатори там окопаються, то незабаром дістануться цієї планети, а нашестя цих залізниць дуже шкодить бізнесу. Тож просимо вас, <Player>, допоможіть відвести потенційну загрозу від меж нашої системи."
   },
   "82": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "CurPlanetGoodsSale": "Mini,Small,Average",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "Goods": "Medicine",
-    "KlingInToStar": "4,5,6,7,8,9,Many",
-    "Priority": "50",
     "Text": [
       "Зараз у системі <ToStar> йдуть кровопролитні бої із домінаторами. Ви, <Player>, можете суттєво допомогти своїй расі, якщо вам не ліньки, звичайно.",
       "У випадку, якщо у вас все ж таки заговорить рейнджерське совість, захопіть із собою партію медикаментів, які можете придбати тут же, на нашій планеті. Як бачите, ми дбаємо не лише про інших, а й про себе!"
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "No",
-    "ToPlanetRaceIsPlayerRace": "Yes",
-    "ToStarInBattle": "Yes"
+    ]
   },
   "83": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "KlingInToStar": "4,5,6,7,8,9,Many",
-    "Priority": "50",
-    "RangerInToStar": "3,4,5,6,7,8,9,Many",
-    "Text": "<Player>, всі найкращі рейнджери зараз зібралися в системі <ToStar>, борються разом із вашими співвітчизниками, намагаючись відбити її у домінаторів, і гинуть пачками в кровопролитній битві. А всі найкращі пірати зараз живуть приспівуючи, вважають гроші та їх життю ніщо не загрожує. От і скажіть, хто розумніший?",
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsCurPlanetRace": "Yes",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Yes"
+    "Text": "<Player>, всі найкращі рейнджери зараз зібралися в системі <ToStar>, борються разом із вашими співвітчизниками, намагаючись відбити її у домінаторів, і гинуть пачками в кровопролитній битві. А всі найкращі пірати зараз живуть приспівуючи, вважають гроші та їх життю ніщо не загрожує. От і скажіть, хто розумніший?"
   },
   "84": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good,Best",
-    "PlayerRating": "Mini,Small,Average",
-    "Priority": "10",
     "Text": [
       "Вітаємо, <Player>! Ви впевнено займаєте місце десь наприкінці списку рейнджерів – і правильно. Нема чого танцювати під дудку Коаліції, виконуючи різні безглузді завдання. У нас ніякого піратського рейтингу немає, але ми цим фактом ні краплі не засмучені. До речі, на планеті <ToPlanet> вас розшукують як небезпечного злочинця, так тримати!",
       "Продовжуйте в тому ж дусі і заслужена слава в лавах піратського співтовариства не забариться."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRelations": "War"
+    ]
   },
   "85": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRaceIsPlayerRace": "Yes",
-    "CurPlanetRelations": "Good,Best",
     "PlayerRank": "Cadet,Pilot,Wingman,Leader,Ace,Commander, Admiral",
-    "PlayerRating": "Average,Big,Huge",
-    "Priority": "20",
     "Text": [
       "Здорово, рейнджер <Player>. Ти добрий рейнджер і це нам не подобається. Це натяк, якщо що.",
       "До речі, тут прийшов папір із системи <ToStar>, що мовляв, тебе там розшукують і хочуть посадити до в'язниці. На жаль, у нас недостатньо ресурсів, щоб переправити тебе туди самостійно, тож радуйся. Взагалі, я вважаю, що всім рейнджерам місце у тюрзі, щоб вони на своїй шкурі спробували бути опущеним типом."
-    ],
-    "ToPlanetInCurStar": "No",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRaceIsPlayerRace": "No",
-    "ToPlanetRelations": "War"
+    ]
   },
   "86": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Good,Best",
-    "Priority": "50",
     "Text": [
       "Ага, рейнджер <Player>, ось і ви! Майте на увазі, що наші сусіди з планети <ToPlanet> вимагають негайної вашої видачі. Ми вас не вигороджуватимемо, так що розбирайтеся з ними самі, як хочете.",
       "До речі, вони збираються зустріти вас на орбіті, так що радимо прикупити в нашому магазині парочку гармат, щоб гроші не пропали зазря після вашої смерті."
-    ],
-    "ToPlanetInCurStar": "Yes",
-    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ToPlanetRelations": "War"
+    ]
   },
   "87": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "Fei,Gaal",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRace": "People",
-    "PlayerRating": "Mini,Small",
-    "Priority": "5",
     "Text": "Вітаємо тебе, людино, на нашій чудовій планеті <CurPlanet>. Зауважимо, що тобі потрібно вести більш піратський спосіб життя. У тебе є невеликий рейтинг рейтингу, але в ідеалі його не повинно бути взагалі. Май це на увазі, на майбутнє."
   },
   "88": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "Maloc,Peleng,People",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "PlayerRace": "Gaal",
-    "Priority": "5",
     "Text": "Пане <Player>, дякуємо вам за посадку на нашій планеті. Не кожен день можна побачити добропорядного рейнджера, та й до того ж представника такої стародавньої раси. Хоча, правду кажучи, було б чудово, якби рейнджери всіх болісно померли в цю саму хвилину. При всій моїй повазі до вас, звичайно."
   },
   "89": {
-    "CurPlanetGoodsCnt": "Average,Big,Huge",
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "Goods": "Medicine",
-    "PlayerRank": "Rookie,Cadet",
-    "Priority": "2",
     "Text": [
       "<Player>, ваш рейтинг рейтингу неухильно зростає! Негайно перестаньте прокачувати його, або наші з вами стосунки будуть безповоротно зіпсовані. Краще займіться піратською діяльністю.",
       "Так, до речі, пройдіть до нашого магазину. Там залежала партія медикаментів спеціально для вас. Аж <CurPlanetGoodsCnt> одиниць відмінного товару."
     ]
   },
   "9": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Normal,Good,Best",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRank": "Cadet,Pilot,Wingman,Leader",
-    "PlayerRating": "Mini,Small",
-    "Priority": "10",
     "Text": "О, рейнджер <Player>! Заходьте! Личка <PlayerRank> говорить про те, що ви не даєте домінаторам жити спокійно. Зараз звіримося з інформацією від центрів рейнджерів...<br>Так, так... Не густо...<br>Що ж ви, <Player>, не здаєте їм ноди? На вас скаржаться. Ви у рейтингу у самому відстійнику, і це дуже сумно! Треба вам поворухнутися."
   },
   "90": {
-    "CoalitionAlreadyDefeated": "No",
-    "CurPlanetPirateClan": "Yes",
-    "DominatorsAlreadyDefeated": "No",
-    "PlayerRank": "Ace,Commander, Admiral",
-    "PlayerRating": "Big,Huge",
-    "Priority": "1",
     "Text": "Великий воїн <Player>, радий вас бачити. На жаль, у вас не вистачило розуму, щоб замість нескінченних битв із домінаторами зробити кар'єру великого пірата, але кожному своє, кожному своє. Можете навіть залишити мені свій автограф, щоб я потім розповідав дітям про те, як просвічував вас одного разу на тему втрачених можливостей."
   },
   "91": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "Fei",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Priority": "30",
     "Text": [
       "Що ви тут робите, <Player>?!!",
       "Не час займатися науковими дослідженнями та просити у нас завдання. А ну, швидше заправляйтеся, ремонтуйтеся - або що там вам ще потрібно - і назад у бій! У системі домінатори!",
@@ -1275,43 +521,21 @@
     ]
   },
   "92": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRace": "People",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Yes",
-    "Priority": "5",
     "Text": [
       "На жаль, навіть пірати не застраховані від нападів домінаторів, <Player>. Нині саме такий випадок.",
       "Прошу вас, поспішайте зі злетом, ви потрібні нам у бою, на орбіті планети <CurPlanet>, а не тут, на її поверхні."
     ]
   },
   "93": {
-    "CurPlanetPirateClan": "No",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattlePirates": "Yes",
-    "Priority": "1",
     "Text": "Коли ви прогулюєтеся нашою планетою, інші б'ються з піратами на орбіті! Як вам не соромно, <Player>?!!<br>Чи ви самі підтримуєте цих негідників? Тоді сором вам і ганьба!"
   },
   "94": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRaceIsPlayerRace": "No",
-    "CurPlanetRelations": "Bad",
-    "Priority": "10",
     "Text": "Ми, <Player>, зовсім не раді тебе бачити, бо ти нікчемний і неприємний гуманоїд. Тому ми забороняємо тобі займатися комерційною діяльністю на цій планеті. І скажи спасибі, що я не покликав братків, вони б вони виставили тебе звідси за дві секунди."
   },
   "95": {
-    "CurPlanetPirateClan": "Yes",
-    "CurPlanetRelations": "Bad,Normal,Good,Best",
-    "CurStarInBattle": "Any",
-    "CurStarInBattlePirates": "Yes",
-    "Priority": "10",
     "Text": "В той час, як ви просиджуєте тут свої штани, <Player>, наші зовнішні межі оборони зазнають атаки. А ну швидко за штурвал, і бігом допомагати вільним піратам відстоювати свою незалежність."
   },
   "96": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "Priority": "13",
     "Text": [
       "О, друже, привіт. А ми тут якраз із хлопцями відзначали... ну, це... щось...",
       "Загалом, байдуже, слухай свіжий анекдот. Якось прилітає гаальський торговець на пелензьку планету, а там його зустрічає митник у порту і каже... ну, це... гмм...",
@@ -1319,29 +543,15 @@
     ]
   },
   "97": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "Priority": "11",
     "Text": "У нас тут нині пірати всім заправляють, <Player>, так що тримай вушка на маківці, якщо фізіологія дозволяє. У мене ось самого вчора гаманець відібрали, так довелося потім три години на тому місці проторчати, перш ніж сам зміг у когось бабло віджати. Замерз, утомився і не виспався перед роботою. Тож май на увазі."
   },
   "98": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "Priority": "9",
     "Text": "Ця планета перебуває під контролем будинку ... тьху, знову обмовився. Під контролем піратів вона знаходиться, май це на увазі, <Player>. У нас тут тепер особливі порядки і все можна, але будь-кого можуть пристрелити. Це новий ступінь еволюції суспільства і перш ніж почати сперечатися на цю тему, май на увазі, що у мене в столі лежить заряджений бластер. Тож краще кажи, чого ти хотів, а не розводь демагогію."
   },
   "99": {
-    "CurPlanetPirateClan": "Yes",
-    "CurStarInBattle": "No",
-    "CurStarInBattlePirates": "No",
-    "Priority": "7",
     "Text": [
       "Здорово, <Player>! Я ось щойно хлопцям казав, що гаальці найнебезпечніші пірати, все через цей їхній дивний світогляд. А ти як вважаєш, небезпечніші за гаальців, ніж молоко чи ні? А один гаальський пірат небезпечніший за двох молоков? А якщо у гаальця при цьому не працює генератор захисного поля і в одного з малоків броня корабля зовсім маленька? Не, якщо не хочеш - не відповідай, я чисто інтересу заради питаю, так мені пофіг.",
       "Чого ти взагалі хотіла?"
     ]
-  },
-  "CountGovGreetings": "120"
+  }
 }

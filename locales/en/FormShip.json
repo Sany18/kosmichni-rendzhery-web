@@ -3,7 +3,6 @@
   "CloseHold": "Close the cargo bay",
   "CostGoods": "Purchased for <OldCost> cr.",
   "DestrCount": "<Count> wings<br>(<Cost> en.)",
-  "DestrEnergy": "<Value1><br>(<Value2>)",
   "DestrIShield": "imp.",
   "DestrLabel": "Statistics",
   "DestrNShield": "norm.",
@@ -73,7 +72,6 @@
     }
   },
   "Repair": "repairs<br><Money> cr",
-  "RepairAll": "<Money> cr",
   "RepairMsgAllEnoughNode": "We will require an additional <NeedNode> nodes to repair the non-standard weapons. Do you want to repair the non-standard weapons?",
   "RepairMsgAllNeedNode": "A total of <NeedNode> nodes are needed to perform complete repairs. You do not have the required amount of nodes at this time. Repairs of non-standard weapons will not be made.",
   "RepairMsgEnoughNode": "Nodes are needed to perform repairs of non-standard weapons. <NeedNode> nodes will be consumed for repairs.",
@@ -95,7 +93,6 @@
     "Cost": "Cost",
     "Main": "Assets outside ship",
     "Page": "Page",
-    "PlanetNO": "( <Water> / <Land> / <Hill> )",
     "Size": "Weight",
     "Star": "<Star> system",
     "StarInfo": "system"

@@ -1,1110 +1,375 @@
 {
   "0": {
-    "FlyType": "Any",
-    "Relations": "Bad,Normal,Good",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "I am seriously sick of seeing your nasty mugs. Your scraggy, alien, unnaturally colored mugs. I'll have you know, <Player>, that a real ranger's mug ought to be red in color -- like mine! So before you start yacking at me, give your mug a good rubbin' to get some blood pumping."
   },
   "1": {
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Relations": "War,Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "Our relationship may be lousy, <Player>, but between you and the dominators, I admit that they are certainly the greater evil. So, let's deal with them first, and save our own squabbles for later. Agreed?"
   },
   "10": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "PlayerRating": "Mini",
-    "PlayerStrength": "Mini,Small,Average",
-    "Priority": "1",
-    "Relations": "Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "Howdy, friend! Listen, I know that you are currently a bottom feeder on the ranger chart, and you have my heartfelt sympathies. Take my advice: buy yourself a good shooter and start bumping off dominators. I believe in you, <Player>!"
   },
   "100": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Medicine",
-    "PlayerStatus": "Pirate",
-    "Priority": "50",
-    "Relations": "Bad,Normal",
-    "ShipGoodsTypeCnt": "3,4,5",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport",
     "Text": [
       "Carrier vessel <Ship> on the line.",
       "Presently I am carrying medical supplies and other goods to planet <ToPlanet>. I know that you, <Player>, are a pirate. Therefore, I will not be sharing any important economic information with you!"
-    ],
-    "ToPlanetIsHomePlanet": "No"
+    ]
   },
   "101": {
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Average,Big,Huge",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "I am carrying a large batch of provisions to planet <ToPlanet>. The order is urgent and the goods perishable, so please don't delay me."
   },
   "102": {
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Average,Big,Huge",
-    "ShipGoodsTypeCnt": "2,3,4,5",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport",
     "Text": [
       "Greetings from carrier vessel <Ship>, Ranger <Player>!",
       "We are transporting a large batch of miscellaneous goods to planet <ToPlanet>. We are in a hurry, as the order is urgent. Now, what can we do for you?"
     ]
   },
   "103": {
-    "FlyType": "ToPlanet",
-    "Goods": "Luxury",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Diplomat",
     "Text": [
       "I am in a rush to get to <ToPlanet> with an important diplomatic mission. But if your matter is pressing, I can try to help.",
       "By the way, <Player>, I have information that on <ToPlanet> luxury items are sold at inflated prices! This is related to the ascension of a new monarch, and so is my mission, incidentally."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoverment": "Monarchy"
+    ]
   },
   "104": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Luxury",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipHaveGoods": "No",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Liner",
-    "Text": "Boy, am I glad to meet a compatriot in the far space, <Player>! My job is to carry passengers to all kinds of remote planets. Many folks want to see real-life maloqs at close distance. But really, what is there to see? Aside from massive red kissers and even bigger fists? By the way, they say that back on <ToPlanet> they're selling luxury items real cheap. Like, their stools go as low as <ToPlanetGoodsSale> cr per ton. A pretty good bargain, no?",
-    "ToPlanetGoodsSale": "Mini",
-    "ToPlanetRace": "Maloc",
-    "ToPlanetRaceIsShipRace": "No"
+    "Text": "Boy, am I glad to meet a compatriot in the far space, <Player>! My job is to carry passengers to all kinds of remote planets. Many folks want to see real-life maloqs at close distance. But really, what is there to see? Aside from massive red kissers and even bigger fists? By the way, they say that back on <ToPlanet> they're selling luxury items real cheap. Like, their stools go as low as <ToPlanetGoodsSale> cr per ton. A pretty good bargain, no?"
   },
   "105": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "4,5,6,7,8",
-    "ShipType": "Transport,Liner,Ranger,Pirate",
-    "Text": "Hail, <Player>! I am landing on planet <ToPlanet> with all kinds of junk that I would like to sell. My cargo bay is packed with piles of trash that's not exactly grade A material, if you know what I mean. Everything from broken equipment to spoiled food to worthless minerals. I wonder if your compatriots will bite and buy up all this trash at three times the price?",
-    "ToPlanetRaceIsPlayerRace": "Yes",
-    "ToPlanetRaceIsShipRace": "No"
+    "Text": "Hail, <Player>! I am landing on planet <ToPlanet> with all kinds of junk that I would like to sell. My cargo bay is packed with piles of trash that's not exactly grade A material, if you know what I mean. Everything from broken equipment to spoiled food to worthless minerals. I wonder if your compatriots will bite and buy up all this trash at three times the price?"
   },
   "106": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Minerals",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "Text": "Greetings, <Player>! Did you know that prices for minerals on planet <ToPlanet> are super inflated? If I were you, I'd blast me some asteroid to bits or find some mope to buy up some minerals on the cheap. I'm talking good coin here!",
-    "ToPlanetGoodsBuy": "Big,Huge"
+    "Text": "Greetings, <Player>! Did you know that prices for minerals on planet <ToPlanet> are super inflated? If I were you, I'd blast me some asteroid to bits or find some mope to buy up some minerals on the cheap. I'm talking good coin here!"
   },
   "107": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Pirate",
-    "Text": "Greetings, <Player>! As you know, there's virtually no food that's grown on planet <ToPlanet>. It's a purely industrial planet. I plan on unloading provisions on them, then packing my cargo bay full of technology. And if you're smart, you'll do the same! Seize the day!",
-    "ToPlanetEconomy": "Industrial",
-    "ToPlanetGoodsBuy": "Big,Huge"
+    "Text": "Greetings, <Player>! As you know, there's virtually no food that's grown on planet <ToPlanet>. It's a purely industrial planet. I plan on unloading provisions on them, then packing my cargo bay full of technology. And if you're smart, you'll do the same! Seize the day!"
   },
   "108": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToPlanet",
-    "Goods": "Medicine",
-    "PlayerRank": "Rookie,Cadet",
-    "PlayerRating": "Mini,Small",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipHaveGoods": "No",
-    "ShipType": "Transport,Liner",
     "Text": [
       "Hey, <Player>, why so down? Chin up, you career is just beginning -- the best is still ahead! Watch, you'll become the Galaxy's top ranger yet.",
       "I'm heading to planet <ToPlanet> to pick up some goods. They're going through another one of their excess production crises, which means cheap prices on meds and all kinds of tech goodies."
-    ],
-    "ToPlanetEconomy": "Mixed,Industrial",
-    "ToPlanetGoodsCnt": "Average,Big,Huge",
-    "ToPlanetGoodsSale": "Mini,Small"
+    ]
   },
   "109": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Arms",
-    "PlayerRank": "Rookie,Cadet",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipType": "Diplomat",
     "Text": [
       "Greetings from diplomatic vessel <Ship>, <Player>! I know that you are only a rookie in the expanses of our universe, as evidenced by your rank of <PlayerRank>. But don't fret -- all the best stuff is still ahead for you!",
       "By the way, if you need a batch of weapons, I recommend dropping by planet <ToPlanet>. After their latest political coup, prices have been dirt cheap."
-    ],
-    "ToPlanetGoodsSale": "Mini,Small",
-    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy"
+    ]
   },
   "11": {
-    "FlyType": "Any",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "PlayerRating": "Mini,Small",
-    "PlayerStatus": "Trader,Warrior",
-    "Relations": "Bad,Normal,Good",
-    "ShipRace": "Peleng",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStatus": "Pirate",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
     "Text": "Greetings to you, <Player>, arm-disadvantaged creature that you are. You aren't much of a ranger so far, and even less of a merchant. If I were you, I'd start killing and pillaging straight away. That's how you become a respected member of society. Trust me, I know!"
   },
   "110": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc",
-    "LastPlanetRaceIsPlayerRace": "No",
-    "Priority": "40",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Liner",
     "Text": [
       "Our liner <Ship> recently landed on planet <LastPlanet> in the <LastPlanetStar> system. I must say, their nature is quite charming. But it's the austerity of the maloqs that truly stunned us! Really, who uses porter potties these days?",
       "Forgive me, player, <Player>, but you won't find anything like that on our planets. I wish I could go home to planet <HomePlanet> and wipe all these disgusting images from my mind."
-    ],
-    "ToPlanetIsHomePlanet": "Yes"
+    ]
   },
   "111": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Minerals",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipRace": "Maloc,Peleng,People,Fei",
-    "ShipType": "Transport,Liner",
-    "Text": "Greetings, <Player>! I plan on dropping by planet <ToPlanet>. I hear they value minerals and other natural resources, and my cargo bay is packed with all that junk. Hopefully they'll buy it all up.",
-    "ToPlanetGoodsBuy": "Average,Big,Huge"
+    "Text": "Greetings, <Player>! I plan on dropping by planet <ToPlanet>. I hear they value minerals and other natural resources, and my cargo bay is packed with all that junk. Hopefully they'll buy it all up."
   },
   "112": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Technics",
-    "PlayerGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "PlayerHaveGoods": "Yes",
-    "Priority": "50",
-    "Relations": "Bad",
-    "ShipMayScanPlayer": "Yes",
-    "ShipRace": "Peleng,People",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "I respect you, <Player>, and that's why I want to share a little secret with you. See, it's harvest season on planet <ToPlanet>.",
       "You can earn a whole lot of money if you deliver equipment to help them. And since your cargo bay is packed with all kinds of junk, this is the perfect chance to unload it all! I wouldn't lie to you -- I hope you know that!"
-    ],
-    "ToPlanetEconomy": "Industrial",
-    "ToPlanetGoodsSale": "Mini,Small"
+    ]
   },
   "113": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "Greetings, <Player>! I'm landing my ship on planet <ToPlanet>. I'm hauling food supplies, purchased on planet <LastPlanet> of the <LastPlanetStar> system at <LastPlanetGoodsSale> cr per unit."
   },
   "114": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Narcotics",
-    "Priority": "50",
-    "Relations": "Bad,Normal,Good",
-    "ShipHaveGoods": "Yes",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "I am seriously sick of seeing your nasty, bony alien mugs! Why can't you be more like us maloqs? Take our teeth, for instance... They can bite through a steel rod! What about you, <Player>, can you even gnaw your own hand off with that joke of a mouth?",
       "The reason I'm flying to planet <ToPlanet> is to protest. I want to polish some alien mugs, and unload some drugs in the process. I hear the local prices are through the proof, 'cause the customs officers are real bastards. But I ain't afraid of them, pshaw!"
-    ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge",
-    "ToPlanetRaceIsShipRace": "No"
+    ]
   },
   "115": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Alcohol",
-    "Relations": "Bad,Normal",
-    "ShipGoodsCnt": "Average,Big,Huge",
-    "ShipRace": "People",
-    "ShipStructure": "Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "Text": "S-say, buddy - HIC! - why does it always happen that when I stuff the cargo bay with first-classss booze - HIC! - only half of it - HIC! - mmmakes it to the point of de-HIC!-stination? And the... the sssecond half of the bottles is - HIC! - empty? Eh??",
-    "ToPlanetGoodsBuy": "Average,Big,Huge"
+    "Text": "S-say, buddy - HIC! - why does it always happen that when I stuff the cargo bay with first-classss booze - HIC! - only half of it - HIC! - mmmakes it to the point of de-HIC!-stination? And the... the sssecond half of the bottles is - HIC! - empty? Eh??"
   },
   "116": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Alcohol",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Mini,Small",
-    "ShipGoodsTypeCnt": "1,2,3",
-    "ShipRace": "Peleng,People",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Errr, <Player>, what day is it today? And where are we going? I laid my course to planet <ToPlanet>, but I don't remember why...",
       "Oh yes! I am carrying some dry wine, to profit on it!",
       "Although I don't remember if there's anything left in the cargo bay. My hangover is killing me."
-    ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge"
+    ]
   },
   "117": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Minerals",
-    "PlayerStructure": "Mini,Small",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipRace": "Maloc,Peleng,People",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Look, <Player>, your ship is seriously damaged. You should get it fixed, and soon. Follow me to <ToPlanet>. They'll patch you right up, make your ship as good as new.",
       "Plus, you can stock up on minerals while you're grounded. The planet isn't industrial, you know, they export minerals! You can buy a couple of containers real cheap, then take them over to gaals or faeyans and unload. They'll pay a pretty penny for the goods. Trust me on that!"
-    ],
-    "ToPlanetEconomy": "Agriculture",
-    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "ToPlanetGoodsSale": "Mini,Small"
+    ]
   },
   "118": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "PlayerStructure": "Mini,Small,Average",
-    "Priority": "50",
-    "Relations": "Bad,Normal,Good",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "Listen, <Player>, our ships are seriously damaged. I say we fly to planet <ToPlanet> and repair. Then we can go our separate ways."
   },
   "119": {
-    "FlyType": "ToPlanet",
-    "PlayerStructure": "Average,Big,Huge",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipStructure": "Mini,Small",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Don't get me wrong, <Player>...",
       "Your ship is in tip-top condition, so you're good to go. But now look at my wretched vessel... It's full of holes! Those damned pirates! All I can think of now is landing and repairing the damage. So let's save the chit-chat for another time."
     ]
   },
   "12": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "PlayerRating": "Mini,Small",
-    "PlayerStatus": "Trader,Pirate",
-    "Relations": "Bad,Normal,Good",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStatus": "Pirate,Warrior",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
     "Text": [
       "How did a failure like you ever get accepted into the rangers, <Player>? The only true rangers around are maloqs. Everybody else are mere pretenders. Only a maloq knows the price of another's life...",
       "Another's life is priceless, meaning it ain't worth a dented penny! That's the attitude you need if you hope to smash the dominators! But an alien like you will never understand that..."
     ]
   },
   "120": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "InFear": "Yes",
-    "Priority": "50",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipStructure": "Mini,Small,Average,Big",
-    "ShipTurnBeforeEndOrder": "1,2,3,4",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Danger, enemies everywhere! What to do? I'm going to land on the nearest planet of <ToPlanet>.",
       "And I strongly suggest that you follow suit, <Player>! This is no time to talk. I'm not maloq, after all, I don't have nerves of steel!"
     ]
   },
   "121": {
-    "FlyType": "ToPlanet",
-    "InFear": "Yes",
-    "Priority": "100",
-    "Relations": "Bad,Normal,Good",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStructure": "Mini,Small,Average,Big",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Danger, enemies everywhere! But maloq ships never retreat! Of course, on occasion we do land on planets to fuel up and get some grub. This is one such occasion. But then I'm going to show them all!",
       "Wipe that smirk off your face, <Player>, before I stretch it over your ship's nozzle with my bare hands! We maloqs don't appreciate being mocked."
     ]
   },
   "122": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Alcohol",
-    "InFear": "Yes",
-    "PlayerRace": "Peleng,People,Fei,Gaal",
-    "Priority": "100",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadRace": "Maloc",
-    "ShipBadType": "Transport,Liner,Diplomat,Pirate,Warrior",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Mayday, mayday, there's a maloq on my tail! The dumb savage has somehow gotten hold of surprisingly good tech, and now he's going wild satisfying his primal instincts at the helm of <ShipBad>, taking out his aggression on me!",
       "Help me, <Player>, rid me of this monster, and I will share some very valuable information with you! You can buy very cheap vodka on planet <ToPlanet>. It's the perfect merchandise! You can make a quick buck very easily!"
-    ],
-    "ToPlanetGoodsSale": "Mini,Small"
+    ]
   },
   "123": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "InFear": "Yes",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Pirate",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Mayday, mayday, there's a pirate on my tail! I'm trying to escape from <ShipBad>!",
       "Help me, <Player>, get rid of the pirate, and I'll share with you some valuable info! On planet <ToPlanet> you can buy oranges at very cheap prices. It's the perfect merchandise! Costs less than peanuts!"
-    ],
-    "ToPlanetGoodsSale": "Mini,Small"
+    ]
   },
   "124": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Arms",
-    "InFear": "Yes",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Ranger,Pirate",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "I was transporting a batch of firearms to planet <ToPlanet>, minding my own business. Then, out of nowhere that jerk <FullShipBad> starts tailing me, demanding that I release my cargo.",
       "<Player>, I know you are a clever lad. You understand that if you get this goon off me, you will be able to transport weapons to <ToPlanet> yourself. And the prices there are pretty awesome. I hear they are planning an uprising, which explains the demand."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge"
+    ]
   },
   "125": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Medicine",
-    "InFear": "Any",
-    "Priority": "100",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Ranger,Pirate",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "I was transporting a batch of medications when that bastard <FullShipBad> fell in pursuit, demanding that I empty out my cargo bay! But I can't oblige -- I'm carrying valuable drugs for impoverished children.",
       "<Player>, you may be a rookie and clueless about our laws, but you must understand that you have to help me. If you get rid of this scumbag, you will be able to transport medical supplies to <ToPlanet> yourself. This isn't some drug pushing gig, but legal and highly lucrative line of business."
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge"
+    ]
   },
   "126": {
-    "AutoTalk": "No",
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "100",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "I'm being pursued by a dominator. That blasted <FullShipBad> is on my tail. I'm trying to land on <ToPlanet>. No time to talk."
   },
   "127": {
-    "AutoTalk": "No",
-    "FlyType": "ToPlanet",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Howdy, <Player>!",
       "I'm heading to planet <ToPlanet>. Is this about business or did you just want to chat? If it's the latter, I can't help you with anything."
     ]
   },
   "128": {
-    "FlyType": "ToPlanet",
-    "Relations": "Normal,Good,Best",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Howdy, <Player>! Always glad to see a compatriot!",
       "Is this about business or did you just want to chat? I'm actually busy calculating landing trajectory to planet <ToPlanet>, you mustn't distract me."
     ]
   },
   "129": {
-    "FlyType": "ToPlanet",
-    "Goods": "Minerals",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Hey, <Player>! What can I do for you, friend?",
       "Right now I am about to land on planet <ToPlanet>, hoping to unload a bunch of minerals there."
     ]
   },
   "13": {
-    "FlyType": "Any",
-    "Priority": "10",
-    "RangerInCurStar": "5,6,7,8,9,Many",
-    "Relations": "Bad,Normal",
-    "ShipMayScanPlayer": "No",
-    "ShipStatus": "Pirate,Warrior",
-    "ShipStructure": "Huge",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "Gah... These rangers are getting thick as fleas. Some exterminating is in order. Why are you even here, cream puff?",
       "If you've got any valuable cargo on board, drop it. This is my turf! Besides, with an empty cargo bay empty you've got more of a shot at escaping with your life."
     ]
   },
   "130": {
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Hey, <Player>! How is it going?",
       "I'm about to land on <ToPlanet>, where I'm hoping to sell all the supplies I'm carrying."
-    ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge"
+    ]
   },
   "131": {
-    "FlyType": "ToPlanet",
-    "Goods": "Technics",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "Text": "Hey, <Player>! I wonder if I can unload all my containers with tech on planet <ToPlanet>? I reckon that I should, seeing as it's not an industrial planet.",
-    "ToPlanetEconomy": "Agriculture,Mixed",
-    "ToPlanetGoodsBuy": "Average,Big,Huge"
+    "Text": "Hey, <Player>! I wonder if I can unload all my containers with tech on planet <ToPlanet>? I reckon that I should, seeing as it's not an industrial planet."
   },
   "132": {
-    "FlyType": "ToPlanet",
-    "Goods": "Arms",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "1",
-    "ShipHaveGoods": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Hey, <Player>! As you can see, I'm transporting a batch of weapons to planet <ToPlanet>.",
       "My customers are waiting, so don't distract me. The local government isn't big on democracy, which means weapons are always in demand."
-    ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge",
-    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy"
+    ]
   },
   "133": {
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Ranger,Pirate",
-    "ShipStructure": "Mini,Small,Average,Big",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "I'm trying to escape from the pirate <ShipBad> by landing on <ToPlanet> Sorry, <Player>, but I've no time to chat. Let me patch up my lemon and mount a big-ass gun, then we'll talk."
   },
   "134": {
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipRace": "Any",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Warrior",
     "Text": [
       "Sorry, <Player>. I've been hit and under orders to land. If not for a direct order, I'd show that jerk <FullShipBad> what's what.",
       "No biggie. Once they patch me up on planet <ToPlanet>, I'll be back in action. Honor above all!"
-    ],
-    "ToPlanetIsLastPlanet": "Any"
+    ]
   },
   "135": {
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "3",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "No",
-    "ShipRace": "Maloc",
-    "ShipStructure": "Mini",
-    "ShipTurnBeforeEndOrder": "4,5,6,7,8,9,Far",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Shucks, <Player>, I've got a real mess on my hands! After a full systems scan, the computer is spewing something about \"depressurization.\" Any clue what that is?",
       "Damn, it's getting hard to breathe. You hear that hissing sound? I think I've figured out the meaning of that word... I hope to make it to planet <ToPlanet> in one piece. In the meantime, here's some advice from a veteran maloq: \"Always read the manual, pilot, you'll live longer for it!\""
-    ],
-    "ToPlanetIsLastPlanet": "Any"
+    ]
   },
   "136": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "3",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "No",
-    "ShipRace": "People",
-    "ShipStructure": "Mini,Small",
-    "ShipTurnBeforeEndOrder": "4,5,6,7,8,9,Far",
-    "ShipType": "Liner",
     "Text": [
       "Mayday! Mayday! <Player>, ship in distress! If I manage to make it to planet <ToPlanet>, I will consider myself really lucky.",
       "They say that your ship's name determines its future... When I bought this ship it was called Titanic-2. Looks like renaming it <Ship> didn't help much, did it, <Player>?"
-    ],
-    "ToPlanetIsLastPlanet": "Any"
+    ]
   },
   "137": {
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "Priority": "5",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipRace": "Peleng,People",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "I am in a hurry to land on planet <ToPlanet>, <Player>. I've got a front row ticket for the concert of Justin Feeber, the famous pop star.",
       "Wait a second, you don't think I'm actually a fan of his, do you? Ha! Just the opposite -- and the same is true about most residents of <ToPlanet>. Simply put, the closer you are to the stage, the less likely you are to miss with your rotten tomato... And I just happen to have my entire cargo bay stuffed with them. They'll be selling like hotcakes on the ground. And I'll kill two birds with one stone: blow off some steam and make a pretty penny to boot!"
     ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge",
     "ToPlanetRace": "Peleng,People,Fei,Gaal"
   },
   "138": {
-    "FlyType": "ToPlanet",
-    "Goods": "Narcotics",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipRace": "Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Ranger, you cannot even imagine the benefits of anarchy for good business. Take this planet of <ToPlanet> for example. Just recently they've started a new art movement called narcossism. Their artists get stoned out of their minds and create all kinds of strange art, all of which is in great demand. Naturally, the prices on hallucinogens have skyrocketed.",
       "And seeing as we gaalians encourage the spiritual prosperity of all the races, I am transporting a batch of potent substances to planet <ToPlanet>, to help support the local artists and their innovative methods. After all, the arts grant us spiritual insight and awaken an inner aspiration for perfection. Too bad so very few officials on civilized planets understand this. Most of them go out of their way to stifle the development of their nations' creative potential!"
-    ],
-    "ToPlanetGoodsBuy": "Big,Huge",
-    "ToPlanetGoverment": "Monarchy,Republic,Democracy",
-    "ToPlanetRaceIsShipRace": "No"
+    ]
   },
   "139": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "InFear": "Any",
-    "Priority": "10",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Ranger,Pirate,Warrior",
     "Text": "Consider yourself lucky that my ship is damaged and I'm looking to land, <Player>. But this isn't the last you've seen of me! Once they patch me up on planet <ToPlanet>, I'll get you yet!"
   },
   "14": {
-    "FlyType": "Any",
-    "Goods": "Medicine",
-    "LastPlanetDistToShipInTurn": "1,2,3",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerStatus": "Trader",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Hey, <Player>! How's business? If you're headed to planet <LastPlanet> for cheap medical supplies, you're too late! I've already packed my cargo bay full of 'em! They were dirt cheap at <LastPlanetGoodsSale> cr!"
   },
   "140": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Priority": "5",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "Peleng",
-    "ShipStructure": "Mini,Small",
-    "Text": "Boy, do I love that hissing sound of air escaping through a hole in the hull. It's eerily similar to a ragobam bullfrog mating call. You know, <Player>, I think that when I'm getting my ship fixed on planet <ToPlanet>, I'll ask them to leave one hissing hole in my hull. It will remind me of my home planet of <HomePlanet>.",
-    "ToPlanetIsHomePlanet": "No"
+    "Text": "Boy, do I love that hissing sound of air escaping through a hole in the hull. It's eerily similar to a ragobam bullfrog mating call. You know, <Player>, I think that when I'm getting my ship fixed on planet <ToPlanet>, I'll ask them to leave one hissing hole in my hull. It will remind me of my home planet of <HomePlanet>."
   },
   "141": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Medicine",
-    "LastPlanetGoodsCnt": "Average,Big,Huge",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetRace": "Any",
-    "Priority": "30",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "ShipType": "Transport,Liner",
-    "Text": "Greetings, <Player>! Because we're friends, I'm going to share with you a very lucrative trade route that I often use myself. Head to planet <LastPlanet> and stock up on medical supplies. Presently they're selling as cheap as <LastPlanetGoodsSale> cr per ton. There's lots and lots to be had! Then head back here to <ToPlanet> and unload them. At a healthy profit margin, no less.",
-    "ToPlanetGoodsBuy": "Big,Huge"
+    "Text": "Greetings, <Player>! Because we're friends, I'm going to share with you a very lucrative trade route that I often use myself. Head to planet <LastPlanet> and stock up on medical supplies. Presently they're selling as cheap as <LastPlanetGoodsSale> cr per ton. There's lots and lots to be had! Then head back here to <ToPlanet> and unload them. At a healthy profit margin, no less."
   },
   "142": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Technics",
-    "LastPlanetGoodsCnt": "Average,Big,Huge",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetRace": "Any",
-    "Priority": "30",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipType": "Transport,Liner",
-    "Text": "Happy trading, <Player>! And I can help you do just that by suggesting a decent trade route. There is an overproduction crisis on planet <LastPlanet> -- tons of tech is being sold for next to nothing, <LastPlanetGoodsSale> cr per container at most. Whereas on planet <ToPlanet>, where is where I'm heading, incidentally, these goods fetch a considerably higher price. Why did you think my cargo bay was full of tech?",
-    "ToPlanetGoodsBuy": "Big,Huge"
+    "Text": "Happy trading, <Player>! And I can help you do just that by suggesting a decent trade route. There is an overproduction crisis on planet <LastPlanet> -- tons of tech is being sold for next to nothing, <LastPlanetGoodsSale> cr per container at most. Whereas on planet <ToPlanet>, where is where I'm heading, incidentally, these goods fetch a considerably higher price. Why did you think my cargo bay was full of tech?"
   },
   "143": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Luxury",
-    "LastPlanetGoodsCnt": "Average,Big,Huge",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetRace": "Peleng,People,Fei,Gaal",
-    "PlayerStatus": "Trader",
-    "Priority": "30",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipType": "Transport",
-    "Text": "Hey there, fellow merchant, how's business? Me, I prefer to work with luxury goods. I buy large batches on planet <LastPlanet> for peanuts -- only <LastPlanetGoodsSale> cr per container, then unload the merchandise on planet <ToPlanet> at <ToPlanetGoodsBuy>. There's plenty of profits to be had, so have at it!",
-    "ToPlanetGoodsBuy": "Big,Huge"
+    "Text": "Hey there, fellow merchant, how's business? Me, I prefer to work with luxury goods. I buy large batches on planet <LastPlanet> for peanuts -- only <LastPlanetGoodsSale> cr per container, then unload the merchandise on planet <ToPlanet> at <ToPlanetGoodsBuy>. There's plenty of profits to be had, so have at it!"
   },
   "144": {
-    "AutoTalk": "Yes",
-    "FlyType": "ToPlanet",
-    "Goods": "Technics",
-    "Priority": "5",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport,Diplomat,Ranger",
     "Text": [
       "Harr! Hey, <Player>! Are you also headed to planet <ToPlanet> for the annual macrogoods expo? Rumor has it a new maloq product will be presented there -- a giant roboworm!",
       "I'm bringing some tech with me, hoping to unload it before the buzz generated by the expo fades."
-    ],
-    "ToPlanetGoodsBuy": "Average,Big,Huge",
-    "ToPlanetRace": "Maloc"
+    ]
   },
   "145": {
-    "AutoTalk": "Any",
-    "FlyType": "ToPlanet",
-    "Goods": "Food",
-    "LastPlanetRace": "Peleng",
-    "PlayerStatus": "Pirate",
-    "Priority": "5",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Mini,Small,Average,Big",
-    "ShipRace": "Peleng",
-    "ShipStatus": "Pirate",
-    "ShipType": "Ranger,Pirate",
-    "Text": "Arrr... Hail, <Player>! I've decided to leave banditry behind and become a carrier. I'm transporting marsh pottage to planet <ToPlanet> for a rite of passage ceremony. I'm also hoping to unload a batch of chow -- the price is likely to increase before the holidays.",
-    "ToPlanetGoodsBuy": "Average,Big,Huge",
-    "ToPlanetRace": "Peleng"
+    "Text": "Arrr... Hail, <Player>! I've decided to leave banditry behind and become a carrier. I'm transporting marsh pottage to planet <ToPlanet> for a rite of passage ceremony. I'm also hoping to unload a batch of chow -- the price is likely to increase before the holidays."
   },
   "146": {
-    "AutoTalk": "Yes",
-    "FlyType": "ToPlanet",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "People",
-    "PlayerRace": "Peleng,People,Fei,Gaal",
-    "Priority": "2",
-    "Relations": "Good,Best",
-    "ShipRace": "People",
-    "ShipType": "Ranger",
-    "Text": "Check this out, <Player>. I'm transporting a puzzle to planet <ToPlanet> -- a present for the local ruler who just love these trinkets. But the shocking part is that the planet belongs to maloqs! Looks like those hairy apes aren't as stupid as you might think -- I've spent eight days trying to crack the puzzle, all in vain.",
-    "ToPlanetGoverment": "Dictatorship,Monarchy",
-    "ToPlanetRace": "Maloc"
+    "Text": "Check this out, <Player>. I'm transporting a puzzle to planet <ToPlanet> -- a present for the local ruler who just love these trinkets. But the shocking part is that the planet belongs to maloqs! Looks like those hairy apes aren't as stupid as you might think -- I've spent eight days trying to crack the puzzle, all in vain."
   },
   "147": {
-    "AutoTalk": "Yes",
-    "FlyType": "ToPlanet",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "People",
-    "Priority": "2",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "People",
-    "ShipStatus": "Trader",
-    "ShipType": "Ranger",
     "Text": [
       "Greetings, my friend <Player>! How are things? I'm headed to planet <ToPlanet>, carrying a rare mineral disodane to the fae for examination. Out eggheads found the mineral in an asteroid.",
       "Ha! Our own scientists are scared to handle it themselves -- they say it affects the psyche. Have you ever heard anything so silly? Greetings, my friend <Player>... I bet they simply didn't want to admit their ignorance. Greetings, my friend <Player>...",
       "Greetings, my friend <Player>... Greetings, my friend <Player>..."
-    ],
-    "ToPlanetRace": "Fei"
+    ]
   },
   "148": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToPlanet",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc,Peleng,People",
-    "Priority": "2",
-    "Relations": "Good,Best",
-    "ShipRace": "Peleng",
-    "ShipType": "Diplomat,Ranger,Pirate",
     "Text": [
       "Ugh, <Player>, I've had it with these secret services! I'm sick of being their errand boy! This is the fifteenth package I'm delivering, this time to planet <ToPlanet>...",
       "If not for the money, I would have told them to shove it long ago!",
       "In retrospect, I shouldn't have shoved the halanuck sculpture that used to decorate my personal cabin... Sometimes I lose my temper... And it's all because of their damned stimulators!"
-    ],
-    "ToPlanetRace": "Peleng"
+    ]
   },
   "15": {
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "LastPlanetDistToShipInTurn": "1,2,3,4",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRaceIsShipRace": "No",
-    "PlayerRank": "Rookie,Cadet",
-    "PlayerRating": "Mini",
-    "Priority": "1",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc,Peleng",
-    "ShipType": "Diplomat",
     "Text": [
       "Hey, <Player>! How's life treating you? I know that you haven't done much in your ranger career thus far, but something tells me you've got a bright future.",
       "I was just visiting planet <LastPlanet> on an important diplomatic mission, and I must say the negotiations didn't go very well. Alright."
     ]
   },
   "16": {
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "LastPlanetDistToShipInTurn": "1,2,3,4",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRaceIsShipRace": "No",
-    "PlayerRank": "Rookie,Cadet",
-    "PlayerRating": "Mini",
-    "Priority": "1",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "People,Fei,Gaal",
-    "ShipType": "Diplomat",
     "Text": [
       "Hey, <Player>! How are things? I know you don't have much of a rating yet, but that only means that you've got a whole lot of room for improvement. It's good to have a goal in life.",
       "Take me. I've just been to <LastPlanet> on a diplomatic mission. And it was quite successful, if I do say so myself! Relations between our nations should be much improved. But you're probably not interested in these things."
     ]
   },
   "17": {
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "LastPlanetGoodsCnt": "Small,Average,Big,Huge",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Relations": "Good,Best",
-    "ShipGoodsCnt": "Mini,Small,Average",
-    "ShipType": "Diplomat",
     "Text": [
       "Hey, <Player>! I assume that you've already scanned my ships and are well aware that I've got narcotics on board.",
       "But before you jump to conclusions and accuse me of smuggling, I want to tell you that it's nothing like that. A friend from the embassy asked me to bring him some junk, is all. And there's plenty of it to be had on <LastPlanet>. So I suggest you get over there and load up!"
     ]
   },
   "18": {
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "PlayerStatus": "Trader,Warrior",
-    "Relations": "Bad,Normal",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "ShipHaveGoods": "Yes",
-    "ShipRace": "Peleng,People",
-    "ShipType": "Diplomat",
     "Text": "You're on the line with diplomatic vessel <Ship>. If you're interested in my cargo, let me assure you that I am not, will not and have never carried narcotics. What I am carrying is a batch of powerful medicines, and I have all the necessary documents on my person. Any other questions or am I free to go?"
   },
   "19": {
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerStatus": "Pirate",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "ShipHaveGoods": "Yes",
-    "ShipRace": "Peleng,People",
-    "ShipType": "Diplomat",
     "Text": [
       "You're on the line with diplomatic vessel <Ship>. If you're interested in my cargo, let me assure you that I am not, will not and have never carried narcotics. I have all the necessary papers for all the goods that I have on board. Any other questions or am I free to go?",
       "Say, <Player>, are you a smuggler by any chance? Now we're talking. I can recommend planet <LastPlanet> as the best place to buy weed. Go for it, bro!"
     ]
   },
   "2": {
-    "FlyType": "Any",
-    "PlayerIsShipBad": "No",
-    "Relations": "War,Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "I'll deal with you later, <Player>. I have another fish to fry at the moment."
   },
   "20": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Luxury",
-    "PlayerHaveGoods": "Yes",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good",
-    "ShipHaveGoods": "No",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Diplomat",
     "Text": [
       "I am a high-ranking maloq diplomat, and I can see by the look on your alien mug that you're carrying illegal goods on board! :-(",
       "Don't you know that luxury items have just as bad an effect on the younger generation as drugs?!! Damned aliens, you don't understand anything about our maloq traditions! <Player>, I strongly recommend that you get rid of this cargo before a maloq patrol gets hold of it."
     ]
   },
   "200": {
-    "FlyType": "ToStar",
-    "Relations": "Normal,Good,Best",
-    "ShipTurnBeforeEndOrder": "1",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "I'll be making a hyperjump to the <ToStar> system soon, and tomorrow I'll be gone. So it's unlikely this talk will happen."
   },
   "201": {
-    "FlyType": "ToStar",
-    "Relations": "Normal,Good,Best",
-    "ShipTurnBeforeEndOrder": "2,3,4",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "Speak quickly, <Player>, I'm about to jump to the <ToStar> system."
   },
   "202": {
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipTurnBeforeEndOrder": "2,3,4,5",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "I don't have time to chat, <Player>. My ship's damaged!",
       "I have to make it to the hyperpass point to the <ToStar> system in time."
     ]
   },
   "203": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "No",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipTurnBeforeEndOrder": "2,3",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "The hyperpass point is real close. I hope that <FullShipBad> won't catch up and I will jump to the <ToStar> system."
   },
   "204": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "Priority": "50",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipStructure": "Average,Big,Huge",
-    "ShipTurnBeforeEndOrder": "1",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "You won't catch me, <Player>! See you in the <ToStar> system. We'll talk there!"
   },
   "205": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "PlayerStatus": "Pirate",
-    "Priority": "100",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
-    "StrengthShipWithPlayer": "Mini,Small,Average",
     "Text": [
       "You're a dirty dog, Ranger <Player>! Leave me the heck alone. I'm ready to leave this system!",
       "I'll file a complaint and make you rue the day you messed with me! You think just cause you're a pirate you're untouchable??"
     ]
   },
   "206": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "PlayerStatus": "Pirate",
-    "Priority": "50",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipStatus": "Trader,Warrior",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
-    "StrengthShipWithPlayer": "Mini,Small,Average",
     "Text": "Fly your own way, <Player>, and forget about pursuing me. If you get within shooting distance, you'll regret it, you pirate scum."
   },
   "207": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Priority": "50",
-    "Relations": "War,Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "Our relationship may be lousy, <Player>, but between you and the dominators, I admit that they are certainly the greater evil. Let me get away from <ShipBad> first, then we'll meet up and have it out."
   },
   "208": {
-    "FlyType": "ToStar",
-    "Goods": "Food",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
-    "ShipTurnBeforeEndOrder": "6,7,8,9,Far",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "I need to get to the <ToStar> system. It's another long and inconvenient route.",
       "My goods will start spoiling soon, 'cause my cargo bay is filled with food and other junk. I wish I knew a place to unload it all."
     ]
   },
   "209": {
-    "FlyType": "ToStar",
-    "HomePlanetInCurStar": "Yes",
-    "HomePlanetInToStar": "No",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
-    "ShipType": "Diplomat",
     "Text": "Heading towards the <ToStar> system. I'm expected there to handle an important diplomatic mission from planet <HomePlanet>."
   },
   "21": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Minerals",
-    "LastPlanetEconomy": "Mixed,Industrial",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerHaveGoods": "Yes",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipHaveGoods": "No",
-    "ShipMayScanPlayer": "Yes",
-    "ShipRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStructure": "Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Say, <Player>, you wouldn't be carrying any minerals, eh, you alien bastage? If I'm right and if your cargo bay is filled with 'em, I advise heading to planet <LastPlanet>. After a recent visit, I've noticed that their industry is in bad need of raw materials.",
       "No need to thank me. It's just that I'm in a good mood."
     ]
   },
   "210": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Minerals",
-    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipGoodsTypeCnt": "0",
-    "ShipMayScanPlayer": "Yes",
-    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
-    "ShipType": "Transport",
     "Text": "I've scanned your ship, <Player>, and saw that you've gotten your hands on a batch of minerals. I think I can buy a batch myself in the <ToStar> system. My cargo bay is totally empty, business has been slow!"
   },
   "211": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Minerals",
-    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "PlayerGoodsTypeCnt": "1,2",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipGoodsCnt": "Zero",
-    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
-    "ShipMayScanPlayer": "Yes",
-    "ShipTurnBeforeEndOrder": "2,3,4,5,6,7,8,9,Far",
-    "ShipType": "Transport",
     "Text": "I've scanned your ship, <Player>, and saw that you've gotten your hands on a batch of minerals and some other stuff. But my range of goods is much richer than yours! I'll find tons of buyers in the <ToStar> system."
   },
   "212": {
-    "FlyType": "ToStar",
-    "Goods": "Minerals",
-    "Relations": "Good,Best",
-    "ShipHaveGoods": "No",
-    "ShipTurnBeforeEndOrder": "7,8,9,Far",
-    "ShipType": "Transport",
     "Text": [
       "The hyperpass point is still a ways away, and I'm always glad to chat with you, <Player>.",
       "I'm sitting here, trying to calculate how many minerals I need to buy in the <ToStar> system to earn enough for an engine upgrade."
     ]
   },
   "213": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc,Peleng,People,Fei",
-    "ShipTurnBeforeEndOrder": "7,8,9,Far",
-    "ShipType": "Transport,Liner,Diplomat,Pirate",
     "Text": "It's my rotten luck! I need to jump to the <ToStar> system, but the hyperpass point is hell knows where! All this interplanetary travel is thankless work."
   },
   "214": {
-    "FlyType": "ToStar",
-    "PlayerRating": "Mini",
-    "Relations": "Good,Best",
-    "ShipRace": "Maloc,Peleng,People,Fei,Gaal",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Diplomat",
     "Text": "Howdy, <Player>. I am going to see my friend in the <ToStar> system. And I'll work on resolving some diplomatic issues of our people while I'm there. You and I belong to the same family, after all!"
   },
   "215": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "HomePlanetInToStar": "Yes",
-    "PlayerRace": "Maloc",
-    "PlayerRating": "Mini",
-    "Priority": "30",
-    "Relations": "Bad,Normal",
-    "ShipRace": "Fei",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "Listen up, you maloq brood by the name of <Player>. I'm heading to the <ToStar> system. Don't even think about flying there, they don't like your kind over there. It's a faeyan system, after all."
   },
   "216": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "HomePlanetInToStar": "No",
-    "PlayerRating": "Mini",
-    "PlayerStatus": "Trader,Warrior",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Gaal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStatus": "Trader,Warrior",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Greetings, Ranger <Player>!",
       "I know that you haven't attained true glory just yet, but as a gaal I admire any alien's aspiration to rescue our Galaxy from the plague of machines. May luck be with you in all your endeavors.",
@@ -1112,77 +377,22 @@
     ]
   },
   "217": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Goods": "Minerals",
-    "HomePlanetInToStar": "Yes",
-    "LastPlanetGoodsBuy": "Big,Huge",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRank": "Rookie,Cadet",
-    "PlayerRating": "Mini",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Hey, pucker up, <Player>! Sure, you may be a tenderfoot without an ounce of experience...",
       "But if you scrounge up some money for new cooler weapons, you can start fulfilling your ranger duties before society.",
       "Speaking of making money, there is a minerals rush on planet <LastPlanet>. Green as you are, you can still shoot up some asteroids and profit from it. As for me, I'm heading home to the <HomePlanetStar> system."
-    ],
-    "ToPlanetEconomy": "Mixed,Industrial"
+    ]
   },
   "218": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Luxury",
-    "HomePlanetInToStar": "Yes",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRaceIsShipRace": "No",
-    "PlayerHaveGoods": "No",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipHaveGoods": "Yes",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "Hey, <Player>! How are things? I'm planning on bringing some luxury goods home to the <ToStar> system. They should fetch a pretty penny on our planets, in contrast to the rock-bottom prices on planet <LastPlanet> where I bought them. You'd be wise to head over there and stock up as well. And then you're welcome to visit us with the goods!"
   },
   "219": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Luxury",
-    "HomePlanetInToStar": "Yes",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRaceIsShipRace": "No",
-    "PlayerHaveGoods": "No",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Hey, <Player>! How are things? I'm planning on bringing some luxury goods home to the <ToStar> system.",
       "They should fetch a pretty penny on our planets, in contrast to the rock-bottom prices on planet <LastPlanet> where I bought them. By the way, there's plenty of merchandise left, so I suggest you stock up. You already know where you can unload it."
     ]
   },
   "22": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Luxury",
-    "PlayerHaveGoods": "Yes",
-    "PlayerRace": "Maloc",
-    "Priority": "20",
-    "Relations": "War,Bad,Normal",
-    "ShipHaveGoods": "Yes",
-    "ShipMayScanPlayer": "Yes",
-    "ShipRace": "Peleng",
-    "ShipType": "Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "Listen up, you dumbass maloq <Player>!",
       "I hear you're transporting luxury items? But that's my line of work, you get me? Stupid maloqs like you shouldn't be allowed anywhere near luxury. Consider it a taboo!",
@@ -1190,448 +400,131 @@
     ]
   },
   "220": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Food",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "Hey, <Player>! I'm preparing to bring a shipment of foodstuffs to the <ToStar> system after buying it on planet <LastPlanet> for next to nothing! You can't imagine how much food they're growing over there!"
   },
   "221": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Alcohol",
-    "LastPlanetGoodsSale": "Mini,Small,Average",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerHaveGoods": "No",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsCnt": "Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Hey, <Player>, my good friend! I've just stocked up on wine... Tons of it!",
       "Where? Oh, over on planet <LastPlanet>. I wasn't planning on buying it, but they talked me into it once they found out I was heading to the <ToStar> system. Supposedly, their prices are quite a bit higher. I'm hoping that's exactly the case!"
     ]
   },
   "222": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Technics",
-    "LastPlanetEconomy": "Mixed,Industrial",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetGoverment": "Monarchy,Republic,Democracy",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "It's so good to see you, Ranger <Player>!",
       "Feel like making some money? Then check out planet <LastPlanet>. Their industry is very advanced, exporting lots of gear and importing foodstuffs. In fact, manufactured goods go for as little as <LastPlanetGoodsSale> cr. I don't quite remember prices for food, but they're certainly pretty high."
     ]
   },
   "223": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Arms",
-    "LastPlanetGoodsBuy": "Big,Huge",
-    "LastPlanetGoverment": "Anarchy,Dictatorship,Monarchy",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Hey, <Player>! I am on a transit flight right now, heading to the <ToStar> system.",
       "By the way, you may be interested to learn about a government coup over on planet <LastPlanet>, which I've visited recently. Weapons prices have skyrocketed -- you can unload a batch of weapons for <LastPlanetGoodsBuy> cr per container!"
     ]
   },
   "224": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
-    "Text": "Hey, <Player>! Let's shoot up dominators together in the <ToStar> system! Once we take down a bunch of those beasts, we'll jump right back to the <CurStar> system. Join us!",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    "Text": "Hey, <Player>! Let's shoot up dominators together in the <ToStar> system! Once we take down a bunch of those beasts, we'll jump right back to the <CurStar> system. Join us!"
   },
   "225": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Priority": "50",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipType": "Ranger",
-    "Text": "Hey, <Player>! Our boys are in the <ToStar> system, shooting up dominators. I'm heading over there right now. Join us before it's too late! Warriors are always welcome.",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Yes"
+    "Text": "Hey, <Player>! Our boys are in the <ToStar> system, shooting up dominators. I'm heading over there right now. Join us before it's too late! Warriors are always welcome."
   },
   "226": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "2,3,4,5,6,7,8,9,Many",
-    "Priority": "50",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": [
       "Hey, <Player>. Did you know that dominators have invaded the <ToStar> system? I'm heading over there to help our kind.",
       "It is your duty as well!"
-    ],
-    "ToStarControlByKling": "No",
-    "ToStarInBattle": "Yes"
+    ]
   },
   "227": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "InFear": "Any",
-    "KlingInCurStar": "1,2,3,4,5,6,7,8,9,Many",
-    "PlayerGoodsTypeCnt": "1,2,3,4,5,6,7,8",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipType": "Ranger",
     "Text": [
       "Oy, <Player>, I'm getting the hell out of here, and I suggest you do the same. Dominators are in the system!",
       "I hope to find a spot to refuel, repair and sell some merchandise in the <ToStar> system."
     ]
   },
   "228": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "No",
-    "Priority": "30",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadTurnBeforeEndOrder": "1,2",
-    "ShipBadType": "Ranger,Pirate",
-    "ShipStructure": "Small,Average,Big",
-    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "My friend <Player>, I need help! <ShipBad> is on my tail! I'm trying to make it to the nearest hyperpass point before the blasted pirate catches up. If I don't make it, remember me kindly. And if I do, see you in the <ToStar> system!"
   },
   "229": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "Goods": "Medicine",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetGoverment": "Republic,Democracy",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7",
-    "ShipHaveGoods": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Greetings, oh space wandering Ranger <Player>!",
       "Before I jump to the <ToStar> system, I want to tell you that planet <LastPlanet>, where I'm coming from, is highly advanced. Medical care is available to all, as well as education. So if you're looking for a place to buy textbooks or meds, I highly recommend it. I would stock up myself, but my cargo bay is already full with other goods."
     ]
   },
   "23": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Relations": "Good,Best",
-    "ShipGoodsTypeCnt": "1,2,3,4,5,6,7,8",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Liner",
     "Text": [
       "Our liner <Ship> is right on schedule. Our last landing was on planet <LastPlanet>, where I picked up new passengers and their cargo.",
       "Our passengers are hopeful that you will make it, <Player>. They all have faith that you will soon become the Galaxy's finest ranger, and bring fame to our people by destroying the dominator threat! Best of luck!"
     ]
   },
   "230": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "No",
-    "PlayerIsShipBad": "Any",
-    "Priority": "10",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipType": "Warrior",
-    "Text": "Whaddya looking at, <Player>? Keep flying, you pirate punk. As a warning, I have instructions from planet <HomePlanet> to fire at will. So if you get inside shooting distance, you'll regret it!",
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Any"
+    "Text": "Whaddya looking at, <Player>? Keep flying, you pirate punk. As a warning, I have instructions from planet <HomePlanet> to fire at will. So if you get inside shooting distance, you'll regret it!"
   },
   "231": {
-    "AutoTalk": "Yes",
-    "FlyType": "ToStar",
-    "InFear": "Any",
-    "PlayerIsShipBad": "No",
-    "PlayerStatus": "Pirate",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "ShipStructure": "Small,Average,Big",
-    "ShipTurnBeforeEndOrder": "2,3,4",
-    "ShipType": "Pirate",
     "Text": [
       "Hey there, brah! Check out this idiot <FullShipBad> -- he's got the wrong ship to be chasing me! I'll be fleeing into the <ToStar> system in just a bit. If you cover me, I'll owe you one, chummer. And I keep my promises.",
       "See you around, brah, and remember: they can't catch us!"
     ]
   },
   "232": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
     "PlayerRank": "Leader,Ace,Commander",
-    "Priority": "30",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Ranger,Pirate,Warrior",
     "Text": [
       "Argh! <Player>! Feel like picking a fight with the domers? I promised my chick to bring her a few parts as souvenirs. I'm on the way to the <ToStar> system right now...",
       "Come with me. You're a tough mudder, even if the rest of your race are weaklings. Ah, now I've got your blood boiling!"
-    ],
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    ]
   },
   "233": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "PlayerRace": "People,Fei,Gaal",
-    "Priority": "5",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Fei",
-    "ShipType": "Ranger,Warrior",
     "Text": [
       "Dear <Player>! How would you like to contribute to science and technology? It's only logical that to fight the dominators we need to know their weaknesses. As it happens, I'm flying to the <ToStar> system for some samples. I expect heavy resistance to my mission, which is why I'm asking you for help.",
       "If you distract them, I'll collect all the scraps I can find. Don't worry, you'll get a good haul as well -- more than enough to please our experts at research stations."
-    ],
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    ]
   },
   "234": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "PlayerRace": "Any",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "Priority": "30",
-    "RankShipWithPlayer": "Average,Big,Huge",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Any",
-    "ShipType": "Ranger",
-    "StrengthShipWithPlayer": "Small,Average,Big,Huge",
-    "Text": "Greetings, <Player>! I can see that you're a tough fighter, so won't you join me on a dominator hunt in the <ToStar> system? You'll have a better chance at surviving with me by your side; and if you keep your head up you'll gain valuable experience as well.",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    "Text": "Greetings, <Player>! I can see that you're a tough fighter, so won't you join me on a dominator hunt in the <ToStar> system? You'll have a better chance at surviving with me by your side; and if you keep your head up you'll gain valuable experience as well."
   },
   "235": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "PlayerRace": "Any",
     "PlayerRank": "Wingman,Leader,Ace,Commander",
-    "PlayerStatus": "Warrior",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc,Peleng,People",
-    "ShipStatus": "Warrior",
-    "ShipType": "Ranger,Warrior",
-    "Text": "Rar!!! <Player>, it's good to see you. I know you won't pass up a good fight, and I can use the help of a seasoned fighter. I'm planning on kicking the dominators from the <ToStar> system. These are orders from planet <HomePlanet>, so let's roll!",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    "Text": "Rar!!! <Player>, it's good to see you. I know you won't pass up a good fight, and I can use the help of a seasoned fighter. I'm planning on kicking the dominators from the <ToStar> system. These are orders from planet <HomePlanet>, so let's roll!"
   },
   "236": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "Any",
-    "ShipType": "Warrior",
-    "Text": "Attention, <Player>! You're speaking with an officer of planet <HomePlanet>'s armed forces. My immediate task is to mobilize all combat-ready pilots to help liberate the <ToStar> system. Your orders are to follow me right away!",
-    "ToStarControlByKling": "Yes",
-    "ToStarInBattle": "Any"
+    "Text": "Attention, <Player>! You're speaking with an officer of planet <HomePlanet>'s armed forces. My immediate task is to mobilize all combat-ready pilots to help liberate the <ToStar> system. Your orders are to follow me right away!"
   },
   "237": {
-    "AutoTalk": "Yes",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Any",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "Text": "Hey, <Player>! By the way, our boys over in the <ToStar> system are currently mixing it up with the dominators while we're sitting here, twiddling our thumbs. Follow me -- they need our help!",
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Yes"
+    "Text": "Hey, <Player>! By the way, our boys over in the <ToStar> system are currently mixing it up with the dominators while we're sitting here, twiddling our thumbs. Follow me -- they need our help!"
   },
   "238": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "5,6,7,8,9,Many",
-    "PlayerStatus": "Warrior,Trader",
-    "PlayerStrength": "Mini,Small,Average",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Dear <Player>! Ferocious battles are underway in the <ToStar> system as we speak. I suggest you join the intrepid heroes risking their lives for the common good. You're not quite strong enough to help in a frontal assault, but you can still be useful picking up dominator remains for our scientists to study.",
       "You have no idea how many priceless samples can be lost in combat!"
-    ],
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Yes",
-    "TransportInToStar": "2,3,4,5,6,7,8,9,Many",
-    "WarriorInToStar": "2,3,4,5,6,7,8,9,Many"
+    ]
   },
   "239": {
-    "AutoTalk": "Yes",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "Priority": "30",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "Text": "Arrr! <Player>, don't you know that our forces are fighting the dominators in the <ToStar> system? So why are you still here? And you dare call yourself a ranger?!! Follow me to the <ToStar> system at once! Let's show those tin cans what maloqs are worth in a fight...",
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Yes"
+    "Text": "Arrr! <Player>, don't you know that our forces are fighting the dominators in the <ToStar> system? So why are you still here? And you dare call yourself a ranger?!! Follow me to the <ToStar> system at once! Let's show those tin cans what maloqs are worth in a fight..."
   },
   "24": {
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Arms",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Relations": "Good,Best",
-    "ShipGoodsTypeCnt": "1,2,3",
-    "ShipHaveGoods": "Yes",
-    "ShipRace": "People",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Transport,Liner",
     "Text": [
       "My flight is right on schedule. My last landing was on planet <LastPlanet>, where I picked up a batch of small arms.",
       "You're a human like me, <Player>! So you must understand that only humans -- being the superior race -- can handle the dominators. And once we're done with them, we'll turn our attention to the other races. We'll purge the Galaxy from all alien scum!"
     ]
   },
   "240": {
-    "AutoTalk": "Yes",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "People",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Ranger,Warrior",
-    "Text": "Ranger <Player>, what the hell are you doing here when our troops are fighting the dominators in the <ToStar> system? I've always thought that only humans are capable of being true warriors! If you want to change my opinion, come with me and let's see which one of us kills more of those metal freaks...",
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Yes"
+    "Text": "Ranger <Player>, what the hell are you doing here when our troops are fighting the dominators in the <ToStar> system? I've always thought that only humans are capable of being true warriors! If you want to change my opinion, come with me and let's see which one of us kills more of those metal freaks..."
   },
   "241": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInToStar": "3,4,5,6,7,8,9,Many",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Gaal",
-    "ShipType": "Ranger,Warrior",
-    "Text": "Oh, <Player>... Are the ideas of humanism so alien to you that you won't even follow me to the <ToStar> system, where true defenders of sentient organic life, our brave warriors and freedom fighters, are waging combat against the superior forces of cybernetic invaders?",
-    "ToStarControlByKling": "Any",
-    "ToStarInBattle": "Yes"
+    "Text": "Oh, <Player>... Are the ideas of humanism so alien to you that you won't even follow me to the <ToStar> system, where true defenders of sentient organic life, our brave warriors and freedom fighters, are waging combat against the superior forces of cybernetic invaders?"
   },
   "242": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "InFear": "Any",
-    "KlingInCurStar": "4,5,6,7,8,9,Many",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
-    "Text": "Look out below! <Player>, don't you see that there are dominators in the system? I don't know about you, but I'm about to flee to the <ToStar> system, away from these metal beasts.",
-    "TransportInCurStar": "3,4,5,6,7,8,9,Many"
+    "Text": "Look out below! <Player>, don't you see that there are dominators in the system? I don't know about you, but I'm about to flee to the <ToStar> system, away from these metal beasts."
   },
   "243": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "InFear": "Any",
-    "KlingInCurStar": "1,2,3",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "Watch your back, <Player>. The dominators may not be numerous, but you should never underestimate the enemy. Personally, I'm heading to the <ToStar> system. And no, not because I'm a coward! I'm just getting help..."
   },
   "244": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
-    "PirateInToStar": "0",
-    "PlayerStatus": "Trader",
-    "Priority": "15",
-    "Relations": "Normal,Good,Best",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport,Liner,Ranger",
     "Text": "Hey, <Player>, you're a nice enough fella, so take my advice, merchant to merchant. There are too many pirates in this system, and that's bad for business. If you're serious about success, won't you try your luck in the <ToStar> system? They say it's completely free of pirates!"
   },
   "245": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "KlingInCurStar": "0",
-    "PlayerStatus": "Pirate",
-    "Priority": "30",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng,People,Fei",
-    "ShipStatus": "Pirate",
-    "ShipType": "Ranger,Pirate",
-    "Text": "<Player>, you should follow me to the <ToStar> system, for your own sake. This system is swarming with servicemen -- we can't even breathe anymore, let alone ply our trade. Pirates like us oughta keep a low profile nowadays if we want to avoid trouble.",
-    "WarriorInCurStar": "4,5,6,7,8,9,Many"
+    "Text": "<Player>, you should follow me to the <ToStar> system, for your own sake. This system is swarming with servicemen -- we can't even breathe anymore, let alone ply our trade. Pirates like us oughta keep a low profile nowadays if we want to avoid trouble."
   },
   "246": {
-    "AutoTalk": "Any",
-    "FlyType": "ToStar",
-    "InFear": "Any",
-    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
-    "PirateInToStar": "0,1",
-    "PlayerStatus": "Pirate",
-    "Priority": "40",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Ranger,Pirate",
-    "ShipStatus": "Pirate",
-    "ShipType": "Ranger,Pirate",
-    "Text": "This system is too cramped to ply our trade, <Player>. I'm leaving for the <ToStar> system. The competition there ain't as fierce as it is here, where you've got a crowd of racketeers for every measly huckster! And that damned <ShipBad> is driving me up the wall!",
-    "TransportInCurStar": "1,2,3",
-    "TransportInToStar": "3,4,5,6,7,8,9,Many"
+    "Text": "This system is too cramped to ply our trade, <Player>. I'm leaving for the <ToStar> system. The competition there ain't as fierce as it is here, where you've got a crowd of racketeers for every measly huckster! And that damned <ShipBad> is driving me up the wall!"
   },
   "247": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToStar",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "3,4,5,6,7,8",
-    "ShipRace": "Maloc,Peleng,People,Fei",
-    "ShipType": "Transport",
     "Text": [
       "<Player>, you can't even imagine how sick I am of my job. I'm heading to the <ToStar> system unload all this merchandise.",
       "I've had enough! After this run, I'm changing careers, buying myself a combat ship and enlisting as a ranger to perform feats of heroism, like you!",
@@ -1639,644 +532,223 @@
     ]
   },
   "25": {
-    "FlyType": "Any",
-    "Goods": "Food",
-    "LastPlanetDistToShipInTurn": "1,2,3,4",
-    "LastPlanetGoodsBuy": "Big,Huge",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerHaveGoods": "Yes",
-    "Relations": "Best",
-    "ShipHaveGoods": "No",
-    "ShipRace": "Maloc,People,Fei,Gaal",
-    "ShipType": "Transport",
     "Text": [
       "Greetings from transport vessel <Ship>, <Player>!",
       "We have just landed on planet <LastPlanet> and stocked up on all manner of consumer goods. We've also noticed that food prices on the planet were very high. So if you have any food on board, we suggest that you go there and unload!"
     ]
   },
   "26": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Priority": "10",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Civilian ship <Ship> on the line! We have a request for you, <Player>.",
       "We are pursued by <FullShipBad>. Requesting assistance in the form of fire support. Thanks in advance!"
     ]
   },
   "27": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "Yes",
-    "LastPlanetRace": "Gaal",
-    "Priority": "2",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "ShipRace": "Gaal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner",
     "Text": [
       "I was but a wee gaal boy when my father first took me into space. As we took off from planet <HomePlanet>, I was mesmerized by the beauty of space. It was then that I had decided to follow in my father's footsteps and become a pilot of <Ship>.",
       "I've been running food, meds and other consumer goods for a decade now. And I'm getting sick of flying through alien systems. I want to return to my home system of <LastPlanetStar>. Oh, heavy is my gaalian burden! You can never understand it, <Player>!"
     ]
   },
   "28": {
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "2",
-    "Relations": "Normal,Good",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner",
     "Text": "What do you want, alien Ranger <Player>? I've brought cargo here from the <LastPlanetStar> system. I've got no beef with anyone, and I have only legal goods on board."
   },
   "29": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Alcohol",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRating": "Average,Big,Huge",
-    "Priority": "20",
-    "Relations": "Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Always happy to see a machine fighter! You are a fine ranger, <Player>, and I know that you will soon crush the dominators!",
       "I've just come from the <LastPlanetStar> system, and planet <LastPlanet> happens to have booze at extremely low prices. A case goes for as little as <LastPlanetGoodsSale> cr, and their storages are overflowing with the stuff!"
     ]
   },
   "3": {
-    "FlyType": "Any",
-    "PlayerIsShipBad": "No",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "Don't worry, <Player>, your turn will come. On my list of enemies, you happen to be next after <FullShipBad>."
   },
   "30": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Alcohol",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRating": "Mini,Small",
-    "Priority": "20",
-    "Relations": "Best",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "I see a compatriot! <Player>, don't worry about your current lack of renown and low rating. You've got a bright future ahead. Want my advice?",
       "I've just arrived from the <LastPlanetStar> system, where alcohol prizes on planet <LastPlanet> are dirt cheap. We're talking <LastPlanetGoodsSale> cr per case, and the storages are packed with the stuff! Don't be a fool, head on over there and make some money."
     ]
   },
   "300": {
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Artefact",
-    "Priority": "2",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": "Wait a moment, <Player>. I need to pick up something, then we can talk. The gripper on my ship should handle the job."
   },
   "301": {
-    "FlyType": "ToItem",
-    "ItemType": "Protoplasm",
-    "Relations": "Bad,Normal,Good",
-    "ShipType": "Ranger",
     "Text": "Stay away, <Player>, those are my nodes! We'll chat after I collect them."
   },
   "302": {
-    "FlyType": "ToItem",
-    "ItemType": "Weapon",
-    "Priority": "30",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipNeedInItem": "Yes",
-    "ShipType": "Ranger",
     "Text": "He-he, buddy! I'm about to stock up on weapons real good! <Item> is really something!"
   },
   "303": {
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
-    "Relations": "Good,Best",
-    "ShipType": "Ranger",
     "Text": "Howdy, friend! I'm collecting tech, and how are you doing? Check it -- there's a <Item> right there! I'm going to try to pick it up. Or shall we race for it? :-)"
   },
   "304": {
-    "FlyType": "ToItem",
-    "ItemType": "Minerals",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger,Pirate",
     "Text": [
       "Hey, <Player>, my good friend! I see some unclaimed minerals over there.",
       "Time to remedy the situation!"
     ]
   },
   "305": {
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToItem",
-    "ItemType": "Minerals",
-    "Relations": "Good,Best",
-    "ShipStatus": "Warrior",
-    "ShipType": "Ranger",
     "Text": [
       "Hey, <Player>, my good friend! How is it going? I see some minerals that don't belong to anybody.",
       "I'll take them, if you don't mind. But don't think I'm a trader or some bandit -- actually, I'm a weapons expert. I need 'em to fight dominators and other scum. And I can't bear to see free money go to waste!"
     ]
   },
   "306": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
-    "Priority": "50",
-    "Relations": "Bad",
-    "ShipType": "Ranger,Pirate",
     "Text": "Hey, <Player>! See that <Item> over there? Don't you dare touch it! It's mine!"
   },
   "307": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator",
-    "Relations": "Normal,Good,Best",
-    "ShipNeedInItem": "No",
-    "ShipType": "Ranger,Pirate",
     "Text": "Listen, <Player>, there's some junk floating nearby. I've got no need for it, but you can always sell it for some coin."
   },
   "308": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipNeedInItem": "Yes",
-    "ShipType": "Ranger,Pirate",
     "Text": "Wait a moment, <Player>, I need to make a minor upgrade! I see a very useful and very unclaimed thingie!"
   },
   "309": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Food,Medicine,Technics,Luxury,Alcohol,Arms,Narcotics",
-    "Relations": "Normal,Good,Best",
-    "ShipNeedInItem": "No",
-    "ShipType": "Ranger,Pirate",
     "Text": [
       "Hey, <Player>! I see a container straight ahead with a <Item> inside.",
       "I don't really need it myself, but it can be worth good money!"
     ]
   },
   "31": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Technics",
-    "LastPlanetEconomy": "Industrial",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRating": "Big,Huge",
-    "Priority": "20",
-    "Relations": "Best",
-    "ShipRace": "People,Fei,Gaal",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Always glad to see you, <Player>, one of the top rangers in the Galaxy!",
       "Listen, I was hoping to be of assistance... I've just arrived from the <LastPlanetStar> system. The system is home to <LastPlanet> -- a planet renowned for its advanced tech and dirt cheap equipment. I don't know if you're interested in business, but I thought you could use the tip."
     ]
   },
   "310": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Minerals",
-    "RangerInCurStar": "3,4,5,6,7,8,9,Many",
-    "Relations": "War,Bad,Normal",
-    "ShipBadFlyToShip": "Any",
-    "ShipStructure": "Big,Huge",
-    "ShipType": "Ranger,Pirate",
     "Text": "Hey you, rangers, get lost! That includes you, <Player>! I'll take the minerals because they're mine! And anybody standing in my way will be destroyed."
   },
   "311": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "Relations": "Normal,Good,Best",
-    "ShipTurnBeforeEndOrder": "5,6,7,8,9,Far",
     "Text": "I'm on course to pick up the <Item> ahead. It's a long flight, but totally worth it! So stay away!"
   },
   "312": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Alcohol",
-    "Relations": "Good,Best",
     "Text": "Check it out, <Player>, ownerless booze straight ahead. Well, it's about to get an owner!"
   },
   "313": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Narcotics",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng",
-    "ShipStatus": "Pirate",
-    "ShipType": "Ranger,Pirate",
     "Text": [
       "Whoa -- junk straight ahead! You don't need it anyway, <Player>, but I've got three kids back home, and all of them in awful withdrawal!",
       "As a caring father of six, I'm going to pick up the drugs and take 'em home."
     ]
   },
   "314": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Weapon",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipNeedInItem": "Yes",
-    "ShipType": "Ranger,Pirate",
     "Text": "That <Item> is a nice shooter! And exactly what I need. Don't even think of claiming it, <Player> -- I need that weapon real bad!"
   },
   "315": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Alcohol",
-    "Priority": "5",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "Peleng,People",
-    "ShipType": "Ranger,Pirate",
     "Text": "There's a whole container of booze ahead! Now to pick it up, sell it on the nearest planet... And drink away the earnings!"
   },
   "316": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "Priority": "30",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "Gaal",
-    "ShipTurnBeforeEndOrder": "1,2,3,4,5,6,7,8,9,Many",
-    "ShipType": "Ranger,Pirate",
     "Text": [
       "Oh geez, look at all this garbage. <Player>, is this your handiwork?? And what about the environment? Think of our children and the future generations! Do you want them to live in a dump of a Galaxy?",
       "I don't think anybody will mind if I pick up some of this trash?"
     ]
   },
   "317": {
-    "FlyType": "ToItem",
-    "ItemType": "Artefact",
-    "Priority": "10",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipType": "Ranger,Pirate",
     "Text": "Finally I'll have an artifact for research! Don't even think of getting in the way of technological progress, <Player>! Science demands sacrifices, and you might just become one of them."
   },
   "318": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "FuelTanks,Engine,Radar,Scaner,RepairRobot,CargoHook,DefGenerator,Weapon,Food,Medicine,Technics,Luxury,Minerals,Alcohol,Arms,Narcotics",
-    "PirateInCurStar": "3,4,5,6,7,8,9,Many",
-    "PlayerStatus": "Pirate",
-    "Priority": "5",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipType": "Ranger,Pirate",
     "Text": [
       "Attention, a container with a <Item> is detected straight away. Preparing to pick up...",
       "Listen up, vultures, don't you dare try to claim my booty, 'cause you'll regret it! I've had it with these pirates... I'm talking to you as well, <Player>."
     ]
   },
   "319": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToItem",
-    "KlingInCurStar": "3,4,5,6,7,8,9,Many",
-    "Priority": "10",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipTurnBeforeEndOrder": "2,3,4,5,6",
-    "ShipType": "Ranger,Pirate",
     "Text": "I don't suppose the dominators will like it, but I'll risk picking up that container with <Item> anyway."
   },
   "32": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Technics",
-    "LastPlanetEconomy": "Industrial",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "PlayerRating": "Mini,Small",
-    "Priority": "20",
-    "Relations": "Best",
-    "ShipRace": "People,Fei,Gaal",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Look who it is -- rookie <Player>! You're a good lad, but not much of a ranger so far if your rating is any indication.",
       "Listen, I was hoping to be of assistance... I've just arrived from the <LastPlanetStar> system. The system is home to <LastPlanet> -- a planet renowned for its advanced tech and dirt cheap equipment. I don't know if you're interested in business, but I thought you could use the tip."
     ]
   },
   "320": {
-    "AutoTalk": "Any",
-    "FlyType": "ToItem",
-    "ItemType": "Food,Medicine,Technics,Luxury,Alcohol,Arms,Narcotics",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8,Any",
-    "ShipTurnBeforeEndOrder": "2,3,4,5",
-    "ShipType": "Ranger,Pirate",
     "Text": "I am oh so close to expanding my range of goods. <Item> can be sold at a good profit nowadays, especially considering I get the stuff for free."
   },
   "33": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Medicine",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "People,Fei,Gaal",
-    "Priority": "20",
-    "Relations": "Best",
-    "ShipRace": "People,Fei,Gaal",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Hey, <Player>! I hope you are doing well, not sick or anything? Need some commercial info?",
       "I've just arrived from the <LastPlanetStar> system. While there, I dropped by planet <LastPlanet>... Did you know they have free healthcare for the entire population?? Meds can be had for next to nothing! Crates with syringes, bandages and what have you for only <LastPlanetGoodsSale> cr! Any maloq or peleng planet will pay a heck of a lot more for this stuff!"
     ]
   },
   "34": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Food",
-    "LastPlanetEconomy": "Agriculture",
-    "LastPlanetGoodsSale": "Mini",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "20",
-    "Relations": "Good,Best",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Hey, <Player>! Do you need a batch of food, by chance? What about general consumer goods? Well?",
       "The agricultural planet <LastPlanet> (system <LastPlanetStar>) has had a rich harvest. No everything's rotting in their storages, no kidding! They're selling off supplies for peanuts! Where else can you find prices like <LastPlanetGoodsSale> cr per ton??"
     ]
   },
   "35": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Luxury",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetIsHomePlanet": "No",
-    "LastPlanetRace": "Maloc",
-    "PlayerRace": "Peleng,People,Fei,Gaal",
-    "Priority": "20",
-    "Relations": "Good,Best",
-    "ShipHaveGoods": "Yes",
     "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipStatus": "Trader",
-    "ShipType": "Transport",
     "Text": [
       "Hey there, chum, where you headed? I'm coming from the maloq planet <LastPlanet>.",
       "I was planning on buying a shipment of computers, but turns out they don't make that kind of thing there! :-) What tools! Oh, but luxury goods are dirt cheap over there. These maloq stools alone will cost thrice as much back home!"
     ]
   },
   "36": {
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "Priority": "2",
-    "Relations": "Bad,Normal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipStrength": "Average,Big,Huge",
-    "ShipStructure": "Huge",
-    "ShipType": "Pirate",
     "Text": "I am an old pirate and I've seen much in my time. Including alien mugs like yours, <Player>. So what did you want to talk about? Fair warning -- I patched up my ship recently on planet <LastPlanet>, and I'm ready to rumble."
   },
   "37": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "LastPlanetGoodsCnt": "Average,Big,Huge",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerStatus": "Pirate",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": [
       "Howdy, <Player>! I see you're trying to be like us, managing all sorts of shady and antisocial affairs? :-)",
       "If you're interested, there's a whole batch of cheap junk over on planet <LastPlanet>."
     ]
   },
   "38": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerStatus": "Pirate,Warrior",
-    "Priority": "5",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Transport,Liner,Diplomat",
-    "ShipType": "Pirate",
     "Text": [
       "Howdy, <Player>! I've had it with that bozo <ShipBad>. I can't seem to shake him off my tail. It's my own damn fault for picking a fight with him, but now...",
       "I hear you're a good fella and a tough customer! Maybe you can come at him from the rear? And then we'll split the booty fifty fifty!"
     ]
   },
   "39": {
-    "FlyType": "Any",
-    "PlayerIsShipBad": "No",
-    "Relations": "War,Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Pirate",
     "Text": "Leave me alone, you alien freakshow. I don't want to see your ugly mug on my monitor! I've got enough problems as is. You and your hideous race will have to take a rain check."
   },
   "4": {
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "PlayerRating": "Big,Huge",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipRace": "Peleng",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "Did you know, <Player>, that the latest Galactic Council decree states that you will lose half of your ranger points for every peleng you kill? So if you kill me, you'll drop way, way down the list! Tough luck, eh?"
   },
   "40": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerIsShipBad": "Yes",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipFlyToPlayer": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "Stay the hell away from me, you inbred! If you come close, I'll turn you to dust, <Player>!",
       "I've got heavy weaponry on board. So I ain't afraid of you one bit!"
     ]
   },
   "400": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Transport,Liner,Diplomat,Pirate,Kling",
-    "ShipType": "Transport,Liner,Diplomat",
-    "Text": "I've got problems, <Player>! Help me take care of <FullShipBad>!",
-    "ToShipRelations": "War"
+    "Text": "I've got problems, <Player>! Help me take care of <FullShipBad>!"
   },
   "401": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipType": "Ranger",
-    "Text": "I've got a problem! Please, <Player>, help me to take care of <FullShipBad>. Us rangers ought to stick together!",
-    "ToShipRelations": "War"
+    "Text": "I've got a problem! Please, <Player>, help me to take care of <FullShipBad>. Us rangers ought to stick together!"
   },
   "402": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipBadType": "Ranger",
-    "ShipType": "Transport,Liner,Diplomat",
-    "Text": "Greetings, <Player>! Help me deal with Ranger <ShipBad>. He's extremely dangerous, believe you me. A real bandit.",
-    "ToShipRelations": "War"
+    "Text": "Greetings, <Player>! Help me deal with Ranger <ShipBad>. He's extremely dangerous, believe you me. A real bandit."
   },
   "403": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "50",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipBadType": "Kling",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Are you with us or not, <Player>?!! This dominator must be destroyed!",
       "Target -- <FullShipBad>!"
-    ],
-    "ToShipRelations": "War"
+    ]
   },
   "404": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "KlingInCurStar": "1,2,3,4,5,6,7,8,9,Many",
-    "Priority": "50",
-    "Relations": "War,Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "This is the worst kind of idiocy. Here we are fighting each others while there are dominators in the system!",
       "Let's cease fire and join forces against those ruthless machines! Listen to the voice of reason!"
-    ],
-    "ToShipRelations": "War"
+    ]
   },
   "405": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "100",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Pirate",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Mayday! I'm being attacked by pirates! Requesting help!",
       "You, <Player>, help me deal with this pirate bully <ShipBad>!"
-    ],
-    "ToShipBad": "Yes"
+    ]
   },
   "406": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "100",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipType": "Warrior",
-    "Text": "Ranger <Player>! Join the military operation. Our target is <FullShipBad>. Either it lands on planet <HomePlanet> or we will destroy it.",
-    "ToShipInPlanet": "No",
-    "ToShipRelations": "War",
-    "ToShipType": "Ranger,Pirate"
+    "Text": "Ranger <Player>! Join the military operation. Our target is <FullShipBad>. Either it lands on planet <HomePlanet> or we will destroy it."
   },
   "407": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerFlyToShip": "No",
-    "PlayerIsShipBad": "Yes",
-    "Priority": "20",
-    "Relations": "War",
-    "ShipFlyToPlayer": "Yes",
-    "ShipType": "Pirate",
     "Text": [
       "I smell trouble... Here are my conditions, <Player>!",
       "You have to pay me a fee for passage. And if you don't have the cash, then dump your cargo, weapons or gear. Then I might let you live."
-    ],
-    "ToShipInPlanet": "No"
+    ]
   },
   "408": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerFlyToShip": "Any",
-    "PlayerIsShipBad": "Yes",
-    "PlayerStatus": "Trader,Pirate",
-    "Priority": "20",
-    "Relations": "War",
-    "ShipFlyToPlayer": "Yes",
-    "ShipRace": "Maloc,People,Fei,Gaal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Filthy pirate! I will teach your vile pirate kind a lesson you won't soon forget, <Player>! All systems aim!"
   },
   "409": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Yes",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Pirate",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipStructure": "Mini,Small",
-    "ShipType": "Transport,Liner,Diplomat",
-    "Text": "Today I'm fearless like a maloq! Mounting a decisive attack on pirate <ShipBad>! Requesting support, <Player>!",
-    "ToShipBad": "Yes"
+    "Text": "Today I'm fearless like a maloq! Mounting a decisive attack on pirate <ShipBad>! Requesting support, <Player>!"
   },
   "41": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerIsShipBad": "Yes",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipFlyToPlayer": "No",
-    "ShipRace": "Maloc,Peleng,People",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "Come on, <Player>, follow me!",
       "The moment you enter firing range my heavy guns will fire a round in your belly!",
@@ -2284,819 +756,304 @@
     ]
   },
   "410": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "Priority": "5",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Peleng,People,Fei",
-    "ShipType": "Ranger,Pirate,Warrior",
-    "Text": "We must destroy the dominators, <Player>!!! Not only do they threaten our existence, they mean to capture and use us for batteries. The prophecy says I am the only one who can foil their plans! I'm mounting an attack on <ShipBad>, follow me!",
-    "ToShipBad": "Yes",
-    "ToShipType": "Kling"
+    "Text": "We must destroy the dominators, <Player>!!! Not only do they threaten our existence, they mean to capture and use us for batteries. The prophecy says I am the only one who can foil their plans! I'm mounting an attack on <ShipBad>, follow me!"
   },
   "411": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerFlyToShip": "No",
-    "PlayerRace": "Maloc,Peleng",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Hey there, <Player>. You see that wise ass <ShipBad>? Numskull had the brilliant idea to call me a furry monkey. And I've got a gentle and tender... whatchamacallit... ah, soul! So I'm turning my turrets in his direction to show him some manners.",
       "And you must help me! How much longer are we supposed to suffer insults from these... these... nitellectuals?? Time to show those nerds who's in charge around here!"
-    ],
-    "ToShipInPlanet": "No",
-    "ToShipRace": "Fei,Gaal",
-    "ToShipRelations": "War",
-    "ToShipType": "Transport,Liner,Diplomat,Ranger,Pirate"
+    ]
   },
   "412": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "Priority": "20",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipBadType": "Kling",
-    "ShipType": "Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Hey, <Player>, let's bet to see which one of us whacks a dominator first?",
       "I suggest ship <ShipBad> as the target!"
-    ],
-    "ToShipBad": "Yes",
-    "ToShipType": "Kling"
+    ]
   },
   "413": {
-    "AutoTalk": "Any",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "Any",
-    "KlingInCurStar": "5,6,7,8,9,Many",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Any",
-    "ShipBadType": "Kling",
-    "ShipType": "Warrior",
-    "Text": "<Player>, there are too few of us here to deal with the dominators! <FullShipBad> is on my tail -- let's start with him.",
-    "ToShipBad": "Yes",
-    "WarriorInCurStar": "1,2,3"
+    "Text": "<Player>, there are too few of us here to deal with the dominators! <FullShipBad> is on my tail -- let's start with him."
   },
   "414": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "InFear": "Yes",
-    "Priority": "20",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipStructure": "Mini,Small",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "Text": "Save me, <Player>! <FullShipBad> is about to dispatch me to kingdom come! Our race needs to stick together!",
-    "ToShipBad": "Yes"
+    "Text": "Save me, <Player>! <FullShipBad> is about to dispatch me to kingdom come! Our race needs to stick together!"
   },
   "415": {
-    "AutoTalk": "No",
-    "FlyType": "ToShip",
-    "InFear": "No",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "No",
-    "ShipStatus": "Pirate",
-    "ShipStructure": "Average,Big,Huge",
-    "ShipTurnBeforeEndOrder": "1,2,3",
-    "ShipType": "Ranger,Pirate",
-    "Text": "Don't think ill of me, <Player>, I'm simply escorting <ToShip>, protecting him from baddies. Fly your own way, k? See ya!",
-    "ToShipBad": "Yes",
-    "ToShipInPlanet": "No",
-    "ToShipType": "Transport,Liner,Diplomat"
+    "Text": "Don't think ill of me, <Player>, I'm simply escorting <ToShip>, protecting him from baddies. Fly your own way, k? See ya!"
   },
   "416": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerIsShipBad": "Yes",
     "PlayerRank": "Leader,Ace,Commander",
-    "PlayerStatus": "Trader,Warrior",
-    "PlayerStructure": "Mini,Small,Average",
-    "Priority": "10",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "Yes",
-    "ShipStatus": "Pirate",
-    "ShipTurnBeforeEndOrder": "1,2,3,4",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": "Looks like your end is near, <Player>. I know you've killed many of my pirate brothers! So when I finish you, their deaths will be avenged!"
   },
   "417": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerIsShipBad": "Yes",
-    "PlayerStatus": "Pirate",
-    "PlayerStructure": "Mini,Small,Average",
-    "Priority": "10",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "Yes",
-    "ShipStatus": "Trader,Warrior",
-    "ShipTurnBeforeEndOrder": "1,2",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": "A few rounds and the Galaxy will be another wicked pirate less. Pass my regards to Rachehan, <Player>!!!"
   },
   "418": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "PlayerIsShipBad": "Yes",
-    "PlayerStructure": "Mini,Small,Average",
-    "Priority": "5",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "Yes",
-    "ShipStatus": "Pirate",
-    "ShipTurnBeforeEndOrder": "1,2,3",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": "It's nothing personal, <Player>. I'm just doing my job, a contract for the check agency. I'm sure you've heard of it? I don't know and it ain't my business to know what's your beef with the customer, but I intend to finish the job."
   },
   "419": {
-    "AutoTalk": "Any",
-    "FlyType": "ToShip",
-    "Goods": "Technics",
-    "LastPlanetRace": "Peleng",
-    "PlayerIsShipBad": "Yes",
-    "Priority": "5",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "Yes",
-    "ShipStatus": "Pirate",
-    "ShipTurnBeforeEndOrder": "1,2,3,4,5,6",
-    "ShipType": "Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": "This ain't your lucky day, <Player>! Maybe you've heard of the vicious peleng reality show Kill or Lose? That's when participants are tasked with destroying a randomly selected ships. I happen to be a contender -- this season's semifinalist, actually! -- and you're my ticket to the finals! I need a <LastPlanetGoodsBuy> victim, and you're it!"
   },
   "42": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "No",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "StrengthShipWithPlayer": "Mini,Small",
     "Text": "Mercy, <Player>! What can I do to appease you?"
   },
   "420": {
-    "FlyType": "ToPlanet",
-    "PirateRankShipWithPlayer": "Average,Big,Huge",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
     "ShipType": "Pirate",
     "Text": "<PlayerPirateRank>, brah, cover me while I try to make it to a spaceport. I'll fix myself up and get back into action!"
   },
   "421": {
-    "FlyType": "ToStar",
-    "InFear": "No",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "No",
     "ShipType": "Pirate",
     "Text": "Brah, you know what happened to me the other day? Some fella contacts me over the intercom, starts babbling about fixin' the wiring in my ship, tightening the valves, replacing a light in the monitor, that kinda thing. So I look at the radar and check it -- there ain't no ship in the system with this call sign! I'm wondering to myself, what the hell, ya know? But I ain't showing it, so I just tell him a light bulb has burned out in the crapper. That's when this religious tool appears, starts telling me to pray, fast, accept the truth of bubblism, and all will pass automatically. I've heard of these bubblists and their prank-prayers from hyperspace, but if I hadn't seen 'em with my own eyes I'd never have believed it."
   },
   "422": {
-    "FlyType": "ToPlanet",
-    "Goods": "Technics",
-    "InFear": "No",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "No",
-    "ShipHaveGoods": "Yes",
     "ShipType": "Pirate",
     "Text": "Howdy, <Player>! The demand for tech on planet <ToPlanet> is high even pricey devices sell like hotcakes! If you want to make good money without pissing off the authorities, load up on gear to the gills and take it to <ToPlanet>, fast. No doubt, our acrynic tech is without equal, but something will come your way, too."
   },
   "423": {
-    "FlyType": "ToPlanet",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipStructure": "Mini",
     "ShipType": "Pirate",
     "Text": "Even a loyal cartel pilot can get in trouble without his mates around. I could use the boys' support while my ship is being fixed up in a hangar."
   },
   "424": {
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "PirateRankShipWithPlayer": "Big,Huge",
-    "PlayerPirateRank": "Noobie, Kid, Rader, Skipper",
-    "Relations": "Normal,Good,Best",
     "ShipType": "Pirate",
     "Text": "Do you know the secret to power, <Player>? It's unity! And while the Coalition is eating itself from within, our brotherhood will be gaining power. Developing our own industry through proper management and universal application of acrynic technologies, we'll become the leading power in the Galaxy before long. There'll be nothing we can't do, no obstacle we can't overcome! Yo ho ho! Only why do I have two targets on my display... And two displays... Pah, I think I've had one too many shots of rum. Pfft, what am I saying! Ain't no such thing for a pirate! To your health, brah! Yo ho ho!"
   },
   "425": {
-    "FlyType": "ToShip",
-    "InFear": "No",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadType": "Kling",
     "ShipType": "Pirate",
     "Text": "Get ready to feel the might of the pirate brotherhood! Here we go!"
   },
   "426": {
-    "FlyType": "Any",
-    "PirateRankShipWithPlayer": "Big,Huge",
-    "PlayerPirateRank": "Noobie",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipRace": "Maloc",
     "ShipType": "Pirate",
     "Text": "Goods, money, goods, money -- none of that stuff really matters in life. Goods, money -- these are but illusions of our mortal world. Not at all like goods, money, goods, money. You follow me? Goods, money, goods money -- it's all empty. Forget these words and get to plundering like a real man!"
   },
   "427": {
-    "FlyType": "ToItem",
-    "InFear": "No",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "No",
     "ShipType": "Pirate",
     "Text": "\"Kaboom, our guns pack the most power! Vroooom, our engines are the fastest! Buy acrynic equipment, sold exclusively by the pirate brotherhood!\" I'm just thinking up advertisement for our state-of-the-art technologies, the finest in this arm of the Galaxy. You like it?"
   },
   "428": {
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "InFear": "No",
-    "Relations": "Good,Best",
     "ShipType": "Pirate",
     "Text": "I'm having a good day. Got meself a new acrynic gripper at the base. By the way, did you ever wonder how it is that our brotherhood is producing the best tech that even the Coalition doesn't have? Can you keep a secret? Then listen up: it's because... Nah, never mind, I don't feel like getting killed for it."
   },
   "429": {
-    "FlyType": "Any",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
     "ShipType": "Pirate",
     "Text": "A thousand penchecrakuses! Why do I have this splitting headache for two days now? Am I still hung over?... Can't blame me! Over on planet <LastPlanet> they're selling real pirate rum at rock-bottom prices -- no true pirate cutthroat could have stayed away! Let's hope the traders didn't buy it all up."
   },
   "43": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Transport,Liner,Diplomat",
-    "StrengthShipWithPlayer": "Mini,Small",
     "Text": [
       "Our race is very peaceful, and you, <Player>, are one of us!",
       "Mercy! Have mercy on your brothers!"
     ]
   },
   "430": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "InFear": "No",
-    "Relations": "Bad,Normal,Good,Best",
     "ShipType": "Pirate",
     "Text": "Do you know the secret to power, brother? Just that -- brotherhood. One pirate is target practice for the military. Two pirates are equally harmless. But as a brotherhood, we're a force to be reckoned with. We've got pilots, money and technologies. You'll see, we'll crush the dominators faster than those vaunted servicemen and whiny rangers. Give us twenty years and you won't recognize this Galaxy!"
   },
   "431": {
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "ToShip",
-    "InFear": "No",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipBadType": "Kling",
     "ShipType": "Pirate",
     "Text": "Yep, that's a pirate you're seeing! Empty your pockets, you useless tin can! Dominator turned donator! And if you don't feel like sharing, I'll turn you to scrap metal! He-he!"
   },
   "432": {
-    "FlyType": "Any",
-    "InFear": "No",
-    "Relations": "Bad,Normal",
     "ShipType": "Pirate",
     "Text": "You may have pull in the brotherhood, but I've never liked you and I never will. Keep acting like this and our arm of the Galaxy will become too small for the two of us."
   },
   "433": {
-    "FlyType": "ToPlanet",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "No",
     "ShipType": "Pirate",
     "Text": "I like peace in outer space! Birds singing, ragobam bullfrogs croaking, rain falling on your head... Oh no, I'm not delirious, I've just turned on the holographic projection in my cockpit. Helps take the edge off after a heated battle."
   },
   "434": {
-    "FlyType": "Any",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
     "ShipType": "Pirate",
     "Text": "<Player>, did you know that the secret to pirate happiness lies in porridge and apple pie? You know what they say: no pirate marches on an empty stomach! And you ain't had porridge till you try our ship's cook's porridge!"
   },
   "435": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "Oh, my head...it's still throbbing after my hardcore celebration of the victory over the Coalition. It's good there was only one in our arm of the galaxy, otherwise I'd drink myself to death for joy."
   },
   "436": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": [
       "How can it be, <Player>, eh? How could you rangers, fighters against evil, allow the Coalition to be defeated? All our hopes were in you, but you lost shamefully!",
       "Ha-ha! Don't get mad - I'm just joking with you. Everyone knows very well that you fought on our side. And it was the right thing to do!"
     ]
   },
   "437": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "The Coalition is no more. How to live, what to do, who to trade with, who to shoot - nothing is clear...",
       "Maybe you, <Player>, can say something that would help?"
     ]
   },
   "438": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": "The Coalition is no more, but life goes on, <Player>. The important thing is to quickly assimilate. Nobody will remember that there was a time when we didn't work for the pirates. There's always work to be found for the simple inhabitants of the galaxy."
   },
   "439": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "Hello, <Player>. I've been thinking in my leisure time and concluded that it's good that the end of the Coalition doesn't mean the end of the world.",
       "Look, it's like everything is lost and over, but basically nothing has changed. It's just that now crafty pirates sit in high offices instead of sly politicians. Indeed, sometimes they shoot up the streets. But that's nothing. It'll be easy to get used to."
     ]
   },
   "44": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "PlayerRating": "Mini,Small",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Maloc,Peleng,People",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "StrengthShipWithPlayer": "Mini,Small",
     "Text": [
       "But we're blood brothers! How can you possibly have anything against me, <Player>? Can't you just let me go? The space is full of aliens -- kill them instead! It's the faeyans and gaals who are your enemies, not me!",
       "I've always had nothing but respect for you! Not once did I mock you when you were at the bottom of the ranger chart!"
     ]
   },
   "440": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": [
       "Hi there, <Player>!",
       "You know, I've been thinking. It's too bad the dominators are gone. Before, all the soldiers were distracted by them; robbery was a cinch; there was free rein. But now, if you fire a single shot you have a couple fighters on your tail in no time. Loads of trouble and no profits."
     ]
   },
   "441": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "Hi, <Player>! Let's have a little debate. Who will win: the pirates or the Coalition? I'm already itching for any kind of gambling. I'm just having some money trouble - I just lost my last credit in a wager. I bet that the dominators would annihilate everything living in the galaxy, but I picked the wrong horse and lost the stupid pieces of iron. Maybe we could at least hide from the noogies?"
   },
   "442": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": [
       "I'm selling fragments of Terron plating! The perfect gift for any wife and an excellent home decoration! The authenticity has been verified! Today only! Supplies are limited!",
       "Oh, it's you, <Player>. Excuse me. It's nothing personal. Just business. Robbing hucksters doesn't bring in enough money right now, so I had to adapt. You're not going to tell anyone that I'm pushing crap, right?"
     ]
   },
   "443": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Life has gotten real good - wouldn't you say, <Player>? The dominators no longer threaten our star systems; I can go about my business in peace. Of course, the pirates can be unnerving, but at least you can buy your way out of trouble with them. They understand very well that if they take a few bribes here and there, without shooting up our ships, that they'll be able to put the squeeze on us again and again. But who are they going to get money from if they shoot us out of the sky?"
   },
   "444": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "On behalf of all of the peaceful laborers in the galaxy, <Player>, I say thank you that you and the other heroes delivered us from the oppression of the dominators. Now we can live and work in peace, without fearing that a horde of unthinking machines will suddenly assault our star system."
   },
   "445": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Look, <Player>, we took care of the dominators by joining forces. Now we just need to get the pirates attention and life will be a fairy tale."
   },
   "446": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "Tell me, <Player>. Isn't your life boring? I'm bored out of my mind. No more Coalition. No more dominators either. The only thing left to do is hit peaceful ships. True, they're softies and can hardly fly - you don't get any kind of adrenaline rush whatsoever. I wish I could go after the klissan in the other arm of the galaxy..."
   },
   "447": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "Yo, <Player>! Honestly, I admire you. You're one of a handful of humanoids in the galaxy who really made a difference in the destruction of the Coalition and the dominators. Do you think I could get your autograph? My pirate kids and grandkids and I will talk about how <Player> himself once exchanged a few words."
   },
   "448": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "You know, <Player>, us pirates can't live without enemies. So there won't be peace for long after the Coalition and dominators are destroyed. If some external enemy doesn't appear, it's most likely that internal rifts will begin. Soon the galaxy will again sink into war, I swear. So enjoy these brief days of tranquility while you can."
   },
   "449": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Nobody's at war, <Player>. It's a great time for business. And the pirates haven't yet thought to raises taxes and tariffs. But, shhhhhh, don't repeat that to anyone. I want this period of bounty to continue."
   },
   "45": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "PlayerRating": "Mini,Small",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "ShipStructure": "Mini,Small,Average",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
-    "StrengthShipWithPlayer": "Mini,Small",
     "Text": [
       "Back off, <Player>! I won't laugh at your disgraced rank of <PlayerRank> or your low rating anymore, promise! You are the toughest and most respected ranger I know!",
       "I've got heaps of goods on board. Maybe you want some of them? Can't you just let me go, eh, <Player>?"
     ]
   },
   "450": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Do you know what cognitive dissonance is, <Player>? I'll give you an example: one the one hand, I'm trilled that the dominators were destroyed, but on the other hand, I'm upset that the Coalition was defeated. Ambivalent feelings...",
       "We won't get anywhere with the pirates, I guarantee it. They'll soon grow tired of playing politics and we'll all still be at the broken trough, without any money, industry, or means of protecting ourselves against potential enemies."
     ]
   },
   "451": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng,Maloc,Gaal,People",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Honestly, <Player>, I'm terribly upset, like a hereditary cosmic outdoorsman. My father was a trader and my grandfather too...and my great grandfather. Traditionally, our family lived by transporting narcotic substances to gaalian planets. There was a whole science to it. Where to hide them so there weren't found at customs; who to sell to to not be ripped off; who to bribe to avoid being ratted out...",
       "But now all the planets are controlled by the pirates. No limits. Transport whatever you want, except biocontainers with a Pkhedoc ulcer, as long as you can find a buyer. It turns out my science is no longer needed. It bites, you know. And now who knows what my son will be when he grows up."
     ]
   },
   "452": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Pirate",
     "Text": "You Coalition is no more, <Player>. It all melted away, he-he. Don't sweat it, man. You're an individual dude. You won't disappear."
   },
   "453": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng,Maloc,Gaal,People",
-    "ShipType": "Warrior",
     "Text": "The dominators are defeated, <Player>. Victory is ours. Soon I'll be able to leave the service and return home to my wife and kids. I can't wait for the day."
   },
   "454": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Warrior",
     "Text": "Go ahead, <Player>. I'm listening. After the victory of the dominators, we've begun to respect you rangers more, so speak boldly...Say what you want."
   },
   "455": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Warrior",
     "Text": "<Player>, what do you say? Give up your silly work and come with us to destroy the pirates. We dealt with the dominators. Now we need to chase away all these slimeballs who took advantage of our weakness and stabbed the Coalition in the back."
   },
   "456": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": [
       "<Player>, old buddy! How did we, uh, the dominators?! I've still not been able to calm down! I want to hug everyone, dance, and jump up and down!",
       "Say what you want quickly. I'll help you any way I can!"
     ]
   },
   "457": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": "Hello, <Player>. Listen, we defeated the dominators. Great, huh? But what now? Won't they discharge us from time to time? They'll say the war is over, surrender your badges, and go home. Or will we have to fight with the pirates now? You don't know either? How can we work in these conditions? You practically have to wrench every scrap of information from our superiors! That won't do."
   },
   "458": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Fei,Gaal,People",
-    "ShipType": "Ranger",
     "Text": "Now let's be done with the pirates, <Player>, and I'm going home. I have a cottage in the suburbs, surrounded by a garden; flowers bloom; birds sing. My relatives are great cooks. I'll sit at the window and remember what it was like to war against the dominators. In one word: beautiful."
   },
   "459": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Maloc",
-    "ShipType": "Ranger",
     "Text": "Now let's be done with the pirates, <Player>, and I'm going home. I have a large cave in the mountains, around an impassable precipice; the neighbors organize shootouts on the weekends; fortified structures are being erected in the valleys. I'll celebrate the Great Gorging once a week, and the rest of the time I'll stand guard on the platform with a machine gun and remember what it was like to war against the dominators. In one word: beautiful."
   },
   "46": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetIsHomePlanet": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRelations": "War",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipRaceIsPlayerRace": "Yes",
-    "ShipType": "Warrior",
     "Text": "<Player>, you are ordered to land on planet <LastPlanet> immediately to face trial for betraying your race! Dialog in space is no longer appropriate."
   },
   "460": {
-    "CoalitionAlreadyDefeated": "No",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Peleng",
-    "ShipType": "Ranger",
     "Text": "Now let's be done with the pirates, <Player>, and I'm going home. I have a hide-out in the thick of a forest around a swamp, ragobam bullfrogs, beautiful dames wander about, and the neighbors organize roach races on the weekends. Upon arriving, I'll fill up with ekup, inhale some soup, and remember what it was like to war against the dominators. In one word: beautiful."
   },
   "461": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": [
       "What's up, my pirate bro? If you summon the fear dealer, I'll be forever agreeable...",
       "Ah, it's you, <Player>. Phew, I was getting scared. Now, you see, I'm forced to slink about and pretend to be a pirate so they don't finish me off. There is no Coalition, it's every man for himself. And now we rangers feel like there's a huge tooth on each of us."
     ]
   },
   "462": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": "Talk faster, <Player>. A pirate clan is hunting for me. I'm afraid I won't hold out long. I have to abandon the ship and hide in some industrial gigapolis. See if I can stare death in the face for a couple more years. You keeping spinning the radar a full three-sixty too - we rangers became the pirates' favorite target after the collapse of the Coalition."
   },
   "463": {
-    "CoalitionAlreadyDefeated": "Yes",
-    "DominatorsAlreadyDefeated": "Yes",
-    "InFear": "No",
-    "Relations": "Normal,Good,Best",
-    "ShipType": "Ranger",
     "Text": "Treason abounds, <Player>, be watchful! Now our brother, the ranger, has no life in the galaxy! Though I see that even you are running under a black flag. Damn, what a way to live. I'm gonna take off, drink away the ship and do what I love. After all, I was educated as a landscape designer. I'll secure the rights to some uninhabited planet and work on an orbital laser. With my own hands I'll build a gigantic memorial to human stupidity. Maybe posterity will appreciate it..."
   },
   "47": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetIsHomePlanet": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRelations": "War",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Warrior",
     "Text": "<Player>, you are to land on planet <LastPlanet> right away. Dialog in space is no longer appropriate. Your constant crimes as an outlander will be brought to justice!"
   },
   "48": {
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetIsHomePlanet": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRelations": "War",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipType": "Warrior",
-    "StrengthShipWithPlayer": "Mini,Small",
     "Text": "I'm employed by planet <LastPlanet>, but I don't feel like messing with a tough mudder like you. Please, let me go home. I promise to convince everybody of your innocence."
   },
   "49": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetIsHomePlanet": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRelations": "War",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "<Player>, did you know that you're a wanted criminal on planet <LastPlanet> of my home <LastPlanetStar> system? If you want any hope of amnesty, you will fly there willingly and surrender yourself. I'll even put in a good word.",
       "But something tells me you will never do it..."
     ]
   },
   "5": {
-    "FlyType": "Any",
-    "PlayerFlyToShip": "Yes",
-    "PlayerRating": "Mini,Small,Average",
-    "Priority": "5",
-    "Relations": "Bad,Normal,Good",
-    "ShipFlyToPlayer": "No",
-    "ShipType": "Ranger,Pirate,Warrior",
     "Text": "Why are you following me, you filth? Have I got sugar coming out my nozzle? Change course now before I dust you up!"
   },
   "50": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Technics",
-    "LastPlanetEconomy": "Industrial",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerGoodsTypeCnt": "2,3,4,5,6,7,8",
-    "PlayerHaveGoods": "Yes",
-    "Relations": "Bad,Normal",
-    "ShipRace": "Peleng",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "I respect you, <Player>, and that's why I want to share a little secret with you. Over on planet <LastPlanet> (<LastPlanetStar> system) it's harvesting time. You can earn a whole lot of money if you deliver equipment to help them. Peleng's honor!"
   },
   "51": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Luxury",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "PlayerRank": "Rookie",
-    "Relations": "Bad,Normal",
-    "ShipRace": "Peleng",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "The crew of peleng ship <Ship> is delighted at the opportunity to talk to such a ranger of such renown! As the captain, I bow before your military achievements, <Player>! :-)",
       "As a sign of my respect, know that on planet <LastPlanet> (<LastPlanetStar> system) prices on luxury goods are through the roof. So if you happen to come by luxury goods somewhere, you can get triple the price for them! And remember where the tip came from -- the always honest peleng race!"
     ]
   },
   "52": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "LastPlanetGoodsSale": "Mini",
-    "LastPlanetGoverment": "Anarchy",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
-    "LastPlanetRaceIsShipRace": "No",
-    "Relations": "Good,Best",
-    "ShipType": "Diplomat",
     "Text": [
       "Hey, <Player>! I was just on planet <LastPlanet> with an important diplomatic mission, as it were. There's something awful going on there. Their anarchical government is allowing all sorts of chaos and mayhem! Drugs are sold in the streets like candy -- it's... well, anarchy! 'Course, I stocked up a bit for myself. It's just so cheap as compared to home!",
       "Don't miss this chance!"
     ]
   },
   "53": {
-    "FlyType": "Any",
-    "Priority": "50",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Pirate",
-    "ShipStructure": "Small,Average,Big",
-    "ShipType": "Pirate",
     "Text": [
       "Howdy, <Player>! I had a falling out over money with a buddy of mine -- captain of <FullShipBad>. We couldn't agree on a fair split, and now he's pressing me. It would be great if you could come at him from the rear and really let him have it!",
       "And then we'll split the booty fifty fifty!"
     ]
   },
   "54": {
-    "AutoTalk": "Any",
-    "CoalitionAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Goods": "Arms",
-    "LastPlanetDistToShipInTurn": "1,2,3,4",
-    "LastPlanetGoodsSale": "Mini,Small",
-    "LastPlanetInCurStar": "Yes",
-    "LastPlanetRace": "Peleng,People,Fei,Gaal",
-    "PlayerRace": "Peleng,People,Fei,Gaal",
-    "PlayerRank": "Rookie,Cadet,Pilot",
-    "PlayerRating": "Mini,Small,Average",
-    "Relations": "Good,Best",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipType": "Liner",
     "Text": [
       "The crew and passengers of liner <Ship> greet you, <Player>! We know that at <PlayerRank> you're just starting your ranger career, but our entire crew believes in you! We know you'll show your true worth and climb to the very top of the ranger chart! Keep your chin up, the best is still to come!",
       "By the way, if you need a batch of weapons, I recommend dropping by planet <LastPlanet>. I was just there, and prices for weapons are incredible! And you can always sell it back to maloqs for thrice the price!"
     ]
   },
   "55": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Luxury",
-    "LastPlanetGoodsBuy": "Big,Huge",
-    "LastPlanetInCurStar": "No",
-    "LastPlanetRace": "Peleng",
-    "Relations": "Bad,Normal",
-    "ShipRace": "Peleng",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "The crew of peleng ship <Ship> is delighted at the opportunity to talk to you, <Player>. Our respect and admiration is truly boundless. In fact, you are the only alien in the Galaxy we're willing to share a commercial secret with! Prices on luxury goods have taken a dive in our peleng <LastPlanetStar> system.",
       "Head over there and bring back whatever you can buy. Don't believe us? You have my word as a peleng!"
     ]
   },
   "56": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerAttackGoodShip": "Yes",
-    "Priority": "10",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipStructure": "Average,Big,Huge",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": [
       "Hey, <Player>! Don't you know that <FullShipGood> is a friend of mine?",
       "Stop your attack immediately! If you don't, my attitude towards you will certainly change, and I will tell everybody about your dirty tricks!"
     ]
   },
   "57": {
-    "FlyType": "Any",
-    "PlayerRace": "Maloc",
-    "Priority": "5",
-    "Relations": "Good,Best",
-    "ShipRace": "Gaal",
-    "ShipType": "Diplomat,Ranger",
     "Text": "Good health to you, <Player>! I've learned an ancient maloq recipe of invulnerability the other day. Want me to share? Quote, \"The more I eat, the stronger I get, the more butts I'll kick.\" Looking at your mug, I can see that you're well fed. Eating gaalhoney by the bucketful, I bet?"
   },
   "58": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Any",
-    "PlayerRace": "Peleng",
-    "Priority": "10",
-    "Relations": "Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipRace": "Peleng",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": [
       "Hey, <Player>, may your swamp always be green! Captain of <Ship> requesting support!",
       "We're being pursued by an alien -- <FullShipBad>. I know it's not the peleng way to help one another, but I thought we'd make an exception..."
     ]
   },
   "59": {
-    "FlyType": "Any",
-    "Priority": "2",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipRace": "Maloc",
-    "ShipType": "Transport,Liner,Diplomat,Ranger",
     "Text": [
       "What do you say, <Player>, cab we kick the dominators out of <CurStar>? I'm positive that we will -- with so many military around, the tin cans ain't got a prayer. I even wrote a haiku about it:",
       "Roses are red,",
@@ -3104,77 +1061,30 @@
       "Our teeth are yellow,",
       "And that's all that matters to the enemy!",
       "Tasteful, isn't it? Who said maloqs can't write antidominator poetry??"
-    ],
-    "WarriorInCurStar": "4,5,6,7,8,9,Many"
+    ]
   },
   "6": {
-    "FlyType": "Any",
-    "PlayerFlyToShip": "Yes",
-    "Priority": "1",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipFlyToPlayer": "No",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "Why are you following me, Ranger <Player>? I hope your intentions are good? I'll consider you my honorary escort, if you don't mind."
   },
   "60": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerAttackGoodShip": "Yes",
-    "Priority": "30",
-    "Relations": "Bad,Normal,Good",
-    "ShipType": "Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "What the... I don't believe my eyes, <Player>! Do you even know who you're messing with? <FullShipGood> is my boy -- and I ain't about to let you railroad him!",
       "You get my drift??"
     ]
   },
   "61": {
-    "AutoTalk": "Yes",
-    "FlyType": "Any",
-    "PlayerAttackGoodShip": "Yes",
-    "Priority": "3",
-    "Relations": "Bad,Normal,Good,Best",
-    "ShipType": "Warrior",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": "Attention, <Player>! This is captain of <Ship> speaking. Cease your pursuit of <FullShipGood> immediately. Any assault against this ship shall be deemed a provocation against the government of planet <HomePlanet>."
   },
   "62": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerAttackGoodShip": "Yes",
-    "Priority": "10",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "People,Fei,Gaal",
-    "ShipType": "Diplomat",
     "Text": "Ranger <Player>! As a diplomat I cannot ignore your aggression against <FullShipGood>. I implore to your sense of mercy and empathy. Think of the example you're showing to our youth?"
   },
   "63": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Narcotics",
-    "PlayerGoodsCnt": "Mini,Small,Average,Big,Huge",
-    "PlayerHaveGoods": "Yes",
-    "Priority": "20",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "Yes",
-    "ShipMayScanPlayer": "Yes",
-    "ShipRace": "Maloc,People,Fei,Gaal",
-    "ShipType": "Warrior",
     "Text": [
       "\"Stop, narcotics, narkomano stopo...\" Where was I? Oh yes, <Player>, your ship was scanned and a batch a narcotics was detected on board; in case you didn't know, this is illegal cargo.",
       "Terribly sorry, but according to the laws of my home planet <HomePlanet>, drug dealers and smugglers are to be destroyed without mercy. Nothing personal, ranger, the law is the law."
     ]
   },
   "64": {
-    "AutoTalk": "Yes",
-    "FlyType": "Any",
-    "PlayerRace": "Fei",
-    "Priority": "3",
-    "Relations": "Normal,Good,Best",
-    "ShipRace": "Fei",
-    "ShipType": "Liner,Diplomat",
     "Text": [
       "Greetings, faeyan Ranger <Player>! We have someone here on board <FullShip> who wants to talk to you!",
       "...",
@@ -3183,85 +1093,30 @@
     ]
   },
   "65": {
-    "FlyType": "Any",
-    "PlayerFlyToShip": "Yes",
-    "Priority": "10",
-    "Relations": "Any",
-    "ShipBadFlyToShip": "Any",
-    "ShipFlyToPlayer": "No",
-    "ShipRace": "Maloc",
-    "ShipType": "Diplomat",
     "Text": [
       "Hey, you, <Player>, just keep flying. Or do you really think that I am going to beg you to leave me alone? Maybe that's what some puny punk would do, but not a proper maloq diplomat! The power of our diplomacy is firmly rooted in the power of our guns!",
       "And our diplomatic approach is simple: beat the enemy senseless till he begs for mercy and agrees to our terms!"
     ]
   },
   "66": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerFlyToShip": "Yes",
-    "PlayerRace": "Peleng",
-    "PlayerStatus": "Pirate,Warrior",
-    "Priority": "10",
-    "Relations": "Bad,Normal,Good",
-    "ShipFlyToPlayer": "No",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat",
     "Text": "<Player>, you pirate waste of space, better leave me alone! I know you're scheming something wicked. I know better than to turn my back on a peleng, lest he stabs me in the back!"
   },
   "67": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Goods": "Food",
-    "PlayerRace": "Maloc",
-    "Priority": "1",
-    "Relations": "War,Bad",
-    "ShipGoodsCnt": "Small,Average,Big,Huge",
-    "ShipRace": "Peleng,People,Fei",
-    "ShipType": "Transport,Liner,Ranger,Pirate",
-    "StrengthShipWithPlayer": "Average,Big,Huge",
     "Text": [
       "Hey, <Player>, you hairy baboon! Yes, I'm talking to you, you savage! I bet you eat red microchips for breakfast, don't you? Ha-ha!",
       "My cargo bay is filled with food, but no bananas for you! Sorry, ha-ha!"
     ]
   },
   "68": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "Priority": "5",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Any",
-    "ShipRace": "Gaal",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Warrior",
     "Text": [
       "Attention, Captain <Player>! Your antisocial behavior has caused a highly negative reaction on planet <LastPlanet>. You are therefore strongly advised to undergo a full course of moral rehabilitation in a special sanitarium. There you will be taught proper behavior in a civilized society, and the overseer's baton will help instill in you a sense of ethics and a capacity for self-realization.",
       "By refusing, <Player>, you will admit your inability to coexist with highly developed humanoid races, making you a potential hazard to society. It saddens me to inform you that we have no intention of tolerating such nettlesome elements, and I have orders to eliminate the potential threat to society that you represent."
     ]
   },
   "69": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "Yes",
-    "Priority": "1",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipRace": "Fei",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Diplomat,Ranger,Pirate,Warrior",
-    "StrengthShipWithPlayer": "Mini,Small,Average",
     "Text": "You had better let me be, <Player>. Sure, you can probably take me down... But did you know that we faeyans are the most advanced race out there? The torturing devices of Dzuhallag pale in comparison to what a highly developed faeyan mind aching for vengeance is capable of."
   },
   "7": {
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "Relations": "Normal,Good,Best",
-    "ShipBadFlyToShip": "Yes",
-    "ShipGoodsTypeCnt": "0",
-    "ShipRace": "Peleng,People,Fei,Gaal",
-    "ShipStructure": "Mini,Small",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": [
       "Mayday! Mayday!",
       "I am being pursued by <FullShipBad>! My ship is damaged, and it won't last long. <Player>, I beg you to protect me.",
@@ -3269,40 +1124,14 @@
     ]
   },
   "70": {
-    "AutoTalk": "Any",
-    "FlyType": "Any",
-    "PlayerIsShipBad": "Yes",
-    "Priority": "1",
-    "Relations": "War",
-    "ShipBadFlyToShip": "Yes",
-    "ShipRace": "Maloc",
-    "ShipRaceIsPlayerRace": "No",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "Argh, <Player>! How dare you attack a maloq ship? Have you not heard of the famous maloq valor? Maybe you're too stupid to see the hopelessness of this act? Well, your family is about to get 10,000 cr richer, and there's no one to blame but you!"
   },
   "8": {
-    "FlyType": "Any",
-    "InFear": "Yes",
-    "PlayerIsShipBad": "No",
-    "Relations": "Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadTurnBeforeEndOrder": "1,2",
-    "ShipBadType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
-    "ShipRace": "War",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
     "Text": "Even at a moment like this I cannot stand seeing your ugly mug, <Player>! My opinion of you is no higher than that of the ship on my tail."
   },
   "9": {
-    "DominatorsAlreadyDefeated": "No",
-    "FlyType": "Any",
-    "Relations": "War,Bad",
-    "ShipBadFlyToShip": "Yes",
-    "ShipBadType": "Kling",
-    "ShipStructure": "Mini,Small",
-    "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate,Warrior",
     "Text": "We may be enemies, Ranger <Player>, but my situation is so dire that I'm forced to appeal to your sense of mercy! Any minute now the dominators will do me in... I need help!"
   },
-  "CountShipGreetings": "500",
   "Dominator": {
     "Blazer": "Identification: Subject <Player>.<br>Pending orders: Destroy.<br>Status: in process.",
     "Blazer1": "Identification: Enemy.<br><Player>, prepare to be destroyed.",
@@ -3311,10 +1140,6 @@
     "Keller1": "Gathering information. Subject of communication: Ranger <Player>. Structure not researched.",
     "KellerChameleon": "Subject on the line: <Player>.<br>Structure: Identical.<br>Continuing gathering information...",
     "ProgrammRun": "Executing program <Name>.<br>Contact does not appear possible.",
-    "Rnd": "HGFD 83-82 n42kuhdn2 iu3hkw bsdqwd st8asxtg2k23j42k jv1u2f31s2 h32iug3 2i3g 12-12 dfg3l4n5 4kj3b4k5j2 234j2h1 231h4!...",
-    "Rnd1": "sdfs s d fg dfgd fgsdljl4k,saazc zi3h 2k-14n 23jk4nbkfgn 34ofns,mdfn34  gedl434 5erg et-34 dfgme4t34g e48853 34594 11...",
-    "Rnd2": "dfgd fg fgbf gbfdngb fgbfgner et 34t 3ygmgh gh n 45t3 4 34w efgthrth  34343ggg g fghfgn zwner wertkewtn e rt2 p y1...",
-    "Rnd3": "YTFnb 345h3hi32u 234h2k3o2i4h 44-hgpdf gfg fghr t r;g9fgb9cfb dqa18d7fg df67gd8g3f d89fg9d df2gd5 dfg6 d65df8g !...",
     "Terron": "Subject type not accepted. Waiting for data input.",
     "Terron1": "Unable to identify terronoid <Player>. Subject is to be dematerialized immediately.",
     "TerronChameleon": "Terronoid <Player> identified.<br>Preparing data exchange..."

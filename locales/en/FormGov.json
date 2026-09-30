@@ -80,8 +80,7 @@
     ],
     "PlayerAsk": "I need to discuss a delicate matter concerning one of your prisoners",
     "PlayerNo": "Criminals should remain where they are, in jail.",
-    "PlayerOk": "Post bail for <Ship> for <Cost> cr.",
-    "ShipRow": "<Ship>: <Cost> cr."
+    "PlayerOk": "Post bail for <Ship> for <Cost> cr."
   },
   "I_Continue": "Next",
   "I_Exit": "So long",

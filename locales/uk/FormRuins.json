@@ -29,17 +29,11 @@
         "---",
         "Вибирайте собі будь-яку програму, не соромтеся."
       ],
-      "BKAfterInvestment": "<InvestmentText>",
       "BKAfterPlayerNo": [
         "Як це вистачить інвестицій? Соромно, <Player>! На інвестиціях стоїть наш світ. Щоб ви робили без нас без наших дотацій?",
         "Чи подумайте, може, у вас є зайві гроші? Візьміть кредит, зрештою, і нагодуйте голодних!",
         "Втім, я погарячкував і вибачаюсь. Це ваша особиста справа. Ми самі благодійністю не займаємося, просто ведемо бізнес. Ви для нас приклад, рейнджер <Player>."
       ],
-      "BKInvestment": [
-        "---",
-        "<InvestmentFullName>"
-      ],
-      "PlayerInvestment": "<InvestmentShortName>",
       "PlayerNo": "Дякую, в інший раз",
       "PlayerSend": "Проінвестувати проекти"
     },
@@ -214,7 +208,6 @@
     "BridgeInterceptorsTargetChangeAsk": "Задати мету атаки",
     "BridgeInterceptorsTargetChoose": "Виберіть ціль.",
     "BridgeInterceptorsTargetNoTargets": "Немає доступних цілей.",
-    "BridgeInterceptorsTargetShip": "<Ship>",
     "BridgeInterceptorsTargeting": "Налаштування автоматичного вибору мети",
     "BridgeInterceptorsTargetingAttack": "Атакувати <StrategyName>",
     "BridgeInterceptorsTargetingCancel": "Скасування",
@@ -295,7 +288,6 @@
     "GreetingHyperspace": "Це домініон <CB>. Ми зараз перебуваємо в гіперпросторі, покинути базу неможливо. <Player>, можеш поки що розслабитися в барі, дивись тільки, у бік реактора не стріляй, якщо до розбірок дійде. Ну і будь готовий до можливої ​​заварушки після прильоту!",
     "GreetingNormal": "<Player>, ласкаво просимо на домініон <CB>. Тут у нас всі варіанти високотехнологічних розваг для справжнього пірата: можеш покращити своє обладнання, замовити піратський набіг і дізнатися про обстановку на фронтах, купити піратську ліцензію і спонсорувати будівництво нових кораблів нашим пілотам. Крім того, наш портальний генератор може зробити гіпер-тунель, яким ти зможеш переміститися в іншу частину галактики, але користуватися ним ми дозволяємо тільки тим, хто регулярно грабує мирні кораблі і перераховує частку в піратський общак. Загалом, всі можливості для того, щоб стати найлютішим, найкрутішим і найвідомішим піратом перед тобою як на долоні!",
     "GreetingPlayerFlyToStar": "Це домініон <CB>. Ми готові відправити тебе, <Player>, у систему <FlyToStar>. Просто йди в ангар і злітай, портал відкриється миттєво.",
-    "HyperJumpVideo": "data\\hyper2.vdo,Hyper2",
     "Improvement": {
       "CBAfterOk": "Відмінно, наші матері фахівці закінчили роботу, тепер твоє обладнання стало ще крутіше. Може, є бажання ще щось підкрутити, доки рука легка?",
       "CBAfterRepeatNo": "Ну, дивись. Ми б не відмовилися, якщо ти, <Player>, підкинеш нам ще гріш за халту..., в сенсі, роботу.",
@@ -617,7 +609,6 @@
         "<IllName> <MCSeeIllType>",
         "Вартість лікування: <Money> cr."
       ],
-      "MCSeeIllType1": "",
       "MCSeeIllType2": "- вірус",
       "MCSeeIllness": [
         "Так, а ось це вже серйозно... Та ви, батечку, хворі! Ми наводимо повний список захворювань, у тому числі й віруси, які ще не встигли розвинутися настільки, щоб ви самі їх помітили.",
@@ -1359,7 +1350,6 @@
       ],
       "WBToChamber": "Пройди до анабіозної камери. Тіло нормальної живої істоти не може винести такого навантаження. Тільки завдяки автоматиці можна зробити безпечний нуль-стрибок через весь рукав."
     },
-    "HyperJumpVideo": "data\\hyper.vdo,Hyper",
     "Leader": {
       "Greeting": "Вітаємо тебе, <Player>! Ти став уже відомою особистістю в галактиці, будучи одним із найвідчайдушніших пілотів. На нашій військовій базі <WB> тобі завжди буде надано найтепліший прийом.",
       "NewRank": "Вітаємо! Твій досвід пілотування за нашою шкалою відповідає новому званню. Тепер ти <Rank>, один із найкращих пілотів галактики. На нашій військовій базі <WB> тобі завжди буде надано найтепліший прийом.<br>А поки прийми від нас <ItemName> як подяку за бойові заслуги."
@@ -1444,8 +1434,7 @@
       ]
     },
     "Rookie": {
-      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!",
-      "NewRank": "not use"
+      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!"
     },
     "SpecialShip": {
       "AfterBuy": "Нам шкода розлучатися з таким майстерно зробленим кораблем. Але ми підемо на все заради якнайшвидшого становлення світу в галактиці.",

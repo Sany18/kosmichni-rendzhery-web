@@ -1,6 +1,5 @@
 {
   "CargoHook": {
-    "AverageSize": "40",
     "Broken": "(не функціонує)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Захоплення більше не працює.",
     "BrokenInBattle": "Увага! Під час бою було пошкоджено захоплення. Ви не зможете притягувати предмети, доки не відремонтуєте його.",
@@ -23,11 +22,7 @@
       "6": "Ериметроїдний",
       "7": "Оптохвильовий",
       "8": "Мікротональний"
-    },
-    "mMass": "40,50,60,80,90,100,150,500",
-    "mRadius": "100,110,120,130,140,150,175,200",
-    "mSpeedClose": "3,4,4,5,6,6,7,8",
-    "mSpeedFar": "1,1,2,3,3,4,5,7"
+    }
   },
   "Cistern": {
     "FromFuelTanks": "Злити паливо із паливного бака?",
@@ -41,7 +36,6 @@
     "ToFuelTanks": "Залити паливо у паливний бак?"
   },
   "DefGenerator": {
-    "AverageSize": "40",
     "Broken": "(не функціонує)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Генератор захисту не працює.",
     "BrokenInBattle": "Небезпека! Генератор захисту був пошкоджений прямим попаданням. Захисне поле більше не працює. Потрібен терміновий ремонт!",
@@ -61,11 +55,9 @@
       "6": "Зональний",
       "7": "Мікрорівневий",
       "8": "Ультраплазмовий"
-    },
-    "mDef": "0.10,0.13,0.16, 0.19, 0.22, 0.25, 0.28, 0.31"
+    }
   },
   "Engine": {
-    "AverageSize": "40",
     "Broken": "(Вимагає ремонту)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Двигун зламався.",
     "BrokenInBattle": "Увага! Пряме влучення в двигун вивело його з ладу. Рекомендується вийти з бою та на останньому імпульсі дотягнути до найближчої бази.",
@@ -74,7 +66,6 @@
       "1": "Швидкість",
       "2": "Стрибок"
     },
-    "ForsageCoef": "2.0",
     "KlingName": "Торсійний реактор",
     "KlingText": "Дозволяє розвивати швидкість до <Speed> одиниць і здійснювати гіперстрибок на <Parsec> парсек.",
     "Name": "<Type> двигун",
@@ -90,9 +81,7 @@
       "6": "Гравітонний",
       "7": "Стансерний",
       "8": "Темпоральний"
-    },
-    "mJump": "17,19,21,25,29,33,37,41",
-    "mSpeed": "400,450,500,600,700,800,900,1000"
+    }
   },
   "Equpments": {
     "AverageDuration": "(понад 50% пошкоджень)",
@@ -103,7 +92,6 @@
     "SmallDuration": "(на межі поломки)"
   },
   "FuelTanks": {
-    "AverageSize": "40",
     "Broken": "(Протікає)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Паливний бак почав протікати.",
     "BrokenInBattle": "Увага! Пряме влучення в паливний бак вивело його з ладу! Він протікає.",
@@ -124,8 +112,7 @@
       "6": "Ендокластерний",
       "7": "Гіроскопічний",
       "8": "Текриновий"
-    },
-    "mCapacity": "10,15,20,25,30,35,40,45"
+    }
   },
   "Goods": {
     "Name": {
@@ -157,14 +144,9 @@
       "6": "Вино-горілчані вироби та інша слабонаркотична продукція.",
       "7": "Різні види зброї: холодна, ручна, ядерна, психотропна та інше.",
       "8": "Заборонені гаостимулятори та інші наркотичні продукти."
-    },
-    "kInflationMax": "4.0",
-    "kInflationMin": "1.0",
-    "kStockMax": "3.0",
-    "kStockMin": "1.0"
+    }
   },
   "Hull": {
-    "AverageSize": "500",
     "Name": "<Type> корпус <ShipType>",
     "ShipType": {
       "Diplomat": "дипломата",
@@ -186,15 +168,7 @@
       "6": "Поліморфний",
       "7": "Нанохітіновий",
       "8": "Біослотовий"
-    },
-    "mAlloy": "1,2,3,4,5,6,7,8",
-    "mFragilityByLevelEnergy": "1.00, 1.00, 1.00, 1.05, 1.10, 1.00, 0.95, 0.85",
-    "mFragilityByLevelMissile": "1.05, 1.10, 1.00, 0.95, 0.90, 1.00, 1.05, 1.10",
-    "mFragilityByLevelSplinter": "0.95, 0.90, 1.00, 1.00, 1.00, 1.00, 1.00, 1.05",
-    "mFragilityByOwnerEnergy": "1.05, 1.05, 1.10, 0.90, 0.95, 1.00, 1.00, 0.95",
-    "mFragilityByOwnerMissile": "0.90, 1.05, 0.95, 1.05, 1.10, 1.00, 1.00, 0.95",
-    "mFragilityByOwnerSplinter": "1.05, 0.90, 0.95, 1.05, 0.95, 1.00, 1.00, 1.10",
-    "mFragilityByShipType": "1.0, 0.9, 1.1, 1.2, 1.1, 1.0, 1.0, 1.0, 0.9, 1.0, 0.9"
+    }
   },
   "Nod": {
     "Name": "Ноди",
@@ -207,7 +181,6 @@
     ]
   },
   "Radar": {
-    "AverageSize": "30",
     "Broken": "(не функціонує)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Радар більше не працює.",
     "BrokenInBattle": "Увага! Внаслідок влучного влучення радар вийшов з ладу. Потрібен терміновий ремонт.",
@@ -226,11 +199,9 @@
       "6": "Нейрострумовий",
       "7": "Етановий",
       "8": "Нуль-контактний"
-    },
-    "mRadius": "1200,1400,1600,1800,2100,2400,2700,3000"
+    }
   },
   "RepairRobot": {
-    "AverageSize": "40",
     "Broken": "(не функціонує)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Дроїд більше не працює.",
     "BrokenInBattle": "Увага! Дроїд пошкоджено! Він більше не здатний лагодити обшивку і потребує ремонту.",
@@ -249,75 +220,50 @@
       "6": "Тензорний",
       "7": "Штифтовий",
       "8": "Дуплексний"
-    },
-    "mRepair": "10,15,20,25,30,40,50,60"
+    }
   },
   "Satellite": {
     "0": {
-      "Cost": "Small",
       "Name": "Оперон",
-      "Size": "10",
-      "Speed": "1,1,1",
       "Text": [
         "Високоорбітальний супутник класу \"C\". Розвідка на всіх типах місцевостей. Середня надійність.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Average"
+      ]
     },
     "1": {
-      "Cost": "Small",
       "Name": "Керінд",
-      "Size": "7",
-      "Speed": "0,2,0",
       "Text": [
         "Низькоорбітальний супутник класу \"С\". Здійснює розвідку на рівнинних ділянках. Гарантується тривалий термін експлуатації.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Small"
+      ]
     },
     "2": {
-      "Cost": "Big",
       "Name": "Тектон",
-      "Size": "15",
-      "Speed": "0,2,2",
       "Text": [
         "Високоорбітальний супутник класу \"B\". Здійснює розвідку суші та гірської місцевості. Середня надійність.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Average"
+      ]
     },
     "3": {
-      "Cost": "Big",
       "Name": "Шаклас",
-      "Size": "10",
-      "Speed": "3,1,0",
       "Text": [
         "Низькоорбітальний супутник класу \"B\". Відмінно сканує глибоководні ділянки моря та прилеглу сушу. Потребує постійного ремонту.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Huge"
+      ]
     },
     "4": {
-      "Cost": "Huge",
       "Name": "Нейтра",
-      "Size": "15",
-      "Speed": "2,2,2",
       "Text": [
         "Шпигунський супутник класу \"A\". Використовується спецслужбами. Ефективний при розвідці у будь-якій місцевості, але має низьку надійність.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Big"
+      ]
     },
     "5": {
-      "Cost": "Huge",
       "Name": "Глазнюк",
-      "Size": "25",
-      "Speed": "1,1,4",
       "Text": [
         "Низькоорбітальний супутник класу \"A\". Відмінно сканує гірські масиви та прилеглі території. Майже вічний.",
         "Вода: <Water> / Рівнина: <Land> / Гори: <Hill>"
-      ],
-      "Wear": "Mini"
+      ]
     },
     "Broken": "(Вимагає ремонту)",
     "BrokenInUse": "Отримано сигнал із планети <Planet>. Розвідзонд <Name> вийшов з ладу та потребує ремонту.",
@@ -327,7 +273,6 @@
     "WorkEnd": "(Простоює)"
   },
   "Scaner": {
-    "AverageSize": "30",
     "Broken": "(не функціонує)",
     "BrokenByForce": "На жаль, знайомство з Бертором зробило свою чорну справу. Сканер більше не працює.",
     "BrokenInBattle": "Увага! Пряме влучення в сканер. Він зламаний і потребує ремонту. Сканування кораблів неможливо.",
@@ -402,258 +347,6 @@
       "7": "Поточний бластер",
       "8": "Електронний різак",
       "9": "Мультирезонатор"
-    },
-    "Stats": {
-      "1": {
-        "AverageRadius": "0300",
-        "AverageSize": "030",
-        "DamageSet": "Energy",
-        "MaxDamage": "015",
-        "MinDamage": "010",
-        "MiningFactor": "1",
-        "ShotType": "Normal",
-        "Speed": "065",
-        "TechLevel": "01",
-        "kCost": "01.5",
-        "mWeaponDamage": "1.00,1.10,1.20,1.30,1.40,1.60,1.90,2.30"
-      },
-      "10": {
-        "AverageRadius": "0320",
-        "AverageSize": "080",
-        "DamageSet": "Energy",
-        "MaxDamage": "045",
-        "MinDamage": "030",
-        "MiningFactor": "6",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Splash",
-        "Speed": "055",
-        "TechLevel": "07",
-        "kCost": "25.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "11": {
-        "AverageRadius": "0380",
-        "AverageSize": "090",
-        "DamageSet": "Energy",
-        "MaxDamage": "050",
-        "MinDamage": "025",
-        "MiningFactor": "4",
-        "ShotType": "Normal",
-        "Speed": "095",
-        "TechLevel": "07",
-        "kCost": "50.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "12": {
-        "AverageRadius": "0320",
-        "AverageSize": "100",
-        "DamageSet": "Energy",
-        "MaxDamage": "060",
-        "MinDamage": "040",
-        "MiningFactor": "2",
-        "SecondaryDamageRadius": "200",
-        "ShotType": "Exploder",
-        "Speed": "100",
-        "TechLevel": "08",
-        "kCost": "70.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "13": {
-        "AverageRadius": "0300",
-        "AverageSize": "080",
-        "DamageSet": "Splinter,Destruct",
-        "MaxDamage": "030",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "ShotType": "AreaDamage",
-        "Speed": "040",
-        "TechLevel": "09",
-        "kCost": "75.0",
-        "mWeaponDamage": "1.00,1.10,1.25,1.40,1.80,2.20,2.60,3.00"
-      },
-      "14": {
-        "AverageRadius": "0330",
-        "AverageSize": "110",
-        "DamageSet": "Energy",
-        "MaxDamage": "040",
-        "MinDamage": "018",
-        "MiningFactor": "6",
-        "ShotType": "AreaDamage",
-        "Speed": "045",
-        "TechLevel": "09",
-        "kCost": "90.0",
-        "mWeaponDamage": "1.00,1.10,1.25,1.40,1.80,2.20,2.60,3.00"
-      },
-      "15": {
-        "AverageRadius": "0800",
-        "AverageSize": "060",
-        "DamageSet": "Missile",
-        "MaxDamage": "030",
-        "MinDamage": "025",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "33",
-        "MissileMaxSpeed": "1000",
-        "MissileMinSpeed": "600",
-        "MissileRadius": "1200",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Torpedo",
-        "Speed": "005",
-        "TechLevel": "08",
-        "kCost": "52.5",
-        "mWeaponDamage": "1.00,1.20,1.40,1.70,2.00,2.40,2.80,3.20"
-      },
-      "16": {
-        "AverageRadius": "0275",
-        "AverageSize": "060",
-        "DamageSet": "Splinter,Acid,NoDelta",
-        "MaxDamage": "030",
-        "MinDamage": "025",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "050",
-        "TechLevel": "07",
-        "kCost": "30.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.35,1.45,1.60"
-      },
-      "17": {
-        "AverageRadius": "0330",
-        "AverageSize": "050",
-        "DamageSet": "Energy,Shock",
-        "MaxDamage": "035",
-        "MinDamage": "001",
-        "MiningFactor": "2",
-        "ShotType": "Normal",
-        "Speed": "070",
-        "TechLevel": "03",
-        "kCost": "07.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,2.00"
-      },
-      "18": {
-        "AverageRadius": "0300",
-        "AverageSize": "030",
-        "DamageSet": "Missile,Magnetic",
-        "MaxDamage": "008",
-        "MinDamage": "006",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "80",
-        "MissileMaxSpeed": "1600",
-        "MissileMinSpeed": "800",
-        "MissileRadius": "600",
-        "ShotType": "Rocket5",
-        "Speed": "000",
-        "TechLevel": "05",
-        "kCost": "20.0",
-        "mWeaponDamage": "1.00,1.05,1.10,1.20,1.30,1.45,1.60,1.80"
-      },
-      "2": {
-        "AverageRadius": "0240",
-        "AverageSize": "040",
-        "DamageSet": "Splinter",
-        "MaxDamage": "025",
-        "MinDamage": "015",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "060",
-        "TechLevel": "02",
-        "kCost": "02.5",
-        "mWeaponDamage": "1.00,1.20,1.40,1.60,1.80,2.00,2.20,2.40"
-      },
-      "3": {
-        "AverageRadius": "0350",
-        "AverageSize": "050",
-        "DamageSet": "Energy",
-        "MaxDamage": "024",
-        "MinDamage": "008",
-        "MiningFactor": "4",
-        "ShotType": "Normal",
-        "Speed": "080",
-        "TechLevel": "03",
-        "kCost": "03.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,2.00"
-      },
-      "4": {
-        "AverageRadius": "0500",
-        "AverageSize": "020",
-        "DamageSet": "Missile",
-        "MaxDamage": "012",
-        "MinDamage": "010",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "50",
-        "MissileMaxSpeed": "1200",
-        "MissileMinSpeed": "600",
-        "MissileRadius": "1000",
-        "ShotType": "Rocket3",
-        "Speed": "000",
-        "TechLevel": "04",
-        "kCost": "04.0",
-        "mWeaponDamage": "1.00,1.15,1.30,1.45,1.60,1.75,1.90,2.05"
-      },
-      "5": {
-        "AverageRadius": "0380",
-        "AverageSize": "030",
-        "DamageSet": "Energy,Decelerate,Drain",
-        "MaxDamage": "010",
-        "MinDamage": "005",
-        "MiningFactor": "1",
-        "ShotType": "Normal",
-        "Speed": "085",
-        "TechLevel": "04",
-        "kCost": "03.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.40,1.50"
-      },
-      "6": {
-        "AverageRadius": "0240",
-        "AverageSize": "040",
-        "DamageSet": "Energy",
-        "MaxDamage": "030",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "ShotType": "Chain3",
-        "Speed": "090",
-        "TechLevel": "05",
-        "kCost": "05.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,1.80"
-      },
-      "7": {
-        "AverageRadius": "0340",
-        "AverageSize": "060",
-        "DamageSet": "Splinter",
-        "MaxDamage": "040",
-        "MinDamage": "010",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "075",
-        "TechLevel": "05",
-        "kCost": "20.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,1.70"
-      },
-      "8": {
-        "AverageRadius": "0330",
-        "AverageSize": "030",
-        "DamageSet": "Energy,Destruct",
-        "MaxDamage": "035",
-        "MinDamage": "005",
-        "MiningFactor": "2",
-        "ShotType": "Normal",
-        "Speed": "070",
-        "TechLevel": "06",
-        "kCost": "06.0",
-        "mWeaponDamage": "1.00,1.10,1.20,1.30,1.40,1.50,1.60,1.70"
-      },
-      "9": {
-        "AverageRadius": "0300",
-        "AverageSize": "070",
-        "DamageSet": "Splinter",
-        "MaxDamage": "045",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Splash",
-        "Speed": "050",
-        "TechLevel": "06",
-        "kCost": "30.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      }
     },
     "Text": {
       "1": "Вражає ціль потужним світловим променем, завдаючи <MinDamage>-<MaxDamage><Bonus> од. втрати на дистанції до <Radius>.",

@@ -38,9 +38,6 @@
   "ArtBlackHole": {
     "Description": "A subportal is a spherical bicameral matter multiplier. One cavity contains antimatter, while the other holds the multiplying process catalyst. When activated, the device starts multiplying the antimatter at the speed of light until a black hole forms. Self-consumes after use.",
     "Name": "Subportal",
-    "OnUseCode": {
-      "0": "OnUseCodeBlackHole();"
-    },
     "Text": "Single use antimatter multiplier. Increases the critical mass of the antimatter until a black hole forms."
   },
   "ArtBomb": {
@@ -169,9 +166,6 @@
     "BrokenInUse": "The plasmourethane component of the rocketang surface has dried up due to high stellar activity. The nanomechanisms have stalled, repairs are required.",
     "Description": "Rocketang is a system of nanomechanisms that cover the surface of the hull with  a thin controlled plasmourethane film. They are uniquely capable of  detecting where a projectile may impact and instantly reinforcing the armor at that location.",
     "Name": "Rocketang",
-    "OnUseCode": {
-      "0": "OnUseCodeMissileDef();"
-    },
     "Text": "A plasmourethane protection mechanism equipped with upgraded rocket detectors. It may help prevent <clr>10-40%<clrEnd> of damage from rocket-propelled weapons."
   },
   "ArtNano": {
@@ -234,18 +228,12 @@
   "ArtTranclucator": {
     "Description": "A tranclucator is a unique autonomous system whose purpose it is to protect its master. When launched into space, the device is activated and starts monitoring its immediate environment. Whenever the tranclucator believes its master to be in danger, it unleashes its not inconsiderable firepower on the enemy. A lucky proprietor of one of those devices can afford to throw caution to the wind since the tranclucator always stays true.",
     "Name": "Tranclucator",
-    "OnUseCode": {
-      "0": "OnUseCodeTranclucator();"
-    },
     "Text": "A combat droid that protects its master in open space."
   },
   "ArtTransmitter": {
     "Broken": "(accumulating charges)",
     "Description": "The beacon is a remote system for studying new objects. When activated, it transmits into hyperspace a quadruple-wave signal indicating a large amount of new material to be studied. Any kelleroids receiving the signal give it top priority and rush to where the signal had originated from. Signal strength determines the number of research robots arriving. The signal can be intercepted by other dominators.",
     "Name": "Transfactorial Beacon",
-    "OnUseCode": {
-      "0": "OnUseCodeTransmitter();"
-    },
     "Text": "When used in space, it alerts the recipient to the presence of previously unexplored material. Charge energy: <Power>."
   },
   "ArtWeaponToSpeed": {
@@ -257,78 +245,6 @@
     "Text": "Increases the engine speed by <clr>100<clrEnd> points through installation of additional nozzles in lieu of one <clr>weapon<clrEnd> compartment."
   },
   "CustomArtefacts": {},
-  "NumericValues": {
-    "AverageTransmitterPower": "200",
-    "BombPower": "600",
-    "BombPowerMax": "800",
-    "BombPowerMin": "400",
-    "BombRadius": "250",
-    "MaxTransmitterPower": "1000",
-    "MinTransmitterPower": "100",
-    "kArtDefToArms1Penalty": "0.1",
-    "kArtDefToEnergyMin": "1.1",
-    "kArtDefToEnergyMinEx": "0.1",
-    "kArtDefToEnergyPenalty": "0.5",
-    "kArtDefToEnergyPenaltyEx": "-0.25",
-    "kArtDefToEnergyUp": "1.6",
-    "kArtDefToEnergyUpEx": "0.6",
-    "kArtEnergyPulse": "1.3",
-    "kArtEnergyPulseChance": "0.3",
-    "kArtEnergyPulseEx": "0.3",
-    "kArtFastRacksChance": "0.15",
-    "kArtFastRacksChanceEx": "0.15",
-    "kArtForsage": "0.5",
-    "kArtForsageEx": "-0.25",
-    "kArtGiperJump": "40",
-    "kArtGiperJumpEx": "20",
-    "kArtPowerSunProtection": "0.5",
-    "kArtPowerSunProtectionEx": "0.25",
-    "kArtSplinter": "1.2",
-    "kArtSplinterEx": "0.2",
-    "kArtWeaponToSpeed": "100",
-    "kArtWeaponToSpeedEx": "100",
-    "kArtefactAntigrav": "0.75",
-    "kArtefactAntigravEx": "-0.25",
-    "kArtefactDef": "0.05",
-    "kArtefactDefEx": "0.05",
-    "kArtefactDroid": "10",
-    "kArtefactDroidAcidClean": "1.5",
-    "kArtefactDroidAcidCleanEx": "0.5",
-    "kArtefactDroidEx": "10",
-    "kArtefactDroidWear": "-0.5",
-    "kArtefactDroidWearEx": "-0.17",
-    "kArtefactFuel": "2",
-    "kArtefactFuelEx": "2",
-    "kArtefactHook": "30",
-    "kArtefactHookEx": "30",
-    "kArtefactHookRaduis": "25",
-    "kArtefactHookRaduisEx": "25",
-    "kArtefactHookSpeed": "1",
-    "kArtefactHookSpeedEx": "1",
-    "kArtefactHull": "5",
-    "kArtefactHullEx": "5",
-    "kArtefactHullShockDissipation": "1.5",
-    "kArtefactHullShockDissipationEx": "0.5",
-    "kArtefactNano": "5",
-    "kArtefactNanoEx": "5",
-    "kArtefactPower": "20",
-    "kArtefactPowerEx": "20",
-    "kArtefactRadar": "600",
-    "kArtefactRadarEx": "600",
-    "kArtefactScaner": "10",
-    "kArtefactScanerEx": "10",
-    "kArtefactSpeed": "1.2",
-    "kArtefactSpeedEx": "0.2",
-    "kPDTurretCountShots": "5",
-    "kPDTurretRange": "150",
-    "kPDTurretRangeEx": "150",
-    "kSubportalPenalty": "30",
-    "kSubportalPenaltyDuration": "30",
-    "kTransmitterPenaltyAnySystem": "1",
-    "kTransmitterPenaltyAnySystemDuration": "90",
-    "kTransmitterPenaltySameSystem": "5",
-    "kTransmitterPenaltySameSystemDuration": "30"
-  },
   "TextArtCanGetBoost": "The ship is fitted with equipment which boosts the effectiveness of this artifact.",
   "TextArtGettingBoost": "The artifact receives a bonus to effectiveness thanks to good compatibility with the ship's equipment."
 }

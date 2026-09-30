@@ -1,0 +1,33 @@
+{
+  "Female": {
+    "ShipSay": "<Name>",
+    "To": "-->"
+  },
+  "Goods": {
+    "WarriorLongDistance": "not talk",
+    "WarriorOk": "not talk"
+  },
+  "MilitarySupport": {
+    "ItemsCool": "x1.5"
+  },
+  "Money": {
+    "WarriorLongDistance": "not talk",
+    "WarriorOk": "not talk",
+    "WarriorSumIsVeryBig": "not talk"
+  },
+  "Pirate": {
+    "AttackShip": "<ShipName>"
+  },
+  "PirateClan": {
+    "Pirate": {
+      "AttackShip": "<ShipName>"
+    },
+    "ShipSay": "<Name>",
+    "To": "-->"
+  },
+  "ShipSay": "<Name>",
+  "To": "-->",
+  "Truce": {
+    "WarriorSend": "not talk"
+  }
+}

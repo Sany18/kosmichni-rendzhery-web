@@ -3,7 +3,6 @@
   "Cancel": "Отменить",
   "CaptionLoad": "Загрузить игру",
   "CaptionSave": "Сохранить игру",
-  "DateFormatStr": "(hh:nn, dd.mm.yyyy)",
   "Delete": "Удалить",
   "Load": "Загрузить",
   "LoadDumpConfirm": "Для этого сохранения существует текстовый дамп. Хотите его загрузить (сейв станет непригодным для отправления в ТР и получения ачивок)?",
@@ -19,6 +18,5 @@
   "Save": "Сохранить",
   "SaveError": "Ошибка сохранения игры",
   "SaveInPlanet": "Планета <Planet>",
-  "SaveInShip": "<ShipName>",
   "SaveInSpace": "Система <Star>"
 }

@@ -3,7 +3,6 @@
   "CloseHold": "Закрити трюм",
   "CostGoods": "Придбано за <OldCost> cr.",
   "DestrCount": "<Count> зв.<br>(<Cost> ен.)",
-  "DestrEnergy": "<Value1><br>(<Value2>)",
   "DestrIShield": "імп.",
   "DestrLabel": "Статистика",
   "DestrNShield": "норм.",
@@ -73,7 +72,6 @@
     }
   },
   "Repair": "лагодження<br><Money> cr",
-  "RepairAll": "<Money> cr",
   "RepairMsgAllEnoughNode": "Для лагодження нестандартної зброї додатково потрібні ноди в кількості <NeedNode> шт. Ви бажаєте полагодити нестандартну зброю?",
   "RepairMsgAllNeedNode": "Для повного лагодження потрібні ноды в кількості <NeedNode> шт. Наразі у вас немає необхідної кількості. Ремонт нестандартної зброї не буде проведено.",
   "RepairMsgEnoughNode": "Для лагодження нестандартної зброї необхідні ноди як матеріал. На ремонт буде витрачено <NeedNode> нд.",
@@ -95,7 +93,6 @@
     "Cost": "Вартість",
     "Main": "Власність поза кораблем",
     "Page": "Сторінка",
-    "PlanetNO": "( <Water> / <Land> / <Hill> )",
     "Size": "Вага",
     "Star": "Система <Star>",
     "StarInfo": "система"

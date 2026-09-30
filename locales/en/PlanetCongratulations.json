@@ -29,52 +29,41 @@
   },
   "LiberationStarPirateClanFromKling": {
     "0": {
-      "Priority": "10",
       "Text": "Those domers ain't so tough after all, eh, <Player>?! With your help, we sure gave 'em hell! We pirates are the toughest SOBs in the Galaxy! Neither the Coalition nor the dominators can touch us!"
     },
     "1": {
-      "Priority": "10",
       "Text": "Many of our bros are surprised that we're capturing systems from dominators and not from the Coalition. They ain't smart enough to know the meaning of strategy and tactics -- all they care about is raiding and shooting their guns. But you and I, <Player>, we understand the importance of it. So from one wise guy to another, thanks for helping to capture this system!"
     },
     "2": {
-      "Priority": "10",
       "Text": "Ha, those stupid tin cans didn't know what hit 'em! And you crushed them bastards like insects, <Player>! It's great to see you put your ranger's past to good use. If nothing else, you lot are masters at beating up on dominators. Now this star system is ours, and I want to thank you on behalf of the entire pirate community for a glorious fight!"
     },
     "3": {
-      "Priority": "10",
       "Text": "That's how we roll, eh, <Player>?! Those Coalition wussies may be powerless against the tin cans they themselves have created, but we sure as hell ain't! You definitely proved that with this fight today. The system is now ours, and we're gonna be divvying up the booty soon. This calls for a celebration!"
-    },
-    "CongratulationsCount": "4"
+    }
   },
   "LiberationStarPirateClanFromNormals": {
     "0": {
-      "Priority": "10",
       "Text": "Excellent work, <Player>! Yet another system is in our hands, and your contribution is very much recognized and appreciated. Keep up the good work, and soon people will forget the meaning of the word \"Coalition\"!"
     },
     "1": {
-      "Priority": "10",
       "Text": [
         "Har-har, <Player>, my friend, up top! Excellent work up there on the orbit. Seeing you in action was a treat -- you're a real animal!",
         "Now that the system is ours, you can relax and let loose. But not too loose, you hear? We've got big plans for this here planet. Oh, by the way, the bar is right around the corner, if you're interested. Everybody's already there and waiting on you!"
       ]
     },
     "2": {
-      "Priority": "10",
       "Text": "<Player>, thank you for helping us in that fight on the orbit. If it weren't for you, things might have ended badly for us. Fortunately, the battle is over, and now we can look forward to celebrating and splitting loot. Let's hope the Coalition forces won't be visiting us for a while; and if they do, we'll give 'em a proper pirate welcome. Are you in? Hell, of course you are!"
     },
     "3": {
-      "Priority": "10",
       "Text": "Excellent, <Player>, simply excellent. Your help in establishing control over this system was invaluable. And it's always great to take those goody two-shoes Coalition punks down a peg. They fought like they had never even smelled a whiff of gunpowder... And now they never will! Anyway, we won, and winners are right by default. And you know what else winners are? They are congratulated, so let me shake your firm hand -- or better yet, both of them! The more the merrier, I say!"
     },
     "4": {
-      "Priority": "1",
       "Text": [
         "Oh, hic... <Player>, sorry, I'm just so, hic... hammered! While yer out dere congraidulatin' folk, cherin' in deir joys... You were gr8! Or waz it you... Daaamn, twins! C'mere, lemme kiss you both on da lips! Wait, where you goin'... Dis is a cellebrashin, and you twos are lik' twos peas in a pod, ha-ha-ha! Dat was a gewd joke...",
         "Now, where waz mah soberrol...",
         "Ugh, my head! I apologize for my behavior, <Player>. It is a noble pirate ritual to drink a shot for every survivor. And so I raise this full glass for you with pride!"
       ]
-    },
-    "CongratulationsCount": "5"
+    }
   },
   "Quest": {
     "AddArtefact": "In this case, money cannot be considered fair payment for what you've done, <Player>. Therefore, as an added bonus we would like to present you with this special gift: <Artefact>!",

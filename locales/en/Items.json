@@ -1,6 +1,5 @@
 {
   "CargoHook": {
-    "AverageSize": "40",
     "Broken": "(non-functional)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Gripper is now broken.",
     "BrokenInBattle": "Warning! The gripper was damaged in battle. You will not be able to pull in objects until you get it fixed.",
@@ -23,11 +22,7 @@
       "6": "Erimetric",
       "7": "Optoundular",
       "8": "Microtonal"
-    },
-    "mMass": "40,50,60,80,90,100,150,500",
-    "mRadius": "100,110,120,130,140,150,175,200",
-    "mSpeedClose": "3,4,4,5,6,6,7,8",
-    "mSpeedFar": "1,1,2,3,3,4,5,7"
+    }
   },
   "Cistern": {
     "FromFuelTanks": "Dump fuel from the fuel tank?",
@@ -41,7 +36,6 @@
     "ToFuelTanks": "Fill the fuel tank with fuel?"
   },
   "DefGenerator": {
-    "AverageSize": "40",
     "Broken": "(non-functional)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Shield generator is now broken.",
     "BrokenInBattle": "Danger! The shield generator was damaged by a direct hit. The defensive field is no longer functional. Urgent repair required!",
@@ -61,11 +55,9 @@
       "6": "Zone",
       "7": "Microlevel",
       "8": "Ultraplasmic"
-    },
-    "mDef": "0.10,0.13,0.16, 0.19, 0.22, 0.25, 0.28, 0.31"
+    }
   },
   "Engine": {
-    "AverageSize": "40",
     "Broken": "(repairs required)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Engine is now broken.",
     "BrokenInBattle": "Warning! The engine was damaged by a direct enemy hit. It is strongly recommended to leave combat immediately and drive the impulse to the nearest base.",
@@ -74,7 +66,6 @@
       "1": "Speed",
       "2": "Jump"
     },
-    "ForsageCoef": "2.0",
     "KlingName": "Torsion Reactor",
     "KlingText": "Allows for a top speed of <Speed> units and a hyperjump range of <Parsec> parsecs.",
     "Name": "<Type> engine",
@@ -90,9 +81,7 @@
       "6": "Graviton",
       "7": "Stensor",
       "8": "Temporal"
-    },
-    "mJump": "17,19,21,25,29,33,37,41",
-    "mSpeed": "400,450,500,600,700,800,900,1000"
+    }
   },
   "Equpments": {
     "AverageDuration": "(over 50% damage)",
@@ -103,7 +92,6 @@
     "SmallDuration": "(critical condition)"
   },
   "FuelTanks": {
-    "AverageSize": "40",
     "Broken": "(leaking)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Fuel tank is now leaking.",
     "BrokenInBattle": "Warning! The fuel tank was damaged by a direct hit! It is leaking.",
@@ -124,8 +112,7 @@
       "6": "Endoclustered",
       "7": "Gyroscopic",
       "8": "Tecronic"
-    },
-    "mCapacity": "10,15,20,25,30,35,40,45"
+    }
   },
   "Goods": {
     "Name": {
@@ -157,14 +144,9 @@
       "6": "Spirits and other low-toxicity products.",
       "7": "All manner of weapons: edged, hand-held, nuclear, psychotropic, etc.",
       "8": "Banned gaostimulators and other controlled substances."
-    },
-    "kInflationMax": "4.0",
-    "kInflationMin": "1.0",
-    "kStockMax": "3.0",
-    "kStockMin": "1.0"
+    }
   },
   "Hull": {
-    "AverageSize": "500",
     "Name": "<Type> hull <ShipType>",
     "ShipType": {
       "Diplomat": "diplomat",
@@ -186,15 +168,7 @@
       "6": "Polymorphic",
       "7": "Nanochitinous",
       "8": "Bioslotting"
-    },
-    "mAlloy": "1,2,3,4,5,6,7,8",
-    "mFragilityByLevelEnergy": "1.00, 1.00, 1.00, 1.05, 1.10, 1.00, 0.95, 0.85",
-    "mFragilityByLevelMissile": "1.05, 1.10, 1.00, 0.95, 0.90, 1.00, 1.05, 1.10",
-    "mFragilityByLevelSplinter": "0.95, 0.90, 1.00, 1.00, 1.00, 1.00, 1.00, 1.05",
-    "mFragilityByOwnerEnergy": "1.05, 1.05, 1.10, 0.90, 0.95, 1.00, 1.00, 0.95",
-    "mFragilityByOwnerMissile": "0.90, 1.05, 0.95, 1.05, 1.10, 1.00, 1.00, 0.95",
-    "mFragilityByOwnerSplinter": "1.05, 0.90, 0.95, 1.05, 0.95, 1.00, 1.00, 1.10",
-    "mFragilityByShipType": "1.0, 0.9, 1.1, 1.2, 1.1, 1.0, 1.0, 1.0, 0.9, 1.0, 0.9"
+    }
   },
   "Nod": {
     "Name": "Nodes",
@@ -207,7 +181,6 @@
     ]
   },
   "Radar": {
-    "AverageSize": "30",
     "Broken": "(non-functional)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Radar is now broken.",
     "BrokenInBattle": "Warning! The radar was damaged by a direct hit. Immediate repairs are required.",
@@ -226,11 +199,9 @@
       "6": "Neurolinear",
       "7": "Ethane",
       "8": "Zero-contact"
-    },
-    "mRadius": "1200,1400,1600,1800,2100,2400,2700,3000"
+    }
   },
   "RepairRobot": {
-    "AverageSize": "40",
     "Broken": "(non-functional)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Droid is now broken.",
     "BrokenInBattle": "Warning! The droid is damaged! It can no longer mend the skin and requires repairs.",
@@ -249,75 +220,50 @@
       "6": "Tensor",
       "7": "Dowel",
       "8": "Duplex"
-    },
-    "mRepair": "10,15,20,25,30,40,50,60"
+    }
   },
   "Satellite": {
     "0": {
-      "Cost": "Small",
       "Name": "Operon",
-      "Size": "10",
-      "Speed": "1,1,1",
       "Text": [
         "A high-orbit C class satellite. Carries out monitoring on all kinds of terrain. Mid reliability.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Average"
+      ]
     },
     "1": {
-      "Cost": "Small",
       "Name": "Cerind",
-      "Size": "7",
-      "Speed": "0,2,0",
       "Text": [
         "A low-orbit C class satellite. Carries out monitoring on plains. Long service period guaranteed.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Small"
+      ]
     },
     "2": {
-      "Cost": "Big",
       "Name": "Tecton",
-      "Size": "15",
-      "Speed": "0,2,2",
       "Text": [
         "A high-orbit B class satellite. Carries out monitoring on plains and mountains. Mid reliability.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Average"
+      ]
     },
     "3": {
-      "Cost": "Big",
       "Name": "Shacklas",
-      "Size": "10",
-      "Speed": "3,1,0",
       "Text": [
         "A low-orbit B class satellite. Excellent at scanning sea depths and adjoining lands. Requires constant maintenance.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Huge"
+      ]
     },
     "4": {
-      "Cost": "Huge",
       "Name": "Neutra",
-      "Size": "15",
-      "Speed": "2,2,2",
       "Text": [
         "A spy A class satellite Used by special services. Efficient at scanning all types of terrain, but has low reliability.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Big"
+      ]
     },
     "5": {
-      "Cost": "Huge",
       "Name": "Oculus",
-      "Size": "25",
-      "Speed": "1,1,4",
       "Text": [
         "A low-orbit A class satellite. Excellent at scanning mountains and adjoining territory. Virtually everlasting.",
         "Water: <Water> / Plains: <Land> / Mountains: <Hill>"
-      ],
-      "Wear": "Mini"
+      ]
     },
     "Broken": "(repairs required)",
     "BrokenInUse": "Incoming signal from planet <Planet>. Recon probe <Name> has malfunctioned and requires repair.",
@@ -327,7 +273,6 @@
     "WorkEnd": "(idle)"
   },
   "Scaner": {
-    "AverageSize": "30",
     "Broken": "(non-functional)",
     "BrokenByForce": "Unfortunately, close-up meeting with Bertor didn't go well. Scaner is now broken.",
     "BrokenInBattle": "Warning! The scanner was damaged by a direct hit. It is broken and requires repairs. Ship scanning is impossible.",
@@ -402,258 +347,6 @@
       "7": "Flow Blaster",
       "8": "Electronic Cutter",
       "9": "Multiresonator"
-    },
-    "Stats": {
-      "1": {
-        "AverageRadius": "0300",
-        "AverageSize": "030",
-        "DamageSet": "Energy",
-        "MaxDamage": "015",
-        "MinDamage": "010",
-        "MiningFactor": "1",
-        "ShotType": "Normal",
-        "Speed": "065",
-        "TechLevel": "01",
-        "kCost": "01.5",
-        "mWeaponDamage": "1.00,1.10,1.20,1.30,1.40,1.60,1.90,2.30"
-      },
-      "10": {
-        "AverageRadius": "0320",
-        "AverageSize": "080",
-        "DamageSet": "Energy",
-        "MaxDamage": "045",
-        "MinDamage": "030",
-        "MiningFactor": "6",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Splash",
-        "Speed": "055",
-        "TechLevel": "07",
-        "kCost": "25.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "11": {
-        "AverageRadius": "0380",
-        "AverageSize": "090",
-        "DamageSet": "Energy",
-        "MaxDamage": "050",
-        "MinDamage": "025",
-        "MiningFactor": "4",
-        "ShotType": "Normal",
-        "Speed": "095",
-        "TechLevel": "07",
-        "kCost": "50.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "12": {
-        "AverageRadius": "0320",
-        "AverageSize": "100",
-        "DamageSet": "Energy",
-        "MaxDamage": "060",
-        "MinDamage": "040",
-        "MiningFactor": "2",
-        "SecondaryDamageRadius": "200",
-        "ShotType": "Exploder",
-        "Speed": "100",
-        "TechLevel": "08",
-        "kCost": "70.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      },
-      "13": {
-        "AverageRadius": "0300",
-        "AverageSize": "080",
-        "DamageSet": "Splinter,Destruct",
-        "MaxDamage": "030",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "ShotType": "AreaDamage",
-        "Speed": "040",
-        "TechLevel": "09",
-        "kCost": "75.0",
-        "mWeaponDamage": "1.00,1.10,1.25,1.40,1.80,2.20,2.60,3.00"
-      },
-      "14": {
-        "AverageRadius": "0330",
-        "AverageSize": "110",
-        "DamageSet": "Energy",
-        "MaxDamage": "040",
-        "MinDamage": "018",
-        "MiningFactor": "6",
-        "ShotType": "AreaDamage",
-        "Speed": "045",
-        "TechLevel": "09",
-        "kCost": "90.0",
-        "mWeaponDamage": "1.00,1.10,1.25,1.40,1.80,2.20,2.60,3.00"
-      },
-      "15": {
-        "AverageRadius": "0800",
-        "AverageSize": "060",
-        "DamageSet": "Missile",
-        "MaxDamage": "030",
-        "MinDamage": "025",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "33",
-        "MissileMaxSpeed": "1000",
-        "MissileMinSpeed": "600",
-        "MissileRadius": "1200",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Torpedo",
-        "Speed": "005",
-        "TechLevel": "08",
-        "kCost": "52.5",
-        "mWeaponDamage": "1.00,1.20,1.40,1.70,2.00,2.40,2.80,3.20"
-      },
-      "16": {
-        "AverageRadius": "0275",
-        "AverageSize": "060",
-        "DamageSet": "Splinter,Acid,NoDelta",
-        "MaxDamage": "030",
-        "MinDamage": "025",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "050",
-        "TechLevel": "07",
-        "kCost": "30.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.35,1.45,1.60"
-      },
-      "17": {
-        "AverageRadius": "0330",
-        "AverageSize": "050",
-        "DamageSet": "Energy,Shock",
-        "MaxDamage": "035",
-        "MinDamage": "001",
-        "MiningFactor": "2",
-        "ShotType": "Normal",
-        "Speed": "070",
-        "TechLevel": "03",
-        "kCost": "07.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,2.00"
-      },
-      "18": {
-        "AverageRadius": "0300",
-        "AverageSize": "030",
-        "DamageSet": "Missile,Magnetic",
-        "MaxDamage": "008",
-        "MinDamage": "006",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "80",
-        "MissileMaxSpeed": "1600",
-        "MissileMinSpeed": "800",
-        "MissileRadius": "600",
-        "ShotType": "Rocket5",
-        "Speed": "000",
-        "TechLevel": "05",
-        "kCost": "20.0",
-        "mWeaponDamage": "1.00,1.05,1.10,1.20,1.30,1.45,1.60,1.80"
-      },
-      "2": {
-        "AverageRadius": "0240",
-        "AverageSize": "040",
-        "DamageSet": "Splinter",
-        "MaxDamage": "025",
-        "MinDamage": "015",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "060",
-        "TechLevel": "02",
-        "kCost": "02.5",
-        "mWeaponDamage": "1.00,1.20,1.40,1.60,1.80,2.00,2.20,2.40"
-      },
-      "3": {
-        "AverageRadius": "0350",
-        "AverageSize": "050",
-        "DamageSet": "Energy",
-        "MaxDamage": "024",
-        "MinDamage": "008",
-        "MiningFactor": "4",
-        "ShotType": "Normal",
-        "Speed": "080",
-        "TechLevel": "03",
-        "kCost": "03.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,2.00"
-      },
-      "4": {
-        "AverageRadius": "0500",
-        "AverageSize": "020",
-        "DamageSet": "Missile",
-        "MaxDamage": "012",
-        "MinDamage": "010",
-        "MiningFactor": "6",
-        "MissileChanceToBeHit": "50",
-        "MissileMaxSpeed": "1200",
-        "MissileMinSpeed": "600",
-        "MissileRadius": "1000",
-        "ShotType": "Rocket3",
-        "Speed": "000",
-        "TechLevel": "04",
-        "kCost": "04.0",
-        "mWeaponDamage": "1.00,1.15,1.30,1.45,1.60,1.75,1.90,2.05"
-      },
-      "5": {
-        "AverageRadius": "0380",
-        "AverageSize": "030",
-        "DamageSet": "Energy,Decelerate,Drain",
-        "MaxDamage": "010",
-        "MinDamage": "005",
-        "MiningFactor": "1",
-        "ShotType": "Normal",
-        "Speed": "085",
-        "TechLevel": "04",
-        "kCost": "03.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.40,1.50"
-      },
-      "6": {
-        "AverageRadius": "0240",
-        "AverageSize": "040",
-        "DamageSet": "Energy",
-        "MaxDamage": "030",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "ShotType": "Chain3",
-        "Speed": "090",
-        "TechLevel": "05",
-        "kCost": "05.5",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,1.80"
-      },
-      "7": {
-        "AverageRadius": "0340",
-        "AverageSize": "060",
-        "DamageSet": "Splinter",
-        "MaxDamage": "040",
-        "MinDamage": "010",
-        "MiningFactor": "5",
-        "ShotType": "Normal",
-        "Speed": "075",
-        "TechLevel": "05",
-        "kCost": "20.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.50,1.70"
-      },
-      "8": {
-        "AverageRadius": "0330",
-        "AverageSize": "030",
-        "DamageSet": "Energy,Destruct",
-        "MaxDamage": "035",
-        "MinDamage": "005",
-        "MiningFactor": "2",
-        "ShotType": "Normal",
-        "Speed": "070",
-        "TechLevel": "06",
-        "kCost": "06.0",
-        "mWeaponDamage": "1.00,1.10,1.20,1.30,1.40,1.50,1.60,1.70"
-      },
-      "9": {
-        "AverageRadius": "0300",
-        "AverageSize": "070",
-        "DamageSet": "Splinter",
-        "MaxDamage": "045",
-        "MinDamage": "020",
-        "MiningFactor": "6",
-        "SecondaryDamageRadius": "100",
-        "ShotType": "Splash",
-        "Speed": "050",
-        "TechLevel": "06",
-        "kCost": "30.0",
-        "mWeaponDamage": "1.00,1.10,1.15,1.20,1.25,1.30,1.35,1.40"
-      }
     },
     "Text": {
       "1": "Emits a powerful light beam, inflicting <MinDamage>-<MaxDamage><Bonus> damage to the target within a <Radius> radius.",
