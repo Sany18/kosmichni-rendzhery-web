@@ -13,10 +13,9 @@
   "Options": "Настройки",
   "Score": "Рекорды",
   "SubName": "Доминаторы: Перезагрузка",
-  "Version": "Web port by Hoxz",
+  "Version": "(C) 2013-2025 RIP. Версия <Value>.",
   "Version2": [
-    "",
-    "Web port by Hoxz"
-  ],
-  "Support": "Support"
+    "(C) 2013-2025 RIP",
+    "Версия <Value>."
+  ]
 }

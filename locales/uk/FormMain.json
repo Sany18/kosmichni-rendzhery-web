@@ -13,10 +13,9 @@
   "Options": "Налаштування",
   "Score": "Рекорди",
   "SubName": "Домінатори: Перезавантаження",
-  "Version": "Web port by Hoxz",
+  "Version": "(C) 2026-2026 Hoxz and community. Web port of unknown game. Version <Value>.",
   "Version2": [
-    "",
-    "Web port by Hoxz"
-  ],
-  "Support": "Support"
+    "(C) 2026-2026 Hoxz and community.",
+    "Web port of unknown game. Version <Value>."
+  ]
 }
