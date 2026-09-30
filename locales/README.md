@@ -1,9 +1,9 @@
 # Localization / Локалізація
 
-Text data of the Space Rangers HD: A War Apart web port. One JSON file per
+Text data of the Космічні Ренджери HD: A War Apart web port. One JSON file per
 section of the game's language data.
 
-Текстові дані веб-порту Space Rangers HD: A War Apart. Один JSON-файл — один
+Текстові дані веб-порту Космічні Ренджери HD: A War Apart. Один JSON-файл — один
 розділ мовних даних гри.
 
 ```
