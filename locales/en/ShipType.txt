@@ -1,0 +1,113 @@
+ShipType ^{
+    Dominator ^{
+        Blazer ^{
+            0=Blazer
+            1=Equantor
+            2=Urgant
+            3=Smersh
+            4=Menoc
+            5=Shtip
+            6=Bertor
+            7=Klig
+        }
+        Keller ^{
+            0=Keller
+            1=Equantor
+            2=Urgant
+            3=Smersh
+            4=Menoc
+            5=Shtip
+            6=Bertor
+            7=Klig
+        }
+        Terron ^{
+            0=Terron
+            1=Equantor
+            2=Urgant
+            3=Smersh
+            4=Menoc
+            5=Shtip
+            6=Bertor
+            7=Klig
+        }
+    }
+    Fei ^{
+        Diplomat=Dalani
+        Liner=Pioleptida
+        Pirate=Phantom
+        Ranger=Ranger
+        Transport=Menaken
+        Warrior=Ecefar
+        WarriorBig=Kheophar
+    }
+    Gaal ^{
+        Diplomat=Galit
+        Liner=Pleocan
+        Pirate=Renegal
+        Ranger=Ranger
+        Transport=Oveon
+        Warrior=Getereoga
+        WarriorBig=Huu-Monger
+    }
+    Kling ^{
+        0=Makhpella
+        1=Egemon
+        2=Nondus
+        3=Katauri
+        4=Rogit
+        5=Mutenoc
+    }
+    Maloc ^{
+        Diplomat=Rart
+        Liner=Aralita
+        Pirate=Bambay
+        Ranger=Ranger
+        Transport=Kargas
+        Warrior=Drakar
+        WarriorBig=Ravanger
+    }
+    Peleng ^{
+        Diplomat=Liancher
+        Liner=Pachryamba
+        Pirate=Lyakusha
+        Ranger=Ranger
+        Transport=Cheska
+        Warrior=Sharakesh
+        WarriorBig=Shiksa
+    }
+    People ^{
+        Diplomat=Consul
+        Liner=Astroliner
+        Pirate=Corsair
+        Ranger=Ranger
+        Transport=Hauler
+        Warrior=Fighter
+        WarriorBig=Battleship
+    }
+    TypeName ^{
+        BK=Business Center
+        BKSmall=BC
+        CB=Dominion
+        CBSmall=DM
+        Diplomat=Diplomat
+        Kling=Dominator
+        Liner=Liner
+        MC=Medical Center
+        MCSmall=MC
+        PB=Pirate Base
+        PBSmall=PB
+        Pirate=Pirate
+        RC=Ranger Center
+        RCSmall=RC
+        Ranger=Ranger
+        Ruins=Station
+        SB=Research Station
+        SBSmall=RS
+        Tranclucator=Robot
+        Transport=Transport
+        WB=Military Base
+        WBSmall=MB
+        Warrior=Military
+        WarriorBig=Flagship
+    }
+}

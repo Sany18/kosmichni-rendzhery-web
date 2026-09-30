@@ -1,0 +1,115 @@
+FormShip ^{
+    AddInfo=Дополнительная информация
+    CloseHold=Закрыть трюм
+    CostGoods=Куплено за <OldCost> cr.
+    DestrCount=<Count> зв.<br>(<Cost> эн.)
+    DestrEnergy=<Value1><br>(<Value2>)
+    DestrIShield=имп.
+    DestrLabel=Статистика
+    DestrNShield=норм.
+    DestrPerDay=<Value><br>в дн.
+    DiffuseItem=Рассеять <Name>
+    Drop=выбросить
+    EnterShipName=Введите имя:
+    ForsageActivate=Форсаж активирован. Износ двигателя в полете будет максимальным.
+    FromStorageItem=Взять со склада <Name>
+    Fuel=заправка<br><Money> cr
+    FuelAct=Заправить
+    FullRepare=Полный ремонт
+    FullRepareNo=не требуется
+    HelpDestrInto=Зайти на мостик (<color=255,245,80>B</color>)
+    HelpLoadRocketsInHold=Зарядить все ракетное оружие в трюме (<color=255,245,80>Y</color>)
+    HelpLoadRocketsInSlots=Зарядить все ракетное оружие в слотах (<color=255,245,80>U</color>)
+    HelpSellAllFromHold=Продать все из трюма
+    HelpSellAllFromStorage=Продать все со склада
+    HelpShipToStorage=Переместить все из трюма на склад (<color=255,245,80>CTRL+I</color>)
+    HelpSortMoney=Отсортировать по стоимости
+    HelpSortSize=Отсортировать по размеру
+    HelpSortType=Отсортировать по типу
+    HelpStorageToShip=Переместить все со склада в трюм (<color=255,245,80>CTRL+O</color>)
+    HullInHoldError=Корпус слишком большой, вы не можете положить его в трюм.
+    IDef=Защита
+    IEmpty=Свободно
+    IMass=Масса
+    ISpeed=Скорость
+    LActivate=Активировать
+    LAdd=Дополнительное оборудование
+    LCompl=Комплектация
+    LDrop=Выбросить
+    LGate=Шлюз
+    LHold=Трюм
+    LInfo1=Система
+    LInfo2=отслеживания
+    LMove1=Система
+    LMove2=движения
+    LNewExp1=Новый
+    LNewExp1b=Ваш
+    LNewExp2=опыт
+    LNewExp2b=опыт
+    LSC=Сервисный центр
+    LSort=Сортировка:
+    LStorage=Склад
+    LWeapon=Вооружение
+    Missile=зарядка<br><Money> cr
+    MissileAct=Зарядить
+    NoDrop=Этот предмет необходим для завершения задания. Его нельзя выбрасывать.
+    NoEquipChangeInHyper=В гиперпространстве нельзя менять оборудование и оружие!
+    NotLicenseForRepair=Извините, <Player>, но у нас нет лицензии на починку нестандартного оборудования. Обратитесь на научную или пиратскую базу.
+    NotUseTranclucator=В ангаре нет места для транклюкатора.
+    NotUseTransmitter=Трансфакторный маяк разряжен. Срок до накопления минимального заряда: <Count> дн.
+    OpenHold=Открыть трюм
+    PlayerPoints=Ваш опыт
+    Points=Новый опыт
+    ReloadAll ^{
+        Hold ^{
+            Confirm=Зарядить ракетное оружие в трюме за <Money> cr.?
+            NoItem=Отсутствует ракетное оружие в трюме, требующее зарядки.
+            NoMoney=Не хватает денег для зарядки ракетного оружия в трюме, требуется <Money> cr.
+        }
+        Slot ^{
+            Confirm=Зарядить ракетное оружие в слотах за <Money> cr.?
+            NoItem=Отсутствует ракетное оружие в слотах, требующее зарядки.
+            NoMoney=Не хватает денег для зарядки ракетного оружия в слотах, требуется <Money> cr.
+        }
+    }
+    Repair=починка<br><Money> cr
+    RepairAll=<Money> cr
+    RepairMsgAllEnoughNode=Для починки нестандартного оружия дополнительно требуются ноды в количестве <NeedNode> шт. Вы хотите починить нестандартное оружие?
+    RepairMsgAllNeedNode=Для полной починки требуются ноды в количестве <NeedNode> шт. На данный момент у вас нет необходимого количества. Ремонт нестандартного оружия не будет произведен.
+    RepairMsgEnoughNode=Для починки нестандартного оружия необходимы ноды в качестве материала. На ремонт будет потрачено <NeedNode> нд.
+    RepairMsgNeedMoney=Не хватает <NeedMoney> cr
+    RepairMsgNeedNode=Для починки нестандартного оружия необходимы ноды в качестве материала. Требуется ещё <NeedNode> нд.
+    RepairMsgOk=Теперь <Name><br>в полном порядке!
+    RuinMoveItemInvalid=Что это вы задумали, <Player>? Ну-ка, положите этот <Item> на место!
+    Sell=продажа<br><Money> cr
+    SellAllFromHold=Продать всё из трюма за <Cost> cr?
+    SellAllFromStorage=Продать всё со склада за <Cost> cr?
+    SellItem=Продать <Name>
+    SellItemQuestion=Хотите продать <Item>?
+    SellOrBuyInPiratePlanetAndBadRelations=<Player>, на планете <Planet> у пиратов свои порядки, и вы в них не вписываетесь. Обратитесь на пиратскую базу и перетрите по понятиям.
+    SellOrBuyInPlanetAndBadRelations=<Player>, на планете <Planet> вы являетесь нежелательным гостем. Загляните в здание правительства для выяснения отношений.
+    SetHotEqu=Быстрая конфигурация оборудования сохранена.<br>Клавиша вызова <Key>
+    Skills=Навыки
+    Storage=Склад
+    StorageInfo ^{
+        Cost=Стоимость
+        Main=Собственность вне корабля
+        Page=Страница
+        PlanetNO=( <Water> / <Land> / <Hill> )
+        Size=Вес
+        Star=Система <Star>
+        StarInfo=система
+    }
+    StorageItem=Сдать на склад <Name>
+    ThrowEngineError=Нельзя выбрасывать двигатель, не установив взамен другой!<br>Вы не сможете летать!
+    ThrowFuelTanksError=Нельзя выбрасывать топливный бак, не установив взамен другой!<br>Вы не сможете летать!
+    ThrowItem=Выбросить <Name>
+    TooAdvancedForRepair=Извините, <Player>, но мы не можем починить это оборудование, поскольку принципы его работы нам неизвестны.
+    TrancMissileWarning=Хозяин! Для нормального функционирования этого оружия необходим <clr>Радар<clrEnd>. Без него я смогу стрелять только в упор.
+    TrancMoveItemInvalid=Хозяин! Этот предмет имеет критичное значение для моего нормального функционирования, я не могу позволить вам его забрать!
+    Use=использовать
+    UseMissileDef=Активирована самоликвидация ракет
+    UseOnlyInSpace=Этот предмет может быть использован только в открытом космосе
+    UseTranclucator=Транклюкатор помещен в ангар. Он вылетит из ангара на следующем ходу.
+    UseTransmitter=Сообщение о наличии неизученного материала в системе <Star> отправлено. Исследователи прибудут через <clr>10<clrEnd> дней.
+}

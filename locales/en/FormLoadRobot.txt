@@ -1,0 +1,25 @@
+FormLoadRobot ^{
+    Cancel=Cancel
+    Caption=Battles: Quick Launch
+    Dif1=100% <color=149,149,149>(None)</color>
+    Dif2=80% <color=149,149,149>(Air Support)</color>
+    Dif3=80% <color=149,149,149>(Reinforced Armor)</color>
+    DifCap=Difficulty <color=149,149,149>(Bonuses)</color>
+    Group0=Original
+    Group1=Addon Maps
+    Group2=Custom
+    Length0=Small
+    Length1=Below Average
+    Length2=Average
+    Length3=Above Average
+    Length4=Large
+    PPlace=Planet Caracis Mal'ora, Marcab System
+    PPlanet=Caracis Mal'ora
+    PPlayer=Graefe
+    PStar=Marcab
+    Start=Start
+    StdBegin=Begin!
+    StdDefeat=Defeat!
+    StdVictory=Victory!
+    Time=Time: <Val>
+}

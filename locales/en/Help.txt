@@ -1,0 +1,76 @@
+Help ^{
+    ABItemDamage=Weapon power <color=255,245,80>+50%</color>
+    ABItemDefence=Defense <color=255,245,80>+50%</color>
+    ABItemFast=Acceleration
+    ABItemInvisible=Invisibility
+    ABItemLife=First-aid Kit
+    ABItemLock=Blockirator
+    ABItemReload=Recharge <color=255,245,80>+100%</color>
+    ABItemSlow=Deceleration
+    ABSphere=Cluster (Entry: <color=255,245,80>Enter</color>)
+    ABWeapon1=<WeaponName> (Fire: <color=255,245,80>Ctrl</color>, Select: <color=255,245,80><SelectKey></color>, Mode: <color=255,245,80>Shift+<SelectKey></color>)
+    ABWeapon2=<WeaponName> (Fire: <color=255,245,80>Shift</color>, Select: <color=255,245,80><SelectKey></color>, Mode: <color=255,245,80>Shift+<SelectKey></color>)
+    ButABPause=Drift (<color=255,245,80>Space</color>)
+    ButABPlay=Fly (<color=255,245,80>Space</color>)
+    ButAI=Autopilot (<color=255,245,80>A</color>)
+    ButBreakMove=Stop Flight (<color=255,245,80>Space</color>)
+    ButCaptain=Captain (<color=255,245,80>G</color>)
+    ButCenterShip=Center Ship (<color=255,245,80>C</color>)
+    ButExploration=Explore Terrain (<color=255,245,80>E</color>)
+    ButFilm=Flight History (<color=255,245,80>H</color>)
+    ButGalaxy=Galaxy Map (<color=255,245,80>M</color>)
+    ButGoods=Trade Center (<color=255,245,80>T</color>)
+    ButGov=Government (<color=255,245,80>G</color>)
+    ButHangar=Hangar (<color=255,245,80>H</color>)
+    ButInfo=Information Center (<color=255,245,80>I</color>)
+    ButLogo=Menu (<color=255,245,80>Esc</color>)
+    ButPlanet=Planet (<color=255,245,80>P</color>)
+    ButQuest=Quest Log (<color=255,245,80>Q</color>)
+    ButRating=Ranger Rating (<color=255,245,80>R</color>)
+    ButRefuel=Refuel (<color=255,245,80>B</color>)
+    ButRepair=Repair (<color=255,245,80>A</color>)
+    ButScaner=Scan Ship (<color=255,245,80>I</color>)
+    ButSearchArtefact=Complete Quest (<color=255,245,80>Q</color>)
+    ButSelAllWeapon=Select All Weapons (<color=255,245,80>~</color>)
+    ButShip=Ship (<color=255,245,80>S</color>)
+    ButShop=Equipment Store (<color=255,245,80>E</color>)
+    ButShowWeapon=Show/Hide Weapons (<color=255,245,80>W</color>)
+    ButTakeoff=Takeoff (<color=255,245,80>F</color>)
+    ButTalk=Contact Ship (<color=255,245,80>T</color>)
+    ButTurn=End Turn (<color=255,245,80>Space</color>)
+    ButW0=Weapon (<color=255,245,80>1</color>)
+    ButW1=Weapon (<color=255,245,80>2</color>)
+    ButW2=Weapon (<color=255,245,80>3</color>)
+    ButW3=Weapon (<color=255,245,80>4</color>)
+    ButW4=Weapon (<color=255,245,80>5</color>)
+    Filter_0=Filter: Guns (<color=255,245,80>Num 1</color>)
+    Filter_1=Filter: Equipment (<color=255,245,80>Num 2</color>)
+    Filter_2=Filter: Artifacts (<color=255,245,80>Num 3</color>)
+    Filter_3=Filter: Micromodules (<color=255,245,80>Num 4</color>)
+    Filter_4=Filter: Goods, nodes and debris (<color=255,245,80>Num 5</color>)
+    Filter_5=Filter: Misc (<color=255,245,80>Num 6</color>)
+    ForsageOff=Afterburner off
+    ForsageOn=Afterburner on
+    InterceptorsOutRange=The object is outside of the fighters' operating radius
+    InterceptorsSet=New target set for the fighters
+    LabelDate=Current date
+    LabelFreeSpace=Available space on ship
+    LabelMoney=Money
+    LandingCancelPirate=Landing is forbidden, only members of pirate's clan could visit the dominion!
+    LandingCancelScript=Landing is forbidden, this base is not active!
+    LandingCancelWar=Landing is forbidden, this station' status towards you is "hostile"!
+    MoveAuto=Automatic battle
+    MoveBreak=Turn paused. Wait till the end of the day.
+    MoveLanding=Land
+    MoveNear=Close in to minimum range
+    MoveShot=Close in to shooting range
+    ScanImpossible=Scanning is impossible
+    ScanOutRange=Object is out of radar range
+    ScanPowerLow=Insufficient scanner capacity
+    ShotCancel=Fire canceled
+    ShotOutRange=Object is out of targeting range
+    ShotSet=Target locked
+    Speed0=Ship speed is at zero!<br>Check for presence of engine and fuel tank.<br>If the ship is overloaded, dump excessive cargo.
+    TalkImpossible=Conversation is impossible
+    TalkOutRange=Object is out of radar range
+}

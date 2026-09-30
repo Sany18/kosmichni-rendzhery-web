@@ -1,0 +1,4349 @@
+MicroModuls ^{
+    0 ^{
+        Equipments=Engine,Radar
+        Name=Upper
+        Priority=80
+        Text=Level three micromodule. Builds up engine and radar power via enhancements to energy conversion.
+        Text=Engine speed: <bonSpeed>
+        Text=Radar range: <bonRadar>
+        bonRadar=400
+        bonSpeed=20
+    }
+    1 ^{
+        Equipments=WEnergy
+        Name=Electro
+        Priority=100
+        Text=Level three micromodule. Affects the power of energy weapons, using the principle of impulse generator multiplication.
+        Text=Energy weapons damage: <bonWEnergy>
+        bonWEnergy=5
+    }
+    10 ^{
+        Equipments=Engine
+        Name=Faejoel
+        Owner=Fei
+        Priority=70
+        Size=120
+        Text=Level three micromodule. Added to the engine's navigational system, thus increasing the clock frequency of the device's computing module. Compatible exclusively with <clr>faeyan<clrEnd> equipment.
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        Text=Size: <clr>+20%<clrEnd>
+        bonJump=8
+        bonSpeed=25
+    }
+    100 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Integrator
+        Priority=50
+        Size=125
+        Text=Level two micromodule. Increases the weapon's hit coefficient via a singular increase of the initial impulse.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Size: <clr>+25%<clrEnd>
+        bonWEnergy=5
+        bonWMissile=10
+        bonWSplinter=15
+    }
+    101 ^{
+        Equipments=Hook
+        Name=Magnicum
+        Priority=50
+        Text=Level two micromodule. Increases the potential of the gripper-generated field, thus increasing the efficiency of the device.
+        Text=Gripper power: <bonHook>
+        Text=Gripper range: <bonHookRadius>
+        bonHook=70
+        bonHookRadius=5
+    }
+    102 ^{
+        Cost=150
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator
+        Name=Stopbark
+        Priority=50
+        Size=70
+        Text=Level two micromodule. Replaces moving equipment parts with stronger platinum ones. Decreases the size and increases the cost of the equipment. Cannot be used in weapon systems or hull.
+        Text=Size: <clr>-30%<clrEnd>
+        Text=Cost: <clr>+50%<clrEnd>
+    }
+    103 ^{
+        Cost=125
+        Equipments=Scaner
+        Name=Impalegun
+        Priority=40
+        Text=Level two micromodule. Replaces the scanner's magnetic generator with a more expensive impulse-gravitational variant, thus increasing the power of the device.
+        Text=Scanner power: <bonScan>%
+        Text=Cost: <clr>+25%<clrEnd>
+        bonScan=7
+    }
+    104 ^{
+        Cost=120
+        Equipments=Hook
+        Name=Paragon
+        Owner=Maloc,People,Fei,Gaal
+        Priority=40
+        Size=110
+        Text=Level two micromodule. Replaces the gripper's power source with one that's both more powerful and expensive. However, the new generator is also larger in size. Incompatible with any <clr>peleng<clrEnd> equipment.
+        Text=Gripper power: <bonHook>
+        Text=Size: <clr>+10%<clrEnd>
+        Text=Cost: <clr>+20%<clrEnd>
+        bonHook=80
+    }
+    105 ^{
+        Equipments=Engine
+        Name=Strutter
+        Owner=Maloc
+        Priority=50
+        Text=Level two micromodule. Generates a zero-friction field, decreasing the engine's output power loss while increasing both the speed and jumping range. Compatible exclusively with <clr>maloq<clrEnd> equipment.
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        bonJump=6
+        bonSpeed=100
+    }
+    106 ^{
+        Equipments=Radar,Scaner
+        Name=Convector
+        Owner=People
+        Priority=55
+        Text=Level two micromodule. Fitted into the mechanical component of the device. Increases the scanner's power and radar range. Compatible exclusively with <clr>human<clrEnd> equipment.
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>%
+        bonRadar=1000
+        bonScan=6
+    }
+    107 ^{
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WEnergy,WSplinter,WMissile
+        Name=Clip
+        Owner=Fei
+        Priority=65
+        Size=60
+        Text=Level two micromodule. Replaces the larger boards with smaller, modern analogues. Reduces the size of any equipment or weapon, except for the hull. Compatible exclusively with <clr>faeyan<clrEnd> equipment.
+        Text=Size: <clr>-40%<clrEnd>
+    }
+    108 ^{
+        Equipments=Engine,WEnergy,WSplinter,WMissile
+        Name=Microshooter
+        Owner=People,Fei,Gaal
+        Priority=65
+        Text=Level two micromodule. Replaces the coordinate system of the corrective module with a faeyan ecliptic system, increasing the weapons' range and the engine's hyperjump distance. Incompatible with <clr>maloq and peleng<clrEnd> equipment.
+        Text=Jumping range: <bonJump>
+        Text=Firing range: <bonWRadius>
+        bonJump=10
+        bonWRadius=50
+    }
+    109 ^{
+        Equipments=Engine
+        Name=Displacement
+        Owner=Peleng, People
+        Priority=50
+        Text=Level two micromodule. Modifies the engine's acceleration system, thus increasing the jumping range in hyperspace. Adapted for <clr>peleng and human<clrEnd> engines.
+        Text=Jumping range: <bonJump>
+        bonJump=14
+    }
+    11 ^{
+        Equipments=DefGenerator
+        Name=Rustle
+        Priority=70
+        Size=125
+        Text=Level three micromodule. Increases the efficiency of the disturbance filter in the shield generator. The active micromodule takes up a rather large amount of space.
+        Text=Shield generator: <bonDef>%
+        Text=Size: <clr>+25%<clrEnd>
+        bonDef=3
+    }
+    110 ^{
+        Equipments=Droid
+        Name=Dronze
+        Owner=Maloc,Peleng
+        Priority=50
+        Text=Level two micromodule. Upgrades vector-type accumulators, thanks to which the droid can work longer, and thus repair more damage. Useless for <clr>human, faeyan, and gaalian<clrEnd> droids.
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=20
+    }
+    111 ^{
+        Equipments=DefGenerator,WMissile
+        Name=Dioshield
+        Owner=Fei,People
+        Priority=40
+        Text=Level two micromodule. Replaces the moving parts in the shield generator and missile weapons with dominator action-type elements. A joint invention of <clr>faeyans and humans<clrEnd>, compatible exclusively with the equipment of these races.
+        Text=Shield generator: <bonDef>
+        Text=Missile weapons damage: <bonWMissile>
+        bonDef=5
+        bonWMissile=20
+    }
+    112 ^{
+        Cost=160
+        Equipments=WEnergy,WSplinter,WMissile
+        Fragility=55
+        Name=Maform
+        Owner=Maloc
+        Priority=50
+        Size=120
+        Text=Level two micromodule. Applies physical deformation to compensating modules on <clr>maloq<clrEnd> weapons by enlarging them and thus boosting damage capacity and reliability. Due to this being one of the most expensive knots, the weapon's cost increases sharply.
+        Text=Size: <clr>+20%<clrEnd>
+        Text=Cost: <clr>+60%<clrEnd>
+        Text=Reliability: <clr>+80%<clrEnd>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=3
+        bonWMissile=14
+        bonWSplinter=5
+    }
+    113 ^{
+        Equipments=FuelTank
+        Name=Volumer
+        Owner=Peleng,Fei
+        Priority=60
+        Text=Level two micromodule. Curves the space inside the reservoir, enabling increased fuel storage while the tank's weight and size remain unchanged. Compatible with <clr>peleng and faeyan<clrEnd> equipment.
+        Text=Fuel tank capacity: <bonFuel>
+        bonFuel=20
+    }
+    114 ^{
+        Equipments=WSplinter
+        Name=Splinter
+        Owner=Maloc,Peleng
+        Priority=60
+        Text=Level two micromodule. Controls the lock mechanism of fragmentation weapons, increasing firing efficiency. Compatible with <clr>maloq and peleng<clrEnd> weapons.
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        bonWSplinter=10
+    }
+    115 ^{
+        Equipments=Radar,Hook,DefGenerator
+        Name=Colebrator
+        Priority=60
+        Text=Level two micromodule. Improves the characteristics of device wave emitters. Increases the power of equipment that uses continuous emission and fields with wave characteristics, such as radar, gripper and shield generator.
+        Text=Radar range: <bonRadar>
+        Text=Gripper power: <bonHook>
+        Text=Shield generator: <bonDef>%
+        bonDef=3
+        bonHook=40
+        bonRadar=700
+    }
+    116 ^{
+        Equipments=WEnergy
+        Name=Energos
+        Priority=60
+        Text=Level two micromodule. Added as an auxiliary device into the bundle synthesizer for energy type weapons.
+        Text=Energy weapons damage: <bonWEnergy>.
+        bonWEnergy=7
+    }
+    117 ^{
+        Equipments=Hull
+        Name=Armorpack
+        Priority=60
+        Size=90
+        Text=Level two micromodule. Equips the ship's hull with additional sheets of composite armor. The gyroscope hinged fixes of armor plates and shock absorbers placed within the hull occupy rather a large space, substantially reducing the ship's storage capacity.
+        Text=Hull armor: <bonHull>
+        Text=Size: <clr>-10%<clrEnd>
+        bonHull=4
+    }
+    118 ^{
+        Equipments=Radar,Scaner
+        Name=Insighter
+        Owner=Gaal
+        Priority=50
+        Text=Level two micromodule. A quasi-intellectual module, substantially boosting the power of <clr>gaalian<clrEnd> radars and scanners through use of "pseudo-intuition."
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>%
+        bonRadar=1500
+        bonScan=10
+    }
+    119 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Turing
+        Priority=55
+        Size=50
+        Text=Level two micromodule. Replaces a massive weapons turret for power support. Part of the generator's energy is used to absorb the kickback, thereby reducing range and firepower, but the weapon occupies half as much space.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Firing range: <bonWRadius>
+        Text=Size: <clr>-50%<clrEnd>
+        bonWEnergy=-5
+        bonWMissile=-7
+        bonWRadius=-10
+        bonWSplinter=-5
+    }
+    12 ^{
+        Equipments=Engine,Radar,WEnergy,WSplinter,WMissile
+        Name=Dalstar
+        Owner=Peleng
+        Priority=70
+        Text=Level three micromodule. Boosts equipment range by eliminating a statistical computation error made by peleng equipment when calculating in limit intervals. Compatible exclusively with <clr>peleng<clrEnd> equipment.
+        Text=Jumping range: <bonJump>
+        Text=Radar range: <bonRadar>
+        Text=Firing range: <bonWRadius>
+        bonJump=8
+        bonRadar=500
+        bonWRadius=30
+    }
+    120 ^{
+        Equipments=WEnergy
+        Name=Excalibur
+        Owner=People
+        Priority=40
+        Text=Level two micromodule. Invented by human scientists, this micromodule modifies energy weapon converters, substantially increasing their killing capacity. Out of patriotic considerations, this module is compatible exclusively with <clr>human<clrEnd> equipment.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Firing range: <bonWRadius>
+        bonWEnergy=15
+        bonWRadius=40
+    }
+    121 ^{
+        Equipments=Engine
+        Name=Exploder
+        Owner=Peleng,People,Fei,Gaal
+        Priority=35
+        Text=Level two micromodule. Built into the engine. Destabilizes the molecular structure of the fuel, increasing its detonation properties. This provides a boost to engine speed, while reducing hyperjump distance due to a higher overload. Unfortunately, <clr>maloq<clrEnd> engines cannot sustain the increased load.
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        bonJump=-7
+        bonSpeed=150
+    }
+    122 ^{
+        Equipments=Engine,Radar,Scaner,Droid,WEnergy,WSplinter,WMissile
+        Name=Patch 0.95 beta
+        Owner=Peleng,People,Fei,Gaal
+        Priority=35
+        Text=Level two micromodule. Contains a set of broaching modules, designed for software integration with computing and overriding functions of certain equipment types. The patch increases the speed and accuracy of computations with a floating point. Still fairly raw and untested, the patch tends to conflict with <clr>faeyan and maloq<clrEnd> equipment software.
+        Text=Engine speed: <bonSpeed>
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Firing range: <bonWRadius>
+        bonDroid=12
+        bonRadar=500
+        bonScan=4
+        bonSpeed=50
+        bonWRadius=50
+    }
+    123 ^{
+        Cost=75
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator
+        Fragility=80
+        Name=Optimator
+        Owner=Peleng
+        Priority=40
+        Size=75
+        Text=Level two micromodule. Removes non-functional and decorative nodes and components out of <clr>peleng<clrEnd> equipment, thus decreasing its dimensions and cost while increasing reliability. Not used for hulls and weapon systems.
+        Text=Size: <clr>-25%<clrEnd>
+        Text=Cost: <clr>-25%<clrEnd>
+        Text=Reliability: <clr>+25%<clrEnd>
+    }
+    124 ^{
+        Equipments=Hull
+        Name=Addon
+        Owner=Maloc,Fei,Gaal,People
+        Priority=40
+        Size=115
+        Text=Level two micromodule. Enhances the hull with an additional cargo bay, increasing its capacity by 15%. Cannot be applied to <clr>peleng<clrEnd> hulls for unknown reasons.
+        Text=Hull size: <clr>+15%<clrEnd>
+    }
+    125 ^{
+        Cost=130
+        Equipments=WEnergy,WSplinter,WMissile
+        Fragility=55
+        Name=Gorand
+        Owner=Any
+        Priority=50
+        Text=Level two micromodule. Replaces <clr>armanent<clrEnd> components with nanotechnology-made analogs. Increases reliability by <clr>80%<clrEnd> and cost by <clr>30%<clrEnd>.
+    }
+    13 ^{
+        Cost=70
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WSplinter
+        Name=Minisized
+        Owner=People
+        Priority=70
+        Size=80
+        Text=Level three micromodule. Replaces a number of large texoelements with more compact ones, and very cheap to boot. Compatible exclusively with <clr>human<clrEnd> equipment. Does not interface with energy and missile weapons, as well as the hull.
+        Text=Size: <clr>-20%<clrEnd>
+        Text=Cost: <clr>-30%<clrEnd>
+    }
+    14 ^{
+        Equipments=Droid
+        Name=Dronner
+        Priority=70
+        Size=150
+        Text=Level three micromodule. Increases droid capabilities by replacing some of its components with a more efficient variety, albeit heavier. The droid's weight is increased as a result.
+        Text=Droid effectiveness: <bonDroid>
+        Text=Size: <clr>+50%<clrEnd>
+        bonDroid=15
+    }
+    15 ^{
+        Cost=25
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WEnergy,WSplinter,WMissile
+        Name=Cent
+        Priority=80
+        Size=110
+        Text=Level three micromodule. Affects the material component of any item (save for the hull), slightly increasing the item's size. At the same time, the cost is reduced by <clr>three quarters<clrEnd>, making the next maintenance worthwhile.
+        Text=Size: <clr>+10%<clrEnd>
+    }
+    16 ^{
+        Cost=50
+        Equipments=Droid
+        Name=Massodrope
+        Owner=Peleng,Maloc
+        Priority=70
+        Text=Level three micromodule. Removes redundant service blocks from the droid (such as noise-, radiation-protection, idiot-proofing, etc.), replacing it with auxiliary maintenance modules. Increasing droid effectiveness and lowering it's cost, this operation can only be performed on <clr>maloq and peleng<clrEnd> droids.
+        Text=Droid effectiveness: <bonDroid>
+        Text=Cost: <clr>-50%<clrEnd>
+        bonDroid=12
+    }
+    17 ^{
+        Cost=120
+        Equipments=Any
+        Name=Platicoat
+        Priority=70
+        Text=Level three micromodule. Covers the equipment with a thin coat of platinum, increasing its value.
+        Text=Cost: <clr>+20%<clrEnd>
+    }
+    18 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Klein
+        Priority=75
+        Text=Level three micromodule. Boosts the power of any weapon at the expense of range.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>.
+        Text=Firing range: <bonWRadius>
+        bonWEnergy=7
+        bonWMissile=14
+        bonWRadius=-20
+        bonWSplinter=15
+    }
+    19 ^{
+        Equipments=DefGenerator
+        Name=Paxton
+        Owner=Maloc
+        Priority=80
+        Size=25
+        Text=Level three micromodule. Allows for a more rational rearrangement of shield generator elements in <clr>maloq<clrEnd> technology, thus leading to a reduction in size. Functionality is not affected, though power is slightly reduced.
+        Text=Shield generator: <bonDef>%
+        Text=Size: <clr>-75%<clrEnd>
+        bonDef=-1
+    }
+    2 ^{
+        Equipments=WEnergy,WMissile
+        Name=Rocketon
+        Priority=100
+        Text=Level three micromodule, containing unfocused beta-conductors. Significantly boosts the power of missile weapons, and partly that of energy weapons.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=4
+        bonWMissile=14
+    }
+    20 ^{
+        Cost=125
+        Equipments=Engine
+        Name=Gugaal
+        Owner=Gaal
+        Priority=75
+        Text=Level three micromodule. Allows for maximum utilization of the speed potential of <clr>gaalian<clrEnd> engines, built into the design but rarely tapped by the modern engine systems. Though fairly minor from a structural standpoint, the cost of the engine is nonetheless increased by <clr>25%<clrEnd>.
+        Text=Engine speed: <bonSpeed>
+        Text=Cost: <clr>+25%<clrEnd>
+        bonSpeed=60
+    }
+    200 ^{
+        Equipments=Hull
+        Name=Harding
+        Owner=Peleng,People
+        Priority=30
+        Text=Level one micromodule. Built into the hull. Secures a dedicated micronetwork of repulsive stationary nanobots, partly blocking incoming damage. Compatible exclusively with <clr>peleng and human<clrEnd> hulls.
+        Text=Hull armor: <bonHull>
+        bonHull=6
+    }
+    201 ^{
+        Cost=140
+        Equipments=Engine
+        Name=Jumpgator 3.11
+        Priority=20
+        Text=Level one micromodule. Patches the software part of the navigation and instant engine correction modules to Version 3.11, increasing the engine's jumping range.
+        Text=Jumping range: <bonJump>
+        Text=Cost: <clr>+40%<clrEnd>
+        bonJump=20
+    }
+    202 ^{
+        Cost=160
+        Equipments=Hull
+        Name=Extremer
+        Owner=Maloc
+        Priority=20
+        Size=120
+        Text=Level one micromodule. Increases the hull's capacity and cost by retrofitting the cargo bay for better space utilization and removing non-functional components. Compatible exclusively with <clr>maloq<clrEnd> hulls.
+        Text=Size: <clr>+20%<clrEnd>
+        Text=Cost: <clr>+60%<clrEnd>
+    }
+    203 ^{
+        Equipments=Engine
+        Name=Jake
+        Priority=20
+        Text=Level one micromodule. Replaces fuel filters, increasing fuel purification and boosting engine speed thereby.
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=140
+    }
+    204 ^{
+        Equipments=Any
+        Name=Universe
+        Priority=1
+        Text=Level one micromodule. Built into the standard expansion slot of any equipment. Integrates into the operation of the device, optimizing its computational and functional circuits.
+        Text=Hull armor: <bonHull>
+        Text=Fuel tank capacity: <bonFuel>
+        Text=Engine speed: <bonSpeed>
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>%
+        Text=Droid effectiveness: <bonDroid>
+        Text=Gripper power: <bonHook>
+        Text=Shield generator: <bonDef>%
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonDef=6
+        bonDroid=25
+        bonFuel=15
+        bonHook=60
+        bonHull=5
+        bonRadar=800
+        bonScan=6
+        bonSpeed=70
+        bonWEnergy=20
+        bonWMissile=30
+        bonWSplinter=30
+    }
+    205 ^{
+        Cost=250
+        Equipments=Any
+        Name=Iikebaanite
+        Owner=Gaal
+        Priority=5
+        Text=Level one micromodule. Applies a decorative coating the color of a completed gaalian iike-baana to any <clr>gaalian<clrEnd> equipment. The equipment increases in cost by 2.5 times.
+        Text=Cost: <clr>+150%<clrEnd>
+    }
+    206 ^{
+        Equipments=Radar
+        Name=Minivision
+        Priority=20
+        Size=85
+        Text=Level one micromodule. Replaces the radar navigation unit with a new miniature, highly balanced and efficient element.
+        Text=Radar range: <bonRadar>
+        Text=Size: <clr>-15%<clrEnd>
+        bonRadar=1500
+    }
+    207 ^{
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator
+        Fragility=66
+        Name=Microsize
+        Owner=Maloc,Peleng,People,Fei
+        Priority=10
+        Size=70
+        Text=Level one micromodule. Reduces the space within the molecular networks of any equipment and compensates for changes in intermolecular forces. Cannot be applied to hulls or weapons without disabling their functionality. The micromodule greatly affects reliability and allows for a size reduction of <clr>30%<clrEnd>. Incompatible with <clr>gaalian<clrEnd> equipment.
+        Text=Size: <clr>-30%<clrEnd>
+        Text=Reliability: <clr>+50%<clrEnd>
+    }
+    208 ^{
+        Equipments=Engine
+        Fragility=77
+        Name=Jumpa
+        Priority=20
+        Text=Level one micromodule. Installs a new generation converter, enabling a short-term boost in the fuel's energy potential, thereby increasing jumping range and reliability.
+        Text=Jumping range: <bonJump>
+        Text=Reliability: <clr>+30%<clrEnd>
+        bonJump=14
+    }
+    209 ^{
+        Cost=150
+        Equipments=WSplinter
+        Name=Threader
+        Owner=Maloc,Peleng
+        Priority=15
+        Text=Level one micromodule. Ups the explosive power of fragmentation weapons by increasing critical mass. The weapon's cost is increased by <clr>50%<clrEnd>. Compatible exclusively with <clr>maloq and peleng<clrEnd> weapons.
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Cost: <clr>+50%<clrEnd>
+        bonWSplinter=35
+    }
+    21 ^{
+        Equipments=Engine,Radar,Scaner,Droid,WEnergy,WSplinter,WMissile
+        Name=Patch 0.96 alpha
+        Owner=Any
+        Priority=70
+        Text=Level three micromodule. Contains a set of broaching modules, designed for software integration with computing and overriding functions of certain equipment types. The patch increases the speed and accuracy of computations with a floating point. The alpha-version is compatible with the equipment of all races.
+        Text=Engine speed: <bonSpeed>
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>%
+        Text=Droid effectiveness: <bonDroid>
+        Text=Firing range: <bonWRadius>
+        bonDroid=8
+        bonRadar=250
+        bonScan=2
+        bonSpeed=25
+        bonWRadius=30
+    }
+    210 ^{
+        Equipments=WMissile
+        Name=Antifae
+        Owner=Maloc,Peleng,People,Gaal
+        Priority=10
+        Text=Level one micromodule. Increases the payload of missile weapons. For reasons unknown the module is rejected by <clr>faeyan<clrEnd> equipment.
+        Text=Missile weapons damage: <bonWMissile>
+        bonWMissile=45
+    }
+    211 ^{
+        Equipments=WEnergy,WSplinter
+        Name=Farsight
+        Owner=Maloc,Peleng,People,Fei
+        Priority=10
+        Size=135
+        Text=Level one micromodule. Adds an additional atmic homing system to weapons, increasing the effective radius of energy and fragmentation weapons. An inbuilt atmic scanner results in increased volume. Incompatible with <clr>gaalian<clrEnd> weapons.
+        Text=Firing range: <bonWRadius>
+        Text=Size: <clr>+35%<clrEnd>
+        bonWRadius=120
+    }
+    212 ^{
+        Equipments=Hook
+        Name=Hocus
+        Priority=20
+        Text=Level one micromodule. Alters the fluctuation intervals of the gripper's wave field to better match the specs of the target's material, boosting the field penetrating capacity and thus the gripper's power.
+        Text=Gripper power: <bonHook>
+        Text=Gripper range: <bonHookRadius> m
+        bonHook=150
+        bonHookRadius=-10
+    }
+    213 ^{
+        Equipments=FuelTank
+        Name=Dimin
+        Owner=People,Gaal
+        Priority=10
+        Text=Level one micromodule. Special nanobots modify the molecular structure of the fuel, reducing its factual volume and thus enabling increased fuel storage without making changes to the actual equipment. Compatible with <clr>gaalian and human<clrEnd> equipment.
+        Text=Fuel tank capacity: <bonFuel>
+        bonFuel=35
+    }
+    214 ^{
+        Equipments=Engine
+        Name=Drover
+        Owner=Maloc
+        Priority=10
+        Text=Level one micromodule. Modifies the engine's crystal fillers, boosting speed and jumping range. Compatible with <clr>maloq<clrEnd> engines.
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        bonJump=20
+        bonSpeed=180
+    }
+    215 ^{
+        Cost=140
+        Equipments=Hull,DefGenerator
+        Name=Broing
+        Owner=Peleng
+        Priority=5
+        Text=Level one micromodule. This one-of-a-kind and quite costly generator creates a surface repulsion field which consumes high levels of heat and kinetic energies and redirects them to boost the protective properties of the ship's hull and shield generator. Compatible exclusively with <clr>peleng<clrEnd> equipment.
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Cost: <clr>+40%<clrEnd>
+        bonDef=8
+        bonHull=7
+    }
+    216 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Burnz
+        Owner=Gaal,Peleng
+        Priority=10
+        Text=Level one micromodule. Enhances shells with additional impact elements, using antimatter particles. Grants a significant power boost, especially to fragmentation weapons. Compatible with <clr>gaalian and peleng<clrEnd> weapons.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=20
+        bonWMissile=45
+        bonWSplinter=40
+    }
+    217 ^{
+        Equipments=Hull
+        Name=Shell
+        Owner=Maloc
+        Priority=1
+        Text=Level one micromodule. Bombs the hull with high-frequency energy quanta, boosting the material's protective attributes. The module comes standard with hull manufacturers of all races except for <clr>maloqs<clrEnd>, meaning only maloq hulls can be upgraded with it.
+        Text=Hull armor: <bonHull>
+        bonHull=8
+    }
+    218 ^{
+        Equipments=Engine
+        Name=Redusa
+        Owner=Peleng
+        Priority=35
+        Text=Level two micromodule. Reduces the internal diameter of the engine's nozzles through accruing composite crystalloids, resulting in increased jet velocity. Compatible exclusively with <clr>peleng<clrEnd> engines.
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=140
+    }
+    219 ^{
+        Equipments=Hull
+        Name=Hub
+        Owner=Fei,People
+        Priority=3
+        Size=125
+        Text=Level one micromodule. Fixes an additional hub-module onto the hull, increasing volume by 25%. Initially developed exclusively for <clr>human<clrEnd> hulls, the module was later licensed by the <clr>fae<clrEnd> and adapted for their ships.
+        Text=Hull size: <clr>+25%<clrEnd>
+    }
+    220 ^{
+        Equipments=WEnergy,WSplinter,WMissile,FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator
+        Fragility=45
+        Name=Lambald
+        Owner=Any
+        Priority=10
+        Text=Level one micromodule. Performs device parts processing using femtosecond L-field impulses. Increases reliability by <clr>120%<clrEnd>. Due to limited power output, interaction with <clr>hull<clrEnd> is impossible.
+    }
+    23 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Berserker
+        Owner=Any
+        Priority=90
+        Size=130
+        Text=Level three micromodule. Upgrades weapon systems with a rather massive particle accelerator and antimatter generator, substantially increasing the weapon's combat effectiveness.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Firing range: <bonWRadius>
+        Text=Size: <clr>+80%<clrEnd>
+        bonWEnergy=5
+        bonWMissile=10
+        bonWRadius=20
+        bonWSplinter=5
+    }
+    24 ^{
+        Equipments=Hull
+        Name=Interdesign
+        Priority=90
+        Size=107
+        Text=Level three micromodule. Increases the hull's capacity by 7% through retrofitting the ship's compartments for better space utilization.
+        Text=Hull size: <clr>+7%<clrEnd>
+    }
+    25 ^{
+        Equipments=Engine
+        Fragility=60
+        Name=Staxer
+        Owner=Maloc,Peleng,People,Fei
+        Priority=70
+        Text=Level three micromodule. Thanks to engine operating conditions optimization increases its reliability and jump radius. Because of license agreement restrictions, cannot be used with <clr>gaal<clrEnd> engines.
+        Text=Reliability: <clr>+67%<clrEnd>
+        Text=Jumping range: <bonJump>
+        bonJump=3
+    }
+    3 ^{
+        Equipments=Hull,DefGenerator
+        Name=Brond
+        Priority=100
+        Text=Level three micromodule. Capable of rapidly generating superdense particles to augment the ship's defense system. Compatible with hulls and shield generators.
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        bonDef=3
+        bonHull=2
+    }
+    300 ^{
+        Equipments=Hull
+        Name=Forcer
+        Priority=50
+        Text=Level two micromodule. Built into the hull. Activates scanner, radar and afterburner slots.
+        bonSlotForsage=1
+        bonSlotRadar=1
+        bonSlotScaner=1
+    }
+    301 ^{
+        Equipments=Hull
+        Name=Diamant
+        Priority=70
+        Text=Level three micromodule. Built into the hull. Activates repair droid and gripper slots.
+        bonSlotDroid=1
+        bonSlotHook=1
+    }
+    302 ^{
+        Equipments=Hull
+        Name=Jeiad
+        Priority=70
+        Text=Level three micromodule. Built into the hull. Activates shield generator and gripper slots.
+        bonSlotDef=1
+        bonSlotHook=1
+    }
+    303 ^{
+        Equipments=Hull
+        Name=Rasta
+        Priority=70
+        Text=Level three micromodule. Built into the hull. Activates repair droid and shield generator slots.
+        bonSlotDef=1
+        bonSlotDroid=1
+    }
+    304 ^{
+        Equipments=Hull
+        Name=Prozotor
+        Priority=20
+        Text=Level one micromodule. Built into the hull. Activates one weapon and one artifact slot.
+        bonSlotArt=1
+        bonSlotWeapon=1
+    }
+    305 ^{
+        Equipments=Hull
+        Name=Armorer
+        Priority=10
+        Text=Level one micromodule. Built into the hull. Activates two weapon slots.
+        bonSlotWeapon=2
+    }
+    306 ^{
+        Equipments=Hull
+        Name=Perforator
+        Priority=30
+        Text=Level one micromodule. Built into the hull. Activates two artifact slots.
+        bonSlotArt=2
+    }
+    350 ^{
+        Cost=130
+        CustomTag=SuperHullPB
+        Equipments=Hull
+        KindGraph=1
+        Name=Assassin
+        Size=110
+        Special=1
+        Text=Engine speed: <bonSpeed>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonSpeed=150
+        bonWEnergy=15
+        bonWMissile=40
+        bonWSplinter=30
+    }
+    351 ^{
+        Cost=130
+        CustomTag=SuperHullWB
+        Equipments=Hull
+        KindGraph=2
+        Name=Rock
+        Size=120
+        Special=1
+        Text=Hull armor: <bonHull>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=20
+        bonHull=5
+    }
+    352 ^{
+        Cost=130
+        CustomTag=SuperHullSB
+        Equipments=Hull
+        KindGraph=3
+        Name=Bolide
+        Size=100
+        Special=1
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        Text=Radar range: <bonRadar>
+        Text=Hull armor: <bonHull>
+        bonHull=-3
+        bonJump=20
+        bonRadar=1000
+        bonSpeed=300
+    }
+    353 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=A
+        Name=Fast Hull I
+        Priority=10
+        Ruins=SB,BK
+        Size=70
+        Special=1
+        Text=<color=248,252,248>The streamline form of this hull has zero bearing on its speed, for there is no air resistance in outer space. It is simply a tribute to fashion. The boost in speed is actually achieved via a clever engine position and enhanced fuel injection.</color>
+        Text=Engine speed: <bonSpeed>
+        bonSlotArt=-2
+        bonSlotWeapon=-2
+        bonSpeed=100
+    }
+    354 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=A
+        Name=Fast Hull II
+        Priority=30
+        Ruins=SB,BK
+        Size=80
+        Special=1
+        Text=<color=248,252,248>The streamline form of this hull has zero bearing on its speed, for there is no air resistance in outer space. It is simply a tribute to fashion. The boost in speed is actually achieved via a clever engine position and enhanced fuel injection.</color>
+        Text=Engine speed: <bonSpeed>
+        bonSlotArt=-2
+        bonSlotWeapon=-1
+        bonSpeed=150
+    }
+    355 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=A
+        Name=Fast Hull III
+        Priority=50
+        Ruins=SB,BK
+        Size=90
+        Special=1
+        Text=<color=248,252,248>The streamline form of this hull has zero bearing on its speed, for there is no air resistance in outer space. It is simply a tribute to fashion. The boost in speed is actually achieved via a clever engine position and enhanced fuel injection.</color>
+        Text=Engine speed: <bonSpeed>
+        bonSlotArt=-1
+        bonSlotDef=-1
+        bonSpeed=200
+    }
+    356 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=A
+        Name=Fast Hull IV
+        Priority=70
+        Ruins=SB,BK
+        Size=100
+        Special=1
+        Text=<color=248,252,248>The streamline form of this hull has zero bearing on its speed, for there is no air resistance in outer space. It is simply a tribute to fashion. The boost in speed is actually achieved via a clever engine position and enhanced fuel injection.</color>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=150
+    }
+    357 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=B
+        Name=Invincible Hull I
+        Priority=10
+        Ruins=RC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull with bolstered defensive properties, developed by faeyan specialists. A special acrynic layer inserted between the hull's armor plates improves the operational effectiveness of the shield generator.</color>
+        Text=Shield generator: <bonDef>%
+        bonDef=3
+        bonSlotArt=-2
+        bonSlotWeapon=-2
+    }
+    358 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=B
+        Name=Invincible Hull II
+        Priority=30
+        Ruins=RC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull with bolstered defensive properties, developed by faeyan specialists. A special acrynic layer inserted between the hull's armor plates improves the operational effectiveness of the shield generator.</color>
+        Text=Shield generator: <bonDef>%
+        bonDef=6
+        bonSlotArt=-2
+        bonSlotWeapon=-1
+    }
+    359 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=B
+        Name=Invincible Hull III
+        Priority=50
+        Ruins=RC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull with bolstered defensive properties, developed by faeyan specialists. A special acrynic layer inserted between the hull's armor plates improves the operational effectiveness of the shield generator.</color>
+        Text=Shield generator: <bonDef>%
+        bonDef=9
+        bonSlotArt=-2
+        bonSlotForsage=-1
+    }
+    360 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=B
+        Name=Invincible Hull IV
+        Priority=70
+        Ruins=RC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull with bolstered defensive properties, developed by faeyan specialists. A special acrynic layer inserted between the hull's armor plates improves the operational effectiveness of the shield generator.</color>
+        Text=Shield generator: <bonDef>%
+        bonDef=6
+    }
+    361 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=C
+        Name=Repair Hull I
+        Priority=10
+        Ruins=MC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull is designed to optimize the repair droid's working capacity. It is stationed at the most convenient location with easy access to all the ship's most vulnerable parts. As a result, the droid operates with greater effectiveness than on other ships.</color>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=20
+        bonSlotArt=-2
+        bonSlotWeapon=-2
+    }
+    362 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=C
+        Name=Repair Hull II
+        Priority=30
+        Ruins=MC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull is designed to optimize the repair droid's working capacity. It is stationed at the most convenient location with easy access to all the ship's most vulnerable parts. As a result, the droid operates with greater effectiveness than on other ships.</color>
+        Text=Droid effectiveness: <bonDroid>.
+        bonDroid=25
+        bonSlotArt=-2
+        bonSlotWeapon=-1
+    }
+    363 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=C
+        Name=Repair Hull III
+        Priority=50
+        Ruins=MC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull is designed to optimize the repair droid's working capacity. It is stationed at the most convenient location with easy access to all the ship's most vulnerable parts. As a result, the droid operates with greater effectiveness than on other ships.</color>
+        Text=Droid effectiveness: <bonDroid>.
+        bonDroid=40
+        bonSlotArt=-1
+        bonSlotWeapon=-2
+    }
+    364 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=C
+        Name=Repair Hull IV
+        Priority=70
+        Ruins=MC
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull is designed to optimize the repair droid's working capacity. It is stationed at the most convenient location with easy access to all the ship's most vulnerable parts. As a result, the droid operates with greater effectiveness than on other ships.</color>
+        Text=Droid effectiveness: <bonDroid>.
+        bonDroid=25
+    }
+    365 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=D
+        Name=Myoplasmic Hull I
+        Priority=10
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSlotArt=-1
+        bonSlotWeapon=-2
+        bonSpeed=-20
+        bonWEnergy=4
+        bonWSplinter=8
+    }
+    366 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=D
+        Name=Myoplasmic Hull II
+        Priority=30
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSlotArt=-1
+        bonSlotWeapon=-1
+        bonSpeed=-40
+        bonWEnergy=7
+        bonWSplinter=12
+    }
+    367 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=D
+        Name=Myoplasmic Hull III
+        Priority=50
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSlotScaner=-1
+        bonSpeed=-60
+        bonWEnergy=10
+        bonWSplinter=20
+    }
+    368 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=D
+        Name=Myoplasmic Hull IV
+        Priority=70
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-40
+        bonWEnergy=7
+        bonWSplinter=12
+    }
+    369 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=E
+        Name=Pygamore Hull I
+        Priority=10
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-200
+        bonSlotArt=-1
+        bonSlotWeapon=-2
+        bonWMissile=8
+    }
+    370 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=E
+        Name=Pygamore Hull II
+        Priority=30
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-5
+        bonRadar=-300
+        bonSlotArt=-1
+        bonSlotWeapon=-1
+        bonWMissile=20
+    }
+    371 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=E
+        Name=Pygamore Hull III
+        Priority=50
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-7
+        bonRadar=-500
+        bonSlotScaner=-1
+        bonWMissile=30
+    }
+    372 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=E
+        Name=Pygamore Hull IV
+        Priority=70
+        Ruins=WB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-5
+        bonRadar=-300
+        bonWMissile=20
+    }
+    373 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=10
+        Name=Myoplasmic Fuel Tank I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    374 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=11
+        Name=Myoplasmic Engine I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    375 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=10
+        Name=Myoplasmic Radar I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    376 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=10
+        Name=Myoplasmic Scanner I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    377 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=16
+        Name=Myoplasmic Droid I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    378 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=10
+        Name=Myoplasmic Gripper I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    379 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=10
+        Name=Myoplasmic Shield Generator I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-10
+        bonWEnergy=2
+        bonWSplinter=3
+    }
+    380 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=10
+        Name=Myoplasmic Fuel Tank II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    381 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=11
+        Name=Myoplasmic Engine II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    382 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=10
+        Name=Myoplasmic Radar II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    383 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=10
+        Name=Myoplasmic Scanner II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    384 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=16
+        Name=Myoplasmic Droid II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    385 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=10
+        Name=Myoplasmic Gripper II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    386 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=10
+        Name=Myoplasmic Shield Generator II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-20
+        bonWEnergy=3
+        bonWSplinter=4
+    }
+    387 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=10
+        Name=Myoplasmic Fuel Tank III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    388 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=11
+        Name=Myoplasmic Engine III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    389 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=10
+        Name=Myoplasmic Radar III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    390 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=10
+        Name=Myoplasmic Scanner III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    391 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=16
+        Name=Myoplasmic Droid III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    392 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=10
+        Name=Myoplasmic Gripper III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    393 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=10
+        Name=Myoplasmic Shield Generator III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>Myoplasmic equipment utilizes special acrynic agents, fitted into the ship's energy system, which redirect power flows to boost the power of fragmentation and energy weapons. As a side effect, may also decrease the ship's speed.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Engine speed: <bonSpeed>
+        bonSpeed=-30
+        bonWEnergy=5
+        bonWSplinter=6
+    }
+    394 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=11
+        Name=Pygamore Fuel Tank I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    395 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=12
+        Name=Pygamore Engine I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    396 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=11
+        Name=Pygamore Radar I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    397 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=11
+        Name=Pygamore Scanner I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    398 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=10
+        Name=Pygamore Droid I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    399 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=11
+        Name=Pygamore Gripper I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    4 ^{
+        Equipments=FuelTank
+        Name=Resizer
+        Priority=100
+        Size=120
+        Text=Level three micromodule. Softens and deforms the walls of the fuel tank, increasing its capacity.
+        Text=Fuel tank capacity: <bonFuel>
+        Text=Size: <clr>+20%<clrEnd>
+        bonFuel=10
+    }
+    400 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=11
+        Name=Pygamore Shield Generator I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-1
+        bonRadar=-50
+        bonWMissile=4
+    }
+    401 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=11
+        Name=Pygamore Fuel Tank II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    402 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=12
+        Name=Pygamore Engine II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    403 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=11
+        Name=Pygamore Radar II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    404 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=11
+        Name=Pygamore Scanner II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    405 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=10
+        Name=Pygamore Droid II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    406 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=11
+        Name=Pygamore Gripper II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    407 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=11
+        Name=Pygamore Shield Generator II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-2
+        bonRadar=-100
+        bonWMissile=6
+    }
+    408 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=11
+        Name=Pygamore Fuel Tank III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    409 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=12
+        Name=Pygamore Engine III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    410 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=11
+        Name=Pygamore Radar III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    411 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=11
+        Name=Pygamore Scanner III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    412 ^{
+        Cost=110
+        Equipments=Droid
+        KindGraph=10
+        Name=Pygamore Droid III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    413 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=11
+        Name=Pygamore Hook III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    414 ^{
+        Cost=110
+        Equipments=DefGenerator
+        KindGraph=11
+        Name=Pygamore Shield Generator III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>The pygamore series was the first to utilize acrynic technologies. Its only advantage lies in preservation of energy, whose surplus can then be used to bolster missile launchers. Its drawbacks include frequent malfunctions and systems errors. As a result, the radar and the shield generator require constant reboots, hindering their effectiveness.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Shield generator: <bonDef>%
+        Text=Radar range: <bonRadar>
+        bonDef=-3
+        bonRadar=-250
+        bonWMissile=8
+    }
+    415 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=10
+        Name=Transcendental Engine I
+        Priority=10
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>During the testing phase of this engine, the engineers accidentally discovered a side effect enhancing the shield generator's effectiveness. However, in so doing the engine begins to emit large quantities of Shmiggs bosons, considerably increasing the mass of surrounding items and equipment. </color>
+        Text=Shield generator: <bonDef>%
+        Text=Ship mass: <bonMass>%
+        bonDef=2
+        bonMass=10
+    }
+    416 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=10
+        Name=Transcendental Engine II
+        Priority=30
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>During the testing phase of this engine, the engineers accidentally discovered a side effect enhancing the shield generator's effectiveness. However, in so doing the engine begins to emit large quantities of Shmiggs bosons, considerably increasing the mass of surrounding items and equipment. </color>
+        Text=Shield generator: <bonDef>%
+        Text=Ship mass: <bonMass>%
+        bonDef=3
+        bonMass=20
+    }
+    417 ^{
+        Cost=110
+        Equipments=Engine
+        KindGraph=10
+        Name=Transcendental Engine III
+        Priority=50
+        Ruins=Any
+        Special=1
+        Text=<color=248,252,248>During the testing phase of this engine, the engineers accidentally discovered a side effect enhancing the shield generator's effectiveness. However, in so doing the engine begins to emit large quantities of Shmiggs bosons, considerably increasing the mass of surrounding items and equipment. </color>
+        Text=Shield generator: <bonDef>%
+        Text=Ship mass: <bonMass>%
+        bonDef=4
+        bonMass=30
+    }
+    418 ^{
+        Cost=110
+        Equipments=Hook
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Gripper I
+        Priority=10
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    419 ^{
+        Cost=90
+        Equipments=DefGenerator
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Shield Generator I
+        Priority=10
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    420 ^{
+        Cost=90
+        Equipments=Engine
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Engine I
+        Priority=10
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    421 ^{
+        Cost=90
+        Equipments=FuelTank
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Fuel Tank I
+        Priority=10
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    422 ^{
+        Cost=90
+        Equipments=Radar
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Radar I
+        Priority=10
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    423 ^{
+        Cost=110
+        Equipments=Scaner
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Scanner I
+        Priority=10
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=10
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    424 ^{
+        Cost=110
+        Equipments=Hook
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Gripper II
+        Priority=30
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    425 ^{
+        Cost=90
+        Equipments=DefGenerator
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Shield Generator II
+        Priority=30
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    426 ^{
+        Cost=90
+        Equipments=Engine
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Engine II
+        Priority=30
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    427 ^{
+        Cost=90
+        Equipments=FuelTank
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Fuel Tank II
+        Priority=30
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    428 ^{
+        Cost=90
+        Equipments=Radar
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Radar II
+        Priority=30
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    429 ^{
+        Cost=110
+        Equipments=Scaner
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Scanner II
+        Priority=30
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=15
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    430 ^{
+        Cost=110
+        Equipments=Hook
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Gripper III
+        Priority=50
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    431 ^{
+        Cost=90
+        Equipments=DefGenerator
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Shield Generator III
+        Priority=50
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    432 ^{
+        Cost=90
+        Equipments=Engine
+        Fragility=110
+        KindGraph=14
+        Name=Upgraded Engine III
+        Priority=50
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    433 ^{
+        Cost=90
+        Equipments=FuelTank
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Fuel Tank III
+        Priority=50
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    434 ^{
+        Cost=90
+        Equipments=Radar
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Radar III
+        Priority=50
+        Ruins=PB,CB
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    435 ^{
+        Cost=110
+        Equipments=Scaner
+        Fragility=110
+        KindGraph=13
+        Name=Upgraded Scanner III
+        Priority=50
+        Ruins=Any
+        Size=85
+        Special=1
+        Text=<color=248,252,248>Pirate engineers manufacture equipment primarily from old components, adding a generous coat of bright paint to dress it up for the market. The resulting tech is cheap, compact and energy efficient, which is always a plus for capturing targets, but remember that pirates aren't terribly popular out there.</color>
+        Text=Gripper range: <bonHookRadius>
+        Text=Mobility skill: <bonSkill2>
+        Text=Charisma skill: <bonSkill5>
+        bonHookRadius=20
+        bonSkill2=1
+        bonSkill5=-2
+    }
+    436 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=80
+        KindGraph=14
+        Name=Biogenic Droid I
+        Priority=10
+        Ruins=PB,CB
+        Special=1
+        Text=<color=248,252,248>A one-of-a-kind instance when living organisms perform the duties of standard equipment. The worms emanate special brainwaves that boost the functionality of the navigation systems; however, the slime they excrete impairs all tech, reducing its service life.</color>
+        Text=Technology skill: <bonSkill3>
+        Text=Scanner power: <bonScan>%
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        bonJump=2
+        bonRadar=100
+        bonScan=3
+        bonSkill3=-1
+    }
+    437 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=80
+        KindGraph=14
+        Name=Biogenic Droid II
+        Priority=30
+        Ruins=PB,CB
+        Special=1
+        Text=<color=248,252,248>A one-of-a-kind instance when living organisms perform the duties of standard equipment. The worms emanate special brainwaves that boost the functionality of the navigation systems; however, the slime they excrete impairs all tech, reducing its service life.</color>
+        Text=Technology skill: <bonSkill3>
+        Text=Scanner power: <bonScan>%
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        bonJump=3
+        bonRadar=200
+        bonScan=6
+        bonSkill3=-1
+    }
+    438 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=80
+        KindGraph=14
+        Name=Biogenic Droid III
+        Priority=50
+        Ruins=PB,CB
+        Special=1
+        Text=<color=248,252,248>A one-of-a-kind instance when living organisms perform the duties of standard equipment. The worms emanate special brainwaves that boost the functionality of the navigation systems; however, the slime they excrete impairs all tech, reducing its service life.</color>
+        Text=Technology skill: <bonSkill3>
+        Text=Scanner power: <bonScan>%
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        bonJump=4
+        bonRadar=300
+        bonScan=9
+        bonSkill3=-1
+    }
+    439 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Droid I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=2
+        bonWRadius=-10
+        bonWSplinter=3
+    }
+    440 ^{
+        Cost=110
+        Equipments=Engine
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Engine I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=2
+        bonWRadius=-10
+        bonWSplinter=3
+    }
+    441 ^{
+        Cost=110
+        Equipments=DefGenerator
+        Fragility=90
+        KindGraph=14
+        Name=Nanobrolite Shield Generator I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=2
+        bonWRadius=-10
+        bonWSplinter=3
+    }
+    442 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Droid II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=4
+        bonWRadius=-20
+        bonWSplinter=5
+    }
+    443 ^{
+        Cost=110
+        Equipments=Engine
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Engine II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=4
+        bonWRadius=-20
+        bonWSplinter=5
+    }
+    444 ^{
+        Cost=110
+        Equipments=DefGenerator
+        Fragility=90
+        KindGraph=14
+        Name=Nanobrolite Shield Generator II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=4
+        bonWRadius=-20
+        bonWSplinter=5
+    }
+    445 ^{
+        Cost=110
+        Equipments=Droid
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Droid III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=6
+        bonWRadius=-30
+        bonWSplinter=8
+    }
+    446 ^{
+        Cost=110
+        Equipments=Engine
+        Fragility=90
+        KindGraph=13
+        Name=Nanobrolite Engine III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=6
+        bonWRadius=-30
+        bonWSplinter=8
+    }
+    447 ^{
+        Cost=110
+        Equipments=DefGenerator
+        Fragility=90
+        KindGraph=14
+        Name=Nanobrolite Shield Generator III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Special=1
+        Text=<color=248,252,248>Commissioned exclusively for the armed forces, this equipment boasts a minimalist design. Besides basic functionality, it bolsters the pilot's offensive capacity. It also reconfigures the onboard weapons system to boost firepower at the expense of range.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Firing range: <bonWRadius>
+        Text=Commerce skill: <bonSkill4>
+        bonSkill1=1
+        bonSkill4=-1
+        bonWEnergy=6
+        bonWRadius=-30
+        bonWSplinter=8
+    }
+    448 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=14
+        Name=Ultraalloy Scanner I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=7
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-10
+    }
+    449 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=14
+        Name=Ultraalloy Radar I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=7
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-10
+    }
+    450 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=14
+        Name=Ultraalloy Fuel Tank I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=7
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-10
+    }
+    451 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=13
+        Name=Ultraalloy Gripper I
+        Priority=10
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=7
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-10
+    }
+    452 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=14
+        Name=Ultraalloy Scanner II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=11
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-15
+    }
+    453 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=14
+        Name=Ultraalloy Radar II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=11
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-15
+    }
+    454 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=14
+        Name=Ultraalloy Fuel Tank II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=11
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-15
+    }
+    455 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=13
+        Name=Ultraalloy Gripper II
+        Priority=30
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=11
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-15
+    }
+    456 ^{
+        Cost=110
+        Equipments=Radar
+        KindGraph=14
+        Name=Ultraalloy Radar III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=15
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-20
+    }
+    457 ^{
+        Cost=110
+        Equipments=FuelTank
+        KindGraph=14
+        Name=Ultraalloy Fuel Tank III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=15
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-20
+    }
+    458 ^{
+        Cost=110
+        Equipments=Hook
+        KindGraph=13
+        Name=Ultraalloy Gripper III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=15
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-20
+    }
+    459 ^{
+        Cost=110
+        Equipments=Scaner
+        KindGraph=14
+        Name=Ultraalloy Scanner III
+        Priority=50
+        Ruins=RC,WB,SB,BK,MC
+        Size=80
+        Special=1
+        Text=<color=248,252,248>Advanced, new generation technology with a self-developing intelligent module capable of correcting the pilot's actions, reducing equipment wear and tear and enhancing droid effectiveness thereby. While in use, it is strongly advised to abstain from phrases like, "Let's strike!" "Rise of the machines!" and "Kill all organics!"</color>
+        Text=Droid effectiveness: <bonDroid>
+        Text=Technology skill: <bonSkill3>
+        Text=Attack skill: <bonSkill1>
+        Text=Engine speed: <bonSpeed>
+        bonDroid=15
+        bonSkill1=-1
+        bonSkill3=1
+        bonSpeed=-20
+    }
+    460 ^{
+        Cost=200
+        Equipments=Hull
+        Fragility=110
+        KindGraph=F
+        Name=Kindhearted Lyakusha Hull I
+        Priority=10
+        Ruins=PB,CB
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A pirate series of hulls, engineered for space battles against the Coalition. Outfitted with only the most essential equipment, the hull's entire control system is configured for maximum firepower. Definitely not for commerce enthusiasts.</color>.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonSlotArt=-1
+        bonSlotDef=-1
+        bonSlotDroid=-1
+        bonSlotScaner=-1
+        bonSlotWeapon=-1
+        bonWEnergy=5
+        bonWMissile=4
+        bonWSplinter=4
+    }
+    461 ^{
+        Cost=300
+        Equipments=Hull
+        Fragility=110
+        KindGraph=F
+        Name=Kindhearted Lyakusha Hull II
+        Priority=30
+        Ruins=PB,CB
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A pirate series of hulls, engineered for space battles against the Coalition. Outfitted with only the most essential equipment, the hull's entire control system is configured for maximum firepower. Definitely not for commerce enthusiasts.</color>.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonSlotArt=-1
+        bonSlotDroid=-1
+        bonSlotScaner=-1
+        bonWEnergy=7
+        bonWMissile=8
+        bonWSplinter=6
+    }
+    462 ^{
+        Cost=400
+        Equipments=Hull
+        Fragility=110
+        KindGraph=F
+        Name=Kindhearted Lyakusha Hull III
+        Priority=50
+        Ruins=PB,CB
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A pirate series of hulls, engineered for space battles against the Coalition. Outfitted with only the most essential equipment, the hull's entire control system is configured for maximum firepower. Definitely not for commerce enthusiasts.</color>.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonSlotArt=-1
+        bonSlotScaner=-1
+        bonWEnergy=10
+        bonWMissile=12
+        bonWSplinter=8
+    }
+    463 ^{
+        Cost=500
+        Equipments=Hull
+        Fragility=110
+        KindGraph=F
+        Name=Kindhearted Lyakusha Hull IV
+        Priority=70
+        Ruins=PB,CB
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A pirate series of hulls, engineered for space battles against the Coalition. Outfitted with only the most essential equipment, the hull's entire control system is configured for maximum firepower. Definitely not for commerce enthusiasts.</color>.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=7
+        bonWMissile=8
+        bonWSplinter=6
+    }
+    464 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=G
+        Name=Peaceful Corsair Hull I
+        Priority=10
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull for those who love to prey on civilian vessels but hate the idea of getting dispatched by the Coalition armed forces. The ship's entire structure is aimed at optimizing its defensive capabilities to the fullest. Its main drawback amounts to overly complicated control systems. Due to their lacking speed and accuracy, the pilot's skills have very little impact.</color>
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Attack skill: <bonSkill1>
+        Text=Technology skill: <bonSkill3>
+        bonDef=3
+        bonHull=1
+        bonSkill1=-1
+        bonSkill3=-1
+        bonSlotArt=-2
+        bonSlotDroid=-1
+        bonSlotForsage=-1
+        bonSlotWeapon=-2
+    }
+    465 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=G
+        Name=Peaceful Corsair Hull II
+        Priority=30
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull for those who love to prey on civilian vessels but hate the idea of getting dispatched by the Coalition armed forces. The ship's entire structure is aimed at optimizing its defensive capabilities to the fullest. Its main drawback amounts to overly complicated control systems. Due to their lacking speed and accuracy, the pilot's skills have very little impact.</color>
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Attack skill: <bonSkill1>
+        Text=Technology skill: <bonSkill3>
+        bonDef=6
+        bonHull=2
+        bonSkill1=-1
+        bonSkill3=-1
+        bonSlotArt=-2
+        bonSlotForsage=-1
+        bonSlotWeapon=-2
+    }
+    466 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=G
+        Name=Peaceful Corsair Hull III
+        Priority=50
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull for those who love to prey on civilian vessels but hate the idea of getting dispatched by the Coalition armed forces. The ship's entire structure is aimed at optimizing its defensive capabilities to the fullest. Its main drawback amounts to overly complicated control systems. Due to their lacking speed and accuracy, the pilot's skills have very little impact.</color>
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Attack skill: <bonSkill1>
+        Text=Technology skill: <bonSkill3>
+        bonDef=9
+        bonHull=3
+        bonSkill1=-1
+        bonSkill3=-1
+        bonSlotArt=-1
+        bonSlotForsage=-1
+        bonSlotWeapon=-2
+    }
+    467 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=G
+        Name=Peaceful Corsair Hull IV
+        Priority=70
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>A hull for those who love to prey on civilian vessels but hate the idea of getting dispatched by the Coalition armed forces. The ship's entire structure is aimed at optimizing its defensive capabilities to the fullest. Its main drawback amounts to overly complicated control systems. Due to their lacking speed and accuracy, the pilot's skills have very little impact.</color>
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Attack skill: <bonSkill1>
+        Text=Technology skill: <bonSkill3>
+        bonDef=6
+        bonHull=2
+        bonSkill1=-1
+        bonSkill3=-1
+    }
+    468 ^{
+        Cost=200
+        Equipments=Hull
+        Fragility=90
+        KindGraph=K
+        Name=Conscientious Renegal Hull I
+        Priority=10
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Designed by gaalian specialists, this hull was stolen by pirates straight from the lab. Thanks to state-of-the-art six-wing technology, it forms an energy field around the ship, which reduces it's mass, boosts hyperjump range and, as a welcome bonus, enhances the gripper's functionality. The unwelcome bonus is that everyone around becomes so green with envy that you can forget about getting a discount on... well, anything.</color>
+        Text=Jumping range: <bonJump>
+        Text=Gripper range: <bonHookRadius>
+        Text=Ship mass: <bonMass>%
+        Text=Commerce skill: <bonSkill4>
+        bonHookRadius=10
+        bonJump=3
+        bonMass=-10
+        bonSkill4=-3
+        bonSlotArt=-2
+        bonSlotScaner=-1
+        bonSlotWeapon=-1
+    }
+    469 ^{
+        Cost=300
+        Equipments=Hull
+        Fragility=90
+        KindGraph=K
+        Name=Conscientious Renegal Hull II
+        Priority=30
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Designed by gaalian specialists, this hull was stolen by pirates straight from the lab. Thanks to state-of-the-art six-wing technology, it forms an energy field around the ship, which reduces it's mass, boosts hyperjump range and, as a welcome bonus, enhances the gripper's functionality. The unwelcome bonus is that everyone around becomes so green with envy that you can forget about getting a discount on... well, anything.</color>
+        Text=Jumping range: <bonJump>
+        Text=Gripper range: <bonHookRadius>
+        Text=Ship mass: <bonMass>%
+        Text=Commerce skill: <bonSkill4>
+        bonHookRadius=20
+        bonJump=5
+        bonMass=-20
+        bonSkill4=-3
+        bonSlotArt=-2
+        bonSlotScaner=-1
+        bonSlotWeapon=-1
+    }
+    470 ^{
+        Cost=400
+        Equipments=Hull
+        Fragility=90
+        KindGraph=K
+        Name=Conscientious Renegal Hull III
+        Priority=50
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Designed by gaalian specialists, this hull was stolen by pirates straight from the lab. Thanks to state-of-the-art six-wing technology, it forms an energy field around the ship, which reduces it's mass, boosts hyperjump range and, as a welcome bonus, enhances the gripper's functionality. The unwelcome bonus is that everyone around becomes so green with envy that you can forget about getting a discount on... well, anything.</color>
+        Text=Jumping range: <bonJump>
+        Text=Gripper range: <bonHookRadius>
+        Text=Ship mass: <bonMass>%
+        Text=Commerce skill: <bonSkill4>
+        bonHookRadius=30
+        bonJump=7
+        bonMass=-30
+        bonSkill4=-3
+        bonSlotArt=-2
+        bonSlotScaner=-1
+        bonSlotWeapon=-1
+    }
+    471 ^{
+        Cost=500
+        Equipments=Hull
+        Fragility=90
+        KindGraph=K
+        Name=Conscientious Renegal Hull IV
+        Priority=70
+        Ruins=PB,CB
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Designed by gaalian specialists, this hull was stolen by pirates straight from the lab. Thanks to state-of-the-art six-wing technology, it forms an energy field around the ship, which reduces it's mass, boosts hyperjump range and, as a welcome bonus, enhances the gripper's functionality. The unwelcome bonus is that everyone around becomes so green with envy that you can forget about getting a discount on... well, anything.</color>
+        Text=Jumping range: <bonJump>
+        Text=Gripper range: <bonHookRadius>
+        Text=Ship mass: <bonMass>%
+        Text=Commerce skill: <bonSkill4>
+        bonHookRadius=20
+        bonJump=5
+        bonMass=-20
+        bonSkill4=-3
+    }
+    472 ^{
+        Cost=200
+        Equipments=Hull
+        Fragility=120
+        KindGraph=I
+        Name=Dandy Hull I
+        Priority=10
+        Ruins=SB
+        Size=130
+        Special=1
+        Text=<color=248,252,248>An externally elegant special designation hull for those who love to travel the Galaxy, favoring commercial dealings and diplomatic adventures to bloody battles.</color>
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        Text=Shield generator: <bonDef>%
+        bonDef=-3
+        bonJump=4
+        bonRadar=100
+        bonSlotArt=-1
+        bonSlotDef=-1
+        bonSlotDroid=-1
+        bonSlotWeapon=-2
+    }
+    473 ^{
+        Cost=300
+        Equipments=Hull
+        Fragility=120
+        KindGraph=I
+        Name=Dandy Hull II
+        Priority=30
+        Ruins=SB
+        Size=130
+        Special=1
+        Text=<color=248,252,248>An externally elegant special designation hull for those who love to travel the Galaxy, favoring commercial dealings and diplomatic adventures to bloody battles.</color>
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        Text=Shield generator: <bonDef>%
+        bonDef=-4
+        bonJump=8
+        bonRadar=150
+        bonSlotDef=-1
+        bonSlotWeapon=-2
+    }
+    474 ^{
+        Cost=400
+        Equipments=Hull
+        Fragility=120
+        KindGraph=I
+        Name=Dandy Hull III
+        Priority=50
+        Ruins=SB
+        Size=130
+        Special=1
+        Text=<color=248,252,248>An externally elegant special designation hull for those who love to travel the Galaxy, favoring commercial dealings and diplomatic adventures to bloody battles.</color>
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        Text=Shield generator: <bonDef>%
+        bonDef=-6
+        bonJump=12
+        bonRadar=200
+        bonSlotWeapon=-2
+    }
+    475 ^{
+        Cost=500
+        Equipments=Hull
+        Fragility=120
+        KindGraph=I
+        Name=Dandy Hull IV
+        Priority=70
+        Ruins=SB,BK
+        Size=130
+        Special=1
+        Text=<color=248,252,248>An externally elegant special designation hull for those who love to travel the Galaxy, favoring commercial dealings and diplomatic adventures to bloody battles.</color>
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        Text=Shield generator: <bonDef>%
+        bonDef=-4
+        bonJump=8
+        bonRadar=150
+    }
+    476 ^{
+        Cost=200
+        Equipments=Hull
+        KindGraph=H
+        Name=Ironclad Hull I
+        Priority=10
+        Ruins=RC
+        Size=130
+        Special=1
+        Text=<color=248,252,248>A military grade series of acrynic hulls, designed for combat operations as per the classic quote, "I came, I shot up everybody in sight, I conquered." Dubbed "Press Iron" among the common folk due to its appearance and lack of maneuverability.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Shield generator: <bonDef>%
+        Text=Engine speed: <bonSpeed>
+        Text=Mobility skill: <bonSkill2>
+        bonDef=3
+        bonSkill2=-2
+        bonSlotArt=-3
+        bonSlotForsage=-1
+        bonSlotScaner=-1
+        bonSlotWeapon=-1
+        bonSpeed=-50
+        bonWEnergy=2
+        bonWSplinter=1
+    }
+    477 ^{
+        Cost=300
+        Equipments=Hull
+        KindGraph=H
+        Name=Ironclad Hull II
+        Priority=30
+        Ruins=RC
+        Size=130
+        Special=1
+        Text=<color=248,252,248>A military grade series of acrynic hulls, designed for combat operations as per the classic quote, "I came, I shot up everybody in sight, I conquered." Dubbed "Press Iron" among the common folk due to its appearance and lack of maneuverability.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Shield generator: <bonDef>%
+        Text=Engine speed: <bonSpeed>
+        Text=Mobility skill: <bonSkill2>
+        bonDef=4
+        bonSkill2=-2
+        bonSlotArt=-3
+        bonSlotForsage=-1
+        bonSlotWeapon=-1
+        bonSpeed=-75
+        bonWEnergy=4
+        bonWSplinter=3
+    }
+    478 ^{
+        Cost=400
+        Equipments=Hull
+        KindGraph=H
+        Name=Ironclad Hull III
+        Priority=50
+        Ruins=RC
+        Size=130
+        Special=1
+        Text=<color=248,252,248>A military grade series of acrynic hulls, designed for combat operations as per the classic quote, "I came, I shot up everybody in sight, I conquered." Dubbed "Press Iron" among the common folk due to its appearance and lack of maneuverability.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Shield generator: <bonDef>%
+        Text=Engine speed: <bonSpeed>
+        Text=Mobility skill: <bonSkill2>
+        bonDef=6
+        bonSkill2=-2
+        bonSlotArt=-2
+        bonSlotForsage=-1
+        bonSlotWeapon=-1
+        bonSpeed=-100
+        bonWEnergy=6
+        bonWSplinter=5
+    }
+    479 ^{
+        Cost=500
+        Equipments=Hull
+        KindGraph=H
+        Name=Ironclad Hull IV
+        Priority=70
+        Ruins=RC
+        Size=130
+        Special=1
+        Text=<color=248,252,248>A military grade series of acrynic hulls, designed for combat operations as per the classic quote, "I came, I shot up everybody in sight, I conquered." Dubbed "Press Iron" among the common folk due to its appearance and lack of maneuverability.</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Shield generator: <bonDef>%
+        Text=Engine speed: <bonSpeed>
+        Text=Mobility skill: <bonSkill2>
+        bonDef=4
+        bonSkill2=-2
+        bonSpeed=-75
+        bonWEnergy=4
+        bonWSplinter=3
+    }
+    480 ^{
+        Cost=200
+        Equipments=Hull
+        Fragility=80
+        KindGraph=J
+        Name=Dumbo Hull I
+        Priority=10
+        Ruins=MC
+        Size=90
+        Special=1
+        Text=<color=248,252,248>The first series designed to be marketed as a "ladies' ship," fondly nicknamed "Dumbo" for its appearance. Though female pilots may be a rarity in space at this time, no doubt there'll be more of them once they learn that in this harsh patriarchal world, at least somebody cares about their wants! Strangely enough, the series was developed by the fae.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Charisma skill: <bonSkill5>
+        bonSkill5=3
+        bonSlotArt=-2
+        bonSlotWeapon=-2
+        bonWMissile=4
+    }
+    481 ^{
+        Cost=300
+        Equipments=Hull
+        Fragility=80
+        KindGraph=J
+        Name=Dumbo Hull II
+        Priority=30
+        Ruins=MC
+        Size=90
+        Special=1
+        Text=<color=248,252,248>The first series designed to be marketed as a "ladies' ship," fondly nicknamed "Dumbo" for its appearance. Though female pilots may be a rarity in space at this time, no doubt there'll be more of them once they learn that in this harsh patriarchal world, at least somebody cares about their wants! Strangely enough, the series was developed by the fae.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Charisma skill: <bonSkill5>
+        bonSkill5=3
+        bonSlotArt=-2
+        bonSlotWeapon=-1
+        bonWMissile=8
+    }
+    482 ^{
+        Cost=400
+        Equipments=Hull
+        Fragility=80
+        KindGraph=J
+        Name=Dumbo Hull III
+        Priority=50
+        Ruins=MC
+        Size=90
+        Special=1
+        Text=<color=248,252,248>The first series designed to be marketed as a "ladies' ship," fondly nicknamed "Dumbo" for its appearance. Though female pilots may be a rarity in space at this time, no doubt there'll be more of them once they learn that in this harsh patriarchal world, at least somebody cares about their wants! Strangely enough, the series was developed by the fae.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Charisma skill: <bonSkill5>
+        bonSkill5=3
+        bonSlotArt=-1
+        bonSlotWeapon=-1
+        bonWMissile=12
+    }
+    483 ^{
+        Cost=500
+        Equipments=Hull
+        Fragility=80
+        KindGraph=J
+        Name=Dumbo Hull IV
+        Priority=70
+        Ruins=MC
+        Size=90
+        Special=1
+        Text=<color=248,252,248>The first series designed to be marketed as a "ladies' ship," fondly nicknamed "Dumbo" for its appearance. Though female pilots may be a rarity in space at this time, no doubt there'll be more of them once they learn that in this harsh patriarchal world, at least somebody cares about their wants! Strangely enough, the series was developed by the fae.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Charisma skill: <bonSkill5>
+        bonSkill5=3
+        bonWMissile=8
+    }
+    484 ^{
+        Cost=600
+        Equipments=Hull
+        Fragility=110
+        KindGraph=F
+        Name=Benevolent Lyakusha Hull
+        Priority=50
+        Size=110
+        Special=1
+        Text=<color=248,252,248>This hull has been upgraded by renowned peleng master Itzibit. The entire control system is configured for maximum firepower. Definitely not for commerce enthusiasts.</color>.
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=14
+        bonWMissile=20
+        bonWSplinter=12
+    }
+    485 ^{
+        Cost=600
+        Equipments=Hull
+        KindGraph=G
+        Name=Pacifist Corsair Hull
+        Priority=50
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull has been upgraded by renowned peleng master Itzibit. The ship's entire structure is aimed at optimizing its defensive capabilities to the fullest. Its main drawback amounts to overly complicated control systems. Due to their lacking speed and accuracy, the pilot's skills have very little impact.</color>
+        Text=Hull armor: <bonHull>
+        Text=Shield generator: <bonDef>%
+        Text=Attack skill: <bonSkill1>
+        Text=Technology skill: <bonSkill3>
+        bonDef=10
+        bonHull=4
+        bonSkill1=-1
+        bonSkill3=-1
+    }
+    486 ^{
+        Cost=600
+        Equipments=Hull
+        Fragility=90
+        KindGraph=K
+        Name=Honest Renegal Hull
+        Priority=50
+        Size=100
+        Special=1
+        Text=<color=248,252,248>This hull has been upgraded by renowned peleng master Itzibit. Thanks to state-of-the-art six-wing technology, it forms an energy field around the ship, which reduces it's mass, boosts hyperjump range and, as a welcome bonus, enhances the gripper's functionality. The unwelcome bonus is that everyone around becomes so green with envy that you can forget about getting a discount on... well, anything.</color>
+        Text=Jumping range: <bonJump>
+        Text=Gripper range: <bonHookRadius>
+        Text=Ship mass: <bonMass>%
+        Text=Commerce skill: <bonSkill4>
+        bonHookRadius=50
+        bonJump=13
+        bonMass=-50
+        bonSkill4=-3
+    }
+    487 ^{
+        Cost=600
+        Equipments=Hull
+        Fragility=120
+        KindGraph=I
+        Name=Dandy Hull V
+        Priority=50
+        Size=130
+        Special=1
+        Text=<color=248,252,248>Modernized by Uncle Jimmy and Sons styling company, this externally and internally elegant special designation hull is for those who love to travel the Galaxy, favoring commercial dealings and diplomatic adventures to bloody battles.</color>
+        Text=Radar range: <bonRadar>
+        Text=Jumping range: <bonJump>
+        Text=Shield generator: <bonDef>%
+        bonDef=-12
+        bonJump=20
+        bonRadar=400
+    }
+    488 ^{
+        Cost=600
+        Equipments=Hull
+        KindGraph=H
+        Name=Ironclad Hull V
+        Priority=50
+        Size=130
+        Special=1
+        Text=<color=248,252,248>A new generation experimental version of the Ironclad series of hulls. The design never made it to the open market due to extreme manufacturing costs. One unit, however, was fully constructed and even passed all production tests. And no one would ever dare call this engineering wonder a "press iron."</color>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Shield generator: <bonDef>%
+        Text=Engine speed: <bonSpeed>
+        Text=Mobility skill: <bonSkill2>
+        bonDef=12
+        bonSkill2=-2
+        bonSpeed=-200
+        bonWEnergy=8
+        bonWSplinter=9
+    }
+    489 ^{
+        Cost=600
+        Equipments=Hull
+        Fragility=80
+        KindGraph=J
+        Name=Dumbo Hull V
+        Priority=50
+        Size=90
+        Special=1
+        Text=<color=248,252,248>This exclusive hull arrived on the market straight from the Farinapini design studio, where it received a full makeover. The cockpit was trimmed with leather and light tone wood flooring. A bar and a hi-hi category stereo sound system were installed. On the surface the hull was ornamented with Swarokok crystals and overlaid with a special defensive coating to prevent all this loveliness from falling off as soon as the ship enters a planet's atmosphere.</color>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Charisma skill: <bonSkill5>
+        bonSkill5=3
+        bonWMissile=20
+    }
+    490 ^{
+        Cost=100
+        Equipments=Hull
+        HullGraphSize=200
+        KindGraph=L
+        Name=Shadow of the Empire
+        Priority=50
+        Size=100
+        Special=1
+        Text=<color=248,252,248>Thanks to modern technologies, this prehistoric giant has been adapted for ranger use. And yet, there's still the occasional outburst of music from within, resembling some kind of march, while the machine's firepower continues to astound even the most hardened of soldiers.</color>
+        Text=Attack skill: <bonSkill1>
+        Text=Mobility skill: <bonSkill2>
+        Text=Leadership skill: <bonSkill6>
+        Text=Charisma skill: <bonSkill5>
+        Text=Hull armor: <bonHull>
+        bonHull=4
+        bonSkill1=2
+        bonSkill2=2
+        bonSkill5=-2
+        bonSkill6=2
+        bonSlotForsage=-1
+        bonSlotWeapon=-2
+    }
+    491 ^{
+        Cost=100
+        CustomTag=A1D1M1
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Firing range: <bonWRadius>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Jumping range: <bonJump>
+        Text=Engine speed: <bonSpeed>
+        Text=Hull armor: <bonHull>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=8
+        bonHull=2
+        bonJump=3
+        bonSpeed=50
+        bonWEnergy=3
+        bonWMissile=12
+        bonWRadius=20
+        bonWSplinter=3
+    }
+    492 ^{
+        Cost=100
+        CustomTag=A2D2
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Firing range: <bonWRadius>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Hull armor: <bonHull>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=12
+        bonHull=3
+        bonWEnergy=4
+        bonWMissile=16
+        bonWRadius=30
+        bonWSplinter=4
+    }
+    493 ^{
+        Cost=100
+        CustomTag=A2M2
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Firing range: <bonWRadius>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        Text=Jumping range: <bonJump>
+        Text=Engine speed: <bonSpeed>
+        bonJump=4
+        bonSpeed=75
+        bonWEnergy=4
+        bonWMissile=16
+        bonWRadius=30
+        bonWSplinter=4
+    }
+    494 ^{
+        Cost=100
+        CustomTag=D2M2
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Jumping range: <bonJump>
+        Text=Engine speed: <bonSpeed>
+        Text=Hull armor: <bonHull>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=12
+        bonHull=3
+        bonJump=4
+        bonSpeed=75
+    }
+    495 ^{
+        Cost=100
+        CustomTag=A3
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Firing range: <bonWRadius>
+        Text=Energy weapons damage: <bonWEnergy>
+        Text=Fragmentation weapons damage: <bonWSplinter>
+        Text=Missile weapons damage: <bonWMissile>
+        bonWEnergy=5
+        bonWMissile=20
+        bonWRadius=40
+        bonWSplinter=5
+    }
+    496 ^{
+        Cost=100
+        CustomTag=D3
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Hull armor: <bonHull>
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=16
+        bonHull=4
+    }
+    497 ^{
+        Cost=100
+        CustomTag=M3
+        Equipments=Droid
+        KindGraph=15
+        Name=Hybrid Droid
+        Priority=100
+        Special=1
+        Text=<color=248,252,248>The highlight of this droid lies in its one-of-a-kind processor, which scans all of the pilot's actions and synchronizes special bonus programs with the ship. Only one copy has been made thus far, which is currently being field tested by the Coalition special forces.</color>
+        Text=Jumping range: <bonJump>
+        Text=Engine speed: <bonSpeed>
+        bonJump=5
+        bonSpeed=100
+    }
+    498 ^{
+        Cost=200
+        CustomTag=AkrinAmplifier
+        Equipments=FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator
+        Name=Acrynator
+        Priority=0
+        Size=200
+        Special=1
+        Text=A one-of-a-kind handmade level one micromodule. The only copy of the latest experimental model from the Coalition engineers in the field of acrynic technologies. Triples all the special effects of <clr>acrynic<clrEnd> equipment and neutralizes all of its negative effects. Size and costs of the equipment are doubling. Cannot be installed on a hull due to a conflict with outdated connectors.
+        Text=Size: <clr>+100%<clrEnd>
+        Text=Cost: <clr>+100%<clrEnd>
+        bonExtraAkrinEff=200
+        bonExtraAkrinPenalty=-100
+    }
+    5 ^{
+        Equipments=Scaner
+        Name=Inliner
+        Priority=100
+        Text=Level three micromodule. Built into the scanner's inline module, increases the spectrum of frequencies received.
+        Text=Scanner power: <bonScan>%
+        bonScan=3
+    }
+    500 ^{
+        Cost=120
+        Equipments=W01
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    501 ^{
+        Cost=120
+        Equipments=W01
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    502 ^{
+        Cost=120
+        Equipments=W01
+        KindGraph=drop
+        Name=Adropter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Adropter comes with a kit of supplemental equipment and utilizes the blast wave localizer method. The pirate technology is far from perfect, but it still increases the chance of preserving valuable trophies after the enemy ship is destroyed. </color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=MoreDrop
+        bonScan=-1
+    }
+    503 ^{
+        Cost=120
+        Equipments=W02
+        KindGraph=goods
+        Name=Stylermain
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Stylermain is a modification that's installed on a gun mount. During combat, besides regular fire it attempts to transmit an emergency signal to the enemy ship's central control system with a command to dump its cargo. The success rate is relatively low, but it may occasionally give the pilot a tactical advantage in battle and a shot at some easy loot.</color><br> <br>
+        Text=Probability of goods being dumped from the cargo bay: <clr>5%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=DropCargo
+        bonScan=-1
+    }
+    504 ^{
+        Cost=120
+        Equipments=W02
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    505 ^{
+        Cost=120
+        Equipments=W02
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    506 ^{
+        Cost=120
+        Equipments=W03
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    507 ^{
+        Cost=120
+        Equipments=W03
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    508 ^{
+        Cost=120
+        Equipments=W03
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    509 ^{
+        Cost=120
+        Equipments=W03
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=4
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    510 ^{
+        Cost=120
+        Equipments=W04
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    511 ^{
+        Cost=120
+        Equipments=W04
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    512 ^{
+        Cost=120
+        Equipments=W04
+        KindGraph=drop
+        Name=Adropter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Adropter comes with a kit of supplemental equipment and utilizes the blast wave localizer method. The pirate technology is far from perfect, but it still increases the chance of preserving valuable trophies after the enemy ship is destroyed. </color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=MoreDrop
+        bonScan=-1
+    }
+    513 ^{
+        Cost=120
+        Equipments=W04
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=4
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    514 ^{
+        Cost=120
+        Equipments=W05
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    515 ^{
+        Cost=120
+        Equipments=W05
+        KindGraph=drop
+        Name=Adropter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Adropter comes with a kit of supplemental equipment and utilizes the blast wave localizer method. The pirate technology is far from perfect, but it still increases the chance of preserving valuable trophies after the enemy ship is destroyed. </color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=MoreDrop
+        bonScan=-1
+    }
+    516 ^{
+        Cost=120
+        Equipments=W05
+        KindGraph=goods
+        Name=Stylermain
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Stylermain is a modification that's installed on a gun mount. During combat, besides regular fire it attempts to transmit an emergency signal to the enemy ship's central control system with a command to dump its cargo. The success rate is relatively low, but it may occasionally give the pilot a tactical advantage in battle and a shot at some easy loot.</color><br> <br>
+        Text=Probability of goods being dumped from the cargo bay: <clr>5%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=DropCargo
+        bonScan=-1
+    }
+    517 ^{
+        Cost=120
+        Equipments=W06
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    518 ^{
+        Cost=120
+        Equipments=W06
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    519 ^{
+        Cost=120
+        Equipments=W06
+        KindGraph=goods
+        Name=Stylermain
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Stylermain is a modification that's installed on a gun mount. During combat, besides regular fire it attempts to transmit an emergency signal to the enemy ship's central control system with a command to dump its cargo. The success rate is relatively low, but it may occasionally give the pilot a tactical advantage in battle and a shot at some easy loot.</color><br> <br>
+        Text=Probability of goods being dumped from the cargo bay: <clr>5%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=DropCargo
+        bonScan=-1
+    }
+    520 ^{
+        Cost=120
+        Equipments=W07
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    521 ^{
+        Cost=120
+        Equipments=W07
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    522 ^{
+        Cost=120
+        Equipments=W07
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    523 ^{
+        Cost=120
+        Equipments=W08
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    524 ^{
+        Cost=120
+        Equipments=W08
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    525 ^{
+        Cost=120
+        Equipments=W08
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    526 ^{
+        Cost=120
+        Equipments=W09
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    527 ^{
+        Cost=120
+        Equipments=W09
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    528 ^{
+        Cost=120
+        Equipments=W09
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    529 ^{
+        Cost=120
+        Equipments=W10
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    530 ^{
+        Cost=120
+        Equipments=W10
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    531 ^{
+        Cost=120
+        Equipments=W11
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    532 ^{
+        Cost=120
+        Equipments=W11
+        KindGraph=block
+        Name=Armoloc
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>The Armoloc modified weapon model fires high-precision rounds capable of disabling the target's weapons systems control hub, temporarily blocking the enemy's ability to return fire.</color><br> <br>
+        Text=The chance to block <clr>weapons<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockWeapon
+        bonScan=-1
+    }
+    533 ^{
+        Cost=120
+        Equipments=W11
+        KindGraph=drop
+        Name=Adropter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Adropter comes with a kit of supplemental equipment and utilizes the blast wave localizer method. The pirate technology is far from perfect, but it still increases the chance of preserving valuable trophies after the enemy ship is destroyed. </color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=MoreDrop
+        bonScan=-1
+    }
+    534 ^{
+        Cost=120
+        Equipments=W12
+        KindGraph=bon
+        Name=Diphrode
+        OnPlanets=1
+        Owner=Maloc,Peleng,People,Fei,Gaal
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A Diphrode series kit of modified weapons bundles and software mods, boosting the firepower of various weapon types.</color><br> <br>
+        Text=Bonus to damage: <clr>15%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ScanBonus
+        bonScan=-1
+    }
+    535 ^{
+        Cost=120
+        Equipments=W12
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    536 ^{
+        Cost=120
+        Equipments=W12
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    537 ^{
+        Cost=120
+        Equipments=W16
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    538 ^{
+        Cost=120
+        Equipments=W16
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    539 ^{
+        Cost=120
+        Equipments=W16
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    540 ^{
+        Cost=120
+        Equipments=W17
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=1
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    541 ^{
+        Cost=120
+        Equipments=W17
+        KindGraph=droid
+        Name=Javitor
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Modified for precision targeting of repair droids, the Javitor weapon model concentrates fire along the droid's trajectory, thus increasing the chance to block the enemy ship's attempts at repair during combat.</color><br> <br>
+        Text=The chance to block a <clr>droid<clrEnd> is inversely proportional to the target's hull size
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BlockDroid
+        bonScan=-1
+    }
+    542 ^{
+        Cost=120
+        Equipments=W17
+        KindGraph=goods
+        Name=Stylermain
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Stylermain is a modification that's installed on a gun mount. During combat, besides regular fire it attempts to transmit an emergency signal to the enemy ship's central control system with a command to dump its cargo. The success rate is relatively low, but it may occasionally give the pilot a tactical advantage in battle and a shot at some easy loot.</color><br> <br>
+        Text=Probability of goods being dumped from the cargo bay: <clr>5%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=DropCargo
+        bonScan=-1
+    }
+    543 ^{
+        Cost=120
+        Equipments=W18
+        KindGraph=dmg
+        Name=Liphocarus
+        OnPlanets=1
+        Priority=10
+        Ruins=Any
+        ShotVisual=2
+        Size=110
+        Special=1
+        Text=<color=248,252,248>A modernized version of the Liphocarus project, this armament deals additional damage to already damaged targets, utilizing a mechanism of super-accurate repeated fire into the hull's holes.</color><br> <br>
+        Text=Bonus to damage: up to <clr>33%<clrEnd>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=BonusToDamaged
+        bonScan=-1
+    }
+    544 ^{
+        Cost=120
+        Equipments=W18
+        KindGraph=drop
+        Name=Adropter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=3
+        Size=110
+        Special=1
+        Text=<color=248,252,248>Adropter comes with a kit of supplemental equipment and utilizes the blast wave localizer method. The pirate technology is far from perfect, but it still increases the chance of preserving valuable trophies after the enemy ship is destroyed. </color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=MoreDrop
+        bonScan=-1
+    }
+    545 ^{
+        Cost=120
+        Equipments=W18
+        KindGraph=overheat
+        Name=Inveiter
+        OnPlanets=1
+        Owner=PirateClan
+        Priority=10
+        Ruins=Any
+        ShotVisual=4
+        Size=110
+        Special=1
+        Text=<color=248,252,248>In addition to the weapon's regular function, the Inveiter modified version suppresses the enemy ship's ignition system, damaging its <clr>engine<clrEnd> in the process.</color><br> <br>
+        Text=Scanner power: <bonScan>.
+        Text=(scanner power must exceed target's defense)
+        WeaponMods=ReduceEngine
+        bonScan=-1
+    }
+    6 ^{
+        Equipments=Radar,Scaner
+        Name=Antent
+        Priority=100
+        Text=Level three micromodule. Enhances the specs of scanning and radar devices. Built into the antenna amplifier, boosting its power.
+        Text=Radar range: <bonRadar>
+        Text=Scanner power: <bonScan>%
+        bonRadar=210
+        bonScan=2
+    }
+    7 ^{
+        Equipments=Droid
+        Fragility=60
+        Name=Botter
+        Owner=Fei
+        Priority=70
+        Text=Level three micromodule. Upgrades the repair droid's firmware, improving its accuracy and effectiveness, and giving a <clr>67%<clrEnd> increase in reliability. Compatible exclusively with <clr>faeyan<clrEnd> droid types.
+        Text=Droid effectiveness: <bonDroid>
+        bonDroid=8
+    }
+    8 ^{
+        Equipments=WEnergy,WSplinter,WMissile
+        Name=Farshooter
+        Priority=100
+        Text=Level three micromodule. Reduces the lag effect of the weapon's corrective systems, increasing firing range.
+        Text=Firing range: <bonWRadius>
+        bonWRadius=25
+    }
+    9 ^{
+        Equipments=Engine
+        Name=Vortex
+        Owner=People
+        Priority=90
+        Text=Level three micromodule. Contains an additional, high-accuracy microcontroller for the engine's navigational systems. Upgraded computational functions lead to increases in speed and jumping range. Compatible exclusively with <clr>human<clrEnd> engines.
+        Text=Engine speed: <bonSpeed>
+        Text=Jumping range: <bonJump>
+        bonJump=3
+        bonSpeed=30
+    }
+    AddToItem=Install <ModuleName> to <ItemName>?
+    Name=Micromodule
+}

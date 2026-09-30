@@ -1,0 +1,59 @@
+Planet ^{
+    Civil ^{
+        Info ^{
+            BadDopInfo=Вам нельзя посещать:
+            BadDopInfo=- магазин оборудования
+            BadDopInfo=- торговый центр
+            BadDopInfo=- информационный центр
+            TextAboutPlanet=Проживающая раса: <Race>
+            TextAboutPlanet=Население: <Population> млн
+            TextAboutPlanet=Экономический тип: <Economy>
+            TextAboutPlanet=Политический строй: <Goverment>
+            TextAboutPlanet=Отношение к вам: <Relation>
+            TextNamePlanet=Планета <Planet>
+            TextPlanetControlledByPirates=Находится под контролем пиратов
+        }
+    }
+    Kling ^{
+        Info ^{
+            TextAboutPlanet=Проживающая раса <Race>
+            TextAboutPlanet=Находится под контролем доминаторов
+            TextAboutPlanet=Посадку совершить невозможно
+        }
+    }
+    MainPiratePlanet ^{
+        Info ^{
+            TextAboutPlanet=Тайное убежище руководства пиратского клана.
+            TextAboutPlanet=Несмотря на огромные размеры, явно нуждается в ремонте и серьезной угрозы не представляет.
+            TextAboutPlanetAlt=Бывшее тайное убежище руководства пиратского клана, захваченное силами коалиции.
+            TextAboutPlanetAlt=Несмотря на огромные размеры, явно нуждается в ремонте и серьезной угрозы не представляет.
+        }
+    }
+    Name=Планета
+    NotCivil ^{
+        AllExplore=исследована
+        Info ^{
+            TextAboutPlanet=Развитые формы жизни не зарегистрированы.
+            TextAboutPlanet=Космодром отсутствует, посадка нежелательна.
+            TextAboutPlanet=Неисследованные территории
+            TextAboutPlanet=Вода: <Water> / Равнина: <Land> / Горы: <Hill>
+        }
+        QuestPlay ^{
+            MsgContinue=Далее
+            MsgDeath=Жизнь великого рейнджера закончилась
+            MsgFail=Квест провален
+            MsgFailPrison=Быстро взлетаем!
+            MsgLoad=Вы хотите вернуться в прошлое, чтобы иметь возможность пройти квест заново?
+            MsgReplayQuest=Начать квест заново
+            MsgSuccess=Задание выполнено
+            MsgSuccessPrison=Вас выпустили на поруки
+        }
+        Treasure ^{
+            Few=Низкая ценность кладов
+            Lots=Очень высокая ценность кладов
+            Many=Высокая ценность кладов
+            Nothing=Клады отсутствуют
+            Some=Средняя ценность кладов
+        }
+    }
+}

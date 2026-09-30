@@ -1,0 +1,24 @@
+FormSaveManager ^{
+    AutoSave=Автоматическое сохранение
+    Cancel=Отменить
+    CaptionLoad=Загрузить игру
+    CaptionSave=Сохранить игру
+    DateFormatStr=(hh:nn, dd.mm.yyyy)
+    Delete=Удалить
+    Load=Загрузить
+    LoadDumpConfirm=Для этого сохранения существует текстовый дамп. Хотите его загрузить (сейв станет непригодным для отправления в ТР и получения ачивок)?
+    LoadError=Ошибка загрузки игры
+    Loading=З А Г Р У З К А
+    New=Новое сохранение
+    QueryDelete=Удалить сохраненную игру?
+    QueryQuick=Загрузить быстрое сохранение?
+    QueryQuickN=Загрузить быстрое сохранение N<Num>?
+    QueryReloadMods=Ошибка загрузки игры, наиболее вероятная причина - несоответствие модов. Повторить попытку, скопировав набор модов из файла сохранения?
+    QuickNotExist=Быстрое сохранение отсутствует
+    QuickNotExistN=Быстрое сохранение N<Num> отсутствует
+    Save=Сохранить
+    SaveError=Ошибка сохранения игры
+    SaveInPlanet=Планета <Planet>
+    SaveInShip=<ShipName>
+    SaveInSpace=Система <Star>
+}

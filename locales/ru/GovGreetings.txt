@@ -1,0 +1,1223 @@
+GovGreetings ^{
+    0 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad
+        Text=Ваша деятельность, <Player>, нас отнюдь не вдохновляет. Вам запрещается заниматься какой-либо коммерческой деятельностью на нашей планете.
+    }
+    1 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal
+        Priority=1
+        Text=С чем пожаловали, господин <Player>? Вы вроде как не являетесь нашим штатным агентом.
+    }
+    10 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=People,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        DominatorsAlreadyDefeated=No
+        PlayerRank=Rookie,Cadet,Pilot,Wingman,Leader,Ace
+        PlayerRating=Mini,Small,Average
+        PlayerStatus=Pirate
+        Priority=10
+        Text=А вот пиратов мы, <Player>, не любим. Разве вы не знаете, что наша раса не одобряет действия пиратов и контрабандистов? Как можно во время войны с доминаторами заниматься такими грязными делами?!!
+        Text=Вам должно быть очень стыдно, господин <Player>!
+    }
+    100 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        Priority=5
+        Text=Гоп-стоп, мы подлетели не спеша, гоп-стоп, мы тормознули торгаша...
+        Text=А, привет, <Player>, не хочешь спеть со мной дуэтом? Такая песня хорошая, аж слезу вышибает. Ты это, не обращай внимания, просто директива поступила, выучить пиратский фольклор, раз уж мы теперь под ними ходим. Ну и сленг тоже. Вот, послушай: пацанчик, ты чего, рамсы попутал? Чего пальцы раскинул, фраер? Гони бабло, нюня, а то почикаю ножичком.
+        Text=Знаю, пока не очень получается, но я стараюсь. А ты чего-нибудь знаешь такого-этакого? Может, расскажешь? Если не хочешь, то не надо, я не в претензии. Все равно у меня тут еще текста для изучения на двадцать страниц.
+    }
+    101 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        Priority=3
+        Text=Приветствую тебя, <Player>, на самой лучшей пиратской планете в галактике. Конечно, слухи говорят об обратном, но это всего лишь происки завистников и конкурентов. У нас тут лучшие развлечения на любой, самый грязный и извращенный вкус, каждый день совершаются сотни противоправных сделок, на штанах больше всего лампасов, а убийств столько, что каждое утро приходится объезжать улицы на грузовике и собирать тела. И даже не спрашивай, что с этими телами потом делают, побереги свой аппетит. Спроси лучше что-нибудь по делу.
+    }
+    102 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Bad
+        DominatorsAlreadyDefeated=No
+        Text=Ты гнусный тип, <Player> и твое появление здесь никого не радует. В старые времена я бы тебя упек в штрафной рейнджерский батальон и отправил валить доминаторов. Что ты вообще здесь делаешь, когда проклятые железки еще коптят небосвод?
+    }
+    103 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal
+        DominatorsAlreadyDefeated=No
+        Text=Вместо того, чтобы отнимать у меня время, <Player>, ты мог бы принести реальную пользу, отвоевав у доминаторов пару звездных систем. Так как Коалиции нет, нам самим приходится разбираться с этими тупыми железками.
+    }
+    104 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good
+        DominatorsAlreadyDefeated=No
+        Text=Эх, <Player>, мне даже не верится, что Коалиции больше нет. К сожалению, я не могу сказать того же самого о доминаторах. Сказать, что эти тупые железки причиняют нам беспокойство - значит не сказать ничего. Если тебе делать нечего - немедленно подключайся к их истреблению!
+    }
+    105 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Best
+        DominatorsAlreadyDefeated=No
+        Text=Приветствую тебя, дружище <Player>! Представь всю глубину иронии: Коалиции уже нет, а их детища - доминаторы, все еще портят нам кровь. С ними нужно срочно что-то делать, пока они у нас всю галактику обратно не отвоевали.
+    }
+    106 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Bad
+        DominatorsAlreadyDefeated=Yes
+        Text=Что тебе нужно, <Player>? Хоть ты и пират, но мы-то отчетливо видим твою гнусную рейнджерскую суть. Так что говори, чего хотел и проваливай на все триста шестьдесят градусов!
+    }
+    107 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal
+        DominatorsAlreadyDefeated=Yes
+        Text=Вот так посмотришь на тебя, <Player> и вроде бы видишь перед собой нормального, толкового пирата. Но при этом есть в тебе какая-то гнильца, какой-то грешок. Не вызываешь ты доверия, <Player>.
+    }
+    108 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good
+        DominatorsAlreadyDefeated=Yes
+        Text=Невероятно, <Player>, но факт. Мы победили всех наших врагов! Коалиция и доминаторы теперь не более чем страница истории, которую мы при желании вообще можем вырвать из учебника и выбросить в открытый космос. Никто ничего не скажет, потому что некому и нечего.
+    }
+    109 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Best
+        DominatorsAlreadyDefeated=Yes
+        Text=Галактика в руках пиратов, <Player> и ты внес немалую лепту в эту победу! Чарки за твое здоровье поднимаются во всех барах галактики, а на твоей родной планете мы собираемся поставить памятник. Так что будешь ты теперь в двух экземплярах: в оригинале и еще пяти метров в высоту, бронзовый!
+        Text=Спросишь, почему не золотой? Так мы же пираты, все золото уже давно стырили.
+    }
+    11 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Maloc,People,Fei,Gaal
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Technics
+        PlayerStatus=Pirate
+        Priority=30
+        Text=Так-так, <Player>. И как скоро вы прекратите заниматься противозаконной деятельностью? Вы иноземец, пират, и при этом приходите сюда, как к себе домой! Безусловно, мы пока неплохо к вам относимся, но терпенье наше уже на пределе.
+        Text=Лучше купите на нашей планете партию техники. Никто не берет, понимаешь... :-(
+    }
+    110 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        DominatorsAlreadyDefeated=No
+        PlayerPirateRank=Kid, Rader, Skipper, Rough, Ataman, Khan
+        Text=Здорово, <Player>. Ты знаешь, что у пиратов в последнее время проблемы с доминаторами? Не знаешь?! Да ладно, из какого рукава галактики ты выпал? Или это ты так шутишь?
+        Text=Впрочем, не важно. Проблемы есть, и я даже слышал, верховный пиратский лидер объявил, что повысит того, кто уничтожит доминаторского босса, до своего личного подручного. Не важно, кто это будет: смертоносный головорез или зеленый салага. Хотя я не думаю, что салага сможет хотя бы поцарапать доминаторскую обшивку. А вот у тебя шансы весьма неплохие, как мне кажется.
+        Text=Хотя, не исключено, что это всего лишь слухи...
+    }
+    111 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        DominatorsAlreadyDefeated=No
+        Text=Везет вам, <Player>, вольным пиратам. Я бы сейчас сам с удовольствием рванул драться с доминаторами, но вынужден сидеть в этом тесном кабинете.
+        Text=Когда замочишь самого главного робота - не забудь привезти мне в качестве сувенира кусочек его обшивки. Буду очень признателен. А пока что давай выпьем по чарочке за скорейшую и окончательную победу пиратского клана над всеми врагами.
+    }
+    112 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        DominatorsAlreadyDefeated=No
+        Text=А, привет, <Player>. Не обращай внимания на мое плохое настроение. Просто сегодня ночью приснилось, что доминаторы напали на нашу звездную систему и захватили ее.
+        Text=Пускай я сейчас скажу вещь крамольную, но с Коалицией было лучше. Они сражались с роботами, а мы снимали сливки и вообще как фарюки в масле катались. Но теперь Коалиции нет и доминаторы прут на наши пиратские системы. А из пиратов какие воины... трусы, которые только транспортники обчищать умеют.
+        Text=Одна надежда на таких бравых парней, как ты, <Player>.
+    }
+    113 ^{
+        CoalitionAlreadyDefeated=Yes
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        DominatorsAlreadyDefeated=No
+        Text=О, <Player>, раз уж зашел - скажи как на духу, сколько вы, пираты, еще собираетесь мурыжиться с доминаторами? Давно уже пора собраться с духом и вышибить их из нашего рукава галактики!
+        Text=С Коалицией мы справились, так почему с этими железками не можем? Мне уже самому хочется запрыгнуть в корабль и полететь вышибать из них дурь. Или из вас, потому что достали. Мы теряем огромные деньги на этой войне. А у нас на планете и так экономика хромает на обе ноги.
+        Text=Забей, впрочем. Чего ты хотел?
+    }
+    114 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        CurStarInBattlePirates=Yes
+        Priority=1
+        Text=И в страшном сне не могло нам присниться, <Player>, что на нашу звездную систему нападут одновременно пираты и доминаторы! Да, они с удовольствием уничтожают друг друга, но и наши силы обороны тоже несут огромные потери!
+        Text=Сделайте же что-нибудь, <Player>, пока мы все не погибли! Не нужно стоять и думать, бегите скорее в ангар! По дороге сообразите, что именно от вас требуется.
+    }
+    115 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        CurStarInBattlePirates=Yes
+        Priority=1
+        Text=О каком искусстве боя, о какой тактике, о какой стратегии может идти речь, уважаемый <Player>, когда в звездную систему одновременно вторгаются доминаторы и пираты? Никакие нормативы и схемы не работают. Мы даже не можем координировать действия сил обороны. На орбите сейчас настоящая мясорубка!
+        Text=Вся надежда на вас, <Player>! Только вы можете железной рукой навести порядок на поле боя, вселить ужас в наших врагов и воодушевить наших союзников!
+    }
+    116 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        CurStarInBattlePirates=Yes
+        Priority=1
+        Text=Рейнджер, все пропало! Все, что нажито непосильным трудом будет уничтожено в жаркой битве, которая проходит сейчас на орбите! Ничего другого и ждать не стоит, когда сражаются силы Коалиции, доминаторы и пираты! Мы получаем сообщения, что пилоты не знают в кого им вообще стрелять, настолько там все запутано!
+        Text=<Player>, выручайте! Вся надежда на вас! Если вы немедленно не вернетесь на орбиту и не возглавите сопротивление - мы потеряем эту звездную систему так быстро, что даже пенчекряк норку себе выкопать не успеет!
+    }
+    12 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Maloc,People,Fei
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal
+        PlayerRace=Peleng
+        Priority=2
+        Text=Что грязный четырехрукий пеленг <Player> забыл на нашей процветающей планете? Он, скорее всего, прилетел обворовать нас?
+    }
+    13 ^{
+        CurPlanetEconomy=Agriculture
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Food
+        PlayerRace=Peleng,People,Fei,Gaal
+        Priority=10
+        Text=<Player>, ты разве не знаешь, что твоя раса вымирает? Что скоро малоки будут править всей галактикой, а вы будете нам прислуживать?<br>Да ты, парень, не тушуйся. Это современный малокский юмор. Вам, тупым инопланетянам, не понять. Ха-ха!<br>Кстати, цены у нас тут на жратву небольшие. Отоваривайся, пожалуйста, здесь, на лучшей сельскохозяйственной планете в этом секторе!
+    }
+    14 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        PlayerRank=Leader,Ace,Commander, Admiral
+        Priority=10
+        Text=Прославленный рейнджер <Player>. Мы рады приветствовать вас на планете <CurPlanet>. Пожалуйста, посетите наши магазины, мы будем очень рады, если вы что-нибудь приобретете у нас!<br>Кроме того, мы просим вас в ближайшее время принять участие в освобождении системы <ToStar> от доминаторов. Будьте так любезны.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToStarControlByKling=Yes
+    }
+    15 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        KlingInToStar=3,4,5,6,7,8,9,Many
+        PlayerRating=Mini,Small
+        Priority=10
+        Text=На систему <ToStar> напали доминаторы. Помогите нашим братьям, живущим в этой системе. Мы вас очень просим, <Player>. Знаем, что вы не самый крутой рейнджер, но все же и ваша помощь не помешает.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=Yes
+        ToStarInBattle=Yes
+    }
+    16 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Medicine
+        KlingInToStar=4,5,6,7,8,9,Many
+        Priority=50
+        Text=Сейчас в системе <ToStar>, идут кровопролитные бои с доминаторами. Вы, <Player>, можете существенно помочь своей расе!
+        Text=Во-первых, если полетите туда и поможете в битве. Во-вторых, если захватите при этом с собой партию медикаментов, которые можете приобрести здесь же, на нашей планете. Как видите, мы заботимся не только о себе, но и о других!
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=No
+        ToPlanetRaceIsPlayerRace=Yes
+        ToStarInBattle=Yes
+    }
+    17 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        KlingInToStar=4,5,6,7,8,9,Many
+        Priority=50
+        RangerInToStar=3,4,5,6,7,8,9,Many
+        Text=О, <Player>, почему вы здесь, а не в системе <ToStar>? Эта система была захвачена доминаторами, но сегодня лучшие рейнджеры пытаются ее освободить! Ведь там, на планете <ToPlanet> живут наши соотечественники. Как вы можете оставаться в стороне?
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=Yes
+        ToStarControlByKling=Yes
+        ToStarInBattle=Yes
+    }
+    18 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        KlingInToStar=2,3,4,5,6,7,8,9,Many
+        Priority=10
+        Text=Мы рады видеть вас, <Player>, на нашей планете <CurPlanet>.<br>Сейчас трудное время для нас всех. Недавно доминаторы вторглись в систему <ToStar>. Жалкая попытка! Силы Коалиции дадут им достойный отпор. Вы согласны, <Player>?
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToStarInBattle=Yes
+    }
+    19 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc
+        CurPlanetRelations=Good,Best
+        PlayerStatus=Trader
+        Priority=10
+        Text=Привет, <Player>. Мы рады видеть тебя на этой прекрасной малокской планете <CurPlanet>. Только вот зачем ты постоянно занимаешься торговой деятельностью и позоришь свое имя?
+        Text=Мы считаем, что тебе надо больше кушать и чаще бить своих врагов. Будь мужчиной, <Player>, не ходи больше в наш торговый центр, и мы станем тебя еще больше уважать!
+    }
+    2 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good
+        Priority=1
+        Text=Для нас честь видеть вас здесь, <Player>!
+    }
+    20 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Good,Best
+        Goods=Narcotics
+        PlayerStatus=Trader,Pirate
+        Priority=30
+        Text=На планете <CurPlanet> всегда рады видеть рейнджера, <Player>. Мы сочувствуем существу, обделенному конечностями, но надеемся, что этот факт не мешает заниматься контрабандой!
+        Text=Кстати, у нас по дешевке можно купить хорошую партию наркоты. Советуем отвезти товар фэянам или гаальцам. Они очень на него падки.
+    }
+    21 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Good,Best
+        Goods=Arms
+        Priority=30
+        Text=На планете <CurPlanet> всегда рады видеть рейнджера, <Player>. Перевозки продуктов нашего военно-промышленного комплекса интересуют? Конечно, да!<br>Так вот, сегодня контейнеры с вооружением у нас всего по <CurPlanetGoodsSale> cr! Неплохо, а?
+    }
+    22 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal
+        PlayerRace=Peleng
+        Priority=10
+        Text=Привет тебе, четырехрукий <Player>! Что надо на нашей планете представителю столь низкого народа? Вы, пеленги, умеете только нападать из-за угла, да возить контрабанду.
+    }
+    23 ^{
+        CurPlanetEconomy=Industrial
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        Goods=Technics
+        Priority=10
+        Text=Приветствуем тебя, <Player>, как дела?<br>Мы готовы предложить большую партию предметов техники. Нет желания сделать хороший бизнес? Контейнер стоит всего <CurPlanetGoodsSale> cr. Сейчас на складе имеется <CurPlanetGoodsCnt> единиц товара. У соседей нет такого выбора!
+    }
+    24 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetPirateClan=No
+        CurPlanetRace=Fei,Gaal
+        CurPlanetRelations=Normal,Good
+        Goods=Technics
+        PlayerRace=Maloc,Peleng,People
+        Priority=20
+        Text=Представители твоей расы, <Player>, к сожалению, не наделены могучим интеллектом. Тем не менее ты должен понимать, что контейнер с техническими изделиями стоимостью <CurPlanetGoodsSale> cr не часто встретишь. Загляни к нам в торговый центр и купи партию. Возможно, в голове ума и прибавится.
+    }
+    25 ^{
+        CurPlanetGoodsBuy=Big,Huge
+        CurPlanetGoodsCnt=Zero,Mini,Small,Average
+        CurPlanetGoodsPermit=No
+        CurPlanetPirateClan=No
+        CurPlanetRace=Gaal
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Narcotics
+        PlayerRank=Rookie,Cadet,Pilot
+        Priority=10
+        Text=Наша раса давно сидит на игле...<br>Это вы, иноземцы, являетесь причиной нашего постепенного вымирания! Мы боремся с наркодельцами, но ничего не помогает. Цены становятся только выше и достигли уже <CurPlanetGoodsBuy> cr за одну условную единицу. Предупреждаем, чтобы ты, <Player>, не ввозил эту дрянь на нашу планету, иначе мы станем врагами.
+    }
+    26 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=No
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Maloc
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        Goods=Luxury
+        Priority=20
+        Text=Привет, <Player>. И почему, собственно, другие расы так любят наши произведения искусства? Искусство это бред, вся суть в силе! А вам все подавай наши табуретки. Да лучше я эту табуретку разобью о твою инопланетную башку!
+        Text=Взвинтили уже цены по <CurPlanetGoodsSale> cr за тонну. Вывозят наше дерево в виде предметов роскоши. Мы запрещаем вывозить наши табуретки. Ясно тебе?
+    }
+    27 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsBuy=Big,Huge
+        CurPlanetGoodsCnt=Zero,Mini,Small
+        CurPlanetGoverment=Dictatorship
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Food
+        Priority=2
+        Text=Привет, <Player>. Не секрет, что нашей планетой правит диктатор. Экономика находится в упадке. Цены нестабильны. Произошел экологический кризис. Наш народ голодает, мы сейчас очень нуждаемся в еде и медикаментах.
+        Text=Если возможно, помоги нам, привези партию еды на планету <CurPlanet>.
+    }
+    28 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetGoverment=Monarchy
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Technics
+        Priority=50
+        Text=Всегда рады вас видеть, <Player>.<br>Сегодня стоимость товаров технического назначения составляет <CurPlanetGoodsSale> cr за единицу. Данная цена, очень невысокая, установлена нашим монархом!
+        Text=Мы полагаем, что с такими низкими ценами посещаемость нашей планеты возрастет, тем более что в нашем секторе есть отсталые планеты, готовые заплатить хорошие деньги. Так, на планете <ToPlanet> (система <ToStar>) можно продать купленные у нас товары уже за <ToPlanetGoodsBuy> cr! Стоит задуматься о перспективах!
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetGoodsPermit=Yes
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    29 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetGoverment=Monarchy,Republic,Democracy
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng,People,Fei,Gaal
+        CurPlanetRelations=Good,Best
+        Goods=Luxury
+        Priority=10
+        Text=Дорогой <Player>! На нашей цветущей планете проводится распродажа предметов роскоши! Чудесные малокские табуретки, человеческие валенки и другие чудеса искусства всего по <CurPlanetGoodsSale> cr за тонну! Поспеши в торговый центр!
+    }
+    3 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Best
+        Priority=1
+        Text=Всегда рады вас видеть, <Player>. Хотите кофейку или секретное задание?
+    }
+    30 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsBuy=Average,Big,Huge
+        CurPlanetGoodsCnt=Zero,Mini,Small
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        Goods=Minerals
+        Priority=20
+        Text=Для нас честь видеть вас здесь, <Player>!<br>Хотим сообщить, если вы еще не в курсе, что на нашей планете ощущается острая нехватка руд для промышленности. Если хотите заработать денег, можете привезти сюда на <CurPlanet> партию полезных ископаемых.
+        Text=У вас есть захват? Тогда вы можете расстрелять астероид и собрать ценные части. Мы оплатим каждую тонну в размере <CurPlanetGoodsBuy> cr! Неплохо?
+    }
+    31 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsBuy=Average,Big,Huge
+        CurPlanetGoodsCnt=Zero,Mini,Small
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Minerals
+        Priority=50
+        Text=Приветствуем вас, <Player>!<br>Хотим сообщить, что на соседней планете животноводов <ToPlanet> промышленность находится в зачаточном состоянии, поэтому цены на руду просто смешные. Мы же остро нуждаемся в ней.
+        Text=Так что если вам нужны деньги, то можно быстро и вполне законно их получить. Только поспешите, пока другой, более предприимчивый торгаш вас не опередил.
+        ToPlanetEconomy=Agriculture
+        ToPlanetGoodsCnt=Small,Average,Big,Huge
+        ToPlanetGoodsSale=Mini,Small
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    32 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsBuy=Average,Big,Huge
+        CurPlanetGoodsCnt=Zero,Mini,Small
+        CurPlanetGoodsPermit=Yes
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng,People
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Alcohol
+        Priority=50
+        Text=Приветствуем, <Player>! Вы знаете, что неразбериха на <ToPlanet>, вызванная отсутствием нормального правительства, привела к резкому снижению цен на винно-водочную продукцию?
+        Text=На нашей планете данный вид товаров традиционно пользуется большим спросом, и мы заплатили бы за него хорошие деньги. Пока только вы, <Player>, являетесь обладателем этой информации! Но поспешите, если хотите заработать, потому что предприимчивые торговцы всегда найдутся.
+        ToPlanetEconomy=Agriculture,Mixed
+        ToPlanetGoodsCnt=Small,Average,Big,Huge
+        ToPlanetGoodsPermit=Yes
+        ToPlanetGoodsSale=Mini,Small
+        ToPlanetRace=Peleng,People,Fei
+    }
+    33 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        DominatorsAlreadyDefeated=No
+        PlayerRating=Mini,Small,Average
+        Priority=10
+        Text=Приветствуем, <Player>! Вы хороший рейнджер, не так ли? Но вот почему-то в центре рейнджеров так не считают и записывают вас на последние места. Почему это? И вот еще сообщение с планеты <ToPlanet> о том, что вас разыскивают как особо опасного преступника. Чем это вы им так насолили?
+        Text=Надо вам поумерить свой пыл и направить его в более правильное русло, занявшись наконец доминаторами.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRelations=War
+    }
+    34 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Good,Best
+        PlayerRank=Cadet,Pilot,Wingman,Leader,Ace,Commander, Admiral
+        PlayerRating=Average,Big,Huge
+        Priority=20
+        Text=Приветствуем, наш прославленный соотечественник, рейнджер <Player>! Знаем, что вы хороший рейнджер, и гордимся вами.
+        Text=Тут пришла бумага из системы <ToStar>, что дескать вас там разыскивают и хотят посадить в тюрьму. Мы заступались как могли, но они не желают с нами говорить. У этой расы странные представления о законе. Мы рекомендуем вам туда более не летать, а то вас немедленно арестуют и посадят в тамошнюю тюрьму.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsPlayerRace=No
+        ToPlanetRelations=War
+    }
+    35 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        Priority=50
+        Text=Приветствуем, рейнджер <Player>! Наши соседи с планеты <ToPlanet> требуют немедленной вашей выдачи. Мы же считаем вас неплохим рейнджером, поэтому отказали им.
+        Text=Но они собираются встретить вас на орбите, о чем мы вас предупреждаем! Будьте бдительны, купите хорошее оружие!
+        ToPlanetInCurStar=Yes
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRelations=War
+    }
+    36 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRace=People
+        PlayerRating=Mini,Small
+        Priority=5
+        Text=Приветствуем тебя, человек, на нашей замечательной планете <CurPlanet>. Заметим, что тебе нужно вести более активный образ жизни. Пока что твой рейтинг среди рейнджеров очень мал.
+    }
+    37 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        PlayerStatus=Pirate,Warrior
+        Priority=5
+        Text=Мы, пеленги, всегда рады видеть прославленных воинов на своей планете. Что скажете насчет провоза контрабанды на планеты других рас?
+        Text=У нас все разрешено!
+    }
+    38 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Any
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Priority=1
+        Text=В то время как вы прогуливаетесь по нашей планете, другие бьются с доминаторами на орбите! Как вам не стыдно, <Player>?!!<br>Эти рейнджеры совсем ничего не соображают...
+    }
+    39 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc,Peleng,People
+        CurPlanetRelations=Good,Best
+        Goods=Arms
+        Priority=10
+        Text=На планете <ToPlanet>, где проживают наши соотечественники, готовится переворот. Цены на вооружение баснословные.
+        Text=Как насчет того, чтобы отвезти в систему <ToStar> партию оружия в <CurPlanetGoodsCnt> единиц, при цене <CurPlanetGoodsSale> cr?<br>Если предложение вас заинтересовало, то идите в торговый центр. Выручку гарантируем.
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetGoodsPermit=Yes
+        ToPlanetGoverment=Anarchy,Dictatorship,Monarchy
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People
+        ToPlanetRaceIsCurPlanetRace=Yes
+    }
+    4 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad
+        Priority=1
+        Text=Какого черта тебе нужно на нашей планете, иноземец <Player>? Тебе здесь совсем не рады.
+    }
+    40 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetGoverment=Republic,Democracy
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng,People,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Luxury
+        Priority=50
+        Text=Расцвет культуры на такой цивилизованной планете, как наша, привел к полной гармонии. Мы давно являемся экспортерами различных произведений искусства. Сегодня предметы роскоши можно купить по цене всего <CurPlanetGoodsSale> cr за условную единицу.
+        Text=Возможно, вы, <Player>, заинтересованы в легальном бизнесе и готовы отвезти партию товара, скажем, в систему <ToStar> на планету <ToPlanet>. Тамошнее монархическое правительство всегда платит хорошие деньги за него.
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetGoodsPermit=Yes
+        ToPlanetGoverment=Monarchy
+        ToPlanetInCurStar=No
+        ToPlanetRace=Peleng,People,Fei,Gaal
+    }
+    41 ^{
+        CurPlanetGoodsCnt=Mini,Small,Average,Big,Huge
+        CurPlanetGoodsPermit=No
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng,People,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Narcotics
+        Priority=3
+        Text=Уважаемый <Player>! Мы рады вас приветствовать на нашей планете. Искренне надеемся, что предметы наркотического содержания вас не интересуют, и вы будете вести на нашей планете исключительно легальную деятельность.
+        Text=Если все же вы помешаны на наркотиках, то летите в систему <ToStar> на планету <ToPlanet>. Там этого добра можно набрать легально, всего по <ToPlanetGoodsSale> cr за условную единицу.
+        ToPlanetGoodsPermit=Yes
+        ToPlanetGoodsSale=Mini,Small,Average
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    42 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad
+        Text=Рейнджер, <Player>, вы плохо зарекомендовали себя в отношениях с нашей планетой и нашей расой вообще. Поэтому, как представитель правительства, довожу до вашего сведения, что заниматься какой-либо коммерческой деятельностью на нашей планете вам запрещено.
+    }
+    43 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Normal,Good
+        Priority=1
+        Text=Как обстановка в космосе, <Player>? Какова цель вашего визита? Есть ли у вас на борту запрещенные грузы? Немедленно отвечайте.
+        Text=Впрочем можно и не отвечать. Все эти вопросы не более чем формальность для представителей нашей расы.
+    }
+    44 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng,Fei
+        CurPlanetRelations=Bad,Normal
+        PlayerRace=Maloc
+        Priority=5
+        Text=Рейнджер <Player>, вам было назначено или вы явились без приглашения? Эти толстомордые малоки шляются где попало и просят, просят... Ну что вам еще надо?
+    }
+    45 ^{
+        CurPlanetGoodsCnt=Mini,Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Alcohol
+        PlayerRace=People
+        Priority=10
+        Text=Уважаемый человек <Player>! Мы рады видеть, как человеческая раса идет по пути прогресса.
+        Text=Услуги нашего космопорта всегда открыты для вас. Вас, наверное, интересует алкоголь? Конечно, не стесняйтесь, мы знаем потребности ваших соотечественников. Товар абсолютно легален, стоимость <CurPlanetGoodsSale> cr за единицу. Приятных покупок!
+    }
+    46 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Maloc,Peleng,People
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRace=Gaal
+        Priority=5
+        Text=Господин <Player>, благодарим вас за посадку на нашей планете. Не каждый день можно увидеть добропорядочного рейнджера, да к тому же представителя столь древней расы. Мы всегда уважали гаальцев. Говорят, что вы вымираете, это правда?
+    }
+    47 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Medicine
+        PlayerRank=Rookie,Cadet
+        Priority=2
+        Text=Глубокоуважаемый <Player>! Мы удостоены приятной чести видеть вас. Наше правительство делает все возможное, чтобы нас посещало как можно больше таких рейнджеров, как вы.
+        Text=Пусть вы пока и не заслужили высокого воинского звания, но мы верим в вас!
+        Text=Да, кстати, пройдите в наш магазин. Там залежалась партия медикаментов, специально для вас. Аж <CurPlanetGoodsCnt> единиц отличного товара.
+    }
+    48 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Good,Best
+        Priority=1
+        Text=Уважаемый <Player>, мы рады приветствовать вас на нашей планете. Что привело вас к нам? Хотите передохнуть после долгих странствий или получить задание?
+        Text=А может, вы хотите купить наши товары? В любом случае, чувствуйте себя как дома!
+    }
+    49 ^{
+        CurPlanetGoodsCnt=Mini,Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Good,Best
+        DominatorsAlreadyDefeated=No
+        Goods=Narcotics
+        Priority=10
+        Text=Рейнджер <Player>!  Рад, что вы залетели к нам. Вы, наверное, давно скитаетесь по системам, и слышали, как там дела в системе <ToStar>? По глазам вижу, не знаете. А мы, пеленги, давно следим за событиями в захваченной системе, но пока ничего не предпринимали, чтобы нас не поняли неправильно. Ну, вы, конечно, поняли, что я имел в виду?
+        Text=Так вот, очень замечательный препарат из высушенной выжимки болотных растений делали на одной из планет системы <ToStar>. Раньше мы устраивали туда нарко... простите, бизнес-туры, но сейчас из-за доминаторов мы лишились этого, можно сказать, святого места. Теперь нам остается лишь ждать, когда вы, рейнджеры, сломите натиск этих тупых железяк.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,People,Fei,Gaal
+        ToStarControlByKling=Yes
+    }
+    5 ^{
+        CurPlanetEconomy=Agriculture,Mixed
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Food
+        Priority=10
+        Text=Приветствуем, <Player>!<br>По нашим сведениям, на планете <ToPlanet> проблемы с продуктами питания. Их запасы ничтожны, а цены велики.
+        Text=Вы, <Player>, можете cделать хорошие деньги, занявшись доставкой наших товаров в систему <ToStar>. Поспешите, сейчас у нас на складе имеется <CurPlanetGoodsCnt> единиц продовольствия.
+        ToPlanetEconomy=Mixed,Industrial
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    50 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Normal,Good,Best
+        PirateInToStar=3,4,5,6,7,8,9,Many
+        PlayerStatus=Pirate
+        Priority=10
+        Text=Ача! Пират, <Player>!  Мы рады, что другие пираты не забывают про своих братьев пеленгов!
+        Text=Мы получили информацию, что в системе <ToStar> собираются некие богатые личности для отдыха на курортных планетах. Это значит, пиратам будет, чем поживиться. Если вы собираетесь туда, то будьте бдительны, не только вы узнали от нас об этом.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    51 ^{
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoverment=Democracy
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Technics
+        Priority=10
+        Text=Уважаемый <Player>! Слышали новость? На соседней планете <ToPlanet>, как всем известно, форма правления - монархия. Мы, конечно, сочувствуем народу, лишенному права голоса на демократических выборах.
+        Text=Их монарх не приемлет технического прогресса, он считает, что технический прогресс убивает душу. Поэтому цены там взвинчены на такого рода продукцию, чем не преминули воспользоваться некоторые деловые личности.
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetGoodsPermit=Any
+        ToPlanetGoverment=Monarchy
+        ToPlanetInCurStar=Yes
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    52 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetGoverment=Anarchy
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc,People,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Narcotics
+        Priority=10
+        Text=Рейнджер <Player>! Сейчас на нашей планете происходит очередная смена правительственного строя, поэтому мы без четкого руководства. И у нас вы сможете приобрести любые запрещенные на других планетах товары, например, лучшие наркотики по лучшим ценам.
+    }
+    53 ^{
+        CurPlanetGoodsBuy=Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Goods=Arms
+        Priority=30
+        Text=Военное положение в нашей системе, <Player>, сподвигло всех жителей нашей планеты вооружаться. Даже мирные жители готовятся дать отпор агрессорам!
+        Text=Сегодня мы покупаем оружие по баснословным ценам. Если вам есть, что продать, то сделайте это, вы только выиграете. А потом сразу в бой. Будем вместе противостоять доминаторам!
+    }
+    54 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        Priority=2
+        Text=Парад, салют, боевые показы! Рейнджер <Player>, сегодня мы отмечаем всемалокский праздник "Семь взрывов".
+        Text=Прошу вас долго меня не задерживать. Вам, инопланетянам, нас не понять.
+    }
+    55 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        Priority=3
+        Text=Рейнджер <Player>, сегодня мы отмечаем всемалокский праздник "Железной хватки". Боевой парад, салют и рукопашные схватки на улицах!
+        Text=Прошу вас долго меня не задерживать. Вам, инопланетянам, нас не понять. Впрочем можете попытаться принять в этом участие в качестве манекена врага. Мы будем вам очень признательны.
+    }
+    56 ^{
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Maloc
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad, Normal,Good,Best
+        Priority=3
+        Text=Это "Большой зажор", <Player>! Очередной всемалокский праздник. Сегодня проводится боевой парад самых крепких и упитанных солдат, каменная борьба сутро и салют, посвященный величию малокской цивилизации!
+        Text=Вам, инопланетянам, лучше сегодня на улице не показываться. Народ сегодня много кушает. Не возникло бы прецедента. Заранее спасибо.
+    }
+    57 ^{
+        CurPlanetPirateClan=No
+        PlayerRank=Ace,Commander, Admiral
+        PlayerRating=Big,Huge
+        Priority=1
+        Text=Рейнджер <Player>! Для нас честь приветствовать великого воина на нашей скромной планете. Если вы посетите наши магазины, то мы будем рассказывать об этом нашим детям.
+    }
+    58 ^{
+        CurPlanetEconomy=Agriculture
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Food
+        PlayerRace=People,Fei
+        PlayerStatus=Trader
+        Priority=60
+        Text=Бизнесмены не обходят нас стороной, вот и уважаемый торговец <Player>. Сразу видно, что боги слышат наши молитвы!
+        Text=Наша планета занимается экспортом пищи уже многие годы. Все продукты питания произведены из высококачественной грязи самых затхлых озер <CurPlanet>. Цена может и высока, но для богатых людей и фэян это не проблема. Специально для вас мы предлагаем в торговом центре великолепную нугу из кремашек и запечанцев, по минимальной цене. Думаю, вам, как опытному предпринимателю, не нужно объяснять, что к чему?
+    }
+    59 ^{
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Goods=Luxury
+        Priority=10
+        Text=Как вас сюда занесло, <Player>? У нас идут ожесточенные бои с силами доминаторов. Мирные жители бегут из системы, продают все, что можно. Цены на предметы роскоши просто невероятно упали!
+        Text=Помогите нам отстоять систему <CurStar>!
+    }
+    6 ^{
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Medicine
+        Priority=10
+        Text=По нашим сведениям, на планете <ToPlanet> сейчас проблемы с медикаментами. Население страдает от болезней, и мы им очень сочувствуем.
+        Text=Вы, <Player>, можете cделать хорошие деньги, занявшись доставкой наших медикаментов в систему <ToStar>. Поспешите, пока более предприимчивые рейнджеры вас не обставили.
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsCnt=Zero,Mini,Small,Average
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+    }
+    60 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Maloc
+        CurPlanetRelations=Bad,Normal
+        DominatorsAlreadyDefeated=No
+        PlayerRace=Maloc
+        PlayerRank=Rookie,Cadet,Pilot,Wingman
+        PlayerStatus=Trader
+        Priority=50
+        Text=Что я вижу, <Player>! Малок-торгаш, гром и молния! От малокских братьев я не мог ожидать такого. А уж тем более от настоящего рейнджера.
+        Text=Не позорь свою расу великих воинов и покорителей галактик! Ты подумал о том, что пришлось пережить твоей семье, твоей матери, гранд-саперу третьего дивизиона 157 десантного полка, когда ты стал грязным торгашом?
+        Text=Вперед, в бой, в галактике еще полным-полно доминаторов! А про свою торговлю забудь, это занятие для проходимцев, мошенников и всяких там людишек.
+    }
+    61 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Fei
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Priority=30
+        Text=Что вы тут делаете, рейнджер <Player>?!!
+        Text=Не время заниматься научными изысканиями и просить у нас задания. А ну-ка, быстрее заправляйтесь, ремонтируйтесь - или что там вам еще нужно - и обратно в бой! В системе доминаторы!
+        Text=...
+        Text=И не спорьте со мной, а то мои головные доли лопнут прямо у вас на глазах! А увидеть это сомнительное удовольствие, уж можете мне поверить.
+    }
+    62 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=People
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Priority=5
+        Text=Люди стекаются к нам в систему, чтобы помочь братьям отразить атаку врагов. Спасибо и вам, <Player>.
+        Text=Прошу вас, поторопитесь, вы нужны там, в бою, на орбите планеты <CurPlanet>, а не здесь, на ее поверхности.
+    }
+    63 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        PlayerRace=Gaal
+        Priority=30
+        Text=Рейнджер <Player>, вы выбрали не самое подходящее время для посадки на планету. Наша система в опасности, доминаторы атакуют с новой силой.
+        Text=В этой ситуации налицо конфликт между доминаторами и гаальцами. Помните, что наша цель - мирными путями разрешить этот конфликт.
+        Text=Мы столько лет прожили в этом мире, что потеряли цель. А в чем цель гаала? Цели нет, есть суть, а суть не может быть найдена в тщетности и суете...
+    }
+    64 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Bad,Normal,Good,Best
+        Goods=Arms
+        PlayerRace=Maloc
+        Priority=30
+        Text=Ну чего вы, <Player>, все, простите, быкуете? Взяли бы, собрали флот и разнесли бы базу этих надменных фэян. Знаю, знаю, они вам, малокам, ох как не нравятся.
+        Text=Так это, купите у нас партию оружия. Знаете, очень качесс-ственно, очень хорошо! И - как вы, малоки, любите - очень много, аж <CurPlanetGoodsCnt> ед!
+    }
+    65 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Narcotics
+        PlayerRace=Gaal
+        Priority=20
+        Text=И угораздило же тебя, <Player>, уродиться гаальцем. Ты сразу таким древним на свет родился, или операцию по обезображиванию сделал?
+        Text=Что, обиделся? А это не мои слова, это фэяне и люди так говорят о вас. Я всего лишь открываю тебе правду. Кроме нас, пеленгов, разве от кого услышишь хоть слово правды? Вот то-то.
+        Text=Так это, если тяжело тебе жить-то, мож купишь у нас травки? Харашш-шо! У нас есть на складе <CurPlanetGoodsCnt> ед. этого товара - тебе по специальной цене, конечно! Мы гаальцев очень уважаем!
+    }
+    66 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRace=People
+        Priority=10
+        Text="Мушик сказал - мушик сделал!" Это я про вас, <Player>! Приятно слышать? Конечно! Я знаю много человеческих поговорок!
+        Text=Или вот еще: "Пес, ты мне за это заплатишь!" Звучит, да? Я думаю, что пес, это что-то типа малока, нечто тупое и непослушное. А заплатить малок всегда успеет. Денег только у них мало, мы им поставили банкоматы фэянские с хитрецой, и теперь со всех операций мы получаем половину денег. А малоки уже привыкли тратить вдвое больше, думают, что так и надо. Впрочем что вам людям до малоков, когда у вас на пути стоят эти надменные фэяне и чопорные гаальцы. Вашей расе надо продвигаться вместе с нами! Сразу после этой войны мы с вами заключим союз!
+    }
+    67 ^{
+        CurPlanetGoodsPermit=Yes
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Narcotics
+        PlayerRace=Maloc,People,Gaal
+        Priority=10
+        Text=А, <Player>, прекрасно. Тут фэяне нам объявили эмбарго, да. На поставки безвредной травки. Эм-м... Нам не хотелось бы нарушать закон, поэтому, как существу другой расы, вам не составит труда сделать нам небольшой, но скромный подарок. Итак, хотите заработать? Слушайте!
+        Text=На фэянской планете <ToPlanet> нужна она самая. У нас все легально - берете, везете, продаете. Цена закупки <CurPlanetGoodsSale>, а цена продажи <ToPlanetGoodsBuy> cr! Улавливаете разницу? Лучше предложения вам просто не найти!
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetGoodsPermit=No
+        ToPlanetInCurStar=No
+        ToPlanetRace=Fei
+    }
+    68 ^{
+        CurPlanetGoodsCnt=Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetPirateClan=Any
+        CurPlanetRace=Peleng
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Luxury
+        Priority=5
+        Text=Да, <Player>, это судьба. Вы не играли в паратруперс? Это довольно распространенная игра среди нашего круга. Два добровольца, один пеленг, а другой - любой инопланетянин вроде вас, одеваются в специальную форму, в которой они должны совершить пять неумышленных преступлений. При этом жители, конечно, будут вас убивать, мешая совершению акта насилия и вандализма. А наградой за это действо будет служить все то, что вам удастся забрать или украсть, даже если это чардык с ноги верховного лякуши! А тот, кто украдет больше, падет от руки укравшего меньше. О как!
+        Text=Ну, быстрее думайте!..
+        Text=Не хотите играть? Так не годится, уважаемый. Я тогда буду вас тут доставать, пока вы не купите у нас небольшую партию роскоши. Сейчас ее на складе аж <CurPlanetGoodsCnt> единиц, отсчет пошел!
+    }
+    69 ^{
+        CurPlanetGoodsCnt=Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=No
+        CurPlanetRace=Peleng
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Technics
+        Priority=10
+        Text=Че-то у меня голова болит от этих компьютерных игр. Эти проклятые четырехрукие джойстики у меня уже вот где сидят! Невозможно и подумать, как можно после этого думать о продолжении. Вы хотя бы понимаете, что я вам предлагаю?!! Море прекрасных джойстиков, мнемонических сидюков и всякой другой дряни, необходимой находчивому бизнесмену!
+        Text=Щас сверюсь с прайсом для оптовых покупателей. Да, на складе есть <CurPlanetGoodsCnt> единиц отборного товара, по <CurPlanetGoodsSale> cr! Это прекрасно, <Player>, это ваша судьба совершить такую покупку! Поспешите в наш торговый центр!
+    }
+    7 ^{
+        CurPlanetGoodsBuy=Big,Huge
+        CurPlanetPirateClan=Any
+        CurPlanetRelations=Bad
+        Goods=Minerals
+        Priority=30
+        Text=Что ты здесь забыл, <Player>? Тебе не разрешается заниматься торговыми сделками на нашей планете. И это твоя проблема, потому как мы скупаем полезные ископаемые по любым ценам. Но у тебя мы принципиально не купим ничего.
+    }
+    70 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Bad
+        Text=Вы, <Player>, вовсе не тот, кого мне хотелось бы видеть в своем кабинете. Так что вам запрещается заниматься какой-либо коммерческой деятельностью на этой планете.
+    }
+    71 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal
+        Priority=1
+        Text=А, <Player>, чего вы тут потеряли? Не сказал бы, что ваше появление вызывает у меня бурю положительных эмоций. Скорее даже наоборот.
+    }
+    72 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good
+        Priority=1
+        Text=Замечательно, что вы зашли, <Player>! Я очень рад нашей встрече! Говорите, чего хотели, я внимательно внимаю.
+    }
+    73 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Best
+        Priority=1
+        Text=Всегда рады вас видеть, <Player>! Хотите пару стопочек втыкиллы или секретное задание? А может быть и то и другое, ха-ха?
+    }
+    74 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad
+        Priority=1
+        Text=Какого черта тебе нужно на нашей планете, <Player>? Проваливай, пока я не позвал своих шестерок, и они не проломили твой тупой инопланетный череп!
+    }
+    75 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Normal,Good,Best
+        Priority=1
+        Text=Приветствуем, <Player>! Мы всегда рады видеть родную рожу вроде вашей на планете <CurPlanet>.
+    }
+    76 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRank=Cadet,Pilot,Wingman,Leader
+        PlayerRating=Mini,Small
+        Priority=10
+        Text=Та-ак, рейнджер <Player>. Лычка <PlayerRank> говорит о том, что вы не очень-то хорошо выполняете свои рейнджерские обязанности. Это правильно, мы тут не любим выскочек - рейнджеров, которые горой стоят за Коалицию.<br>Имейте в виду, если станете таким, то к нам лучше не прилетайте. Вместо этого становитесь пиратом, и будут вам почет и уважение.
+    }
+    77 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=People,Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRank=Rookie,Cadet,Pilot,Wingman,Leader,Ace
+        PlayerRating=Mini,Small,Average
+        PlayerStatus=Pirate
+        Priority=10
+        Text=А вот пиратов мы, <Player>, не любим! Вы словно ложка острого малокского соуса в бочке с нежным нектаром.<br> Ха-хах, да шучу я, шучу! Вы, пираты, славные ребята, я от вас тащусь. Разбой, контрабанда... эх, романтика. Если бы я не добился роскошной возможности бесполезно обсиживать стул в этой комнате - обязательно пошел бы в пираты и сам.
+    }
+    78 ^{
+        CurPlanetEconomy=Mixed,Industrial
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetGoodsPermit=Yes
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=Maloc,People,Fei,Gaal
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Technics
+        PlayerStatus=Pirate
+        Priority=30
+        Text=Добро пожаловать, <Player>. Мы всегда рады пиратам, навещающим нашу планету. Хоть вы и иноземец, но явно славный малый, так что не торопитесь улетать, погостите у нас пару дней, осмотрите достопримечательности, поторгуйте на рынке.
+        Text=Кстати, просьба к вам, не в службу, а в дружбу - купите на нашей планете партию техники. А то никто не берет, понимаешь... :-(
+    }
+    79 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=Maloc,People,Fei
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad,Normal
+        PlayerRace=Peleng
+        Priority=2
+        Text=Что грязный четырехрукий пеленг <Player> забыл на нашей процветающей планете? Он, скорее всего, прилетел, чтобы разнюхать наши планы и потом продать их Коалиции?
+    }
+    8 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Normal,Good,Best
+        Priority=1
+        Text=Приветствуем соотечественника, рейнджер <Player>! Мы всегда рады видеть вас на планете <CurPlanet>.
+    }
+    80 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good,Best
+        DominatorsAlreadyDefeated=No
+        PlayerRank=Leader,Ace,Commander, Admiral
+        Priority=10
+        Text=Прославленный рейнджер <Player> собственной персоной. Мы здесь не любим таких как ты, имей это в виду. Разумеется, мы не можем вышвыривать всех рейнджеров с планеты, потому что это будет вредно для торговли, но ходя по улицам почаще оглядывайся, чтобы какой-нибудь молодой и резвый пиратик не проломил тебе голову. Поверь, в суде его оправдают. Лети-ка ты лучше в звездную систему <ToStar>, постреляй вместе с военными доминаторов. Ты же это любишь.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToStarControlByKling=Yes
+    }
+    81 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal,Good,Best
+        DominatorsAlreadyDefeated=No
+        KlingInToStar=3,4,5,6,7,8,9,Many
+        PlayerRating=Mini,Small
+        Priority=10
+        Text=На систему <ToStar> напали доминаторы. Нам-то, конечно, пофиг на этих неудачников, однако если доминаторы там окопаются, то скоро доберутся до этой планеты, а нашествие этих железок очень вредит бизнесу. Так что просим вас, <Player>, помогите отвести потенциальную угрозу от границ нашей системы.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=Yes
+        ToStarInBattle=Yes
+    }
+    82 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetGoodsCnt=Small,Average,Big,Huge
+        CurPlanetGoodsSale=Mini,Small,Average
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal,Good,Best
+        DominatorsAlreadyDefeated=No
+        Goods=Medicine
+        KlingInToStar=4,5,6,7,8,9,Many
+        Priority=50
+        Text=Сейчас в системе <ToStar> идут кровопролитные бои с доминаторами. Вы, <Player>, можете существенно помочь своей расе, если вам не лень, конечно.
+        Text=В случае, если в вас все же заговорит рейнджерская совесть, захватите с собой партию медикаментов, которые можете приобрести здесь же, на нашей планете. Как видите, мы заботимся не только о других, но и о себе!
+        ToPlanetGoodsBuy=Big,Huge
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=No
+        ToPlanetRaceIsPlayerRace=Yes
+        ToStarInBattle=Yes
+    }
+    83 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good,Best
+        DominatorsAlreadyDefeated=No
+        KlingInToStar=4,5,6,7,8,9,Many
+        Priority=50
+        RangerInToStar=3,4,5,6,7,8,9,Many
+        Text=<Player>, все лучшие рейнджеры сейчас собрались в системе <ToStar>, сражаются вместе с вашими соотечественниками пытаясь отбить ее у доминаторов, и гибнут пачками в кровопролитной битве. А все лучшие пираты сейчас живут припеваючи, считают денежки и их жизни ничто не угрожает. Вот и скажите, кто умнее?
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsCurPlanetRace=Yes
+        ToStarControlByKling=Yes
+        ToStarInBattle=Yes
+    }
+    84 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good,Best
+        PlayerRating=Mini,Small,Average
+        Priority=10
+        Text=Приветствуем, <Player>! Вы уверенно занимаете место где-то в самом конце списка рейнджеров - и правильно. Нечего плясать под дудку Коалиции, выполняя разные дурацкие задания. У нас вот никакого пиратского рейтинга нет, но мы этим фактом ни капли не расстроены. Кстати, на планете <ToPlanet> вас разыскивают как опасного преступника, так держать!
+        Text=Продолжайте в том же духе и заслуженная слава в рядах пиратского сообщества не заставит себя ждать.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRelations=War
+    }
+    85 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        CurPlanetRaceIsPlayerRace=Yes
+        CurPlanetRelations=Good,Best
+        PlayerRank=Cadet,Pilot,Wingman,Leader,Ace,Commander, Admiral
+        PlayerRating=Average,Big,Huge
+        Priority=20
+        Text=Здорово, рейнджер <Player>. Ты хороший рейнджер и это нам не нравится. Это намек, если что.
+        Text=Кстати, тут пришла бумага из системы <ToStar>, что дескать тебя там разыскивают и хотят посадить в тюрьму. К сожалению, у нас недостаточно ресурсов, чтобы переправить тебя туда самостоятельно, так что радуйся. Вообще, я считаю, что всем рейнджерам место в тюряге, чтобы они на своей шкуре попробовали каково быть опущенным типом.
+        ToPlanetInCurStar=No
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRaceIsPlayerRace=No
+        ToPlanetRelations=War
+    }
+    86 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Good,Best
+        Priority=50
+        Text=Ага, рейнджер <Player>, вот и вы! Имейте в виду, что наши соседи с планеты <ToPlanet> требуют немедленной вашей выдачи. Мы вас выгораживать не будем, так что разбирайтесь с ними сами, как хотите.
+        Text=Кстати, они собираются встретить вас на орбите, так что советуем прикупить в нашем магазине парочку пушек помощнее, чтобы деньги не пропали зазря после вашей смерти.
+        ToPlanetInCurStar=Yes
+        ToPlanetRace=Maloc,Peleng,People,Fei,Gaal
+        ToPlanetRelations=War
+    }
+    87 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=Fei,Gaal
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRace=People
+        PlayerRating=Mini,Small
+        Priority=5
+        Text=Приветствуем тебя, человек, на нашей замечательной планете <CurPlanet>. Заметим, что тебе нужно вести более пиратский образ жизни. У тебя имеется небольшой рейнджерский рейтинг, но в идеале его не должно быть вообще. Имей это в виду, на будущее.
+    }
+    88 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=Maloc,Peleng,People
+        CurPlanetRelations=Normal,Good,Best
+        PlayerRace=Gaal
+        Priority=5
+        Text=Господин <Player>, благодарим вас за посадку на нашей планете. Не каждый день можно увидеть добропорядочного рейнджера, да к тому же представителя столь древней расы. Хотя, по правде говоря, было бы здорово, если бы рейнджеры всех рас мучительно скончались в эту самую минуту. При всем моем к вам уважении, конечно.
+    }
+    89 ^{
+        CurPlanetGoodsCnt=Average,Big,Huge
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Normal,Good,Best
+        Goods=Medicine
+        PlayerRank=Rookie,Cadet
+        Priority=2
+        Text=<Player>, ваш рейнджерский рейтинг неуклонно растет! Немедленно прекратите прокачивать его, или наши с вами отношения будут безвозвратно испорчены. Лучше займитесь пиратской деятельностью.
+        Text=Да, кстати, пройдите в наш магазин. Там залежалась партия медикаментов, специально для вас. Аж <CurPlanetGoodsCnt> единиц отличного товара.
+    }
+    9 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Normal,Good,Best
+        DominatorsAlreadyDefeated=No
+        PlayerRank=Cadet,Pilot,Wingman,Leader
+        PlayerRating=Mini,Small
+        Priority=10
+        Text=О, рейнджер <Player>! Заходите! Лычка <PlayerRank> говорит о том, что вы не даете доминаторам жить спокойно. Сейчас сверимся с информацией от центров рейнджеров...<br>Так, так... Не густо...<br>Что же вы, <Player>, не сдаете им ноды? На вас жалуются. Вы в рейтинге в самом отстойнике, и это очень грустно! Надо вам пошевеливаться.
+    }
+    90 ^{
+        CoalitionAlreadyDefeated=No
+        CurPlanetPirateClan=Yes
+        DominatorsAlreadyDefeated=No
+        PlayerRank=Ace,Commander, Admiral
+        PlayerRating=Big,Huge
+        Priority=1
+        Text=Великий воин <Player>, рад вас видеть. К сожалению, у вас не хватило ума, чтобы вместо бесконечных сражений с доминаторами сделать карьеру великого пирата, но каждому свое, каждому свое. Можете даже оставить мне свой автограф, чтобы я потом рассказывал детям про то, как просвещал вас однажды на тему упущенных возможностей.
+    }
+    91 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=Fei
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Priority=30
+        Text=Что вы тут делаете, <Player>?!!
+        Text=Не время заниматься научными изысканиями и просить у нас задания. А ну-ка, быстрее заправляйтесь, ремонтируйтесь - или что там вам еще нужно - и обратно в бой! В системе доминаторы!
+        Text=...
+        Text=И не спорьте со мной, не то мои головные доли лопнут прямо у вас на глазах! А увидеть это сомнительное удовольствие, уж можете мне поверить.
+    }
+    92 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRace=People
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Yes
+        Priority=5
+        Text=К сожалению даже пираты не застрахованы от нападений доминаторов, <Player>. Сейчас именно такой случай.
+        Text=Прошу вас, поторопитесь со взлетом, вы нужны нам в бою, на орбите планеты <CurPlanet>, а не здесь, на ее поверхности.
+    }
+    93 ^{
+        CurPlanetPirateClan=No
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattlePirates=Yes
+        Priority=1
+        Text=В то время как вы прогуливаетесь по нашей планете, другие бьются с пиратами на орбите! Как вам не стыдно, <Player>?!!<br>Или вы сами поддерживаете этих негодяев? Тогда стыд вам и позор!
+    }
+    94 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRaceIsPlayerRace=No
+        CurPlanetRelations=Bad
+        Priority=10
+        Text=Мы, <Player>, вовсе не рады тебя видеть, потому что ты никудышный и неприятный гуманоид. Поэтому мы запрещаем тебе заниматься коммерческой деятельностью на этой планете. И скажи спасибо, что я не позвал братков, они бы они выставили тебя отсюда в два счета.
+    }
+    95 ^{
+        CurPlanetPirateClan=Yes
+        CurPlanetRelations=Bad,Normal,Good,Best
+        CurStarInBattle=Any
+        CurStarInBattlePirates=Yes
+        Priority=10
+        Text=В то время как вы просиживаете здесь свои штаны, <Player>, наши внешние рубежи обороны подвергаются атаке. А ну-ка быстро за штурвал, и бегом помогать свободным пиратам отстаивать свою независимость.
+    }
+    96 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        Priority=13
+        Text=О, дружище, привет. А мы тут как раз с парнями отмечали... ну, это... что-то...
+        Text=В общем, неважно, слушай свежий анекдот. Прилетает как-то раз гаальский торговец на пеленгскую планету, а там его встречает таможенник в порту и говорит... ну, это... гмм...
+        Text=Нет, что-то сегодня с памятью, определенно. Не буду тебе больше ничего рассказывать... Кстати, ты ведь еще не говорил, чего тебе надо?
+    }
+    97 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        Priority=11
+        Text=У нас тут нынче пираты всем заправляют, <Player>, так что держи ушки на макушке, если физиология позволяет. У меня вот самого вчера кошелек отобрали, так пришлось потом три часа на том месте проторчать, прежде чем сам смог у кого-то бабло отжать. Замерз, устал и не выспался перед работой. Так что имей в виду.
+    }
+    98 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        DominatorsAlreadyDefeated=No
+        Priority=9
+        Text=Данная планета находится под контролем доми... тьфу, опять оговорился. Под контролем пиратов она находится, имей это в виду, <Player>. У нас тут теперь особые порядки и все можно, но любого при этом могут пристрелить. Это новая ступень эволюции общества и прежде чем начать спорить на эту тему имей в виду, что у меня в столе лежит заряженный бластер. Так что лучше говори, чего ты хотел, а не разводи демагогию.
+    }
+    99 ^{
+        CurPlanetPirateClan=Yes
+        CurStarInBattle=No
+        CurStarInBattlePirates=No
+        Priority=7
+        Text=Здорово, <Player>! Я вот только что ребятам говорил, что гаальцы самые опасные пираты, все из-за этого их странного мировоззрения. А ты как считаешь, опаснее гаальцы, чем малоки или нет? А один гаальский пират опаснее двух малоков? А что, если у гаальца при этом не работает генератор защитного поля и у одного из малоков броня корабля совсем маленькая? Не, если не хочешь - не отвечай, я чисто интереса ради спрашиваю, так-то мне пофиг.
+        Text=Чего хотел вообще?
+    }
+    CountGovGreetings=120
+}

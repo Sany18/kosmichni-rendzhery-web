@@ -1,0 +1,11 @@
+FormPlanetNO ^{
+    Caption=Планета <Name>
+    Complate=Исследовано: <val>
+    Hill=Горы
+    Land=Равнины
+    Satellite=Исследовательские зонды
+    SatelliteInPlanet=Оставить на орбите планеты <Name> зонды для исследований?
+    Space=Площадь: <val>
+    TimeLeft=Осталось: <val> дн.
+    Water=Океан
+}

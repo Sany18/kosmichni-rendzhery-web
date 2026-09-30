@@ -1,0 +1,38 @@
+FormMods ^{
+    ButReset=Отключить все
+    ErrorInvalidConfiguration=Невозможно выполнить, т.к. согласно прописанным связям между модами требуется одновременно включить и выключить <ModName>!
+    ErrorNoDependency=Невозможно выполнить, отсутствует необходимый мод - <ModName>!
+    GroupNameForMisc=Разное
+    GroupNameForMissing=Не найдено
+    GroupNameForOther=Другое
+    InfoAuthor=Автор: <Name>
+    InfoAuthorUnknown=Автор неизвестен
+    InfoAuthors=Авторы: <Name>
+    InfoConflicts=Несовместим с: <Mods>
+    InfoDependencies=Требует: <Mods>
+    InfoName=Модификация <Name>
+    InfoPath=Расположение: <Path>
+    NoDescription=Описание отсутствует.
+    NoMods=Не установлено ни одной модификации!
+    ProblemsInfoConflicts=- имеются конфликты с другими активными модами (<Mods>)
+    ProblemsInfoDependencies=- для корректной работы требуется включение дополнительных модов (<Mods>)
+    ProblemsInfoDependencies2=- не найден необходимый для работы мод <Mod>
+    ProblemsInfoForeign=- отсутствует перевод на выбранный язык игры
+    ProblemsInfoHeader=Имеются проблемы с модификацией <Name>:
+    ProblemsInfoMisplaced=- некорректное расположение
+    ProblemsInfoMissing=- не найдены файлы мода!
+    ProblemsInfoSharedName=- присутствуют другие моды с тем же именем (<Mods>), что мешает работе системы зависимостей
+    ProblemsInfoSharedName2=- присутствуют другие моды с тем же именем (<Mods>), что может помешать работе системы зависимостей
+    QuerySelectDependency=Выберите <ModName>:
+    QuerySelectDependencyFirst=Имеются зависимости от других модов, для которых найдено более одного одноименного варианта. Перейти к ручному выбору варианта, который следует использовать для подключения?
+    QueryTurnOffWithExtra=При отключении мода <ModName> будут отключены следующие зависимые от него моды:
+    QueryTurnOffWithExtra=<ModsList>
+    QueryTurnOffWithExtra=Продолжить?
+    QueryTurnOnWithExtra0=При подключении мода <ModName> будут выполнены следующие изменения:
+    QueryTurnOnWithExtra1=- <color=0,140,0>подключено</color> <ModsList>
+    QueryTurnOnWithExtra2=- <color=200,0,0>отключено</color> <ModsList>
+    QueryTurnOnWithExtra3=Продолжить?
+    QueryWrongOrderFix=В текущей конфигурации моды подключены с нарушением порядка приоритета, что может мешать их корректной работе. Исправить порядок подключения?
+    Title=Модификации
+    WarningAchievements=Внимание! Результаты партии, пройденной с включенными модами, не будут приниматься в таблицу рекордов, также не будут засчитываться достижения. Исключение составляют моды с пометкой о легальности.
+}

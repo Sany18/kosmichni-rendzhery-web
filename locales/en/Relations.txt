@@ -1,0 +1,9 @@
+Relations ^{
+    Type ^{
+        0=Hostile
+        1=Poor
+        2=Normal
+        3=Good
+        4=Excellent
+    }
+}

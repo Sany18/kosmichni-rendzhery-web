@@ -1,0 +1,19 @@
+Cheat ^{
+    DayWait=<br>У вас есть <CurPoints> очков.<br> <br>Чит будет доступен через <Day> дней.
+    Info=Чит: <Name>
+    Info=Стоимость: <CheatPoints>
+    Mod_Ammo=Боеприпасы
+    Mod_Domik=Доминаторы:
+    Mod_DomikExtremal=Стандартные
+    Mod_DomikHellish=Ад
+    Mod_DomikHorrible=Ужас
+    Mod_DomikNightmare=Кошмар
+    Mod_God=Неуязвимость
+    Mod_Stasis=Стазис
+    Mod_Technic=Техник
+    Mod_Ultrascan=Ультрасканер
+    Ok=<br>Чит успешно запущен!<br>
+    Ok=Всего использовано <AllPoints> чит-очков.
+    SelectABMap=Выбор гипер-карты
+    Warning=Читы
+}

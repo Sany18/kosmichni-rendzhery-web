@@ -1,0 +1,76 @@
+Help ^{
+    ABItemDamage=Сила оружия <color=255,245,80>+50%</color>
+    ABItemDefence=Защита <color=255,245,80>+50%</color>
+    ABItemFast=Ускорение
+    ABItemInvisible=Невидимость
+    ABItemLife=Аптечка
+    ABItemLock=Блокиратор
+    ABItemReload=Перезарядка <color=255,245,80>+100%</color>
+    ABItemSlow=Замедление
+    ABSphere=Сгусток (Вход: <color=255,245,80>Enter</color>)
+    ABWeapon1=<WeaponName> (Стрелять: <color=255,245,80>Ctrl</color>, Выбрать: <color=255,245,80><SelectKey></color>, Режим: <color=255,245,80>Shift+<SelectKey></color>)
+    ABWeapon2=<WeaponName> (Стрелять: <color=255,245,80>Shift</color>, Выбрать: <color=255,245,80><SelectKey></color>, Режим: <color=255,245,80>Shift+<SelectKey></color>)
+    ButABPause=Стоять (<color=255,245,80>Space</color>)
+    ButABPlay=Лететь (<color=255,245,80>Space</color>)
+    ButAI=Автопилот (<color=255,245,80>A</color>)
+    ButBreakMove=Остановить полет (<color=255,245,80>Space</color>)
+    ButCaptain=Капитан (<color=255,245,80>G</color>)
+    ButCenterShip=Отцентровать корабль (<color=255,245,80>C</color>)
+    ButExploration=Исследование местности (<color=255,245,80>E</color>)
+    ButFilm=История полетов (<color=255,245,80>H</color>)
+    ButGalaxy=Галактическая карта (<color=255,245,80>M</color>)
+    ButGoods=Торговый центр (<color=255,245,80>T</color>)
+    ButGov=Правительство (<color=255,245,80>G</color>)
+    ButHangar=Ангар (<color=255,245,80>H</color>)
+    ButInfo=Информационный центр (<color=255,245,80>I</color>)
+    ButLogo=Меню (<color=255,245,80>Esc</color>)
+    ButPlanet=Планета (<color=255,245,80>P</color>)
+    ButQuest=Журнал заданий (<color=255,245,80>Q</color>)
+    ButRating=Рейтинг рейнджеров (<color=255,245,80>R</color>)
+    ButRefuel=Заправка (<color=255,245,80>B</color>)
+    ButRepair=Починка (<color=255,245,80>A</color>)
+    ButScaner=Сканирование корабля (<color=255,245,80>I</color>)
+    ButSearchArtefact=Выполнить квест (<color=255,245,80>Q</color>)
+    ButSelAllWeapon=Выбрать все оружие (<color=255,245,80>~</color>)
+    ButShip=Корабль (<color=255,245,80>S</color>)
+    ButShop=Магазин оборудования (<color=255,245,80>E</color>)
+    ButShowWeapon=Показать/спрятать оружие (<color=255,245,80>W</color>)
+    ButTakeoff=Взлет (<color=255,245,80>F</color>)
+    ButTalk=Разговор с кораблем (<color=255,245,80>T</color>)
+    ButTurn=Конец хода (<color=255,245,80>Space</color>)
+    ButW0=Оружие (<color=255,245,80>1</color>)
+    ButW1=Оружие (<color=255,245,80>2</color>)
+    ButW2=Оружие (<color=255,245,80>3</color>)
+    ButW3=Оружие (<color=255,245,80>4</color>)
+    ButW4=Оружие (<color=255,245,80>5</color>)
+    Filter_0=Фильтр: Пушки (<color=255,245,80>Num 1</color>)
+    Filter_1=Фильтр: Оборудование (<color=255,245,80>Num 2</color>)
+    Filter_2=Фильтр: Артефакты (<color=255,245,80>Num 3</color>)
+    Filter_3=Фильтр: Микромодули (<color=255,245,80>Num 4</color>)
+    Filter_4=Фильтр: Товары, ноды и ошметки (<color=255,245,80>Num 5</color>)
+    Filter_5=Фильтр: Разное (<color=255,245,80>Num 6</color>)
+    ForsageOff=Форсаж выключен
+    ForsageOn=Форсаж включен
+    InterceptorsOutRange=Объект вне оперативного радиуса истребителей
+    InterceptorsSet=Установлена новая цель для истребителей
+    LabelDate=Текущая дата
+    LabelFreeSpace=Объем свободного места на корабле
+    LabelMoney=Деньги
+    LandingCancelPirate=Посадка запрещена - только члены пиратского клана могут посещать доминион!
+    LandingCancelScript=Посадка запрещена - сейчас база закрыта!
+    LandingCancelWar=Посадка запрещена - отношение базы враждебное!
+    MoveAuto=Автоматическая битва
+    MoveBreak=Ход остановлен. Дождитесь завершения дня.
+    MoveLanding=Совершить посадку
+    MoveNear=Максимально приблизиться
+    MoveShot=Приблизиться на расстояние выстрела
+    ScanImpossible=Сканирование невозможно
+    ScanOutRange=Объект вне зоны видимости радара
+    ScanPowerLow=Не хватает мощности сканера
+    ShotCancel=Стрельба отменена
+    ShotOutRange=Объект вне радиуса прицеливания
+    ShotSet=Цель установлена
+    Speed0=Скорость корабля нулевая!<br>Проверьте наличие двигателя и топливного бака.<br>Если корабль перегружен, избавьтесь от лишнего груза.
+    TalkImpossible=Разговор невозможен
+    TalkOutRange=Объект вне зоны видимости радара
+}

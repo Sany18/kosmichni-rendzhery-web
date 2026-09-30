@@ -1,0 +1,12 @@
+Race ^{
+    Name ^{
+        Fei=Faeyans
+        Gaal=Gaals
+        Kling=Dominators
+        Maloc=Maloqs
+        None=Unknown
+        Peleng=Pelengs
+        People=Humans
+        PirateClan=Pirates
+    }
+}

@@ -1,0 +1,25 @@
+FormLoadRobot ^{
+    Cancel=Отмена
+    Caption=Бои: Быстрый запуск
+    Dif1=100% <color=149,149,149>(Нет)</color>
+    Dif2=80% <color=149,149,149>(Поддержка с воздуха)</color>
+    Dif3=80% <color=149,149,149>(Усиленная броня)</color>
+    DifCap=Сложность <color=149,149,149>(Бонусы)</color>
+    Group0=Оригинальные
+    Group1=Карты аддона
+    Group2=Свои
+    Length0=Малая
+    Length1=Ниже средней
+    Length2=Средняя
+    Length3=Выше средней
+    Length4=Большая
+    PPlace=Планета Каракис Мальора, система Маркаб
+    PPlanet=Каракис Мальора
+    PPlayer=Греф
+    PStar=Маркаб
+    Start=Старт
+    StdBegin=Begin!
+    StdDefeat=Defeat!
+    StdVictory=Victory!
+    Time=Время: <Val>
+}

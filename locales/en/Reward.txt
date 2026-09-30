@@ -1,0 +1,346 @@
+Reward ^{
+    0 ^{
+        Name=Order of the Ox
+        Race=Maloc
+        Status=Pirate
+        Text=The Hunen black ox is the traditional maloq symbol of power, fury and uncontrollability. Order of the Ox was established to distinguish the pirates who have earned the respect of the maloqs in the war with the dominators.
+        Type=ForLiberationSystem
+    }
+    1 ^{
+        Name=Calcite Spearhead
+        Race=Maloc
+        Status=Any
+        Text=This ancient maloq spearhead is awarded to warriors who have liberated a maloq system from the dominators. Considered to be a very honorable award.
+        Type=ForLiberationSystem
+    }
+    10 ^{
+        Name=Crankshaft
+        Race=Fei
+        Status=Trader
+        Text=A miniature reward from the entire Facet Coalition for the businessmen who contribute to the struggle against the dominators in spite of their busy schedules. It is fashioned in the shape of the greatest faeyan invention -- a cogwheel, which marked the dawn of their industrial revolution.
+        Type=ForLiberationSystem
+    }
+    11 ^{
+        Name=Small Anglum
+        Race=Gaal
+        Status=Any
+        Text=An official award from the Gaalian Security Magistrate for warriors who have distinguished themselves liberating planetary systems.
+        Type=ForLiberationSystem
+    }
+    12 ^{
+        Name=Kanven-Iviris Medal
+        Race=Gaal
+        Status=Any
+        Text=Established by the Gaalian Ranger Support Fund, the award is translated from gaalian as "No Peace for Aggressors." It is given to pilots fighting against dominators.
+        Type=ForLiberationSystem
+    }
+    13 ^{
+        Name=Order of Dignity
+        Race=Any
+        Status=Any
+        Text=An award instituted by the Galactic Council. It is given to rangers and other pilots actively fighting the dominators.
+        Type=ForLiberationSystem
+    }
+    14 ^{
+        Name=Guard's Pennant
+        Race=Maloc
+        Status=Any
+        Text=A token decorating its owner as a top notch fighter. Awarded for heroism comparable to that of the maloq people.
+        Type=ForAccomplishment
+    }
+    15 ^{
+        Name=Dirty Kamikaze Badge
+        Race=Peleng
+        Status=Any
+        Text=This special token was established to honor the old peleng custom of mud fighting. It is awarded to those who distinguish themselves before the peleng people.
+        Type=ForAccomplishment
+    }
+    16 ^{
+        Name=Frog in a Circle
+        Race=Peleng
+        Status=Pirate
+        Text=An award in the shape of a frog in a circle, symbolizing the protection afforded to pelengs by all races. It is given to pirates who don't forget their peleng brothers and associates.
+        Type=ForAccomplishment
+    }
+    17 ^{
+        Name=Red Pantheon
+        Race=Peleng
+        Status=Pirate
+        Text=An honorary peleng award for contributing to space entrepreneurship and sabotage. The owner is presumably a pirate who's willing to defend the values of the peleng civilization to the end.
+        Type=ForAccomplishment
+    }
+    18 ^{
+        Name=Hero's Gold Star
+        Race=People
+        Status=Any
+        Text=An honorary human award, signifying one's services before humanity. Awarded to the select few. Shines especially bright in the setting rays of the human Sun.
+        Type=ForAccomplishment
+    }
+    19 ^{
+        Name=Triple Oreon
+        Race=People
+        Status=Any
+        Text=An expanding three-layered disk containing the fingerprints of this century's prominent figures. The outer layer boasts the owner's freshly made fingerprints. A great honor and decoration, this award is given to those humanoids who have distinguished themselves before humanity.
+        Type=ForAccomplishment
+    }
+    2 ^{
+        Name=Killing Blow
+        Race=Maloc
+        Status=Warrior
+        Text=Made using the traditional maloq method -- with the supreme commander himself flattening the section of a dominator ship with his fist. Awarded to fighters who have selflessly liberated dominator-captured systems.
+        Type=ForLiberationSystem
+    }
+    20 ^{
+        Name=Ashian Ribbon
+        Race=Fei
+        Status=Any
+        Text=A ribbon with the three colors of Ashian -- the "city of progress" at Eipentak -- blue, purple and white. Awarded to persons who have assisted the faeyan civilization.
+        Type=ForAccomplishment
+    }
+    21 ^{
+        Name=Big Anglum
+        Race=Gaal
+        Status=Any
+        Text=The highest official award issued by the gaalian government. Awarded for outstanding services before the gaalian people.
+        Type=ForAccomplishment
+    }
+    22 ^{
+        Name=Uranium Milk
+        Race=Gaal
+        Status=Any
+        Text=A one-of-a-kind award of gamma radiation. They say if you put it to your head several times a day, you can clear your mind of all impure thoughts.
+        Type=ForAccomplishment
+    }
+    23 ^{
+        Name=Elite Guard Medal
+        Race=Maloc
+        Status=Any
+        Text=Upon completing an especially dangerous special mission, pilots are raised to the status of elite maloq guards, granted the appropriate honors and awarded the corresponding symbol.
+        Type=ForSecretMission
+    }
+    24 ^{
+        Name=Secret Force Order
+        Race=Maloc
+        Status=Pirate
+        Text=An award for the optimal execution of special operations. Awarded to pirates who never fail to complete a mission entrusted to them, unlike merchants and diplomats.
+        Type=ForSecretMission
+    }
+    25 ^{
+        Name=Dancing Pirate Badge
+        Race=Peleng
+        Status=Any
+        Text=This pirate award was named after the famous peleng clan of Dancing Pirates. Awarded for special achievements in the fight against the enemies of the peleng people.
+        Type=ForSecretMission
+    }
+    26 ^{
+        Name=Dried Bubbles
+        Race=Peleng
+        Status=Pirate
+        Text=Formerly given to those who have drowned in green swamps, it has been decided to include pirates to this list. Awarded for carrying out special operations for the benefit of the peleng race.
+        Type=ForSecretMission
+    }
+    27 ^{
+        Name=Green Mike
+        Race=Peleng
+        Status=Any
+        Text=A medal of swamp special services. Made from the highest grade mud, it confers unique antiseptic qualities during absorption. Recommended to wear under clothing.
+        Type=ForSecretMission
+    }
+    28 ^{
+        Name=Aaron King's Badge
+        Race=People
+        Status=Any
+        Text=The exact copy of the aluminum badge worn by the legendary spy Aaron "Rapper" King. The official award of human special services.
+        Type=ForSecretMission
+    }
+    29 ^{
+        Name=Galobutton
+        Race=Fei
+        Status=Any
+        Text=Awarded to pilots who have distinguished themselves while carrying out secret missions for the faeyan government; functions both as a souvenir and a pricey optical toy.
+        Type=ForSecretMission
+    }
+    3 ^{
+        Name=Warrior Board
+        Race=Maloc
+        Status=Warrior
+        Text=An honorary maloq award for warriors of elite detachments. Lists all of the fighter's combat achievements. Carries particular distinction in the rare event it is not issued posthumously.
+        Type=ForLiberationSystem
+    }
+    30 ^{
+        Name=Aibo-3001
+        Race=Fei
+        Status=Pirate
+        Text=A faeyan award for pirates who succeed in completing missions of national importance. Mimics the logo of the world's first robotic company, creators of the Aibo miniature droid model.
+        Type=ForSecretMission
+    }
+    31 ^{
+        Name=Necrylic Pin
+        Race=Gaal
+        Status=Any
+        Text=A sharp necrylic pin with the owner's name encrusted on it. A proper weapon in its own right, the award is given to pilots who actively collaborate with the gaalian security services.
+        Type=ForSecretMission
+    }
+    32 ^{
+        Name=World Map
+        Race=Gaal
+        Status=Any
+        Text=An award shaped like a symbolic map of the Galaxy, marking areas where peace reigns thanks to the efforts of gaalian special services. Awarded by the secret services of the gaalian race.
+        Type=ForSecretMission
+    }
+    33 ^{
+        Name=Diamond Sleeve
+        Race=Any
+        Status=Any
+        Text=Awarded by the Galactic Council to employees of secret services, both regular and freelance. The award signifies that its owner can be entrusted with virtually any task.
+        Type=ForSecretMission
+    }
+    34 ^{
+        Name=Sandy Skull
+        Race=Maloc
+        Status=Any
+        Text=A mark for the most despicable quality a maloq can possess - cowardice. The skull is said to crumble to dust if the cowardly owner finally becomes brave. The theory is yet to be confirmed.
+        Type=ForCowardice
+    }
+    35 ^{
+        Name=Rabbit Head
+        Race=People
+        Status=Any
+        Text=A miniature furry rabbit head with sulfur eyes decorates the collection of a fighter who has disgraced himself with contemptible cowardice before the human civilization.
+        Type=ForCowardice
+    }
+    36 ^{
+        Name=Mongo Burdock
+        Race=Fei
+        Status=Any
+        Text=The faeyan government awards pilots not known for their courage a Mongo Burdock -- a plant with a peculiar, acrid odor and a symbol of cowardice.
+        TextOld=The faeyan government awards pirates not known for their courage a Mongo Burdock -- a plant with a peculiar, acrid odor and a symbol of cowardice.
+        Type=ForCowardice
+    }
+    37 ^{
+        Kill=Warrior
+        Name=Black Mark
+        Race=Any
+        Status=Any
+        Text=A sign of tremendous shame. It marks the bearer as a dangerous recidivist who attacks military ships and undermines peaceful relations between races.
+        TextOld=A sign of tremendous shame. It marks the bearer as a coward who flees the field of battle.
+        Type=ForPerfidy
+    }
+    38 ^{
+        Kill=Ranger
+        Name=Rusty Nail
+        Race=Any
+        Status=Any
+        Text=A mark of disgrace, this rusty nail in the third stage of corrosion is reserved for brave pilots turned heinous traitors, having turned their weapons against their former brothers-in-arms.
+        TextOld=A mark of disgrace, this rusty nail in the third stage of corrosion is reserved by maloqs for brave combat pilots turned heinous traitors.
+        Type=ForPerfidy
+    }
+    39 ^{
+        Kill=Transport
+        Name=Black Heart
+        Race=Any
+        Status=Any
+        Text=Serves as proof that its bearer has lost all sense of morality and is known to ruthlessly plunder and destroy peaceful trade ships.
+        TextOld=Serves as proof that its bearer has lost all sense of morality.
+        Type=ForPerfidy
+    }
+    4 ^{
+        Name=Trident Order
+        Race=Peleng
+        Status=Any
+        Text=Shaped like a war trident -- an ancient weapon used by Rakhish warriors in their heyday -- this order is issued by the peleng government to those who have distinguished themselves in the fight against the dominators.
+        Type=ForLiberationSystem
+    }
+    40 ^{
+        Name=Order of Saab
+        Race=Maloc
+        Status=Warrior
+        Text=A rare award in the form of two crossed red sabers. Bestowed for liberating maloq planets from dominator control. The military high command never forgets its heroes.
+        Type=ForPlanetBattle
+    }
+    41 ^{
+        Name=Otto the Slug
+        Race=Peleng
+        Status=Pirate
+        Text=This piece sample of an award souvenir is conferred to pirates who have contributed great efforts to destroy the remains of dominator forces on peleng planets, dear to every pirate.
+        Type=ForPlanetBattle
+    }
+    42 ^{
+        Name=Mario Brother
+        Race=People
+        Status=Trader
+        Text=A memorable statuette for rangers whose entrepreneurial mindset has helped to sweep dominator forces off human planets. Fashioned in the honor of the great Mario, who, according to legend, rescued not only his beloved but the whole world from a grave threat.
+        Type=ForPlanetBattle
+    }
+    43 ^{
+        Name=Quartz Sting
+        Race=Fei
+        Status=Any
+        Text=A medal with an internal driving mechanism, displaying time on all faeyan planets simultaneously. Awarded to heroic rangers who have liberated faeyan planets from the metallic occupiers.
+        Type=ForPlanetBattle
+    }
+    44 ^{
+        Name=Crystal Chakra
+        Race=Gaal
+        Status=Any
+        Text=A special award from the Gaalian Coalition for Freedom And Pure Relations. Bestowed to rangers who have liberated gaalian planets from the dominator troops.
+        Type=ForPlanetBattle
+    }
+    45 ^{
+        Name=Order of Dzuhallag
+        Race=Peleng
+        Status=Any
+        Text=An award issued to members of the Dzuhallag military organization or especially selfless warriors who have displayed extraordinary ability leading combat operations on occupied planets.
+        Type=ForPlanetBattle
+    }
+    46 ^{
+        Name=Quack Commendation
+        Race=Maloc
+        Status=Any
+        Text=The maloq government awards this commendation to warriors who have defied the odds and managed to liberate a maloq planet from an overwhelming dominator force.
+        Type=ForPlanetBattle
+    }
+    47 ^{
+        Name=Helping Hand
+        Race=People
+        Status=Any
+        Text=Awarded by the human government for assisting in the execution of a successful military campaign against the remnants of dominator forces on planets belonging to the human race.
+        Type=ForPlanetBattle
+    }
+    5 ^{
+        Name=Swamp Spirit
+        Race=Peleng
+        Status=Pirate
+        Text=A hermetically sealed metallic microsarcophagus, storing the scent of peleng swamps. Must not be opened, lest the relic will discharge aromatic gases and lose its value. This honorary award is reserved for pirates who have played an active role in liberating a peleng system from the dominator forces.
+        Type=ForLiberationSystem
+    }
+    6 ^{
+        Name=Congressional Medal
+        Race=People
+        Status=Any
+        Text=The award is issued by the Congress of the Confederation to warriors who strive to rid the Galaxy of dominators.
+        Type=ForLiberationSystem
+    }
+    7 ^{
+        Name=Nominal Coin
+        Race=People
+        Status=Trader
+        Text=Bearing the engraving of the owner's name, this platinum stamped coin is worth one thousand credits and serves as a special award from the human government's chamber of commerce. Bestowed to merchant pilots who have achieved success in the war with the dominators.
+        Type=ForLiberationSystem
+    }
+    8 ^{
+        Name=Ivicus
+        Race=Fei
+        Status=Any
+        Text=Essentially a sphere made of holographic phosphorite and encrusted in white energens, this faeyan Ivicus is an honorary award for warriors who have found success in the struggle against the dominators.
+        Type=ForLiberationSystem
+    }
+    9 ^{
+        Name=Mercine Pendant
+        Race=Fei
+        Status=Trader
+        Text=A pendant made from super-expensive mineral mercine. Founded by the faeyan government, this extremely honorary award is bestowed to merchants for their participation in battles against the dominators.
+        Type=ForLiberationSystem
+    }
+    Count=48
+}

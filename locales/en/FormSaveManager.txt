@@ -1,0 +1,24 @@
+FormSaveManager ^{
+    AutoSave=Automatic Save
+    Cancel=Cancel
+    CaptionLoad=Load Game
+    CaptionSave=Save Game
+    DateFormatStr=(hh:nn, dd.mm.yyyy)
+    Delete=Delete
+    Load=Load
+    LoadDumpConfirm=There is a text dump for this save. Do you want to load it (the save will become unfit for sending to RT and getting achievements)?
+    LoadError=Loading Error
+    Loading=L O A D I N G
+    New=New Save
+    QueryDelete=Delete saved game?
+    QueryQuick=Load quicksave?
+    QueryQuickN=Load quicksave N<Num>?
+    QueryReloadMods=Loading error, the most likely reason is the mismatch of the mods. Try again after matching set of mods with the save file?
+    QuickNotExist=No quicksave to load
+    QuickNotExistN=Quicksave N<Num> does not exist
+    Save=Save
+    SaveError=Saving Error
+    SaveInPlanet=Planet <Planet>
+    SaveInShip=<ShipName>
+    SaveInSpace=<Star> System
+}

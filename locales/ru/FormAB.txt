@@ -1,0 +1,18 @@
+FormAB ^{
+    DangerAverage=Средняя
+    DangerBig=Высокая
+    DangerHuge=Смертельная
+    DangerMini=Нет
+    DangerSmall=Низкая
+    InfoDanger=Опасность:
+    InfoExit=Выходов:
+    InfoName=Гиперпространственный сгусток материи
+    InfoPirate=Пираты:
+    InfoSize=Размер:
+    MenuLose=Вы проиграли...
+    QueryExit=Хотите покинуть гипер?
+    TextExit=Для завершения нажмите SPACE или ESC
+    Unknow=Неизвестно
+    Win=В ы  п о б е д и л и !
+    WinItems=Оставшееся оборудование противника:
+}

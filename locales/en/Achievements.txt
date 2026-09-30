@@ -1,0 +1,334 @@
+Achievements ~{
+    AchievementReceived=Achievement unlocked <br>'<Achievement>'!
+    Achieved=Achieved:
+    Caption=Achievements
+    Of=/
+    AGENT ^{
+        Description=Complete 50 government missions
+        Name=Secret Agent
+    }
+    ARCHEOLOGY ^{
+        Description=Survey 30 000 sq. km of territory on uninhabited planets
+        Name=Archeologist
+    }
+    BLACKHEAD ^{
+        Description=Destroy 200 non-combat ships
+        Name=Black Skull
+    }
+    BREZHNEV ^{
+        Description=Get all possible decorations
+        Name=Brezhnev Descendant
+    }
+    BUMMER ^{
+        Description=Complete the game without completing any mission
+        Name=I Don't Have Time For This
+    }
+    CHAMPION ^{
+        Description=Complete the game with a score of at least 50 000
+        Name=Champion
+    }
+    DOLGOZHID ^{
+        Description=Finish the game in at least 100 years, earning a score of at least 20 000
+        Name=Long-lived
+    }
+    HOLEMAN ^{
+        Description=Eliminate 500 ships in hyperspace
+        Name=Ethereal
+    }
+    ILL ^{
+        Description=Recover from all the possible illnesses
+        Name=Eternal Healthcare
+    }
+    KIBERMAN ^{
+        Description=Complete the game without loading a save
+        Name=Hardcore Nerdiness
+    }
+    MANYFACES ^{
+        Description=Change your race 30 times
+        Name=Many Faces
+    }
+    MONEY ^{
+        Description=Hoard 10 000 000 credits
+        Name=It's Never Enough
+    }
+    NARKOMAN ^{
+        Description=Try all the drugs in known universe
+        Name=Addict
+    }
+    OLDFAG ^{
+        Description=Earn 5 000 000 experience points
+        Name=Old Guard
+    }
+    PEACELOVER ^{
+        Description=Complete the game without shooting down any ships
+        Name=True Pacifist
+    }
+    PIECECREATOR ^{
+        Description=Liberate Gralgar system
+        Name=Peacemaker
+    }
+    PRISON ^{
+        Description=Serve 10 sentences in a jail
+        Name=Jailbird
+    }
+    SHIELD ^{
+        Description=Kill 500 pirates
+        Name=Guardian
+    }
+    SPEED ^{
+        Description=Reach speed of 2300 points
+        Name=Need for Velocity
+    }
+    SPRINTER ^{
+        Description=Complete the game in less than 7 (game) years
+        Name=FTL
+    }
+    TERMINATOR ^{
+        Description=Defeat Blazer in a fair fight in space
+        Name=Terminator
+    }
+    MASTER ^{
+        Description=Have 6 wingmen under your command at the same time
+        Name=Natural Born Leader
+    }
+    POSTMAN ^{
+        Description=Fail 10 parcel deliveries
+        Name=Postman
+    }
+    HULL ^{
+        Description=Find the secret hull "Shadow of the Empire"
+        Name=Power Overwhelming
+    }
+    PIRATE ^{
+        Description=Conquer 10 solar systems for the pirate clan
+        Name=Yo-ho-ho
+    }
+    FRY ^{
+        Description=Fry 10 ships with a star
+        Name=Well Done
+    }
+    COALLITION ^{
+        Description=Eliminate the pirate threat
+        Name=For Coalition!
+    }
+    DEALER ^{
+        Description=Sell goods for 5 000 000 credits total
+        Name=Tycoon
+    }
+    JUMPER ^{
+        Description=Make 500 hyperjumps
+        Name=Hyperactivity
+    }
+    DEFENDER ^{
+        Description=Defend 20 systems from Dominator or pirate assault
+        Name=Phalanx
+    }
+    NEGOCIANT ^{
+        Description=Convince 15 pirates to cease attack of another ship without using weapons
+        Name=Negotiator
+    }
+    HATER ^{
+        Description=Make sure you're hated by every race of the Coalition at the same time
+        Name=Pariah
+    }
+    CREDITOR ^{
+        Description=Fail to pay 3 debts in time
+        Name=Defaulter
+    }
+    HOLEPEACE ^{
+        Description=Defeat your enemies in a black hole without using weapons
+        Name=I Didn't Do Anything Wrong, Sir
+    }
+    SKILL ^{
+        Description=Max out all skills
+        Name=Been There, Seen That
+    }
+    GUARD ^{
+        Description=Successfully complete 30 system defence missions
+        Name=You Shall Not Pass
+    }
+    SCIENCE ^{
+        Description=Research all Dominator technologies at a science base
+        Name=Light of Science
+    }
+    IRONMAN ^{
+        Description=Win 40 planetary battles
+        Name=Robot General
+    }
+    BOMBER ^{
+        Description=Vaporize 5 ships in one turn using quark bombs
+        Name=Splash Damage
+    }
+    ROCKET ^{
+        Description=Destroy 150 ships using missiles
+        Name=Fire & Forget
+    }
+    CONTRABAND ^{
+        Description=Sell at least 200 illegal shipments (50 units or more each)
+        Name=Smuggler
+    }
+    ASTEROID ^{
+        Description=Pulverize 100 asteroids
+        Name=Space Miner
+    }
+    QUEST ^{
+        Description=Complete 30 text adventures
+        Name=Reading Is Your Friend
+    }
+    KELLERRESEARCH ^{
+        Description=Send Keller to explore the galaxy
+        Name=New Frontier
+    }
+    KELLERDESTROY ^{
+        Description=Destroy Keller in the hyperspace
+        Name=Hasta La Vista
+    }
+    BLAZERPROGRAM ^{
+        Description=Take a scientific approach to the Blazer problem
+        Name=Blazzard
+    }
+    BLAZERPIECE ^{
+        Description=Force Blazer to land on a Coalition planet
+        Name=You're Grounded
+    }
+    TERRONSTAR ^{
+        Description=Send Terron on a star conversion mission
+        Name=Transform This
+    }
+    TERRONBATTLE ^{
+        Description=Land on the Terron and defeat it in a planetary battle
+        Name=Death From Above
+    }
+    PIRATESYSTEMS ^{
+        Description=Help pirates conquer all the known systems
+        Name=Captain Chaos
+    }
+    NODES ^{
+        Description=Accumulate 25 000 nodes
+        Name=Noda Bene
+    }
+    RATING ^{
+        Description=Take the lead in rangers rating
+        Name=Pole Position
+    }
+    RUINS ^{
+        Description=Fund the construction of 20 Coalition bases
+        Name=Please Donate
+    }
+    PIRATEWIN ^{
+        Description=Help the pirates defeat the Coalition
+        Name=Galaxy in Flames
+    }
+    BEST ^{
+        Description=Upgrade all the equipment of your ship at a science base
+        Name=Prototype
+    }
+    COMMANDOR ^{
+        Description=Get promoted to the "Admiral" military rank
+        Name=Commander
+    }
+    BARON ^{
+        Description=Get promoted to the "Baron" pirate rank
+        Name=Baron
+    }
+    GIRLSQUEST ^{
+        Description=Complete all the missions given by female special agents
+        Name=Henpecked
+    }
+    GIRLSHIRE ^{
+        Description=Hire three female special agents
+        Name=Ranger's Angels
+    }
+    SHU ^{
+        Description=Kill the original Mr. Shu
+        Name=Copyright
+    }
+    SIDECHANGER ^{
+        Description=Switch your allegiance from Coalition to pirates (or vice versa) at least 15 times
+        Name=Uncertainty principle
+    }
+    ENERGY ^{
+        Description=Destroy 250 ships using energy weapons
+        Name=High energy
+    }
+    SCRATCHDAMAGE ^{
+        Description=Do only 1 HP damage per shot to a ship 20 times
+        Name=Ricochet
+    }
+    SPLINTER ^{
+        Description=Destroy 200 ships using splinter weapons
+        Name=Splinters of the Empire
+    }
+    EXPLORER ^{
+        Description=Land on 100 uninhabited planets
+        Name=That's one small step for a man
+    }
+    TRANCLUCATORS ^{
+        Description=Activate 10 Tranclucator units in space simultaneously
+        Name=Glory to Robots!
+    }
+    SUNFUEL ^{
+        Description=Scoop 40 fuel into a single tank from a star
+        Name=Thermonuclear Gas Station
+    }
+    TERRORIST ^{
+        Description=Destroy 30 Coalition bases in space
+        Name=Demolition Man
+    }
+    COUNTERTERRORIST ^{
+        Description=Destroy 30 Pirate bases in space
+        Name=Copyright Holder
+    }
+    BLUEKILLS ^{
+        Description=Destroy 500 Keller series Dominators
+        Name=Unscientific
+    }
+    GREENKILLS ^{
+        Description=Destroy 500 Terron series Dominators
+        Name=The Grass Was Greener
+    }
+    REDKILLS ^{
+        Description=Destroy 500 Blazer series Dominators
+        Name=War Is Just War
+    }
+    BERTORSLAYER ^{
+        Description=Destroy 50 Bertor-class ships
+        Name=Monster Mania
+    }
+    MAPBUILDER ^{
+        Description=Reveal the star map completely before January 1st, 3304
+        Name=Mercator wannabe
+    }
+    HACKER ^{
+        Description=Use anti-dominator programs (except Intercom) 100 times
+        Name=Hacktivist
+    }
+    DELIVERY ^{
+        Description=Complete 50 delivery missions
+        Name=Mr. Postman
+    }
+    INVESTOR ^{
+        Description=Get 300 000 cr. profit from a single deposit
+        Name=Fat Cat
+    }
+    INSURANCE ^{
+        Description=Your relatives must receive 20 000 cr. insurance after your death
+        Name=Insure Yourself
+    }
+    PRISONBAIL ^{
+        Description=Pay bribes and free 30 prisoners from a jail
+        Name=Nobody Will Be Left Behind
+    }
+    ROBBER ^{
+        Description=Rob ships 100 times
+        Name=This Is Our Territory!
+    }
+    WARRIORKILLS ^{
+        Description=Destroy 100 Coalition military ships
+        Name=Gulp Of Freedom
+    }
+    DRAIN ^{
+        Description=Drain 10 000 HP from enemy ships to yours
+        Name=Mechanical Vampire
+    }
+}

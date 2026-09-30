@@ -1,0 +1,130 @@
+ABMap ^{
+    01 ^{
+        Access=1
+        Desc=The arena features corridors long and wide, as well as a few spikes that may help a savvy pilot achieve victory without firing even a single shot.
+        Dif=0
+        Image=Map01.jpg
+        Map=ABMap.map_1
+        Name=Pursuit
+    }
+    02 ^{
+        Access=1
+        Desc=An adventure for fans of aggressive gaming, where pure firepower is your best bet. The bubble is fairly large with objects scattered throughout the surface, making it difficult to find cover in the arena.
+        Dif=0
+        Image=Map02.jpg
+        Map=ABMap.map_2
+        Name=Arena of Justice
+    }
+    03 ^{
+        Access=1
+        Desc=Narrow passages and treacherous gravitational spikes that grab hold of ships flown by careless pilots at the bends are but a few on a long list of surprises that await rangers in this arena.
+        Dif=0
+        Image=Map03.jpg
+        Map=ABMap.map_3
+        Name=Pandorica
+    }
+    04 ^{
+        Access=1
+        Desc=This spherical arena will please fans of strategy and the fae, all of whom are obsessive military tacticians. With numerous narrow passageways branching out from the main route, there is always an opportunity for crafty tricks and maneuvers.
+        Dif=1
+        Image=Map04.jpg
+        Map=ABMap.map_4
+        Name=Los-Lasonium
+    }
+    05 ^{
+        Access=1
+        Desc=A radial, average-sized map furnished with a few spikes that could either help you best your opponent or prove to be your undoing. It all depends on which one of you gets lucky.
+        Dif=2
+        Image=Map05.jpg
+        Map=ABMap.map_5
+        Name=Centrifuge
+    }
+    06 ^{
+        Access=1
+        Desc=Loaded with objects, this arena makes it downright impossible to travel at high speeds. On the other hand, there's tremendous potential to hone your <color=0,69,231>mobility</color> skill. Recommended for novices who wish to raise their piloting skill.
+        Dif=1
+        Image=Map06.jpg
+        Map=ABMap.map_6
+        Name=Labyrinth
+    }
+    07 ^{
+        Access=1
+        Desc=The contours of this recently opened hyperspatial bubble resemble a ball used in a classic game from the ancient times -- <color=0,69,231>faceball</color> (official translation from Ancient English). For this reason, it is immensely popular among human rangers and pirates.
+        Dif=0
+        Image=Map07.jpg
+        Map=ABMap.map_7
+        Name=Ball
+    }
+    08 ^{
+        Access=1
+        Desc=Popular thanks to its unusual form, this wondrous hyperbubble boasts contours that mirror exactly the only shape in gaalian geometry that has borders. The bubble is protected by law, and vandalism is strictly prohibited. For this very reason, it is especially popular among pirates.
+        Dif=2
+        Image=Map08.jpg
+        Map=ABMap.map_8
+        Name=Polyhedral Gaalexagon
+    }
+    09 ^{
+        Access=1
+        Desc=Yet another unique bubble, artificially cultivated by the renowned gaal thinker and scientist <color=0,69,231>Krooldyn</color>. A construct of several loops, linked together by narrow corridors and packing a few surprises in the center, both pleasant and not so much.
+        Dif=1
+        Image=Map09.jpg
+        Map=ABMap.map_9
+        Name=Artificale
+    }
+    10 ^{
+        Access=1
+        Desc=Three paths were bequeathed to us by the great prophet <color=0,69,231>Fayelienoa</color>, three choices offered by the thinkers of years past, three roads presented by the ancient legends. The laws of faeyan shui necessitate that at the base this hyperbubble must lie another triangle, its energy rays running parallel to the corridors that branch outward from the center.
+        Dif=3
+        Image=Map10.jpg
+        Map=ABMap.map_10
+        Name=Tricyclism
+    }
+    11 ^{
+        Access=1
+        Desc=Along the "equator" of this rather interesting bubble, pirates are known to stage illegal drag races. Half the size of what it once was, the arena folded on itself after a critical energy mass overload, leaving only half of the bubble fit for operation. If you listen hard to sounds coming from the other side of the bubble's wall, you can still hear opposing ships going at it.
+        Dif=3
+        Image=Map11.jpg
+        Map=ABMap.map_11
+        Name=Hemisphere
+    }
+    12 ^{
+        Access=1
+        Desc=This arena is of primary interest to researchers of hyperspace bubbles, as well as pirates hunting said researchers of hyperspace bubbles. Due to an extraordinary whim of nature, the bubble features mostly right angles, adding a measure of difficulty to maneuvering.
+        Dif=3
+        Image=Map12.jpg
+        Map=ABMap.map_12
+        Name=Quadrubble
+    }
+    13 ^{
+        Access=1
+        Desc=A large hyperbubble with wide corridors, which not only aids maneuverability and skirmishing with the enemy, but makes even a simple flight pure pleasure. The arena bears the name of its discoverer, who, for reasons unknown, wasn't able to escape the bubble and ended up dying inside it. The official report claims that his ship had caught on the spikes, causing critical damage to the engine and grounding the ship to the sinister berth, where it ultimately perished.
+        Dif=3
+        Image=Map13.jpg
+        Map=ABMap.map_13
+        Name=Reegbar's Arena
+    }
+    14 ^{
+        Access=1
+        Desc=Shaped like a cross, this arena has been officially added as a pilgrimage site for followers of the <color=0,69,231>Bubblism</color> religion, believing that inside the hyperbubble they have a greater chance of hearing the voice of God. One thing is clear: those who encounter pirates in this bubble are very much likely to not only hear God, but see him as well.
+        Dif=2
+        Image=Map14.jpg
+        Map=ABMap.map_14
+        Name=Cross
+    }
+    15 ^{
+        Access=1
+        Desc=This bubble, known for being well suited for combat, was allegedly the favorite hangout place for the infamous bandit <color=0,69,231>Rachehan</color>, who used to gather his pirate forces here before leading raids on other hyperbubbles and the outer part of the Galaxy. These days you can often meet pirates from the <color=0,69,231>Rachehan's Children</color> clan here, renowned for their ruthlessness and a tendency to destroy any ship they encounter, including pirate ships of other clans.
+        Dif=3
+        Image=Map15.jpg
+        Map=ABMap.map_15
+        Name=Rachehania
+    }
+    16 ^{
+        Access=1
+        Desc=This one-of-a-kind round bubble was formed as a direct consequence of <color=0,69,231>Keller</color> generating a black hole. Few who get to see this arena of death firsthand live to tell about it. Thus, unsubstantiated rumors dominate the informational landscape, mostly relating to the advantages of nonstandard combat tactics in this bubble.
+        Dif=3
+        Image=Map16.jpg
+        Map=ABMap.map_boss
+        Name=Kelleriada
+    }
+}

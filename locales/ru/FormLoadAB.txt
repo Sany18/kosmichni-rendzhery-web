@@ -1,0 +1,7 @@
+FormLoadAB ^{
+    Cancel=Отмена
+    Caption=Аркадные бои: Быстрый запуск
+    Group0=Оригинальные
+    Group1=Свои
+    Start=Старт
+}

@@ -1,0 +1,3 @@
+FormRewards ^{
+    Title=Rewards
+}

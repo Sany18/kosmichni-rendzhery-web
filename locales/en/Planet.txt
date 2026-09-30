@@ -1,0 +1,59 @@
+Planet ^{
+    Civil ^{
+        Info ^{
+            BadDopInfo=You are not allowed to visit:
+            BadDopInfo=- equipment store
+            BadDopInfo=- trade center
+            BadDopInfo=- information center
+            TextAboutPlanet=Resident race: <Race>
+            TextAboutPlanet=Population: <Population> million
+            TextAboutPlanet=Economic system: <Economy>
+            TextAboutPlanet=Political system: <Goverment>
+            TextAboutPlanet=Your reputation: <Relation>
+            TextNamePlanet=Planet <Planet>
+            TextPlanetControlledByPirates=Controlled by pirates
+        }
+    }
+    Kling ^{
+        Info ^{
+            TextAboutPlanet=Resident race: <Race>
+            TextAboutPlanet=Under dominator control
+            TextAboutPlanet=Landing impossible
+        }
+    }
+    MainPiratePlanet ^{
+        Info ^{
+            TextAboutPlanet=Hide-out for the pirate clan leaders.
+            TextAboutPlanet=Despite of its huge size, evidently requires major repair and doesn't pose a threat to anyone.
+            TextAboutPlanetAlt=Former hide-out for the pirate clan leaders.
+            TextAboutPlanetAlt=Despite of its huge size, evidently requires major repair and doesn't pose a threat to anyone.
+        }
+    }
+    Name=Planet
+    NotCivil ^{
+        AllExplore=explored
+        Info ^{
+            TextAboutPlanet=Sentient life not detected.
+            TextAboutPlanet=No spaceport available, landing undesirable.
+            TextAboutPlanet=Unexplored territories
+            TextAboutPlanet=Water: <Water> / Plains: <Land> / Mountains: <Hill>
+        }
+        QuestPlay ^{
+            MsgContinue=Next
+            MsgDeath=The great ranger's life has ended
+            MsgFail=Quest failed
+            MsgFailPrison=Taking off!
+            MsgLoad=Would you like to return in time and try the quest again?
+            MsgReplayQuest=Restart quest
+            MsgSuccess=Mission accomplished
+            MsgSuccessPrison=You were released on bail
+        }
+        Treasure ^{
+            Few=Low treasure value
+            Lots=Very high treasure value
+            Many=High treasure value
+            Nothing=No treasure
+            Some=Medium treasure value
+        }
+    }
+}
