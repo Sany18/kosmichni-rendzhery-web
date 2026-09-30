@@ -13,9 +13,10 @@
   "Options": "Настройки",
   "Score": "Рекорды",
   "SubName": "Доминаторы: Перезагрузка",
-  "Version": "(C) 2013-2025 1С-Софтклаб. Дополнение разработано СНК-Games. Версия <Value>.",
+  "Version": "Web port by Hoxz",
   "Version2": [
-    "(C) 2013-2025 1С-Софтклаб.",
-    "Дополнение разработано СНК-Games. Версия <Value>."
-  ]
+    "",
+    "Web port by Hoxz"
+  ],
+  "Support": "Support"
 }

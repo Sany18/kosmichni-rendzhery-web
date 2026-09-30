@@ -1,21 +1,22 @@
 {
-  "About": "About the Authors",
-  "Demo": "Demo",
-  "Exit": "Exit",
-  "Help": "Help",
-  "LAB": "Arcade Battles",
-  "LMods": "Mods",
-  "LQuest": "Text Quests",
-  "LRobot": "Planetary Battles",
-  "Load": "Load",
-  "MsgExit": "Do you really want to quit the game?",
-  "New": "New Game",
-  "Options": "Settings",
-  "Score": "Records",
-  "SubName": "Dominators: Reload",
-  "Version": "(C) 2013-2025 1C-Softclub. Addon developed by CHK-Games. Version <Value>.",
+  "About": "Про авторів",
+  "Demo": "Демонстрація",
+  "Exit": "Вихід",
+  "Help": "Досягнення",
+  "LAB": "Аркадні бої",
+  "LMods": "Модифікації",
+  "LQuest": "Текстові квести",
+  "LRobot": "Планетарні бої",
+  "Load": "Завантажити",
+  "MsgExit": "Вийти з програми?",
+  "New": "Нова гра",
+  "Options": "Налаштування",
+  "Score": "Рекорди",
+  "SubName": "Домінатори: Перезавантаження",
+  "Version": "Web port by Hoxz",
   "Version2": [
-    "(C) 2013-2025 1C-Softclub.",
-    "Addon developed by CHK-Games. Version <Value>."
-  ]
+    "",
+    "Web port by Hoxz"
+  ],
+  "Support": "Support"
 }

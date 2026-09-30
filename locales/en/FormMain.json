@@ -13,9 +13,10 @@
   "Options": "Settings",
   "Score": "Records",
   "SubName": "Dominators: Reload",
-  "Version": "(C) 2013-2025 1C-Softclub. Addon developed by CHK-Games. Version <Value>.",
+  "Version": "Web port by Hoxz",
   "Version2": [
-    "(C) 2013-2025 1C-Softclub.",
-    "Addon developed by CHK-Games. Version <Value>."
-  ]
+    "",
+    "Web port by Hoxz"
+  ],
+  "Support": "Support"
 }
