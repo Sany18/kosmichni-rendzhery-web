@@ -7,7 +7,8 @@ built on the original game data. Play: https://alter-space.biz.ua/space-rangers/
 квести), що працює на оригінальних даних гри.
 
 This repository currently holds the game texts for localization — see
-[locales/README.md](locales/README.md). The rest of the port will be added later.
+[locales/README.md](locales/README.md); compare languages by key:
+https://sany18.github.io/kosmichni-rendzhery-web/locales/ The rest of the port will be added later.
 
 Зараз тут лежать тексти гри для локалізації — див. [locales/README.md](locales/README.md).
 Решту порту буде додано пізніше.

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Localization — Space Rangers web port</title>
+<style>
+  :root {
+    --bg: #0e1418; --panel: #162028; --line: #26343f; --text: #d9e4ea; --dim: #8aa0ad;
+    --accent: #5fb3e0; --warn: #e0b35f; --hl: #213442;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.45 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  header { position: sticky; top: 0; z-index: 2; background: var(--panel);
+    border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap;
+    gap: 10px 16px; align-items: center; }
+  header h1 { font-size: 16px; margin: 0 8px 0 0; font-weight: 600; }
+  select, input[type=search] { background: var(--bg); color: var(--text); border: 1px solid var(--line);
+    border-radius: 6px; padding: 6px 8px; font: inherit; }
+  input[type=search] { min-width: 240px; flex: 1; }
+  label { color: var(--dim); white-space: nowrap; cursor: pointer; }
+  .langs label { margin-right: 8px; }
+  #status { color: var(--dim); font-size: 13px; width: 100%; }
+  main { padding: 0 16px 40px; }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; vertical-align: top; text-align: left; }
+  th { color: var(--dim); font-weight: 500; position: sticky; top: var(--hdr, 56px); background: var(--bg); }
+  td.key { font: 12px/1.4 ui-monospace, Menlo, Consolas, monospace; word-break: break-all; color: var(--accent); }
+  td.txt { white-space: pre-wrap; word-break: break-word; }
+  td.same { color: var(--warn); }
+  td.missing { color: var(--dim); font-style: italic; }
+  tr.target { background: var(--hl); }
+  .acts { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  button { background: transparent; color: var(--dim); border: 1px solid var(--line); border-radius: 5px;
+    padding: 2px 8px; font: 12px system-ui, sans-serif; cursor: pointer; }
+  button:hover { color: var(--text); border-color: var(--dim); }
+  #more { display: block; margin: 16px auto; padding: 6px 16px; font-size: 14px; }
+  #more[hidden] { display: none; }
+  a { color: var(--accent); }
+  @media (max-width: 700px) { th, td { padding: 6px 3px; } input[type=search] { min-width: 100%; } }
+</style>
+</head>
+<body>
+<header id="hdr">
+  <h1>Localization / Локалізація</h1>
+  <select id="section" aria-label="Section"></select>
+  <input id="q" type="search" placeholder="Search key or text in any language / Пошук за ключем або текстом">
+  <span class="langs" id="langs"></span>
+  <label><input type="checkbox" id="untranslated"> <span id="untrLabel">not translated</span></label>
+  <div id="status">Loading…</div>
+</header>
+<main>
+  <table>
+    <thead><tr id="thead"></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <button id="more" hidden>Show more / Показати ще</button>
+</main>
+<script>
+'use strict';
+// Repo on GitHub: file list comes from one Git Trees API call, the JSON files themselves from this site.
+const REPO = 'Sany18/kosmichni-rendzhery-web';
+const BRANCH = 'main';
+const BASE = 'en';          // source language of the port
+const TARGET = 'uk';        // language whose untranslated rows the filter shows
+const PAGE = 300;
+
+const $ = (id) => document.getElementById(id);
+const state = { langs: [], sections: [], shown: new Set(), cache: new Map(), rows: [], limit: PAGE };
+
+async function listFiles() {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/git/trees/${BRANCH}?recursive=1`);
+  if (!r.ok) throw new Error(`GitHub API: ${r.status} (rate limit? try again in a few minutes)`);
+  const langs = new Map();
+  for (const e of (await r.json()).tree) {
+    const m = /^locales\/([^/]+)\/([^/]+)\.json$/.exec(e.path);
+    if (!m) continue;
+    if (!langs.has(m[1])) langs.set(m[1], new Set());
+    langs.get(m[1]).add(m[2]);
+  }
+  return langs;
+}
+
+// Nested section object -> [[key, text], ...]; arrays become numeric path parts (as the port's lang.ts reads them).
+function flatten(obj, prefix, out) {
+  if (obj === null || typeof obj !== 'object') { out.set(prefix, String(obj)); return out; }
+  const entries = Array.isArray(obj) ? obj.map((v, i) => [i, v]) : Object.entries(obj);
+  for (const [k, v] of entries) flatten(v, prefix ? `${prefix}.${k}` : String(k), out);
+  return out;
+}
+
+async function loadSection(lang, section) {
+  const id = `${lang}/${section}`;
+  if (!state.cache.has(id)) {
+    state.cache.set(id, fetch(`${lang}/${encodeURIComponent(section)}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => (j === null ? new Map() : flatten(j, section, new Map())))
+      .catch(() => new Map()));
+  }
+  return state.cache.get(id);
+}
+
+async function collect(sections) {
+  const rows = [];
+  let done = 0;
+  for (const s of sections) {
+    const maps = await Promise.all(state.langs.map((l) => loadSection(l, s)));
+    const keys = new Set();
+    maps.forEach((m) => m.forEach((_, k) => keys.add(k)));
+    for (const k of keys) rows.push({ key: k, t: Object.fromEntries(state.langs.map((l, i) => [l, maps[i].get(k)])) });
+    if (sections.length > 1) $('status').textContent = `Loading sections… ${++done}/${sections.length}`;
+  }
+  return rows;
+}
+
+function matches(row, q, untr) {
+  if (untr && row.t[TARGET] !== undefined && row.t[TARGET] !== row.t[BASE]) return false;
+  if (!q) return true;
+  if (row.key.toLowerCase().includes(q)) return true;
+  return state.langs.some((l) => (row.t[l] ?? '').toLowerCase().includes(q));
+}
+
+function issueUrl(row) {
+  const lines = state.langs.map((l) => `- ${l}: ${row.t[l] ?? '—'}`).join('\n');
+  const body = `Key / Ключ: \`${row.key}\`\n\nCurrent / Зараз:\n${lines}\n\nProposed text / Пропонований текст (${TARGET}):\n\n`;
+  return `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(`[${TARGET}] ${row.key}`)}&body=${encodeURIComponent(body)}`;
+}
+
+function copy(text, btn) {
+  const done = () => { const o = btn.textContent; btn.textContent = 'copied ✓'; setTimeout(() => (btn.textContent = o), 1200); };
+  if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, () => prompt('Copy:', text));
+  else prompt('Copy:', text);
+}
+
+function render() {
+  const cols = state.langs.filter((l) => state.shown.has(l));
+  $('thead').innerHTML = '';
+  const kh = document.createElement('th'); kh.textContent = 'Key / Ключ'; kh.style.width = '24%'; $('thead').append(kh);
+  for (const l of cols) { const th = document.createElement('th'); th.textContent = l; $('thead').append(th); }
+
+  const q = $('q').value.trim().toLowerCase();
+  const untr = $('untranslated').checked;
+  const hit = state.rows.filter((r) => matches(r, q, untr));
+  const target = decodeURIComponent((location.hash.match(/key=([^&]+)/) || [])[1] || '');
+  const frag = document.createDocumentFragment();
+  for (const row of hit.slice(0, state.limit)) {
+    const tr = document.createElement('tr');
+    if (row.key === target) tr.className = 'target';
+    const kd = document.createElement('td'); kd.className = 'key';
+    kd.append(row.key);
+    const acts = document.createElement('div'); acts.className = 'acts';
+    const b1 = document.createElement('button'); b1.textContent = 'copy key'; b1.onclick = () => copy(row.key, b1);
+    const b2 = document.createElement('button'); b2.textContent = 'copy link';
+    b2.onclick = () => copy(`${location.origin}${location.pathname}#key=${encodeURIComponent(row.key)}`, b2);
+    const b3 = document.createElement('button'); b3.textContent = 'suggest edit';
+    b3.onclick = () => window.open(issueUrl(row), '_blank', 'noopener');
+    acts.append(b1, b2, b3); kd.append(acts); tr.append(kd);
+    for (const l of cols) {
+      const td = document.createElement('td');
+      const v = row.t[l];
+      td.className = 'txt' + (v === undefined ? ' missing' : l === TARGET && v === row.t[BASE] ? ' same' : '');
+      td.textContent = v === undefined ? '—' : v;
+      tr.append(td);
+    }
+    frag.append(tr);
+  }
+  $('rows').replaceChildren(frag);
+  $('more').hidden = hit.length <= state.limit;
+  const sec = $('section').value;
+  $('status').textContent = `${hit.length} of ${state.rows.length} strings` + (sec === '*' ? ' in all sections' : ` in ${sec}`) +
+    (untr ? ` · «${TARGET}» same as «${BASE}» shown in yellow` : '');
+  if (target) document.querySelector('tr.target')?.scrollIntoView({ block: 'center' });
+}
+
+async function selectSection() {
+  const s = $('section').value;
+  state.limit = PAGE;
+  $('status').textContent = 'Loading…';
+  state.rows = await collect(s === '*' ? state.sections : [s]);
+  render();
+}
+
+async function main() {
+  const files = await listFiles();
+  state.langs = [BASE, ...[...files.keys()].filter((l) => l !== BASE).sort()].filter((l) => files.has(l));
+  state.shown = new Set(state.langs);
+  state.sections = [...new Set([...files.values()].flatMap((s) => [...s]))].sort();
+  $('untrLabel').textContent = `«${TARGET}» not translated yet`;
+
+  const sel = $('section');
+  sel.append(new Option('All sections (search) / Усі розділи', '*'));
+  for (const s of state.sections) sel.append(new Option(s, s));
+  for (const l of state.langs) {
+    const lab = document.createElement('label');
+    const cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = true;
+    cb.onchange = () => { cb.checked ? state.shown.add(l) : state.shown.delete(l); render(); };
+    lab.append(cb, ' ' + l); $('langs').append(lab);
+  }
+
+  // #key=Section.Key opens that section with the row highlighted
+  const key = decodeURIComponent((location.hash.match(/key=([^&]+)/) || [])[1] || '');
+  sel.value = key && state.sections.includes(key.split('.')[0]) ? key.split('.')[0] : (state.sections.includes('FormMain') ? 'FormMain' : state.sections[0]);
+  sel.onchange = selectSection;
+  let t;
+  $('q').oninput = () => { clearTimeout(t); t = setTimeout(() => { state.limit = PAGE; render(); }, 200); };
+  $('untranslated').onchange = () => { state.limit = PAGE; render(); };
+  $('more').onclick = () => { state.limit += PAGE; render(); };
+  const fit = () => document.documentElement.style.setProperty('--hdr', $('hdr').offsetHeight + 'px');
+  new ResizeObserver(fit).observe($('hdr'));
+  await selectSection();
+}
+
+main().catch((e) => { $('status').textContent = 'Error: ' + e.message; });
+</script>
+</body>
+</html>

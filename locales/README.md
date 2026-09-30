@@ -1,5 +1,9 @@
 # Localization / Локалізація
 
+Compare languages by key, search, copy a key or suggest an edit:
+порівняння мов за ключами, пошук, копіювання ключа чи пропозиція правки —
+https://sany18.github.io/kosmichni-rendzhery-web/locales/
+
 Text data of the Космічні Ренджери HD: A War Apart web port. One JSON file per
 section of the game's language data.
 
