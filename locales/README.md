@@ -17,6 +17,7 @@ locales/
   uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
   <code>/  your translation, same file names as en/
   _data/   non-text values (file names, numbers, resources) — not for translation
+  quests/<code>/<QUEST>.json   text quests (one file per quest; keys = parts of the quest) / текстові квести
 ```
 
 Example / приклад — `en/FormGameMenu.json`:

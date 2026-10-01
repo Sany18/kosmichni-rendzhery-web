@@ -75,10 +75,12 @@ async function listFiles() {
   if (!r.ok) throw new Error(`GitHub API: ${r.status} (rate limit? try again in a few minutes)`);
   const langs = new Map();
   for (const e of (await r.json()).tree) {
-    const m = /^locales\/([^/]+)\/([^/]+)\.json$/.exec(e.path);
+    // text quests live in locales/quests/<lang>/<QUEST>.json and appear as sections «quests/<QUEST>»
+    const q = /^locales\/quests\/([^/]+)\/([^/]+)\.json$/.exec(e.path);
+    const m = q || /^locales\/([^/]+)\/([^/]+)\.json$/.exec(e.path);
     if (!m) continue;
     if (!langs.has(m[1])) langs.set(m[1], new Set());
-    langs.get(m[1]).add(m[2]);
+    langs.get(m[1]).add(q ? `quests/${m[2]}` : m[2]);
   }
   return langs;
 }
@@ -94,7 +96,7 @@ function flatten(obj, prefix, out) {
 async function loadSection(lang, section) {
   const id = `${lang}/${section}`;
   if (!state.cache.has(id)) {
-    state.cache.set(id, fetch(`${lang}/${encodeURIComponent(section)}.json`)
+    state.cache.set(id, fetch(section.startsWith('quests/') ? `quests/${lang}/${encodeURIComponent(section.slice(7))}.json` : `${lang}/${encodeURIComponent(section)}.json`)
       .then((r) => (r.ok ? r.json() : null))
       .then((j) => (j === null ? new Map() : flatten(j, section, new Map())))
       .catch(() => new Map()));

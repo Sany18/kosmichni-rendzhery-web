@@ -6,11 +6,11 @@ built on the original game data. Play: https://alter-space.biz.ua/space-rangers/
 Фанатський веб-порт **Space Rangers HD: A War Apart** (галактична частина й текстові
 квести), що працює на оригінальних даних гри.
 
-This repository currently holds the game texts for localization — see
+This repository currently holds the game texts and the text quests for localization — see
 [locales/README.md](locales/README.md); compare languages by key:
 https://sany18.github.io/kosmichni-rendzhery-web/locales/ The rest of the port will be added later.
 
-Зараз тут лежать тексти гри для локалізації — див. [locales/README.md](locales/README.md).
+Зараз тут лежать тексти гри й текстові квести для локалізації — див. [locales/README.md](locales/README.md).
 Решту порту буде додано пізніше.
 
 Space Rangers HD: A War Apart © Elemental Games, 1C, SNK-Games / CHK-Games.

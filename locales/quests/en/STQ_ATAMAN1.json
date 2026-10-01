@@ -1,0 +1,22 @@
+{
+  "task": "Mission Description",
+  "success": "Congratulations",
+  "loc.1.0": "Pretty good, tough guy. I'll admit that much. They probably promised you my place if you killed me, right?",
+  "loc.2.0": "<Ranger>, it's too bad you aren't capable of thinking for yourself. Instead you unquestioningly offer complete obedience to cowardly traitors who only work for themselves. Do what you will now. I don't have anything else to talk about with you.",
+  "loc.3.0": "Heh. Youth. There was a time when I was just as smart and daring. It seemed the whole world was at my feet - that I could do anything. We were uncontrollable, like the wind, and fearless, like dominators. We created our own destinies. But everything is different now. The pirate society is tangled up in the lies our self-serving leaders are feeding us.",
+  "loc.4.0": "Didn't you notice that reality and the \"truth\" they cram down our throats on the pirate bases have nothing in common? Didn't see that they get rid of pirates who don't benefit them? It's time to take note of the disparity between the words and deeds of pirate society.",
+  "loc.5.0": "Yeah, sure. Over the past few years, thanks to my status as a warlord, I've unearthed several things that the pirate leaders have been carefully hiding. The same leaders who urge us to resist the Coalition have actually long been cooperating with the planetary governments, working in them and on their payroll. Why do we attack some solar systems and don't touch others? Why do we replace government officials on certain planets, but on others we leave them to rule? These are all reasons why there are not two powers opposing each other: the pirates and the Coalition. Instead, across the entire galaxy, dozens of small fronts have opened where each side is fighting solely for its own gain.",
+  "loc.6.0": "All because the pirate leaders have beaten their stories into our heads - stories of the golden age of piracy and the development of akrin technology in particular. But the vast majority of pirates are loafers, nutcases, and thugs, who won't begin to think about whether what is being drummed into their skulls every day is right or wrong. In reality, we aren't developing a thing. All the new technology we receive is from the corrupt governments of the Coalition! Of course, no one will admit this. That's why the pirates want my investigation into their dirty business to end. And the surest way to accomplish this is to kill me, despite the fact that I still have special respect for the societal fund and social contributions.\r\n<Ranger>, if you see truth in my words, please let me live so I can continue my investigation. If you can't do that, then at least don't forget my words, because you'll find them confirmed more and more with each passing day.",
+  "loc.7.0": "I'm glad, <Ranger>, that someone can still have a realistic view of what is happening in the galaxy. You won't regret this. Eventually we will win, if only because the truth is on our side. But before that happens there is a colossal amount of work to do to gather evidence and uncover the secret plans of our enemies, so we won't waste any time. \r\nGood luck to you! Take care!",
+  "jump.2.text": "That's not the thing. You betrayed our ideals. That's why you're going to be liquidated!",
+  "jump.3.text": "Very well. And I'll have this position really soon! I hope you don't mind?",
+  "jump.4.text": "What do you mean?",
+  "jump.5.text": "Strong words. But can you say anything against them?",
+  "jump.6.text": "These are the words of a coward and a traitor! You're not worthy to live!",
+  "jump.7.text": "Once you said that I began to realize that I've always suspected that. But why doesn't anyone else notice it?",
+  "jump.8.text": "I don't believe you. Die, liar!",
+  "jump.9.text": "I've made a decision. Consider yourself officially dead. I hope nobody ever finds out about this. Good luck with your investigation!",
+  "jump.10.text": "I've made a decision. That nonsense you've told me is a blatant lie, so I'm going to do what I was sent here to do!",
+  "param.0.crit": "Сообщение достижения критического значения параметром 1",
+  "param.0.show.0": "Parameter 1: <>"
+}
