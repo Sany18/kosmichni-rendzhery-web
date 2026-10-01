@@ -16,7 +16,6 @@ locales/
   ru/   Russian (original game text)
   uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
   <code>/  your translation, same file names as en/
-  _data/<code>/   non-text values (file names, numbers, resources) — not for translation (uk = copy of en)
   quests/<code>/<QUEST>.json   text quests (one file per quest; keys = parts of the quest) / текстові квести
 ```
 
@@ -36,9 +35,9 @@ Example / приклад — `en/FormGameMenu.json`:
 - Keep markup and placeholders as they are: `<br>`, `<clr>…<clrEnd>`,
   `<color=R,G,B>…</color>`, `<Player>`, `<Money>`, `<Number>` and other `<…>` tags.
   Розмітку й підстановки `<…>` лишайте як є.
-- Only texts are here. File names, numbers and resource references live in `_data/` — do not
-  translate or copy them. / Тут лише тексти; імена файлів, числа й посилання на ресурси — у `_data/`,
-  їх не перекладають.
+- Only texts are here: file names, numbers and resource references are kept out of this repository, there is
+  nothing else to translate. / Тут лише тексти: імена файлів, числа й посилання на ресурси в цьому
+  репозиторії не лежать, більше нічого перекладати не треба.
 - Arrays keep their length and order. / Масиви — тієї ж довжини й у тому ж порядку.
 
 ## Adding a language / Нова мова
