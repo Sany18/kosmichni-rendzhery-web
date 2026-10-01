@@ -220,3 +220,19 @@
 | catch / catch a fish | улов / поймать | улов / зловити |
 | float begins to move | поплавок начал дёргаться | поплавок зарухався |
 | time is up | время вышло | Час вийшов |
+
+## Терміни з квесту STQ_BARON3
+Джерело: `locales/quests/ru/STQ_BARON3.json` (оригінал).
+| English | Russian | Ukrainian |
+|---|---|---|
+| Private Kicktooth | Рядовой Бейвзуб | Рядовий Бийвзуб |
+| Captain Vzgryz | Капитан Взгрыз | Капітан Взгриз |
+| Admiral Durdym | адмирал Дурдым | адмірал Дурдим |
+| Bobson | Бобсон | Бобсон |
+| Shotnag | Шотнаг | Шотнаг |
+| Ree Pin | Рее Пин | Реє Пін |
+| Dynasty Bdzyn | династия Бдзынь | династія Бдзинь |
+| Houdini | Гуудини | Гудіні |
+| pucherog | пучерог | пучеріг |
+| Os-osi | Ос-оси | Ос-осі |
+| khryukus | хрюкус | хрюкус |
