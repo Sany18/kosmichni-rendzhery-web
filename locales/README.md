@@ -53,3 +53,8 @@ will be added later with the rest of the port.
 
 The original texts belong to their authors (Elemental Games, 1C, SNK-Games /
 CHK-Games); this is a non-commercial fan project.
+
+**Text quests / Текстові квести.** In many original quests the `en` file is Russian or partly Russian: the game
+ships no English version of them. Translate `uk` from `ru` there. /
+У багатьох оригінальних квестах `en` російською чи частково російською: англійської версії в грі немає.
+Там перекладайте `uk` з `ru`.

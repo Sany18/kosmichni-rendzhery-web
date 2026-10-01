@@ -173,6 +173,12 @@ function render() {
   const sec = $('section').value;
   $('status').textContent = `${hit.length} of ${state.rows.length} strings` + (sec === '*' ? ' in all sections' : ` in ${sec}`) +
     (untr ? ` · «${TARGET}» same as «${BASE}» shown in yellow` : '');
+  // text quests: the original game's English quest files are partly Russian (not translated by the authors)
+  if (sec.startsWith('quests/')) {
+    const en = state.rows.map((r) => r.t[BASE] ?? '').filter((t) => t.length > 20);
+    if (en.length && en.filter((t) => /[А-Яа-яЁё]/.test(t)).length / en.length > 0.15)
+      $('status').textContent += ' · note: «en» of this quest is partly or fully Russian — that is how the original game ships it (no English version); translate «uk» from «ru» / примітка: «en» цього квесту частково чи повністю російська — так в оригінальній грі, англійської версії немає; «uk» перекладайте з «ru»';
+  }
   if (target) document.querySelector('tr.target')?.scrollIntoView({ block: 'center' });
 }
 
