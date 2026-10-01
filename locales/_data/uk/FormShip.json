@@ -1,7 +1,0 @@
-{
-  "DestrEnergy": "<Value1><br>(<Value2>)",
-  "RepairAll": "<Money> cr",
-  "StorageInfo": {
-    "PlanetNO": "( <Water> / <Land> / <Hill> )"
-  }
-}
