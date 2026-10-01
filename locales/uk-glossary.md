@@ -141,3 +141,47 @@
 - Планети та зорі: Арктур (Arcturus), Сіріус (Sirius) тощо.
 - Імена персонажів: Греф (Gref) тощо.
 - Назви руїн: транслітерація або прямий переклад (якщо мають сенс).
+
+## Терміни з квесту SORTIROVKA1
+Джерело: `locales/quests/ru/SORTIROVKA1.json` (оригінал) + звірка з `en/SORTIROVKA1.json`.
+| English | Russian | Ukrainian |
+|---|---|---|
+| chief sorter | главный сортировщик | головний сортувальник |
+| sorting station (military customs) | сортировочная станция (военная) | сортувальна станція (військова митна) |
+| sort / dispatch to a track | рассортировать / определить на путь | відсортувати / направити на колію |
+| Track | путь | колія |
+| Railcar | вагон | вагон |
+| train | поезд / состав | потяг |
+| switch (points) | стрелка | стрілка |
+| lever | рычаг | важіль |
+| written-off / defective | списанный / дефектный | списаний / дефектний |
+| Gravitrain | гравипоезд | гравіпоїзд |
+| Locotractor / mini-locotractor | тягач / мини-тягач | тягач / мінітягач |
+| Locotractor capacity | мощность тягача | місткість тягача |
+| write-up (disciplinary) | взыскание | догана |
+| fine | штраф | штраф |
+| complaint | жалоба | скарга |
+| control panel / booth | пульт / будка | пульт / рубка |
+| engine house | депо | депо |
+| switch tower / watchtower | наблюдательная башенка / башенка | спостережна вежа / вежа |
+| cabin (ship) | рубка | рубка |
+| Starship | звездолет | зореліт |
+| galacredits | галакредиты | галакредити |
+| lunker | лункер | лункер |
+| plasma tank | плазмотанк | плазмотанк |
+| gobsaurus (жарт) | гобзавр | гобзавр |
+| Machpella Dark (пиво) | "Machpella Dark" | "Machpella Dark" |
+| Blin 182 (группа) | Blin 182 | Blin 182 |
+| Sirtet (игра) | "Сиртет" | "Сиртет" |
+| Borzuhan (пеленг) | Борзухан | Борзухан |
+| Lyakusha (пеленг) | Лякуша | Лякуша |
+| Train Lyanchak-Peykhats | поезд Лянчак-Пейхац | потяг Лянчак-Пейхац |
+| Locotractor Argberger | тягач "Аргберджер" | тягач "Аргберджер" |
+| Locotractor Tshaipyu | тягач "Тшайпью" | тягач "Тшайпью" |
+| Locotractor Tosharak | тягач "Тошарак" | тягач "Тошарак" |
+| Locotractor Sanleo | тягач "Санлео" | тягач "Санлео" |
+| Locotractor Isou | тягач "Айсоу" | тягач "Айсоу" |
+| Star / planet of the quest (дані) | Пиу-пиу / Юххх | Піу-піу / Юххх |
+| Ranger name in quest data | Ленин | Ленін |
+| Шаблон critValue | Сообщение достижения критического значения параметром N | Повідомлення досягнення критичного значення параметром N |
+| Рядок параметра | Параметр номер N: <> | Параметр номер N: <> |
