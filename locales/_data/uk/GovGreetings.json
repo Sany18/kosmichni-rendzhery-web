@@ -1,0 +1,1026 @@
+{
+  "0": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad"
+  },
+  "1": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal",
+    "Priority": "1"
+  },
+  "10": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "People,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRank": "Rookie,Cadet,Pilot,Wingman,Leader,Ace",
+    "PlayerRating": "Mini,Small,Average",
+    "PlayerStatus": "Pirate",
+    "Priority": "10"
+  },
+  "100": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "Priority": "1"
+  },
+  "101": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "Priority": "1"
+  },
+  "102": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Bad",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "103": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "104": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "105": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Best",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "106": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Bad",
+    "DominatorsAlreadyDefeated": "Yes"
+  },
+  "107": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal",
+    "DominatorsAlreadyDefeated": "Yes"
+  },
+  "108": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good",
+    "DominatorsAlreadyDefeated": "Yes"
+  },
+  "109": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Best",
+    "DominatorsAlreadyDefeated": "Yes"
+  },
+  "11": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Maloc,People,Fei,Gaal",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Technics",
+    "PlayerStatus": "Pirate",
+    "Priority": "30"
+  },
+  "110": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerPirateRank": "Kid, Rader, Skipper, Rough, Ataman, Khan"
+  },
+  "111": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "112": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "113": {
+    "CoalitionAlreadyDefeated": "Yes",
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "DominatorsAlreadyDefeated": "No"
+  },
+  "114": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "CurStarInBattlePirates": "Yes",
+    "Priority": "1"
+  },
+  "115": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "CurStarInBattlePirates": "Yes",
+    "Priority": "1"
+  },
+  "116": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "CurStarInBattlePirates": "Yes",
+    "Priority": "1"
+  },
+  "12": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Maloc,People,Fei",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal",
+    "PlayerRace": "Peleng",
+    "Priority": "2"
+  },
+  "13": {
+    "CurPlanetEconomy": "Agriculture",
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Food",
+    "PlayerRace": "Peleng,People,Fei,Gaal",
+    "Priority": "10"
+  },
+  "14": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToStarControlByKling": "Yes"
+  },
+  "15": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "PlayerRating": "Mini,Small",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "16": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Medicine",
+    "KlingInToStar": "4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "No",
+    "ToPlanetRaceIsPlayerRace": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "17": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "KlingInToStar": "4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "RangerInToStar": "3,4,5,6,7,8,9,Many",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "Yes",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "18": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "KlingInToStar": "2,3,4,5,6,7,8,9,Many",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToStarInBattle": "Yes"
+  },
+  "19": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRelations": "Good,Best",
+    "PlayerStatus": "Trader",
+    "Priority": "10"
+  },
+  "2": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good",
+    "Priority": "1"
+  },
+  "20": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Narcotics",
+    "PlayerStatus": "Trader,Pirate",
+    "Priority": "30"
+  },
+  "21": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Arms",
+    "Priority": "30"
+  },
+  "22": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal",
+    "PlayerRace": "Peleng",
+    "Priority": "10"
+  },
+  "23": {
+    "CurPlanetEconomy": "Industrial",
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Technics",
+    "Priority": "10"
+  },
+  "24": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good",
+    "Goods": "Technics",
+    "PlayerRace": "Maloc,Peleng,People",
+    "Priority": "20"
+  },
+  "25": {
+    "CurPlanetGoodsBuy": "Big,Huge",
+    "CurPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "CurPlanetGoodsPermit": "No",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Gaal",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Narcotics",
+    "PlayerRank": "Rookie,Cadet,Pilot",
+    "Priority": "10"
+  },
+  "26": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "No",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "Goods": "Luxury",
+    "Priority": "20"
+  },
+  "27": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsBuy": "Big,Huge",
+    "CurPlanetGoodsCnt": "Zero,Mini,Small",
+    "CurPlanetGoverment": "Dictatorship",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Food",
+    "Priority": "2"
+  },
+  "28": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetGoverment": "Monarchy",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Technics",
+    "Priority": "50",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetGoodsPermit": "Yes",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "29": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetGoverment": "Monarchy,Republic,Democracy",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng,People,Fei,Gaal",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Luxury",
+    "Priority": "10"
+  },
+  "3": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Best",
+    "Priority": "1"
+  },
+  "30": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsBuy": "Average,Big,Huge",
+    "CurPlanetGoodsCnt": "Zero,Mini,Small",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Minerals",
+    "Priority": "20"
+  },
+  "31": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsBuy": "Average,Big,Huge",
+    "CurPlanetGoodsCnt": "Zero,Mini,Small",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Minerals",
+    "Priority": "50",
+    "ToPlanetEconomy": "Agriculture",
+    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "ToPlanetGoodsSale": "Mini,Small",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "32": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsBuy": "Average,Big,Huge",
+    "CurPlanetGoodsCnt": "Zero,Mini,Small",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng,People",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Alcohol",
+    "Priority": "50",
+    "ToPlanetEconomy": "Agriculture,Mixed",
+    "ToPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "ToPlanetGoodsPermit": "Yes",
+    "ToPlanetGoodsSale": "Mini,Small",
+    "ToPlanetRace": "Peleng,People,Fei"
+  },
+  "33": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRating": "Mini,Small,Average",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRelations": "War"
+  },
+  "34": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "PlayerRating": "Average,Big,Huge",
+    "Priority": "20",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsPlayerRace": "No",
+    "ToPlanetRelations": "War"
+  },
+  "35": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Priority": "50",
+    "ToPlanetInCurStar": "Yes",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRelations": "War"
+  },
+  "36": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRace": "People",
+    "PlayerRating": "Mini,Small",
+    "Priority": "5"
+  },
+  "37": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerStatus": "Pirate,Warrior",
+    "Priority": "5"
+  },
+  "38": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Priority": "1"
+  },
+  "39": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc,Peleng,People",
+    "CurPlanetRelations": "Good,Best",
+    "Goods": "Arms",
+    "Priority": "10",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetGoodsPermit": "Yes",
+    "ToPlanetGoverment": "Anarchy,Dictatorship,Monarchy",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People",
+    "ToPlanetRaceIsCurPlanetRace": "Yes"
+  },
+  "4": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad",
+    "Priority": "1"
+  },
+  "40": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetGoverment": "Republic,Democracy",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng,People,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Luxury",
+    "Priority": "50",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetGoodsPermit": "Yes",
+    "ToPlanetGoverment": "Monarchy",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Peleng,People,Fei,Gaal"
+  },
+  "41": {
+    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "No",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng,People,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Narcotics",
+    "Priority": "3",
+    "ToPlanetGoodsPermit": "Yes",
+    "ToPlanetGoodsSale": "Mini,Small,Average",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "42": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad"
+  },
+  "43": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Normal,Good",
+    "Priority": "1"
+  },
+  "44": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng,Fei",
+    "CurPlanetRelations": "Bad,Normal",
+    "PlayerRace": "Maloc",
+    "Priority": "5"
+  },
+  "45": {
+    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Alcohol",
+    "PlayerRace": "People",
+    "Priority": "10"
+  },
+  "46": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Maloc,Peleng,People",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRace": "Gaal",
+    "Priority": "5"
+  },
+  "47": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Medicine",
+    "PlayerRank": "Rookie,Cadet",
+    "Priority": "2"
+  },
+  "48": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Good,Best",
+    "Priority": "1"
+  },
+  "49": {
+    "CurPlanetGoodsCnt": "Mini,Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "Goods": "Narcotics",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,People,Fei,Gaal",
+    "ToStarControlByKling": "Yes"
+  },
+  "5": {
+    "CurPlanetEconomy": "Agriculture,Mixed",
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Food",
+    "Priority": "10",
+    "ToPlanetEconomy": "Mixed,Industrial",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "50": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PirateInToStar": "3,4,5,6,7,8,9,Many",
+    "PlayerStatus": "Pirate",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "51": {
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoverment": "Democracy",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Technics",
+    "Priority": "10",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetGoodsPermit": "Any",
+    "ToPlanetGoverment": "Monarchy",
+    "ToPlanetInCurStar": "Yes",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "52": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetGoverment": "Anarchy",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc,People,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Narcotics",
+    "Priority": "10"
+  },
+  "53": {
+    "CurPlanetGoodsBuy": "Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Goods": "Arms",
+    "Priority": "30"
+  },
+  "54": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "Priority": "2"
+  },
+  "55": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "Priority": "3"
+  },
+  "56": {
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad, Normal,Good,Best",
+    "Priority": "3"
+  },
+  "57": {
+    "CurPlanetPirateClan": "No",
+    "PlayerRating": "Big,Huge",
+    "Priority": "1"
+  },
+  "58": {
+    "CurPlanetEconomy": "Agriculture",
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Food",
+    "PlayerRace": "People,Fei",
+    "PlayerStatus": "Trader",
+    "Priority": "60"
+  },
+  "59": {
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Goods": "Luxury",
+    "Priority": "10"
+  },
+  "6": {
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Medicine",
+    "Priority": "10",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsCnt": "Zero,Mini,Small,Average",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal"
+  },
+  "60": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Maloc",
+    "CurPlanetRelations": "Bad,Normal",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRace": "Maloc",
+    "PlayerRank": "Rookie,Cadet,Pilot,Wingman",
+    "PlayerStatus": "Trader",
+    "Priority": "50"
+  },
+  "61": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Fei",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Priority": "30"
+  },
+  "62": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "People",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Priority": "5"
+  },
+  "63": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "PlayerRace": "Gaal",
+    "Priority": "30"
+  },
+  "64": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "Goods": "Arms",
+    "PlayerRace": "Maloc",
+    "Priority": "30"
+  },
+  "65": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Narcotics",
+    "PlayerRace": "Gaal",
+    "Priority": "20"
+  },
+  "66": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRace": "People",
+    "Priority": "10"
+  },
+  "67": {
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Narcotics",
+    "PlayerRace": "Maloc,People,Gaal",
+    "Priority": "10",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetGoodsPermit": "No",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Fei"
+  },
+  "68": {
+    "CurPlanetGoodsCnt": "Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Luxury",
+    "Priority": "5"
+  },
+  "69": {
+    "CurPlanetGoodsCnt": "Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRace": "Peleng",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Technics",
+    "Priority": "10"
+  },
+  "7": {
+    "CurPlanetGoodsBuy": "Big,Huge",
+    "CurPlanetPirateClan": "Any",
+    "CurPlanetRelations": "Bad",
+    "Goods": "Minerals",
+    "Priority": "30"
+  },
+  "70": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Bad"
+  },
+  "71": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal",
+    "Priority": "1"
+  },
+  "72": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good",
+    "Priority": "1"
+  },
+  "73": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Best",
+    "Priority": "1"
+  },
+  "74": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad",
+    "Priority": "1"
+  },
+  "75": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Priority": "1"
+  },
+  "76": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRank": "Cadet,Pilot,Wingman,Leader",
+    "PlayerRating": "Mini,Small",
+    "Priority": "10"
+  },
+  "77": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "People,Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRank": "Rookie,Cadet,Pilot,Wingman,Leader,Ace",
+    "PlayerRating": "Mini,Small,Average",
+    "PlayerStatus": "Pirate",
+    "Priority": "10"
+  },
+  "78": {
+    "CurPlanetEconomy": "Mixed,Industrial",
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetGoodsPermit": "Yes",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "Maloc,People,Fei,Gaal",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Technics",
+    "PlayerStatus": "Pirate",
+    "Priority": "30"
+  },
+  "79": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "Maloc,People,Fei",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad,Normal",
+    "PlayerRace": "Peleng",
+    "Priority": "2"
+  },
+  "8": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Priority": "1"
+  },
+  "80": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRank": "Leader,Ace,Commander, Admiral",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToStarControlByKling": "Yes"
+  },
+  "81": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "KlingInToStar": "3,4,5,6,7,8,9,Many",
+    "PlayerRating": "Mini,Small",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "82": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetGoodsCnt": "Small,Average,Big,Huge",
+    "CurPlanetGoodsSale": "Mini,Small,Average",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "Goods": "Medicine",
+    "KlingInToStar": "4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "ToPlanetGoodsBuy": "Big,Huge",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "No",
+    "ToPlanetRaceIsPlayerRace": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "83": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "KlingInToStar": "4,5,6,7,8,9,Many",
+    "Priority": "50",
+    "RangerInToStar": "3,4,5,6,7,8,9,Many",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsCurPlanetRace": "Yes",
+    "ToStarControlByKling": "Yes",
+    "ToStarInBattle": "Yes"
+  },
+  "84": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "PlayerRating": "Mini,Small,Average",
+    "Priority": "10",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRelations": "War"
+  },
+  "85": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRaceIsPlayerRace": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "PlayerRating": "Average,Big,Huge",
+    "Priority": "20",
+    "ToPlanetInCurStar": "No",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRaceIsPlayerRace": "No",
+    "ToPlanetRelations": "War"
+  },
+  "86": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Good,Best",
+    "Priority": "50",
+    "ToPlanetInCurStar": "Yes",
+    "ToPlanetRace": "Maloc,Peleng,People,Fei,Gaal",
+    "ToPlanetRelations": "War"
+  },
+  "87": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "Fei,Gaal",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRace": "People",
+    "PlayerRating": "Mini,Small",
+    "Priority": "5"
+  },
+  "88": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "Maloc,Peleng,People",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "PlayerRace": "Gaal",
+    "Priority": "5"
+  },
+  "89": {
+    "CurPlanetGoodsCnt": "Average,Big,Huge",
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "Goods": "Medicine",
+    "PlayerRank": "Rookie,Cadet",
+    "Priority": "2"
+  },
+  "9": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Normal,Good,Best",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRank": "Cadet,Pilot,Wingman,Leader",
+    "PlayerRating": "Mini,Small",
+    "Priority": "10"
+  },
+  "90": {
+    "CoalitionAlreadyDefeated": "No",
+    "CurPlanetPirateClan": "Yes",
+    "DominatorsAlreadyDefeated": "No",
+    "PlayerRank": "Ace,Commander, Admiral",
+    "PlayerRating": "Big,Huge",
+    "Priority": "1"
+  },
+  "91": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "Fei",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Priority": "30"
+  },
+  "92": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRace": "People",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Yes",
+    "Priority": "5"
+  },
+  "93": {
+    "CurPlanetPirateClan": "No",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattlePirates": "Yes",
+    "Priority": "1"
+  },
+  "94": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRaceIsPlayerRace": "No",
+    "CurPlanetRelations": "Bad",
+    "Priority": "10"
+  },
+  "95": {
+    "CurPlanetPirateClan": "Yes",
+    "CurPlanetRelations": "Bad,Normal,Good,Best",
+    "CurStarInBattle": "Any",
+    "CurStarInBattlePirates": "Yes",
+    "Priority": "10"
+  },
+  "96": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "Priority": "13"
+  },
+  "97": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "Priority": "11"
+  },
+  "98": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "DominatorsAlreadyDefeated": "No",
+    "Priority": "9"
+  },
+  "99": {
+    "CurPlanetPirateClan": "Yes",
+    "CurStarInBattle": "No",
+    "CurStarInBattlePirates": "No",
+    "Priority": "7"
+  },
+  "CountGovGreetings": "120"
+}

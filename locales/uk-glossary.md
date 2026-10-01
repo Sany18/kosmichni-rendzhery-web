@@ -94,6 +94,31 @@
 | Credits (cr) | Кредиты (cr) | Кредити (cr) |
 | Nods | Ноды | Ноди |
 
+## Піратські звання (`RankPirate`)
+Джерело: офіційна українська локалізація гри `web-assets/dat/UkrLang.json` → `RankPirate.<key>.Name/NameBig`.
+| English | Russian | Ukrainian |
+|---|---|---|
+| Ataman (Capo) | Атаман | Отаман |
+| Baron | Барон | Барон |
+| Khan | Хан | Хан |
+| Ship Boy (Kid) | Юнга | Юнга |
+| Noob (Noobie) | Салага | Салага |
+| Raider (Rader) | Рейдер | Рейдер |
+| Cutthroat (Rough) | Головорез | Головоріз |
+| Skipper | Шкипер | Шкіпер |
+
+## Терміни, вжиті в текстових квестах
+Джерело: `web-assets/dat/UkrLang.json` (офіційна українізація, розділи `Talk`, `Script`, `RankPirate`).
+| English | Russian | Ukrainian |
+|---|---|---|
+| Coalition | Коалиция | Коаліція |
+| Akrin technology | акриновые технологии | акринові технології |
+| Star system | звездная система | зіркова система |
+| Planetary government | планетарное правительство | планетарний уряд |
+| Pirate society / community | пиратское сообщество | піратська спільнота |
+| Pirate bases | пиратские базы | піратські бази |
+| Social fund | общественная касса | громадська каса |
+
 ## На затвердження власника (власні імена)
 Транслітерація з російського оригіналу українською орфографією:
 - Планети та зорі: Арктур (Arcturus), Сіріус (Sirius) тощо.

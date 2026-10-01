@@ -1,0 +1,94 @@
+{
+  "ArtBlackHole": {
+    "OnUseCode": {
+      "0": "OnUseCodeBlackHole();"
+    }
+  },
+  "ArtMissileDef": {
+    "OnUseCode": {
+      "0": "OnUseCodeMissileDef();"
+    }
+  },
+  "ArtTranclucator": {
+    "OnUseCode": {
+      "0": "OnUseCodeTranclucator();"
+    }
+  },
+  "ArtTransmitter": {
+    "OnUseCode": {
+      "0": "OnUseCodeTransmitter();"
+    }
+  },
+  "NumericValues": {
+    "AverageTransmitterPower": "200",
+    "BombPower": "600",
+    "BombPowerMax": "800",
+    "BombPowerMin": "400",
+    "BombRadius": "250",
+    "MaxTransmitterPower": "1000",
+    "MinTransmitterPower": "100",
+    "kArtDefToArms1Penalty": "0.1",
+    "kArtDefToEnergyMin": "1.1",
+    "kArtDefToEnergyMinEx": "0.1",
+    "kArtDefToEnergyPenalty": "0.5",
+    "kArtDefToEnergyPenaltyEx": "-0.25",
+    "kArtDefToEnergyUp": "1.6",
+    "kArtDefToEnergyUpEx": "0.6",
+    "kArtEnergyPulse": "1.3",
+    "kArtEnergyPulseChance": "0.3",
+    "kArtEnergyPulseEx": "0.3",
+    "kArtFastRacksChance": "0.15",
+    "kArtFastRacksChanceEx": "0.15",
+    "kArtForsage": "0.5",
+    "kArtForsageEx": "-0.25",
+    "kArtGiperJump": "40",
+    "kArtGiperJumpEx": "20",
+    "kArtPowerSunProtection": "0.5",
+    "kArtPowerSunProtectionEx": "0.25",
+    "kArtSplinter": "1.2",
+    "kArtSplinterEx": "0.2",
+    "kArtWeaponToSpeed": "100",
+    "kArtWeaponToSpeedEx": "100",
+    "kArtefactAntigrav": "0.75",
+    "kArtefactAntigravEx": "-0.25",
+    "kArtefactDef": "0.05",
+    "kArtefactDefEx": "0.05",
+    "kArtefactDroid": "10",
+    "kArtefactDroidAcidClean": "1.5",
+    "kArtefactDroidAcidCleanEx": "0.5",
+    "kArtefactDroidEx": "10",
+    "kArtefactDroidWear": "-0.5",
+    "kArtefactDroidWearEx": "-0.17",
+    "kArtefactFuel": "2",
+    "kArtefactFuelEx": "2",
+    "kArtefactHook": "30",
+    "kArtefactHookEx": "30",
+    "kArtefactHookRaduis": "25",
+    "kArtefactHookRaduisEx": "25",
+    "kArtefactHookSpeed": "1",
+    "kArtefactHookSpeedEx": "1",
+    "kArtefactHull": "5",
+    "kArtefactHullEx": "5",
+    "kArtefactHullShockDissipation": "1.5",
+    "kArtefactHullShockDissipationEx": "0.5",
+    "kArtefactNano": "5",
+    "kArtefactNanoEx": "5",
+    "kArtefactPower": "20",
+    "kArtefactPowerEx": "20",
+    "kArtefactRadar": "600",
+    "kArtefactRadarEx": "600",
+    "kArtefactScaner": "10",
+    "kArtefactScanerEx": "10",
+    "kArtefactSpeed": "1.2",
+    "kArtefactSpeedEx": "0.2",
+    "kPDTurretCountShots": "5",
+    "kPDTurretRange": "150",
+    "kPDTurretRangeEx": "150",
+    "kSubportalPenalty": "30",
+    "kSubportalPenaltyDuration": "30",
+    "kTransmitterPenaltyAnySystem": "1",
+    "kTransmitterPenaltyAnySystemDuration": "90",
+    "kTransmitterPenaltySameSystem": "5",
+    "kTransmitterPenaltySameSystemDuration": "30"
+  }
+}

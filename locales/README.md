@@ -16,7 +16,7 @@ locales/
   ru/   Russian (original game text)
   uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
   <code>/  your translation, same file names as en/
-  _data/   non-text values (file names, numbers, resources) — not for translation
+  _data/<code>/   non-text values (file names, numbers, resources) — not for translation (uk = copy of en)
   quests/<code>/<QUEST>.json   text quests (one file per quest; keys = parts of the quest) / текстові квести
 ```
 
