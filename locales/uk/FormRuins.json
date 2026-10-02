@@ -162,7 +162,7 @@
     "BridgeHelpAnswer5": "Я - збірний образ <clr>Ні-Да<clrEnd>, капітана прототипу цього корабля з минулого, відтворений бортовим комп'ютером. Для полегшення сприйняття розробниками було прийнято рішення показати образ на містку у вигляді знайомої всім расам людини – оскільки точний вигляд творців оригінального дизайну встановити неможливо. Однак, судячи з ергономіки робочих місць та габаритних розмірів – вони були дуже близькі до людей. Якщо у вас є якісь питання щодо функціонування систем корабля, ви завжди можете звернутися до мене за роз'ясненнями.",
     "BridgeHelpAsk": "Розкажи мені про спеціальні системи корабля",
     "BridgeHelpCancel": "Мені все зрозуміло",
-    "BridgeHelpChoose": "Captain, our ship is fitted with a reactor which manufactures <clr>energy<clrEnd> and can generate a <clr>black hole<clrEnd> for an instant jump to another system. It can attack the enemy with unmanned <clr>fighters<clrEnd>, as well as change the operating mode of its <clr>shields<clrEnd>. What would you like to know more about?",
+    "BridgeHelpChoose": "Капітане, наш корабель оснащено реактором, що виробляє <clr>енергію<clrEnd>, здатний згенерувати <clr>чорну діру<clrEnd> для миттєвого переходу в іншу систему. Він може атакувати ворога безпілотними <clr>винищувачами<clrEnd>, а також змінювати режим роботи <clr>щитів<clrEnd>. Про що ви хотіли б дізнатися докладніше?",
     "BridgeHelpMoreQuestions": "У мене ще є питання...",
     "BridgeHelpNoQuestions": "Запитань більше не маю",
     "BridgeHelpQuestion1": "Навіщо потрібна енергія та як її використовувати?",
@@ -484,7 +484,7 @@
             "Ну нічого, ми й гірше бачили випадки, піратське братство має перемогти! Наш домініон може організувати піратський набіг на іншу систему, перебазуватись, спробувати зірвати військову операцію чи організувати напад на систему коаліції."
           ],
           "CBAnswerWeControlMore70Percent": [
-            "It's looking good, <Player>, thanks for asking. We're giving the Coalition hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the Coalition is no more. But don't relax just yet -- there's still plenty of fight left in those rangers and servicemen!",
+            "Да все пучком, <Player>, дякуємо, що поцікавилися. Кошоримо Коаліцію, вже відібрали в неї <PiratesPercent>% зіркових систем. Якщо й далі продовжимо в тому самому дусі, то незабаром можна буде почати скидатися на випивку, аби відсвяткувати день, коли Коаліції стане не. Головне, не розслабляйся, попереду ще чекають жаркі сутички з військовими та рейнджерами!",
             "Але святкувати поки що рано, тому ми справно безпред... у сенсі, несемо свою вахту. Наш домініон може організувати піратський набіг на іншу систему, перебазуватись, спробувати зірвати військову операцію чи організувати напад на систему Коаліції."
           ],
           "CBAnswerWeControlMore90Percent": [
@@ -544,7 +544,7 @@
             "Ну нічого, ми й гірше бачили випадки, піратське братство має перемогти! Наш домініон може організувати піратський набіг на іншу систему, перебазуватись, спробувати зірвати військову операцію чи організувати напад на систему домінаторів."
           ],
           "CBAnswerWeControlMore70Percent": [
-            "It's looking good, <Player>, thanks for asking. We're giving the dominators hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the last shtip is turned to rubble. But don't relax just yet -- there's still plenty of fight left in those robots!",
+            "Да все пучком, <Player>, дякуємо, що поцікавилися. Кошоримо домінаторів, вже відібрали в них <PiratesPercent>% зіркових систем. Якщо й далі продовжимо в тому самому дусі, то незабаром можна буде почати скидатися на випивку, аби відсвяткувати день, коли останній штип перетвориться на обломки. Головне, не розслабляйся, попереду ще чекають жаркі сутички, роботи так просто не здадуться!",
             "Але святкувати поки що рано, тому ми справно безпред... у сенсі, несемо свою вахту. Наш домініон може організувати піратський набіг на іншу систему, перебазуватись, спробувати зірвати військову операцію чи організувати напад на систему домінаторів."
           ],
           "CBAnswerWeControlMore90Percent": [
@@ -722,7 +722,7 @@
       "AfterOperationMaloc": "Все зроблено! Подивіться у дзеркало. Ти тепер молок, гроза космосу. Твоє покликання грабувати та вбивати. Успіхів, <Player>!",
       "AfterOperationPeleng": "Готово! Подивіться у дзеркало. Ти тепер мерзенний пеленг <Player>, хитрий і безчесний. Не зганьбив своїх співвітчизників добрими справами.",
       "AfterOperationPeople": "Готово! Подивіться у дзеркало. Ти ЛЮДИНА, і це звучить гордо. З твоїми даними ти цілком зможеш знайти друзів та знищити домінаторів. Успіхів, <Player>!",
-      "AnswerChangeNationality": "This is a whole array of services, which includes changing your appearance and forging new documents.<br>Once we're done with you, you'll be pure as a tear in the eyes of all planetary governments and ship captains. Moreover, your possessions and achievements will not be lost.<br><br>",
+      "AnswerChangeNationality": "Це цілий комплекс послуг, до якого входить зміна зовнішності та переробка всіх твоїх документів.<br>Ти будеш чистий як сльоза в очах урядів усіх планет і всіх капітанів кораблів. При цьому вся приватна власність і всі досягнення залишаться в недоторканності.<br><br>",
       "ChangeNationality": "Мене цікавить зміна підданства",
       "ChooseFei": "Розумним феяніном",
       "ChooseGaal": "Мудрим гаальцем",
@@ -779,7 +779,7 @@
     "GreetingAft": ". З нашою допомогою ти легко станеш найкращим рейнджером.",
     "GreetingMod": ", і навіть забезпечимо тебе антидомінаторськими програмами",
     "GreetingNormal": ", і навіть забезпечимо тебе нодами роботів.",
-    "GreetingPre": "You are at a pirate base, <Player>. In this place there aren't any laws, so you can easily conduct your business without fear. We practice free trade of drugs and weapons. Be sure to take a look at the gear we've got for sale.<br>And if you're interested in some of our special services...<br>For the right price, we can even change your nationality",
+    "GreetingPre": "Ти, <Player>, перебуваєш на піратській станції. Тут не діють жодні закони, і ти можеш спокійно укладати будь-які угоди купівлі та продажу, нічого не боячись. У нас вільна торгівля наркотиками та зброєю. Можеш глянути на наше обладнання, у нас повно всякого мотлоху.<br>Цікавлять особливі послуги?<br>За гроші ми змінимо твоє підданство",
     "Modern": {
       "AfterNo": "Слухай, братику, не пудри мізки. Визначся вже зрештою, ти з нами чи проти нас?",
       "Answer": "Ну, братику, ти нас конкретно порадував. Ми завжди раді надати допомогу нашій піратській спільноті. Але перш ніж ми тобі дозволимо копатися у нутрощах нашої бази, ти маєш внести до спільноти внесок у розмірі <Money> cr. По руках?"
@@ -833,7 +833,7 @@
       ]
     },
     "Repair": {
-      "PBAfterNo": "You are such a crook, <Player>! Pinching pennies on repairs, pfft!<br>Off with you now. Misers like you don't last long.",
+      "PBAfterNo": "Ну ти і пройдиштець, <Player>! Зажав бабки на ремонт!<br>Тікай, тікай, голубчику. Скупердяї довго не живуть.",
       "PBAfterOk": "Чудово, твої бабки знято з рахунку. Наші техніки вже закінчили роботу. Йди на корабель, <Player>, та приймай роботу.",
       "PBCostAnswerNeedNode": [
         "<ll>----------------------",
@@ -935,7 +935,7 @@
         "PBAnswerWeControlMore10Percent": "Моторошно говорити, <Player>. Обстановка гірша нікуди. Під нашим контролем залишилося всього <PiratesPercent>% території, решта підгребла під себе Коаліція. Схоже, що ми малеха переоцінили свої сили, та й боягузливих дезертирів серед піратів виявилося набагато більше, ніж здавалося спочатку. Потрібно терміново мобілізувати всі резерви та почати відбивати ворожі атаки, інакше скоро піратський клан взагалі припинить своє існування.",
         "PBAnswerWeControlMore30Percent": "Погано справи, <Player>, нема чим тебе порадувати. За нами всього <PiratesPercent>% зіркових систем, а решту повернула собі Коаліція. Сам би зараз рвонув у бій з рейнджерами та військовими, та нема кого за собою повісті, одні труси навколо. Ось, хіба що тебе взяв би з собою, але й удвох ми багато не навоюємо. Залишається сподіватися, що незабаром ситуація зламається на нашу користь.",
         "PBAnswerWeControlMore50Percent": "Ситуація нестабільна, як атомний реактор нашої бази і взагалі трохи напружує. Сили зараз приблизно рівні, ми контролюємо <PiratesPercent>% території, решту Коаліції. Кожна дрібниця зараз може зіграти нам на руку, так що не гай часу і зганяй, підстріли парочку особливо настирливих рейнджерів. Потрібно вирішувати ситуацію на нашу користь.",
-        "PBAnswerWeControlMore70Percent": "It's looking good, <Player>, thanks for asking. We're giving the Coalition hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the Coalition is no more. But don't relax just yet -- there's still plenty of fight left in those rangers and servicemen!",
+        "PBAnswerWeControlMore70Percent": "Да все пучком, <Player>, дякуємо, що поцікавилися. Кошоримо Коаліцію, вже відібрали в неї <PiratesPercent>% зіркових систем. Якщо й далі продовжимо в тому самому дусі, то незабаром можна буде почати скидатися на випивку, аби відсвяткувати день, коли Коаліції стане не. Головне, не розслабляйся, попереду ще чекають жаркі сутички з військовими та рейнджерами!",
         "PBAnswerWeControlMore90Percent": "Обстановка добре, <Player>! Краще й не може бути. Ми давимо Коаліцію, як клопів, що випадково заповзли на вогник. Під контролем піратського клану зараз аж <PiratesPercent>% населених систем, тож Коаліції залишилося всього нічого. Варто трохи піднапрягтися, і перемога буде за нами!"
       },
       "KlingAndCoalition": {
@@ -953,7 +953,7 @@
         "PBAnswerWeControlMore10Percent": "Моторошно говорити, <Player>. Обстановка гірша нікуди. Під нашим контролем залишилося всього <PiratesPercent>% території, решта підгребли під себе домінатори. Схоже, що ми малеха переоцінили свої сили, та й боягузливих дезертирів серед піратів виявилося набагато більше, ніж здавалося спочатку. Потрібно терміново мобілізувати всі резерви та почати відбивати ворожі атаки, інакше скоро піратський клан взагалі припинить своє існування.",
         "PBAnswerWeControlMore30Percent": "Погано справи, <Player>, нема чим тебе порадувати. За нами всього <PiratesPercent>% зіркових систем, а решту захопили домінатори. Сам би зараз рвонув у бій із цими іржавими залозками, та нікому за собою повісті, одні труси навколо. Ось, хіба що тебе взяв би з собою, але й удвох ми багато не навоюємо. Залишається сподіватися, що незабаром ситуація зламається на нашу користь.",
         "PBAnswerWeControlMore50Percent": "Ситуація нестабільна, як атомний реактор нашої бази і взагалі трохи напружує. Сили зараз приблизно рівні, ми контролюємо <PiratesPercent>% території, інше за домінаторами. Кожна дрібниця зараз може зіграти нам на руку, так що не гай часу і зганяй, підстріли парочку особливо настирливих екваторів. Потрібно вирішувати ситуацію на нашу користь.",
-        "PBAnswerWeControlMore70Percent": "It's looking good, <Player>, thanks for asking. We're giving the dominators hell and have already captured <PiratesPercent>% of star systems from them. If we keep this up, soon we'll all be pitching in for booze to celebrate the day when the last shtip is turned to rubble. But don't relax just yet -- there's still plenty of fight left in those robots!",
+        "PBAnswerWeControlMore70Percent": "Да все пучком, <Player>, дякуємо, що поцікавилися. Кошоримо домінаторів, вже відібрали в них <PiratesPercent>% зіркових систем. Якщо й далі продовжимо в тому самому дусі, то незабаром можна буде почати скидатися на випивку, аби відсвяткувати день, коли останній штип перетвориться на обломки. Головне, не розслабляйся, попереду ще чекають жаркі сутички, роботи так просто не здадуться!",
         "PBAnswerWeControlMore90Percent": "Обстановка добре, <Player>! Краще й не може бути. Ми давимо домінаторів, як клопів, що випадково заповзли на вогник. Під контролем піратського клану зараз аж <PiratesPercent>% населених систем, тож залізякам залишилося всього нічого. Варто трохи піднапрягтися і перемога буде за нами!"
       },
       "PlayerSend": "Як взагалі ситуація на фронтах?"
@@ -1317,7 +1317,7 @@
     },
     "Admiral": {
       "Greeting": "Вітаємо тебе, <Player>! Ти зробив неймовірне, вкотре показавши, що немає меж досконалості! Всім колективом нашої військової бази <WB> ми схиляємося перед заслугами такого великого воїна, як ти!",
-      "NewRank": "Ranger <Player>! After convening for an emergency session, the Galactic Council has decided to institute a new military rank -- <Rank> -- and assign it exclusively to you! So great a warrior you are that I'm barely holding back from asking for your autograph!<br>To be sure, your titanic efforts could never be fully compensated, but we would be honored if you'd accept this <ItemName> from us as a gift! We're confident you will make good use of it. Oh, I can see it in your face that you're not utterly delighted :-( Then take this one-of-a-kind <MMName> as well! For you, <Player>, I'd give the shirt off my back!"
+      "NewRank": "Рейнджере <Player>! Екстрене нараду Галактичної Ради ухвалило рішення заснувати нове військове звання - <Rank> - і присвоїти його виключно тобі! Ти настільки великий воїн, що я ледве стримуюсь, аби не попросити в тебе автограф!<br>Я розумію, що твій титанічний труд у жодному разі не можна повністю відпрацювати, але ми будемо вкриті, якщо ти приймеш від нас у подарунок цю річ <ItemName>! Сподіваємось, ти знайдеш їй гарне застосування. О, я бачу на твоєму обличчі, що ти аж ніяк не в захваті :-( Тоді візьми й собі ось цей унікальний <MMName>! Для тебе, <Player>, нам нічого не жалко!"
     },
     "Cadet": {
       "Greeting": "Військова база <WB> вітає тебе, Кадет <Player>! Ти вже відчув запах крові, і перші вороги Коаліції вже впали від твоєї руки. Але цього мало, дуже мало. <br>Сили противника повільно просуваються до наших основних баз і захоплять всю галактику, якщо такі як ти не допоможуть нам. Звільни пару наших систем, і ми присудимо тобі звання Пілота, а також дамо чудовий подарунок!",
@@ -1325,7 +1325,7 @@
     },
     "Commander": {
       "Greeting": "Вітаємо тебе, <Player>! Ти, як ми знаємо, найвідоміша особистість у галактиці і найвідчайдушніший пілот. На нашій військовій базі <WB> тобі завжди буде надано найпривітніший прийом.",
-      "NewRank": "Ranger <Player>! After convening for an emergency session, the Galactic Council has decided to promote you to <Rank>! This is the highest rank a pilot can earn. And as the greatest pilot of all time and people, you certainly deserve it. We have the utmost faith that you can save our Galaxy from the dominator threat!<br>And we think that our last gift of <ItemName> will help you in this."
+      "NewRank": "Рейнджере <Player>! Екстрене нараду Галактичної Ради ухвалило рішення нагородити тебе званням <Rank>! Це найвище військове звання, яке будь-коли отримував мешканець галактики, що перебуває на службі Коаліції!<br>Як подарунок за виявлений героїзм ми даруємо тобі <ItemName>. Сподіваємось - знадобиться!"
     },
     "FlyToEnemy": {
       "GreetingAdd": "Незабаром розпочинається секретна військова операція. <Date> ми плануємо стрибнути в систему <StarEnemy>. Ти можеш полетіти з нами, перебуваючи на борту станції <WB>.",
@@ -1434,7 +1434,7 @@
       ]
     },
     "Rookie": {
-      "Greeting": "Greetings, <Player>, you noob! Though you are young and inexperienced, know that many adventures and heroic feats lie ahead! Be brave, show the enemy no mercy, help the weak, and you will ultimately become the kind of hero we'll gladly welcome at our <WB> military base.<br>As for now, work on accumulating <NeedPoints> combat pilot points and then come see us. You will then be promoted to Cadet and receive a valuable gift!"
+      "Greeting": "Вітаємо тебе, салага <Player>! Ти ще молодий і зелений, але попереду на тебе чекає маса пригод і великих подвигів. Будь хоробрим, з честю бий лиходіїв, допомагай слабким, і тоді ти станеш героєм, якого ми завжди з радістю приймемо на нашій військовій базі <WB>.<br>Зараз тобі треба заробити <NeedPoints> очок військового льотчика та прилетіти до нас. Отримаєш нашивку кадета і цінний подарунок!"
     },
     "SpecialShip": {
       "AfterBuy": "Нам шкода розлучатися з таким майстерно зробленим кораблем. Але ми підемо на все заради якнайшвидшого становлення світу в галактиці.",
@@ -1489,7 +1489,7 @@
         "WBAnswerWeControlMore00Percent": "Інформацію про бойові дії розголошувати не заведено. Але для рейнджерів ми робимо винятки. На даний момент ситуація на фронтах жахлива. Сили супротивника захопили вже майже весь наш рукав галактики, під контролем домінаторів <PiratesPercent>% зіркових систем і ще <DominatorsPercent>% утримують у своїх лапах пірати. Рейнджери, що залишилися в живих, планують розпочати операцію зі звільнення системи <Star>. На таких, як ти, <Player>, і залишилися всі наші надії.",
         "WBAnswerWeControlMore10Percent": "Інформацію про бойові дії розголошувати не заведено. Але для рейнджерів ми робимо винятки. На даний момент ситуація на фронтах жахлива. Сили супротивника захоплюють систему за системою. <PiratesPercent>% галактики зараз утримують пірати і <DominatorsPercent>% під контролем домінаторів.<br>Зараз ми збираємося відбити систему <Star>. Якщо ти, <Player>, хочеш взяти участь у цій операції, то поспіши, оскільки вже кілька рейнджерів зголосилися брати участь у звільненні.",
         "WBAnswerWeControlMore30Percent": "На даний момент нам належить лише <Percent>% освоєних систем. Домінатори утримують <DominatorsPercent>% території, а пірати - <PiratesPercent>%. Це плачевний факт, як і те, що ми безнадійно програємо.<br>Стратегічно важливою точкою для нас є система <Star> (сектор <Sector>). Ти маєш полетіти туди, <Player>, і взяти участь у бойових діях.",
-        "WBAnswerWeControlMore50Percent": "In recent days the balance of power has been wavering. The enemy refuses to give up their positions, while our forces control a mere <Percent>% of territory in this spiral arm of the Galaxy. But the situation is coming to a head. Sooner or later one of the sides will emerge victorious, and we hope that it will be the Coalition.<br><Player>, you can do us a tremendous service by helping to liberate the <Star> system in sector <Sector>.",
+        "WBAnswerWeControlMore50Percent": "Останнім часом ініціатива переходить від однієї сторони до іншої. Вороги категорично не хочуть здавати свої позиції, а наші війська контролюють лише <Percent>% території цього рукава галактики. Але розв'язка вже наближається. Рано чи пізно одна зі сторін візьме гору, і ми сподіваємося, що перемога залишиться за Коаліцією.<br>Ти, <Player>, можеш надати нам посильну допомогу, звільнивши систему <Star> у секторі <Sector>.",
         "WBAnswerWeControlMore70Percent": "Справи йдуть добре. Ми контролюємо <Percent>% населеної частини нашої галактики. Під тиранією піратів знаходяться <PiratesPercent>% територій, а підконтрольними домінаторами вважаються <DominatorsPercent>% зіркових систем. Рейнджери разом із збройними силами повільно витісняють сили супротивника із захоплених територій. Наші технології зараз успішно можуть посперечатися з ворожими, і наша зброя ефективно вражає їхні кораблі. Тож вір, <Player>, у нашу перемогу! Зараз ми плануємо звільнення системи <Star> в секторі <Sector>.",
         "WBAnswerWeControlMore90Percent": "На даний момент ми контролюємо близько <Percent>% обжитих світів. Вороги не становлять особливої ​​загрози, і ми плануємо вже наступного року повністю звільнити усі захоплені ними системи. Час, <Player>, перейти до фінального наступу!"
       },
@@ -1515,7 +1515,7 @@
     },
     "Wingman": {
       "Greeting": "Вітаємо тебе, капітане <Player>! Ти став уже відомою особистістю в галактиці, будучи одним із найвідчайдушніших пілотів.<br>На нашій військовій базі <WB> тобі завжди буде найтепліший прийом.",
-      "NewRank": "Congratulations, you are now a <Rank>. To get promoted to the next rank you will have to accumulate <NeedPoints> points, so keep going, you've got a long way to the top. That said, <Player>, you show great promise, and it won't surprise us to see you grow into one of the best pilots out there.<br>And to help you advance in your career we are happy to give you this <ItemName> in excellent condition!"
+      "NewRank": "Вітаємо, тепер ти вже <Rank>. Для отримання наступного звання тобі необхідно набрати <NeedPoints> очок, тож не розслабляйся, тобі ще рости й рости. Тим не менше, ти, <Player>, уже подаєш великі надії і можеш незабаром стати одним із найкращих пілотів.<br>Щоб допомогти тобі на цьому шляху, ми із задоволенням передаємо тобі в руки цей <ItemName> у чудовому стані!"
     }
   }
 }

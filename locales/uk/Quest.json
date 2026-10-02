@@ -2279,7 +2279,7 @@
       "End": [
         "А, <Player>! Ви привезли... е-е-е... листа? Його мав передати мій давній приятель із планети <FromPlanet>. Давайте ж скоріше!",
         "Напевно, вам цікаво, що то за лист, так? Давайте почитаємо його разом...",
-        "\"Greetings, my friend, I hear you have finally got what you wanted and became some kind of a VIP.\" Umm, <Player>, this is just a regular letter from an old buddy. Nothing between the lines, no coded messages. Are you surprised? I bet this is the first time you get to deliver such a totally ordinary parcel. Don't worry, you are definitely getting your <Money> cr. All right, good luck to you, I'll see you later..."
+        "«Вітаю, дружище! Чув, ти нарешті-таки здобув свого, і тепер у тебе важлива персона...» Хм, <Player>, це просто звичайний лист від давнього приятеля. Жодних підтекстів, жодних зашифрованих повідомлень. Здивовані? Адже вам напевно вперше доводиться доставляти такий цілком звичайний пакунок. Не хвилюйтеся, ваші <Money> cr ви неодмінно отримаєте. Ну що ж, бажаю вам удачі, ще побачимося..."
       ],
       "Start": [
         "Здрастуйте, рейнджере.",
@@ -2292,7 +2292,7 @@
       "End": [
         "А, <Player>! Малоки попросили вас привезти цей табурет на експертизу? Гм... Що ж, подивімося, що скажуть прилади.",
         "Так... так-так... Гм... Ага! Хм, ось навіть як!",
-        "Well, all I can tell you, <Player>, is that no maloq has ever touched this stool. On the other hand, at least five different individuals of peleng persuasion sat, lay, stood and even ate on it. And if you look here, lick here and swipe your finger here it will become clear to you that this is not an authentic maloq stool but a cheap imitation. This stool is <clr>comfortable<clrEnd> to sit on, it is <clr>not shaky<clrEnd>, and you <clr>cannot<clrEnd> get any splinters from sitting on it! No maloq job could be so crude. We suspect that pelengs are making such counterfeits right under the nose of maloq authorities.",
+        "Ну що ж, можу вам сказати, <Player>, що цієї табуретки ніколи не торкався малок! Зате на ній сиділо, лежало, стояло і навіть їло щонайменше п'ять різних пеленгських особин, так. А якщо ви звернете увагу ось сюди, проведете язиком ось тут або спробуєте провести пальцем ось так, то зрозумієте, що це не справжня малокська табуретка, а всього лише жалюгідна підробка! На цій табуретці <clr>зручно<clrEnd> сидіти, вона <clr>не хитається<clrEnd>, і сидячи на ній <clr>не можна<clrEnd> наскочити на скасинку! Так грубо малоки не працювали. Є підозра, що під самим носом у малокської влади пеленги виробляють такі підробки.",
         "Ми надішлемо малокам докладний звіт про експертизу, а ви отримаєте ваші зароблені <Money> cr. Завдяки вашій участі, <Player>, малокам вдасться припинити це неподобство з фальшивими табуретками і обілити чесне ім'я цього... як його там... Арраха Арбакга... Удачі, рейнджере!"
       ],
       "Start": [
