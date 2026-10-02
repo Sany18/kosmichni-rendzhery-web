@@ -423,3 +423,46 @@
 | Warehouse / Sorting / Yard (названі бази) | Склад / Сортировочная / Перегонная | Склад / Сортувальна / Перегонна |
 | Warehouse 13 (назва) | Сховище 13 | Сховище 13 |
 | trash heap (сміття на сховищі) | мусор | сміття / мотлох |
+
+## Терміни з квесту RALLY (доповнення tn-uk-rally)
+Джерело: `locales/quests/ru/RALLY.json` (оригінал) + звірка з `en/RALLY.json` і `en/EngLang.json`.
+| English | Russian | Ukrainian |
+|---|---|---|
+| Klim Igorych / Klim Egorych | Клим Егорыч | Клим Єгорович |
+| Svyatogor Korchenitsa | Святогор Корченица | Святогор Корчениця |
+| Hamilton Dudochkin | Гамильтон Дудочкин | Гамільтон Дудочкін |
+| Eduard Pollonso | Эдуард Поллонсо | Едвард Полонсо |
+| Michael Schulmann | Михаэль Шульман | Міхаель Шульман |
+| Baastian Boo-el (gaalian racer) | Баа-стиаан Боо-эль | Баастіан Бу-ель |
+| Loho-Eb (gaalian driver) | Лоо-эб | Лоо-Еб |
+| Graalgar (star system) | Граалгар | Граалгар |
+| foncer (racing craft) | фонсер | фонсер |
+| Studebumpers / Studebumper - 999 | Зубиллы / Зубилло - 999 | Зубилли / Зубилло - 999 |
+| Betta Juliettas | Бетты - Джульетта | Бетти - Джульєтта |
+| Gator Piston(s) | Поршень - Аллигатор | Поршень - Алігатор |
+| Soobaru WRX STI SBR VO | Суу-баару WRX STI SBR VO | Суу-баару WRX STI SBR VO |
+| BMUU (maloq car) | БэЭмЖэ | БЕМ-У-У |
+| FAE-rarri (faeyan car) | Фейрарри / ФЕЙ-рарри | Фейраррі / ФЕЙ-раррі |
+| Seetroyan (gaal car) | Сии-троян | Сий-троян |
+| Lambo Genie | Ламбо-Джинни | Ламбо-Джинні |
+| Wosh electronics | Электроника Wosh | Електроніка Wosh |
+| RAMBO clutch | Диск сцепления REMBO | Диск зчеплення REMBO |
+| Terron-style suspension bar | балка подвески "Террон - style" | балка підвіски "Террон - style" |
+| PherMacson struts | подвеска типа Фер-Максон | підвіска типу Фер-Максон |
+| Maloq-made coil spring booster | Усилители подвески на основе малокской арматуры | Підсилювачі підвіски на основі малокської арматури |
+| SPACE Razor rims | Литые диски SPACE Razor | Литі диски SPACE Razor |
+| Dr. Maloq forged rims | Кованые диски Dr. Malok | Ковані диски Dr. Malok |
+| StownBridge racing slicks | Шины-слики StownBridge | Шини-слики StownBridge |
+| GoodDay tires | Шины-GoodDay | Шини-GoodDay |
+| Fear Bone body kit | Аэродинамический обвес "Кость Страха" | Аеродинамічний обвіс "Кість Страху" |
+| dominator materials | доминаторские материалы | домінаторські матеріали |
+| kelleroid scrap metal | ошметки келлероидов | ошматки келлероїдів |
+| iron zoopies | железные жупии | залізні жупії |
+| nanitoid | нанитоид | нанітоїд |
+| PelengHack | ПеленгХак | ПеленгХак |
+| SuperStart oil additive | Присадка в масло "СуперСтарт" | Присадка в оливу "СуперСтарт" |
+| quad xenon halo neon headlights | квадро-ксено-гало-неоновые фары | квадро-ксено-гало-неонові фари |
+| gobzaurus leather | кожа гобзавра | шкіра гобзавра |
+| pit board | питборд | пітборд |
+| dominator with vertix arms | вертиксы (у домінаторов) | вертікси (у домінаторів) |
+| Semi-real league | первая полунастоящая лига | перша напівсправжня ліга |
