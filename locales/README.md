@@ -14,9 +14,10 @@ section of the game's language data.
 locales/
   en/   English (original game text) — base language of the port
   ru/   Russian (original game text)
-  uk/   Ukrainian — in progress (starts as a copy of en/) / українська — у роботі (почата як копія en/)
+  uk/   Ukrainian — complete, manual review in progress / українська — перекладено, триває ручне уточнення
   <code>/  your translation, same file names as en/
   quests/<code>/<QUEST>.json   text quests (one file per quest; keys = parts of the quest) / текстові квести
+  uk-glossary.md   Ukrainian terminology / глосарій українських термінів
 ```
 
 Example / приклад — `en/FormGameMenu.json`:
